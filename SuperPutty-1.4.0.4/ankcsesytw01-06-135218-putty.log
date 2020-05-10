@@ -1,0 +1,21 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.06 13:52:18 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Oct 17 10:01:03 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Nov  6 10:05:35 PST 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsesytw01[/home/cseadmin]$ ps -ef | grep java
+    root 11468940  8912936   1   May 01      - 42:36 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=wnOKXgTjop0YmPMN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8912936 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+ankcsesytw01[/home/cseadmin]$ cd 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

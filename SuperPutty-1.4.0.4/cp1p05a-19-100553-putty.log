@@ -1,0 +1,66 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.19 10:05:53 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-332 Your password has expired.
+Last unsuccessful login: Thu Aug  1 07:35:35 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Aug  5 08:25:43 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+ankcsepf2a05[/home/hchada]$ cd /cse/batch
+ankcsepf2a05[/cse/batch]$ ls
+PFT02_Batch_Cluster  PFT02_Batch_p05a_01  deploy.log           fmsproperties_PFT02  gpgproperties_PFT02
+ankcsepf2a05[/cse/batch]$ cd PFT02 _Batch _p05a _01
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01]$ ls
+BatchRpt.txt  log           log.txt       logs
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01]$ cd logs
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ ls
+SystemErr.log                    SystemOut.log.owner              SystemOut_19.09.09_20.50.25.log
+SystemErr.log.owner              SystemOut_19.09.09_20.50.11.log  native_stderr.log
+SystemErr_15.09.18_07.55.55.log  SystemOut_19.09.09_20.50.14.log  native_stdout.log
+SystemErr_15.09.18_07.56.24.log  SystemOut_19.09.09_20.50.18.log
+SystemOut.log                    SystemOut_19.09.09_20.50.22.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ vi SystemOu           grep "Response Code" SystemOut.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ ls
+SystemErr.log                    SystemOut.log.owner              SystemOut_19.09.09_20.50.25.log
+SystemErr.log.owner              SystemOut_19.09.09_20.50.11.log  native_stderr.log
+SystemErr_15.09.18_07.55.55.log  SystemOut_19.09.09_20.50.14.log  native_stdout.log
+SystemErr_15.09.18_07.56.24.log  SystemOut_19.09.09_20.50.18.log
+SystemOut.log                    SystemOut_19.09.09_20.50.22.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ vi    ls -lagrt
+total 174288
+-rw-rw-r--    1 csebatch   10485705 Sep 18 2015  SystemErr_15.09.18_07.55.55.log
+-rw-rw-r--    1 csebatch   10485640 Sep 18 2015  SystemErr_15.09.18_07.56.24.log
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemOut.log.owner
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemErr.log.owner
+drwxrwxrwx    4 cseadmin       4096 Aug 23 07:41 ..
+-rw-rw-r--    1 csebatch    8769556 Sep 09 20:49 SystemErr.log
+-rw-rw-r--    1 csebatch   10478299 Sep 09 20:50 SystemOut_19.09.09_20.50.11.log
+-rw-rw-r--    1 csebatch   10484780 Sep 09 20:50 SystemOut_19.09.09_20.50.14.log
+-rw-rw-r--    1 csebatch   10485256 Sep 09 20:50 SystemOut_19.09.09_20.50.18.log
+-rw-rw-r--    1 csebatch   10481234 Sep 09 20:50 SystemOut_19.09.09_20.50.22.log
+-rw-rw-r--    1 csebatch   10478223 Sep 09 20:50 SystemOut_19.09.09_20.50.25.log
+drwxrwxr-x    2 cseadmin       4096 Sep 09 20:50 .
+-rw-rw-r--    1 csebatch    7020566 Sep 09 20:50 SystemOut.log
+-rw-rw-r--    1 csebatch          0 Sep 19 00:00 native_stderr.log
+-rw-rw-r--    1 cseadmin          0 Sep 19 00:00 native_stdout.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ ex  cd ..
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01]$ cd ..
+ankcsepf2a05[/cse/batch]$ ls
+PFT02_Batch_Cluster  PFT02_Batch_p05a_01  deploy.log           fmsproperties_PFT02  gpgproperties_PFT02
+ankcsepf2a05[/cse/batch]$ exit

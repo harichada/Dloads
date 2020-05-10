@@ -1,0 +1,58 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.22 13:26:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct 17 09:58:08 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct 22 11:24:04 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] ls -la *.pdf
+-rw-rw-r--    1 ipmcomm  printq       155694 Jan 03 2018  FS-ENF-028_0134511640-01_25c7ac25.pdf
+-rw-rw-r--    1 ipmcomm  printq       155683 Jan 03 2018  FS-ENF-028_0970056784-01_b0d1ee34.pdf
+-rw-rw-r--    1 cseadmin printq         3301 Oct 19 2007  jim.pdf
+-rw-rw-r--    1 cseadmin printq        11003 Apr 19 2011  olbt01.pdf
+-rw-rw-r--    1 cseadmin printq        11003 May 03 2011  olbt02.pdf
+-rw-rw-r--    1 cseadmin printq        11003 May 03 2011  olbt03.pdf
+-rw-rw-r--    1 cseadmin printq        11003 May 04 2011  olbt04.pdf
+-rw-r-----    1 ipmcomm  printq        11003 Nov 30 2016  olbt05.pdf
+-rw-rw-r--    1 cseadmin printq        11003 Apr 19 2011  olbtS1CG1P31A.pdf
+-rw-rw-r--    1 cseadmin printq         3301 May 02 2007  sample.pdf
+-rw-rw-r--    1 cseadmin printq         3301 May 03 2007  sample2.pdf
+ankcseprda06[/ipm/south] cp olbt05.pdf /tp m,p  p
+ankcseprda06[/ipm/south] chmod 777 / tmp    tmkp  p/olbt05.pdf
+ankcseprda06[/ipm/south] .mail    /maillogs
+
+Please enter the 4 digit site code you want: 5401
+20190924        20190925        20190926        20190927        
+20190928        20190929        20190930        20191001        
+20191002        20191003        20191004        20191005        
+20191006        20191007        20191008        20191009        
+20191010        20191011        20191012        20191013        
+20191014        20191015        20191016        20191017        
+20191018        20191019        20191020        20191021        
+
+Please enter the start date: 20191020
+Please enter the end date:   20191021
+
+Starting with file cse03suv01.error.log.BAK.20191020.Z
+Ending with file   cse03suv01.error.log.BAK.20191021.Z
+Copying cse03suv01.error.log.BAK.20191020.Z to /tmp/ipmlogs
+Copying cse03suv01.error.log.BAK.20191021.Z to /tmp/ipmlogs
+uncompressing cse03suv01.error.log.BAK.20191020.Z
+uncompressing cse03suv01.error.log.BAK.20191021.Z
+Please enter the email address to send the log to: harikishore.chada@dcss.ca.gov
+Mail sent to harikishore.chada@dcss.ca.gov
+Performing cleanup
+ankcseprda06[/ipm/south] ls -la /var/df ;  pdf/hotfolders/5401*
+ls: 0653-341 The file /var/pdf/hotfolders/5401* does not exist.
+ankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

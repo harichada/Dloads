@@ -1,0 +1,42 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 09:15:36 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Sep 25 07:49:30 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct 31 08:13:20 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2a05[/home/hchada]$ cd c/  /cse/batch
+ankcsepf2a05[/cse/batch]$ ls
+PFT02_Batch_Cluster  PFT02_Batch_p05a_01  deploy.log           fmsproperties_PFT02  gpgproperties_PFT02
+ankcsepf2a05[/cse/batch]$ cd PFT02 _Batch _p05a _01
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01]$ cd logs
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ ls
+SystemErr.log                    SystemErr_15.09.18_07.56.24.log  SystemOut_19.11.07_09.03.08.log  SystemOut_19.11.07_09.07.21.log  native_stdout.log
+SystemErr.log.owner              SystemOut.log                    SystemOut_19.11.07_09.03.17.log  SystemOut_19.11.07_09.15.30.log
+SystemErr_15.09.18_07.55.55.log  SystemOut.log.owner              SystemOut_19.11.07_09.04.02.log  native_stderr.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ ls -lagrt
+total 270192
+-rw-rw-r--    1 csebatch   10485705 Sep 18 2015  SystemErr_15.09.18_07.55.55.log
+-rw-rw-r--    1 csebatch   10485640 Sep 18 2015  SystemErr_15.09.18_07.56.24.log
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemOut.log.owner
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemErr.log.owner
+-rw-rw-r--    1 cseadmin          0 Nov 07 00:00 native_stdout.log
+-rw-rw-r--    1 csebatch   10485359 Nov 07 09:03 SystemOut_19.11.07_09.03.08.log
+-rw-rw-r--    1 csebatch   10485566 Nov 07 09:03 SystemOut_19.11.07_09.03.17.log
+-rw-rw-r--    1 csebatch   10484661 Nov 07 09:04 SystemOut_19.11.07_09.04.02.log
+-rw-rw-r--    1 csebatch   10479532 Nov 07 09:07 SystemOut_19.11.07_09.07.21.log
+drwxrwxrwx    4 cseadmin       4096 Nov 07 09:09 ..
+-rw-rw-r--    1 csebatch   10478820 Nov 07 09:15 SystemOut_19.11.07_09.15.30.log
+drwxrwxr-x    2 cseadmin       4096 Nov 07 09:15 .
+-rw-rw-r--    1 csebatch   53571537 Nov 07 09:15 native_stderr.log
+-rw-rw-r--    1 csebatch    2471774 Nov 07 09:15 SystemOut.log
+-rw-rw-r--    1 csebatch    8835695 Nov 07 09:15 SystemErr.log
+ankcsepf2a05[/cse/batch/PFT02_Batch_p05a_01/logs]$ exit

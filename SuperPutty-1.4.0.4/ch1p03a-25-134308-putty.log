@@ -1,0 +1,876 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.25 13:43:08 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa05[/home/cseadmin]$ ls -la /usr/WebSphere/AppServer _85A/java _1.7.1 _64/jre/lib/rt.jar
+-rwxr-xr-x    1 wasadmin wasadmin   25852998 Jun 26 2017  /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar
+ankcsesyaa05[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85A/java _1.7.1 _64/jre/lib/rt.jar
+ksh: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar: 0403-037 The specified path name is not a directory.
+ankcsesyaa05[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85A/java _1.7.1 _64/jre/lib/rt.jarRrRrRr       
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ ls
+J9TraceFormat.dat          ibmcfw.jar                 net.properties
+TraceFormat.dat            ibmgpu.jar                 orb.idl
+aggressive.jar             ibmjcefw.jar               orb.properties
+calendars.properties       ibmjgssfw.jar              plugin.jar
+charsets.jar               ibmjgssprovider.jar        ppc64
+classlib.properties        ibmjssefw.jar              psfont.properties.ja
+classlist                  ibmjsseprovider2.jar       psfontj2d.properties
+cmm                        ibmorb.jar                 resources.jar
+content-types.properties   ibmorbapi.jar              rt.jar
+currency.data              ibmpkcs.jar                se-service.jar
+dataaccess.jar             ibmsaslfw.jar              security
+ddr                        ibmversions.txt            sound.properties
+deploy                     images                     stax.properties.sample
+deploy.jar                 ir.idl                     tenant.properties
+desktop                    javaws.jar                 tools
+ext                        jaxp.properties.sample     tzmappings
+flavormap.properties       jvm.hprof.txt              version.properties
+fontconfig.properties      locale                     xerces.properties
+fontconfig.properties.src  logging.properties         xml.jar
+fonts                      management                 xmldsigfw.jar
+healthcenter.properties    management-agent.jar       zi
+ibmcertpathfw.jar          math.jar
+ibmcertpathprovider.jar    meta-index
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ cd ..
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre]$ cd ../lib
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib]$ ls
+dt.jar           ir.idl           orb.idl
+ibmorbtools.jar  jconsole.jar     tools.jar
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib]$ cd jre.=  /lib
+ksh: jre/lib:  not found.
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib]$ ls
+dt.jar           ir.idl           orb.idl
+ibmorbtools.jar  jconsole.jar     tools.jar
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib]$ cd / ../jre/lib
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ ls
+J9TraceFormat.dat          ibmcfw.jar                 net.properties
+TraceFormat.dat            ibmgpu.jar                 orb.idl
+aggressive.jar             ibmjcefw.jar               orb.properties
+calendars.properties       ibmjgssfw.jar              plugin.jar
+charsets.jar               ibmjgssprovider.jar        ppc64
+classlib.properties        ibmjssefw.jar              psfont.properties.ja
+classlist                  ibmjsseprovider2.jar       psfontj2d.properties
+cmm                        ibmorb.jar                 resources.jar
+content-types.properties   ibmorbapi.jar              rt.jar
+currency.data              ibmpkcs.jar                se-service.jar
+dataaccess.jar             ibmsaslfw.jar              security
+ddr                        ibmversions.txt            sound.properties
+deploy                     images                     stax.properties.sample
+deploy.jar                 ir.idl                     tenant.properties
+desktop                    javaws.jar                 tools
+ext                        jaxp.properties.sample     tzmappings
+flavormap.properties       jvm.hprof.txt              version.properties
+fontconfig.properties      locale                     xerces.properties
+fontconfig.properties.src  logging.properties         xml.jar
+fonts                      management                 xmldsigfw.jar
+healthcenter.properties    management-agent.jar       zi
+ibmcertpathfw.jar          math.jar
+ibmcertpathprovider.jar    meta-index
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ ls rt*
+rt.jar
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ 
+ankcsesyaa05[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib]$ cd /opt/AdobeAEM
+ankcsesyaa05[/opt/AdobeAEM]$ ls
+GDS                                       crx-repository                            lib                                       pdfg_srt
+JEE_PATCH                                 deploy                                    license.properties                        plugins
+Uninstall_Adobe Experience Manager Forms  docs                                      licenses                                  sdk
+configurationManager                      fonts                                     log                                       tmp
+copyright                                 jre                                       patch
+ankcsesyaa05[/opt/AdobeAEM]$ cd lib/caching
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548views.log      startlocator.sh            stoplocator.bat            stoplocator.sh.old
+GFLocator.log              lib                        start_locator.log          startlocator.sh.bak        stoplocator.sh
+GemFireVersion.properties  locator22548state.dat      startlocator.bat           stoplocator                          stoplocator.sh.bak
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ps -ef | gre l  p locator
+wasadmin  7405708        1   1   Aug 26      - 994:45 /usr/WebSphere/AppServer_85A/java_1.7.1_64/bin/java -Declipse.security -Dosgi.install.area=/usr/WebSphere/AppServer_85A -Dosgi.configuration.area=/usr/WebSphere/AppServer_85A/profiles/AppServer/servers/Adobe_AEM_Server1/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85A/profiles/AppServer/properties:/usr/WebSphere/AppServer_85A/properties:/usr/WebSphere/AppServer_85A/lib/startup.jar:/usr/WebSphere/AppServer_85A/lib/bootstrap.jar:/usr/WebSphere/AppServer_85A/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85A/lib/lmproxy.jar:/usr/WebSphere/AppServer_85A/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85A/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85A/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms1024m -Xmx4096m -Xcompressedrefs -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85A/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85A/profiles/AppServer/classes:/usr/WebSphere/AppServer_85A/classes:/usr/WebSphere/AppServer_85A/lib:/usr/WebSphere/AppServer_85A/installedChannels:/usr/WebSphere/AppServer_85A/lib/ext:/usr/WebSphere/AppServer_85A/web/help:/usr/WebSphere/AppServer_85A/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85A/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85A/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85A/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85A/tivoli/tam:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85A/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85A -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85A/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dadobeidp.RootDirectory=/usr/WebSphere/AppServer_85A/profiles/DeploymentManager/installedApps -Dcom.adobe.convertpdf.bmc.POOL_MAX=12 -Dcom.adobe.convertpdf.bmc.MAXIMUM_REUSE_COUNT=5000 -Dcom.adobe.convertpdf.bmc.REPORT_TIMING_INFORMATION=true -Dcom.adobe.convertpdf.bmc.CT_ALLOW_SYSTEM_FONTS=true -Dcom.adobe.xmlform.bmc.POOL_MAX=12 -Dcom.adobe.xmlform.bmc.MAXIMUM_REUSE_COUNT=5000 -Dcom.adobe.xmlform.bmc.REPORT_TIMING_INFORMATION=true -Dcom.adobe.xmlform.bmc.CT_ALLOW_SYSTEM_FONTS=true -Djava.net.preferIPv4Stack=true -Dadobe.cache.cluster-locators=ch1p03a[22548],cg1p01a[22548] -Dcom.adobe.livecycle.crx.integration.url=http://ch1p03a:9081 -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dcom.rsa.cryptoj.fips140initialmode=NON_FIPS140_MODE -DentityExpansionLimit=10000 -Dfile.encoding=utf8 -Xgcpolicy:gencon -Djava.library.path=/usr/WebSphere/AppServer_85A/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85A/bin:/opt/IBM/db2cmv8/lib:/opt/IBM/db2cmv8/inso:/opt/IBM/db2cmv8/lib:/opt/IBM/db2cmv8/inso:/db2home/instsicm/sqllib/lib64:/opt/IBM/db2cmv8/lib:/usr/lib:/lib:/db2home/instsicm/sqllib/lib32:/db2home/instsicm/sqllib/lib64:/db2home/instsicm/sqllib/lib:/usr/local/adobe/central/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85A/endorsed_apis:/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85A/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85A/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85A/profiles/AppServer/config ankcsesyaa05AdobeCell01 ankcsesyaa05AdobeNode01 Adobe_AEM_Server1
+cseadmin 29556818 22413498   0 13:45:22  pts/0  0:00 grep locator
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548views.log      startlocator.sh            stoplocator.bat            stoplocator.sh.old
+GFLocator.log              lib                        start_locator.log          startlocator.sh.bak        stoplocator.sh
+GemFireVersion.properties  locator22548state.dat      startlocator.bat           stoplocator                          stoplocator.sh.bak
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ./  vi start        m cat startlocator.sh.bak
+# -------------------------------------------------------------------------
+# Gemfire Start Locator Script Template for linux(bash)
+#
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system
+#   Default: 22345. Valid values are 0-65535.
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to
+#   specify which IP address this distributed system's server sockets will listen on.
+#   Default: null (localhost)
+# * When multiple locators are part of the distributed system, add the following property to the
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]
+# * Copy your gemfireLicense.zip file to the current directory
+# -------------------------------------------------------------------------
+
+# Adds the current directory to the path.  Changes are not exported to the calling shell.
+path=.:$path
+
+# Set the classpath for this locator
+GF_CLASSPATH=./gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH
+
+# Set any properties for the locator
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"
+
+# Set the port
+GF_PORT=22345
+
+# Set the bind address (optional on single homed machine)
+GF_BIND_ADDRESS=""
+
+# Start the locator on the specified port
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548views.log      startlocator.sh            stoplocator.bat            stoplocator.sh.old
+GFLocator.log              lib                        start_locator.log          startlocator.sh.bak        stoplocator.sh
+GemFireVersion.properties  locator22548state.dat      startlocator.bat           stoplocator                          stoplocator.sh.bak
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls -lagrt
+total 3568
+-rwxrwxr-x    1 wasadmin        154 Apr 07 2016  GemFireVersion.properties
+-rwxrwxr-x    1 wasadmin       2052 Apr 07 2016  startlocator.bat
+-rwxrwxr-x    1 wasadmin       1498 Apr 07 2016  stoplocator.bat
+drwxrwxr-x    4 wasadmin        256 Feb 21 2019  ..
+-rwxr-xr-x    1 wasadmin       1531 Feb 21 2019  startlocator.sh.bak
+-rwxr-xr-x    1 wasadmin       1097 Mar 01 2019  stoplocator.sh.old
+-rw-r--r--    1 wasadmin          0 Mar 01 2019  stoplocator
+-rwxr-xr-x    1 wasadmin       1096 Mar 13 2019  stoplocator.sh.bak
+drwxrwxr-x    5 wasadmin       4096 Mar 13 2019  bin
+-rwxrwxr-x    1 wasadmin       1601 Mar 18 2019  startlocator.sh
+-rwxr--r--    1 wasadmin       1162 Mar 18 2019  stoplocator.sh
+drwxrwxr-x    2 wasadmin       4096 Mar 18 2019  lib
+-rw-r--r--    1 wasadmin         63 Aug 15 21:26 .locator
+drwxr-xr-x    2 wasadmin       4096 Aug 15 21:26 ConfigDiskDir_
+-rw-r--r--    1 wasadmin    1669081 Aug 26 09:31 GFLocator.log
+-rw-r--r--    1 wasadmin      87226 Aug 26 09:31 locator22548views.log
+-rw-r--r--    1 wasadmin        797 Sep 02 15:43 start_locator.log
+drwxrwxr-x    5 wasadmin       4096 Oct 25 13:45 .
+-rw-r--r--    1 wasadmin        212 Oct 25 13:45 locator22548state.dat
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ more startlocator.sh
+[?1049h[56;1H[K# -------------------------------------------------------------------------
+# Gemfire Start Locator Script Template for linux(bash)
+#
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system
+#   Default: 22345. Valid values are 0-65535.
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to
+#   specify which IP address this distributed system's server sockets will listen on.
+#   Default: null (localhost)
+# * When multiple locators are part of the distributed system, add the following property to the
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]
+# * Copy your gemfireLicense.zip file to the current directory
+# -------------------------------------------------------------------------
+# Adds the current directory to the path.  Changes are not exported to the calling shell.
+path=.:$path
+# Set the classpath for this locator
+GF_CLASSPATH=/opt/AdobeAEM/lib/caching/lib/gfsh-dependencies.jar:./opt/AdobeAEM/lib/caching/lib/gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH
+# Set any properties for the locator
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"
+# Set the port
+GF_PORT=22548
+# Set the bind address (optional on single homed machine)
+GF_BIND_ADDRESS="134.187.144.6"
+# Start the locator on the specified port
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &
+[K[7mstartlocator.sh: END[27m[K[?1049l[?1l>ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ vi st     whoami
+cseadmin
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ m cat startlocator.sh
+# -------------------------------------------------------------------------
+# Gemfire Start Locator Script Template for linux(bash)
+#
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system
+#   Default: 22345. Valid values are 0-65535.
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to
+#   specify which IP address this distributed system's server sockets will listen on.
+#   Default: null (localhost)
+# * When multiple locators are part of the distributed system, add the following property to the
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]
+# * Copy your gemfireLicense.zip file to the current directory
+# -------------------------------------------------------------------------
+# Adds the current directory to the path.  Changes are not exported to the calling shell.
+path=.:$path
+# Set the classpath for this locator
+GF_CLASSPATH=/opt/AdobeAEM/lib/caching/lib/gfsh-dependencies.jar:./opt/AdobeAEM/lib/caching/lib/gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH
+# Set any properties for the locator
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"
+# Set the port
+GF_PORT=22548
+# Set the bind address (optional on single homed machine)
+GF_BIND_ADDRESS="134.187.144.6"
+# Start the locator on the specified port
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ java
+ksh: java:  not found.
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ cseresetuser            su  ssh hchada@ankcsesyaa05
+hchada@ankcsesyaa05's password: 
+Permission denied, please try again.
+hchada@ankcsesyaa05's password: 
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ sudo cseresetuser hchadassh hchada@ankcsesyaa05 
+hchada@ankcsesyaa05's password: 
+Permission denied, please try again.
+hchada@ankcsesyaa05's password: 
+Permission denied, please try again.
+hchada@ankcsesyaa05's password: 
+
+Permission denied (publickey,password,keyboard-interactive).
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ 
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ssh hchada@ankcsesyaa05
+hchada@ankcsesyaa05's password: 
+Permission denied, please try again.
+hchada@ankcsesyaa05's password: 
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ssh hchada@ankcsesyaa05                       
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ssh hchada@ankcsesyaa05
+hchada@ankcsesyaa05's password: 
+Permission denied, please try again.
+hchada@ankcsesyaa05's password: 
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ssh hchada@ankcsesyaa05sudo cseresetuser hchadassh hchada@ankcsesyaa05 sudo cseresetuser hchada
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 6
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ksudo cseresetuser hchadassh hchada@ankcsesyaa05 
+hchada@ankcsesyaa05's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Fri Oct 25 13:56:42 PDT 2019 on ssh
+Last login: Wed Oct 23 13:37:07 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+3004-600 The password entry does not match, please try again.
+hchada's New password: 
+Enter the new password again:
+ankcsesyaa05[/home/hchada]$ whoami
+hchada
+ankcsesyaa05[/home/hchada]$ sudo su - wasadmin
+Password:
+[YOU HAVE NEW MAIL]
+ankcsesyaa05[/home/wasadmin]$ cd /opt/AdobeAEM/lib./ca   /  /caching
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548views.log      startlocator.sh            stoplocator.bat            stoplocator.sh.old
+GFLocator.log              lib                        start_locator.log          startlocator.sh.bak        stoplocator.sh
+GemFireVersion.properties  locator22548state.dat      startlocator.bat           stoplocator                          stoplocator.sh.bak
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ vi startlocator.sh.bak
+[?1049h[56;1H[?12;25h[?1h="startlocator.sh.bak" 30 lines, 1531 characters [H[2J# -------------------------------------------------------------------------^M[H
+# Gemfire Start Locator Script Template for linux(bash)^M
+#^M
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system^M
+#   Default: 22345. Valid values are 0-65535.^M
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to^M
+#   specify which IP address this distributed system's server sockets will listen on.^M
+#   Default: null (localhost)^M
+# * When multiple locators are part of the distributed system, add the following property to the^M
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]^M
+# * Copy your gemfireLicense.zip file to the current directory^M
+# -------------------------------------------------------------------------^M
+^M
+# Adds the current directory to the path.  Changes are not exported to the calling shell.^M
+path=.:$path^M
+^M
+# Set the classpath for this locator^M
+GF_CLASSPATH=./gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH^M
+^M
+# Set any properties for the locator^M
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"^M
+^M
+# Set the port^M
+GF_PORT=22345^M
+^M
+# Set the bind address (optional on single homed machine)^M
+GF_BIND_ADDRESS=""^M
+^M
+# Start the locator on the specified port^M
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[55B"startlocator.sh.bak" 30 lines, 1531 characters[H
+
+
+
+
+
+
+
+
+
+
+
+^
+
+
+^
+
+
+^
+
+
+^
+
+
+^
+
+
+^
+
+java [A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+java[A#
+ava  -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^Mjava - -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[6Cv -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[7Ce -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[8Cr -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[9Cb -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[10Cs -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[11Co -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[12Ce -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &^M[13Cose[26B[K:wq"startlocator.sh.bak" 30 lines, 1540 characters 
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ./startlocator.sh.bak
+./startlocator.sh.bak[13]: ^M:  not found.
+./startlocator.sh.bak[16]: ^M:  not found.
+./startlocator.sh.bak[19]: ^M:  not found.
+./startlocator.sh.bak[22]: ^M:  not found.
+./startlocator.sh.bak[25]: ^M:  not found.
+./startlocator.sh.bak[28]: ^M:  not found.
+./startlocator.sh.bak[30]: ^M:  not found.
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ class load: java/lang/Object from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/J9VMInternals from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/vm/VM from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/J9VMInternals$ClassInitializationLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/io/Serializable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/GenericDeclaration from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Type from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/AnnotatedElement from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Class from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Cloneable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Comparable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/CharSequence from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/String from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/Comparator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/String$CaseInsensitiveComparator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/Hashing from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Number from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Integer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/invoke/MethodHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/Unsafe from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/Reflection from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Map from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Map$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Float from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Math from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Double from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/VM from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Dictionary from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Hashtable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Properties from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Hashtable$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/System from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Iterable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collection from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractCollection from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Set from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractSet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap$EntrySet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Iterator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap$HashIterator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap$EntryIterator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Runtime from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/security/CodeSource from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/cert/Certificate from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ibmcertpathfw.jar 
+class load: java/lang/ref/ReferenceQueue from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ref/Reference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ref/PhantomReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/Cleaner from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ref/SoftReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Runnable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Class$ReflectRef from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ref/WeakReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ClassLoader$ClassNameLockRef from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Class$CacheKey from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/io/ObjectStreamField from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Thread from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Thread$UniqueIdLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/StackTraceElement from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Throwable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Error from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/VirtualMachineError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StackOverflowError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Exception from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ReflectiveOperationException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ClassNotFoundException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/LinkageError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/NoClassDefFoundError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/OutOfMemoryError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ExceptionInInitializerError from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Boolean from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Byte from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Character from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Short from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Long from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/AccessibleObject from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Member from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Field from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Method from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Constructor from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Thread$UncaughtExceptionHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ThreadGroup from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/concurrent/locks/AbstractOwnableSynchronizer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/invoke/DirectHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ReceiverBoundHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConvertHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/CollectHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/SpreadHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/MethodType from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/DynamicInvokerHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/FilterReturnHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/VarargsCollectorHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/InvokeExactHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/CallSite from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/VolatileCallSite from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/MutableCallSite from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/PassThroughHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ThunkTuple from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/InsertHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/PermuteHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantObjectHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantIntHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantFloatHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantLongHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ConstantDoubleHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/InvokeGenericHandle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/HashSet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Arrays from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/List from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/RandomAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Arrays$ArrayList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractList$Itr from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$EmptySet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$EmptyList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$EmptyMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$UnmodifiableCollection from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$UnmodifiableSet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/WeakHashMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/WeakHashMap$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/SystemIntialization from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$SynchronizedMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/invoke/MethodType$InternTableAddLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ComputedCalls from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ThunkKey from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/ILGenMacros from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/MethodHandles$Lookup from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/invoke/MethodHandles from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/reflect/MagicAccessorImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/ConstructorAccessor from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/ConstructorAccessorImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/MethodAccessor from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/MethodAccessorImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ThreadGroup$ChildrenGroupsLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ThreadGroup$ChildrenThreadsLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Thread$ThreadLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/jvm/MemorySafetyService from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/se-service.jar 
+class load: java/lang/Appendable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/StringBuilder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/vm/VMLangAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/VMAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/Hashtable$EntrySet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$SynchronizedCollection from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$SynchronizedSet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Enumeration from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Hashtable$Enumerator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringCoding from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ThreadLocal from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/atomic/AtomicInteger from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/Guard from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/Permission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/BasicPermission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/ReflectPermission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/PrivilegedAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/ReflectionFactory$GetReflectionFactoryAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/AccessController from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/security/SecurityPermission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/ReflectionFactory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/RuntimePermission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ThreadLocal$ThreadLocalMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ThreadLocal$ThreadLocalMap$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringCoding$2 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringCoding$EncoderCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/PrivilegedExceptionAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringCoding$EncoderCache$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/Converters from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/security/action/GetPropertyAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/CharToByteConverter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/CharToByteISO8859_1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/IOConverter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/AutoCloseable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/Closeable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/Flushable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/OutputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FilterOutputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/BufferedOutputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileOutputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileDescriptor from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaIOFileDescriptorAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileDescriptor$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/SharedSecrets from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/PrintStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/io/ConsolePrintStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/InputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FilterInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/io/LocalizedInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/io/ZipInitialization from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipFile$ZipFileInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/io/LocalizedInputStream$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/Writer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/OutputStreamWriter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StreamEncoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/Charset from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/spi/CharsetProvider from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/FastCharsetProvider from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StandardCharsets from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/PreHashedMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StandardCharsets$Aliases from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StandardCharsets$Classes from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StandardCharsets$Cache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/HistoricallyNamedCharset from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ISO_8859_1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CharsetEncoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ArrayEncoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ISO_8859_1$Encoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CodingErrorAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/Surrogate$Parser from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/Surrogate from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CoderResult from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CoderResult$Cache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CoderResult$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CoderResult$2 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/Buffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/ByteBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/HeapByteBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/Bits from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/ByteOrder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/atomic/AtomicBoolean from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaNioAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/Bits$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/BufferedWriter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jit/JITHelpers from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/jit/DecimalFormatHelper from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/security/ProtectionDomain from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaSecurityAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/ProtectionDomain$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/security/util/Debug from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaSecurityProtectionDomainAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/ProtectionDomain$3 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/oti/vm/AbstractClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/vm/BootstrapClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/vm/AbstractClassLoader$CacheLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/vm/AbstractClassLoader$ManifestLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ClassLoader$AssertionLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ClassLoader$LazyInitLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/net/URLStreamHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/net/www/protocol/jar/Handler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/net/www/protocol/file/Handler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URLStreamHandlerFactory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher$Factory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/SecureClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URLClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher$ExtClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Vector from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaNetAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URLClassLoader$6 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/StringTokenizer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/File from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileSystem from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/UnixFileSystem from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/ExpiringCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/LinkedHashMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/ExpiringCache$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/LinkedHashMap$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher$ExtClassLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/MetaIndex from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Enum from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/File$PathStatus from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Readable from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/Reader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/BufferedReader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/InputStreamReader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileReader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/io/ConsoleInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/StreamDecoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/CharsetDecoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ArrayDecoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ISO_8859_1$Decoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ArrayList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/ExpiringCache$Entry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/CharBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/HeapCharBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/IoTrace from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Array from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/net/www/ParseUtil from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/BitSet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URL from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URL$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Locale from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/LocaleObjectCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Locale$Cache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ConcurrentMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ConcurrentHashMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/Lock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/ReentrantLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ConcurrentHashMap$Segment from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/AbstractQueuedSynchronizer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/ReentrantLock$Sync from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/ReentrantLock$NonfairSync from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/locks/AbstractQueuedSynchronizer$Node from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ConcurrentHashMap$HashEntry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/BaseLocale from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/BaseLocale$Cache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/BaseLocale$Key from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/LocaleObjectCache$CacheEntry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Locale$LocaleKey from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/util/locale/LocaleUtils from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/Parts from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/oti/shared/Shared from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/shared/Shared$Monitor from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/security/AccessControlContext from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/URLClassPath from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Stack from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher$AppClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Launcher$AppClassLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/ClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Class$3 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/reflect/Modifier from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/LangReflectAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/ReflectAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/ReflectionFactory$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/NativeMethodAccessorImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/DelegatingMethodAccessorImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/BufferedInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/atomic/AtomicReferenceFieldUpdater from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/reflect/misc/ReflectUtil from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Proxy from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/InvocationHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/WeakCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/WeakCache$BiFunction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Proxy$KeyFactory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/reflect/Proxy$ProxyClassFactory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/atomic/AtomicLong from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Objects from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Terminator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/SignalHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Terminator$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Signal from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Hashtable$Holder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/AbstractSignalInfo from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/SignalInfo from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/AIXSignalInfo from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/NativeSignalHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Void from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/SignalDispatcher from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/RuntimeException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/NullPointerException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/misc/SignalDispatcher$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ApplicationShutdownHooks from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ApplicationShutdownHooks$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Shutdown from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Shutdown$Lock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/IdentityHashMap from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/IllegalArgumentException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/NoSuchMethodException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaLangAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Access from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/ThreadDeath from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/ClassLoader$ClassNameBasedLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/oti/lang/ArgumentHelper from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/reflect/InvocationTargetException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Random from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ThreadLocalRandom from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ThreadLocalRandom$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/WeakHashMap$Holder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/jvm/Trace from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/jvm/TracePermission from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/Integer$IntegerCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$syncObject from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$AttachStateValues from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$AttachStateSync from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/IPC from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/IPC$syncObject from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$teardownHook from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/launcher/LauncherHelper from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/StringCoding$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/CommonDirectory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/StringCoding$DecoderCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/CommonDirectory$syncObject from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/lang/StringCoding$DecoderCache$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/oti/util/Util from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/io/ByteToCharConverter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/ByteToCharISO8859_1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/net/URLClassLoader$ClassFinder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/FileLock from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: com/ibm/tools/attach/javaSE/FileLock$syncObject from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/net/util/URLUtil from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/URLClassPath$3 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileFilter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/CommonDirectory$DirectorySampler from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/URLClassPath$Loader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/URLClassPath$JarLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipConstants from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipFile from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaUtilZipFileAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipFile$2 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/CharacterData from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/CharacterDataLatin1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/HashMap$Holder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/URLClassPath$JarLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/FileURLMapper from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/TargetDirectory from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/jar/JarFile from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JavaUtilJarAccess from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/JavaUtilJarAccessImpl from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/charset/StandardCharsets from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/US_ASCII from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/Unicode from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/UTF_8 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/UTF_16BE from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/UTF_16LE from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/UTF_16 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/Advertisement from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/Queue from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Deque from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ArrayDeque from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipCoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$WaitLoop from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: sun/misc/PerfCounter from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Perf$GetPerfAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/Perf from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/PerfCounter$CoreCounters from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/MappedByteBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/ch/DirectBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/DirectByteBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/security/action/GetBooleanAction from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/DirectByteBuffer$Deallocator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/LongBuffer from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/nio/DirectLongBufferU from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/JarIndex from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/ExtensionDependency from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipEntry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/JarEntry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/JarFile$JarFileEntry from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/Inflater from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZStreamRef from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/InflaterInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/zip/ZipFile$ZipFileInflaterInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/IOUtils from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/PrivilegedActionException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/IOException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/FileNotFoundException from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/URLClassPath$FileLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/Manifest from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/ByteArrayInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/Attributes from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/Manifest$FastInputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/CharacterEncoding from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/io/ByteToCharUTF8 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/Attributes$Name from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/misc/ASCIICaseInsensitiveComparator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/JarVerifier from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/security/CodeSigner from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/jar/JarVerifier$3 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/io/ByteArrayOutputStream from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ThreadLocalCoders from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ThreadLocalCoders$Cache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ThreadLocalCoders$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/ThreadLocalCoders$2 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/nio/cs/UTF_8$Decoder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/launcher/LauncherHelper$ResourceBundleHolder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/concurrent/ConcurrentHashMap$Holder from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$RBClassLoader from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$RBClassLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$Control from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$UnmodifiableList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Collections$UnmodifiableRandomAccessList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$Control$CandidateListCache from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$CacheKey from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$CacheKeyReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$LoaderReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/AbstractSequentialList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/LinkedList from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/LinkedList$Node from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ListResourceBundle from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: sun/launcher/resources/launcher from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$BundleReference from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/ResourceBundle$Control$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/oti/vm/AbstractClassLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/net/URLClassLoader$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/Format from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/MessageFormat from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Locale$Category from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Locale$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/FieldPosition from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/Date from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/AttributedCharacterIterator$Attribute from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/Format$Field from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/text/MessageFormat$Field from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+Error: Could not find or load main class com.gemstone.gemfire.internal.SystemAdmin
+class load: java/util/IdentityHashMap$KeySet from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/IdentityHashMap$IdentityHashMapIterator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/util/IdentityHashMap$KeyIterator from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: com/ibm/tools/attach/javaSE/AttachHandler$1 from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+class load: java/util/Vector$Itr from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/rt.jar 
+class load: java/lang/Thread$State from: /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/lib/ppc64/compressedrefs/jclSC170/vm.jar 
+
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ startlocator.sh.bak
+Shell will time out in 60 seconds.
+ksh[2]: Timed out waiting for input.
+ankcsesyaa05[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcsesyaa05 closed.
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

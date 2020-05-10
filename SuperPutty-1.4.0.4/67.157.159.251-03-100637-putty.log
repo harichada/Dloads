@@ -1,0 +1,81 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 10:06:37 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Thu Oct  3 09:57:55 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ [K[hchada@CGDCSSL1047UL ~]$ cd /tmp
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ ls
+6540939498888370825-key.pem
+6540939498888370825.pem
+[0m[01;34mansible_o4NHxn[0m
+__crx3391046324274023554.dat
+__crx4801929521418047725.dat
+__crx7816179962564999241.dat
+__crx9147211499700746896.dat
+[01;34mfonts.7b989d4e-b42b-4136-9738-5c1a1b70899e[0m
+[01;34mhsperfdata_root[0m
+[01;34mhsperfdata_ryoung[0m
+[01;34mhsperfdata_tomadmin[0m
+[01;34mlost+found[0m
+redhat.repo
+[01;34msystemd-private-4bee7079519444de8f079ceecc24fc46-ntpd.service-1k31pm[0m
+[01;34mvmware-tools-10.2.1[0m
+[01;34mvmware-tools-distrib[0m
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ ls ef*
+ls: cannot access ef*: No such file or directory
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ pwd
+/tmp
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ ls -la
+total 216
+drwxrwxrwt. 16 root     root       4096 Oct  3 10:06 [0m[30;42m.[0m
+dr-xr-xr-x. 22 root     root       4096 Aug 28 15:15 [01;34m..[0m
+-rw-------.  1 root     root       1675 Sep 30 11:04 6540939498888370825-key.pem
+-rw-r--r--.  1 hchada   hchada    26348 Sep 30 11:04 6540939498888370825.pem
+drwx------.  2 sgarrett sgarrett   4096 Sep 30 15:00 [01;34mansible_o4NHxn[0m
+-rw-r--r--.  1 root     root          0 Oct  1 10:42 __crx3391046324274023554.dat
+-rw-r--r--.  1 root     root          0 Oct  1 10:42 __crx4801929521418047725.dat
+-rw-r--r--.  1 root     root          0 Oct  1 10:47 __crx7816179962564999241.dat
+-rw-r--r--.  1 root     root          0 Oct  1 10:44 __crx9147211499700746896.dat
+drwxr-xr-x.  2 root     root       4096 Sep 25 16:43 [01;34mfonts.7b989d4e-b42b-4136-9738-5c1a1b70899e[0m
+drwxrwxrwt.  2 root     root       4096 Jan 29  2018 [30;42m.font-unix[0m
+drwxr-xr-x.  2 root     root       4096 Sep 25 16:42 [01;34mhsperfdata_root[0m
+drwxr-xr-x.  2 ryoung   ryoung     4096 Sep 25 16:39 [01;34mhsperfdata_ryoung[0m
+drwxr-x---.  2 tomadmin tomadmin   4096 Sep 19 14:31 [01;34mhsperfdata_tomadmin[0m
+drwxrwxrwt.  2 root     root       4096 Jan 29  2018 [30;42m.ICE-unix[0m
+srw-------.  1 root     root          0 Sep 25 16:43 [01;35m.java_pid9910[0m
+drwx------.  2 root     root      16384 Jan 29  2018 [01;34mlost+found[0m
+-rw-r--r--.  1 hchada   hchada   106887 Sep 30 11:00 redhat.repo
+drwx------.  3 root     root       4096 Aug 18 10:40 [01;34msystemd-private-4bee7079519444de8f079ceecc24fc46-ntpd.service-1k31pm[0m
+drwxrwxrwt.  2 root     root       4096 Jan 29  2018 [30;42m.Test-unix[0m
+drwxr-xr-x.  3 root     root       4096 Jan 29  2019 [01;34mvmware-tools-10.2.1[0m
+drwxr-xr-x.  5 root     root       4096 May 22  2016 [01;34mvmware-tools-distrib[0m
+drwxrwxrwt.  2 root     root       4096 Jan 29  2018 [30;42m.X11-unix[0m
+drwxrwxrwt.  2 root     root       4096 Jan 29  2018 [30;42m.XIM-unix[0m
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ ls efs*
+ls: cannot access efs*: No such file or directory
+]0;hchada@CGDCSSL1047UL:/tmp[hchada@CGDCSSL1047UL tmp]$ exit
+logout

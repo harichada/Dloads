@@ -1,0 +1,130 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.06 08:00:24 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Access denied
+hchada@ch1p03a's password: 
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Wed Nov  6 08:00:24 PST 2019 on ssh from 169.2.108.102
+Last login: Wed Oct 30 13:27:22 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyaa05[/home/hchada]$ clear
+[H[2Jankcsesyaa05[/home/hchada]$ ls
+ankcsesyaa05[/home/hchada]$ netsat    tat -an | grep 80
+tcp        0      0  *.2809                 *.*                    LISTEN
+tcp4      18      0  134.187.144.6.7001     134.187.115.51.48009   CLOSE_WAIT
+tcp4      39      0  134.187.144.6.7001     134.187.115.51.48079   CLOSE_WAIT
+tcp4       0      0  *.56580                *.*                    LISTEN
+tcp        0      0  *.8083                 *.*                    LISTEN
+tcp        0      0  *.8880                 *.*                    LISTEN
+tcp        0      0  *.14080                *.*                    LISTEN
+tcp4       0      0  134.187.144.6.35980    100.66.3.5.17778       ESTABLISHED
+tcp        0      0  134.187.144.6.58089    134.187.144.5.57208    ESTABLISHED
+f1000e0001cd4808 dgram       0      0 f1000a02a0206420                0 f1000e00052c8780                0 /dev/log
+f1000e0001f0bb80
+f1000e0001f03808 dgram       0      0 f1000a02a0306820                0                0                0 /dev/.SRC-unix/SRC0003997866bYpqac
+f1000e000016bc80
+f1000e0001f0b880
+f1000e0001f02808 dgram       0      0 f1000a02a0206820                0                0                0 /dev/.SRC-unix/SRC0003997866capqad
+f1000e0001f0b800
+f1000e0001f07808 dgram       0      0                0 f1000e0001f0bb80                0                0
+f1000e0001f0b180
+f1000e00002f3c08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e00003e4f80
+f1000e00002e2e80
+f1000e0002096480
+f1000e0001fce008 stream      0      0                0 f1000e0002201c80                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e000226c680
+f1000e0002096280
+f1000e0001f0b780
+f1000e00001ad808 stream      0      0                0                0                0                0
+f1000e000016bf80
+f1000e0001f0f808 stream      0      0                0                0                0                0
+f1000e0001f24280
+f1000e0001cc1808 stream      0      0 f1000a02a23a0c20                0                0                0 /CommVault/simpana/Base/Temp/8400
+f1000e000040cd80
+f1000e00002ca808 dgram       0      0 f1000a02bd512820                0                0                0 /dev/.SRC-unix/SRC0003997866Z3pqao
+f1000e0006f37a80
+f1000e0002078008 dgram       0      0 f1000a02a9774020                0                0                0 /dev/.SRC-unix/SRC0003997866Napqam
+f1000e00021abd80
+f1000e0001fd2408 stream      0      0                0 f1000e00028ab980                0                0
+f1000e000237d480
+f1000e0001f12d80
+f1000e000016bd80
+f1000e000016b580
+f1000e000016b800
+f1000e000041a808 stream      0      0                0                0                0                0
+f1000e000040c580
+f1000e0000180808 stream      0      0                0                0                0                0
+f1000e000775ac08 stream      0      0                0 f1000e0007b92980                0                0
+f1000e0007581780
+f1000e0001f17808 dgram       0      0                0 f1000e0001f0bb80                0 f1000e0006ecec00
+f1000e000019a808 stream      0      0                0                0                0                0
+f1000e00003f9c08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e00028ab900
+f1000e00052c8780
+f1000e000237d800
+f1000e000776d808 stream      0      0                0                0                0                0
+f1000e00002e5008 stream      0      0                0 f1000e0006f37880                0                0
+f1000e000026e780
+f1000e0000403808 stream      0      0                0                0                0                0
+f1000e0002886408 dgram       0      0                0 f1000e0001f0bb80                0 f1000e00002e2e80
+f1000e00021ab980
+f1000e0001cc1008 stream      0      0                0 f1000e000226c680                0                0
+f1000e0002201c80
+f1000e0000195c08 stream      0      0                0 f1000e0007581780                0                0
+f1000e0007b92980
+f1000e000775b280
+f1000e0001f20408 dgram       0      0                0 f1000e0001f0bb80                0 f1000e000237c480
+f1000e0001f12e80
+f1000e00001b0808 stream      0      0 f1000a02a23f3c20                0                0                0 /var/ct/IW/soc/mc/RMIBM.DRM.0
+f1000e0007bf6680
+f1000e0007c98008 stream      0      0 f1000a02ba19ac20                0                0                0 /var/ct/IW/soc/mc/RMIBM.MgmtDomainRM.0
+f1000e0005267c08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e0001f24980
+f1000e0000416808 stream      0      0 f1000a02c0dd7820                0                0                0 /var/ct/IW/soc/mc/rmsrv
+f1000e000040c780
+f1000e0002616808 stream      0      0                0 f1000e0002683180                0                0
+f1000e000226c180
+f1000e00001b7c08 stream      0      0                0 f1000e000016b800                0                0
+f1000e0007bf3e80
+f1000e000016b480
+f1000e00028c5808 stream      0      0                0 f1000e000237ce80                0                0
+f1000e0002683980
+f1000e0006f37d80
+f1000e000254c408 stream      0      0                0 f1000e0002096280                0                0
+f1000e0001fd5408 stream      0      0                0 f1000e000237d480                0                0 /var/ct/IW/soc/mc/RMIBM.HostRM.0
+f1000e00028ab980
+f1000e0007818c08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e0001f12e80
+f1000e000041d580
+f1000e00002e5808 stream      0      0                0                0                0                0
+f1000e000035c380
+f1000e00021a9808 stream      0      0                0 f1000e000226c180                0                0
+f1000e0002683180
+f1000e00028dcc08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e000041d580
+f1000e0001f24980
+f1000e0006f37880
+f1000e0002472408 stream      0      0                0 f1000e0002683980                0                0
+f1000e000237ce80
+f1000e0002200c08 dgram       0      0                0 f1000e0001f0bb80                0 f1000e00021ab980
+f1000e000237c480
+f1000e0001f1c808 stream      0      0                0 f1000e0002096480                0                0 /var/ct/IW/soc/mc/RMIBM.ConfigRM.0
+f1000e0007b93808 stream      0      0                0 f1000e0007bf3e80                0                0
+f1000e0000182408 stream      0      0                0 f1000e000016b480                0                0
+f1000e000019e008 stream      0      0                0 f1000e000775b280                0                0
+ankcsesyaa05[/home/hchada]$ netstat -an | grep 80netstat -an | egerep 80rerep 80eerep 80perep 80 erep 80Lerep 80Ierep 80Serep 80Terep 80Eerep 80Nerep 80 erep 80|erep 80gerep 80GERp 80  80 80 0     | grep 80
+tcp        0      0  *.2809                 *.*                    LISTEN
+tcp4       0      0  *.56580                *.*                    LISTEN
+tcp        0      0  *.8083                 *.*                    LISTEN
+tcp        0      0  *.8880                 *.*                    LISTEN
+tcp        0      0  *.14080                *.*                    LISTEN
+ankcsesyaa05[/home/hchada]$ nc
+ksh: nc:  not found.
+ankcsesyaa05[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

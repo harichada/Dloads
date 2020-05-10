@@ -1,0 +1,975 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 11:13:25 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep 24 19:39:19 PDT 2019 on ssh from ankcsepf1a05
+Last login: Wed Sep 25 11:13:20 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a02[/home/hchada]$ cd /cse/batch
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd PFT09 _Batch _AP023 _02
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02]$ cd logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02/logs]$ tail - f  f SystemOut.log
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02/logs]$ vi SystemOut.log
+[?1049h[46;1H[?12;25h[?1h="SystemOut.log" 86380 lines, 12975927 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name ch1p20aCell0
+1\cg1p21aNode01\PFT09_Batch_AP023_02 and process id 57802802
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name
+= IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSp
+here/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppSer
+ver_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdepl
+oy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/A
+ppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/We
+bSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/
+itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.j
+ar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_
+CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/
+jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.ja
+r:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/
+default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr
+/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/App
+Server_85/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/
+:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[9/12/19 20:14:49:832 PDT] 00000561 SystemOut     O com.ibm.ws.rsadapter.jdbc.WSJccResultSet@cf3d6e0e
+[9/12/19 20:14:49:924 PDT] 00000561 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[9/12/19 20:14:51:305 PDT] 0000057f SystemOut     O com.ibm.ws.rsadapter.jdbc.WSJccResultSet@da345bc5
+[9/12/19 20:14:51:368 PDT] 0000057f SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[9/12/19 20:14:51:616 PDT] 00000561 SystemOut     O com.ibm.ws.rsadapter.jdbc.WSJccResultSet@87658e4f
+[9/12/19 20:14:51:682 PDT] 00000561 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[9/12/19 20:14:53:229 PDT] 00000561 SystemOut     O com.ibm.ws.rsadapter.jdbc.WSJccResultSet@2028385c
+[9/12/19 20:14:53:280 PDT] 00000561 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[9/12/19 20:14:53:482 PDT] 0000057f SystemOut     O com.ibm.ws.rsadapter.jdbc.WSJccResultSet@176b1099
+[9/12/19 20:14:53:530 PDT] 0000057f SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[9/12/19 20:14:54:871 PDT] 000005a8 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIg
+noringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000
+, SQLERRMC=null, DRIVER=3.72.44]
+[9/12/19 20:14:54:874 PDT] 000005a8 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIg
+noringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000
+, SQLERRMC=null, DRIVER=3.72.44][H[45B"SystemOut.log" 86380 lines, 12975927 characters[H[H[2J
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURE
+CompletedBatchesDownloadTaskStep.java:134)
+[8C... 21 more
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)
+[7Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[22;9H[H[2J[9/25/19 10:43:33:871 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:33:922 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 11:12:09:799 PDT] 00000c88 SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURE
+CompletedBatchesDownloadTaskStep.java:141)
+[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)[44;9H[H[2J[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCo
+mpletedSECURELienDocumentsTaskStep.java:149)
+[8C... 21 more
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)
+[7Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+[9/25/19 10:43:20:963 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:20:976 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../winnt/win.ini has not been defined.
+[9/25/19 10:43:21:242 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../windows/win.ini has not been defined.
+[9/25/19 10:43:21:497 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:43:30:996 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:31:051 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:31:103 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:31:153 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:33:772 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:33:826 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:33:871 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:33:922 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.[A[H[2J[9/25/19 10:40:24:865 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCo
+mpletedSECURELienDocumentsTaskStep.java:156)
+[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCo
+mpletedSECURELienDocumentsTaskStep.java:149)[44;9H[H[2J[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+[9/25/19 10:39:19:814 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /default.aspx has not been defined.
+[9/25/19 10:39:19:818 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.php has not been defined.
+[9/25/19 10:39:19:824 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.aspx has not been defined.
+[9/25/19 10:39:19:827 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.html has not been defined.
+[9/25/19 10:39:19:832 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /Default.aspx has not been defined.
+[9/25/19 10:39:19:837 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /showimage.asp has not been defined.
+[9/25/19 10:39:19:841 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:289 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:300 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../winnt/win.ini has not been defined.
+[9/25/19 10:40:07:566 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../windows/win.ini has not been defined.
+[9/25/19 10:40:07:823 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:40:22:287 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:339 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:399 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:444 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:775 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:821 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:865 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[2A[H[2J[9/25/19 10:39:14:455 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /webalizer/ has not been defined.
+[9/25/19 10:39:14:459 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /www/ has not been defined.
+[9/25/19 10:39:14:463 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /view/ has not been defined.
+[9/25/19 10:39:14:468 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /robots.txt has not been defined.
+[9/25/19 10:39:19:694 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:699 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:708 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:716 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:721 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:730 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:741 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:748 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:754 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.aspx has not been defined.
+[9/25/19 10:39:19:760 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.htm has not been defined.
+[9/25/19 10:39:19:770 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.asp has not been defined.
+[9/25/19 10:39:19:783 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.htm has not been defined.
+[9/25/19 10:39:19:787 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.php has not been defined.
+[9/25/19 10:39:19:791 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.html has not been defined.
+[9/25/19 10:39:19:795 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.svn/wc.db has not been defined.
+[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+@[2A[H[2J[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+[9/25/19 10:39:19:814 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /default.aspx has not been defined.
+[9/25/19 10:39:19:818 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.php has not been defined.
+[9/25/19 10:39:19:824 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.aspx has not been defined.
+[9/25/19 10:39:19:827 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.html has not been defined.
+[9/25/19 10:39:19:832 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /Default.aspx has not been defined.
+[9/25/19 10:39:19:837 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /showimage.asp has not been defined.
+[9/25/19 10:39:19:841 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:289 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:300 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../winnt/win.ini has not been defined.
+[9/25/19 10:40:07:566 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../windows/win.ini has not been defined.
+[9/25/19 10:40:07:823 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:40:22:287 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:339 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:399 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:444 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:775 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:821 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:865 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[H[H[2J[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running[H
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCo
+mpletedSECURELienDocumentsTaskStep.java:156)
+[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCo
+mpletedSECURELienDocumentsTaskStep.java:149)
+[8C... 21 more
+Caused by:[H[H[2J[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+[9/25/19 10:39:19:814 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /default.aspx has not been defined.
+[9/25/19 10:39:19:818 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.php has not been defined.
+[9/25/19 10:39:19:824 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.aspx has not been defined.
+[9/25/19 10:39:19:827 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.html has not been defined.
+[9/25/19 10:39:19:832 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /Default.aspx has not been defined.
+[9/25/19 10:39:19:837 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /showimage.asp has not been defined.
+[9/25/19 10:39:19:841 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:289 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:300 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../winnt/win.ini has not been defined.
+[9/25/19 10:40:07:566 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../windows/win.ini has not been defined.
+[9/25/19 10:40:07:823 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:40:22:287 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:339 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:399 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:444 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:775 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:821 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:865 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[H[2J[9/25/19 10:39:14:455 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /webalizer/ has not been defined.
+[9/25/19 10:39:14:459 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /www/ has not been defined.
+[9/25/19 10:39:14:463 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /view/ has not been defined.
+[9/25/19 10:39:14:468 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /robots.txt has not been defined.
+[9/25/19 10:39:19:694 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:699 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:708 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:716 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:721 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:730 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:741 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:748 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:754 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.aspx has not been defined.
+[9/25/19 10:39:19:760 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.htm has not been defined.
+[9/25/19 10:39:19:770 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.asp has not been defined.
+[9/25/19 10:39:19:783 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.htm has not been defined.
+[9/25/19 10:39:19:787 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.php has not been defined.
+[9/25/19 10:39:19:791 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.html has not been defined.
+[9/25/19 10:39:19:795 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.svn/wc.db has not been defined.
+[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+@[2A[H[2J[9/25/19 10:39:14:322 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /printers/ has not been defined.
+[9/25/19 10:39:14:331 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /tomcat/ has not been defined.
+[9/25/19 10:39:14:337 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /servlets/ has not been defined.
+[9/25/19 10:39:14:342 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /isqlplus/ has not been defined.
+[9/25/19 10:39:14:346 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /jboss/ has not been defined.
+[9/25/19 10:39:14:351 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /java/ has not been defined.
+[9/25/19 10:39:14:358 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /jsp-examples/ has not been defined.
+[9/25/19 10:39:14:364 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /servlets-examples/ has not been defined.
+[9/25/19 10:39:14:382 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /home/ has not been defined.
+[9/25/19 10:39:14:393 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /helpdesk/ has not been defined.
+[9/25/19 10:39:14:405 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manual/ has not been defined.
+[9/25/19 10:39:14:410 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manager/ has not been defined.
+[9/25/19 10:39:14:415 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /reports/ has not been defined.
+[9/25/19 10:39:14:420 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /common/ has not been defined.
+[9/25/19 10:39:14:426 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /css/ has not been defined.
+[9/25/19 10:39:14:432 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /sdk/ has not been defined.
+[9/25/19 10:39:14:437 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /lib/ has not been defined.
+[9/25/19 10:39:14:441 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /webdav/ has not been defined.
+[9/25/19 10:39:14:446 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /phpmyadmin/ has not been defined.
+[9/25/19 10:39:14:450 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /script/ has not been defined.
+[9/25/19 10:39:14:455 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /webalizer/ has not been defined.
+[9/25/19 10:39:14:459 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /www/ has not been defined.
+@[2A[H[2J[9/25/19 10:39:14:216 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /icons/ has not been defined.
+[9/25/19 10:39:14:222 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /cgi-bin/ has not been defined.
+[9/25/19 10:39:14:228 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /error/ has not been defined.
+[9/25/19 10:39:14:238 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /log/ has not been defined.
+[9/25/19 10:39:14:244 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /logs/ has not been defined.
+[9/25/19 10:39:14:248 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /images/ has not been defined.
+[9/25/19 10:39:14:253 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /absolutefp/ has not been defined.
+[9/25/19 10:39:14:258 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin/ has not been defined.
+[9/25/19 10:39:14:262 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /CVS/ has not been defined.
+[9/25/19 10:39:14:267 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /axis/ has not been defined.
+[9/25/19 10:39:14:271 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /axis2/ has not been defined.
+[9/25/19 10:39:14:275 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin/ has not been defined.
+[9/25/19 10:39:14:288 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /backup/ has not been defined.
+[9/25/19 10:39:14:293 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /examples/ has not been defined.
+[9/25/19 10:39:14:297 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manager/ has not been defined.
+[9/25/19 10:39:14:302 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /ccmcip/ has not been defined.
+[9/25/19 10:39:14:305 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /ccmadmin/ has not been defined.
+[9/25/19 10:39:14:309 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /download/ has not been defined.
+[9/25/19 10:39:14:313 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /debug/ has not been defined.
+[9/25/19 10:39:14:317 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /owa/ has not been defined.
+[9/25/19 10:39:14:322 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /printers/ has not been defined.
+[9/25/19 10:39:14:331 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /tomcat/ has not been defined.
+@[2A[H[2J[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[2;9Hat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURE
+CompletedBatchesDownloadTaskStep.java:134)
+[8C... 21 more
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)
+[7Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+[9/25/19 10:39:14:193 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:14:211 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /nirvdir/ has not been defined.
+[9/25/19 10:39:14:216 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /icons/ has not been defined.
+[9/25/19 10:39:14:222 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /cgi-bin/ has not been defined.[A[H[2J[9/25/19 10:38:06:461 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /admin.aspx has not been defined.
+[9/25/19 10:38:06:470 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.html has not been defined.
+[9/25/19 10:38:06:476 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /Default.aspx has not been defined.
+[9/25/19 10:38:06:480 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /showimage.asp has not been defined.
+[9/25/19 10:38:06:485 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:38:12:603 PDT] 00000c7f SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.Hibernate
+InputSource - PFT09XA#ENF-121029218463#ENF-126-DS02#20190513_000000(1) - Retrieved 0 keys. HQL: select distinct batchTransact
+ion.SECUREBatchId FROM SECUREBatchTransactionBO as batchTransaction
+[32DWHERE batchTransaction.batchStatusCode = 'CMD'
+[9/25/19 10:38:12:618 PDT] 00000c7f JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIg
+noringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000
+, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 10:38:12:632 PDT] 00000c7f JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIg
+noringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000
+, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 10:38:50:027 PDT] 000005ec SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURE
+CompletedBatchesDownloadTaskStep.java:141)
+[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[8C[H[2J[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[2;9Hat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURE
+CompletedBatchesDownloadTaskStep.java:134)
+[8C... 21 more
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)
+[7Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+[9/25/19 10:39:14:193 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:14:211 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /nirvdir/ has not been defined.
+[9/25/19 10:39:14:216 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /icons/ has not been defined.
+[9/25/19 10:39:14:222 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /cgi-bin/ has not been defined.[1;9H[H[2J[9/25/19 10:39:14:216 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /icons/ has not been defined.
+[9/25/19 10:39:14:222 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /cgi-bin/ has not been defined.
+[9/25/19 10:39:14:228 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /error/ has not been defined.
+[9/25/19 10:39:14:238 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /log/ has not been defined.
+[9/25/19 10:39:14:244 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /logs/ has not been defined.
+[9/25/19 10:39:14:248 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /images/ has not been defined.
+[9/25/19 10:39:14:253 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /absolutefp/ has not been defined.
+[9/25/19 10:39:14:258 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin/ has not been defined.
+[9/25/19 10:39:14:262 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /CVS/ has not been defined.
+[9/25/19 10:39:14:267 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /axis/ has not been defined.
+[9/25/19 10:39:14:271 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /axis2/ has not been defined.
+[9/25/19 10:39:14:275 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin/ has not been defined.
+[9/25/19 10:39:14:288 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /backup/ has not been defined.
+[9/25/19 10:39:14:293 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /examples/ has not been defined.
+[9/25/19 10:39:14:297 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manager/ has not been defined.
+[9/25/19 10:39:14:302 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /ccmcip/ has not been defined.
+[9/25/19 10:39:14:305 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /ccmadmin/ has not been defined.
+[9/25/19 10:39:14:309 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /download/ has not been defined.
+[9/25/19 10:39:14:313 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /debug/ has not been defined.
+[9/25/19 10:39:14:317 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /owa/ has not been defined.
+[9/25/19 10:39:14:322 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /printers/ has not been defined.
+[9/25/19 10:39:14:331 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /tomcat/ has not been defined.
+@[H[H[2J[9/25/19 10:39:14:322 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /printers/ has not been defined.
+[9/25/19 10:39:14:331 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /tomcat/ has not been defined.
+[9/25/19 10:39:14:337 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /servlets/ has not been defined.
+[9/25/19 10:39:14:342 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /isqlplus/ has not been defined.
+[9/25/19 10:39:14:346 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /jboss/ has not been defined.
+[9/25/19 10:39:14:351 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /java/ has not been defined.
+[9/25/19 10:39:14:358 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /jsp-examples/ has not been defined.
+[9/25/19 10:39:14:364 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /servlets-examples/ has not been defined.
+[9/25/19 10:39:14:382 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /home/ has not been defined.
+[9/25/19 10:39:14:393 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /helpdesk/ has not been defined.
+[9/25/19 10:39:14:405 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manual/ has not been defined.
+[9/25/19 10:39:14:410 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /manager/ has not been defined.
+[9/25/19 10:39:14:415 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /reports/ has not been defined.
+[9/25/19 10:39:14:420 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /common/ has not been defined.
+[9/25/19 10:39:14:426 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /css/ has not been defined.
+[9/25/19 10:39:14:432 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /sdk/ has not been defined.
+[9/25/19 10:39:14:437 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /lib/ has not been defined.
+[9/25/19 10:39:14:441 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /webdav/ has not been defined.
+[9/25/19 10:39:14:446 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /phpmyadmin/ has not been defined.
+[9/25/19 10:39:14:450 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /script/ has not been defined.
+[9/25/19 10:39:14:455 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /webalizer/ has not been defined.
+[9/25/19 10:39:14:459 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /www/ has not been defined.
+@[H[H[2J[9/25/19 10:39:14:455 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /webalizer/ has not been defined.
+[9/25/19 10:39:14:459 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /www/ has not been defined.
+[9/25/19 10:39:14:463 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /view/ has not been defined.
+[9/25/19 10:39:14:468 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /robots.txt has not been defined.
+[9/25/19 10:39:19:694 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:699 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:708 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:716 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:721 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:730 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:741 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:748 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:39:19:754 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.aspx has not been defined.
+[9/25/19 10:39:19:760 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.htm has not been defined.
+[9/25/19 10:39:19:770 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.asp has not been defined.
+[9/25/19 10:39:19:783 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.htm has not been defined.
+[9/25/19 10:39:19:787 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.php has not been defined.
+[9/25/19 10:39:19:791 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.html has not been defined.
+[9/25/19 10:39:19:795 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.svn/wc.db has not been defined.
+[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+@[H[H[2J[9/25/19 10:39:19:799 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A[H
+WebGroup/Virtual Host to handle /login.asp has not been defined.
+[9/25/19 10:39:19:803 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /.htaccess has not been defined.
+[9/25/19 10:39:19:814 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /default.aspx has not been defined.
+[9/25/19 10:39:19:818 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /login.php has not been defined.
+[9/25/19 10:39:19:824 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.aspx has not been defined.
+[9/25/19 10:39:19:827 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /admin.html has not been defined.
+[9/25/19 10:39:19:832 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /Default.aspx has not been defined.
+[9/25/19 10:39:19:837 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /showimage.asp has not been defined.
+[9/25/19 10:39:19:841 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:289 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:07:300 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../winnt/win.ini has not been defined.
+[9/25/19 10:40:07:566 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../windows/win.ini has not been defined.
+[9/25/19 10:40:07:823 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:40:22:287 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:339 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:399 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:22:444 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:703 PDT] 00000dba WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:775 PDT] 00000dbc WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:821 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:24:865 PDT] 00000dbb WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A
+WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:42:20:764 PDT] 00000c8d SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running
+Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[45B:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02/logs]$ tail -f SystemOut.log
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more
+
+
+
+
+
+[9/25/19 11:16:27:625 PDT] 00000c89 SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUREBatchesTaskStep.java:160)
+        at gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:974)
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUREBatchesTaskStep.java:153)
+        ... 21 more
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more

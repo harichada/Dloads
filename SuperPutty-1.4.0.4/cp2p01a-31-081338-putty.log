@@ -1,0 +1,97 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.31 08:13:38 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Jun 26 10:05:22 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct 30 09:02:02 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf2a06[/home/hchada]$ df | grep 100
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2a06[/home/hchada]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1479720   30%    14276     8% /
+/dev/hd2        11534336   1113752   91%    71309    34% /usr
+/dev/hd9var      4194304   1318328   69%    13354     9% /var
+/dev/hd3        10551296   6778680   36%     8954     2% /tmp
+/dev/hd1         4194304   1386104   67%    22939    13% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     7208960   1876216   74%    16796     8% /opt
+/dev/home_hw      524288    515128    2%      252     1% /home/hw
+/dev/mksysb     20971520   1749480   92%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    449152   15%      631     2% /usr/local
+/dev/ihomelv     4194304   4104176    3%      242     1% /insthome
+/dev/CMInst_lv    2097152   2079792    1%        4     1% /CMInstall
+/dev/sysbacklv   11796480  11746920    1%        4     1% /sysback
+/dev/fixeslv      786432    779512    1%        4     1% /fixes
+/dev/db2cmv8_lv    2621440   2604000    1%        4     1% /opt/IBM/db2cmv8
+/dev/ubosstg_lv     131072    128344    3%        4     1% /cm/ubosstg
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cse_lv     10747904   4606656   58%     8894     1% /cse
+/dev/websphere7lv   16777216   7542424   56%    49833     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  12768800   24%    22591     2% /usr/WebSphere7CM
+/dev/scratchlv    8388608   2619064   69%      376     1% /scratch
+/dev/auditlv     2097152   2067712    2%        6     1% /opt/auditout
+/dev/CommVaultlv   20709376  17679768   15%     2532     1% /CommVault
+/dev/livedump     262144    261448    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16711680  12995288   23%    22903     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078864    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/jar_repos_lvT    2097152   1154856   45%      575     1% /cse/lib/Jar_RepositoryTemp
+/dev/ds004_admin_lvT   20971520   6052136   72%   292080    30% /ds004_adminTemp
+/dev/webspherelv   67108864  30786088   55%   170692     5% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2a02:/tmpswstage    23068672   6284088   73%     4498     1% /tmpswstage
+ankcsepf1d02:/swstage   283115520  22815376   92%    83293     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488 142655776    2%     4503     1% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  20482544    2%     2342     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888  12989704   68%     3407     1% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41748704    1%     1321     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23600280    6%     1160     1% /p03a_hotfolders
+ankcsepf2d01:/db2data_batch    58720256  43204120   27%    11118     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14287664   31%   155961     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4154768   32%     6490     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf2d01:/pdf2afp    38797312  38476128    1%     1721     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  67909816    1%      935     1% /cpos
+ankcsepf2d01:/docstorage     8388608   7478128   11%     2675     1% /docstorage
+/dev/itmlv       6291456   5318152   16%     4027     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2a06[/home/hchada]$ df | grep 99
+/dev/websphere7klv   16711680  12995288   23%    22903     2% /usr/WebSphere7K
+ankcsepf2a06[/home/hchada]$ clear
+[H[2Jankcsepf2a06[/home/hchada]$ ls
+2019_06_04.0_v5.43.0.1604.Online.ear  BusinessUtilitiesPersistence.jar      FinancialBusiness.jar                 PrgmMonitoringServices.jar
+ArchActivity.jar                      BusinessUtilitiesServices.jar         FinancialCommon.jar                   QuickCA.war
+ArchBusiness.jar                      CSECommon.jar                         FinancialPersistence.jar              WEB-INF
+ArchCommon.jar                        CSEFormsCommon.jar                    FinancialServices.jar                 audio.lnk
+ArchPersistence.jar                   CSEInterfaces.jar                     LegacyDataArchiveActivity.jar         blank.jsp
+ArchServices.jar                      CSEResources.jar                      LegacyDataArchiveBusiness.jar         config
+ArchServicesCommon.jar                CSEWEB.war                            LegacyDataArchiveCommon.jar           css
+ArchServicesLocal.jar                 CaseActivity.jar                      LegacyDataArchivePersistence.jar      dist
+ArchWeb.war                           CaseBusiness.jar                      LegacyDataArchiveServices.jar         hibernateStats.txt
+BatchManagementWeb.war                CaseCommon.jar                        META-INF                              httpSessionView.txt
+BootstrapWeb.war                      CasePersistence.jar                   PrgmMonitoringActivity.jar            image
+BusinessUtilitiesActivity.jar         CaseServices.jar                      PrgmMonitoringBusiness.jar            index.jsp
+BusinessUtilitiesBusiness.jar         CommonWSProvider.war                  PrgmMonitoringCommon.jar              script
+BusinessUtilitiesCommon.jar           FinancialActivity.jar                 PrgmMonitoringPersistence.jar         wsdl
+ankcsepf2a06[/home/hchada]$ exit

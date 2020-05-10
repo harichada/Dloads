@@ -1,0 +1,566 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.06 13:53:21 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Jun 20 09:45:47 PDT 2019 on ssh from 134.187.129.115
+Last login: Wed Nov  6 13:47:55 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsesyta01[/home/cseadmin]$ ps-ef | gre            -ef  g  | grep java
+    root  6619174  6684752   0   May 01      - 39:19 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=ruwVEMMdxSdaGn3q -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6684752 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin  7798884 10485872   0   Oct 18      - 57:50 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=47305 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT04_Integration/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dserver.name=SYT04_Integration -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/online/logs/SYT04_Integration -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT04_Integration
+ deploy1 10420250 29819134   0   Oct 26      -  2:44 /jenkins_node/jenkins_java/java8_64/jre/bin/java -jar slave.jar
+wasadmin 10485872        1   0   May 01      - 975:39 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=33382 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 nodeagent
+wasadmin 20316266 10485872   0   Oct 18      - 53:31 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=46938 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT04_IF_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT04_IF_Online
+wasadmin 20971748 10485872   1   Oct 18      - 62:44 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=41992 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT01_Integration/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dserver.name=SYT01_Integration -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/online/logs/SYT01_Integration -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT01_Integration
+wasadmin 28901616 10485872   0 12:58:27      -  0:54 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=65478 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT06_Integration/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dserver.name=SYT06_Integration -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/online/logs/SYT06_Integration -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT06_Integration
+wasadmin 29687972 10485872   0 12:57:37      -  0:42 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=65022 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT06_IF_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT06_IF_Online
+wasadmin 31457308 10485872   0   Nov 04      -  7:14 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=44337 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT02_IF_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xp32768K,4096K -Xloratio0.05 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT02_IF_Online
+wasadmin 33161384 10485872   0   Nov 04      -  7:03 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=44770 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT02_Integration/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dserver.name=SYT02_Integration -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT02_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT02_Integration
+wasadmin 41681066 10485872   0   Oct 18      - 64:16 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=42174 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT01_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Xgcpolicy:gencon -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT01_Online
+wasadmin 42533032 10485872   1   Oct 18      - 61:21 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=47567 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT04_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Xgcpolicy:gencon -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT04_Online
+wasadmin 58916956 10485872   0 12:59:24      -  0:51 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=33281 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT06_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Xgcpolicy:gencon -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT06_Online
+cseadmin 60489896 15728668   0 13:53:28  pts/1  0:00 grep java
+wasadmin 62455978 10485872   0   Oct 18      - 51:33 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=41819 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT01_IF_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xp32768K,4096K -Xloratio0.05 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT01_IF_Online
+wasadmin   328142        1 123   Aug 12      - 22195:39 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=45225 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx768m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config cg1p10aCell01 cg1p10aCellManager01 dmgr
+wasadmin  6226286 10485872   0   Nov 04      -  7:26 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=45487 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT02_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx640m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p10aNode01 SYT02_Online
+ankcsesyta01[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/properties/wsjaas.conf           config/cseP*
+ksh: /usr/WebSphere/AppServer_85/profiles/AppServer/properties/config/cseP*:  not found.
+ankcsesyta01[/home/cseadmin]$ ls
+2015-03-01-00.00.00.000000              NFS_selfcheck_debug.sh                  find_LUN_CuLDev.sh                      memory_paging_check.sh                  verifyProdMount.sh
+2019_08_23-v1.0.1.CSEFormTemplates.zip  NFS_selfcheck_output.dat                find_LUN_CuLDev_cv.sh                   memory_paging_output                    verifyProdMount_erwin.sh
+ALL_ACCOUNTS.txt                        OLD_ACCOUNTS.txt                        find_LUN_CuLDev_print.sh                memory_paging_vmstat_NON_PROD.sh        verifyProdMount_original.sh
+ALL_ACCOUNTS_sorted.txt                 OLD_ACCOUNTS_sorted.txt                 find_LUN_sizes.sh                       p8_hostnames.txt                        verifyProdMount_paul.sh
+IRS_user_home_updated.sh                TEMP.txt                                find_wwn.sh                             p8_hostnames_reverse.txt                verifyProdMount_paul.sh.20150805
+LIVE_ACCOUNTS.txt                       TMP                                     jay                                     p8_hostnames_reverse_sorted.txt         verifyProdMount_paul_20150909.sh
+Mail                                    WAS8.5_init_scripts                     list                                    resetUser.ksh                           verifyProdMount_paul_init.sh
+NFS_mounts_verify.sh                    checkUser.ksh                           log                                     run.sh                                  verifyProdMount_paul_test.sh
+NFS_mounts_verify_20151008.sh           check_oslevel.sh                        logs                                    run_on_NonProd.sh                       verify_NFS_mounts_orig.sh
+NFS_mounts_verify_20180723.sh           check_oslevels.sh                       memory_paging_COPY.sh                   showerrpt.pl                            vmstat_mail.sh
+NFS_mounts_verify_P8.sh                 copyToNonProd.sh                        memory_paging_NON_PROD_mail.sh          syt_cseProperties.tar
+NFS_mounts_verify_paul.sh               crontab.log                             memory_paging_RUN.sh                    tempfile
+NFS_selfcheck.sh                        errpt_20171212.txt                      memory_paging_SELECT.sh                 unlockUser.ksh
+NFS_selfcheck.sh_20180723.sh            errpt_mail.sh                           memory_paging_SELECT_test.sh            utils
+ankcsesyta01[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/properties/wsjaas.confFfFfFf           
+ankcsesyta01[/home/cseadmin]$ ps -ef | grep java | grep dmgr
+wasadmin   328142        1 120   Aug 12      - 22195:57 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=45225 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx768m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config cg1p10aCell01 cg1p10aCellManager01 dmgr
+ankcsesyta01[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config]$ ls
+backup         bundlecache    cells          cseProperties  temp           templates      waspolicies    xforms
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config]$ ls    cd cse*
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls
+SYT01.CSEArchitecture.properties              SYT03.RemoteFormsGenExclusions.properties     SYT07.ConsortiaUpdateQueuePublish.properties  SYT11.ConsortiaInitialLoadToggle.properties
+SYT01.ConsortiaInitialLoadToggle.properties   SYT03.SECUREInterface.properties              SYT07.EnterpriseFormService.properties        SYT11.ConsortiaUpdateQueuePublish.properties
+SYT01.ConsortiaUpdateQueuePublish.properties  SYT03.ShippingInterfaces.properties           SYT07.FontLocation.properties                 SYT11.EnterpriseFormService.properties
+SYT01.EnterpriseFormService.properties        SYT03.iSupportInterface.properties            SYT07.FormsArchitecture.properties            SYT11.FontLocation.properties
+SYT01.FontLocation.properties                 SYT03.log4j.properties                        SYT07.FormsIFOnlineArchitecture.properties    SYT11.FormsArchitecture.properties
+SYT01.FormsArchitecture.properties            SYT03.reporting.properties                    SYT07.ImagingArchitecture.properties          SYT11.FormsIFOnlineArchitecture.properties
+SYT01.FormsIFOnlineArchitecture.properties    SYT03.tracing.properties                      SYT07.PrintingArchitecture.properties         SYT11.ImagingArchitecture.properties
+SYT01.ImagingArchitecture.properties          SYT04.CSEArchitecture.properties              SYT07.RemoteFormsGenExclusions.properties     SYT11.PrintingArchitecture.properties
+SYT01.PrintingArchitecture.properties         SYT04.ConsortiaInitialLoadToggle.properties   SYT07.SECUREInterface.properties              SYT11.RemoteFormsGenExclusions.properties
+SYT01.RemoteFormsGenExclusions.properties     SYT04.ConsortiaUpdateQueuePublish.properties  SYT07.ShippingInterfaces.properties           SYT11.SECUREInterface.properties
+SYT01.SECUREInterface.properties              SYT04.EnterpriseFormService.properties        SYT07.iSupportInterface.properties            SYT11.ShippingInterfaces.properties
+SYT01.ShippingInterfaces.properties           SYT04.FontLocation.properties                 SYT07.log4j.properties                        SYT11.iSupportInterface.properties
+SYT01.ShippingInterfaces.properties.bak       SYT04.FormsArchitecture.properties            SYT07.reporting.properties                    SYT11.log4j.properties
+SYT01.iSupportInterface.properties            SYT04.FormsIFOnlineArchitecture.properties    SYT07.tracing.properties                      SYT11.reporting.properties
+SYT01.log4j.properties                        SYT04.ImagingArchitecture.properties          SYT08.CSEArchitecture.properties              SYT11.tracing.properties
+SYT01.reporting.properties                    SYT04.PrintingArchitecture.properties         SYT08.ConsortiaInitialLoadToggle.properties   SYT12.CSEArchitecture.properties
+SYT01.tracing.properties                      SYT04.RemoteFormsGenExclusions.properties     SYT08.ConsortiaUpdateQueuePublish.properties  SYT12.ConsortiaInitialLoadToggle.properties
+SYT01.tracing.properties-101019               SYT04.SECUREInterface.properties              SYT08.EnterpriseFormService.properties        SYT12.ConsortiaUpdateQueuePublish.properties
+SYT02.CSEArchitecture.properties              SYT04.ShippingInterfaces.properties           SYT08.FontLocation.properties                 SYT12.EnterpriseFormService.properties
+SYT02.ConsortiaInitialLoadToggle.properties   SYT04.iSupportInterface.properties            SYT08.FormsArchitecture.properties            SYT12.FontLocation.properties
+SYT02.ConsortiaUpdateQueuePublish.properties  SYT04.log4j.properties                        SYT08.ImagingArchitecture.properties          SYT12.FormsArchitecture.properties
+SYT02.EnterpriseFormService.properties        SYT04.reporting.properties                    SYT08.PrintingArchitecture.properties         SYT12.FormsIFOnlineArchitecture.properties
+SYT02.FontLocation.properties                 SYT04.tracing.properties                      SYT08.RemoteFormsGenExclusions.properties     SYT12.ImagingArchitecture.properties
+SYT02.FormsArchitecture.properties            SYT06.CSEArchitecture.properties              SYT08.SECUREInterface.properties              SYT12.PrintingArchitecture.properties
+SYT02.ImagingArchitecture.properties          SYT06.ConsortiaInitialLoadToggle.properties   SYT08.ShippingInterfaces.properties           SYT12.RemoteFormsGenExclusions.properties
+SYT02.PrintingArchitecture.properties         SYT06.ConsortiaUpdateQueuePublish.properties  SYT08.iSupportInterface.properties            SYT12.SECUREInterface.properties
+SYT02.RemoteFormsGenExclusions.properties     SYT06.EnterpriseFormService.properties        SYT08.log4j.properties                        SYT12.ShippingInterfaces.properties
+SYT02.SECUREInterface.properties              SYT06.FontLocation.properties                 SYT08.reporting.properties                    SYT12.iSupportInterface.properties
+SYT02.ShippingInterfaces.properties           SYT06.FormsArchitecture.properties            SYT08.tracing.properties                      SYT12.log4j.properties
+SYT02.iSupportInterface.properties            SYT06.FormsIFOnlineArchitecture.properties    SYT09.CSEArchitecture.properties              SYT12.reporting.properties
+SYT02.log4j.properties                        SYT06.ImagingArchitecture.properties          SYT09.ConsortiaInitialLoadToggle.properties   SYT12.tracing.properties
+SYT02.reporting.properties                    SYT06.PrintingArchitecture.properties         SYT09.ConsortiaUpdateQueuePublish.properties  ShippingInterface.properties
+SYT02.tracing.properties                      SYT06.RemoteFormsGenExclusions.properties     SYT09.FontLocation.properties                 UIT04.log4j.properties
+SYT03.CSEArchitecture.properties              SYT06.SECUREInterface.properties              SYT09.FormsArchitecture.properties            cmbicmsrvs.ini
+SYT03.ConsortiaInitialLoadToggle.properties   SYT06.ShippingInterfaces.properties           SYT09.ImagingArchitecture.properties          cmbpool.ini
+SYT03.ConsortiaUpdateQueuePublish.properties  SYT06.iSupportInterface.properties            SYT09.PrintingArchitecture.properties         cmgmt
+SYT03.EnterpriseFormService.properties        SYT06.log4j.properties                        SYT09.ShippingInterfaces.properties           donotremove
+SYT03.FontLocation.properties                 SYT06.reporting.properties                    SYT09.log4j.properties                        ppr.properties
+SYT03.FormsArchitecture.properties            SYT06.tracing.properties                      SYT09.reporting.properties                    securityAdministration.properties
+SYT03.ImagingArchitecture.properties          SYT07.CSEArchitecture.properties              SYT09.tracing.properties
+SYT03.PrintingArchitecture.properties         SYT07.ConsortiaInitialLoadToggle.properties   SYT11.CSEArchitecture.properties
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ grep healthcheck SYT01.CSEArchitecture.properties
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ grep -healthcheck SYT01.CSEArchitecture.propertiesgrep -healthcheck SYT01.CSEArchitecture.propertiesihealthcheck SYT01.CSEArchitecture.properties healthcheck SYT01.CSEArchitecture.properties
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ vi SYT01.CSEArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="SYT01.CSEArchitecture.properties" [Read only] 83 lines, 4181 characters [H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineTestingTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=true
+
+IdListPartitioningEnabled=true
+
+#---------- Self Service URL -----------------
+#selfservice.Url=http://ankcsesyta04.dts.ca.gov:40098
+selfservice.Url=http://CGDCSSL1074UL.dcss.ca.gov:81
+
+#######################################################################################################################
+# Properties for Non Production Email Service
+#is.nonprod.env=true means it is a non-production environment.
+#invalid.domain.default.email=DCSSeDocDev@dcss.ca.gov means all the email from this environment sent to this email box.
+#nonprod.default.email.subject=Test Email from - This is default subject text appended in non-production environment.
+#env.instance=TEAM04 means non production environment instance.
+#######################################################################################################################
+is.nonprod.env=true
+invalid.domain.default.email=DCSSeDocSYS@dcss.ca.gov
+nonprod.default.email.subject=Test Email from
+env.instance=SYT01
+
+#---- SDU Hyperlink Configuration ------------
+sdu.encryption.key=CA%70#DCSS!X4PY$
+sdu.ePayment.url=https://www.cawebtest.com/navigation/lcsa/?pre_auth_token=
+
+
+##################################################################
+# HyperionSSO Properties[41C#
+##################################################################
+# SSO Encryption Key (the key has to be 16 characters, and has to be the same key in the HyperionSSO.properties included in the jar that is delopyed onto Hyperion Server)
+# and Hyperion Single Sign On Url
+#
+# sso.hyperion11.switchflag is for the purpose of rollback only when v4.18.0 is release.  sso.hyperion11.switchflag is defaulted to "true"
+# if sso.hyperion11.switchflag is true, value of sso.hyperion.url points to URL for Hyperion 11.
+# if sso.hyperion11.switchflag is false, value of sso.hyperion.url points to URL for Hyperion 8.5.
+
+sso.encryption.key=hyp#Inter@act!ve[H[55B"SYT01.CSEArchitecture.properties" [Read only] 83 lines, 4181 characters[H[H[2J
+sso.encryption.key=hyp#Inter@act!ve
+sso.hyperion.url=http://ankcsesyta02.dts.ca.gov/workspace/index.jsp
+sso.hyperion11.switchflag=true
+
+##################################################################
+# CSE Web-Service REST API Configuration Properties[14C#
+##################################################################
+#REST API Request Retry Key
+rest.request.retry=3
+#REST API RequestConfig Socket timeout Key
+rest.requestconfig.socketTimeout=15000
+#REST API RequestConfig Connection timeout Key
+rest.requestconfig.connectTimeout=15000
+#REST API RequestConfig EFS Socket timeout Key
+rest.requestconfig.efs.socketTimeout=45000
+
+##################################################################
+# EFS  Web-Service REST API Configuration Properties[13C#
+##################################################################
+# These properties define the files to use for form and form set definitions.
+# Separate file names with commas.
+form-set-definitions-files=FormSetDefinitions.xml
+form-definitions-files=FormDefinitions.xml
+#EFS Form Set Definition Url
+efs.formsetdefinition.url=https://100.95.20.101/efs-syt01/efs/getFormSetDefinitions
+#EFS Form Definition Url
+efs.formdefinition.url=https://100.95.20.101/efs-syt01/efs/getFormDefinitions
+#Source of form configuration cache source - CSE or EFS (For CSE value is cse, for EFS value is efs)
+form.config.cache.source=efs
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineTestingTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=true
+
+IdListPartitioningEnabled=true
+
+#---------- Self Service URL -----------------
+#selfservice.Url=http://ankcsesyta04.dts.ca.gov:40098
+selfservice.Url=http://CGDCSSL1074UL.dcss.ca.gov:81
+
+#######################################################################################################################
+# Properties for Non Production Email Service
+#is.nonprod.env=true means it is a non-production environment.
+#invalid.domain.default.email=DCSSeDocDev@dcss.ca.gov means all the email from this environment sent to this email box.
+#nonprod.default.email.subject=Test Email from - This is default subject text appended in non-production environment.
+#env.instance=TEAM04 means non production environment instance.
+#######################################################################################################################
+is.nonprod.env=true
+invalid.domain.default.email=DCSSeDocSYS@dcss.ca.gov
+nonprod.default.email.subject=Test Email from
+env.instance=SYT01
+
+#---- SDU Hyperlink Configuration ------------
+sdu.encryption.key=CA%70#DCSS!X4PY$
+sdu.ePayment.url=https://www.cawebtest.com/navigation/lcsa/?pre_auth_token=
+
+
+##################################################################
+# HyperionSSO Properties[41C#
+##################################################################
+# SSO Encryption Key (the key has to be 16 characters, and has to be the same key in the HyperionSSO.properties included in the jar that is delopyed onto Hyperion Server)
+# and Hyperion Single Sign On Url
+#
+# sso.hyperion11.switchflag is for the purpose of rollback only when v4.18.0 is release.  sso.hyperion11.switchflag is defaulted to "true"
+# if sso.hyperion11.switchflag is true, value of sso.hyperion.url points to URL for Hyperion 11.
+# if sso.hyperion11.switchflag is false, value of sso.hyperion.url points to URL for Hyperion 8.5.
+
+sso.encryption.key=hyp#Inter@act!ve[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[H[2J
+sso.encryption.key=hyp#Inter@act!ve
+sso.hyperion.url=http://ankcsesyta02.dts.ca.gov/workspace/index.jsp
+sso.hyperion11.switchflag=true
+
+##################################################################
+# CSE Web-Service REST API Configuration Properties[14C#
+##################################################################
+#REST API Request Retry Key
+rest.request.retry=3
+#REST API RequestConfig Socket timeout Key
+rest.requestconfig.socketTimeout=15000
+#REST API RequestConfig Connection timeout Key
+rest.requestconfig.connectTimeout=15000
+#REST API RequestConfig EFS Socket timeout Key
+rest.requestconfig.efs.socketTimeout=45000
+
+##################################################################
+# EFS  Web-Service REST API Configuration Properties[13C#
+##################################################################
+# These properties define the files to use for form and form set definitions.
+# Separate file names with commas.
+form-set-definitions-files=FormSetDefinitions.xml
+form-definitions-files=FormDefinitions.xml
+#EFS Form Set Definition Url
+efs.formsetdefinition.url=https://100.95.20.101/efs-syt01/efs/getFormSetDefinitions
+#EFS Form Definition Url
+efs.formdefinition.url=https://100.95.20.101/efs-syt01/efs/getFormDefinitions
+#Source of form configuration cache source - CSE or EFS (For CSE value is cse, for EFS value is efs)
+form.config.cache.source=efs
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineTestingTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=true
+
+IdListPartitioningEnabled=true
+
+#---------- Self Service URL -----------------
+#selfservice.Url=http://ankcsesyta04.dts.ca.gov:40098
+selfservice.Url=http://CGDCSSL1074UL.dcss.ca.gov:81
+
+#######################################################################################################################
+# Properties for Non Production Email Service
+#is.nonprod.env=true means it is a non-production environment.
+#invalid.domain.default.email=DCSSeDocDev@dcss.ca.gov means all the email from this environment sent to this email box.
+#nonprod.default.email.subject=Test Email from - This is default subject text appended in non-production environment.
+#env.instance=TEAM04 means non production environment instance.
+#######################################################################################################################
+is.nonprod.env=true
+invalid.domain.default.email=DCSSeDocSYS@dcss.ca.gov
+nonprod.default.email.subject=Test Email from
+env.instance=SYT01
+
+#---- SDU Hyperlink Configuration ------------
+sdu.encryption.key=CA%70#DCSS!X4PY$
+sdu.ePayment.url=https://www.cawebtest.com/navigation/lcsa/?pre_auth_token=
+
+
+##################################################################
+# HyperionSSO Properties[41C#
+##################################################################
+# SSO Encryption Key (the key has to be 16 characters, and has to be the same key in the HyperionSSO.properties included in the jar that is delopyed onto Hyperion Server)
+# and Hyperion Single Sign On Url
+#
+# sso.hyperion11.switchflag is for the purpose of rollback only when v4.18.0 is release.  sso.hyperion11.switchflag is defaulted to "true"
+# if sso.hyperion11.switchflag is true, value of sso.hyperion.url points to URL for Hyperion 11.
+# if sso.hyperion11.switchflag is false, value of sso.hyperion.url points to URL for Hyperion 8.5.
+
+sso.encryption.key=hyp#Inter@act!ve[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:/Health[13;1H[43B[K/[13;28H[43B[K/[13;28H[43B[K/[13;28H[43B[K/[13;28H[43B[K/[13;28H[43B[K/[13;28H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[43B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ grep He  -i healthcheck *
+grep: 0652-033 Cannot open SYT01.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT01.tracing.properties-101019.
+grep: 0652-033 Cannot open SYT02.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT03.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT04.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT06.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT07.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT08.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT11.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT12.EnterpriseFormService.properties.
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls -lagrt
+total 1936
+drwxr-xr-x   11 wasadmin       4096 Oct 03 2018  ..
+-rwxr-xr-x    1 wasadmin       1010 Oct 03 2018  SYT01.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        748 Oct 03 2018  SYT01.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT01.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       1299 Oct 03 2018  SYT01.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT01.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       6239 Oct 03 2018  SYT01.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT01.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        479 Oct 03 2018  SYT01.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT01.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       2372 Oct 03 2018  SYT01.ShippingInterfaces.properties.bak
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT01.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT01.reporting.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT01.log4j.properties
+-rwxr-xr-x    1 wasadmin       1010 Oct 03 2018  SYT02.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT02.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT02.FontLocation.properties
+-rwxr-xr-x    1 wasadmin        748 Oct 03 2018  SYT02.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin       6238 Oct 03 2018  SYT02.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT02.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT02.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        393 Oct 03 2018  SYT02.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT02.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT02.log4j.properties
+-rwxr-xr-x    1 wasadmin       8885 Oct 03 2018  SYT02.tracing.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT02.reporting.properties
+-rwxr-xr-x    1 wasadmin       1010 Oct 03 2018  SYT03.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        748 Oct 03 2018  SYT03.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT03.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       6238 Oct 03 2018  SYT03.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT03.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT03.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin        479 Oct 03 2018  SYT03.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT03.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT03.log4j.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT03.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT03.reporting.properties
+-rwxr-xr-x    1 wasadmin       8885 Oct 03 2018  SYT03.tracing.properties
+-rwxr-xr-x    1 wasadmin        771 Oct 03 2018  SYT04.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        978 Oct 03 2018  SYT04.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT04.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT04.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1299 Oct 03 2018  SYT04.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT04.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT04.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        398 Oct 03 2018  SYT04.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT04.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT04.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT04.reporting.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT04.log4j.properties
+-rwxr-xr-x    1 wasadmin       8884 Oct 03 2018  SYT04.tracing.properties
+-rwxr-xr-x    1 wasadmin       1002 Oct 03 2018  SYT06.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT06.FontLocation.properties
+-rwxr-xr-x    1 wasadmin        789 Oct 03 2018  SYT06.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT06.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1299 Oct 03 2018  SYT06.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT06.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        398 Oct 03 2018  SYT06.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT06.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT06.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT06.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT06.log4j.properties
+-rwxr-xr-x    1 wasadmin       8884 Oct 03 2018  SYT06.tracing.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT06.reporting.properties
+-rwxr-xr-x    1 wasadmin        978 Oct 03 2018  SYT07.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        771 Oct 03 2018  SYT07.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT07.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT07.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1299 Oct 03 2018  SYT07.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT07.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT07.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin        398 Oct 03 2018  SYT07.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT07.log4j.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT07.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT07.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT07.reporting.properties
+-rwxr-xr-x    1 wasadmin       8884 Oct 03 2018  SYT07.tracing.properties
+-rwxr-xr-x    1 wasadmin        766 Oct 03 2018  SYT08.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        877 Oct 03 2018  SYT08.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT08.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       1303 Oct 03 2018  SYT08.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT08.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        398 Oct 03 2018  SYT08.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT08.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT08.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT08.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin       6647 Oct 03 2018  SYT08.log4j.properties
+-rwxr-xr-x    1 wasadmin        736 Oct 03 2018  SYT08.reporting.properties
+-rwxr-xr-x    1 wasadmin        978 Oct 03 2018  SYT09.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        771 Oct 03 2018  SYT09.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT09.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT09.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1305 Oct 03 2018  SYT09.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT09.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin       5796 Oct 03 2018  SYT09.log4j.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT09.reporting.properties
+-rwxr-xr-x    1 wasadmin       8884 Oct 03 2018  SYT09.tracing.properties
+-rwxr-xr-x    1 wasadmin        978 Oct 03 2018  SYT11.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        771 Oct 03 2018  SYT11.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT11.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       1292 Oct 03 2018  SYT11.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1292 Oct 03 2018  SYT11.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT11.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT11.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT11.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT11.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        393 Oct 03 2018  SYT11.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin       5829 Oct 03 2018  SYT11.log4j.properties
+-rwxr-xr-x    1 wasadmin        738 Oct 03 2018  SYT11.reporting.properties
+-rwxr-xr-x    1 wasadmin       8903 Oct 03 2018  SYT11.tracing.properties
+-rwxr-xr-x    1 wasadmin        771 Oct 03 2018  SYT12.ConsortiaUpdateQueuePublish.properties
+-rwxr-xr-x    1 wasadmin        978 Oct 03 2018  SYT12.ConsortiaInitialLoadToggle.properties
+-rwxr-xr-x    1 wasadmin        533 Oct 03 2018  SYT12.FontLocation.properties
+-rwxr-xr-x    1 wasadmin       2329 Oct 03 2018  SYT12.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin       1305 Oct 03 2018  SYT12.FormsIFOnlineArchitecture.properties
+-rwxr-xr-x    1 wasadmin       6237 Oct 03 2018  SYT12.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin        226 Oct 03 2018  SYT12.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin       9032 Oct 03 2018  SYT12.ShippingInterfaces.properties
+-rwxr-xr-x    1 wasadmin        393 Oct 03 2018  SYT12.SECUREInterface.properties
+-rwxr-xr-x    1 wasadmin        545 Oct 03 2018  SYT12.iSupportInterface.properties
+-rwxr-xr-x    1 wasadmin        737 Oct 03 2018  SYT12.reporting.properties
+-rwxr-xr-x    1 wasadmin       6979 Oct 03 2018  SYT12.log4j.properties
+-rwxr-xr-x    1 wasadmin       8886 Oct 03 2018  SYT12.tracing.properties
+-rwxr-xr-x    1 wasadmin       9033 Oct 03 2018  ShippingInterface.properties
+-rwxr-xr-x    1 wasadmin       5797 Oct 03 2018  UIT04.log4j.properties
+-rwxr-xr-x    1 wasadmin         36 Oct 03 2018  cmbpool.ini
+-rwxr-xr-x    1 wasadmin        303 Oct 03 2018  cmbicmsrvs.ini
+-rwxr-xr-x    1 wasadmin        126 Oct 03 2018  donotremove
+-rwxr-xr-x    1 wasadmin         46 Oct 03 2018  ppr.properties
+drwxr-xr-x    3 wasadmin        256 Oct 03 2018  cmgmt
+-rwxr-xr-x    1 wasadmin       1962 Oct 03 2018  securityAdministration.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT01.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT02.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT03.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT04.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT06.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT07.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT08.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT09.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT11.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       3595 Oct 17 2018  SYT12.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin       8903 Nov 16 2018  SYT08.tracing.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT01.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT03.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT02.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT04.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT06.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT07.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT12.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT11.EnterpriseFormService.properties
+-rw-r-----    1 wasadmin         74 Mar 13 2019  SYT08.EnterpriseFormService.properties
+-rwxr-xr-x    1 wasadmin       4159 Jul 22 15:15 SYT12.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4181 Aug 21 16:39 SYT01.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4176 Aug 21 16:40 SYT02.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4187 Aug 21 16:40 SYT03.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4107 Aug 21 16:40 SYT04.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4181 Aug 21 16:41 SYT06.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4192 Aug 21 16:41 SYT07.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4222 Aug 21 16:42 SYT08.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4106 Aug 21 16:42 SYT09.CSEArchitecture.properties
+-rwxr-xr-x    1 wasadmin       4186 Aug 21 16:43 SYT11.CSEArchitecture.properties
+drwxr-xr-x    3 wasadmin      20480 Oct 10 12:23 .
+-rwxr-x---    1 wasadmin       8882 Oct 10 12:23 SYT01.tracing.properties-101019
+-rwxr-xr-x    1 wasadmin       8882 Oct 10 12:23 SYT01.tracing.properties
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls -lagrtgrep -i healthcheck *grep -i health.check *
+grep: 0652-033 Cannot open SYT01.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT01.tracing.properties-101019.
+grep: 0652-033 Cannot open SYT02.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT03.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT04.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT06.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT07.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT08.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT11.EnterpriseFormService.properties.
+grep: 0652-033 Cannot open SYT12.EnterpriseFormService.properties.
+ankcsesyta01[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

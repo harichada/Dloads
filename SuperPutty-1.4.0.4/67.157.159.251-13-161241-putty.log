@@ -1,0 +1,222 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 16:12:41 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Nov  8 15:21:52 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ grep 73 /etc/hosts
+100.95.20.103	CGDCSSL10[01;31m[K73[m[KUL	syawscc
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ssh syawscc
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+Last login: Fri Nov  1 13:37:01 2019 from 100.95.21.96
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1073UL:~[?1034h[hchada@CGDCSSL1073UL ~]$ ls
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ netstat -an | grep 80
+tcp        0      0 0.0.0.0:4[01;31m[K80[m[K00           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:4[01;31m[K80[m[K01           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:4[01;31m[K80[m[K07           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:4[01;31m[K80[m[K08           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:4[01;31m[K80[m[K09           0.0.0.0:*               LISTEN     
+tcp6       0      0 :::[01;31m[K80[m[K                   :::*                    LISTEN     
+udp        0      0 0.0.0.0:4[01;31m[K80[m[K00           0.0.0.0:*                          
+udp6       0      0 fe[01;31m[K80[m[K::250:56ff:feb5:123 :::*                               
+unix  3      [ ]         STREAM     CONNECTED     204[01;31m[K80[m[K    
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ telnet 0 80
+-bash: telnet: command not found
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ curl
+curl: try 'curl --help' or 'curl --manual' for more information
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ curl localhost:80
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Test Page for the Apache HTTP Server on Red Hat Enterprise Linux</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style type="text/css">
+			/*<![CDATA[*/
+			body {
+				background-color: #fff;
+				color: #000;
+				font-size: 0.9em;
+				font-family: sans-serif,helvetica;
+				margin: 0;
+				padding: 0;
+			}
+			:link {
+				color: #c00;
+			}
+			:visited {
+				color: #c00;
+			}
+			a:hover {
+				color: #f50;
+			}
+			h1 {
+				text-align: center;
+				margin: 0;
+				padding: 0.6em 2em 0.4em;
+				background-color: #900;
+				color: #fff;
+				font-weight: normal;
+				font-size: 1.75em;
+				border-bottom: 2px solid #000;
+			}
+			h1 strong {
+				font-weight: bold;
+			}
+			h2 {
+				font-size: 1.1em;
+				font-weight: bold;
+			}
+			hr {
+				display: none;
+			}
+			.content {
+				padding: 1em 5em;
+			}
+			.content-columns {
+				/* Setting relative positioning allows for 
+				absolute positioning for sub-classes */
+				position: relative;
+				padding-top: 1em;
+			}
+			.content-column-left {
+				/* Value for IE/Win; will be overwritten for other browsers */
+				width: 47%;
+				padding-right: 3%;
+				float: left;
+				padding-bottom: 2em;
+			}
+			.content-column-left hr {
+				display: none;
+			}
+			.content-column-right {
+				/* Values for IE/Win; will be overwritten for other browsers */
+				width: 47%;
+				padding-left: 3%;
+				float: left;
+				padding-bottom: 2em;
+			}
+			.content-columns>.content-column-left, .content-columns>.content-column-right {
+				/* Non-IE/Win */
+			}
+			img {
+				border: 2px solid #fff;
+				padding: 2px;
+				margin: 2px;
+			}
+			a:hover img {
+				border: 2px solid #f50;
+			}
+			/*]]>*/
+		</style>
+	</head>
+
+	<body>
+		<h1>Red Hat Enterprise Linux <strong>Test Page</strong></h1>
+
+		<div class="content">
+			<div class="content-middle">
+				<p>This page is used to test the proper operation of the Apache HTTP server after it has been installed. If you can read this page, it means that the Apache HTTP server installed at this site is working properly.</p>
+			</div>
+			<hr />
+
+			<div class="content-columns">
+				<div class="content-column-left">
+					<h2>If you are a member of the general public:</h2>
+
+					<p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems, or is undergoing routine maintenance.</p>
+
+					<p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>
+
+					<p>For example, if you experienced problems while visiting www.example.com, you should send e-mail to "webmaster@example.com".</p>
+
+					<p>For information on Red Hat Enterprise Linux, please visit the <a href="http://www.redhat.com/">Red Hat, Inc. website</a>. The documentation for Red Hat Enterprise Linux is <a href="http://www.redhat.com/docs/manuals/enterprise/">available on the Red Hat, Inc. website</a>.</p>
+					<hr />
+				</div>
+
+				<div class="content-column-right">
+					<h2>If you are the website administrator:</h2>
+
+					<p>You may now add content to the directory <tt>/var/www/html/</tt>. Note that until you do so, people visiting your website will see this page, and not your content. To prevent this page from ever being used, follow the instructions in the file <tt>/etc/httpd/conf.d/welcome.conf</tt>.</p>
+
+                                        <p>You are free to use the image below on web sites powered by the Apache HTTP Server:</p>
+					
+                                        <p align="center"><a href="http://httpd.apache.org/"><img src="/icons/apache_pb2.gif" alt="[ Powered by Apache ]"/></a></p>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ service firewald [K[Kld status
+Redirecting to /bin/systemctl status firewalld.service
+● firewalld.service - firewalld - dynamic firewall daemon
+   Loaded: loaded (/usr/lib/systemd/system/firewalld.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:firewalld(1)
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ ps -ef | grep iptables
+hchada   15286 15179  0 16:14 pts/0    00:00:00 grep --color=auto [01;31m[Kiptables[m[K
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ lllllk[Aps -ef | grep iptablesservice firewalld status[2Pps -ef | grep iptables[K
+hchada   15293 15179  0 16:14 pts/0    00:00:00 grep --color=auto [01;31m[Kiptable[m[K
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ service --status-all
+netconsole module not loaded
+Configured devices:
+lo ens192
+Currently active devices:
+lo ens192
+Usage /etc/init.d/nimbus {start stop restart}
+[1;32m●[0m rhnsd.service - LSB: Starts the Spacewalk Daemon
+   Loaded: loaded (/etc/rc.d/init.d/rhnsd; bad; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Sun 2019-08-18 10:49:20 PDT; 2 months 26 days ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 1345 ExecStart=/etc/rc.d/init.d/rhnsd start (code=exited, status=0/SUCCESS)
+ Main PID: 1376 (rhnsd)
+   CGroup: /system.slice/rhnsd.service
+           └─1376 rhnsd
+
+Nov 11 23:36:35 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 12 03:36:35 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 12 07:36:35 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 12 13:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 12 17:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 12 21:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 13 01:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 13 05:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 13 09:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+Nov 13 13:00:52 CGDCSSL1073UL rhnsd[1376]: /etc/sysconfig/rhn/systemid does not exist or is unreadable
+vmtoolsd is not running
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ sudo service --status-all
+[sudo] password for hchada: 
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ ls
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ 

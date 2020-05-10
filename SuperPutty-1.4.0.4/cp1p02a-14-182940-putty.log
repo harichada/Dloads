@@ -1,0 +1,770 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.14 18:29:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Oct 30 07:48:34 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 14 16:29:22 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2a02[/home/hchada]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1476920   30%    14393     8% /
+/dev/hd2        11534336   1112864   91%    71309    34% /usr
+/dev/hd9var      8388608   6178504   27%    13343     2% /var
+/dev/hd3         4980736   3779248   25%     2195     1% /tmp
+/dev/hd1         2621440   1088976   59%     6706     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     9895936   1634936   84%    30978    14% /opt
+/dev/home_hw      524288    514344    2%      266     1% /home/hw
+/dev/mksysb     27262976   7187880   74%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    447080   15%      631     2% /usr/local
+/dev/sysbacklv    8388608   8353904    1%        4     1% /sysback
+/dev/fixeslv     4587520   4567728    1%        4     1% /fixes
+/dev/ibmcm_lv    1048576   1039568    1%        4     1% /ibmcm
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/cmlbosdata1    5242880   5220944    1%        4     1% /cm/lbosdata1
+/dev/insthome_lv    4718592   4625208    2%      251     1% /insthome
+/dev/websphere7lv   16777216   5430784   68%    33958     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  11790904   30%    25569     2% /usr/WebSphere7CM
+/dev/scratchlv   10485760   4367936   59%     1674     1% /scratch
+/dev/auditlv     4194304   4146576    2%        6     1% /opt/auditout
+/dev/tmpswstage_lv   23068672   6284088   73%     4498     1% /tmpswstage
+/dev/CommVaultlv   20709376  17963080   14%     2515     1% /CommVault
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16777216  13259944   21%    21672     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078864    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   67108864  46081688   32%   119511     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2d01:/cp1p02a/cse    10485760    891648   92%     8521     4% /cse
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/db2data_batch    58720256  51186192   13%    11220     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14267408   31%   156386     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4174640   31%     6492     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488         0  100%   173760    63% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  19232856    8%    14710     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888         0  100%     4442    22% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41765440    1%      988     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23543200    6%     2117     1% /p03a_hotfolders
+ankcsepf2d01:/pdf2afp    38797312  38507960    1%     1920     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  45336672   34%     3302     1% /cpos
+ankcsepf2d01:/docstorage     8388608   6241728   26%     5542     1% /docstorage
+/dev/itmlv       6291456   5294608   16%     4024     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2a02[/home/hchada]$ cd /cm/drArchive/001
+ankcsepf2a02[/cm/drArchive/001]$ ls
+lbosdata    lost+found
+ankcsepf2a02[/cm/drArchive/001]$ cd LB  lb*
+ksh: lbosdata: Permission denied.
+ankcsepf2a02[/cm/drArchive/001]$ ls
+lbosdata    lost+found
+ankcsepf2a02[/cm/drArchive/001]$ sudo su - wasadmin
+Password:
+[YOU HAVE NEW MAIL]
+ankcsepf2a02[/home/wasadmin]$ cd /cm/drArchive/001
+ankcsepf2a02[/cm/drArchive/001]$ cd lb*
+ankcsepf2a02[/cm/drArchive/001/lbosdata]$ ls
+00005
+ankcsepf2a02[/cm/drArchive/001/lbosdata]$ cd 0*
+ankcsepf2a02[/cm/drArchive/001/lbosdata/00005]$ ls
+01   114  137  16   182  205  228  250  273  296  319  341  364  387  41   432  455  478  500  523  546  569  591  614  637  66   682  705  728  750  773  796  819  841  864  887  91   932  955  978
+02   115  138  160  183  206  229  251  274  297  32   342  365  388  410  433  456  479  501  524  547  57   592  615  638  660  683  706  729  751  774  797  82   842  865  888  910  933  956  979
+03   116  139  161  184  207  23   252  275  298  320  343  366  389  411  434  457  48   502  525  548  570  593  616  639  661  684  707  73   752  775  798  820  843  866  889  911  934  957  98
+04   117  14   162  185  208  230  253  276  299  321  344  367  39   412  435  458  480  503  526  549  571  594  617  64   662  685  708  730  753  776  799  821  844  867  89   912  935  958  980
+05   118  140  163  186  209  231  254  277  30   322  345  368  390  413  436  459  481  504  527  55   572  595  618  640  663  686  709  731  754  777  80   822  845  868  890  913  936  959  981
+06   119  141  164  187  21   232  255  278  300  323  346  369  391  414  437  46   482  505  528  550  573  596  619  641  664  687  71   732  755  778  800  823  846  869  891  914  937  96   982
+07   12   142  165  188  210  233  256  279  301  324  347  37   392  415  438  460  483  506  529  551  574  597  62   642  665  688  710  733  756  779  801  824  847  87   892  915  938  960  983
+08   120  143  166  189  211  234  257  28   302  325  348  370  393  416  439  461  484  507  53   552  575  598  620  643  666  689  711  734  757  78   802  825  848  870  893  916  939  961  984
+09   121  144  167  19   212  235  258  280  303  326  349  371  394  417  44   462  485  508  530  553  576  599  621  644  667  69   712  735  758  780  803  826  849  871  894  917  94   962  985
+10   122  145  168  190  213  236  259  281  304  327  35   372  395  418  440  463  486  509  531  554  577  60   622  645  668  690  713  736  759  781  804  827  85   872  895  918  940  963  986
+100  123  146  169  191  214  237  26   282  305  328  350  373  396  419  441  464  487  51   532  555  578  600  623  646  669  691  714  737  76   782  805  828  850  873  896  919  941  964  987
+101  124  147  17   192  215  238  260  283  306  329  351  374  397  42   442  465  488  510  533  556  579  601  624  647  67   692  715  738  760  783  806  829  851  874  897  92   942  965  988
+102  125  148  170  193  216  239  261  284  307  33   352  375  398  420  443  466  489  511  534  557  58   602  625  648  670  693  716  739  761  784  807  83   852  875  898  920  943  966  989
+103  126  149  171  194  217  24   262  285  308  330  353  376  399  421  444  467  49   512  535  558  580  603  626  649  671  694  717  74   762  785  808  830  853  876  899  921  944  967  99
+104  127  15   172  195  218  240  263  286  309  331  354  377  40   422  445  468  490  513  536  559  581  604  627  65   672  695  718  740  763  786  809  831  854  877  90   922  945  968  990
+105  128  150  173  196  219  241  264  287  31   332  355  378  400  423  446  469  491  514  537  56   582  605  628  650  673  696  719  741  764  787  81   832  855  878  900  923  946  969  991
+106  129  151  174  197  22   242  265  288  310  333  356  379  401  424  447  47   492  515  538  560  583  606  629  651  674  697  72   742  765  788  810  833  856  879  901  924  947  97   992
+107  13   152  175  198  220  243  266  289  311  334  357  38   402  425  448  470  493  516  539  561  584  607  63   652  675  698  720  743  766  789  811  834  857  88   902  925  948  970  993
+108  130  153  176  199  221  244  267  29   312  335  358  380  403  426  449  471  494  517  54   562  585  608  630  653  676  699  721  744  767  79   812  835  858  880  903  926  949  971  994
+109  131  154  177  20   222  245  268  290  313  336  359  381  404  427  45   472  495  518  540  563  586  609  631  654  677  70   722  745  768  790  813  836  859  881  904  927  95   972  995
+11   132  155  178  200  223  246  269  291  314  337  36   382  405  428  450  473  496  519  541  564  587  61   632  655  678  700  723  746  769  791  814  837  86   882  905  928  950  973  996
+110  133  156  179  201  224  247  27   292  315  338  360  383  406  429  451  474  497  52   542  565  588  610  633  656  679  701  724  747  77   792  815  838  860  883  906  929  951  974  997
+111  134  157  18   202  225  248  270  293  316  339  361  384  407  43   452  475  498  520  543  566  589  611  634  657  68   702  725  748  770  793  816  839  861  884  907  93   952  975  998
+112  135  158  180  203  226  249  271  294  317  34   362  385  408  430  453  476  499  521  544  567  59   612  635  658  680  703  726  749  771  794  817  84   862  885  908  930  953  976  999
+113  136  159  181  204  227  25   272  295  318  340  363  386  409  431  454  477  50   522  545  568  590  613  636  659  681  704  727  75   772  795  818  840  863  886  909  931  954  977
+ankcsepf2a02[/cm/drArchive/001/lbosdata/00005]$ rm -rf *
+ankcsepf2a02[/cm/drArchive/001/lbosdata/00005]$ cd ..
+ankcsepf2a02[/cm/drArchive/001/lbosdata]$ cd  df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1476880   30%    14393     8% /
+/dev/hd2        11534336   1112864   91%    71309    34% /usr
+/dev/hd9var      8388608   6186824   27%    13339     2% /var
+/dev/hd3         4980736   3779248   25%     2195     1% /tmp
+/dev/hd1         2621440   1088944   59%     6706     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     9895936   1636648   84%    30978    14% /opt
+/dev/home_hw      524288    514344    2%      266     1% /home/hw
+/dev/mksysb     27262976   7187880   74%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    447080   15%      631     2% /usr/local
+/dev/sysbacklv    8388608   8353904    1%        4     1% /sysback
+/dev/fixeslv     4587520   4567728    1%        4     1% /fixes
+/dev/ibmcm_lv    1048576   1039568    1%        4     1% /ibmcm
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/cmlbosdata1    5242880   5220944    1%        4     1% /cm/lbosdata1
+/dev/insthome_lv    4718592   4625208    2%      251     1% /insthome
+/dev/websphere7lv   16777216   5430784   68%    33958     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  11790728   30%    25569     2% /usr/WebSphere7CM
+/dev/scratchlv   10485760   4367936   59%     1674     1% /scratch
+/dev/auditlv     4194304   4144584    2%        6     1% /opt/auditout
+/dev/tmpswstage_lv   23068672   6284088   73%     4498     1% /tmpswstage
+/dev/CommVaultlv   20709376  17963032   14%     2515     1% /CommVault
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16777216  13259944   21%    21672     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078976    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   67108864  46064168   32%   119512     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2d01:/cp1p02a/cse    10485760    890584   92%     8521     4% /cse
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/db2data_batch    58720256  51186184   13%    11220     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14267408   31%   156386     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4174640   31%     6492     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488         0  100%   173760    63% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  19232856    8%    14710     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888  39663072    1%        6     1% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41765440    1%      988     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23543200    6%     2117     1% /p03a_hotfolders
+ankcsepf2d01:/pdf2afp    38797312  38507960    1%     1920     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  45231504   34%     3308     1% /cpos
+ankcsepf2d01:/docstorage     8388608   6241728   26%     5542     1% /docstorage
+/dev/itmlv       6291456   5294608   16%     4024     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2a02[/cm/drArchive/001/lbosdata]$ cd /cm/archive/001
+ankcsepf2a02[/cm/archive/001]$ ls
+lbosdata    lost+found
+ankcsepf2a02[/cm/archive/001]$ cd lb*
+ankcsepf2a02[/cm/archive/001/lbosdata]$ ls
+00004
+ankcsepf2a02[/cm/archive/001/lbosdata]$ cd *
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ ls
+01   114  137  16   182  205  228  250  273  296  319  341  364  387  41   432  455  478  500  523  546  569  591  614  637  66   682  705  728  750  773  796  819  841  864  887  91   932  955  978
+02   115  138  160  183  206  229  251  274  297  32   342  365  388  410  433  456  479  501  524  547  57   592  615  638  660  683  706  729  751  774  797  82   842  865  888  910  933  956  979
+03   116  139  161  184  207  23   252  275  298  320  343  366  389  411  434  457  48   502  525  548  570  593  616  639  661  684  707  73   752  775  798  820  843  866  889  911  934  957  98
+04   117  14   162  185  208  230  253  276  299  321  344  367  39   412  435  458  480  503  526  549  571  594  617  64   662  685  708  730  753  776  799  821  844  867  89   912  935  958  980
+05   118  140  163  186  209  231  254  277  30   322  345  368  390  413  436  459  481  504  527  55   572  595  618  640  663  686  709  731  754  777  80   822  845  868  890  913  936  959  981
+06   119  141  164  187  21   232  255  278  300  323  346  369  391  414  437  46   482  505  528  550  573  596  619  641  664  687  71   732  755  778  800  823  846  869  891  914  937  96   982
+07   12   142  165  188  210  233  256  279  301  324  347  37   392  415  438  460  483  506  529  551  574  597  62   642  665  688  710  733  756  779  801  824  847  87   892  915  938  960  983
+08   120  143  166  189  211  234  257  28   302  325  348  370  393  416  439  461  484  507  53   552  575  598  620  643  666  689  711  734  757  78   802  825  848  870  893  916  939  961  984
+09   121  144  167  19   212  235  258  280  303  326  349  371  394  417  44   462  485  508  530  553  576  599  621  644  667  69   712  735  758  780  803  826  849  871  894  917  94   962  985
+10   122  145  168  190  213  236  259  281  304  327  35   372  395  418  440  463  486  509  531  554  577  60   622  645  668  690  713  736  759  781  804  827  85   872  895  918  940  963  986
+100  123  146  169  191  214  237  26   282  305  328  350  373  396  419  441  464  487  51   532  555  578  600  623  646  669  691  714  737  76   782  805  828  850  873  896  919  941  964  987
+101  124  147  17   192  215  238  260  283  306  329  351  374  397  42   442  465  488  510  533  556  579  601  624  647  67   692  715  738  760  783  806  829  851  874  897  92   942  965  988
+102  125  148  170  193  216  239  261  284  307  33   352  375  398  420  443  466  489  511  534  557  58   602  625  648  670  693  716  739  761  784  807  83   852  875  898  920  943  966  989
+103  126  149  171  194  217  24   262  285  308  330  353  376  399  421  444  467  49   512  535  558  580  603  626  649  671  694  717  74   762  785  808  830  853  876  899  921  944  967  99
+104  127  15   172  195  218  240  263  286  309  331  354  377  40   422  445  468  490  513  536  559  581  604  627  65   672  695  718  740  763  786  809  831  854  877  90   922  945  968  990
+105  128  150  173  196  219  241  264  287  31   332  355  378  400  423  446  469  491  514  537  56   582  605  628  650  673  696  719  741  764  787  81   832  855  878  900  923  946  969  991
+106  129  151  174  197  22   242  265  288  310  333  356  379  401  424  447  47   492  515  538  560  583  606  629  651  674  697  72   742  765  788  810  833  856  879  901  924  947  97   992
+107  13   152  175  198  220  243  266  289  311  334  357  38   402  425  448  470  493  516  539  561  584  607  63   652  675  698  720  743  766  789  811  834  857  88   902  925  948  970  993
+108  130  153  176  199  221  244  267  29   312  335  358  380  403  426  449  471  494  517  54   562  585  608  630  653  676  699  721  744  767  79   812  835  858  880  903  926  949  971  994
+109  131  154  177  20   222  245  268  290  313  336  359  381  404  427  45   472  495  518  540  563  586  609  631  654  677  70   722  745  768  790  813  836  859  881  904  927  95   972  995
+11   132  155  178  200  223  246  269  291  314  337  36   382  405  428  450  473  496  519  541  564  587  61   632  655  678  700  723  746  769  791  814  837  86   882  905  928  950  973  996
+110  133  156  179  201  224  247  27   292  315  338  360  383  406  429  451  474  497  52   542  565  588  610  633  656  679  701  724  747  77   792  815  838  860  883  906  929  951  974  997
+111  134  157  18   202  225  248  270  293  316  339  361  384  407  43   452  475  498  520  543  566  589  611  634  657  68   702  725  748  770  793  816  839  861  884  907  93   952  975  998
+112  135  158  180  203  226  249  271  294  317  34   362  385  408  430  453  476  499  521  544  567  59   612  635  658  680  703  726  749  771  794  817  84   862  885  908  930  953  976  999
+113  136  159  181  204  227  25   272  295  318  340  363  386  409  431  454  477  50   522  545  568  590  613  636  659  681  704  727  75   772  795  818  840  863  886  909  931  954  977
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ rm -rf *
+rm: 0653-611 Directory 100 is not empty.
+
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ 
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ df .
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+ankcsepf2d01:/cm/archive/001   144703488  67213904   54%    92857     2% /cm/archive/001
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ ls
+100
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ c 100
+ksh: c:  not found.
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ ls
+100
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ ls
+100
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ cd 100
+ankcsepf2a02[/cm/archive/001/lbosdata/00004/100]$ ls
+ankcsepf2a02[/cm/archive/001/lbosdata/00004/100]$ ls -la
+total 424
+drwx------    2 wasadmin wasadmin      12288 Nov 14 18:38 .
+drwxrwxrwx    3 wasadmin wasadmin      45056 Nov 14 18:44 ..
+-r--------    1 wasadmin wasadmin     203283 Nov 04 20:02 .nfsC61
+ankcsepf2a02[/cm/archive/001/lbosdata/00004/100]$ du .
+408     .
+ankcsepf2a02[/cm/archive/001/lbosdata/00004/100]$ cd ..
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ clear
+[H[2Jankcsepf2a02[/cm/archive/001/lbosdata/00004]$ df .
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+ankcsepf2d01:/cm/archive/001   144703488  67213904   54%    92857     2% /cm/archive/001
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1476840   30%    14393     8% /
+/dev/hd2        11534336   1112864   91%    71309    34% /usr
+/dev/hd9var      8388608   6186472   27%    13339     2% /var
+/dev/hd3         4980736   3779248   25%     2195     1% /tmp
+/dev/hd1         2621440   1088888   59%     6706     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     9895936   1636184   84%    30978    14% /opt
+/dev/home_hw      524288    514344    2%      266     1% /home/hw
+/dev/mksysb     27262976   7187880   74%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    447080   15%      631     2% /usr/local
+/dev/sysbacklv    8388608   8353904    1%        4     1% /sysback
+/dev/fixeslv     4587520   4567728    1%        4     1% /fixes
+/dev/ibmcm_lv    1048576   1039568    1%        4     1% /ibmcm
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/cmlbosdata1    5242880   5220944    1%        4     1% /cm/lbosdata1
+/dev/insthome_lv    4718592   4625208    2%      251     1% /insthome
+/dev/websphere7lv   16777216   5430784   68%    33958     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  11790504   30%    25569     2% /usr/WebSphere7CM
+/dev/scratchlv   10485760   4367936   59%     1674     1% /scratch
+/dev/auditlv     4194304   4076496    3%        6     1% /opt/auditout
+/dev/tmpswstage_lv   23068672   6284088   73%     4498     1% /tmpswstage
+/dev/CommVaultlv   20709376  17962952   14%     2515     1% /CommVault
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16777216  13259944   21%    21672     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078832    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   67108864  46081680   32%   119511     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2d01:/cp1p02a/cse    10485760    888736   92%     8521     4% /cse
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/db2data_batch    58720256  51186184   13%    11220     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14267408   31%   156386     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4174640   31%     6492     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488  67213904   54%    92857     2% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  19232856    8%    14710     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888  39663072    1%        6     1% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41765440    1%      988     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23542080    6%     2131     1% /p03a_hotfolders
+ankcsepf2d01:/pdf2afp    38797312  38507960    1%     1920     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  45336568   34%     3304     1% /cpos
+ankcsepf2d01:/docstorage     8388608   6241728   26%     5542     1% /docstorage
+/dev/itmlv       6291456   5294600   16%     4024     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1476840   30%    14393     8% /
+/dev/hd2        11534336   1112864   91%    71309    34% /usr
+/dev/hd9var      8388608   6186536   27%    13339     2% /var
+/dev/hd3         4980736   3779248   25%     2195     1% /tmp
+/dev/hd1         2621440   1088880   59%     6706     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     9895936   1636080   84%    30978    14% /opt
+/dev/home_hw      524288    514344    2%      266     1% /home/hw
+/dev/mksysb     27262976   7187880   74%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    447080   15%      631     2% /usr/local
+/dev/sysbacklv    8388608   8353904    1%        4     1% /sysback
+/dev/fixeslv     4587520   4567728    1%        4     1% /fixes
+/dev/ibmcm_lv    1048576   1039568    1%        4     1% /ibmcm
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/cmlbosdata1    5242880   5220944    1%        4     1% /cm/lbosdata1
+/dev/insthome_lv    4718592   4625208    2%      251     1% /insthome
+/dev/websphere7lv   16777216   5430784   68%    33958     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  11790504   30%    25569     2% /usr/WebSphere7CM
+/dev/scratchlv   10485760   4367936   59%     1674     1% /scratch
+/dev/auditlv     4194304   4076416    3%        6     1% /opt/auditout
+/dev/tmpswstage_lv   23068672   6284088   73%     4498     1% /tmpswstage
+/dev/CommVaultlv   20709376  17962936   14%     2515     1% /CommVault
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16777216  13259944   21%    21672     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078904    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   67108864  46081672   32%   119511     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2d01:/cp1p02a/cse    10485760    888560   92%     8521     4% /cse
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/db2data_batch    58720256  51186184   13%    11220     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14267408   31%   156386     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4174640   31%     6492     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488  67330616   54%    92763     2% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  19232856    8%    14710     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888  39663072    1%        6     1% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41765440    1%      988     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23541896    6%     2132     1% /p03a_hotfolders
+ankcsepf2d01:/pdf2afp    38797312  38507960    1%     1920     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  45494344   34%     3294     1% /cpos
+ankcsepf2d01:/docstorage     8388608   6241728   26%     5542     1% /docstorage
+/dev/itmlv       6291456   5294600   16%     4024     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ 
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1476824   30%    14393     8% /
+/dev/hd2        11534336   1112864   91%    71309    34% /usr
+/dev/hd9var      8388608   6186536   27%    13339     2% /var
+/dev/hd3         4980736   3779248   25%     2195     1% /tmp
+/dev/hd1         2621440   1088864   59%     6706     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     9895936   1635920   84%    30978    14% /opt
+/dev/home_hw      524288    514344    2%      266     1% /home/hw
+/dev/mksysb     27262976   7187880   74%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    447080   15%      631     2% /usr/local
+/dev/sysbacklv    8388608   8353904    1%        4     1% /sysback
+/dev/fixeslv     4587520   4567728    1%        4     1% /fixes
+/dev/ibmcm_lv    1048576   1039568    1%        4     1% /ibmcm
+/dev/mqm_lv      1048576   1038784    1%       53     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/cmlbosdata1    5242880   5220944    1%        4     1% /cm/lbosdata1
+/dev/insthome_lv    4718592   4625208    2%      251     1% /insthome
+/dev/websphere7lv   16777216   5430784   68%    33958     6% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  11790440   30%    25569     2% /usr/WebSphere7CM
+/dev/scratchlv   10485760   4367936   59%     1674     1% /scratch
+/dev/auditlv     4194304   4076304    3%        6     1% /opt/auditout
+/dev/tmpswstage_lv   23068672   6284088   73%     4498     1% /tmpswstage
+/dev/CommVaultlv   20709376  17962912   14%     2515     1% /CommVault
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7klv   16777216  13259944   21%    21672     2% /usr/WebSphere7K
+/dev/logslv      2097152   2078936    1%        9     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   67108864  46081672   32%   119511     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf2d01:/cp1p02a/cse    10485760    888048   92%     8521     4% /cse
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsepf2d01:/db2data_batch    58720256  51186184   13%    11220     1% /cse/shared
+ankcsedevd01:/ds004_admin    20447232  14267408   31%   156386     7% /cse/admin
+ankcsepf2a08:/cse/selfservice     6029312   4174640   31%     6492     2% /cse/selfservice
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2d01:/cm/archivelt001   100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01:/cm/archive/001   144703488  67330616   54%    92763     2% /cm/archive/001
+ankcsepf2d01:/cmlbosdata1     8388608   8353760    1%        9     1% /cmlbosdata1
+ankcsepf2d01:/cm/active/001    20824064  19232856    8%    14710     1% /cm/active/001
+ankcsepf2d01:/cm/drArchive/001    39845888  39663072    1%        6     1% /cm/drArchive/001
+ankcsepf2d01:/cm/eDocs    41943040  41765440    1%      988     1% /cm/eDocs
+ankcsepf2a03:/var/pd/hotfolders    24903680  23541896    6%     2132     1% /p03a_hotfolders
+ankcsepf2d01:/pdf2afp    38797312  38507960    1%     1920     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  45494344   34%     3294     1% /cpos
+ankcsepf2d01:/docstorage     8388608   6241728   26%     5542     1% /docstorage
+/dev/itmlv       6291456   5294600   16%     4024     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf2d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf2d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf2d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf2d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf2d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ ps -ef | grep java
+    root  4063316  6553664   0   Apr 29      - 32:21 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=rnLcfncas98Pw6b_ -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6553664 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin  9044200 56819788   0   Nov 13      - 167:02 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=54187 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_Online_p02a_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Xdump:console+java:events=user -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Dibm.dg.trc.print=st_verify -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_Online_p02a_01
+wasadmin 13697118 56819788   1   Nov 13      - 133:02 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=53449 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_IF_Online/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms256m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_IF.profile -Dibm.dg.trc.print=st_verify -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_IF_Online
+wasadmin 14090364        1   0   Oct 31      - 21:18 /usr/WebSphere7CM/AppServer/java/bin/java -Xmaxt0.5 -Dwas.status.socket=51313 -Declipse.security -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/AppServer/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/AppServer/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/AppServer/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/AppServer/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/AppServer/config cp1p02aCMCell cp1p02aCMNode nodeagent
+wasadmin 21299208        1   1   Oct 31      - 78:28 /usr/WebSphere7CM/AppServer/java/bin/java -Declipse.security -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/AppServer/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/AppServer/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/AppServer/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/AppServer/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/AppServer/config cp1p02aCMCell cp1p02aCMNode PFT02_icmrm_p02a_01
+wasadmin 22478888 41550052   0   Oct 28      - 68:06 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=50455 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/PFT02_CF_a02_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf2a02CFCell01 ankcsepf2a02CFNode01 PFT02_CF_a02_01
+wasadmin 23265382 39452906   0 18:54:28  pts/0  0:00 grep java
+wasadmin 30671044        1   1   Oct 28      - 73:40 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=49088 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config ankcsepf2a02CFCell01 ankcsepf2a02CFCellManager01 dmgr
+wasadmin 32178204 56819788   0   Nov 13      -  8:30 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=53789 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_IF_p02a_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms256m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_IF.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_IF_p02a_01
+wasadmin 41550052        1   0   Oct 28      - 63:34 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Xmaxt0.5 -Dwas.status.socket=49345 -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/nodeagent/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf2a02CFCell01 ankcsepf2a02CFNode01 nodeagent
+wasadmin 47841340        1   0   May 06      - 967:17 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dwas.status.socket=51163 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/AppServer/servers/PFT02_Kiosk_p02a_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85K/profiles/AppServer/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/AppServer/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Kiosk.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/AppServer/config cp2p01aCell01 cp1p02aNode01 PFT02_Kiosk_p02a_01
+wasadmin 48693348 56819788   0   Nov 13      - 179:19 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=54290 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_Online_p02a_02/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Xdump:console+java:events=user -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Dibm.dg.trc.print=st_verify -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_Online_p02a_02
+wasadmin 48889904 56819788  11   Nov 13      - 99:27 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=53302 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_Batch_p02a_02/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Batch.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -Dlogging.folder=/cse/batch/PFT02_Batch_p02a_02/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2/logging.xml -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_Batch_p02a_02
+wasadmin 50200664        1   1   Jun 06      - 303:14 /usr/WebSphere7CM/AppServer/java/bin/java -Declipse.security -Dwas.status.socket=41024 -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/DeploymentManager/config cp1p02aCMCell cp1p02aCMCellManager dmgr
+wasadmin 52822236 56819788   0   Nov 13      - 68:37 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=53213 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT02_Batch_p02a_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Batch.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2 -Dlogging.folder=/cse/batch/PFT02_Batch_p02a_01/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PFT2/logging.xml -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode PFT02_Batch_p02a_01
+wasadmin 56819788        1   0   Jul 31      - 437:13 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.cacheLocalHost=true -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cp2p01aOnlineCell cp1p02aOnlineNode nodeagent
+ankcsepf2a02[/cm/archive/001/lbosdata/00004]$ cd /cse/online/logs
+ankcsepf2a02[/cse/online/logs]$ ls
+ArchFormImagingTrace_IF_Online.log    ArchFormImagingTrace_IF_Online.log.4  PFT02_IF_Online                       PFT02_Online_p02a_02
+ArchFormImagingTrace_IF_Online.log.1  ArchFormImagingTrace_IF_Online.log.5  PFT02_IF_p02a_01                      PFT02_SelfService_p03a_01
+ArchFormImagingTrace_IF_Online.log.2  ContentManagerAPILog_dklog.log        PFT02_Kiosk_p02a_01                   archive
+ArchFormImagingTrace_IF_Online.log.3  ContentManagerAPILog_dklog.log.sav1   PFT02_Online_p02a_01                  threadID.log
+ankcsepf2a02[/cse/online/logs]$ cd PFT02 _IF _Online
+ankcsepf2a02[/cse/online/logs/PFT02_IF_Online]$ ls
+SystemErr.log                         SystemOut.log.owner                   SystemOut_19.11.14_18.25.25.log       trace05082016.log                     trace_20042016_16.07.20_11.48.46.log
+SystemErr.log.owner                   SystemOut_19.10.28_13.48.11.log       activity.log                          trace08032016.log
+SystemErr_17.09.29_08.15.28.log       SystemOut_19.10.31_15.33.36.log       native_stderr.log                     trace26072016.log
+SystemErr_19.11.14_16.12.31.log       SystemOut_19.11.08_08.57.03.log       native_stdout.log                     trace29072016.log
+SystemOut.log                         SystemOut_19.11.14_16.12.50.log       trace                                 trace_20042016.log
+ankcsepf2a02[/cse/online/logs/PFT02_IF_Online]$ tail SystemOut.log
+    Exception id = 5025
+    Exception message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  . 
+    Stack trace: not captured - please check log on imaging server
+        at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)
+        at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)
+        at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)
+        at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)
+        ... 17 more
+
+[11/14/19 18:42:39:888 PST] 0000026f LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.
+ankcsepf2a02[/cse/online/logs/PFT02_IF_Online]$ vi SystemOut.log
+[?1049h[27;1H[?12;25h[?1h="SystemOut.log" 487 lines, 75160 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name cp2p01aOnlineCell\cp1p02aOnlineNode\PFT02_IF_Online and process id 13697118
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name = IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppSer
+ver_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/
+WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/
+AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_
+codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/Ap
+pServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/
+sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[11/14/19 18:25:25:986 PST] 00000258 SystemOut     O ERROR gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl - Caught throwable in FormSetProcessorImpl.gov.ca.dcss.cse.utilities.forms.activity
+.FormSetProcessorImpl@-970960311
+
+FORM SET DETAILS:
+
+formSetNumber=FS-ENF-032
+targetUrl=null[H[26B"SystemOut.log" 487 lines, 75160 characters[H[H[2J[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[H
+Caused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.
+    Exception type = com.ibm.mm.sdk.common.DKDatastoreAccessError
+    Exception id = 5025
+    Exception message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  .
+    Stack trace: not captured - please check log on imaging server
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)
+[8C... 17 more
+
+[11/14/19 18:42:39:888 PST] 0000026f LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[13;1H[H[2J[8C... 17 more[H
+
+[11/14/19 18:42:31:309 PST] 00000258 LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.
+[11/14/19 18:42:39:878 PST] 0000026f RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "createPermanentDocument" on bean "BeanId(PFT02_IF_Online_Ima
+ging#ArchImagingServices.jar#DocumentManagementService, null)". Exception data: gov.ca.dcss.arch.common.exception.ConfigurationException: Content Manager Exception
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:54)
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1076)
+[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createPermanentDocument(DocumentManagementActivityImpl.java:369)
+[8Cat gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean.createPermanentDocument(DocumentManagementServiceBean.java:198)
+[8Cat gov.ca.dcss.arch.services.imaging.EJSRemoteStatelessDocumentManagementService_4f63ea5c.createPermanentDocument(EJSRemoteStatelessDocumentManagementService_4f63ea5c.java:196)
+[8Cat gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.createPermanentDocument__gov_ca_dcss_arch_common_imaging_ItemContent__CORBA_WStringValue__CORBA_WStri
+ngValue(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:269)
+[8Cat gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie._invoke(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:148)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.[25;8H[A[A[A[A[A[A[A[A[A[A[A[A[2A[A[A[A[A[A[2A
+
+[7C
+
+
+[A[A[A[2A[A[A[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)[27;1H[K[1;8H[H[1L    Stack trace: not captured - please check log on imaging server[27;1H[K[H[1L    Exception message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  .[27;1H[K[H[1L    Exception id = 5025[27;1H[K[H
+
+
+[7C
+
+
+
+
+
+
+
+
+[7C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[7C
+
+[A at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[7C
+
+[A at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[7C
+
+[A at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[7C
+
+[ACaused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.
+
+[26;5HException type = com.ibm.mm.sdk.common.DKDatastoreAccessError
+
+[26;5HException id = 5025
+
+[26;5HException message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  .
+
+[26;5HStack trace: not captured - please check log on imaging server
+
+[26;9Hat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)[7C
+
+[A ... 17 more[7C
+
+[A
+
+[A[11/14/19 18:42:39:888 PST] 0000026f LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[A[24;8H[A[A[A[A[A[A[A[A[A[14;8H[A[A[A[A[A[A[A[A[A[A[A[A[1L[H        at gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.createPermanentDocument__gov_ca_dcss_arch_common_imaging_ItemContent__CORBA_WStringValue__CORBA_WStri
+ngValue(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:269)[25B[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.EJSRemoteStatelessDocumentManagementService_4f63ea5c.createPermanentDocument(EJSRemoteStatelessDocumentManagementService_4f63ea5c.java:196)[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean.createPermanentDocument(DocumentManagementServiceBean.java:198)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createPermanentDocument(DocumentManagementActivityImpl.java:369)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1076)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:54)[27;1H[K[1;8H[H[2L[11/14/19 18:42:39:878 PST] 0000026f RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "createPermanentDocument" on bean "BeanId(PFT02_IF_Online_Ima
+ging#ArchImagingServices.jar#DocumentManagementService, null)". Exception data: gov.ca.dcss.arch.common.exception.ConfigurationException: Content Manager Exception[25B[K[H[1L[11/14/19 18:42:31:309 PST] 00000258 LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.[27;1H[K[H[1L[26B[K[H[1L[8C... 17 more[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)[27;1H[K[1;8H[H[1L    Stack trace: not captured - please check log on imaging server[27;1H[K[H[1L    Exception message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  .[27;1H[K[H[1L    Exception id = 5025[27;1H[K[H[1L    Exception type = com.ibm.mm.sdk.common.DKDatastoreAccessError[27;1H[K[H[1LCaused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.[27;1H[K[H[1L[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[27;1H[K[1;8H[H[1L[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[27;1H[K[1;8H[H[1L[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[27;1H[K[1;8H[H[1L[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[27;1H[K[1;8H[H[1L[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[27;1H[K[1;8H[H[1L[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[27;1H[K[A@[K[1;8H[H[1L[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[27;1H[K[1;8H[H[1L[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[27;1H[K[1;8H[H[1L[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[27;1H[K[1;8H[H[1L[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)[27;1H[K[1;8H[H[1L[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[27;1H[K[1;8H[H[1L[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie._invoke(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:148)[27;1H[K[A@[K[1;8H[H[2L[8Cat gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.createPermanentDocument__gov_ca_dcss_arch_common_imaging_ItemContent__CORBA_WStringValue__CORBA_WStri
+ngValue(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:269)[25B[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.EJSRemoteStatelessDocumentManagementService_4f63ea5c.createPermanentDocument(EJSRemoteStatelessDocumentManagementService_4f63ea5c.java:196)[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean.createPermanentDocument(DocumentManagementServiceBean.java:198)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createPermanentDocument(DocumentManagementActivityImpl.java:369)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1076)[27;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:54)[27;1H[K[1;8H[H[2L[11/14/19 18:42:31:295 PST] 00000258 RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "createPermanentDocument" on bean "BeanId(PFT02_IF_Online_Ima
+ging#ArchImagingServices.jar#DocumentManagementService, null)". Exception data: gov.ca.dcss.arch.common.exception.ConfigurationException: Content Manager Exception[25B[K[H[1LhotFolderFipsCode=null[27;1H[K[H[1LprintLocation=ESG[27;1H[K[H[1LPRINTING DETAILS:[27;1H[K[H[1L[26B[K[H[1LdocumentSetIds=[2413227711][27;1H[K[H[2Lassociations=[gov.ca.dcss.cse.utilities.documentimage.common.DocumentSetAssociationDTO@896ccecd, gov.ca.dcss.cse.utilities.documentimage.common.DocumentSetAssociationDTO@1e845613, gov.ca.dcss.cse.utilitie
+s.documentimage.common.DocumentSetAssociationDTO@11dc5327][25B[K[H[1Lcurrent documentSetDTO=[Document Set ID: 2413227711, Category: LGL, Subcategory: CSW, Title: CIVIL CONTEMPT (NCP) - ORDER TO SHOW CAUSE][27;1H[K[H[1LDOCUMENT SET DETAILS:[27;1H[K[H[1L[26B[K[H[5Lall recipients=[code: ; firstName :; middleName :; lastName :; suffix :; nonParticipantName: BF SISK COURTHOUSE; checked: true; role: CRT; addressLine1: 1130 O ST; addressLine2: ; addressLine3: ; city: FR
+ESNO country: ; nonStandardAddress: ; delivery point barcode: ; state: CA; zip code: 937242201; addressType: null, code: ; firstName :; middleName :; lastName :; suffix :; nonParticipantName: FRESNO COUNT
+Y DEPARTMENT OF CHILD SUPPORT SERVICES; checked: false; role: LCS; addressLine1: PO BOX 12946; addressLine2: ; addressLine3: ; city: FRESNO country: ; nonStandardAddress: ; delivery point barcode: !937792
+946464!; state: CA; zip code: 937792946; addressType: null, code: 2009070194; firstName :RITA; middleName :; lastName :MORENO; suffix :; nonParticipantName: ; checked: false; role: CUS; addressLine1: 4836
+ E MONO ST; addressLine2: ; addressLine3: ; city: FRESNO country: US; nonStandardAddress: ; delivery point barcode: !937273805367!; state: CA; zip code: 937273805; addressType: null][22B[K[H[2LcurrentRecipient=[code: ; firstName :; middleName :; lastName :; suffix :; nonParticipantName: BF SISK COURTHOUSE; checked: true; role: CRT; addressLine1: 1130 O ST; addressLine2: ; addressLine3: ; city:[H
+FRESNO country: ; nonStandardAddress: ; delivery point barcode: ; state: CA; zip code: 937242201; addressType: null][25B[K[H[1Lcurrent recipient count=1[27;1H[K[A@[K[H[1LRECIPIENT DETAILS:[27;1H[K[H[1L[26B[K[H[1LgenerateFormSetDTO=gov.ca.dcss.cse.utilities.forms.common.GenerateFormSetDTO@-1645885733][27;1H[K[H[1LpostActivityMethodParameterTypes=null[27;1H[K[H[1LpostActivityMethodParameters=null[27;1H[K[H[1LpostActivityMethodName=null[27;1H[K[H[1LpostActivityLookupName=null[27;1H[K[A@[K[H[1LpostActivity=null[27;1H[K[H[1LcallPostActivity=false[27;1H[K[H[1LfinalProcessingHandler=[gov.ca.dcss.cse.utilities.forms.activity.FormSetFinalProcessingHandler@182946250[27;1H[K[H[1LgenerateFormSetDTO=[gov.ca.dcss.cse.utilities.forms.common.GenerateFormSetDTO@-1645885733][27;1H[K[H[1Lsynchronous=true[H[1LpostPrintPreviewMode=true[27;1H[K[H[1LformSetModificationAttempted=true[27;1H[K[A@[K[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+associations=[gov.ca.dcss.cse.utilities.documentimage.common.DocumentSetAssociationDTO@896ccecd, gov.ca.dcss.cse.utilities.documentimage.common.DocumentSetAssociationDTO@1e845613, gov.ca.dcss.cse.utilitie
+
+[As.documentimage.common.DocumentSetAssociationDTO@11dc5327][A
+
+
+[AdocumentSetIds=[2413227711]
+
+[A
+
+[APRINTING DETAILS:
+
+[AprintLocation=ESG
+
+[AhotFolderFipsCode=null
+
+[A[11/14/19 18:42:31:295 PST] 00000258 RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "createPermanentDocument" on bean "BeanId(PFT02_IF_Online_Ima
+
+[Aging#ArchImagingServices.jar#DocumentManagementService, null)". Exception data: gov.ca.dcss.arch.common.exception.ConfigurationException: Content Manager Exception[A
+
+
+[26;9Hat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:54)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1076)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createPermanentDocument(DocumentManagementActivityImpl.java:369)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean.createPermanentDocument(DocumentManagementServiceBean.java:198)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.EJSRemoteStatelessDocumentManagementService_4f63ea5c.createPermanentDocument(EJSRemoteStatelessDocumentManagementService_4f63ea5c.java:196)[7C
+
+[A at gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.createPermanentDocument__gov_ca_dcss_arch_common_imaging_ItemContent__CORBA_WStringValue__CORBA_WStri
+
+[AngValue(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:269)[25;8H
+
+
+[A at gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie._invoke(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:148)[7C
+
+[A at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[7C
+
+[A at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[7C
+
+[A at com.ibm.rmi.iiop.ORB.process(ORB.java:607)[7C
+
+[A at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[7C
+
+[A at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[7C
+
+[A at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[7C
+
+[A at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[7C
+
+[A at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[7C
+
+[A at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[7C
+
+[A at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[7C
+
+[ACaused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.
+
+[26;5HException type = com.ibm.mm.sdk.common.DKDatastoreAccessError
+
+[26;5HException id = 5025
+
+[26;5HException message = 'DGL5025A: Cannot store data into the resource manager.  ICM9991: Storage is not available at this time., Return Code: 9991 [RM RC = 9991, HTTP RC = 214: Undefined]'.  .
+
+[26;5HStack trace: not captured - please check log on imaging server
+
+[26;9Hat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleDkException(DocumentManagementExceptionHelper.java:151)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:46)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1169)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1071)[7C
+
+[A ... 17 more[7C
+
+[A
+
+[A[11/14/19 18:42:31:309 PST] 00000258 LocalTranCoor E   WLTC0017E: Resources rolled back due to setRollbackOnly() being called.
+
+[A[11/14/19 18:42:39:878 PST] 0000026f RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "createPermanentDocument" on bean "BeanId(PFT02_IF_Online_Ima
+
+[Aging#ArchImagingServices.jar#DocumentManagementService, null)". Exception data: gov.ca.dcss.arch.common.exception.ConfigurationException: Content Manager Exception[A
+
+
+[26;9Hat gov.ca.dcss.arch.services.imaging.impl.DocumentManagementExceptionHelper.handleException(DocumentManagementExceptionHelper.java:54)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createDocumentInContentManager(DocumentManagementActivityImpl.java:1076)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.impl.DocumentManagementActivityImpl.createPermanentDocument(DocumentManagementActivityImpl.java:369)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean.createPermanentDocument(DocumentManagementServiceBean.java:198)[7C
+
+[A at gov.ca.dcss.arch.services.imaging.EJSRemoteStatelessDocumentManagementService_4f63ea5c.createPermanentDocument(EJSRemoteStatelessDocumentManagementService_4f63ea5c.java:196)[7C
+
+[A at gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.createPermanentDocument__gov_ca_dcss_arch_common_imaging_ItemContent__CORBA_WStringValue__CORBA_WStri
+
+[AngValue(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:269)[25;8H
+
+
+[A at gov.ca.dcss.arch.services.imaging._EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie._invoke(_EJSRemoteStatelessDocumentManagementService_4f63ea5c_Tie.java:148)[7C
+
+[A at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[7C
+
+[A at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[7C
+
+[A at com.ibm.rmi.iiop.ORB.process(ORB.java:607)[7C
+
+[A at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[7C
+
+[A at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[7C
+
+[A at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[7C
+
+[A at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[7C
+
+[A at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[7C
+
+[A at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[7C
+
+[A at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[7C
+
+[A at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[7C
+
+[ACaused by: gov.ca.dcss.arch.common.exception.InternalErrorException: Content Manager DK exception occurred.
+
+[26;5HException type = com.ibm.mm.sdk.common.DKDatastoreAccessError
+
+[26;5HException id = 5025[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf2a02[/cse/online/logs/PFT02_IF_Online]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+ankcsepf2a02[/cm/drArchive/001]$ 

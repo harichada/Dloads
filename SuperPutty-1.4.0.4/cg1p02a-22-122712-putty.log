@@ -1,0 +1,182 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.22 12:27:12 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Fri Nov 22 12:27:06 PST 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 21 15:31:48 PST 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyaa02[/home/hchada]$ cd /cse/lib
+ankcsesyaa02[/cse/lib]$ ls
+2019_08_28.0_Repository.CSEJarRepository.zip  Jar_Repository
+BatchRpt.txt                                  libFinalistCWrapper.so
+ankcsesyaa02[/cse/lib]$ cd Jar*
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ clear
+[H[2Jankcsesyaa02[/cse/lib/Jar_Repository]$ ls -lagrt
+total 128
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 BUILDS
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 TECHARCH_WEBSERVICES
+-rw-r--r--    1 cseadmin        378 Aug 28 11:09 cse_version.properties
+drwxr-xr-x    5 cseadmin        256 Aug 28 11:09 CSE_COMMON
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 SPRING
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:10 TECHARCH_BATCH
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 TECHARCH_SECURITY
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:10 AXIS_CENTRAL_SCAN
+drwxr-xr-x    8 cseadmin        256 Aug 28 11:10 TECHARCH_TESTING
+drwxr-xr-x    6 cseadmin       4096 Aug 28 11:10 GRNDS
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 CONFIG_MANAGEMENT
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 ANTI_VIRUS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 WILY
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 licenses
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 TECHARCH_FILE_PROCESSING_DAEMON_CLIENT
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 CSE_FORMS_GENERATION_CLIENT
+drwxr-xr-x    4 cseadmin       4096 Aug 28 11:11 WEB
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 TX_OOC
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 ANT_LAUNCHER
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 JTA
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 HTTP_CLIENT
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 DB2JCC
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 COMMON_UTILS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 BPM
+drwxr-xr-x    3 cseadmin       4096 Sep 04 15:13 HIBERNATE
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 JUNIT_LIBRARIES
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 LOGGING_OVERRIDE
+drwxr-xr-x    5 cseadmin        256 Sep 04 15:13 TECHARCH_FORMS
+drwxr-xr-x    5 cseadmin       4096 Sep 04 15:13 TECHARCH_PIF_CLIENTS
+drwxr-xr-x   11 cseadmin       4096 Sep 04 15:13 TECHARCH_REPORTING
+drwxr-xr-x    9 cseadmin       4096 Sep 04 15:13 XML
+drwxr-xr-x   33 cseadmin       4096 Sep 04 15:13 .
+drwxr-xr-x    2 cseadmin       4096 Nov 19 09:39 CONTENT_MANAGER
+drwxrwsr-x    3 cseadmnp       4096 Nov 19 10:52 ..
+ankcsesyaa02[/cse/lib/Jar_Repository]$ sudo -l
+Matching Defaults entries for hchada on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset, logfile=/var/adm/sudo.log
+
+User hchada may run the following commands on this host:
+    (root) /usr/ihs/bin/apachectl *, /usr/ihs61/bin/apachectl *
+    (root) /usr/ihs/bin/apachectl *, /usr/ihs61/bin/apachectl *
+    (root) /etc/rc.d/init.d/rc.ihs start, /etc/rc.d/init.d/rc.ihs stop
+    (root) /usr/IHS/bin/apachectl *, /usr/IHS7/bin/apachectl *, /usr/IHS7_PS/bin/apachectl *, /usr/IHS85/bin/apachectl *, /usr/IHS85_SS/bin/apachectl *, /usr/IHS85_VA/bin/apachectl
+    *
+    (root) /usr/local/bin/csechown, /usr/local/bin/csechmod, /usr/local/bin/csecheckuser
+    (wasadmin) /usr/local/bin/csekillwasproc *
+    (wasadmin) /usr/local/bin/csecleanupWASdir, /usr/local/bin/csecleanupWBIdir
+    (wasadmin) /usr/WebSphere61/AppServer/profiles/DeploymentManager/bin/startManager.sh, /usr/WebSphere61/AppServer/profiles/DeploymentManager/bin/stopManager.sh,
+    /usr/WebSphere61/AppServer/profiles/DeploymentManager/bin/versionInfo.sh, /usr/bin/chgrp cseadmin /usr/WebSphere61/AppServer/profiles/DeploymentManager/heapdump*,
+    /usr/bin/chgrp cseadmin /usr/WebSphere61/AppServer/profiles/DeploymentManager/javacore*, /usr/bin/chmod 774 /usr/WebSphere61/AppServer/profiles/DeploymentManager/heapdump*,
+    /usr/bin/chmod 774 /usr/WebSphere61/AppServer/profiles/DeploymentManager/javacore*, /usr/WebSphere61/AppServer/profiles/AppServer/bin/startAppServer.sh *,
+    /usr/WebSphere61/AppServer/profiles/AppServer/bin/startServer.sh *, /usr/WebSphere61/AppServer/profiles/AppServer/bin/stopServer.sh *,
+    /usr/WebSphere61/AppServer/profiles/AppServer/bin/wsadmin.sh *, /usr/WebSphere61/AppServer/profiles/AppServer/bin/stopNode.sh,
+    /usr/WebSphere61/AppServer/profiles/AppServer/bin/startNode.sh, /usr/WebSphere61/AppServer/profiles/AppServer/bin/syncNode.sh,
+    /usr/WebSphere61/AppServer/profiles/AppServer/bin/GenPluginCfg.sh, /usr/WebSphere61/AppServer/profiles/AppServer/bin/serverStatus.sh,
+    /usr/WebSphere61/AppServer/profiles/AppServer/bin/versionInfo.sh, /usr/WebSphere61/AppServer/profiles/AppServer/bin/dumpNameSpace.sh, /usr/bin/chgrp cseadmin
+    /usr/WebSphere61/AppServer/profiles/AppServer/javacore* /usr/bin/chmod 774 /usr/WebSphere61/AppServer/profiles/AppServer/heapdump*, /usr/bin/chmod 774
+    /usr/WebSphere61/AppServer/profiles/AppServer/javacore*
+    (root) /usr/local/bin/cseunlockuser, /usr/local/bin/csecheckuser, /usr/local/bin/cseresetuser
+    (root) /usr/bin/topas, /usr/bin/sar *, /usr/bin/svmon, /usr/local/bin/nmon
+    (root) /usr/local/bin/SOC/adminctl, (root) /usr/local/bin/nmon, /usr/bin/sar *, /usr/bin/topas
+    (root) /usr/bin/su - wasadmin, /usr/ihs61/bin/apachectl *, /usr/IHS/bin/apachectl *
+    (root) /usr/HTTPServer/IHS_85/bin/apachectl *, /usr/HTTPServer/IHS_85_PS/bin/apachectl *, /usr/HTTPServer/IHS_85_CF/bin/apachectl *
+    (ALL) NOPASSWD: /usr/bin/du
+ankcsesyaa02[/cse/lib/Jar_Repository]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls -la
+total 128
+drwxr-xr-x   34 cseadmin cseadmin       4096 Nov 22 12:37 .
+drwxrwsr-x    3 103028   cseadmnp       4096 Nov 19 10:52 ..
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:11 ANTI_VIRUS
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:11 ANT_LAUNCHER
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:10 AXIS_CENTRAL_SCAN
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:11 BPM
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:09 BUILDS
+drwxr-xr-x    3 cseadmin cseadmin       4096 Aug 28 11:11 COMMON_UTILS
+drwxr-xr-x    2 cseadmin cseadmin       4096 Aug 28 11:11 CONFIG_MANAGEMENT
+drwxr-xr-x    2 cseadmin cseadmin        256 Nov 22 12:38 CONTENT_FOUNDATION
+drwxr-xr-x    2 cseadmin cseadmin       4096 Nov 22 12:40 CONTENT_MANAGER
+drwxr-xr-x    5 cseadmin cseadmin        256 Aug 28 11:09 CSE_COMMON
+drwxr-xr-x    3 cseadmin cseadmin       4096 Aug 28 11:11 CSE_FORMS_GENERATION_CLIENT
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:11 DB2JCC
+drwxr-xr-x    6 cseadmin cseadmin       4096 Aug 28 11:10 GRNDS
+drwxr-xr-x    3 cseadmin cseadmin       4096 Sep 04 15:13 HIBERNATE
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:11 HTTP_CLIENT
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:11 JTA
+drwxr-xr-x    2 cseadmin cseadmin        256 Sep 04 15:13 JUNIT_LIBRARIES
+drwxr-xr-x    2 cseadmin cseadmin        256 Sep 04 15:13 LOGGING_OVERRIDE
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:10 SPRING
+drwxr-xr-x    3 cseadmin cseadmin       4096 Aug 28 11:10 TECHARCH_BATCH
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:11 TECHARCH_FILE_PROCESSING_DAEMON_CLIENT
+drwxr-xr-x    5 cseadmin cseadmin        256 Sep 04 15:13 TECHARCH_FORMS
+drwxr-xr-x    5 cseadmin cseadmin       4096 Sep 04 15:13 TECHARCH_PIF_CLIENTS
+drwxr-xr-x   11 cseadmin cseadmin       4096 Sep 04 15:13 TECHARCH_REPORTING
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:10 TECHARCH_SECURITY
+drwxr-xr-x    8 cseadmin cseadmin        256 Aug 28 11:10 TECHARCH_TESTING
+drwxr-xr-x    3 cseadmin cseadmin        256 Aug 28 11:09 TECHARCH_WEBSERVICES
+drwxr-xr-x    3 cseadmin cseadmin       4096 Aug 28 11:11 TX_OOC
+drwxr-xr-x    4 cseadmin cseadmin       4096 Aug 28 11:11 WEB
+drwxr-xr-x    2 cseadmin cseadmin        256 Aug 28 11:11 WILY
+drwxr-xr-x    9 cseadmin cseadmin       4096 Sep 04 15:13 XML
+-rw-r--r--    1 cseadmin cseadmin        378 Aug 28 11:09 cse_version.properties
+drwxr-xr-x    2 cseadmin cseadmin       4096 Aug 28 11:11 licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd CCo  *(F  Foun   OUN*
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_FOUNDATION]$ ls
+Jace.jar              README.txt            log4j-1.2.14.jar      p8cel10n.jar          stax-api.jar          xlxpScanner.jar       xlxpScannerUtils.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_FOUNDATION]$ ls -la
+total 15512
+drwxr-xr-x    2 cseadmin cseadmin        256 Nov 22 12:38 .
+drwxr-xr-x   34 cseadmin cseadmin       4096 Nov 22 12:37 ..
+-rw-r--r--    1 cseadmin cseadmin    3284775 Aug 06 07:18 Jace.jar
+-rw-r--r--    1 cseadmin cseadmin         88 Nov 06 15:19 README.txt
+-rw-r--r--    1 cseadmin cseadmin     400555 Aug 06 07:18 log4j-1.2.14.jar
+-rw-r--r--    1 cseadmin cseadmin    3429667 Aug 06 07:18 p8cel10n.jar
+-rw-r--r--    1 cseadmin cseadmin      28621 Aug 06 07:18 stax-api.jar
+-rw-r--r--    1 cseadmin cseadmin     361911 Aug 06 07:18 xlxpScanner.jar
+-rw-r--r--    1 cseadmin cseadmin     417423 Aug 06 07:18 xlxpScannerUtils.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_FOUNDATION]$ cd ..
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd CONTENT _MANAGER
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls -la
+total 198864
+drwxr-xr-x    2 cseadmin cseadmin       4096 Nov 22 12:40 .
+drwxr-xr-x   34 cseadmin cseadmin       4096 Nov 22 12:37 ..
+-rw-r--r--    1 cseadmin cseadmin       1346 Aug 28 11:09 README.TXT
+-rw-r--r--    1 cseadmin cseadmin         88 Nov 06 15:19 README.txt
+-rw-r--r--    1 cseadmin cseadmin    1429828 Aug 28 11:09 ibm-content-manager-cmb-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    2127616 Aug 28 11:10 ibm-content-manager-cmb-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    2147493 Aug 28 11:11 ibm-content-manager-cmb-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    2248077 Aug 28 11:11 ibm-content-manager-cmb-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    2332321 Aug 28 11:10 ibm-content-manager-cmbcm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin    3177410 Aug 28 11:10 ibm-content-manager-cmbicm-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    4394718 Aug 28 11:09 ibm-content-manager-cmbicm-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    4591368 Aug 28 11:11 ibm-content-manager-cmbicm-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    4889683 Aug 28 11:09 ibm-content-manager-cmbicm-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    5077127 Aug 28 11:10 ibm-content-manager-cmbicm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin    1838954 Aug 28 11:09 ibm-content-manager-cmbicmc-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    2087933 Aug 28 11:09 ibm-content-manager-cmbicmc-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    2159205 Aug 28 11:10 ibm-content-manager-cmbicmc-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    2383907 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    2419193 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin   10539266 Aug 28 11:10 ibm-content-manager-cmbsdk-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin   12296528 Aug 28 11:09 ibm-content-manager-cmbsdk-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin   12545118 Aug 28 11:11 ibm-content-manager-cmbsdk-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin   11357875 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin   11711167 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.3fp3.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ -ksh93: timed out waiting for input
+

@@ -1,0 +1,255 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 15:55:27 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Tue Oct  9 11:57:11 PDT 2018 on ssh from 169.2.108.102
+Last login: Fri Nov 15 15:55:27 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ pdadmin
+pdadmin> login -a sec_master -p sec_master  
+Error: HPDIA0200W   Authentication failed. You have used an invalid user name, password or client certificate. (status 0x132120c8)
+pdadmin> log pdadmin> login -s secm pdadmin> login -s sec_master -p n0ne2soon
+Error: Unknown or incomplete command.  Try one of:
+    login [-a <admin_id>] [-p <password>] [-d <domain>]
+    login [-a <admin_id>] [-p <password>] -m
+    login -l
+pdadmin> pdadmin>  login -s sec_master -p n0ne2soons                           sec_master -p n0ne2soonpdadmin> login -a sec_master -p n0ne2soonpdadmin> login -a
+Error: HPDIA0200W   Authentication failed. You have used an invalid user name, password or client certificate. (status 0x132120c8)
+Login failed.  Restoring previous authentication.
+Error: HPDCO1364E   The specified domain does not exist. (status 0x1354a554)
+pdadmin> pdadmin>  login -a sec_master -p n0ne2soon pdadmin> login -a sec_master -p n0ne2soo pdadmin> login -a sec_master -p n0ne2so pdadmin> login -a sec_master -p n0ne2s pdadmin> login -a sec_master -p n0ne2 pdadmin> login -a sec_master -p n0ne pdadmin> login -a sec_master -p n0n pdadmin> login -a sec_master -p n0 pdadmin> login -a sec_master -p n pdadmin> login -a sec_master -p Bm4Nyp2q
+Error: HPDIA0234W   Authentication failed. You have used an invalid password. This account has been disabled due to too many failed login attempts. (status 0x132120ea)
+pdadmin> quit
+ankcsesyaw01[/home/cseadmin]$ ldapsearch
+
+Sends a search request to an LDAP server.
+usage:
+    ldapsearch [-b basedn] [options] filter [attributes...]
+where:
+        basedn:     base dn for search
+                    (optional if LDAP_BASEDN set in environment)
+        filter:     LDAP search filter
+        attributes: whitespace-separated list of attributes to retrieve
+                    (if no attribute list is specified, all are retrieved)
+options:
+    -a deref     how to dereference aliases (never, always, search, or find)
+    -A           retrieve attribute names only (no values)
+    -b base_dn   base dn for search; LDAP_BASEDN in environment is default
+    -B           do not suppress printing of non-ASCII values
+    -C charset   character set name to use, as registered with IANA
+    -d level     set debug level to 'level' in LDAP library
+    -D dn        bind dn
+    -e           display LDAP library version information and quit
+    -f file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -F sep       print 'sep' between attribute names and values
+    -G realm     realm used for DIGEST-MD5 bind mechanism
+    -h host      LDAP server host name
+    -i file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -k           use server administration control on bind
+    -K keyfile   file to use for keys
+    -l time      time limit (in seconds) for search
+    -L           print entries in LDIF format (-B is implied)
+    -m mechanism perform SASL bind with the given mechanism
+    -M           manage referral objects as normal entries
+    -n           show what would be done but don't actually do it
+    -N key_name  private key name to use in keyfile
+    -o attr_type sort based on specified attribute type
+    -O maxhops   maximum number of referrals to follow in a sequence
+    -p port      LDAP server port number
+    -P key_pw    keyfile password
+    -q pagesize  query page size for paged results
+    -R           do not automatically chase referrals
+    -s scope     search scope (base, one, or sub)
+    -t           write values to files in /tmp
+    -T seconds   number of seconds to wait between pages for paged results
+    -U username  user name for DIGEST-MD5 bind mechanism
+    -v           run in verbose mode
+    -V version   LDAP protocol version (2 or 3; default is 3)
+    -w password  bind password or '?' for non-echoed prompt
+    -y proxydn   set proxied id for proxied authorization operation
+    -Y           use a secure ldap connection (TLS)
+    -z size      size limit (in entries) for search
+    -Z           use a secure ldap connection (SSL)
+    -9 control  criticality for control option
+                 s  sets criticality for sorting to false.
+                 p  sets criticality for paging to false.
+ankcsesyaw01[/home/cseadmin]$ ldapsearch  -D "cn=SecurityMaster,secAuthority=Default"
+
+Sends a search request to an LDAP server.
+usage:
+    ldapsearch [-b basedn] [options] filter [attributes...]
+where:
+        basedn:     base dn for search
+                    (optional if LDAP_BASEDN set in environment)
+        filter:     LDAP search filter
+        attributes: whitespace-separated list of attributes to retrieve
+                    (if no attribute list is specified, all are retrieved)
+options:
+    -a deref     how to dereference aliases (never, always, search, or find)
+    -A           retrieve attribute names only (no values)
+    -b base_dn   base dn for search; LDAP_BASEDN in environment is default
+    -B           do not suppress printing of non-ASCII values
+    -C charset   character set name to use, as registered with IANA
+    -d level     set debug level to 'level' in LDAP library
+    -D dn        bind dn
+    -e           display LDAP library version information and quit
+    -f file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -F sep       print 'sep' between attribute names and values
+    -G realm     realm used for DIGEST-MD5 bind mechanism
+    -h host      LDAP server host name
+    -i file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -k           use server administration control on bind
+    -K keyfile   file to use for keys
+    -l time      time limit (in seconds) for search
+    -L           print entries in LDIF format (-B is implied)
+    -m mechanism perform SASL bind with the given mechanism
+    -M           manage referral objects as normal entries
+    -n           show what would be done but don't actually do it
+    -N key_name  private key name to use in keyfile
+    -o attr_type sort based on specified attribute type
+    -O maxhops   maximum number of referrals to follow in a sequence
+    -p port      LDAP server port number
+    -P key_pw    keyfile password
+    -q pagesize  query page size for paged results
+    -R           do not automatically chase referrals
+    -s scope     search scope (base, one, or sub)
+    -t           write values to files in /tmp
+    -T seconds   number of seconds to wait between pages for paged results
+    -U username  user name for DIGEST-MD5 bind mechanism
+    -v           run in verbose mode
+    -V version   LDAP protocol version (2 or 3; default is 3)
+    -w password  bind password or '?' for non-echoed prompt
+    -y proxydn   set proxied id for proxied authorization operation
+    -Y           use a secure ldap connection (TLS)
+    -z size      size limit (in entries) for search
+    -Z           use a secure ldap connection (SSL)
+    -9 control  criticality for control option
+                 s  sets criticality for sorting to false.
+                 p  sets criticality for paging to false.
+ankcsesyaw01[/home/cseadmin]$ ldapsearch  -D "cn=SecurityMaster,secAuthority=Default"ldapsearch  -D -D "cn=SecurityMaster,secAuthority=Default" 
+
+Sends a search request to an LDAP server.
+usage:
+    ldapsearch [-b basedn] [options] filter [attributes...]
+where:
+        basedn:     base dn for search
+                    (optional if LDAP_BASEDN set in environment)
+        filter:     LDAP search filter
+        attributes: whitespace-separated list of attributes to retrieve
+                    (if no attribute list is specified, all are retrieved)
+options:
+    -a deref     how to dereference aliases (never, always, search, or find)
+    -A           retrieve attribute names only (no values)
+    -b base_dn   base dn for search; LDAP_BASEDN in environment is default
+    -B           do not suppress printing of non-ASCII values
+    -C charset   character set name to use, as registered with IANA
+    -d level     set debug level to 'level' in LDAP library
+    -D dn        bind dn
+    -e           display LDAP library version information and quit
+    -f file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -F sep       print 'sep' between attribute names and values
+    -G realm     realm used for DIGEST-MD5 bind mechanism
+    -h host      LDAP server host name
+    -i file      perform sequence of searches using filters in 'file'
+                 "%s" must be substituted for the filter
+    -k           use server administration control on bind
+    -K keyfile   file to use for keys
+    -l time      time limit (in seconds) for search
+    -L           print entries in LDIF format (-B is implied)
+    -m mechanism perform SASL bind with the given mechanism
+    -M           manage referral objects as normal entries
+    -n           show what would be done but don't actually do it
+    -N key_name  private key name to use in keyfile
+    -o attr_type sort based on specified attribute type
+    -O maxhops   maximum number of referrals to follow in a sequence
+    -p port      LDAP server port number
+    -P key_pw    keyfile password
+    -q pagesize  query page size for paged results
+    -R           do not automatically chase referrals
+    -s scope     search scope (base, one, or sub)
+    -t           write values to files in /tmp
+    -T seconds   number of seconds to wait between pages for paged results
+    -U username  user name for DIGEST-MD5 bind mechanism
+    -v           run in verbose mode
+    -V version   LDAP protocol version (2 or 3; default is 3)
+    -w password  bind password or '?' for non-echoed prompt
+    -y proxydn   set proxied id for proxied authorization operation
+    -Y           use a secure ldap connection (TLS)
+    -z size      size limit (in entries) for search
+    -Z           use a secure ldap connection (SSL)
+    -9 control  criticality for control option
+                 s  sets criticality for sorting to false.
+                 p  sets criticality for paging to false.
+ankcsesyaw01[/home/cseadmin]$ ldapsearch -D "cn=SecurityMaster,secAuthority=Default"ldapsearch -D "cn=SecurityMaster,secAuthority=Default
+ankcsesyaw01[/home/cseadmin]$ clear
+[H[2Jankcsesyaw01[/home/cseadmin]$ sl  ls
+ALL_ACCOUNTS.txt                    memory_paging_NON_PROD_mail.sh
+ALL_ACCOUNTS_sorted.txt             memory_paging_RUN.sh
+IRS_user_home_updated.sh            memory_paging_SELECT.sh
+LIVE_ACCOUNTS.txt                   memory_paging_SELECT_test.sh
+Mail                                memory_paging_SYA_SELECT.sh
+NFS_mounts_verify.sh                memory_paging_SYA_SELECT_test.sh
+NFS_mounts_verify_20180723.sh       memory_paging_check.sh
+NFS_mounts_verify_P8.sh             memory_paging_check.sh~
+NFS_mounts_verify_paul.sh           memory_paging_check_SYA.sh
+NFS_selfcheck.sh                    memory_paging_output
+NFS_selfcheck.sh_20180723.sh        memory_paging_vmstat_NON_PROD.sh
+NFS_selfcheck_output.dat            multipleuser_password.pl
+OLD_ACCOUNTS.txt                    multipleusers_password.pl
+OLD_ACCOUNTS_sorted.txt             p8_hostnames.txt
+TAMeUpgradeTesting                  p8_hostnames_reverse.txt
+calc_pg_space.pl                    p8_hostnames_reverse_sorted.txt
+checkUser.ksh                       resetUser.ksh
+collectAccountInfo.pl               run_on_NonProd.sh
+copyToNonProd.sh                    set_maxpasswd_age_multipleusers.pl
+errpt_mail.sh                       showerrpt.pl
+find_LUN_CuLDev.sh                  singleuser.pl
+find_LUN_CuLDev_cv.sh               sya_new.txt
+find_LUN_CuLDev_print.sh            temp
+find_LUN_sizes.sh                   tempfile
+find_wwn.sh                         test.ksh
+jaytemp                             user.txt
+login                               utils
+logs                                vmstat_mail.sh
+max_passwordage.pl                  webseal_scripts
+memory_paging_COPY.sh
+ankcsesyaw01[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 0
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaw01[/home/cseadmin]$ ssh hchada!@  @ankcsesyaw01
+hchada@ankcsesyaw01's password: 
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+Connection to ankcsesyaw01 closed.
+ankcsesyaw01[/home/cseadmin]$ pdadmin
+pdadmin> login  pdadmin> login pdadmin> logi pdadmin> log pdadmin> lo pdadmin> l pdadmin> login -a sec_master -p sec_master  pdadmin> login -a sec_master -p sec_master pdadmin> login -a sec_master -p sec_maste pdadmin> login -a sec_master -p sec_mast pdadmin> login -a sec_master -p sec_mas pdadmin> login -a sec_master -p sec_ma pdadmin> login -a sec_master -p sec_m pdadmin> login -a sec_master -p sec_ pdadmin> login -a sec_master -p sec pdadmin> login -a sec_master -p se pdadmin> login -a sec_master -p s pdadmin> login -a sec_master -p  pdadmin> login -a sec_master -p Pazy4m0r
+Error: HPDIA0309W   This account is disabled. (status 0x13212135)
+pdadmin> exit
+ankcsesyaw01[/home/cseadmin]$ cleae r
+[H[2Jankcsesyaw01[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

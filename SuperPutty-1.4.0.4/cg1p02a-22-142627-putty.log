@@ -1,0 +1,34 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.22 14:26:27 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Fri Nov 22 12:27:06 PST 2019 on ssh from 169.2.108.102
+Last login: Fri Nov 22 12:27:11 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyaa02[/home/hchada]$ cd /cse/online/applications
+ankcsesyaa02[/cse/online/applications]$ ls
+SYA01_IF_Forms.ear                   SYA01_IF_Online_FormsGeneration.ear  cse_SYA01_Online_StandAlone.ear
+SYA01_IF_Online_Forms.ear            cse_SYA01_Integration.ear
+ankcsesyaa02[/cse/online/applications]$ cd /
+ankcsesyaa02[/]$ ls
+CMInstall                bosinst.data             ds003_pdf2afp            insthome                 nsr                      smit.transaction         unix
+CommVault                cdrom                    ds004_admin              insthomeX                opt                      swstage                  usr
+LogLogic                 cse                      esa                      introscope               proc                     tamBackup                var
+admin                    cse_old                  etc                      lib                      savevg                   tame_fs
+ap103_hotfolders         db2home                  finalist                 lost+found               sbin                     test_fs
+ap116_hotfolders         dev                      home                     lpp                      scratch                  tftpboot
+audit                    ds003_cpos_daemon1       image.data               mksysb                   smit.log                 tmp
+bin                      ds003_forms              image.data.save.altinst  mnt                      smit.script              u
+ankcsesyaa02[/]$ cd l cse/lib
+ankcsesyaa02[/cse/lib]$ ls
+2019_08_28.0_Repository.CSEJarRepository.zip  Jar_Repository
+BatchRpt.txt                                  libFinalistCWrapper.so
+ankcsesyaa02[/cse/lib]$ 

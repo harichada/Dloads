@@ -1,0 +1,1485 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.21 15:26:01 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/cseadmin]$ ssh c deploy1@cg1p02a
+deploy1@cg1p02a's password: 
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/deploy1]$ history 100
+100     ls -ltr
+101     rm -rf 2019_04_26.0_AEMForms.2041.Forms.zip
+102     ls -ltr
+103     rm -rf 2019_04_29.0_AEMForms.1336.ArchForms.ear
+104     exit
+105     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.ArchForms.ear -f
+106     /cse/admin/bin/deploy.pl -inst SYA01 -app formsonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.ArchForms.ear -f
+107     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.ArchImaging.ear -f
+108     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.ArchImaging.ear -f
+109     cd /cse/online/logs
+110     ls -ltr
+111     cd SYA01_Online_StandAlone
+112     ls -ltr
+113     tail -f -rw-rw-r--    1 wasadmin cseadmnp   16226824 Apr 30 13:59 SystemOut.log
+114     tail -f SystemOut.log
+115     \
+116     cd ../Application
+117     cd ../../applications
+118     ls -ltr
+119     cd cse_SYA01_Online_StandAlone.ear
+120     ls -ltr
+121     cd CSEWEB.war
+122     ls -ltr
+123     cd WEB-INF
+124     ls -ltr
+125     cd cla*
+126     cd gov
+127     cd ca*
+128     cd dc*
+129     cd cs*
+130     ls -ltr
+131     cd va*
+132     ls -ltr
+133     cd /cse/online/applications/cse_SYA01_Online_StandAlone.ear/CSEWEB.war/WEB-INF/
+134     cd lib
+135     ls -ltr
+136     history 100
+137     !912
+138     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_AEMForms.1336.Online.ear -f
+139     cd /cse/online/logs
+140     ls -ltr
+141     cd SYA01_Online_StandAlone
+142     ls -ltr
+143     tail -f SystemOut.log
+144     more SystemOut.log
+145     tail -f SystemOut.log
+146     ls -ltr
+147     more native_stderr.log
+148     history 100
+149     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.FormsGeneration.ear
+150     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_04_29.0_AEMForms.1336.FormsGeneration.ear -f
+151     tail -f SystemOut.log
+152     \
+153     tail -f SystemOut.log
+154     ls -ltr
+155     cd /cse/stage/built
+156     ls -ltr
+157     cd /cse/online/logs/
+158     ls -ltr
+159     cd SYA01_IF_Online
+160     l s-ltr
+161     ls -ltr
+162     more SystemOut.log
+163     cd /usr/WebSphere/
+164     ls -ltr
+165     cd AppServer_85
+166     ls
+167     cd profiles
+168     ls -ltr
+169     cd AppServer
+170     ls -ltr
+171     cd config
+172     ls -ltr
+173     cd cseP*
+174     ls -ltr
+175     ssh cg1p43a
+176     more SYA01.FormsArchitecture.properties
+177     ls -ltr
+178     more SYA01.CSEArchitecture.properties
+179     ssh cg1p43a
+180     clear
+181     \
+182     ls -ltr
+183     ls -ltr /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/SYA01.EnterpriseFormService.properties
+184     file:////usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/SYA01.EnterpriseFormService.properties
+185     ls -ltr /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/SYA01.EnterpriseFormService.properties
+186     ssh cg1p43a
+187     ls -ltr
+188     history 100
+189     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_AEMForms.1336.Online.ear -f
+190     cd /cse/online/logs
+191     ls -ltr
+192     cd SYA01_Online_StandAlone
+193     ls -ltr
+194     more SystemOut.log
+195     tail -f SystemOut.log
+196     which java
+197     java -version
+198     more SystemOut.log
+199     ssh cg1p43a
+200     cd /cse/stage/built
+201     ls -ltr
+202     history 10
+203     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_v5.44.0.4976.Online.ear -f
+204     cd /cse/online/logs/applications
+205     cd /cse/online/logs/
+206     ls -ltr
+207     cd SYA01_Online_StandAlone
+208     more SystemOut.log
+209     vi SystemOut.log
+210     history 100
+211     ls -ltr /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/SYA01.EnterpriseFormService.properties
+212     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/
+213     ls -ltr
+214     cd ../../../D*
+215     ls -ltr
+216     cd config
+217     ls -ltr
+218     cd csePr*
+219     ls -ltr
+220     mv SYA01.EnterpriseFromService.properties SYA01.EnterpriseFormService.properties
+221     ls -ltr
+222     tail -f /cse/online/logs/SystemOut.log
+223     bash
+224     history 100
+225     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_AEMForms.1336.Online.ear -f
+226     tail -f /cse/online/logs/SystemOut.log
+227     bash
+228     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_AEMForms.1336.Online.ear -f
+229     tail -f /cse/online/logs/SystemOut.log
+230     cd /cse/online/logs/
+231     ls
+232     cd SYA01_Online_StandAlone
+233     ls -ltr
+234     tail -f SystemOut.log
+235     more SystemOut.log
+236     more SystemOut.log
+237     more SystemOut.log
+238     cd /cse/lib
+239     ls -ltr
+240     cd Jar_Repository
+241     ls -ltr
+242     cd LOGGING_OVERRIDE
+243     ls -ltr
+244     cd ../COM*
+245     ls -ltr
+246     cd /cse/stage/built
+247     ls -ltr
+248     cd temp
+249     ls -ltr
+250     cd config
+251     ls -ltr
+252     cd ..
+253     zip
+254     zip 2019_04_29.0_AEMForms.1336.Online.ear config/jarRepositoryVersions.properties
+255     id
+256     zip
+257     ls -ltr
+258     exit
+259     cd /cse/stage/built/temp
+260     ls -ltr
+261     history 100
+262     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.Online.ear -f
+263     cd /cse/admin/bin/logs
+264     ls -ltr
+265     more deploy.log
+266     history 100
+267     bash
+268     history 100
+269     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_29.0_AEMForms.1336.Online.ear -f
+270     cd -
+271     /cse/online/logs/SYA01_Online_StandAlone
+272     cd /cse/online/logs/SYA01_Online_StandAlone
+273     more SystemOut.log
+274     \
+275     zip
+276     exit
+277     cd /cse/stage/built/temp
+278     ls -ltr
+279     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchForms.ear,imaging=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchImaging.ear,formsonline=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchForms.ear,imagingonline=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchImaging.ear,formsifonline=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchForms.ear,imagingifonline=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.ArchImaging.ear,formsgenifonline=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.FormsGeneration.ear,online=/cse/stage/built/temp/2019_04_29.0_AEMForms.1336.Online.ear -f
+280     \
+281     ssh deploy1@cg1p43a
+282     ls -ltr
+283     rm -rf 2019_04_29.0_AEMForms.1336.Online.ear
+284     rm -rf *
+285     ls -ltr
+286     ssh cg1p02a
+287     exit
+288     ssh cg1p43a
+289     history 100
+290     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_04_09.0_AEMForms.7095.Online.ear -f
+291     cd /cse/stage/built
+292     ls -ltr
+293     rm -rf 2019_04_29.0_AEMForms.1336.FormsGeneration.ear 2019_04_29.0_AEMForms.1336.ArchForms.ear 2019_04_29.0_AEMForms.1336.ArchImaging.ear 2019_04_29.0_AEMForms.1336.Integration.ear 2019_04_29.0_v5.44.0.4976.Online.ear 2019_04_29.0_AEMForms.1336.Online.ear 2019_04_09.0_AEMForms.7095.Online.ear
+294     ls -ltr
+295     cd temp
+296     ls -ltr
+297     cd ..
+298     ls -ltr
+299     rm -rf ArchBatch.jar
+300     ls -ltr
+301     exit
+302     ls -ltr
+303     cd /cse/stage/built
+304     ls -ltr
+305     hisotyr 100
+306     history 10
+307     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/*AEM* -f
+308     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_06.0_Java_7.7186.Online.ear -f
+309     cd /cse/online/logs/Stand*
+310     cd /cse/online/logs/*and*
+311     cd ls -ltr
+312     more SystemOut.log
+313     ls -ltr /cse/lib/Jar_Repository/HTTP_Client
+314     bsg
+315     bash
+316     more SystemOut.log
+317     bsh
+318     bash
+319     cd /cse/lib
+320     ls -ltr
+321     ssh cseadmin@cg1p02a
+322     id
+323     cd /cse/stage/built
+324     ls -ltr
+325     clear
+326     ls
+327     history 100
+328     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_06.0_Java_7.7186.ArchForms.ear -f
+329     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_05_06.0_Java_7.7186.ArchForms.ear -f
+330     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgen*=/cse/stage/built/*.Form* -f
+331     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgen*=/cse/stage/built/*.FormGen* -f
+332     ls
+333     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_05_06.0_Java_7.7186.FormsGeneration.ear -f
+334     ls -ltr
+335     ssh cg1p43a
+336     ls -ltr
+337     history 100
+338     /cse/admin/bin/deploy.pl -inst SYA01 -app imaging=/cse/stage/built/2019_05_06.0_Java_7.7186.ArchImaging.ear -f
+339     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_06.0_Java_7.7186.ArchImaging.ear -f
+340     \
+341     ssh cseadmin@cg1p43a
+342     cd /cse/stage/built
+343     ls
+344     rm -rf 2019_05_06.0_Java_7.7186*
+345     ls -ltr
+346     exit
+347     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imaging=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.FormsGeneration.ear,formstemplates=/cse/stage/built/2019_05_10.0_Java_7.3966.Forms.zip,online=/cse/stage/built/2019_05_10.0_Java_7.3966.Online.ear,integration=/cse/stage/built/2019_05_10.0_Java_7.3966.Integration.ear,tws=/cse/stage/built/2019_05_10.0_Java_7.3966.TWSSchedule.zip,imagingselfservice=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,reports=/cse/stage/built/2019_05_10.0_Java_7.3966.HyperionReports.zip -f
+348     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imaging=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_10.0_Java_7.3966.FormsGeneration.ear,online=/cse/stage/built/2019_05_10.0_Java_7.3966.Online.ear,integration=/cse/stage/built/2019_05_10.0_Java_7.3966.Integration.ear,tws=/cse/stage/built/2019_05_10.0_Java_7.3966.TWSSchedule.zip,imagingselfservice=/cse/stage/built/2019_05_10.0_Java_7.3966.ArchImaging.ear,reports=/cse/stage/built/2019_05_10.0_Java_7.3966.HyperionReports.zip -f
+349     history 100
+350     cd /cse/stage/built
+351     ls -ltr
+352     exit
+353     cd /cse/stage/built
+354     ls -ltr
+355     /cse/admin/bin/deploy.pl -inst SYA01 -app ivr=/cse/stage/built/2019_05_14.0_Java_7.4914.ECSSIVR.ear -f
+356     /cse/admin/bin/deploy.pl -inst SYA01 -app selfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+357     ls -ltr
+358     history 100
+359     /cse/admin/bin/deploy.pl -inst SYA01 -app violaselfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+360     cd /cse/stage/built
+361     ls -ltr
+362     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_21.0_Java_7.8199.Batch.ear -f
+363     ssh ch1p04a
+364     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_21.0_Java_7.8199.Batch.ear -f
+365     ssh ch1p04a
+366     cd /cse/stage/built
+367     ls -ltr
+368     exit
+369     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+370     ssh ch1p04a
+371     exit
+372     cd /cse/stage/built
+373     ls -ltr
+374     rm -rf 2019_05_10.0_Java_7.3966.ArchForms.ear 2019_05_10.0_Java_7.3966.ArchImaging.ear 2019_05_10.0_Java_7.3966.Online.ear
+375     ls -ltr
+376     rm -rf 2019_05_21.0_Java_7.8199.Online.ear
+377     exit
+378     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+379     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchForms.ear -f
+380     ssh ch1p04a
+381     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_21.0_Java_7.8199.Batch.ear -f
+382     ssh ch1p04a
+383     ssh ch1p04a
+384     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_21.0_Java_7.8199.Batch.ear -f
+385     ssh ch1p04a
+386     cd /cse/stage/built
+387     ls -ltr
+388     \
+389     cp 2019_05_21.0_Java_7.8199.Batch.ear temp
+390     cp -r 2019_05_21.0_Java_7.8199.Batch.ear temp
+391     cd temp
+392     ls -ltr
+393     rm -rf *
+394     cd ..
+395     ls -ltr
+396     df -g .
+397     rm -rf 2019_05_10.0_Java_7.3966.TWSSchedule.zip 2019_05_10.0_Java_7.3966.HyperionReports.zip
+398     ls -ltr
+399     cp 2019_05_21.0_Java_7.8199.Batch.ear temp
+400     rm -rf temp
+401     ls -ltr
+402     unzip -l 2019_05_21.0_Java_7.8199.Batch.ear | jar*
+403     unzip -l 2019_05_21.0_Java_7.8199.Batch.ear
+404     unzip 2019_05_21.0_Java_7.8199.Batch.ear config/jarRepositoryVersions.properties
+405     ls -ltr
+406     zip 2019_05_21.0_Java_7.8199.Batch.ear config/jarRepositoryVersions.properties
+407     zip
+408     ssh cg1p43a
+409     history 100
+410     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_21.0_Java_7.8199.Batch.ear -f
+411     ssh ch1p04a
+412     exit
+413     exit
+414     ssh cg1p43a
+415     cd /cse/stage/built
+416     ls -ltr
+417     rm -rf 2019_05_21.0_Java_7.8199.Batch.ear 2019_05_24.0_Java_7.2088.Batch.ear config
+418     ssh cg1p43a
+419     history 10
+420     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.2088.Batch.ear -f
+421     ssh ch1p04a
+422     cd /cse/stage/built
+423     ls -ltr
+424     rm -rf *Batch*
+425     ls -ltr
+426     exit
+427     cd /cse/stage/built
+428     ls
+429     exit
+430     cd /cse/stage/built
+431     ls
+432     history 100
+433     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear -f
+434     ssh ch1p04a
+435     cd /cse/stage/built
+436     ls -ltr
+437     rm -rf *
+438     ls -ltr
+439     exit
+440     cd /cse/stage/built
+441     ls -ltr
+442     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imaging=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.FormsGeneration.ear,formstemplates=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Forms.zip,batch=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Batch.ear,online=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Online.ear,integration=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Integration.ear,tws=/cse/stage/built/2019_05_28.0_v5.44.0.9873.TWSSchedule.zip,selfservice=/cse/stage/built/2018_08_06.0_WAS85_v5.33.0.6185.SelfService.ear,ivr=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,violaselfservice=/cse/stage/built/2018_08_06.0_WAS85_v5.33.0.6185.SelfService.ear,violaforms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.VIOLAForms.zip,reports=/cse/stage/built/2019_05_28.1_v5.44.0.6904.HyperionReports.zip -f
+443     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imaging=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.FormsGeneration.ear,formstemplates=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Forms.zip,batch=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Batch.ear,online=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Online.ear,integration=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Integration.ear,tws=/cse/stage/built/2019_05_28.0_v5.44.0.9873.TWSSchedule.zip,selfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.SelfService.ear,ivr=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.SelfService.ear,violaforms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.VIOLAForms.zip,reports=/cse/stage/built/2019_05_28.1_v5.44.0.6904.HyperionReports.zip -f
+444     cd /cse/admin/bin/logs
+445     ls -ltr
+446     more deploy*
+447     cd /cse/lib
+448     ls -ltr
+449     mv Jar_Repository Jar_Repository_Java
+450     cp Jar_Repository Jar_Repository_Java
+451     cp -r Jar_Repository Jar_Repository_Java
+452     ls -ltr
+453     rm -rf Jar_Repository_Java
+454     cd ..
+455     ls
+456     df -g .
+457     cd lib
+458     ls -ltr
+459     rm -rf libFinalistCWrapper.so
+460     ls -ltr
+461     cp -r Jar_Repository Jar_Repository_Java
+462     ls -ltr
+463     rm -rf Jar_Repository_Java
+464     ls -ltr
+465     cd /temp
+466     cd /tmp
+467     df -g .
+468     cd -
+469     mv CSEJarRepository.zip /temp
+470     ssh cseadmin@cg1p02a
+471     history 100
+472     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imaging=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_28.0_v5.44.0.9873.FormsGeneration.ear,formstemplates=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Forms.zip,batch=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Batch.ear,online=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Online.ear,integration=/cse/stage/built/2019_05_28.0_v5.44.0.9873.Integration.ear,tws=/cse/stage/built/2019_05_28.0_v5.44.0.9873.TWSSchedule.zip,selfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.SelfService.ear,ivr=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_05_28.0_v5.44.0.9873.SelfService.ear,violaforms=/cse/stage/built/2019_05_28.0_v5.44.0.9873.VIOLAForms.zip,reports=/cse/stage/built/2019_05_28.1_v5.44.0.6904.HyperionReports.zip -f
+473     cd /cse/lib
+474     ls -lt
+475     history 100
+476     ssh cg1p43a
+477     ls -ltr
+478     cd /cse/lib
+479     ls -ltr
+480     cd /tmp
+481     ls -ltr
+482     ssh cg1p43a
+483     ls -ltr
+484     ls Ja*
+485     ls -ltr
+486     ls cse*
+487     ls *.zip
+488     scp -r CSEJarRepository.zip cseadmin@ch1p20a:/cse/lib
+489     exit
+490     cd /cse/lib/Jar_Repository/HTTP_CLIENT
+491     ls -ltr
+492     cd ..
+493     ls -ltr
+494     ssh cg1p02a
+495     cd /cse/lib
+496     ls -ltr
+497     cd Jar_Repository
+498     ls -ltr
+499     cd HTTP_CLIENT
+500     ls -ltr
+501     cd ..
+502     cd Jar_Repository_backup
+503     cd ../Jar_Repository_backup
+504     ls -ltr
+505     cd HTTP_CLIENT
+506     ls -ltr
+507     cd ..
+508     ls -ltr
+509     cd HTTP_CLIENT
+510     ls -ltr
+511     cd ../
+512     cd ..
+513     ls -ltr
+514     cd Jar_Repository_backup
+515     cd ..
+516     cd Jar_Repository
+517     ls -ltr
+518     cd HTTP_CLIENT
+519     ls -ltr
+520     exit
+521     ls -ltr
+522     exit
+523     cd /cse/stage/built
+524     ls -ltr
+525     rm -rf *
+526     ls -ltr
+527     ssh cg1p43a
+528     history 100
+529     ssh cg1p43a
+530     ssh cg1p43a
+531     ls -ltr
+532     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+533     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear -f
+534     cd /cse/stage/built
+535     ls -lt
+536     rls -ltr
+537     ls -ltr
+538     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.FormsGeneration.ear -f
+539     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchForms.ear -f
+540     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+541     l s-ltr
+542     ls -ltr
+543     /cse/admin/bin/deploy.pl -inst SYA01 -app selfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+544     /cse/admin/bin/deploy.pl -inst SYA01 -app violaselfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+545     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingselfservice=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+546     cd /cse/lib
+547     ls -ltr
+548     ssh cseadmin@cg1p02a
+549     history 100
+550     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+551     history 100
+552     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear -f
+553     history 100
+554     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.FormsGeneration.ear -f
+555     history 100
+556     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchForms.ear -f
+557     history 100
+558     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+559     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+560     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+561     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.FormsGeneration.ear -f
+562     cd /cse/online
+563     ls -ltr
+564     cd logs
+565     ls -ltr
+566     cd SYA01_Online_StandAlone
+567     ls -ltr
+568     more SystemOut.log
+569     ssh cg1p43a
+570     cd /cse/lib
+571     ls -ltr
+572     cd Jar_Repository
+573     ls -ltr
+574     cd COMMON_UTILS
+575     ls -ltr
+576     cd ..
+577     ls -ltr
+578     cd COMMON_UTILS
+579     ls -ltr
+580     ls -ltr
+581     id
+582     history 100
+583     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+584     cd /cse/online/logs
+585     ls -ltr
+586     cd SYA01_Online_StandAlone
+587     ls -ltr
+588     more SystemOut.log
+589     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+590     ssh ch1p04a
+591     history 100
+592     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear -f
+593     history 100
+594     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.FormsGeneration.ear -f
+595     hsitory 100
+596     history 100
+597     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+598     history 100
+599     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchForms.ear -f
+600     history 100
+601     r selfservice
+602     /cse/admin/bin/deploy.pl -inst SYA01 -app selfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+603     history 100
+604     /cse/admin/bin/deploy.pl -inst SYA01 -app violaselfservice=/cse/stage/built/2019_05_20.0_Java_7.9577.SelfService.ear -f
+605     history 100
+606     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingselfservice=/cse/stage/built/2019_05_21.0_Java_7.8199.ArchImaging.ear -f
+607     ssh ch1p04a
+608     history 100
+609     /cse/admin/bin/deploy.pl -inst SYA01 -app batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear -f
+610     ssh ch1p04a
+611     cd /cse/lib
+612     ls -ltr
+613     rm -rf CSEJarRepository.zip
+614     rm -rf Jar_Repository_backup
+615     ls -ltr
+616     ssh cg1p43a
+617     ls -ltr
+618     cd Jar*
+619     unzip /cse/lib/2019_06_04.1_Repository.CSEJarRepository.zip -f
+620     unzip /cse/lib/2019_06_04.1_Repository.CSEJarRepository.zip
+621     id
+622     ssh cseadmin@cg1p02a
+623     cd /cse/stage/built
+624     ls -ltr
+625     rm -rf *
+626     exit
+627     cd -
+628     cd /cse/stage/built
+629     ls -ltr
+630     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imaging=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.FormsGeneration.ear,batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear,integration=/cse/stage/built/2019_05_24.0_Java_7.8989.Integration.ear,tws=/cse/stage/built/2019_05_24.0_Java_7.8989.TWSSchedule.zip,selfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,ivr=/cse/stage/built/2019_05_24.0_Java_7.8989.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,violaforms=/cse/stage/built/2019_05_24.0_Java_7.8989.VIOLAForms.zip,reports=/cse/stage/built/2019_05_24.0_Java_7.8989.HyperionReports.zip -f
+631     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imaging=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.FormsGeneration.ear,batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear,tws=/cse/stage/built/2019_05_24.0_Java_7.8989.TWSSchedule.zip,selfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,ivr=/cse/stage/built/2019_05_24.0_Java_7.8989.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,violaforms=/cse/stage/built/2019_05_24.0_Java_7.8989.VIOLAForms.zip,reports=/cse/stage/built/2019_05_24.0_Java_7.8989.HyperionReports.zip -f
+632     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imaging=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchForms.ear,imagingifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_05_24.0_Java_7.8989.FormsGeneration.ear,batch=/cse/stage/built/2019_05_24.0_Java_7.8989.Batch.ear,selfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,ivr=/cse/stage/built/2019_05_24.0_Java_7.8989.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_05_24.0_Java_7.8989.SelfService.ear,violaforms=/cse/stage/built/2019_05_24.0_Java_7.8989.VIOLAForms.zip,reports=/cse/stage/built/2019_05_24.0_Java_7.8989.HyperionReports.zip -f
+633     exit
+634     history
+635     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_05_24.0_Java_7.8989.Integration.ear -f
+636     exit
+637     history 100
+638     cd /cse/stage/built
+639     ls
+640     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_24.0_Java_7.8989.Online.ear -f
+641     cd /cse/lib
+642     ls -ltr
+643     exit
+644     cd /cse/stage/built
+645     ls -ltr
+646     ssh cg1p43a
+647     history 100
+648     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+649     cd /cse/online/logs
+650     ls -ltr
+651     cd SYA01_Online_StandAlone
+652     ls -ltr
+653     more SystemOut.log
+654     tail -f SystemOut.log
+655     cd ../../
+656     cd applications
+657     ls -lt
+658     rcd cse_SYA01_Online_StandAlone.ear
+659     cd cse_SYA01_Online_StandAlone.ear
+660     ls -ltr
+661     cd CSEWEB.war
+662     ls -ltr
+663     cd WEB*
+664     ls -ltr
+665     cd jsp
+666     ls -ltr
+667     cd heal*
+668     ls -ltr
+669     cd /cse/stage/built
+670     ls -ltr
+671     ssh cg1p43a
+672     cd /cse/stage/built
+673     ls -ltr
+674     history 10
+675     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019.05.21.0_v5.44.0.4204.Online.ear -f
+676     ls -ltr
+677     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_05_21.0_Java_7.8199.Online.ear -f
+678     cd /cse/lib
+679     ls -ltr
+680     cd Jar_Repository
+681     ls -ltr
+682     cat cse_version.properties
+683     cd /cse/online/logs
+684     ls -ltr
+685     cd SYA01_Online_StandAlone
+686     ls -ltr
+687     more native_stderr.log
+688     more native_stderr.log
+689     more SystemErr.log
+690     more SystemOut.log
+691     more SystemOut.log
+692     tail -f SystemOut.log
+693     cd /cse/online/applications
+694     ls -ltr
+695     cd /cse/finalist
+696     ls -ltr
+697     cd bin
+698     ls -ltr
+699     cd /usr/WebSphere
+700     ls -ltr
+701     cd AppServer_85
+702     ls -ltr
+703     cd properties
+704     ls -ltr
+705     cd ..
+706     ls -ltr
+707     cd profiles
+708     ls -ltr
+709     cd D*
+710     ls -ltr
+711     cd config
+712     ls -ltr
+713     cd cse*
+714     ls -ltr
+715     more SYA01.CSEArchitecture.properties
+716     df -g
+717     cd /cse
+718     ls -ltr
+719     df -g .
+720     cd stage
+721     ls -ltr
+722     cd promoted
+723     ls -ltr
+724     rm -rf *
+725     ls -ltr
+726     cd ..
+727     ls -ltr
+728     cd built
+729     ls -ltr
+730     df -g
+731     cd ..
+732     ls -ltr
+733     cd ..
+734     df -g .
+735     exit
+736     exit
+737     cd /cse/stage/promoted
+738     ls -ltr
+739     cd built
+740     ls -ltr
+741     cd ..
+742     ls -ltr
+743     rm -rf built
+744     ls -ltr
+745     ls -ltr
+746     cd built
+747     ls -ltr
+748     cd ..
+749     ls -ltr
+750     rm -rf built
+751     ls -ltr
+752     rm -rf *
+753     ls -ltr
+754     cd /cse/stage/promoted
+755     ls -ltr
+756     history 100
+757     exit
+758     cd /cse/stage/promoted
+759     ls -ltr
+760     exit
+761     ssh ch1p04a
+762     ssh cg1p04a
+763     cd /cse/stage/built
+764     ls -ltr
+765     ]\
+766     history 100
+767     cd /cse/stage/built
+768     ls -ltr
+769     rm -rf *
+770     ls -ltr
+771     exit
+772     history 10
+773     cd /cse/stage/built
+774     ls
+775     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.Online.ear -f
+776     cd /cse/stage/built
+777     ls -ltr
+778     history 100
+779     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.Online.ear -f
+780     ls
+781     /cse/admin/bin/deploy.pl -inst SYA01 -app formsifonline=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.ArchForms.ear -f
+782     ls
+783     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.ArchImaging.ear -f
+784     ls
+785     /cse/admin/bin/deploy.pl -inst SYA01 -app formsgenifonline=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.FormsGeneration.ear -f
+786     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_08_27.0_AEM_v5.44.0.5479.Integration.ear -f
+787     cd /cse/lib
+788     ls -ltr
+789     cd Jar_Repository
+790     ls -ltr
+791     cd HTTP_CLIENT
+792     ls -ltr
+793     cd ..
+794     ls -ltr
+795     cd /cse/online/logs
+796     ls -ltr
+797     cd SYA01_Online_StandAlone
+798     ls -ltr
+799     more SystemOut.log
+800     exit
+801     cd /cse/stage/built
+802     ls -ltr
+803     history 100
+804     ssh cg1p43a
+805     ls -ltr
+806     rm -rf *
+807     exit
+808     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+809     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+810     ssh cseadmin@ch1p04a
+811     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+812     ssh cg1p43a
+813     cd /cse/lib
+814     ls -ltr
+815     ssh cg1p43a
+816     cd /cse/lib
+817     ls -ltr
+818     ls -ltr
+819     ssh cseadmin@cg1p20a
+820     ssh cseadmin@cg1p02a
+821     id
+822     ssh cg1p02a
+823     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,formstemplates=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Forms.zip,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,selfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+824     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,selfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+825     ssh cg1p43a
+826     /cse/admin/bin/deploy.pl -inst SYA01 -app forms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imaging=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchForms.ear,imagingifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,formsgenifonline=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.FormsGeneration.ear,batch=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Batch.ear,online=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Online.ear,integration=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.Integration.ear,tws=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.TWSSchedule.zip,selfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,ivr=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ECSSIVR.ear,imagingselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.ArchImaging.ear,violaselfservice=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.SelfService.ear,violaforms=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.VIOLAForms.zip,reports=/cse/stage/built/2019_09_03.0_AEM_CR3443.6790.HyperionReports.zip -f
+827     cd /cse/stage/built
+828     ls
+829     rm -f *
+830     ls
+831     cd /cse/lib
+832     ls -al
+833     ls -al
+834     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431 *.
+835     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431* .
+836     scp deploy1@cg1p43a:/cse/stage/built/2019_10_02-v1.1.0.CSEFormTemplates.zip* .
+837     scp 2019_10_02-v1.1.0.CSEFormTemplates.zip deploy1@cg1p10a.dts.ca.gov:/cse/stage/built
+838     cd /cse/stage/built
+839     scp 2019_10_02-v1.1.0.CSEFormTemplates.zip deploy1@cg1p10a.dts.ca.gov:/cse/stage/built
+840     scp 2019_10_02-v1.1.0.CSEFormTemplates.zip cseadmin@cg1p37a.dts.ca.gov:/cse/stage/built
+841     ll
+842     cd ..
+843     cd ../lib
+844     ll
+845     cd /cse/stage/built
+846     ls -al
+847     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear .
+848     ls -al
+849     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear -f
+850     /cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear -f
+851     cd /cse/lib
+852     ls
+853     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/promoted/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+854     /cse/lib/deploy.pl -inst SYA01 -app online=/cse/stage/promoted/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+855     history
+856     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear .
+857     ls
+858     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/lib/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+859     cd /cse/stage/built
+860     ls
+861     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/lib/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+862     ls
+863     history
+864     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431* .
+865     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/built/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+866     /cse/admin/bin/deploy.pl -inst PFT09 -app formstemplates=2019_10_02-v1.1.0.CSEFormTemplates.zip,tws=/cse/stage/built/2019_11_18.0_CR31421.9431.TWSSchedule.zip -f
+867     /cse/admin/bin/deploy.pl -inst SYA01 -app formstemplates=2019_10_02-v1.1.0.CSEFormTemplates.zip,tws=/cse/stage/built/2019_11_18.0_CR31421.9431.TWSSchedule.zip -f
+868     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=2019_11_18.0_CR31421.9431.Integration.ear -f
+869     /cse/stage/built/deploy.pl -inst SYA01 -app integration=2019_11_18.0_CR31421.9431.Integration.ear -f
+870     cd ..
+871     ls
+872     cd promoted
+873     ls
+874     history
+875     scp deploy1@cg1p43a:/cse/stage/built/2019_11_18.0_CR31421.9431* .
+876     scp deploy1@cg1p43a:/cse/stage/built/2019_10_02-v1.1.0.CSEFormTemplates.zip* .
+877     ls
+878     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=2019_11_18.0_CR31421.9431.Integration.ear -f
+879     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/promoted/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+880     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+881     cd /cse/stage/built
+882     ls
+883     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+884     history 100
+885     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+886     df
+887     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+888     more /ds004_admin/xml/applicationDeploymentV2.xml
+889     tail /ds004_admin/xml/applicationDeploymentV2.xml
+890     vi /ds004_admin/xml/applicationDeploymentV2.xml
+891     ls /cse
+892     ls -la /cse
+893     ls /cse/stage
+894     ls /cse/stage/built
+895     history 1 | grep deploy.pl
+896     ls -la /cse/stage
+897     vi /ds004_admin/xml/applicationDeploymentV2.xml
+898     ls
+899     cd log
+900     ls
+901     ls -lagrt
+902     cd ..
+903     ls
+904     more /ds004_admin/xml/applicationDeploymentV2.xml
+905     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+906     vi /ds004_admin/config/integration/deployApplicationV2.xml
+907     grep parameters.dir /cse/admin/bin/deploy.pl
+908     grep network_deployment_server /cse/admin/bin/deploy.pl
+909     ps -ef | grep java
+910     ps -ef | grep dmgr
+911     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseP*
+912     ls
+913     cd  ..
+914     ls
+915     cd ..
+916     ls
+917     cd properties
+918     ls
+919     vi /ds004_admin/config/integration/deployApplicationV2.xml
+920     cd ..
+921     ls
+922     find . -name replacable
+923     vi /ds004_admin/config/integration/deployApplicationV2.xml
+924     more /ds004_admin/xml/applicationDeploymentV2.xml
+925     vi /ds004_admin/xml/applicationDeploymentV2.xml
+926     vi /ds004_admin/config/integration/deployApplicationV2.xml
+927     cd /cse/admin
+928     ls
+929     find . -name replac*
+930     cd config
+931     ls
+932     cd integration
+933     ls
+934     cd cg1p02a
+935     ls
+936     cd ..
+937     ls
+938     cd csehap025
+939     ls
+940     cd ..
+941     ls
+942     cd cg1p02a
+943     ls
+944     cd SYA01_Integration
+945     ls
+946     ls -la
+947     cd ..
+948     ls -la
+949     id
+950     cd ..
+951     ls
+952     ls -la
+953     cd cg1p02az
+954     cd cg1p02a
+955     ls
+956     ls -la
+957     cd SY*2
+958     ls
+959     cd ..
+960     ls
+961     cd SYA*n
+962     ls
+963     cat repl*.s
+964     cat replaceable_parms.properties
+965     cd ..
+966     cd ..
+967     ls
+968     cd appli*Deplo
+969     cd appli*Deplo*
+970     ls
+971     ls -la
+972     more cse_standalone.properties
+973     history
+974     history 1
+975     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+976     ps -ef | grep java
+977     vi /cse/admin/bin/deploy.pl
+978     cd /cse/admin
+979     ls
+980     cd log
+981     cd bin
+982     ls
+983     cd log
+984     ls
+985     cd ..
+986     cd logs
+987     ls
+988     ls -lagrt
+989     vi deploy.log
+990     vi deploy.log
+991     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+992     exit
+993     cd /cse/stage/built
+994     ls
+995     /cse/admin/bin/deploy.pl -inst SYA01 -app integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear -f
+996     /cse/admin/bin/deploy.pl -inst SYA01 -app online=/cse/stage/promoted/2019_11_18.0_CR31421.9431.Online.ear,integration=/cse/stage/built/2019_11_18.0_CR31421.9431.Integration.ear,batch=/cse/stage/built/2019_11_18.0_CR31421.9431.Batch.ear,formsgenifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.FormsGeneration.ear,imaging=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,forms=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,formsifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,formsonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchForms.ear,imagingonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear,selfservice=/cse/stage/built/2019_11_18.0_CR31421.9431.SelfService.ear,ivr=/cse/stage/built/2019_11_18.0_CR31421.9431.ECSSIVR.ear -f
+997     cd /cse/stage/built
+998     ls
+999     /cse/admin/bin/deploy.pl -inst SYA01 -app formstemplates=2019_10_02-v1.1.0.CSEFormTemplates.zip,tws=/cse/stage/built/2019_11_18.0_CR31421.9431.TWSSchedule.zip -f
+1000    history 100
+ankcsesyaa02[/home/deploy1]$ /cse/admin/bin/deploy.pl -inst SYA01 -app formsif       imagingifonline=/cse/stage/built/2019 _11 _18.0 _CR31421.9431.ArchImaging.ear f -f
+-------------------------------------------------- 
+deployment started by deploy1 ( deploy1 )
+/cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear -f
+-------------------------------------------------- 
+--confirming EARs that will be deployed--
+imagingifonline EAR : /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear:   2019_11_18.0_CR31421.9431
+--confirming which applications will be deployed to which instances--
+imagingifonline     : SYA01
+--starting imagingifonline deployments
+---deploy.pl was home /usr/WebSphere/AppServer_85
+----starting imagingifonline deployment: SYA01
+------preview of deploy arguments: earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear earFilePath=/cse/stage/built deploy_directory=/cse/admin/config/imaging network_deployment_server=cg1p02a parameters.dir=cg1p02a/SYA01_IF_Online userid=cse.admin applicationDeploymentProperties=applicationDeployment/standalone.properties
+Buildfile: deployApplicationV2.xml
+
+default:
+
+init:
+
+config:
+     [copy] Copying 1 file to /ds004_admin/config/imaging/cg1p02a/SYA01_IF_Online
+
+deployApplication:
+
+     [echo] ************************************************
+     [echo] Starting application deployment of ear 2019_11_18.0_CR31421.9431.ArchImaging.ear.
+     [echo] deploymentManagerName:  134.187.144.3.
+     [echo] ************************************************
+
+  [wsadmin] WASX7209I: Connected to process "dmgr" on node cg1p02aCellManager01 using SOAP connector;  The type of process is: DeploymentManager
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/securityProcs.jacl"
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/LTPA_LDAPSecurityProcs.jacl"
+  [wsadmin] WASX7303I: The following options are passed to the scripting environment and are available as arguments that are stored in the argv variable: "[taskName=fullInstall, jaclPath=/cse/admin/jacl/, wasVersion=@(wasVersion), webServerMapping=+WebSphere:node@(equalSign)cg1p02aNode01,server@(equalSign)webserver1, serverNodeName=@(serverNodeName), serverName=@(serverName), applicationName=@(serverName)_Imaging, earFilePath=/cse/stage/built, earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear, secondsToWaitForApplicationDeployment=30, secondsToWaitForApplicationToStart=60, installationDirectory=/cse/online/applications/, clusterName=@(clusterName), applicationWeight=@(applicationWeight), moduleToVirtualHostMapping#${moduleToVirtualHostMapping1}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping2}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping3}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping4}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping5}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping6}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping7}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping8}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping9}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping10}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping11}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping12}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping13}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping14}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping15}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping16}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping17}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping18}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping19}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping20}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping21}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping22}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping23}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping24}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping25}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping26}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping27}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping28}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping29}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping30}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping31}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping32}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping33}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping34}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping35}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping36}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping37}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping38}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping39}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping40}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping41}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping42}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping43}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping44}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping45}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping46}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping47}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping48}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping49}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping50}, moduleToServerMapping#name=ArchImagingServices,moduleName=ArchImagingServices.jar,moduleType=ejb,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#name=ArchImagingBootstrapWeb,moduleName=ArchImagingBootstrapWeb.war,moduleType=web,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#${moduleToServerMapping3}, moduleToServerMapping#${moduleToServerMapping4}, moduleToServerMapping#${moduleToServerMapping5}, moduleToServerMapping#${moduleToServerMapping6}, moduleToServerMapping#${moduleToServerMapping7}, moduleToServerMapping#${moduleToServerMapping8}, moduleToServerMapping#${moduleToServerMapping9}, moduleToServerMapping#${moduleToServerMapping10}, moduleToServerMapping#${moduleToServerMapping11}, moduleToServerMapping#${moduleToServerMapping12}, moduleToServerMapping#${moduleToServerMapping13}, moduleToServerMapping#${moduleToServerMapping14}, moduleToServerMapping#${moduleToServerMapping15}, moduleToServerMapping#${moduleToServerMapping16}, moduleToServerMapping#${moduleToServerMapping17}, moduleToServerMapping#${moduleToServerMapping18}, moduleToServerMapping#${moduleToServerMapping19}, moduleToServerMapping#${moduleToServerMapping20}, moduleToServerMapping#${moduleToServerMapping21}, moduleToServerMapping#${moduleToServerMapping22}, moduleToServerMapping#${moduleToServerMapping23}, moduleToServerMapping#${moduleToServerMapping24}, moduleToServerMapping#${moduleToServerMapping25}, moduleToServerMapping#${moduleToServerMapping26}, moduleToServerMapping#${moduleToServerMapping27}, moduleToServerMapping#${moduleToServerMapping28}, moduleToServerMapping#${moduleToServerMapping29}, moduleToServerMapping#${moduleToServerMapping30}, moduleToServerMapping#${moduleToServerMapping31}, moduleToServerMapping#${moduleToServerMapping32}, moduleToServerMapping#${moduleToServerMapping33}, moduleToServerMapping#${moduleToServerMapping34}, moduleToServerMapping#${moduleToServerMapping35}, moduleToServerMapping#${moduleToServerMapping36}, moduleToServerMapping#${moduleToServerMapping37}, moduleToServerMapping#${moduleToServerMapping38}, moduleToServerMapping#${moduleToServerMapping39}, moduleToServerMapping#${moduleToServerMapping40}, moduleToServerMapping#${moduleToServerMapping41}, moduleToServerMapping#${moduleToServerMapping42}, moduleToServerMapping#${moduleToServerMapping43}, moduleToServerMapping#${moduleToServerMapping44}, moduleToServerMapping#${moduleToServerMapping45}, moduleToServerMapping#${moduleToServerMapping46}, moduleToServerMapping#${moduleToServerMapping47}, moduleToServerMapping#${moduleToServerMapping48}, moduleToServerMapping#${moduleToServerMapping49}, moduleToServerMapping#${moduleToServerMapping50}, moduleStartingWeight#uri=ArchImagingServices.jar,startingWeight=5000, moduleStartingWeight#uri=ArchImagingBootstrapWeb.war,startingWeight=10000, moduleStartingWeight#${moduleStartingWeight3}, moduleStartingWeight#${moduleStartingWeight4}, moduleStartingWeight#${moduleStartingWeight5}, moduleStartingWeight#${moduleStartingWeight6}, moduleStartingWeight#${moduleStartingWeight7}, moduleStartingWeight#${moduleStartingWeight8}, moduleStartingWeight#${moduleStartingWeight9}, moduleStartingWeight#${moduleStartingWeight10}, moduleStartingWeight#${moduleStartingWeight11}, moduleStartingWeight#${moduleStartingWeight12}, moduleStartingWeight#${moduleStartingWeight13}, moduleStartingWeight#${moduleStartingWeight14}, moduleStartingWeight#${moduleStartingWeight15}, moduleStartingWeight#${moduleStartingWeight16}, moduleStartingWeight#${moduleStartingWeight17}, moduleStartingWeight#${moduleStartingWeight18}, moduleStartingWeight#${moduleStartingWeight19}, moduleStartingWeight#${moduleStartingWeight20}, moduleStartingWeight#${moduleStartingWeight21}, moduleStartingWeight#${moduleStartingWeight22}, moduleStartingWeight#${moduleStartingWeight23}, moduleStartingWeight#${moduleStartingWeight24}, moduleStartingWeight#${moduleStartingWeight25}, moduleStartingWeight#${moduleStartingWeight26}, moduleStartingWeight#${moduleStartingWeight27}, moduleStartingWeight#${moduleStartingWeight28}, moduleStartingWeight#${moduleStartingWeight29}, moduleStartingWeight#${moduleStartingWeight30}, moduleStartingWeight#${moduleStartingWeight31}, moduleStartingWeight#${moduleStartingWeight32}, moduleStartingWeight#${moduleStartingWeight33}, moduleStartingWeight#${moduleStartingWeight34}, moduleStartingWeight#${moduleStartingWeight35}, moduleStartingWeight#${moduleStartingWeight36}, moduleStartingWeight#${moduleStartingWeight37}, moduleStartingWeight#${moduleStartingWeight38}, moduleStartingWeight#${moduleStartingWeight39}, moduleStartingWeight#${moduleStartingWeight40}, moduleStartingWeight#${moduleStartingWeight41}, moduleStartingWeight#${moduleStartingWeight42}, moduleStartingWeight#${moduleStartingWeight43}, moduleStartingWeight#${moduleStartingWeight44}, moduleStartingWeight#${moduleStartingWeight45}, moduleStartingWeight#${moduleStartingWeight46}, moduleStartingWeight#${moduleStartingWeight47}, moduleStartingWeight#${moduleStartingWeight48}, moduleStartingWeight#${moduleStartingWeight49}, moduleStartingWeight#${moduleStartingWeight50}, roleToUserMapping#${roleToUserMapping1}, roleToUserMapping#${roleToUserMapping2}, roleToUserMapping#${roleToUserMapping3}, roleToUserMapping#${roleToUserMapping4}, roleToUserMapping#${roleToUserMapping5}, roleToUserMapping#${roleToUserMapping6}, roleToUserMapping#${roleToUserMapping7}, roleToUserMapping#${roleToUserMapping8}, roleToUserMapping#${roleToUserMapping9}, roleToUserMapping#${roleToUserMapping10}, roleToUserMapping#${roleToUserMapping11}, roleToUserMapping#${roleToUserMapping12}, roleToUserMapping#${roleToUserMapping13}, roleToUserMapping#${roleToUserMapping14}, roleToUserMapping#${roleToUserMapping15}, roleToUserMapping#${roleToUserMapping16}, roleToUserMapping#${roleToUserMapping17}, roleToUserMapping#${roleToUserMapping18}, roleToUserMapping#${roleToUserMapping19}, roleToUserMapping#${roleToUserMapping20}, roleToUserMapping#${roleToUserMapping21}, roleToUserMapping#${roleToUserMapping22}, roleToUserMapping#${roleToUserMapping23}, roleToUserMapping#${roleToUserMapping24}, roleToUserMapping#${roleToUserMapping25}, roleToUserMapping#${roleToUserMapping26}, roleToUserMapping#${roleToUserMapping27}, roleToUserMapping#${roleToUserMapping28}, roleToUserMapping#${roleToUserMapping29}, roleToUserMapping#${roleToUserMapping30}, roleToUserMapping#${roleToUserMapping31}, roleToUserMapping#${roleToUserMapping32}, roleToUserMapping#${roleToUserMapping33}, roleToUserMapping#${roleToUserMapping34}, roleToUserMapping#${roleToUserMapping35}, roleToUserMapping#${roleToUserMapping36}, roleToUserMapping#${roleToUserMapping37}, roleToUserMapping#${roleToUserMapping38}, roleToUserMapping#${roleToUserMapping39}, roleToUserMapping#${roleToUserMapping40}, roleToUserMapping#${roleToUserMapping41}, roleToUserMapping#${roleToUserMapping42}, roleToUserMapping#${roleToUserMapping43}, roleToUserMapping#${roleToUserMapping44}, roleToUserMapping#${roleToUserMapping45}, roleToUserMapping#${roleToUserMapping46}, roleToUserMapping#${roleToUserMapping47}, roleToUserMapping#${roleToUserMapping48}, roleToUserMapping#${roleToUserMapping49}, roleToUserMapping#${roleToUserMapping50}]"
+  [wsadmin] /cse/admin/jacl/
+  [wsadmin] Just sourcing the sharedLibrary.jacl file.
+  [wsadmin]  Calling procedure fullInstall
+  [wsadmin] Try to connect to dmgr...
+  [wsadmin] Connected to WebSphere cell <cg1p02aCell01>
+  [wsadmin]    Stopped server : SYA01_IF_Online
+  [wsadmin]    Application SYA01_IF_Online_Imaging was not previously installed.
+  [wsadmin]    Saving configuration.
+  [wsadmin] rc from save: 0
+  [wsadmin]    Building virtual host mapping
+  [wsadmin]    vhm 
+  [wsadmin]    Module to Virtual Host mappings:
+  [wsadmin]    
+  [wsadmin]    Module to Server Mappings:
+  [wsadmin]    -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}}
+  [wsadmin]    Role to User Mappings:
+  [wsadmin]    
+  [wsadmin]  Installing Application: SYA01_IF_Online_Imaging from file /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear to server SYA01_IF_Online
+  [wsadmin]     Installing into app server
+  [wsadmin] fullFileName: /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear 
+  [wsadmin] -node: cg1p02aNode01 
+  [wsadmin] -server: SYA01_IF_Online 
+  [wsadmin] -installdir: /cse/online/applications/ 
+  [wsadmin] -appname: SYA01_IF_Online_Imaging 
+  [wsadmin] modeuleToVirtualHostMappings:  
+  [wsadmin] moduleToServerMappings: -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}} 
+  [wsadmin] roleToUserMappings:  
+  [wsadmin] ADMA5016I: Installation of SYA01_IF_Online_Imaging started.
+  [wsadmin] ADMA5058I: Application and module versions are validated with versions of deployment targets.
+  [wsadmin] ADMA5018I: The EJBDeploy program is running on file /tmp/app7346712974470250999.ear.
+  [wsadmin] Starting workbench.
+  [wsadmin] EJB Deploy configuration directory: /usr/WebSphere/AppServer_85/profiles/DeploymentManager/ejbdeploy/configuration/
+  [wsadmin] framework search path: /usr/WebSphere/AppServer_85/deploytool/itp/plugins
+  [wsadmin] build:RADWEJB95-I20150829_0214
+  [wsadmin] Creating the project.
+  [wsadmin] Deploying jar ArchImagingServices
+  [wsadmin] Generating deployment code
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] Shutting down workbench.
+  [wsadmin] Execution Halted: Compilation Errors Reported
+  [wsadmin] 30 Errors, 0 Warnings, 0 Informational Messages
+  [wsadmin] ADMA5008E: The EJBDeploy program failed on file /tmp/app7346712974470250999.ear.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA0063E: An error occurred during Enterprise JavaBeans (EJB) deployment.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA5011I: The cleanup of the temp directory for application SYA01_IF_Online_Imaging is complete.
+  [wsadmin] ADMA5014E: The installation of application SYA01_IF_Online_Imaging failed.
+  [wsadmin]     Install complete....
+  [wsadmin]    Error <com.ibm.ws.scripting.ScriptingException: WASX7132E: Application install for /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear failed: see previous messages for details.> starting application SYA01_IF_Online_Imaging.
+  [wsadmin]     Errors occurred during processing, resetting configuration.
+  [wsadmin] Resetting configuration.
+  [wsadmin] Exiting with rc of 1
+
+BUILD FAILED
+/ds004_admin/config/imaging/deployApplicationV2.xml:37: The following error occurred while executing this line:
+/ds004_admin/xml/applicationDeploymentV2.xml:53: Java returned: 1
+
+Total time: 40 seconds
+------return code from SYA01 imagingifonline: 0
+------time from deployment portion: 42 seconds
+-------------------------------------------------- 
+deploy.pl results summary
+-------------------------------------------------- 
+SYA01  imagingifonline succeeded ( return code =   0 ) time: 0 minutes 42 seconds
+total elapsed time: time: 0 minutes 44 seconds
+ankcsesyaa02[/home/deploy1]$ df /tmf
+df: 0506-003 Cannot find or open file system /tmf.
+ankcsesyaa02[/home/deploy1]$ df /tmf
+df: 0506-003 Cannot find or open file system /tmf.
+ankcsesyaa02[/home/deploy1]$ df /tmp
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd3         7995392   2108392   74%     5138     3% /tmp
+ankcsesyaa02[/home/deploy1]$ ls -la /tmp/app7346712974470250999.ear.
+ls: 0653-341 The file /tmp/app7346712974470250999.ear. does not exist.
+ankcsesyaa02[/home/deploy1]$ ls -la /tmp/app7346712974470250999.ear.df /tmp                                df /tmf/cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019 _11 _18.0 _CR31421.9431.ArchImaging.ear -f
+-------------------------------------------------- 
+deployment started by deploy1 ( deploy1 )
+/cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear -f
+-------------------------------------------------- 
+--confirming EARs that will be deployed--
+imagingifonline EAR : /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear:   2019_11_18.0_CR31421.9431
+--confirming which applications will be deployed to which instances--
+imagingifonline     : SYA01
+--starting imagingifonline deployments
+---deploy.pl was home /usr/WebSphere/AppServer_85
+----starting imagingifonline deployment: SYA01
+------preview of deploy arguments: earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear earFilePath=/cse/stage/built deploy_directory=/cse/admin/config/imaging network_deployment_server=cg1p02a parameters.dir=cg1p02a/SYA01_IF_Online userid=cse.admin applicationDeploymentProperties=applicationDeployment/standalone.properties
+Buildfile: deployApplicationV2.xml
+
+default:
+
+init:
+
+config:
+     [copy] Copying 1 file to /ds004_admin/config/imaging/cg1p02a/SYA01_IF_Online
+
+deployApplication:
+
+     [echo] ************************************************
+     [echo] Starting application deployment of ear 2019_11_18.0_CR31421.9431.ArchImaging.ear.
+     [echo] deploymentManagerName:  134.187.144.3.
+     [echo] ************************************************
+
+  [wsadmin] WASX7209I: Connected to process "dmgr" on node cg1p02aCellManager01 using SOAP connector;  The type of process is: DeploymentManager
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/securityProcs.jacl"
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/LTPA_LDAPSecurityProcs.jacl"
+  [wsadmin] WASX7303I: The following options are passed to the scripting environment and are available as arguments that are stored in the argv variable: "[taskName=fullInstall, jaclPath=/cse/admin/jacl/, wasVersion=@(wasVersion), webServerMapping=+WebSphere:node@(equalSign)cg1p02aNode01,server@(equalSign)webserver1, serverNodeName=@(serverNodeName), serverName=@(serverName), applicationName=@(serverName)_Imaging, earFilePath=/cse/stage/built, earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear, secondsToWaitForApplicationDeployment=30, secondsToWaitForApplicationToStart=60, installationDirectory=/cse/online/applications/, clusterName=@(clusterName), applicationWeight=@(applicationWeight), moduleToVirtualHostMapping#${moduleToVirtualHostMapping1}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping2}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping3}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping4}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping5}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping6}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping7}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping8}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping9}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping10}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping11}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping12}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping13}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping14}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping15}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping16}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping17}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping18}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping19}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping20}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping21}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping22}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping23}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping24}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping25}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping26}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping27}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping28}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping29}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping30}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping31}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping32}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping33}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping34}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping35}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping36}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping37}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping38}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping39}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping40}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping41}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping42}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping43}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping44}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping45}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping46}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping47}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping48}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping49}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping50}, moduleToServerMapping#name=ArchImagingServices,moduleName=ArchImagingServices.jar,moduleType=ejb,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#name=ArchImagingBootstrapWeb,moduleName=ArchImagingBootstrapWeb.war,moduleType=web,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#${moduleToServerMapping3}, moduleToServerMapping#${moduleToServerMapping4}, moduleToServerMapping#${moduleToServerMapping5}, moduleToServerMapping#${moduleToServerMapping6}, moduleToServerMapping#${moduleToServerMapping7}, moduleToServerMapping#${moduleToServerMapping8}, moduleToServerMapping#${moduleToServerMapping9}, moduleToServerMapping#${moduleToServerMapping10}, moduleToServerMapping#${moduleToServerMapping11}, moduleToServerMapping#${moduleToServerMapping12}, moduleToServerMapping#${moduleToServerMapping13}, moduleToServerMapping#${moduleToServerMapping14}, moduleToServerMapping#${moduleToServerMapping15}, moduleToServerMapping#${moduleToServerMapping16}, moduleToServerMapping#${moduleToServerMapping17}, moduleToServerMapping#${moduleToServerMapping18}, moduleToServerMapping#${moduleToServerMapping19}, moduleToServerMapping#${moduleToServerMapping20}, moduleToServerMapping#${moduleToServerMapping21}, moduleToServerMapping#${moduleToServerMapping22}, moduleToServerMapping#${moduleToServerMapping23}, moduleToServerMapping#${moduleToServerMapping24}, moduleToServerMapping#${moduleToServerMapping25}, moduleToServerMapping#${moduleToServerMapping26}, moduleToServerMapping#${moduleToServerMapping27}, moduleToServerMapping#${moduleToServerMapping28}, moduleToServerMapping#${moduleToServerMapping29}, moduleToServerMapping#${moduleToServerMapping30}, moduleToServerMapping#${moduleToServerMapping31}, moduleToServerMapping#${moduleToServerMapping32}, moduleToServerMapping#${moduleToServerMapping33}, moduleToServerMapping#${moduleToServerMapping34}, moduleToServerMapping#${moduleToServerMapping35}, moduleToServerMapping#${moduleToServerMapping36}, moduleToServerMapping#${moduleToServerMapping37}, moduleToServerMapping#${moduleToServerMapping38}, moduleToServerMapping#${moduleToServerMapping39}, moduleToServerMapping#${moduleToServerMapping40}, moduleToServerMapping#${moduleToServerMapping41}, moduleToServerMapping#${moduleToServerMapping42}, moduleToServerMapping#${moduleToServerMapping43}, moduleToServerMapping#${moduleToServerMapping44}, moduleToServerMapping#${moduleToServerMapping45}, moduleToServerMapping#${moduleToServerMapping46}, moduleToServerMapping#${moduleToServerMapping47}, moduleToServerMapping#${moduleToServerMapping48}, moduleToServerMapping#${moduleToServerMapping49}, moduleToServerMapping#${moduleToServerMapping50}, moduleStartingWeight#uri=ArchImagingServices.jar,startingWeight=5000, moduleStartingWeight#uri=ArchImagingBootstrapWeb.war,startingWeight=10000, moduleStartingWeight#${moduleStartingWeight3}, moduleStartingWeight#${moduleStartingWeight4}, moduleStartingWeight#${moduleStartingWeight5}, moduleStartingWeight#${moduleStartingWeight6}, moduleStartingWeight#${moduleStartingWeight7}, moduleStartingWeight#${moduleStartingWeight8}, moduleStartingWeight#${moduleStartingWeight9}, moduleStartingWeight#${moduleStartingWeight10}, moduleStartingWeight#${moduleStartingWeight11}, moduleStartingWeight#${moduleStartingWeight12}, moduleStartingWeight#${moduleStartingWeight13}, moduleStartingWeight#${moduleStartingWeight14}, moduleStartingWeight#${moduleStartingWeight15}, moduleStartingWeight#${moduleStartingWeight16}, moduleStartingWeight#${moduleStartingWeight17}, moduleStartingWeight#${moduleStartingWeight18}, moduleStartingWeight#${moduleStartingWeight19}, moduleStartingWeight#${moduleStartingWeight20}, moduleStartingWeight#${moduleStartingWeight21}, moduleStartingWeight#${moduleStartingWeight22}, moduleStartingWeight#${moduleStartingWeight23}, moduleStartingWeight#${moduleStartingWeight24}, moduleStartingWeight#${moduleStartingWeight25}, moduleStartingWeight#${moduleStartingWeight26}, moduleStartingWeight#${moduleStartingWeight27}, moduleStartingWeight#${moduleStartingWeight28}, moduleStartingWeight#${moduleStartingWeight29}, moduleStartingWeight#${moduleStartingWeight30}, moduleStartingWeight#${moduleStartingWeight31}, moduleStartingWeight#${moduleStartingWeight32}, moduleStartingWeight#${moduleStartingWeight33}, moduleStartingWeight#${moduleStartingWeight34}, moduleStartingWeight#${moduleStartingWeight35}, moduleStartingWeight#${moduleStartingWeight36}, moduleStartingWeight#${moduleStartingWeight37}, moduleStartingWeight#${moduleStartingWeight38}, moduleStartingWeight#${moduleStartingWeight39}, moduleStartingWeight#${moduleStartingWeight40}, moduleStartingWeight#${moduleStartingWeight41}, moduleStartingWeight#${moduleStartingWeight42}, moduleStartingWeight#${moduleStartingWeight43}, moduleStartingWeight#${moduleStartingWeight44}, moduleStartingWeight#${moduleStartingWeight45}, moduleStartingWeight#${moduleStartingWeight46}, moduleStartingWeight#${moduleStartingWeight47}, moduleStartingWeight#${moduleStartingWeight48}, moduleStartingWeight#${moduleStartingWeight49}, moduleStartingWeight#${moduleStartingWeight50}, roleToUserMapping#${roleToUserMapping1}, roleToUserMapping#${roleToUserMapping2}, roleToUserMapping#${roleToUserMapping3}, roleToUserMapping#${roleToUserMapping4}, roleToUserMapping#${roleToUserMapping5}, roleToUserMapping#${roleToUserMapping6}, roleToUserMapping#${roleToUserMapping7}, roleToUserMapping#${roleToUserMapping8}, roleToUserMapping#${roleToUserMapping9}, roleToUserMapping#${roleToUserMapping10}, roleToUserMapping#${roleToUserMapping11}, roleToUserMapping#${roleToUserMapping12}, roleToUserMapping#${roleToUserMapping13}, roleToUserMapping#${roleToUserMapping14}, roleToUserMapping#${roleToUserMapping15}, roleToUserMapping#${roleToUserMapping16}, roleToUserMapping#${roleToUserMapping17}, roleToUserMapping#${roleToUserMapping18}, roleToUserMapping#${roleToUserMapping19}, roleToUserMapping#${roleToUserMapping20}, roleToUserMapping#${roleToUserMapping21}, roleToUserMapping#${roleToUserMapping22}, roleToUserMapping#${roleToUserMapping23}, roleToUserMapping#${roleToUserMapping24}, roleToUserMapping#${roleToUserMapping25}, roleToUserMapping#${roleToUserMapping26}, roleToUserMapping#${roleToUserMapping27}, roleToUserMapping#${roleToUserMapping28}, roleToUserMapping#${roleToUserMapping29}, roleToUserMapping#${roleToUserMapping30}, roleToUserMapping#${roleToUserMapping31}, roleToUserMapping#${roleToUserMapping32}, roleToUserMapping#${roleToUserMapping33}, roleToUserMapping#${roleToUserMapping34}, roleToUserMapping#${roleToUserMapping35}, roleToUserMapping#${roleToUserMapping36}, roleToUserMapping#${roleToUserMapping37}, roleToUserMapping#${roleToUserMapping38}, roleToUserMapping#${roleToUserMapping39}, roleToUserMapping#${roleToUserMapping40}, roleToUserMapping#${roleToUserMapping41}, roleToUserMapping#${roleToUserMapping42}, roleToUserMapping#${roleToUserMapping43}, roleToUserMapping#${roleToUserMapping44}, roleToUserMapping#${roleToUserMapping45}, roleToUserMapping#${roleToUserMapping46}, roleToUserMapping#${roleToUserMapping47}, roleToUserMapping#${roleToUserMapping48}, roleToUserMapping#${roleToUserMapping49}, roleToUserMapping#${roleToUserMapping50}]"
+  [wsadmin] /cse/admin/jacl/
+  [wsadmin] Just sourcing the sharedLibrary.jacl file.
+  [wsadmin]  Calling procedure fullInstall
+  [wsadmin] Try to connect to dmgr...
+  [wsadmin] Connected to WebSphere cell <cg1p02aCell01>
+  [wsadmin]    Application SYA01_IF_Online_Imaging was not previously installed.
+  [wsadmin]    Saving configuration.
+  [wsadmin] rc from save: 0
+  [wsadmin]    Building virtual host mapping
+  [wsadmin]    vhm 
+  [wsadmin]    Module to Virtual Host mappings:
+  [wsadmin]    
+  [wsadmin]    Module to Server Mappings:
+  [wsadmin]    -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}}
+  [wsadmin]    Role to User Mappings:
+  [wsadmin]    
+  [wsadmin]  Installing Application: SYA01_IF_Online_Imaging from file /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear to server SYA01_IF_Online
+  [wsadmin]     Installing into app server
+  [wsadmin] fullFileName: /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear 
+  [wsadmin] -node: cg1p02aNode01 
+  [wsadmin] -server: SYA01_IF_Online 
+  [wsadmin] -installdir: /cse/online/applications/ 
+  [wsadmin] -appname: SYA01_IF_Online_Imaging 
+  [wsadmin] modeuleToVirtualHostMappings:  
+  [wsadmin] moduleToServerMappings: -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}} 
+  [wsadmin] roleToUserMappings:  
+  [wsadmin] ADMA5016I: Installation of SYA01_IF_Online_Imaging started.
+  [wsadmin] ADMA5058I: Application and module versions are validated with versions of deployment targets.
+  [wsadmin] ADMA5018I: The EJBDeploy program is running on file /tmp/app3033652649634899551.ear.
+  [wsadmin] Starting workbench.
+  [wsadmin] EJB Deploy configuration directory: /usr/WebSphere/AppServer_85/profiles/DeploymentManager/ejbdeploy/configuration/
+  [wsadmin] framework search path: /usr/WebSphere/AppServer_85/deploytool/itp/plugins
+  [wsadmin] build:RADWEJB95-I20150829_0214
+  [wsadmin] Creating the project.
+  [wsadmin] Deploying jar ArchImagingServices
+  [wsadmin] Generating deployment code
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] Shutting down workbench.
+  [wsadmin] Execution Halted: Compilation Errors Reported
+  [wsadmin] 30 Errors, 0 Warnings, 0 Informational Messages
+  [wsadmin] ADMA5008E: The EJBDeploy program failed on file /tmp/app3033652649634899551.ear.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA0063E: An error occurred during Enterprise JavaBeans (EJB) deployment.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA5011I: The cleanup of the temp directory for application SYA01_IF_Online_Imaging is complete.
+  [wsadmin] ADMA5014E: The installation of application SYA01_IF_Online_Imaging failed.
+  [wsadmin]     Install complete....
+  [wsadmin]    Error <com.ibm.ws.scripting.ScriptingException: WASX7132E: Application install for /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear failed: see previous messages for details.> starting application SYA01_IF_Online_Imaging.
+  [wsadmin]     Errors occurred during processing, resetting configuration.
+  [wsadmin] Resetting configuration.
+  [wsadmin] Exiting with rc of 1
+
+BUILD FAILED
+/ds004_admin/config/imaging/deployApplicationV2.xml:37: The following error occurred while executing this line:
+/ds004_admin/xml/applicationDeploymentV2.xml:53: Java returned: 1
+
+Total time: 36 seconds
+------return code from SYA01 imagingifonline: 0
+------time from deployment portion: 37 seconds
+-------------------------------------------------- 
+deploy.pl results summary
+-------------------------------------------------- 
+SYA01  imagingifonline succeeded ( return code =   0 ) time: 0 minutes 37 seconds
+total elapsed time: time: 0 minutes 40 seconds
+ankcsesyaa02[/home/deploy1]$ df /tmp
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd3         7995392   2108392   74%     5138     3% /tmp
+ankcsesyaa02[/home/deploy1]$ df 
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2621440    888752   67%    24401    20% /
+/dev/hd2        16777216   2137896   88%    87926    26% /usr
+/dev/hd9var      4194304   1019848   76%    12902    10% /var
+/dev/hd3         7995392   2108392   74%     5138     3% /tmp
+/dev/hd1         6750208   2622592   62%    25825     9% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local     524288    451568   14%      650     2% /usr/local
+/dev/hd10opt    10485760   4379184   59%    16971     4% /opt
+/dev/home_hw      524288    401152   24%     2134     5% /home/hw
+/dev/mksysb     27262976   2228744   92%       53     1% /mksysb
+/dev/scratchlv    8388608   7665928    9%       52     1% /scratch
+/dev/savevg       524288    518608    2%       49     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/websphere   41943040  15426080   64%   115984     6% /usr/WebSphere
+/dev/ihs         3145728   1181240   63%     4711     4% /usr/IHS
+/dev/ihs7_ps     4194304   2896944   31%     4629     2% /usr/IHS7_PS
+/dev/introscope    9437184   2936448   69%    12257     4% /introscope
+/dev/introscopedata   20971520   8994056   58%    12452     2% /introscope/data
+/dev/auditlv     2097152   2047376    3%        5     1% /opt/auditout
+/dev/poldir_lv_1     131072    115808   12%       95     1% /opt/PolicyDirector
+/dev/ap103hf_lv     262144    255936    3%       79     1% /ap103_hotfolders
+/dev/ap116hf_lv     262144    255832    3%       79     1% /ap116_hotfolders
+/dev/insthomelv    3670016   3311408   10%      241     1% /insthome
+/dev/cse_lv      8912896   1946784   79%    13023     4% /cse
+/dev/logslv      1048576   1032216    2%       24     1% /var/adm/logs
+/dev/CommVaultlv   16777216  15635688    7%     1206     1% /CommVault
+/dev/livedump     262144    261448    1%        4     1% /var/adm/ras/livedump
+/dev/hd11admin     262144    261384    1%       11     1% /admin
+/dev/ihslv      18874368  16805168   11%     4240     1% /usr/HTTPServer
+/dev/httplogslv    6291456   6265248    1%        6     1% /usr/HTTPLogs
+/dev/apache24lv   10485760  10385840    1%     1320     1% /usr/apache24
+/dev/tomcat8lv   31457280  29766944    6%     2546     1% /usr/tomcat8
+/dev/itmlv       6291456   5170680   18%     4468     1% /opt/IBM/ITM
+ankcsesyad01:/finalist    12058624   5517888   55%      331     1% /finalist
+ankcsesyad01:/ds003_forms     4194304   3236176   23%     9305     3% /ds003_forms
+ankcsesyad01:/ds003_pdf2afp    10485760   9746272    8%     5396     1% /ds003_pdf2afp
+ankcsesyad01:/ds003_cpos_daemon1     9830400   9821664    1%       17     1% /ds003_cpos_daemon1
+ankcsesyaa05:/cse/lib/Jar_Repository     2097152    955664   55%      684     1% /cse/lib/Jar_Repository
+ankcsepf1d02:/swstage   283115520  21869160   93%    84785     3% /swstage
+ankcsesyad01:/ds003_admin    16252928   2060648   88%   156717    37% /ds004_admin
+/dev/httplogslv_cf    6291456   6265168    1%        6     1% /usr/HTTPLogs_cf
+ankcsesyaa02[/home/deploy1]$ df -h
+df: Not a recognized flag: h
+Usage: df  [-P] | [-IMitv] [-gkm] [-s] [filesystem ...] [file ...]
+ankcsesyaa02[/home/deploy1]$ df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           1.25      0.42   67%    24401    20% /
+/dev/hd2           8.00      1.02   88%    87926    26% /usr
+/dev/hd9var        2.00      0.49   76%    12902    10% /var
+/dev/hd3           3.81      1.01   74%     5138     3% /tmp
+/dev/hd1           3.22      1.25   62%    25825     9% /home
+/proc                 -         -    -        -      - /proc
+/dev/usr_local      0.25      0.22   14%      650     2% /usr/local
+/dev/hd10opt       5.00      2.09   59%    16971     4% /opt
+/dev/home_hw       0.25      0.19   24%     2134     5% /home/hw
+/dev/mksysb       13.00      1.06   92%       53     1% /mksysb
+/dev/scratchlv      4.00      3.66    9%       52     1% /scratch
+/dev/savevg        0.25      0.25    2%       49     1% /savevg
+/dev/dumpcopy      0.50      0.50    1%        4     1% /var/adm/ras/dumpcopy
+/dev/websphere     20.00      7.36   64%   115984     6% /usr/WebSphere
+/dev/ihs           1.50      0.56   63%     4711     4% /usr/IHS
+/dev/ihs7_ps       2.00      1.38   31%     4629     2% /usr/IHS7_PS
+/dev/introscope      4.50      1.40   69%    12257     4% /introscope
+/dev/introscopedata     10.00      4.29   58%    12452     2% /introscope/data
+/dev/auditlv       1.00      0.98    3%        5     1% /opt/auditout
+/dev/poldir_lv_1      0.06      0.06   12%       95     1% /opt/PolicyDirector
+/dev/ap103hf_lv      0.12      0.12    3%       79     1% /ap103_hotfolders
+/dev/ap116hf_lv      0.12      0.12    3%       79     1% /ap116_hotfolders
+/dev/insthomelv      1.75      1.58   10%      241     1% /insthome
+/dev/cse_lv        4.25      0.93   79%    13023     4% /cse
+/dev/logslv        0.50      0.49    2%       24     1% /var/adm/logs
+/dev/CommVaultlv      8.00      7.46    7%     1206     1% /CommVault
+/dev/livedump      0.12      0.12    1%        4     1% /var/adm/ras/livedump
+/dev/hd11admin      0.12      0.12    1%       11     1% /admin
+/dev/ihslv         9.00      8.01   11%     4240     1% /usr/HTTPServer
+/dev/httplogslv      3.00      2.99    1%        6     1% /usr/HTTPLogs
+/dev/apache24lv      5.00      4.95    1%     1320     1% /usr/apache24
+/dev/tomcat8lv     15.00     14.19    6%     2546     1% /usr/tomcat8
+/dev/itmlv         3.00      2.47   18%     4468     1% /opt/IBM/ITM
+ankcsesyad01:/finalist       5.75      2.63   55%      331     1% /finalist
+ankcsesyad01:/ds003_forms       2.00      1.54   23%     9305     3% /ds003_forms
+ankcsesyad01:/ds003_pdf2afp       5.00      4.65    8%     5396     1% /ds003_pdf2afp
+ankcsesyad01:/ds003_cpos_daemon1       4.69      4.68    1%       17     1% /ds003_cpos_daemon1
+ankcsesyaa05:/cse/lib/Jar_Repository       1.00      0.46   55%      684     1% /cse/lib/Jar_Repository
+ankcsepf1d02:/swstage     135.00     10.43   93%    84785     3% /swstage
+ankcsesyad01:/ds003_admin       7.75      0.98   88%   156717    37% /ds004_admin
+/dev/httplogslv_cf      3.00      2.99    1%        6     1% /usr/HTTPLogs_cf
+ankcsesyaa02[/home/deploy1]$ 
+ankcsesyaa02[/home/deploy1]$ cd /cse/st  stage/built
+ankcsesyaa02[/cse/stage/built]$ ls -ltr
+total 674240
+-rw-rw-r--    1 deploy1  cseadmin    2696588 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchForms.ear
+-rw-rw-r--    1 deploy1  cseadmin    1312288 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchImaging.ear
+-rw-rw-r--    1 deploy1  cseadmin   45404986 Nov 18 18:12 2019_11_18.0_CR31421.9431.Batch.ear
+-rw-rw-r--    1 deploy1  cseadmin   91607540 Nov 18 18:12 2019_11_18.0_CR31421.9431.ECSSIVR.ear
+-rw-rw-r--    1 deploy1  cseadmin   37449303 Nov 18 18:12 2019_11_18.0_CR31421.9431.FormsGeneration.ear
+-rw-rw-r--    1 deploy1  cseadmin    8403049 Nov 18 18:12 2019_11_18.0_CR31421.9431.HyperionReports.zip
+-rw-rw-r--    1 deploy1  cseadmin   39775573 Nov 18 18:12 2019_11_18.0_CR31421.9431.Integration.ear
+-rw-rw-r--    1 deploy1  cseadmin   72698307 Nov 18 18:12 2019_11_18.0_CR31421.9431.Online.ear
+-rw-rw-r--    1 deploy1  cseadmin   45557868 Nov 18 18:12 2019_11_18.0_CR31421.9431.SelfService.ear
+-rw-rw-r--    1 deploy1  cseadmin      67846 Nov 18 18:12 2019_11_18.0_CR31421.9431.TWSSchedule.zip
+-rw-rw-r--    1 deploy1  cseadmin     193782 Nov 18 18:12 2019_11_18.0_CR31421.9431.VIOLAForms.zip
+ankcsesyaa02[/cse/stage/built]$ ca  unzip -l 2019 _11 _18.0 _CR31421.9431.ArchImaging.ear
+Archive:  2019_11_18.0_CR31421.9431.ArchImaging.ear
+  Length     Date   Time    Name
+ --------    ----   ----    ----
+       25  11-18-19 17:12   META-INF/MANIFEST.MF
+     3641  11-18-19 17:12   ArchImagingServices.jar
+     7020  11-18-19 17:12   ArchImagingBootstrapWeb.war
+     4515  11-18-19 17:12   ArchImagingServicesClient.jar
+    19524  11-18-19 17:12   ArchImagingResources.jar
+  1680231  11-18-19 17:12   ArchCommon.jar
+       43  09-30-09 13:49   .compatibility
+      122  09-30-09 13:49   .j2ee
+       78  09-16-19 12:08   .runtime
+        0  01-31-19 14:36   META-INF/
+     1051  09-30-09 13:49   META-INF/.modulemaps
+      541  09-30-09 13:49   META-INF/application.xml
+        0  11-18-19 17:10   config/
+      883  10-01-09 10:49   config/TeamProjectSet.psf
+     4183  11-13-19 14:44   config/jarRepositoryVersions.properties
+     2377  11-18-19 17:10   config/sharedLibrary.properties
+     2346  10-01-09 10:49   config/sharedLibrary.properties.template
+     1510  10-01-09 10:49   config/wteServerConnection.properties
+        0  11-18-19 17:12   dist/
+ --------                   -------
+  1728090                   19 files
+ankcsesyaa02[/cse/stage/built]$ u unzip 2019 _11 _18.0 _CR31421.9431.ArchImaging.ear ArchImagingResources.jar
+Archive:  2019_11_18.0_CR31421.9431.ArchImaging.ear
+  inflating: ArchImagingResources.jar  
+ankcsesyaa02[/cse/stage/built]$ i unzip -l ArchImagingResources.jar
+Archive:  ArchImagingResources.jar
+  Length     Date   Time    Name
+ --------    ----   ----    ----
+       39  09-30-09 13:49   META-INF/MANIFEST.MF
+        0  01-31-19 14:36   META-INF/
+        0  01-28-19 15:03   cmgmt/
+        0  01-31-19 14:36   cmgmt/connectors/
+    19502  09-30-09 13:49   cmgmt/connectors/cmblogconfig.properties
+       78  09-16-19 12:08   .runtime
+     5587  11-18-19 17:10   DocumentManagementService.properties
+     5686  11-13-19 14:42   DocumentManagementService.template.properties
+      998  09-30-09 13:49   GrndsFactory_Imaging.properties
+      235  09-30-09 13:49   GrndsFactory_Init.properties
+      823  11-18-19 17:10   cmbcmenv.properties
+      790  09-30-09 13:49   cmbcmenv.template.properties
+      503  05-11-11 11:02   cmbicmsrvs.ini
+     4847  05-11-11 11:02   cmbpool.ini
+      363  11-18-19 17:10   cse_version.properties
+        0  11-18-19 17:10   grnds.properties
+        0  06-13-06 15:51   grnds.template.properties
+      233  11-18-19 17:10   ibmcmconfig.properties
+      200  05-11-11 11:02   ibmcmconfig.template.properties
+     1533  11-18-19 17:10   log4j.properties
+     1533  09-30-09 13:49   log4j.template.properties
+     1182  11-18-19 17:10   tracing.properties
+     1158  09-30-09 13:49   tracing.template.properties
+ --------                   -------
+    45290                   23 files
+ankcsesyaa02[/cse/stage/built]$ unzip ArchImagingResources.jar cse _version.properties
+Archive:  ArchImagingResources.jar
+  inflating: cse_version.properties  
+ankcsesyaa02[/cse/stage/built]$ cat cse+ _   _version.properties
+#Build Information
+#Mon Nov 18 17:10:14 PST 2019
+build.host=BUILD27
+build.stream.name=Build27
+build.stream.info=2019_11_18.0_CR31421.9431
+build.os.name=Windows Server 2008
+build.date=Monday Nov 18, 2019
+build.time=17\:09\:38
+build.view.name=Build27-ArchImaging
+build.user.name=cruisecontrol
+security.application.version=${security.application.version}
+ankcsesyaa02[/cse/stage/built]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to cg1p02a closed.
+ankcsesyaa02[/home/cseadmin]$ ssh  deploy1@cg1p02a
+deploy1@cg1p02a's password: 
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/deploy1]$ cat cse _version.propertiesunzip ArchImagingResources.jar cse _version.propertiesunzip -l ArchImagingResources.jar                    unzip 2019 _11 _18.0 _CR31421.9431.ArchImaging.ear ArchImagingResources.jarunzip -l 2019 _11 _18.0 _CR31421.9431.ArchImaging.ear                      ls -ltr                                           cd /cse/stage/builtdf -g              df -hdf   df /tmp/cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019 _11 _18.0 _CR31421.9431.ArchImaging.ear -f
+-------------------------------------------------- 
+deployment started by deploy1 ( deploy1 )
+/cse/admin/bin/deploy.pl -inst SYA01 -app imagingifonline=/cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear -f
+-------------------------------------------------- 
+--confirming EARs that will be deployed--
+imagingifonline EAR : /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear:   2019_11_18.0_CR31421.9431
+--confirming which applications will be deployed to which instances--
+imagingifonline     : SYA01
+--starting imagingifonline deployments
+---deploy.pl was home /usr/WebSphere/AppServer_85
+----starting imagingifonline deployment: SYA01
+------preview of deploy arguments: earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear earFilePath=/cse/stage/built deploy_directory=/cse/admin/config/imaging network_deployment_server=cg1p02a parameters.dir=cg1p02a/SYA01_IF_Online userid=cse.admin applicationDeploymentProperties=applicationDeployment/standalone.properties
+Buildfile: deployApplicationV2.xml
+
+default:
+
+init:
+
+config:
+     [copy] Copying 1 file to /ds004_admin/config/imaging/cg1p02a/SYA01_IF_Online
+
+deployApplication:
+
+     [echo] ************************************************
+     [echo] Starting application deployment of ear 2019_11_18.0_CR31421.9431.ArchImaging.ear.
+     [echo] deploymentManagerName:  134.187.144.3.
+     [echo] ************************************************
+
+  [wsadmin] WASX7209I: Connected to process "dmgr" on node cg1p02aCellManager01 using SOAP connector;  The type of process is: DeploymentManager
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/securityProcs.jacl"
+  [wsadmin] WASX7011E: Cannot find file "$(was.install.root)/bin/LTPA_LDAPSecurityProcs.jacl"
+  [wsadmin] WASX7303I: The following options are passed to the scripting environment and are available as arguments that are stored in the argv variable: "[taskName=fullInstall, jaclPath=/cse/admin/jacl/, wasVersion=@(wasVersion), webServerMapping=+WebSphere:node@(equalSign)cg1p02aNode01,server@(equalSign)webserver1, serverNodeName=@(serverNodeName), serverName=@(serverName), applicationName=@(serverName)_Imaging, earFilePath=/cse/stage/built, earFileName=2019_11_18.0_CR31421.9431.ArchImaging.ear, secondsToWaitForApplicationDeployment=30, secondsToWaitForApplicationToStart=60, installationDirectory=/cse/online/applications/, clusterName=@(clusterName), applicationWeight=@(applicationWeight), moduleToVirtualHostMapping#${moduleToVirtualHostMapping1}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping2}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping3}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping4}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping5}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping6}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping7}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping8}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping9}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping10}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping11}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping12}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping13}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping14}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping15}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping16}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping17}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping18}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping19}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping20}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping21}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping22}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping23}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping24}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping25}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping26}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping27}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping28}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping29}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping30}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping31}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping32}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping33}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping34}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping35}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping36}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping37}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping38}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping39}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping40}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping41}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping42}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping43}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping44}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping45}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping46}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping47}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping48}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping49}, moduleToVirtualHostMapping#${moduleToVirtualHostMapping50}, moduleToServerMapping#name=ArchImagingServices,moduleName=ArchImagingServices.jar,moduleType=ejb,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#name=ArchImagingBootstrapWeb,moduleName=ArchImagingBootstrapWeb.war,moduleType=web,serverCell=,serverNode=@(serverNodeName),serverName=@(serverName), moduleToServerMapping#${moduleToServerMapping3}, moduleToServerMapping#${moduleToServerMapping4}, moduleToServerMapping#${moduleToServerMapping5}, moduleToServerMapping#${moduleToServerMapping6}, moduleToServerMapping#${moduleToServerMapping7}, moduleToServerMapping#${moduleToServerMapping8}, moduleToServerMapping#${moduleToServerMapping9}, moduleToServerMapping#${moduleToServerMapping10}, moduleToServerMapping#${moduleToServerMapping11}, moduleToServerMapping#${moduleToServerMapping12}, moduleToServerMapping#${moduleToServerMapping13}, moduleToServerMapping#${moduleToServerMapping14}, moduleToServerMapping#${moduleToServerMapping15}, moduleToServerMapping#${moduleToServerMapping16}, moduleToServerMapping#${moduleToServerMapping17}, moduleToServerMapping#${moduleToServerMapping18}, moduleToServerMapping#${moduleToServerMapping19}, moduleToServerMapping#${moduleToServerMapping20}, moduleToServerMapping#${moduleToServerMapping21}, moduleToServerMapping#${moduleToServerMapping22}, moduleToServerMapping#${moduleToServerMapping23}, moduleToServerMapping#${moduleToServerMapping24}, moduleToServerMapping#${moduleToServerMapping25}, moduleToServerMapping#${moduleToServerMapping26}, moduleToServerMapping#${moduleToServerMapping27}, moduleToServerMapping#${moduleToServerMapping28}, moduleToServerMapping#${moduleToServerMapping29}, moduleToServerMapping#${moduleToServerMapping30}, moduleToServerMapping#${moduleToServerMapping31}, moduleToServerMapping#${moduleToServerMapping32}, moduleToServerMapping#${moduleToServerMapping33}, moduleToServerMapping#${moduleToServerMapping34}, moduleToServerMapping#${moduleToServerMapping35}, moduleToServerMapping#${moduleToServerMapping36}, moduleToServerMapping#${moduleToServerMapping37}, moduleToServerMapping#${moduleToServerMapping38}, moduleToServerMapping#${moduleToServerMapping39}, moduleToServerMapping#${moduleToServerMapping40}, moduleToServerMapping#${moduleToServerMapping41}, moduleToServerMapping#${moduleToServerMapping42}, moduleToServerMapping#${moduleToServerMapping43}, moduleToServerMapping#${moduleToServerMapping44}, moduleToServerMapping#${moduleToServerMapping45}, moduleToServerMapping#${moduleToServerMapping46}, moduleToServerMapping#${moduleToServerMapping47}, moduleToServerMapping#${moduleToServerMapping48}, moduleToServerMapping#${moduleToServerMapping49}, moduleToServerMapping#${moduleToServerMapping50}, moduleStartingWeight#uri=ArchImagingServices.jar,startingWeight=5000, moduleStartingWeight#uri=ArchImagingBootstrapWeb.war,startingWeight=10000, moduleStartingWeight#${moduleStartingWeight3}, moduleStartingWeight#${moduleStartingWeight4}, moduleStartingWeight#${moduleStartingWeight5}, moduleStartingWeight#${moduleStartingWeight6}, moduleStartingWeight#${moduleStartingWeight7}, moduleStartingWeight#${moduleStartingWeight8}, moduleStartingWeight#${moduleStartingWeight9}, moduleStartingWeight#${moduleStartingWeight10}, moduleStartingWeight#${moduleStartingWeight11}, moduleStartingWeight#${moduleStartingWeight12}, moduleStartingWeight#${moduleStartingWeight13}, moduleStartingWeight#${moduleStartingWeight14}, moduleStartingWeight#${moduleStartingWeight15}, moduleStartingWeight#${moduleStartingWeight16}, moduleStartingWeight#${moduleStartingWeight17}, moduleStartingWeight#${moduleStartingWeight18}, moduleStartingWeight#${moduleStartingWeight19}, moduleStartingWeight#${moduleStartingWeight20}, moduleStartingWeight#${moduleStartingWeight21}, moduleStartingWeight#${moduleStartingWeight22}, moduleStartingWeight#${moduleStartingWeight23}, moduleStartingWeight#${moduleStartingWeight24}, moduleStartingWeight#${moduleStartingWeight25}, moduleStartingWeight#${moduleStartingWeight26}, moduleStartingWeight#${moduleStartingWeight27}, moduleStartingWeight#${moduleStartingWeight28}, moduleStartingWeight#${moduleStartingWeight29}, moduleStartingWeight#${moduleStartingWeight30}, moduleStartingWeight#${moduleStartingWeight31}, moduleStartingWeight#${moduleStartingWeight32}, moduleStartingWeight#${moduleStartingWeight33}, moduleStartingWeight#${moduleStartingWeight34}, moduleStartingWeight#${moduleStartingWeight35}, moduleStartingWeight#${moduleStartingWeight36}, moduleStartingWeight#${moduleStartingWeight37}, moduleStartingWeight#${moduleStartingWeight38}, moduleStartingWeight#${moduleStartingWeight39}, moduleStartingWeight#${moduleStartingWeight40}, moduleStartingWeight#${moduleStartingWeight41}, moduleStartingWeight#${moduleStartingWeight42}, moduleStartingWeight#${moduleStartingWeight43}, moduleStartingWeight#${moduleStartingWeight44}, moduleStartingWeight#${moduleStartingWeight45}, moduleStartingWeight#${moduleStartingWeight46}, moduleStartingWeight#${moduleStartingWeight47}, moduleStartingWeight#${moduleStartingWeight48}, moduleStartingWeight#${moduleStartingWeight49}, moduleStartingWeight#${moduleStartingWeight50}, roleToUserMapping#${roleToUserMapping1}, roleToUserMapping#${roleToUserMapping2}, roleToUserMapping#${roleToUserMapping3}, roleToUserMapping#${roleToUserMapping4}, roleToUserMapping#${roleToUserMapping5}, roleToUserMapping#${roleToUserMapping6}, roleToUserMapping#${roleToUserMapping7}, roleToUserMapping#${roleToUserMapping8}, roleToUserMapping#${roleToUserMapping9}, roleToUserMapping#${roleToUserMapping10}, roleToUserMapping#${roleToUserMapping11}, roleToUserMapping#${roleToUserMapping12}, roleToUserMapping#${roleToUserMapping13}, roleToUserMapping#${roleToUserMapping14}, roleToUserMapping#${roleToUserMapping15}, roleToUserMapping#${roleToUserMapping16}, roleToUserMapping#${roleToUserMapping17}, roleToUserMapping#${roleToUserMapping18}, roleToUserMapping#${roleToUserMapping19}, roleToUserMapping#${roleToUserMapping20}, roleToUserMapping#${roleToUserMapping21}, roleToUserMapping#${roleToUserMapping22}, roleToUserMapping#${roleToUserMapping23}, roleToUserMapping#${roleToUserMapping24}, roleToUserMapping#${roleToUserMapping25}, roleToUserMapping#${roleToUserMapping26}, roleToUserMapping#${roleToUserMapping27}, roleToUserMapping#${roleToUserMapping28}, roleToUserMapping#${roleToUserMapping29}, roleToUserMapping#${roleToUserMapping30}, roleToUserMapping#${roleToUserMapping31}, roleToUserMapping#${roleToUserMapping32}, roleToUserMapping#${roleToUserMapping33}, roleToUserMapping#${roleToUserMapping34}, roleToUserMapping#${roleToUserMapping35}, roleToUserMapping#${roleToUserMapping36}, roleToUserMapping#${roleToUserMapping37}, roleToUserMapping#${roleToUserMapping38}, roleToUserMapping#${roleToUserMapping39}, roleToUserMapping#${roleToUserMapping40}, roleToUserMapping#${roleToUserMapping41}, roleToUserMapping#${roleToUserMapping42}, roleToUserMapping#${roleToUserMapping43}, roleToUserMapping#${roleToUserMapping44}, roleToUserMapping#${roleToUserMapping45}, roleToUserMapping#${roleToUserMapping46}, roleToUserMapping#${roleToUserMapping47}, roleToUserMapping#${roleToUserMapping48}, roleToUserMapping#${roleToUserMapping49}, roleToUserMapping#${roleToUserMapping50}]"
+  [wsadmin] /cse/admin/jacl/
+  [wsadmin] Just sourcing the sharedLibrary.jacl file.
+  [wsadmin]  Calling procedure fullInstall
+  [wsadmin] Try to connect to dmgr...
+  [wsadmin] Connected to WebSphere cell <cg1p02aCell01>
+  [wsadmin]    Application SYA01_IF_Online_Imaging was not previously installed.
+  [wsadmin]    Saving configuration.
+  [wsadmin] rc from save: 0
+  [wsadmin]    Building virtual host mapping
+  [wsadmin]    vhm 
+  [wsadmin]    Module to Virtual Host mappings:
+  [wsadmin]    
+  [wsadmin]    Module to Server Mappings:
+  [wsadmin]    -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}}
+  [wsadmin]    Role to User Mappings:
+  [wsadmin]    
+  [wsadmin]  Installing Application: SYA01_IF_Online_Imaging from file /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear to server SYA01_IF_Online
+  [wsadmin]     Installing into app server
+  [wsadmin] fullFileName: /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear 
+  [wsadmin] -node: cg1p02aNode01 
+  [wsadmin] -server: SYA01_IF_Online 
+  [wsadmin] -installdir: /cse/online/applications/ 
+  [wsadmin] -appname: SYA01_IF_Online_Imaging 
+  [wsadmin] modeuleToVirtualHostMappings:  
+  [wsadmin] moduleToServerMappings: -MapModulesToServers {{ArchImagingServices ArchImagingServices.jar,META-INF/ejb-jar.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online} {ArchImagingBootstrapWeb ArchImagingBootstrapWeb.war,WEB-INF/web.xml WebSphere:node=cg1p02aNode01,server=SYA01_IF_Online+WebSphere:node=cg1p02aNode01,server=webserver1}} 
+  [wsadmin] roleToUserMappings:  
+  [wsadmin] ADMA5016I: Installation of SYA01_IF_Online_Imaging started.
+  [wsadmin] ADMA5058I: Application and module versions are validated with versions of deployment targets.
+  [wsadmin] ADMA5018I: The EJBDeploy program is running on file /tmp/app5114174356729316081.ear.
+  [wsadmin] Starting workbench.
+  [wsadmin] EJB Deploy configuration directory: /usr/WebSphere/AppServer_85/profiles/DeploymentManager/ejbdeploy/configuration/
+  [wsadmin] framework search path: /usr/WebSphere/AppServer_85/deploytool/itp/plugins
+  [wsadmin] build:RADWEJB95-I20150829_0214
+  [wsadmin] Creating the project.
+  [wsadmin] Deploying jar ArchImagingServices
+  [wsadmin] Generating deployment code
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(27): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(60): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(93): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(126): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(160): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(195): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(230): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(263): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(296): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(329): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(362): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(395): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(429): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/imaging/EJSRemoteStatelessDocumentManagementService_4f63ea5c.java(462): gov.ca.dcss.arch.services.imaging.DocumentManagementServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] ejbModule/gov/ca/dcss/arch/services/bootstrap/EJSRemoteStatelessImagingBootstrapService_db90273f.java(26): gov.ca.dcss.arch.services.bootstrap.ImagingBootstrapServiceBean cannot be resolved to a type
+  [wsadmin] Shutting down workbench.
+  [wsadmin] Execution Halted: Compilation Errors Reported
+  [wsadmin] 30 Errors, 0 Warnings, 0 Informational Messages
+  [wsadmin] ADMA5008E: The EJBDeploy program failed on file /tmp/app5114174356729316081.ear.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA0063E: An error occurred during Enterprise JavaBeans (EJB) deployment.  Exception: com.ibm.etools.ejbdeploy.EJBDeploymentException: Error executing EJBDeploy
+  [wsadmin] ADMA5011I: The cleanup of the temp directory for application SYA01_IF_Online_Imaging is complete.
+  [wsadmin] ADMA5014E: The installation of application SYA01_IF_Online_Imaging failed.
+  [wsadmin]     Install complete....
+  [wsadmin]    Error <com.ibm.ws.scripting.ScriptingException: WASX7132E: Application install for /cse/stage/built/2019_11_18.0_CR31421.9431.ArchImaging.ear failed: see previous messages for details.> starting application SYA01_IF_Online_Imaging.
+  [wsadmin]     Errors occurred during processing, resetting configuration.
+  [wsadmin] Resetting configuration.
+  [wsadmin] Exiting with rc of 1
+
+BUILD FAILED
+/ds004_admin/config/imaging/deployApplicationV2.xml:37: The following error occurred while executing this line:
+/ds004_admin/xml/applicationDeploymentV2.xml:53: Java returned: 1
+
+Total time: 35 seconds
+------return code from SYA01 imagingifonline: 0
+------time from deployment portion: 36 seconds
+-------------------------------------------------- 
+deploy.pl results summary
+-------------------------------------------------- 
+SYA01  imagingifonline succeeded ( return code =   0 ) time: 0 minutes 36 seconds
+total elapsed time: time: 0 minutes 38 seconds
+ankcsesyaa02[/home/deploy1]$ cd /usr/W    we           bash
+[?1034hankcsesyaa02[/home/deploy1]$ cd /usr
+ankcsesyaa02[/home/deploy1]$ exit
+exit
+ankcsesyaa02[/home/deploy1]$ exit
+Connection to cg1p02a closed.
+ankcsesyaa02[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

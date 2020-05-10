@@ -1,0 +1,626 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.22 14:38:09 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Thu Nov 21 16:07:31 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ df --local -P | awk {'if (NR!=1) print $6'} | xargs -I '{}' find '{}' -xdev -type d -perm -0002 -a ! -perm -1000
+find: ‘/run/cryptsetup’: Permission denied
+find: ‘/run/sudo’: Permission denied
+find: ‘/run/lvm’: Permission denied
+find: ‘/run/lock/lvm’: Permission denied
+find: ‘/run/systemd/ask-password-block’: Permission denied
+find: ‘/run/systemd/inaccessible’: Permission denied
+/efs
+find: ‘/usr/share/polkit-1/rules.d’: Permission denied
+find: ‘/usr/libexec/initscripts/legacy-actions/auditd’: Permission denied
+find: ‘/root’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/cron.hourly’: Permission denied
+find: ‘/etc/ntp/crypto’: Permission denied
+find: ‘/etc/audisp’: Permission denied
+find: ‘/etc/cron.daily’: Permission denied
+find: ‘/etc/grub.d’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/lvm/cache’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/vmware-tools/GuestProxyData/trusted’: Permission denied
+find: ‘/etc/audit’: Permission denied
+find: ‘/etc/pki/rsyslog’: Permission denied
+find: ‘/etc/pki/CA/private’: Permission denied
+find: ‘/etc/cron.monthly’: Permission denied
+find: ‘/etc/dhcp’: Permission denied
+find: ‘/etc/selinux/final’: Permission denied
+find: ‘/etc/selinux/targeted/active’: Permission denied
+find: ‘/etc/firewalld’: Permission denied
+find: ‘/etc/cron.weekly’: Permission denied
+find: ‘/lost+found’: Permission denied
+find: ‘/boot/efi/EFI/redhat’: Permission denied
+find: ‘/boot/grub2’: Permission denied
+find: ‘/boot/lost+found’: Permission denied
+find: ‘/home/dlucky’: Permission denied
+find: ‘/home/ptak’: Permission denied
+find: ‘/home/uimadmin’: Permission denied
+find: ‘/home/airby’: Permission denied
+find: ‘/home/sgarrett’: Permission denied
+find: ‘/home/kpatlola’: Permission denied
+find: ‘/home/sambula’: Permission denied
+find: ‘/home/jbearelly’: Permission denied
+find: ‘/home/aguggill’: Permission denied
+find: ‘/home/poconnor’: Permission denied
+find: ‘/home/lost+found’: Permission denied
+find: ‘/home/aramagiri’: Permission denied
+find: ‘/home/deploy1’: Permission denied
+find: ‘/home/corey.quans’: Permission denied
+find: ‘/home/eenrique’: Permission denied
+find: ‘/home/hchad’: Permission denied
+find: ‘/home/esaenz’: Permission denied
+find: ‘/home/skiran’: Permission denied
+find: ‘/home/dsaroya’: Permission denied
+find: ‘/home/tomadmin’: Permission denied
+find: ‘/home/gestrada’: Permission denied
+find: ‘/home/ryoung’: Permission denied
+/home/hchada/binaries/openssl-1.1.1
+/home/hchada/binaries/openssl-1.1.1/ssl
+/home/hchada/binaries/openssl-1.1.1/ssl/statem
+/home/hchada/binaries/openssl-1.1.1/ssl/record
+/home/hchada/binaries/openssl-1.1.1/fuzz
+/home/hchada/binaries/openssl-1.1.1/doc
+/home/hchada/binaries/openssl-1.1.1/doc/HOWTO
+/home/hchada/binaries/openssl-1.1.1/doc/man3
+/home/hchada/binaries/openssl-1.1.1/doc/man1
+/home/hchada/binaries/openssl-1.1.1/doc/man5
+/home/hchada/binaries/openssl-1.1.1/doc/man7
+/home/hchada/binaries/openssl-1.1.1/util
+/home/hchada/binaries/openssl-1.1.1/util/perl
+/home/hchada/binaries/openssl-1.1.1/util/perl/TLSProxy
+/home/hchada/binaries/openssl-1.1.1/util/perl/OpenSSL
+/home/hchada/binaries/openssl-1.1.1/util/perl/OpenSSL/Util
+/home/hchada/binaries/openssl-1.1.1/util/perl/OpenSSL/Test
+/home/hchada/binaries/openssl-1.1.1/.github
+/home/hchada/binaries/openssl-1.1.1/Configurations
+/home/hchada/binaries/openssl-1.1.1/VMS
+/home/hchada/binaries/openssl-1.1.1/external
+/home/hchada/binaries/openssl-1.1.1/external/perl
+/home/hchada/binaries/openssl-1.1.1/external/perl/transfer
+/home/hchada/binaries/openssl-1.1.1/external/perl/transfer/Text
+/home/hchada/binaries/openssl-1.1.1/external/perl/Text-Template-1.46
+/home/hchada/binaries/openssl-1.1.1/external/perl/Text-Template-1.46/lib
+/home/hchada/binaries/openssl-1.1.1/external/perl/Text-Template-1.46/lib/Text
+/home/hchada/binaries/openssl-1.1.1/external/perl/Text-Template-1.46/lib/Text/Template
+/home/hchada/binaries/openssl-1.1.1/external/perl/Text-Template-1.46/t
+/home/hchada/binaries/openssl-1.1.1/tools
+/home/hchada/binaries/openssl-1.1.1/demos
+/home/hchada/binaries/openssl-1.1.1/demos/evp
+/home/hchada/binaries/openssl-1.1.1/demos/pkcs12
+/home/hchada/binaries/openssl-1.1.1/demos/smime
+/home/hchada/binaries/openssl-1.1.1/demos/bio
+/home/hchada/binaries/openssl-1.1.1/demos/engines
+/home/hchada/binaries/openssl-1.1.1/demos/certs
+/home/hchada/binaries/openssl-1.1.1/demos/certs/apps
+/home/hchada/binaries/openssl-1.1.1/demos/cms
+/home/hchada/binaries/openssl-1.1.1/include
+/home/hchada/binaries/openssl-1.1.1/include/openssl
+/home/hchada/binaries/openssl-1.1.1/include/internal
+/home/hchada/binaries/openssl-1.1.1/test
+/home/hchada/binaries/openssl-1.1.1/test/recipes
+/home/hchada/binaries/openssl-1.1.1/test/recipes/95-test_external_pyca_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/90-test_store_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/10-test_bn_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/95-test_external_krb5_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/04-test_pem_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/90-test_sslapi_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/90-test_includes_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/90-test_includes_data/conf-includes
+/home/hchada/binaries/openssl-1.1.1/test/recipes/15-test_ecparam_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/15-test_ecparam_data/invalid
+/home/hchada/binaries/openssl-1.1.1/test/recipes/15-test_ecparam_data/valid
+/home/hchada/binaries/openssl-1.1.1/test/recipes/90-test_gost_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/15-test_mp_rsa_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/80-test_ocsp_data
+/home/hchada/binaries/openssl-1.1.1/test/recipes/30-test_evp_data
+/home/hchada/binaries/openssl-1.1.1/test/testutil
+/home/hchada/binaries/openssl-1.1.1/test/ossl_shim
+/home/hchada/binaries/openssl-1.1.1/test/ossl_shim/include
+/home/hchada/binaries/openssl-1.1.1/test/ossl_shim/include/openssl
+/home/hchada/binaries/openssl-1.1.1/test/ct
+/home/hchada/binaries/openssl-1.1.1/test/d2i-tests
+/home/hchada/binaries/openssl-1.1.1/test/ssl-tests
+/home/hchada/binaries/openssl-1.1.1/test/ocsp-tests
+/home/hchada/binaries/openssl-1.1.1/test/certs
+/home/hchada/binaries/openssl-1.1.1/test/smime-certs
+/home/hchada/binaries/openssl-1.1.1/ms
+/home/hchada/binaries/openssl-1.1.1/apps
+/home/hchada/binaries/openssl-1.1.1/apps/demoSRP
+/home/hchada/binaries/openssl-1.1.1/crypto
+/home/hchada/binaries/openssl-1.1.1/crypto/dso
+/home/hchada/binaries/openssl-1.1.1/crypto/buffer
+/home/hchada/binaries/openssl-1.1.1/crypto/perlasm
+/home/hchada/binaries/openssl-1.1.1/crypto/ts
+/home/hchada/binaries/openssl-1.1.1/crypto/ocsp
+/home/hchada/binaries/openssl-1.1.1/crypto/asn1
+/home/hchada/binaries/openssl-1.1.1/crypto/sm2
+/home/hchada/binaries/openssl-1.1.1/crypto/idea
+/home/hchada/binaries/openssl-1.1.1/crypto/bn
+/home/hchada/binaries/openssl-1.1.1/crypto/bn/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/objects
+/home/hchada/binaries/openssl-1.1.1/crypto/kdf
+/home/hchada/binaries/openssl-1.1.1/crypto/camellia
+/home/hchada/binaries/openssl-1.1.1/crypto/camellia/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/evp
+/home/hchada/binaries/openssl-1.1.1/crypto/seed
+/home/hchada/binaries/openssl-1.1.1/crypto/poly1305
+/home/hchada/binaries/openssl-1.1.1/crypto/poly1305/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/dh
+/home/hchada/binaries/openssl-1.1.1/crypto/engine
+/home/hchada/binaries/openssl-1.1.1/crypto/rc4
+/home/hchada/binaries/openssl-1.1.1/crypto/rc4/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/aria
+/home/hchada/binaries/openssl-1.1.1/crypto/blake2
+/home/hchada/binaries/openssl-1.1.1/crypto/cast
+/home/hchada/binaries/openssl-1.1.1/crypto/cast/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/rc5
+/home/hchada/binaries/openssl-1.1.1/crypto/rc5/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/x509
+/home/hchada/binaries/openssl-1.1.1/crypto/ripemd
+/home/hchada/binaries/openssl-1.1.1/crypto/ripemd/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/rand
+/home/hchada/binaries/openssl-1.1.1/crypto/stack
+/home/hchada/binaries/openssl-1.1.1/crypto/err
+/home/hchada/binaries/openssl-1.1.1/crypto/srp
+/home/hchada/binaries/openssl-1.1.1/crypto/siphash
+/home/hchada/binaries/openssl-1.1.1/crypto/des
+/home/hchada/binaries/openssl-1.1.1/crypto/des/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/mdc2
+/home/hchada/binaries/openssl-1.1.1/crypto/md2
+/home/hchada/binaries/openssl-1.1.1/crypto/ct
+/home/hchada/binaries/openssl-1.1.1/crypto/md4
+/home/hchada/binaries/openssl-1.1.1/crypto/pem
+/home/hchada/binaries/openssl-1.1.1/crypto/rc2
+/home/hchada/binaries/openssl-1.1.1/crypto/lhash
+/home/hchada/binaries/openssl-1.1.1/crypto/store
+/home/hchada/binaries/openssl-1.1.1/crypto/pkcs7
+/home/hchada/binaries/openssl-1.1.1/crypto/conf
+/home/hchada/binaries/openssl-1.1.1/crypto/sm3
+/home/hchada/binaries/openssl-1.1.1/crypto/cmac
+/home/hchada/binaries/openssl-1.1.1/crypto/bf
+/home/hchada/binaries/openssl-1.1.1/crypto/bf/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/comp
+/home/hchada/binaries/openssl-1.1.1/crypto/include
+/home/hchada/binaries/openssl-1.1.1/crypto/include/internal
+/home/hchada/binaries/openssl-1.1.1/crypto/pkcs12
+/home/hchada/binaries/openssl-1.1.1/crypto/dsa
+/home/hchada/binaries/openssl-1.1.1/crypto/sm4
+/home/hchada/binaries/openssl-1.1.1/crypto/aes
+/home/hchada/binaries/openssl-1.1.1/crypto/aes/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/chacha
+/home/hchada/binaries/openssl-1.1.1/crypto/chacha/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/x509v3
+/home/hchada/binaries/openssl-1.1.1/crypto/whrlpool
+/home/hchada/binaries/openssl-1.1.1/crypto/whrlpool/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/ec
+/home/hchada/binaries/openssl-1.1.1/crypto/ec/curve448
+/home/hchada/binaries/openssl-1.1.1/crypto/ec/curve448/arch_32
+/home/hchada/binaries/openssl-1.1.1/crypto/ec/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/modes
+/home/hchada/binaries/openssl-1.1.1/crypto/modes/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/bio
+/home/hchada/binaries/openssl-1.1.1/crypto/md5
+/home/hchada/binaries/openssl-1.1.1/crypto/md5/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/sha
+/home/hchada/binaries/openssl-1.1.1/crypto/sha/asm
+/home/hchada/binaries/openssl-1.1.1/crypto/rsa
+/home/hchada/binaries/openssl-1.1.1/crypto/ui
+/home/hchada/binaries/openssl-1.1.1/crypto/cms
+/home/hchada/binaries/openssl-1.1.1/crypto/async
+/home/hchada/binaries/openssl-1.1.1/crypto/async/arch
+/home/hchada/binaries/openssl-1.1.1/crypto/hmac
+/home/hchada/binaries/openssl-1.1.1/crypto/txt_db
+/home/hchada/binaries/openssl-1.1.1/os-dep
+/home/hchada/binaries/openssl-1.1.1/engines
+/home/hchada/binaries/openssl-1.1.1/engines/asm
+/home/hchada/binaries/httpd-2.4.34
+/home/hchada/binaries/httpd-2.4.34/.libs
+/home/hchada/binaries/httpd-2.4.34/docs
+/home/hchada/binaries/httpd-2.4.34/docs/cgi-examples
+/home/hchada/binaries/httpd-2.4.34/docs/icons
+/home/hchada/binaries/httpd-2.4.34/docs/icons/small
+/home/hchada/binaries/httpd-2.4.34/docs/server-status
+/home/hchada/binaries/httpd-2.4.34/docs/man
+/home/hchada/binaries/httpd-2.4.34/docs/man/tr
+/home/hchada/binaries/httpd-2.4.34/docs/docroot
+/home/hchada/binaries/httpd-2.4.34/docs/error
+/home/hchada/binaries/httpd-2.4.34/docs/error/include
+/home/hchada/binaries/httpd-2.4.34/docs/manual
+/home/hchada/binaries/httpd-2.4.34/docs/manual/ssl
+/home/hchada/binaries/httpd-2.4.34/docs/manual/faq
+/home/hchada/binaries/httpd-2.4.34/docs/manual/misc
+/home/hchada/binaries/httpd-2.4.34/docs/manual/images
+/home/hchada/binaries/httpd-2.4.34/docs/manual/developer
+/home/hchada/binaries/httpd-2.4.34/docs/manual/rewrite
+/home/hchada/binaries/httpd-2.4.34/docs/manual/howto
+/home/hchada/binaries/httpd-2.4.34/docs/manual/mod
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/scripts
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/lang
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/xsl
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/xsl/util
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/latex
+/home/hchada/binaries/httpd-2.4.34/docs/manual/style/css
+/home/hchada/binaries/httpd-2.4.34/docs/manual/vhosts
+/home/hchada/binaries/httpd-2.4.34/docs/manual/programs
+/home/hchada/binaries/httpd-2.4.34/docs/manual/platform
+/home/hchada/binaries/httpd-2.4.34/docs/conf
+/home/hchada/binaries/httpd-2.4.34/docs/conf/extra
+/home/hchada/binaries/httpd-2.4.34/os
+/home/hchada/binaries/httpd-2.4.34/os/netware
+/home/hchada/binaries/httpd-2.4.34/os/unix
+/home/hchada/binaries/httpd-2.4.34/os/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/os/os2
+/home/hchada/binaries/httpd-2.4.34/os/bs2000
+/home/hchada/binaries/httpd-2.4.34/os/win32
+/home/hchada/binaries/httpd-2.4.34/server
+/home/hchada/binaries/httpd-2.4.34/server/.libs
+/home/hchada/binaries/httpd-2.4.34/server/mpm
+/home/hchada/binaries/httpd-2.4.34/server/mpm/worker
+/home/hchada/binaries/httpd-2.4.34/server/mpm/netware
+/home/hchada/binaries/httpd-2.4.34/server/mpm/prefork
+/home/hchada/binaries/httpd-2.4.34/server/mpm/winnt
+/home/hchada/binaries/httpd-2.4.34/server/mpm/mpmt_os2
+/home/hchada/binaries/httpd-2.4.34/server/mpm/event
+/home/hchada/binaries/httpd-2.4.34/server/mpm/event/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/ldap
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/ldap/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/docs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/buckets
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/buckets/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/xml
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/xml/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/encoding
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/encoding/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/memcache
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/memcache/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/misc
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/misc/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/uri
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/uri/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/redis
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/redis/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/hooks
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/hooks/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/include
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/include/private
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/build
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/build/rpm
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/build/pkg
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/xlate
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/xlate/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/strmatch
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/strmatch/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/test
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/test/data
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbm
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbm/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbm/sdbm
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbm/sdbm/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/crypto
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/crypto/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbd
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbd/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr-util/dbd/unsupported
+/home/hchada/binaries/httpd-2.4.34/srclib/apr
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/aix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/dso/os390
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/file_io/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/docs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/locks/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/tables
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/tables/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/threadproc/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/encoding
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/encoding/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/user
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/user/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/user/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/user/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/user/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/time
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/time/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/time/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/time/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/misc
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/misc/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/misc/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/misc/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/misc/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/shmem/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/random
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/random/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/random/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/network_io/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/mmap
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/mmap/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/mmap/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/mmap/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/poll
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/poll/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/poll/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/poll/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/tools
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/tools/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/strings
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/strings/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/private
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/aix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/os2
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/beos
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/os390
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/include/arch/darwin
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/build
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/build/rpm
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/build/pkg
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/test
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/test/internal
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/test/data
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/memory
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/memory/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/memory/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/support
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/support/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/support/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic/netware
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic/unix
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic/win32
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/atomic/os390
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/helpers
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/passwd
+/home/hchada/binaries/httpd-2.4.34/srclib/apr/passwd/.libs
+/home/hchada/binaries/httpd-2.4.34/include
+/home/hchada/binaries/httpd-2.4.34/build
+/home/hchada/binaries/httpd-2.4.34/build/rpm
+/home/hchada/binaries/httpd-2.4.34/build/pkg
+/home/hchada/binaries/httpd-2.4.34/build/aix
+/home/hchada/binaries/httpd-2.4.34/build/win32
+/home/hchada/binaries/httpd-2.4.34/modules
+/home/hchada/binaries/httpd-2.4.34/modules/mappers
+/home/hchada/binaries/httpd-2.4.34/modules/mappers/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/ssl
+/home/hchada/binaries/httpd-2.4.34/modules/ssl/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/metadata
+/home/hchada/binaries/httpd-2.4.34/modules/metadata/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/ldap
+/home/hchada/binaries/httpd-2.4.34/modules/core
+/home/hchada/binaries/httpd-2.4.34/modules/core/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/core/test
+/home/hchada/binaries/httpd-2.4.34/modules/core/test/ref
+/home/hchada/binaries/httpd-2.4.34/modules/core/test/conf
+/home/hchada/binaries/httpd-2.4.34/modules/loggers
+/home/hchada/binaries/httpd-2.4.34/modules/loggers/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/cache
+/home/hchada/binaries/httpd-2.4.34/modules/cache/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/session
+/home/hchada/binaries/httpd-2.4.34/modules/session/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/cluster
+/home/hchada/binaries/httpd-2.4.34/modules/examples
+/home/hchada/binaries/httpd-2.4.34/modules/arch
+/home/hchada/binaries/httpd-2.4.34/modules/arch/netware
+/home/hchada/binaries/httpd-2.4.34/modules/arch/unix
+/home/hchada/binaries/httpd-2.4.34/modules/arch/unix/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/arch/win32
+/home/hchada/binaries/httpd-2.4.34/modules/experimental
+/home/hchada/binaries/httpd-2.4.34/modules/aaa
+/home/hchada/binaries/httpd-2.4.34/modules/aaa/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/http
+/home/hchada/binaries/httpd-2.4.34/modules/http/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/slotmem
+/home/hchada/binaries/httpd-2.4.34/modules/slotmem/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/filters
+/home/hchada/binaries/httpd-2.4.34/modules/filters/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/http2
+/home/hchada/binaries/httpd-2.4.34/modules/lua
+/home/hchada/binaries/httpd-2.4.34/modules/lua/docs
+/home/hchada/binaries/httpd-2.4.34/modules/lua/test
+/home/hchada/binaries/httpd-2.4.34/modules/lua/test/lib
+/home/hchada/binaries/httpd-2.4.34/modules/lua/test/htdocs
+/home/hchada/binaries/httpd-2.4.34/modules/echo
+/home/hchada/binaries/httpd-2.4.34/modules/generators
+/home/hchada/binaries/httpd-2.4.34/modules/generators/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/dav
+/home/hchada/binaries/httpd-2.4.34/modules/dav/fs
+/home/hchada/binaries/httpd-2.4.34/modules/dav/fs/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/dav/main
+/home/hchada/binaries/httpd-2.4.34/modules/dav/main/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/dav/lock
+/home/hchada/binaries/httpd-2.4.34/modules/proxy
+/home/hchada/binaries/httpd-2.4.34/modules/proxy/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/proxy/balancers
+/home/hchada/binaries/httpd-2.4.34/modules/proxy/balancers/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/debugging
+/home/hchada/binaries/httpd-2.4.34/modules/debugging/.libs
+/home/hchada/binaries/httpd-2.4.34/modules/test
+/home/hchada/binaries/httpd-2.4.34/modules/md
+/home/hchada/binaries/httpd-2.4.34/modules/database
+/home/hchada/binaries/httpd-2.4.34/modules/database/.libs
+/home/hchada/binaries/httpd-2.4.34/test
+/home/hchada/binaries/httpd-2.4.34/support
+/home/hchada/binaries/httpd-2.4.34/support/.libs
+/home/hchada/binaries/httpd-2.4.34/support/SHA1
+/home/hchada/binaries/httpd-2.4.34/support/win32
+find: ‘/home/jthursto’: Permission denied
+find: ‘/home/sphang’: Permission denied
+find: ‘/tmp/hsperfdata_aguggill’: Permission denied
+find: ‘/tmp/vmware-root_29693-4256559394’: Permission denied
+find: ‘/tmp/systemd-private-382f886d03e3400cb8328e78a683e335-ntpd.service-i4K4Iz’: Permission denied
+find: ‘/tmp/vmware-root_1429-3980232950’: Permission denied
+find: ‘/tmp/lost+found’: Permission denied
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/empty/sshd’: Permission denied
+find: ‘/var/spool/postfix/hold’: Permission denied
+find: ‘/var/spool/postfix/deferred’: Permission denied
+find: ‘/var/spool/postfix/corrupt’: Permission denied
+find: ‘/var/spool/postfix/incoming’: Permission denied
+find: ‘/var/spool/postfix/defer’: Permission denied
+find: ‘/var/spool/postfix/bounce’: Permission denied
+find: ‘/var/spool/postfix/private’: Permission denied
+find: ‘/var/spool/postfix/maildrop’: Permission denied
+find: ‘/var/spool/postfix/public’: Permission denied
+find: ‘/var/spool/postfix/trace’: Permission denied
+find: ‘/var/spool/postfix/flush’: Permission denied
+find: ‘/var/spool/postfix/active’: Permission denied
+find: ‘/var/spool/postfix/saved’: Permission denied
+find: ‘/var/spool/cron’: Permission denied
+find: ‘/var/lost+found’: Permission denied
+find: ‘/var/lib/vmware-caf/pme/data/output’: Permission denied
+find: ‘/var/lib/rhsm’: Permission denied
+find: ‘/var/lib/polkit-1’: Permission denied
+find: ‘/var/lib/postfix’: Permission denied
+find: ‘/var/lib/machines’: Permission denied
+find: ‘/var/lib/authconfig’: Permission denied
+find: ‘/var/lib/rsyslog’: Permission denied
+find: ‘/var/lib/aide’: Permission denied
+find: ‘/var/lib/NetworkManager’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/58’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/48’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/14’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/39’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/46’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/61’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/10’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/41’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/40’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/35’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/37’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/60’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/29’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/34’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/25’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/31’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/23’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/26’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/50’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/1’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/28’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/18’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/42’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/20’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/36’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/59’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/52’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/13’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/16’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/51’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/57’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/32’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/2’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/11’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/19’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/45’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/38’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/21’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/44’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/24’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/8’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/7’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/47’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/15’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/3’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/4’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/53’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/30’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/5’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/49’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/22’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/56’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/33’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/43’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/54’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/12’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/9’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/17’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/55’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/6’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/62’: Permission denied
+find: ‘/var/lib/yum/history/2018-01-30/27’: Permission denied
+find: ‘/var/db/sudo’: Permission denied
+find: ‘/CommVault/lost+found’: Permission denied
+find: ‘/opt/lost+found’: Permission denied
+find: ‘/var/log/aide’: Permission denied
+find: ‘/var/log/lost+found’: Permission denied
+find: ‘/var/tmp/systemd-private-382f886d03e3400cb8328e78a683e335-ntpd.service-Anhbfi’: Permission denied
+find: ‘/var/tmp/lost+found’: Permission denied
+find: ‘/var/log/audit’: Permission denied
+find: ‘/forms/java/lost+found’: Permission denied
+find: ‘/aem/lost+found’: Permission denied
+^C
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ df --local -P | awk {'if (NR!=1) print $6'} | xargs -I '{}' find '{}' -xdev -type d -perm -0002 -a ! -perm -1000[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@u[C[1@d[1@o[1@ 
+[sudo] password for hchada: 

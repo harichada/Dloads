@@ -1,0 +1,106 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 12:36:26 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Mon Aug  5 13:39:42 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Aug 30 08:02:41 PDT 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsedeva02[/home/hchada]$ cd /    cd c/se    /cse/online
+ankcsedeva02[/cse/online]$ ls
+ProcessServiceRequestParticipantPhoneDetailAction.class  logs
+applications                                             temp
+dumps
+ankcsedeva02[/cse/online]$ cd logs
+ankcsedeva02[/cse/online/logs]$ ls
+ArchServices.jar                      FinalistVolAssessment.log.2018-12-28  FinalistVolAssessment.log.2019-04-11
+ContentManagerAPILog_dklog.log        FinalistVolAssessment.log.2019-01-03  FinalistVolAssessment.log.2019-04-17
+ContentManagerAPILog_dklog.log.sav1   FinalistVolAssessment.log.2019-01-04  FinalistVolAssessment.log.2019-04-18
+DEV01_IF                              FinalistVolAssessment.log.2019-01-10  FinalistVolAssessment.log.2019-04-19
+FinalistVolAssessment.log             FinalistVolAssessment.log.2019-01-23  FinalistVolAssessment.log.2019-04-24
+FinalistVolAssessment.log.2018-09-16  FinalistVolAssessment.log.2019-01-24  FinalistVolAssessment.log.2019-04-25
+FinalistVolAssessment.log.2018-09-20  FinalistVolAssessment.log.2019-01-25  TEAM05_IF_Online
+FinalistVolAssessment.log.2018-10-09  FinalistVolAssessment.log.2019-01-29  TEAM05_Integration
+FinalistVolAssessment.log.2018-10-10  FinalistVolAssessment.log.2019-02-08  TEAM05_Online
+FinalistVolAssessment.log.2018-10-11  FinalistVolAssessment.log.2019-02-22  TEAM06_Online
+FinalistVolAssessment.log.2018-10-12  FinalistVolAssessment.log.2019-03-20  TEAM09_Integration
+FinalistVolAssessment.log.2018-11-16  FinalistVolAssessment.log.2019-03-21  TEAM09_Online
+FinalistVolAssessment.log.2018-11-27  FinalistVolAssessment.log.2019-03-22  TRN03_Integration
+FinalistVolAssessment.log.2018-11-28  FinalistVolAssessment.log.2019-03-26  TRN03_Online
+FinalistVolAssessment.log.2018-11-30  FinalistVolAssessment.log.2019-03-28  UIT05_IF_Online
+FinalistVolAssessment.log.2018-12-05  FinalistVolAssessment.log.2019-03-29  UIT05_Integration
+FinalistVolAssessment.log.2018-12-07  FinalistVolAssessment.log.2019-04-04  UIT05_Online
+FinalistVolAssessment.log.2018-12-14  FinalistVolAssessment.log.2019-04-09  a.out
+FinalistVolAssessment.log.2018-12-27  FinalistVolAssessment.log.2019-04-10  dumps
+ankcsedeva02[/cse/online/logs]$ ls -lagrt
+total 74032
+drwxr-sr-x    2 cseadmin        512 Jun 15 2010  TEAM06_Online
+-rw-r-----    1 cseadmin      54835 Oct 30 2014  ArchServices.jar
+drwxrwsr-x    5 cseadmin        512 Oct 01 2015  ..
+-rw-rw-r--    1 cseadmin          0 Sep 16 2018  FinalistVolAssessment.log.2018-09-16
+-rw-rw-r--    1 cseadmin        107 Sep 20 2018  FinalistVolAssessment.log.2018-09-20
+drwxr-sr-x    2 cseadmin        512 Sep 27 2018  DEV01_IF
+-rw-rw-r--    1 cseadmin        106 Oct 09 2018  FinalistVolAssessment.log.2018-10-09
+-rw-rw-r--    1 cseadmin        106 Oct 10 2018  FinalistVolAssessment.log.2018-10-10
+-rw-rw-r--    1 cseadmin        106 Oct 11 2018  FinalistVolAssessment.log.2018-10-11
+-rw-rw-r--    1 cseadmin        106 Oct 12 2018  FinalistVolAssessment.log.2018-10-12
+-rw-rw-r--    1 cseadmin        105 Nov 16 2018  FinalistVolAssessment.log.2018-11-16
+-rw-rw-r--    1 cseadmin        106 Nov 27 2018  FinalistVolAssessment.log.2018-11-27
+-rw-rw-r--    1 cseadmin        106 Nov 28 2018  FinalistVolAssessment.log.2018-11-28
+-rw-rw-r--    1 cseadmin        106 Nov 30 2018  FinalistVolAssessment.log.2018-11-30
+-rw-rw-r--    1 cseadmin        106 Dec 05 2018  FinalistVolAssessment.log.2018-12-05
+-rw-rw-r--    1 cseadmin        106 Dec 07 2018  FinalistVolAssessment.log.2018-12-07
+-rw-rw-r--    1 cseadmin        105 Dec 14 2018  FinalistVolAssessment.log.2018-12-14
+-rw-rw-r--    1 cseadmin        105 Dec 27 2018  FinalistVolAssessment.log.2018-12-27
+-rw-rw-r--    1 cseadmin        106 Dec 28 2018  FinalistVolAssessment.log.2018-12-28
+-rw-rw-r--    1 cseadmin        106 Jan 03 2019  FinalistVolAssessment.log.2019-01-03
+-rw-rw-r--    1 cseadmin        106 Jan 04 2019  FinalistVolAssessment.log.2019-01-04
+-rw-r-----    1 cseadmin        344 Jan 04 2019  a.out
+-rw-rw-r--    1 cseadmin        107 Jan 10 2019  FinalistVolAssessment.log.2019-01-10
+-rw-rw-r--    1 cseadmin        106 Jan 23 2019  FinalistVolAssessment.log.2019-01-23
+-rw-rw-r--    1 cseadmin        106 Jan 24 2019  FinalistVolAssessment.log.2019-01-24
+-rw-rw-r--    1 cseadmin        106 Jan 25 2019  FinalistVolAssessment.log.2019-01-25
+-rw-rw-r--    1 cseadmin        107 Jan 29 2019  FinalistVolAssessment.log.2019-01-29
+-rw-rw-r--    1 cseadmin        106 Feb 08 2019  FinalistVolAssessment.log.2019-02-08
+-rw-rw-r--    1 cseadmin        105 Feb 22 2019  FinalistVolAssessment.log.2019-02-22
+-rw-rw-r--    1 cseadmin        105 Mar 20 2019  FinalistVolAssessment.log.2019-03-20
+-rw-rw-r--    1 cseadmin        106 Mar 21 2019  FinalistVolAssessment.log.2019-03-21
+-rw-rw-r--    1 cseadmin        106 Mar 22 2019  FinalistVolAssessment.log.2019-03-22
+-rw-rw-r--    1 cseadmin        106 Mar 26 2019  FinalistVolAssessment.log.2019-03-26
+-rw-rw-r--    1 cseadmin        107 Mar 28 2019  FinalistVolAssessment.log.2019-03-28
+-rw-rw-r--    1 cseadmin        107 Mar 29 2019  FinalistVolAssessment.log.2019-03-29
+drwxr-sr-x    2 cseadmin        512 Mar 29 2019  TRN03_Online
+-rw-rw-r--    1 cseadmin        107 Apr 04 10:15 FinalistVolAssessment.log.2019-04-04
+-rw-rw-r--    1 cseadmin        105 Apr 09 07:35 FinalistVolAssessment.log.2019-04-09
+-rw-rw-r--    1 cseadmin        105 Apr 10 09:44 FinalistVolAssessment.log.2019-04-10
+-rw-rw-r--    1 cseadmin        105 Apr 11 08:40 FinalistVolAssessment.log.2019-04-11
+-rw-rw-r--    1 cseadmin        105 Apr 17 11:12 FinalistVolAssessment.log.2019-04-17
+-rw-rw-r--    1 cseadmin        107 Apr 18 09:30 FinalistVolAssessment.log.2019-04-18
+-rw-rw-r--    1 cseadmin        105 Apr 19 10:56 FinalistVolAssessment.log.2019-04-19
+-rw-rw-r--    1 cseadmin        106 Apr 24 08:52 FinalistVolAssessment.log.2019-04-24
+-rw-rw-r--    1 cseadmin        106 Apr 25 08:18 FinalistVolAssessment.log.2019-04-25
+-rw-rw-r--    1 cseadmin        106 May 10 08:08 FinalistVolAssessment.log
+drwxr-sr-x    2 cseadmin        512 Jun 11 21:50 TRN03_Integration
+drwxr-sr-x    2 cseadmin       1024 Jul 15 13:16 TEAM09_Integration
+drwxrwsrwx    2 cseadmin       1024 Aug 14 11:27 TEAM09_Online
+drwxrwxr-x    2 cseadmin       4608 Sep 14 15:50 dumps
+drwxr-sr-x    2 cseadmin        512 Sep 17 07:35 TEAM05_IF_Online
+drwxr-sr-x    2 cseadmin       1024 Sep 20 08:37 TEAM05_Integration
+drwxrwsr-x    2 cseadmin       1024 Sep 20 10:22 UIT05_Integration
+drwxrwsr-x    2 cseadmin       1536 Sep 25 08:54 UIT05_Online
+drwxr-sr-x    2 cseadmin       1024 Sep 25 08:56 UIT05_IF_Online
+drwxrwsr-x    2 cseadmin       1024 Sep 25 09:28 TEAM05_Online
+-rw-rw-r--    1 cseadmin   20971643 Sep 25 09:58 ContentManagerAPILog_dklog.log.sav1
+drwxrwsr-x   15 cseadmin       2560 Sep 25 09:58 .
+-rw-rw-r--    1 cseadmin   16469366 Sep 25 12:27 ContentManagerAPILog_dklog.log
+ankcsedeva02[/cse/online/logs]$ cd exit
+ksh: exit:  not found.
+ankcsedeva02[/cse/online/logs]$ exit

@@ -1,0 +1,1906 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.21 15:03:53 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/cseadmin]$ clear
+[H[2Jankcsesyaa02[/home/cseadmin]$ ls
+2019_03_08.0_v5.41.0.5069.ArchForms.ear        NFS_selfcheck_orig.sh                          memory_paging_PROD_test.sh
+2019_03_08.0_v5.41.0.5069.ArchImaging.ear      NFS_selfcheck_output.dat                       memory_paging_RUN.sh
+2019_03_08.0_v5.41.0.5069.Batch.ear            OLD_ACCOUNTS.txt                               memory_paging_SELECT.sh
+2019_03_08.0_v5.41.0.5069.ECSSIVR.ear          OLD_ACCOUNTS_sorted.txt                        memory_paging_SELECT_test.sh
+2019_03_08.0_v5.41.0.5069.Forms.zip            SYA01.CSEArchitecture.properties               memory_paging_SYA_SELECT.sh
+2019_03_08.0_v5.41.0.5069.FormsGeneration.ear  TEAM06.CSEArchitecture.properties              memory_paging_SYA_SELECT_test.sh
+2019_03_08.0_v5.41.0.5069.HyperionReports.zip  Tivoli_start_stop_status.sh                    memory_paging_check.sh
+2019_03_08.0_v5.41.0.5069.Integration.ear      WAS8.5_init_scripts                            memory_paging_check.sh.orig
+2019_03_08.0_v5.41.0.5069.Online.ear           app_web.xml                                    memory_paging_check_20150817.sh
+2019_03_08.0_v5.41.0.5069.SelfService.ear      copyCSEFilesystems.ksh                         memory_paging_check_20150818.sh
+2019_03_08.0_v5.41.0.5069.TWSSchedule.zip      copyToNonProd.sh                               memory_paging_check_NONSYA.sh
+2019_03_08.0_v5.41.0.5069.VIOLAForms.zip       cseDirectoryDeployer.xml                       memory_paging_check_SYA.sh
+2019_03_25.0_v5.41.0.9737.ArchForms.ear        dm_web.xml                                     memory_paging_output
+2019_03_25.0_v5.41.0.9737.ArchImaging.ear      errpt_mail.sh                                  memory_paging_vmstat_NON_PROD.sh
+2019_03_25.0_v5.41.0.9737.Batch.ear            find_LUN_CuLDev.sh                             nfs_selfcheck.sh
+2019_03_25.0_v5.41.0.9737.ECSSIVR.ear          find_LUN_CuLDev_cv.sh                          nfs_selfcheck.sh.20150805
+2019_03_25.0_v5.41.0.9737.Forms.zip            find_LUN_CuLDev_print.sh                       nfs_selfcheck.sh.20150806
+2019_03_25.0_v5.41.0.9737.FormsGeneration.ear  find_LUN_sizes.sh                              nfs_selfcheck.sh.20150909
+2019_03_25.0_v5.41.0.9737.HyperionReports.zip  find_wwn.sh                                    nfs_selfcheck.sh.orig
+2019_03_25.0_v5.41.0.9737.Integration.ear      hosts.txt                                      p8_hostnames.txt
+2019_03_25.0_v5.41.0.9737.Online.ear           importGPGKeys.ksh                              p8_hostnames_reverse.txt
+2019_03_25.0_v5.41.0.9737.SelfService.ear      install.dir.10420414                           p8_hostnames_reverse_sorted.txt
+2019_03_25.0_v5.41.0.9737.TWSSchedule.zip      install.dir.11010236                           resetUser.ksh
+2019_03_25.0_v5.41.0.9737.VIOLAForms.zip       install.dir.11534354                           run_on_NonProd.sh
+ALL_ACCOUNTS.txt                               install.dir.13434926                           scripts
+ALL_ACCOUNTS_sorted.txt                        install.dir.5701676                            setCSEPermissions.ksh
+CA_APM_for_BRTM_9.5.0.0_InstallLog.log         install.dir.5963940                            showerrpt.pl
+Finalist900.jar                                install.dir.6553810                            sya.txt
+IRS_user_home_updated.sh                       install.dir.7012544                            sya_cseProperties_was7.053018.tar.gz
+KP_Scripts                                     logs                                           sya_cseProperties_was85.053018.tar.gz
+LIVE_ACCOUNTS.txt                              lpars                                          sya_new.txt
+NFS_mounts_verify.sh                           memory_paging_COPY.sh                          tempfile
+NFS_mounts_verify_20180723.sh                  memory_paging_NON_PROD_mail.sh                 test.txt
+NFS_mounts_verify_P8.sh                        memory_paging_PFT1.sh                          utils
+NFS_mounts_verify_orig.sh                      memory_paging_PFT1_test.sh                     vmstat_mail.sh
+NFS_mounts_verify_paul.sh                      memory_paging_PFT2.sh                          workspace
+NFS_selfcheck.sh                               memory_paging_PFT2_test.sh
+NFS_selfcheck.sh_20180723.sh                   memory_paging_PROD.sh
+ankcsesyaa02[/home/cseadmin]$ cd /cse/online/loa   applications
+ankcsesyaa02[/cse/online/applications]$ ls
+SYA01_IF_Forms.ear                   SYA01_IF_Online_FormsGeneration.ear  cse_SYA01_Online_StandAlone.ear
+SYA01_IF_Online_Forms.ear            cse_SYA01_Integration.ear
+ankcsesyaa02[/cse/online/applications]$ cd ..
+ankcsesyaa02[/cse/online]$ ls
+SYA01_IF_Forms.tar.gz    SYA01_IF_Imaging.tar.gz  applications             dumps                    logs                     scripts                  tmp
+ankcsesyaa02[/cse/online]$ cd app       
+ksh: app:  not found.
+ankcsesyaa02[/cse/online]$ cd app*
+ankcsesyaa02[/cse/online/applications]$ ls
+SYA01_IF_Forms.ear                   SYA01_IF_Online_FormsGeneration.ear  cse_SYA01_Online_StandAlone.ear
+SYA01_IF_Online_Forms.ear            cse_SYA01_Integration.ear
+ankcsesyaa02[/cse/online/applications]$ ls -lagrt
+total 48
+drwxrwsrwx    7 cseadmnp        256 Oct 13 2017  ..
+drwxr-sr-x    5 cseadmin       4096 Nov 19 13:33 SYA01_IF_Forms.ear
+drwxr-sr-x    5 cseadmin       4096 Nov 19 13:35 SYA01_IF_Online_FormsGeneration.ear
+drwxr-sr-x    5 cseadmin       4096 Nov 19 13:37 SYA01_IF_Online_Forms.ear
+drwxr-sr-x    6 cseadmin       4096 Nov 19 13:41 cse_SYA01_Integration.ear
+drwxr-sr-x    7 cseadmin       4096 Nov 19 13:54 .
+drwxr-sr-x   10 cseadmin       4096 Nov 19 13:54 cse_SYA01_Online_StandAlone.ear
+ankcsesyaa02[/cse/online/applications]$ cd cse _SYA01 _Online _StandAlone.ear
+ankcsesyaa02[/cse/online/applications/cse_SYA01_Online_StandAlone.ear]$ ls
+ArchActivity.jar                  BootstrapWeb.war                  CSEResources.jar                  FinancialBusiness.jar             META-INF
+ArchBusiness.jar                  BusinessUtilitiesActivity.jar     CSEWEB.war                        FinancialCommon.jar               PrgmMonitoringActivity.jar
+ArchCommon.jar                    BusinessUtilitiesBusiness.jar     CaseActivity.jar                  FinancialPersistence.jar          PrgmMonitoringBusiness.jar
+ArchPersistence.jar               BusinessUtilitiesCommon.jar       CaseBusiness.jar                  FinancialServices.jar             PrgmMonitoringCommon.jar
+ArchServices.jar                  BusinessUtilitiesPersistence.jar  CaseCommon.jar                    LegacyDataArchiveActivity.jar     PrgmMonitoringPersistence.jar
+ArchServicesCommon.jar            BusinessUtilitiesServices.jar     CasePersistence.jar               LegacyDataArchiveBusiness.jar     PrgmMonitoringServices.jar
+ArchServicesLocal.jar             CSECommon.jar                     CaseServices.jar                  LegacyDataArchiveCommon.jar       QuickCA.war
+ArchWeb.war                       CSEFormsCommon.jar                CommonWSProvider.war              LegacyDataArchivePersistence.jar  config
+BatchManagementWeb.war            CSEInterfaces.jar                 FinancialActivity.jar             LegacyDataArchiveServices.jar
+ankcsesyaa02[/cse/online/applications/cse_SYA01_Online_StandAlone.ear]$ cd ..
+ankcsesyaa02[/cse/online/applications]$ sl
+ksh: sl:  not found.
+ankcsesyaa02[/cse/online/applications]$ clear
+[H[2Jankcsesyaa02[/cse/online/applications]$ ls
+SYA01_IF_Forms.ear                   SYA01_IF_Online_FormsGeneration.ear  cse_SYA01_Online_StandAlone.ear
+SYA01_IF_Online_Forms.ear            cse_SYA01_Integration.ear
+ankcsesyaa02[/cse/online/applications]$ cd Cse   /cse/lib
+ankcsesyaa02[/cse/lib]$ ls
+2019_08_28.0_Repository.CSEJarRepository.zip  Jar_Repository
+BatchRpt.txt                                  libFinalistCWrapper.so
+ankcsesyaa02[/cse/lib]$ cd Jar*
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd CON*
+ksh: cd: 0403-011 The specified substitution is not valid for this command.
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd Co     cd    CONTENT _MANAGER
+ksh: CONTENT_MANAGER: 0403-006 Execute permission denied.
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls -lagrt
+total 128
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 BUILDS
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 TECHARCH_WEBSERVICES
+-rw-r--r--    1 cseadmin        378 Aug 28 11:09 cse_version.properties
+drwxr-xr-x    5 cseadmin        256 Aug 28 11:09 CSE_COMMON
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 SPRING
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:10 TECHARCH_BATCH
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 TECHARCH_SECURITY
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:10 AXIS_CENTRAL_SCAN
+drwxr-xr-x    8 cseadmin        256 Aug 28 11:10 TECHARCH_TESTING
+drwxr-xr-x    6 cseadmin       4096 Aug 28 11:10 GRNDS
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 CONFIG_MANAGEMENT
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 ANTI_VIRUS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 WILY
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 licenses
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 TECHARCH_FILE_PROCESSING_DAEMON_CLIENT
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 CSE_FORMS_GENERATION_CLIENT
+drwxr-xr-x    4 cseadmin       4096 Aug 28 11:11 WEB
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 TX_OOC
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 ANT_LAUNCHER
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 JTA
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 HTTP_CLIENT
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 DB2JCC
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 COMMON_UTILS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 BPM
+drwxr-xr-x    3 cseadmin       4096 Sep 04 15:13 HIBERNATE
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 JUNIT_LIBRARIES
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 LOGGING_OVERRIDE
+drwxr-xr-x    5 cseadmin        256 Sep 04 15:13 TECHARCH_FORMS
+drwxr-xr-x    5 cseadmin       4096 Sep 04 15:13 TECHARCH_PIF_CLIENTS
+drwxr-xr-x   11 cseadmin       4096 Sep 04 15:13 TECHARCH_REPORTING
+drwxr-xr-x    9 cseadmin       4096 Sep 04 15:13 XML
+drwxr-xr-x   33 cseadmin       4096 Sep 04 15:13 .
+drwxr-xr-x    2 cseadmin       4096 Nov 19 09:39 CONTENT_MANAGER
+drwxrwsr-x    3 cseadmnp       4096 Nov 19 10:52 ..
+ankcsesyaa02[/cse/lib/Jar_Repository]$ sudo s cseresetuser hchada
+Password:
+[compat]: 3004-300 You entered an invalid login name or password.
+
+Sorry, try again.
+Password:
+sudo: 1 incorrect password attempt
+ankcsesyaa02[/cse/lib/Jar_Repository]$ whoami
+cseadmin
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd  ls lagrt
+ls: 0653-341 The file lagrt does not exist.
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls -lagrt
+total 128
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 BUILDS
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:09 TECHARCH_WEBSERVICES
+-rw-r--r--    1 cseadmin        378 Aug 28 11:09 cse_version.properties
+drwxr-xr-x    5 cseadmin        256 Aug 28 11:09 CSE_COMMON
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 SPRING
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:10 TECHARCH_BATCH
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:10 TECHARCH_SECURITY
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:10 AXIS_CENTRAL_SCAN
+drwxr-xr-x    8 cseadmin        256 Aug 28 11:10 TECHARCH_TESTING
+drwxr-xr-x    6 cseadmin       4096 Aug 28 11:10 GRNDS
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 CONFIG_MANAGEMENT
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 ANTI_VIRUS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 WILY
+drwxr-xr-x    2 cseadmin       4096 Aug 28 11:11 licenses
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 TECHARCH_FILE_PROCESSING_DAEMON_CLIENT
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 CSE_FORMS_GENERATION_CLIENT
+drwxr-xr-x    4 cseadmin       4096 Aug 28 11:11 WEB
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 TX_OOC
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 ANT_LAUNCHER
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 JTA
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 HTTP_CLIENT
+drwxr-xr-x    3 cseadmin        256 Aug 28 11:11 DB2JCC
+drwxr-xr-x    3 cseadmin       4096 Aug 28 11:11 COMMON_UTILS
+drwxr-xr-x    2 cseadmin        256 Aug 28 11:11 BPM
+drwxr-xr-x    3 cseadmin       4096 Sep 04 15:13 HIBERNATE
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 JUNIT_LIBRARIES
+drwxr-xr-x    2 cseadmin        256 Sep 04 15:13 LOGGING_OVERRIDE
+drwxr-xr-x    5 cseadmin        256 Sep 04 15:13 TECHARCH_FORMS
+drwxr-xr-x    5 cseadmin       4096 Sep 04 15:13 TECHARCH_PIF_CLIENTS
+drwxr-xr-x   11 cseadmin       4096 Sep 04 15:13 TECHARCH_REPORTING
+drwxr-xr-x    9 cseadmin       4096 Sep 04 15:13 XML
+drwxr-xr-x   33 cseadmin       4096 Sep 04 15:13 .
+drwxr-xr-x    2 cseadmin       4096 Nov 19 09:39 CONTENT_MANAGER
+drwxrwsr-x    3 cseadmnp       4096 Nov 19 10:52 ..
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd CONTENT _MANAGER
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls
+Jace.jar                                  ibm-content-manager-cmbcm-8.4.3fp3.jar    ibm-content-manager-cmbicmc-8.3fp2.jar    ibm-content-manager-cmbsdk-8.4.2fp1.jar
+README.TXT                                ibm-content-manager-cmbicm-8.2.jar        ibm-content-manager-cmbicmc-8.3fp8.jar    ibm-content-manager-cmbsdk-8.4.3fp3.jar
+README.txt                                ibm-content-manager-cmbicm-8.3fp2.jar     ibm-content-manager-cmbicmc-8.4.2fp1.jar  log4j-1.2.14.jar
+ibm-content-manager-cmb-8.2.jar           ibm-content-manager-cmbicm-8.3fp8.jar     ibm-content-manager-cmbicmc-8.4.3fp3.jar  p8cel10n.jar
+ibm-content-manager-cmb-8.3fp2.jar        ibm-content-manager-cmbicm-8.4.2fp1.jar   ibm-content-manager-cmbsdk-8.2.jar        stax-api.jar
+ibm-content-manager-cmb-8.3fp8.jar        ibm-content-manager-cmbicm-8.4.3fp3.jar   ibm-content-manager-cmbsdk-8.3fp2.jar     xlxpScanner.jar
+ibm-content-manager-cmb-8.4.2fp1.jar      ibm-content-manager-cmbicmc-8.2.jar       ibm-content-manager-cmbsdk-8.3fp8.jar     xlxpScannerUtils.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls -lagrt
+total 214368
+-rw-r--r--    1 cseadmin     417423 Aug 06 07:18 xlxpScannerUtils.jar
+-rw-r--r--    1 cseadmin     361911 Aug 06 07:18 xlxpScanner.jar
+-rw-r--r--    1 cseadmin      28621 Aug 06 07:18 stax-api.jar
+-rw-r--r--    1 cseadmin    3429667 Aug 06 07:18 p8cel10n.jar
+-rw-r--r--    1 cseadmin     400555 Aug 06 07:18 log4j-1.2.14.jar
+-rw-r--r--    1 cseadmin    3284775 Aug 06 07:18 Jace.jar
+-rw-r--r--    1 cseadmin    1838954 Aug 28 11:09 ibm-content-manager-cmbicmc-8.2.jar
+-rw-r--r--    1 cseadmin    2087933 Aug 28 11:09 ibm-content-manager-cmbicmc-8.3fp2.jar
+-rw-r--r--    1 cseadmin    1429828 Aug 28 11:09 ibm-content-manager-cmb-8.2.jar
+-rw-r--r--    1 cseadmin       1346 Aug 28 11:09 README.TXT
+-rw-r--r--    1 cseadmin   12296528 Aug 28 11:09 ibm-content-manager-cmbsdk-8.3fp2.jar
+-rw-r--r--    1 cseadmin    4889683 Aug 28 11:09 ibm-content-manager-cmbicm-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    4394718 Aug 28 11:09 ibm-content-manager-cmbicm-8.3fp2.jar
+-rw-r--r--    1 cseadmin    2383907 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    2127616 Aug 28 11:10 ibm-content-manager-cmb-8.3fp2.jar
+-rw-r--r--    1 cseadmin    5077127 Aug 28 11:10 ibm-content-manager-cmbicm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   11711167 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin    2419193 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   11357875 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    2159205 Aug 28 11:10 ibm-content-manager-cmbicmc-8.3fp8.jar
+-rw-r--r--    1 cseadmin    3177410 Aug 28 11:10 ibm-content-manager-cmbicm-8.2.jar
+-rw-r--r--    1 cseadmin    2332321 Aug 28 11:10 ibm-content-manager-cmbcm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   10539266 Aug 28 11:10 ibm-content-manager-cmbsdk-8.2.jar
+-rw-r--r--    1 cseadmin   12545118 Aug 28 11:11 ibm-content-manager-cmbsdk-8.3fp8.jar
+-rw-r--r--    1 cseadmin    4591368 Aug 28 11:11 ibm-content-manager-cmbicm-8.3fp8.jar
+-rw-r--r--    1 cseadmin    2147493 Aug 28 11:11 ibm-content-manager-cmb-8.3fp8.jar
+-rw-r--r--    1 cseadmin    2248077 Aug 28 11:11 ibm-content-manager-cmb-8.4.2fp1.jar
+drwxr-xr-x   33 cseadmin       4096 Sep 04 15:13 ..
+-rw-r--r--    1 cseadmin         88 Nov 06 15:19 README.txt
+drwxr-xr-x    2 cseadmin       4096 Nov 19 09:39 .
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ cd /cse/online/logs
+ankcsesyaa02[/cse/online/logs]$ ls
+SDK                      SYA01_IF_Online          SYA01_Integration        SYA01_Online_StandAlone  SYA_Svc_cg1p02a_01
+ankcsesyaa02[/cse/online/logs]$ cd *Onlin     Alone
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ ls
+SystemErr.log                    SystemOut.log.owner              SystemOut_19.05.01_12.57.58.log  core
+SystemErr.log.owner              SystemOut_19.04.29_14.12.05.log  SystemOut_19.05.08_17.13.03.log  native_stderr.log
+SystemOut.log                    SystemOut_19.04.30_17.15.37.log  SystemOut_19.10.07_15.57.44.log  native_stdout.log
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ vi SystemOut.log
+[?1049h[56;1H[?12;25h[?1h="SystemOut.log" 15110 lines, 2812894 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.15 [ND 8.5.5.15 cf151904.01] [IBMJAVA71 7.1.4.5 cf121726.01] running with process name cg1p02aCell01\cg1p02aNode01\SYA01_Online_StandAlone and process id 14
+090252
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp5-20170421_02 (SR4 FP5), Java Compiler = j9jit27, Java VM name = IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/li
+b:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.e
+tools.ejbdeploy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/
+lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_8
+5/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/Q
+OPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/li
+b/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/
+WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[10/7/19 15:57:44:572 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:618 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:673 PDT] 0000008c SharedEJBRunt I   WSVR0037I: Starting EJB jar: ArchServices.jar
+[10/7/19 15:57:44:675 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:679 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:681 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:683 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:688 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:752 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome interface of the JobRequestServic
+e enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/ondemand/JobRequestServiceHo
+me
+[10/7/19 15:57:44:769 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome interface of the JobRequestServic
+e enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/JobRe
+questService!gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome
+[10/7/19 15:57:44:777 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.reporting.ReportServiceHome interface of the ReportService enter
+prise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/reporting/ReportServiceHome
+[10/7/19 15:57:44:780 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.reporting.ReportServiceHome interface of the ReportService enter
+prise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/ReportServic
+e!gov.ca.dcss.arch.services.reporting.ReportServiceHome
+[10/7/19 15:57:44:783 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberServiceHome interface of the MemberService ente
+rprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/searchtest/MemberServiceHome
+[10/7/19 15:57:44:788 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberServiceHome interface of the MemberService ente
+rprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/MemberServi
+ce!gov.ca.dcss.arch.services.searchtest.MemberServiceHome
+[10/7/19 15:57:44:792 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome interface of the MemberNameServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/searchtest/MemberNameServiceHome
+[10/7/19 15:57:44:795 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome interface of the MemberNameServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/Mem
+berNameService!gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome
+[10/7/19 15:57:44:801 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.errors.ErrorMessageServiceHome interface of the ErrorMessageServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/errors/ErrorMessageService
+Home
+@
+@[H[55B"SystemOut.log" 15110 lines, 2812894 characters[H[H[2J[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O MAIL FROM:<no-reply@dcss.ca.gov>^M[H
+[11/21/19 14:42:08:813 PST] 000000d5 SystemOut     O 250 2.1.0 Ok^M
+[11/21/19 14:42:08:814 PST] 000000d5 SystemOut     O RCPT TO:<DCSSTSConfigurationManagementUnit@dcss.ca.gov>^M
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O 250 2.1.5 Ok^M
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DEBUG SMTP: Verified Addresses
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DEBUG SMTP:   DCSSTSConfigurationManagementUnit@dcss.ca.gov
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DATA^M
+[11/21/19 14:42:08:858 PST] 000000d5 SystemOut     O 354 End data with <CR><LF>.<CR><LF>^M
+[11/21/19 14:42:08:859 PST] 000000d5 SystemOut     O Date: Thu, 21 Nov 2019 14:42:08 -0800 (PST)^M
+From: California Department of Child Support Services <no-reply@dcss.ca.gov>^M
+Reply-To: DO NOT REPLY TO THIS EMAIL <no-reply@dcss.ca.gov>^M
+To: DCSSTSConfigurationManagementUnit@dcss.ca.gov^M
+Message-ID: <-326125946.12.1574376128810.JavaMail.wasadmin@ankcsesyaa02>^M
+Subject: Health Monitor Test Email From - SYA01^M
+MIME-Version: 1.0^M
+Content-Type: text/plain; charset=us-ascii^M
+Content-Transfer-Encoding: 7bit^M
+^M
+TEST EMAIL FROM EMAIL SERVICE HEALTH MONITOR. ^M
+^M
+DO NOT REPLY TO THIS EMAIL.^M
+.^M
+[11/21/19 14:42:08:864 PST] 000000d5 SystemOut     O 250 2.0.0 Ok: queued as D1229130083^M
+[11/21/19 14:42:08:864 PST] 000000d5 SystemOut     O QUIT^M
+[11/21/19 14:42:08:865 PST] 000000d5 SystemOut     O 221 2.0.0 Bye^M
+[11/21/19 14:42:08:885 PST] 000000d5 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/healthmonit
+or/HealthMonitorResults.jsp]: Initialization successful.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[26;1H[A[A[A[A[A[A^[A[A^[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[H[H[2J[11/21/19 14:40:37:307 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][H
+[11/21/19 14:40:37:324 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:754 PST] 000000d5 SibMessage    W   [:] CWSJY0003W: JMSCS0029: No WhiteList functionality enabled - either the properties were not set, or the security permission
+s prevent them being read
+[11/21/19 14:42:08:747 PST] 000000d5 SystemOut     O DEBUG: JavaMail version 1.4.2
+[11/21/19 14:42:08:750 PST] 000000d5 SystemOut     O DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+[11/21/19 14:42:08:750 PST] 000000d5 SystemOut     O DEBUG: Tables of loaded providers
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp
+.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.ima
+p.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop
+3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=jav
+ax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc
+], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsyst
+ems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsyst
+ems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O *** In SessionFactory.getObjectInstance, session properties:
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.store.protocol=pop3
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.transport.protocol=smtp
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.imaps.class=com.sun.mail.imap.IMAPSSLStore
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.smtp.host=134.186.202.119
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.debug=true
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.pop3s.class=com.sun.mail.pop3.POP3SSLStore
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.smtp.class=com.sun.mail.smtp.SMTPTransport
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.smtps.class=com.sun.mail.smtp.SMTPSSLTransport
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.imap.class=com.sun.mail.imap.IMAPStore
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.pop3.class=com.sun.mail.pop3.POP3Store
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.mime.address.strict=true
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.pop3.host=134.186.202.119
+[11/21/19 14:42:08:768 PST] 000000d5 SystemOut     O DEBUG: mail.smtp.class property exists and points to com.sun.mail.smtp.SMTPTransport
+[11/21/19 14:42:08:780 PST] 000000d5 SystemOut     O DEBUG SMTP: useEhlo true, useAuth false
+[11/21/19 14:42:08:780 PST] 000000d5 SystemOut     O DEBUG SMTP: trying to connect to host "134.186.202.119", port 25, isSSL false
+[11/21/19 14:42:08:785 PST] 000000d5 SystemOut     O 220 ESMTP IMSVA^M
+[11/21/19 14:42:08:785 PST] 000000d5 SystemOut     O DEBUG SMTP: connected to host "134.186.202.119", port: 25
+
+[11/21/19 14:42:08:786 PST] 000000d5 SystemOut     O EHLO ankcsesyaa02^M
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O 250-SMTPRELGC03.mail.ca.gov^M
+250-PIPELINING^M
+250-SIZE 104857600^M
+250-ETRN^M
+250-STARTTLS^M
+250-ENHANCEDSTATUSCODES^M
+250-8BITMIME^M
+250 DSN^M
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "PIPELINING", arg ""
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "SIZE", arg "104857600"
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "ETRN", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "STARTTLS", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "8BITMIME", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "DSN", arg ""
+[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O DEBUG SMTP: use8bit false
+[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O MAIL FROM:<no-reply@dcss.ca.gov>^M
+[11/21/19 14:42:08:813 PST] 000000d5 SystemOut     O 250 2.1.0 Ok^M[H[2J[11/21/19 14:40:06:435 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4179051426996800821274.txt com.ibm.ws.security.ltpa.LTPAServerObject.validateToken 1145
+[11/21/19 14:40:06:439 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4361423123097366850548.txt com.ibm.ws.security.token.WSCredentialTokenMapper.createPropagationTokenBeforeAuthenticatedCa
+llerSet 1717
+[11/21/19 14:40:06:444 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.440236868478806602070.txt com.ibm.ws.security.auth.ContextManagerImpl.getSubjectFromDynaCacheOrOriginatingServer 1951
+[11/21/19 14:40:06:449 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4453133595448985371090.txt com.ibm.ws.security.auth.ContextManagerImpl.login 3715
+[11/21/19 14:40:06:457 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4532687252998956838497.txt com.ibm.ws.security.web.WebAuthenticator.validate 3576
+[11/21/19 14:40:20:646 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/healthmonit
+or/SelectHealthMonitors.jsp]: Initialization successful.
+[11/21/19 14:40:35:345 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CSEApplication_UR
+[11/21/19 14:40:35:347 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:349 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:350 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:352 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:354 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:355 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@d94a23fe.
+[11/21/19 14:40:35:357 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:35:416 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CSE_ReadOnly
+[11/21/19 14:40:35:418 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:420 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:422 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:424 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:426 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:428 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@eddd47d5.
+[11/21/19 14:40:35:429 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:35:485 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CS1257
+[11/21/19 14:40:35:486 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:488 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:490 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:491 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:493 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:495 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@c202de78.
+[11/21/19 14:40:35:496 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:36:494 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.4792177068110830131081.txt com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt 463
+[11/21/19 14:40:36:502 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.4996397373875484661768.txt com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt 1074
+[11/21/19 14:40:36:602 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.5033663251830534136496.txt com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup 2886
+[11/21/19 14:40:36:607 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.6053221820181070276963.txt com.ibm.ws.naming.util.Helpers.logJndiContextException 1504
+[11/21/19 14:40:37:045 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:081 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:099 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:159 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:187 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:196 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:200 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:216 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:307 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:324 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q1[K[7mex: 0602-021 There are extra characters at the end of the command.[27m[A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ cd /cse/libe 
+ankcsesyaa02[/cse/lib]$ ls
+2019_08_28.0_Repository.CSEJarRepository.zip  Jar_Repository
+BatchRpt.txt                                  libFinalistCWrapper.so
+ankcsesyaa02[/cse/lib]$ cd Ja*
+ankcsesyaa02[/cse/lib/Jar_Repository]$ ls
+ANTI_VIRUS                              CSE_COMMON                              LOGGING_OVERRIDE                        TECHARCH_TESTING
+ANT_LAUNCHER                            CSE_FORMS_GENERATION_CLIENT             SPRING                                  TECHARCH_WEBSERVICES
+AXIS_CENTRAL_SCAN                       DB2JCC                                  TECHARCH_BATCH                          TX_OOC
+BPM                                     GRNDS                                   TECHARCH_FILE_PROCESSING_DAEMON_CLIENT  WEB
+BUILDS                                  HIBERNATE                               TECHARCH_FORMS                          WILY
+COMMON_UTILS                            HTTP_CLIENT                             TECHARCH_PIF_CLIENTS                    XML
+CONFIG_MANAGEMENT                       JTA                                     TECHARCH_REPORTING                      cse_version.properties
+CONTENT_MANAGER                         JUNIT_LIBRARIES                         TECHARCH_SECURITY                       licenses
+ankcsesyaa02[/cse/lib/Jar_Repository]$ cd *ma  Mana   NA  ANAGER
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ LS
+ksh: LS:  not found.
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls
+Jace.jar                                  ibm-content-manager-cmbcm-8.4.3fp3.jar    ibm-content-manager-cmbicmc-8.3fp2.jar    ibm-content-manager-cmbsdk-8.4.2fp1.jar
+README.TXT                                ibm-content-manager-cmbicm-8.2.jar        ibm-content-manager-cmbicmc-8.3fp8.jar    ibm-content-manager-cmbsdk-8.4.3fp3.jar
+README.txt                                ibm-content-manager-cmbicm-8.3fp2.jar     ibm-content-manager-cmbicmc-8.4.2fp1.jar  log4j-1.2.14.jar
+ibm-content-manager-cmb-8.2.jar           ibm-content-manager-cmbicm-8.3fp8.jar     ibm-content-manager-cmbicmc-8.4.3fp3.jar  p8cel10n.jar
+ibm-content-manager-cmb-8.3fp2.jar        ibm-content-manager-cmbicm-8.4.2fp1.jar   ibm-content-manager-cmbsdk-8.2.jar        stax-api.jar
+ibm-content-manager-cmb-8.3fp8.jar        ibm-content-manager-cmbicm-8.4.3fp3.jar   ibm-content-manager-cmbsdk-8.3fp2.jar     xlxpScanner.jar
+ibm-content-manager-cmb-8.4.2fp1.jar      ibm-content-manager-cmbicmc-8.2.jar       ibm-content-manager-cmbsdk-8.3fp8.jar     xlxpScannerUtils.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls -lagrt
+total 214368
+-rw-r--r--    1 cseadmin     417423 Aug 06 07:18 xlxpScannerUtils.jar
+-rw-r--r--    1 cseadmin     361911 Aug 06 07:18 xlxpScanner.jar
+-rw-r--r--    1 cseadmin      28621 Aug 06 07:18 stax-api.jar
+-rw-r--r--    1 cseadmin    3429667 Aug 06 07:18 p8cel10n.jar
+-rw-r--r--    1 cseadmin     400555 Aug 06 07:18 log4j-1.2.14.jar
+-rw-r--r--    1 cseadmin    3284775 Aug 06 07:18 Jace.jar
+-rw-r--r--    1 cseadmin    1838954 Aug 28 11:09 ibm-content-manager-cmbicmc-8.2.jar
+-rw-r--r--    1 cseadmin    2087933 Aug 28 11:09 ibm-content-manager-cmbicmc-8.3fp2.jar
+-rw-r--r--    1 cseadmin    1429828 Aug 28 11:09 ibm-content-manager-cmb-8.2.jar
+-rw-r--r--    1 cseadmin       1346 Aug 28 11:09 README.TXT
+-rw-r--r--    1 cseadmin   12296528 Aug 28 11:09 ibm-content-manager-cmbsdk-8.3fp2.jar
+-rw-r--r--    1 cseadmin    4889683 Aug 28 11:09 ibm-content-manager-cmbicm-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    4394718 Aug 28 11:09 ibm-content-manager-cmbicm-8.3fp2.jar
+-rw-r--r--    1 cseadmin    2383907 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    2127616 Aug 28 11:10 ibm-content-manager-cmb-8.3fp2.jar
+-rw-r--r--    1 cseadmin    5077127 Aug 28 11:10 ibm-content-manager-cmbicm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   11711167 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin    2419193 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   11357875 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin    2159205 Aug 28 11:10 ibm-content-manager-cmbicmc-8.3fp8.jar
+-rw-r--r--    1 cseadmin    3177410 Aug 28 11:10 ibm-content-manager-cmbicm-8.2.jar
+-rw-r--r--    1 cseadmin    2332321 Aug 28 11:10 ibm-content-manager-cmbcm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin   10539266 Aug 28 11:10 ibm-content-manager-cmbsdk-8.2.jar
+-rw-r--r--    1 cseadmin   12545118 Aug 28 11:11 ibm-content-manager-cmbsdk-8.3fp8.jar
+-rw-r--r--    1 cseadmin    4591368 Aug 28 11:11 ibm-content-manager-cmbicm-8.3fp8.jar
+-rw-r--r--    1 cseadmin    2147493 Aug 28 11:11 ibm-content-manager-cmb-8.3fp8.jar
+-rw-r--r--    1 cseadmin    2248077 Aug 28 11:11 ibm-content-manager-cmb-8.4.2fp1.jar
+drwxr-xr-x   33 cseadmin       4096 Sep 04 15:13 ..
+-rw-r--r--    1 cseadmin         88 Nov 06 15:19 README.txt
+drwxr-xr-x    2 cseadmin       4096 Nov 19 09:39 .
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ ls -lak
+total 107184
+drwxr-xr-x    2 cseadmin cseadmin       4096 Nov 19 09:39 .
+drwxr-xr-x   33 cseadmin cseadmin       4096 Sep 04 15:13 ..
+-rw-r--r--    1 cseadmin cseadmin    3284775 Aug 06 07:18 Jace.jar
+-rw-r--r--    1 cseadmin cseadmin       1346 Aug 28 11:09 README.TXT
+-rw-r--r--    1 cseadmin cseadmin         88 Nov 06 15:19 README.txt
+-rw-r--r--    1 cseadmin cseadmin    1429828 Aug 28 11:09 ibm-content-manager-cmb-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    2127616 Aug 28 11:10 ibm-content-manager-cmb-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    2147493 Aug 28 11:11 ibm-content-manager-cmb-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    2248077 Aug 28 11:11 ibm-content-manager-cmb-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    2332321 Aug 28 11:10 ibm-content-manager-cmbcm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin    3177410 Aug 28 11:10 ibm-content-manager-cmbicm-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    4394718 Aug 28 11:09 ibm-content-manager-cmbicm-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    4591368 Aug 28 11:11 ibm-content-manager-cmbicm-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    4889683 Aug 28 11:09 ibm-content-manager-cmbicm-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    5077127 Aug 28 11:10 ibm-content-manager-cmbicm-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin    1838954 Aug 28 11:09 ibm-content-manager-cmbicmc-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin    2087933 Aug 28 11:09 ibm-content-manager-cmbicmc-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin    2159205 Aug 28 11:10 ibm-content-manager-cmbicmc-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin    2383907 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin    2419193 Aug 28 11:10 ibm-content-manager-cmbicmc-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin   10539266 Aug 28 11:10 ibm-content-manager-cmbsdk-8.2.jar
+-rw-r--r--    1 cseadmin cseadmin   12296528 Aug 28 11:09 ibm-content-manager-cmbsdk-8.3fp2.jar
+-rw-r--r--    1 cseadmin cseadmin   12545118 Aug 28 11:11 ibm-content-manager-cmbsdk-8.3fp8.jar
+-rw-r--r--    1 cseadmin cseadmin   11357875 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.2fp1.jar
+-rw-r--r--    1 cseadmin cseadmin   11711167 Aug 28 11:10 ibm-content-manager-cmbsdk-8.4.3fp3.jar
+-rw-r--r--    1 cseadmin cseadmin     400555 Aug 06 07:18 log4j-1.2.14.jar
+-rw-r--r--    1 cseadmin cseadmin    3429667 Aug 06 07:18 p8cel10n.jar
+-rw-r--r--    1 cseadmin cseadmin      28621 Aug 06 07:18 stax-api.jar
+-rw-r--r--    1 cseadmin cseadmin     361911 Aug 06 07:18 xlxpScanner.jar
+-rw-r--r--    1 cseadmin cseadmin     417423 Aug 06 07:18 xlxpScannerUtils.jar
+ankcsesyaa02[/cse/lib/Jar_Repository/CONTENT_MANAGER]$ cd
+ankcsesyaa02[/home/cseadmin]$ cd /cse/online/logs
+ankcsesyaa02[/cse/online/logs]$ ls
+SDK                      SYA01_IF_Online          SYA01_Integration        SYA01_Online_StandAlone  SYA_Svc_cg1p02a_01
+ankcsesyaa02[/cse/online/logs]$ cd *Alone
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ ls
+SystemErr.log                    SystemOut.log.owner              SystemOut_19.05.01_12.57.58.log  core
+SystemErr.log.owner              SystemOut_19.04.29_14.12.05.log  SystemOut_19.05.08_17.13.03.log  native_stderr.log
+SystemOut.log                    SystemOut_19.04.30_17.15.37.log  SystemOut_19.10.07_15.57.44.log  native_stdout.log
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ vi SystemOut.log
+[?1049h[56;1H[?12;25h[?1h="SystemOut.log" 15110 lines, 2812894 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.15 [ND 8.5.5.15 cf151904.01] [IBMJAVA71 7.1.4.5 cf121726.01] running with process name cg1p02aCell01\cg1p02aNode01\SYA01_Online_StandAlone and process id 14
+090252
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp5-20170421_02 (SR4 FP5), Java Compiler = j9jit27, Java VM name = IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/li
+b:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.e
+tools.ejbdeploy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/
+lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_8
+5/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/Q
+OPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/li
+b/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/
+WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[10/7/19 15:57:44:572 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:618 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:673 PDT] 0000008c SharedEJBRunt I   WSVR0037I: Starting EJB jar: ArchServices.jar
+[10/7/19 15:57:44:675 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:679 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:681 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:683 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:688 PDT] 0000008c commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[10/7/19 15:57:44:752 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome interface of the JobRequestServic
+e enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/ondemand/JobRequestServiceHo
+me
+[10/7/19 15:57:44:769 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome interface of the JobRequestServic
+e enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/JobRe
+questService!gov.ca.dcss.arch.services.ondemand.JobRequestServiceHome
+[10/7/19 15:57:44:777 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.reporting.ReportServiceHome interface of the ReportService enter
+prise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/reporting/ReportServiceHome
+[10/7/19 15:57:44:780 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.reporting.ReportServiceHome interface of the ReportService enter
+prise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/ReportServic
+e!gov.ca.dcss.arch.services.reporting.ReportServiceHome
+[10/7/19 15:57:44:783 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberServiceHome interface of the MemberService ente
+rprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/searchtest/MemberServiceHome
+[10/7/19 15:57:44:788 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberServiceHome interface of the MemberService ente
+rprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/MemberServi
+ce!gov.ca.dcss.arch.services.searchtest.MemberServiceHome
+[10/7/19 15:57:44:792 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome interface of the MemberNameServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/searchtest/MemberNameServiceHome
+[10/7/19 15:57:44:795 PDT] 0000008c AbstractEJBRu I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome interface of the MemberNameServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: java:global/cse_SYA01_Online_StandAlone/ArchServices/Mem
+berNameService!gov.ca.dcss.arch.services.searchtest.MemberNameServiceHome
+[10/7/19 15:57:44:801 PDT] 0000008c WASNameSpaceB I   CNTR0167I: The server is binding the gov.ca.dcss.arch.services.errors.ErrorMessageServiceHome interface of the ErrorMessageServ
+ice enterprise bean in the ArchServices.jar module of the cse_SYA01_Online_StandAlone application.  The binding location is: ejb/gov/ca/dcss/arch/services/errors/ErrorMessageService
+Home
+@
+@[H[55B"SystemOut.log" 15110 lines, 2812894 characters[H[H[2J[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O MAIL FROM:<no-reply@dcss.ca.gov>^M[H
+[11/21/19 14:42:08:813 PST] 000000d5 SystemOut     O 250 2.1.0 Ok^M
+[11/21/19 14:42:08:814 PST] 000000d5 SystemOut     O RCPT TO:<DCSSTSConfigurationManagementUnit@dcss.ca.gov>^M
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O 250 2.1.5 Ok^M
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DEBUG SMTP: Verified Addresses
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DEBUG SMTP:   DCSSTSConfigurationManagementUnit@dcss.ca.gov
+[11/21/19 14:42:08:857 PST] 000000d5 SystemOut     O DATA^M
+[11/21/19 14:42:08:858 PST] 000000d5 SystemOut     O 354 End data with <CR><LF>.<CR><LF>^M
+[11/21/19 14:42:08:859 PST] 000000d5 SystemOut     O Date: Thu, 21 Nov 2019 14:42:08 -0800 (PST)^M
+From: California Department of Child Support Services <no-reply@dcss.ca.gov>^M
+Reply-To: DO NOT REPLY TO THIS EMAIL <no-reply@dcss.ca.gov>^M
+To: DCSSTSConfigurationManagementUnit@dcss.ca.gov^M
+Message-ID: <-326125946.12.1574376128810.JavaMail.wasadmin@ankcsesyaa02>^M
+Subject: Health Monitor Test Email From - SYA01^M
+MIME-Version: 1.0^M
+Content-Type: text/plain; charset=us-ascii^M
+Content-Transfer-Encoding: 7bit^M
+^M
+TEST EMAIL FROM EMAIL SERVICE HEALTH MONITOR. ^M
+^M
+DO NOT REPLY TO THIS EMAIL.^M
+.^M
+[11/21/19 14:42:08:864 PST] 000000d5 SystemOut     O 250 2.0.0 Ok: queued as D1229130083^M
+[11/21/19 14:42:08:864 PST] 000000d5 SystemOut     O QUIT^M
+[11/21/19 14:42:08:865 PST] 000000d5 SystemOut     O 221 2.0.0 Bye^M
+[11/21/19 14:42:08:885 PST] 000000d5 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/healthmonit
+or/HealthMonitorResults.jsp]: Initialization successful.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[26;1H[H[2J[11/21/19 14:40:37:307 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][H
+[11/21/19 14:40:37:324 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:754 PST] 000000d5 SibMessage    W   [:] CWSJY0003W: JMSCS0029: No WhiteList functionality enabled - either the properties were not set, or the security permission
+s prevent them being read
+[11/21/19 14:42:08:747 PST] 000000d5 SystemOut     O DEBUG: JavaMail version 1.4.2
+[11/21/19 14:42:08:750 PST] 000000d5 SystemOut     O DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+[11/21/19 14:42:08:750 PST] 000000d5 SystemOut     O DEBUG: Tables of loaded providers
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp
+.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.ima
+p.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop
+3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=jav
+ax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc
+], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsyst
+ems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsyst
+ems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+[11/21/19 14:42:08:751 PST] 000000d5 SystemOut     O DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O *** In SessionFactory.getObjectInstance, session properties:
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.store.protocol=pop3
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.transport.protocol=smtp
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.imaps.class=com.sun.mail.imap.IMAPSSLStore
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.smtp.host=134.186.202.119
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.debug=true
+[11/21/19 14:42:08:753 PST] 000000d5 SystemOut     O    mail.pop3s.class=com.sun.mail.pop3.POP3SSLStore
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.smtp.class=com.sun.mail.smtp.SMTPTransport
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.smtps.class=com.sun.mail.smtp.SMTPSSLTransport
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.imap.class=com.sun.mail.imap.IMAPStore
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.pop3.class=com.sun.mail.pop3.POP3Store
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.mime.address.strict=true
+[11/21/19 14:42:08:754 PST] 000000d5 SystemOut     O    mail.pop3.host=134.186.202.119
+[11/21/19 14:42:08:768 PST] 000000d5 SystemOut     O DEBUG: mail.smtp.class property exists and points to com.sun.mail.smtp.SMTPTransport
+[11/21/19 14:42:08:780 PST] 000000d5 SystemOut     O DEBUG SMTP: useEhlo true, useAuth false
+[11/21/19 14:42:08:780 PST] 000000d5 SystemOut     O DEBUG SMTP: trying to connect to host "134.186.202.119", port 25, isSSL false
+[11/21/19 14:42:08:785 PST] 000000d5 SystemOut     O 220 ESMTP IMSVA^M
+[11/21/19 14:42:08:785 PST] 000000d5 SystemOut     O DEBUG SMTP: connected to host "134.186.202.119", port: 25
+
+[11/21/19 14:42:08:786 PST] 000000d5 SystemOut     O EHLO ankcsesyaa02^M
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O 250-SMTPRELGC03.mail.ca.gov^M
+250-PIPELINING^M
+250-SIZE 104857600^M
+250-ETRN^M
+250-STARTTLS^M
+250-ENHANCEDSTATUSCODES^M
+250-8BITMIME^M
+250 DSN^M
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "PIPELINING", arg ""
+[11/21/19 14:42:08:787 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "SIZE", arg "104857600"
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "ETRN", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "STARTTLS", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "8BITMIME", arg ""
+[11/21/19 14:42:08:788 PST] 000000d5 SystemOut     O DEBUG SMTP: Found extension "DSN", arg ""
+[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O DEBUG SMTP: use8bit false
+[11/21/19 14:42:08:811 PST] 000000d5 SystemOut     O MAIL FROM:<no-reply@dcss.ca.gov>^M
+[11/21/19 14:42:08:813 PST] 000000d5 SystemOut     O 250 2.1.0 Ok^M[H[2J[11/21/19 14:40:06:435 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4179051426996800821274.txt com.ibm.ws.security.ltpa.LTPAServerObject.validateToken 1145
+[11/21/19 14:40:06:439 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4361423123097366850548.txt com.ibm.ws.security.token.WSCredentialTokenMapper.createPropagationTokenBeforeAuthenticatedCa
+llerSet 1717
+[11/21/19 14:40:06:444 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.440236868478806602070.txt com.ibm.ws.security.auth.ContextManagerImpl.getSubjectFromDynaCacheOrOriginatingServer 1951
+[11/21/19 14:40:06:449 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4453133595448985371090.txt com.ibm.ws.security.auth.ContextManagerImpl.login 3715
+[11/21/19 14:40:06:457 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4532687252998956838497.txt com.ibm.ws.security.web.WebAuthenticator.validate 3576
+[11/21/19 14:40:20:646 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/healthmonit
+or/SelectHealthMonitors.jsp]: Initialization successful.
+[11/21/19 14:40:35:345 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CSEApplication_UR
+[11/21/19 14:40:35:347 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:349 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:350 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:352 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:354 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:355 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@d94a23fe.
+[11/21/19 14:40:35:357 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:35:416 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CSE_ReadOnly
+[11/21/19 14:40:35:418 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:420 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:422 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:424 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:426 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:428 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@eddd47d5.
+[11/21/19 14:40:35:429 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:35:485 PST] 000000d5 InternalGener I   DSRA8225I: DataSource JNDI name : jdbc/CS1257
+[11/21/19 14:40:35:486 PST] 000000d5 InternalGener I   DSRA8203I: Database product name : DB2/AIX64
+[11/21/19 14:40:35:488 PST] 000000d5 InternalGener I   DSRA8204I: Database product version : SQL11013
+[11/21/19 14:40:35:490 PST] 000000d5 InternalGener I   DSRA8205I: JDBC driver name  : IBM DB2 JDBC Universal Driver Architecture
+[11/21/19 14:40:35:491 PST] 000000d5 InternalGener I   DSRA8206I: JDBC driver version  : 3.72.44
+[11/21/19 14:40:35:493 PST] 000000d5 InternalGener I   DSRA8218I: JDBC driver specification level  : 3.0
+[11/21/19 14:40:35:495 PST] 000000d5 InternalDB2Un I   DSRA8212I: DataStoreHelper name is: com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper@c202de78.
+[11/21/19 14:40:35:496 PST] 000000d5 WSRdbDataSour I   DSRA8208I: JDBC driver type  : 4
+[11/21/19 14:40:36:494 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.4792177068110830131081.txt com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt 463
+[11/21/19 14:40:36:502 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.4996397373875484661768.txt com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt 1074
+[11/21/19 14:40:36:602 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.5033663251830534136496.txt com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup 2886
+[11/21/19 14:40:36:607 PST] 000000d5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_df7478a0_19.11.21_14.40.36.6053221820181070276963.txt com.ibm.ws.naming.util.Helpers.logJndiContextException 1504
+[11/21/19 14:40:37:045 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:081 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:099 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:159 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:187 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:196 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:200 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:216 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:307 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:40:37:324 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ ArchServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][H[2J[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)[2;9Hat org.grnds.structural.icstruts.IcsActionServletFilter.doFilter(IcsActionServletFilter.java:70)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat gov.ca.dcss.cse.validation.ValidationFilter.doFilter(ValidationFilter.java:112)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat com.wily.brt.filter.BRTFilterBase.doFilter(BRTFilterBase.java:351)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+[8Cat com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+[8Cat com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+[8Cat com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+[8Cat com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+[8Cat com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+[8Cat com.ibm.ws.ard.channel.ARDChannelConnLink.handleDiscrimination(ARDChannelConnLink.java:218)
+[8Cat com.ibm.ws.ard.channel.ARDChannelConnLink.ready(ARDChannelConnLink.java:123)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLReadServiceContext$SSLReadCompletedCallback.complete(SSLReadServiceContext.java:1833)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8C... 1 more
+[11/21/19 14:36:46:356 PST] 000000cf FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_d8b9c7da_19.11.21_14.36.46.3246356181395372490477.txt com.ibm.ejs.container.RemoteExceptionMappingStrategy.setUncheckedException 200
+[11/21/19 14:36:46:431 PST] 000000cf ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Bas
+icErrorLayout.jsp]: Initialization successful.
+[11/21/19 14:36:46:461 PST] 000000cf ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/ErrorMedium
+Severity.jsp]: Initialization successful.
+[11/21/19 14:40:06:407 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4041256150711825530717.txt com.ibm.ws.security.ltpa.LTPAServerObject.validate 1258
+[11/21/19 14:40:06:408 PST] 000000d6 LTPAServerObj W   SECJ0371W: Validation of the LTPA token failed because the token expired with the following info: Token expiration Date: Thu N
+ov 21 14:32:00 PST 2019, current Date: Thu Nov 21 14:40:06 PST 2019 Token attributes:  port=8879, username=user:ch1p01a.dts.ca.gov:389/cn=smoke.test,ou=internal,ou=users,ou=CCSAS,o=
+DCSS,dc=ca,dc=gov, hostname=cg1p02a.dts.ca.gov.. This warning might indicate expected behavior. Please refer to technote at http://www-01.ibm.com/support/docview.wss?uid=swg21594981
+. To discontinue logging of this message, see property com.ibm.websphere.security.ltpa.disableSECJ0371W description.
+[11/21/19 14:40:06:486 PST] 000000d6 SystemOut     O WARN  gov.ca.dcss.arch.common.log.ExceptionLogger - An error has occurred and your session has been lost. Please return to the h
+omepage to continue. (UniqueId: 2275290177 Code: 744)
+[11/21/19 14:40:06:416 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4115289603179170102311.txt com.ibm.ws.security.ltpa.LTPAServerObject.validate 1321
+[11/21/19 14:40:06:432 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4182252626534543099298.txt com.ibm.websphere.security.auth.WSLoginFailedException 250
+[11/21/19 14:40:06:435 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4179051426996800821274.txt com.ibm.ws.security.ltpa.LTPAServerObject.validateToken 1145
+[11/21/19 14:40:06:439 PST] 000000d6 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer
+/logs/ffdc/SYA01_Online_StandAlone_1b86895_19.11.21_14.40.06.4361423123097366850548.txt com.ibm.ws.security.token.WSCredentialTokenMapper.createPropagationTokenBeforeAuthenticatedCa
+llerSet 1717[2A[H[2J[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)[2;9Hat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObject(IIOPInputStream.java:699)
+[8Cat com.ibm.rmi.io.ValueHandlerImpl.readValue(ValueHandlerImpl.java:193)
+[8Cat com.ibm.rmi.iiop.IDRReader.read_value(IDRReader.java:2035)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.read_value(EncoderInputStream.java:963)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._CSEFormGenerationService_Stub.processFormSetForLocalPrint(_CSEFormGenerationService_Stub.java:775)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat org.springframework.remoting.rmi.RmiClientInterceptorUtils.doInvoke(RmiClientInterceptorUtils.java:103)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:75)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)
+[8Cat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)
+[8Cat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)
+[8Cat com.sun.proxy.$Proxy40.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:971)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)
+[8Cat com.sun.proxy.$Proxy39.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.service.CSEFormServiceBean.processFormSetForLocalPrint(CSEFormServiceBean.java:538)
+[8Cat gov.ca.dcss.cse.utilities.forms.service.EJSRemoteStatelessCSEFormService_6ad06501.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormService_6ad06501.java:1110)
+[8Cat gov.ca.dcss.cse.utilities.forms.service._CSEFormService_Stub.processFormSetForLocalPrint(_CSEFormService_Stub.java:1247)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.common.factory.GenericDelegateImpl.invoke(GenericDelegateImpl.java:66)
+[8Cat com.sun.proxy.$Proxy39.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.web.SubmitFormSetAction.processFormSet(SubmitFormSetAction.java:577)
+[8Cat gov.ca.dcss.cse.utilities.forms.web.SubmitFormSetAction.execute(SubmitFormSetAction.java:159)
+[8Cat org.grnds.structural.icstruts.IcsAction.performActionProcessing(IcsAction.java:1435)
+[8Cat org.grnds.structural.icstruts.IcsAction.execute(IcsAction.java:140)
+[8Cat org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+[8Cat org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+[8Cat org.apache.struts.action.ActionServlet.process(ActionServlet.java:1482)
+[8Cat org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:525)
+[8Cat javax.servlet.http.HttpServlet.service(HttpServlet.java:595)
+[8Cat javax.servlet.http.HttpServlet.service(HttpServlet.java:668)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+[8Cat org.grnds.structural.icstruts.IcsActionServletFilter.doFilter(IcsActionServletFilter.java:70)[8C[H[2J[8Cat com.ibm.rmi.io.Serializer.readObject(Serializer.java:1075)[2;9Hat com.ibm.rmi.io.ObjectSerializer.readReferenceFields(ObjectSerializer.java:504)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFields(ObjectSerializer.java:325)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1018)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)[8C[H[2JCaused by:[H
+com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception i
+s javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentMa
+nagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookup(Helpers.java:796)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup(CNContextImpl.java:2877)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processResolveResults(CNContextImpl.java:3974)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1876)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookup(CNContextImpl.java:616)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:165)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:179)
+[8Cat org.apache.aries.jndi.DelegateContext.lookup(DelegateContext.java:161)
+[8Cat javax.naming.InitialContext.lookup(InitialContext.java:423)
+[8Cat org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:124)
+[8Cat org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:86)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:122)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:147)
+[8Cat org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:86)
+[8Cat org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:104)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.lookup(AbstractRemoteSlsbInvokerInterceptor.java:93)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.getHome(AbstractSlsbInvokerInterceptor.java:139)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.create(AbstractSlsbInvokerInterceptor.java:168)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.newSessionBeanInstance(AbstractRemoteSlsbInvokerInterceptor.java:202)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.getSessionBeanInstance(SimpleRemoteSlsbInvokerInterceptor.java:108)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:74)
+[8C... 30 more
+Caused by:
+javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentMana
+gementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.mapNotFoundException(CNContextImpl.java:4564)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1822)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1476)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory$1.run(IndirectJndiLookupObjectFactory.java:388)
+[8Cat com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt(IndirectJndiLookupObjectFactory.java:227)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:990)
+[8C... 53 more
+Caused by:
+org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0
+[8Cat org.omg.CosNaming.NamingContextPackage.NotFoundHelper.read(NotFoundHelper.java:95)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.iiop.IDRReader.readBoxedIDLEntity(IDRReader.java:2425)
+[8Cat com.ibm.rmi.iiop.IDRReader.readIDLValue(IDRReader.java:2486)
+[8Cat com.ibm.rmi.iiop.IDRReader.fast_read_value(IDRReader.java:1987)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.fast_read_value(EncoderInputStream.java:959)
+[8Cat com.ibm.rmi.io.Serializer.readObject(Serializer.java:1075)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readReferenceFields(ObjectSerializer.java:504)[8C[H[2J[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)[2;9Hat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8C... 1 more
+
+[11/21/19 14:36:46:418 PST] 000000cf SystemOut     O ERROR gov.ca.dcss.arch.common.log.ExceptionLogger - Internal error with forms processing. Contact your system administrator. (Un
+iqueId: 2275290175 Code: 0)
+gov.ca.dcss.arch.common.exception.InternalErrorException: Unexpected throwable occurred in FormSetProcessorImpl. Diagnostic info written to log.
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:580)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:984)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)
+[8Cat com.sun.proxy.$Proxy27.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.CSEFormGenerationServiceBean.processFormSetForLocalPrint(CSEFormGenerationServiceBean.java:536)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.EJSRemoteStatelessCSEFormGenerationService_47e5c662.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormGenerationServ
+ice_47e5c662.java:502)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie.processFormSetForLocalPrint(_EJSRemoteStatelessCSEFormGenerati
+onService_47e5c662_Tie.java:419)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie._invoke(_EJSRemoteStatelessCSEFormGenerationService_47e5c662_T
+ie.java:142)
+at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+org.springframework.remoting.RemoteLookupFailureException: Failed to locate remote EJB [DocumentManagementService]; nested exception is com.ibm.websphere.naming.CannotInstantiateObj
+ectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception is javax.naming.NameNotFoundException: Context
+: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentManagementServiceHome not found. [Root exceptio
+n is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:78)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)
+[8Cat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)
+[8Cat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)
+[8Cat com.sun.proxy.$Proxy36.createPermanentDocument(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForPrinting(FormSetProcessorImpl.java:2815)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForRecipient(FormSetProcessorImpl.java:2176)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:530)
+[8C... 23 more
+Caused by:
+com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception i
+s javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentMa
+nagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][2A[H[2J[8Cat java.lang.reflect.Method.invoke(Method.java:620)[2;9Hat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)
+[8Cat com.sun.proxy.$Proxy39.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.service.CSEFormServiceBean.processFormSetForLocalPrint(CSEFormServiceBean.java:538)
+[8Cat gov.ca.dcss.cse.utilities.forms.service.EJSRemoteStatelessCSEFormService_6ad06501.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormService_6ad06501.java:1110)
+[8Cat gov.ca.dcss.cse.utilities.forms.service._CSEFormService_Stub.processFormSetForLocalPrint(_CSEFormService_Stub.java:1247)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.common.factory.GenericDelegateImpl.invoke(GenericDelegateImpl.java:66)
+[8Cat com.sun.proxy.$Proxy39.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.web.SubmitFormSetAction.processFormSet(SubmitFormSetAction.java:577)
+[8Cat gov.ca.dcss.cse.utilities.forms.web.SubmitFormSetAction.execute(SubmitFormSetAction.java:159)
+[8Cat org.grnds.structural.icstruts.IcsAction.performActionProcessing(IcsAction.java:1435)
+[8Cat org.grnds.structural.icstruts.IcsAction.execute(IcsAction.java:140)
+[8Cat org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:484)
+[8Cat org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:274)
+[8Cat org.apache.struts.action.ActionServlet.process(ActionServlet.java:1482)
+[8Cat org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:525)
+[8Cat javax.servlet.http.HttpServlet.service(HttpServlet.java:595)
+[8Cat javax.servlet.http.HttpServlet.service(HttpServlet.java:668)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+[8Cat com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+[8Cat org.grnds.structural.icstruts.IcsActionServletFilter.doFilter(IcsActionServletFilter.java:70)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat gov.ca.dcss.cse.validation.ValidationFilter.doFilter(ValidationFilter.java:112)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat com.wily.brt.filter.BRTFilterBase.doFilter(BRTFilterBase.java:351)
+[8Cat com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+[8Cat com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+[8Cat com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+[8Cat com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+[8Cat com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+[8Cat com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+[8Cat com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+[8Cat com.ibm.ws.ard.channel.ARDChannelConnLink.handleDiscrimination(ARDChannelConnLink.java:218)
+[8Cat com.ibm.ws.ard.channel.ARDChannelConnLink.ready(ARDChannelConnLink.java:123)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+[8Cat com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLReadServiceContext$SSLReadCompletedCallback.complete(SSLReadServiceContext.java:1833)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)[8C[H[2J[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)[2;9Hat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObject(IIOPInputStream.java:699)
+[8Cat com.ibm.rmi.io.ValueHandlerImpl.readValue(ValueHandlerImpl.java:193)
+[8Cat com.ibm.rmi.iiop.IDRReader.read_value(IDRReader.java:2035)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.read_value(EncoderInputStream.java:963)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._CSEFormGenerationService_Stub.processFormSetForLocalPrint(_CSEFormGenerationService_Stub.java:775)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat org.springframework.remoting.rmi.RmiClientInterceptorUtils.doInvoke(RmiClientInterceptorUtils.java:103)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:75)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)
+[8Cat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)
+[8Cat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)
+[8Cat com.sun.proxy.$Proxy40.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:971)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)[8C[H[2J[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.create(AbstractSlsbInvokerInterceptor.java:168)[2;9Hat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.newSessionBeanInstance(AbstractRemoteSlsbInvokerInterceptor.java:202)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.getSessionBeanInstance(SimpleRemoteSlsbInvokerInterceptor.java:108)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:74)
+[8C... 30 more
+Caused by: javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name D
+ocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.mapNotFoundException(CNContextImpl.java:4564)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1822)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1476)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory$1.run(IndirectJndiLookupObjectFactory.java:388)
+[8Cat com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt(IndirectJndiLookupObjectFactory.java:227)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:990)
+[8C... 53 more
+Caused by: org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0
+[8Cat org.omg.CosNaming.NamingContextPackage.NotFoundHelper.read(NotFoundHelper.java:95)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.iiop.IDRReader.readBoxedIDLEntity(IDRReader.java:2425)
+[8Cat com.ibm.rmi.iiop.IDRReader.readIDLValue(IDRReader.java:2486)
+[8Cat com.ibm.rmi.iiop.IDRReader.fast_read_value(IDRReader.java:1987)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.fast_read_value(EncoderInputStream.java:959)
+[8Cat com.ibm.rmi.io.Serializer.readObject(Serializer.java:1075)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readReferenceFields(ObjectSerializer.java:504)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFields(ObjectSerializer.java:325)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1018)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)[8C[H[2J[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie.processFormSetForLocalPrint(_EJSRemoteStatelessCSEFormGenerati
+onService_47e5c662_Tie.java:419)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie._invoke(_EJSRemoteStatelessCSEFormGenerationService_47e5c662_T
+ie.java:142)
+at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: org.springframework.remoting.RemoteLookupFailureException: Failed to locate remote EJB [DocumentManagementService]; nested exception is com.ibm.websphere.naming.CannotIns
+tantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception is javax.naming.NameNotFoundExcepti
+on: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentManagementServiceHome not found. [Ro
+ot exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:78)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)
+[8Cat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)
+[8Cat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)
+[8Cat com.sun.proxy.$Proxy36.createPermanentDocument(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForPrinting(FormSetProcessorImpl.java:2815)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForRecipient(FormSetProcessorImpl.java:2176)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:530)
+[8C... 23 more
+Caused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+exception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+ DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookup(Helpers.java:796)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup(CNContextImpl.java:2877)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processResolveResults(CNContextImpl.java:3974)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1876)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookup(CNContextImpl.java:616)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:165)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:179)
+[8Cat org.apache.aries.jndi.DelegateContext.lookup(DelegateContext.java:161)
+[8Cat javax.naming.InitialContext.lookup(InitialContext.java:423)
+[8Cat org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:124)
+[8Cat org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:86)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:122)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:147)
+[8Cat org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:86)
+[8Cat org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:104)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.lookup(AbstractRemoteSlsbInvokerInterceptor.java:93)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.getHome(AbstractSlsbInvokerInterceptor.java:139)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.create(AbstractSlsbInvokerInterceptor.java:168)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.newSessionBeanInstance(AbstractRemoteSlsbInvokerInterceptor.java:202)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.getSessionBeanInstance(SimpleRemoteSlsbInvokerInterceptor.java:108)[54;9H[H[2J[11/21/19 14:35:43:901 PST] 000000d4 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Emp
+ty.jsp]: Initialization successful.
+[11/21/19 14:35:44:457 PST] 000000cf ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/r
+eports/SearchReportSet.jsp]: Initialization successful.
+[11/21/19 14:35:59:304 PST] 000000d7 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:35:59:325 PST] 000000d7 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:35:59:435 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Sea
+rch.jsp]: Initialization successful.
+[11/21/19 14:35:59:466 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetSearchFormSetNumberResults.jsp]: Initialization successful.
+[11/21/19 14:36:02:844 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetParameters.jsp]: Initialization successful.
+[11/21/19 14:36:02:870 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/CaseNumber.jsp]: Initialization successful.
+[11/21/19 14:36:02:884 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/CourtCase.jsp]: Initialization successful.
+[11/21/19 14:36:02:902 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/PrintLocation.jsp]: Initialization successful.
+[11/21/19 14:36:02:919 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/Recipients.jsp]: Initialization successful.
+[11/21/19 14:36:10:118 PST] 000000d7 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[11/21/19 14:36:10:118 PST] 000000d7 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""
+[11/21/19 14:36:10:221 PST] 000000d7 DefaultAopPro I org.springframework.aop.framework.DefaultAopProxyFactory <clinit> CGLIB2 available: proxyTargetClass feature enabled
+[11/21/19 14:36:19:601 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetList.jsp]: Initialization successful.
+[11/21/19 14:36:20:080 PST] 000000d7 Logger[8CI uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Logging using commons-logging.
+[11/21/19 14:36:20:149 PST] 000000d7 DWRServlet    I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info retrieved system configuration file: com.ibm.ws.classloader.Handler$ZipEntryI
+nputStream@b209f003
+[11/21/19 14:36:20:165 PST] 000000d7 DefaultConfig I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an
+problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+[11/21/19 14:36:20:175 PST] 000000d7 DefaultConfig I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Creator 'script' not loaded due to NoClassDefFoundError. This is only an prob
+lem if you wanted to use it. Cause: org.apache.bsf.BSFException
+[11/21/19 14:36:20:200 PST] 000000d7 HibernateBean I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Found Hibernate3 class: org.hibernate.Hibernate
+[11/21/19 14:36:20:224 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [dwr-invoker]: Initializa
+tion successful.
+[11/21/19 14:36:40:805 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:36:40:864 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:36:46:218 PST] 000000cf RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "processFormSetForLocalPrint" on bean
+"BeanId(cse_SYA01_Online_StandAlone#BusinessUtilitiesServices.jar#CSEFormService, null)". Exception data: gov.ca.dcss.arch.common.exception.InternalErrorException: Unexpected throwa
+ble occurred in FormSetProcessorImpl. Diagnostic info written to log.
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:580)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:984)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)
+[8Cat com.sun.proxy.$Proxy27.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.CSEFormGenerationServiceBean.processFormSetForLocalPrint(CSEFormGenerationServiceBean.java:536)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.EJSRemoteStatelessCSEFormGenerationService_47e5c662.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormGenerationServ
+ice_47e5c662.java:502)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie.processFormSetForLocalPrint(_EJSRemoteStatelessCSEFormGenerati
+onService_47e5c662_Tie.java:419)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie._invoke(_EJSRemoteStatelessCSEFormGenerationService_47e5c662_T
+ie.java:142)[54;9H
+
+
+[Aat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[8C
+
+[Aat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[8C
+
+[Aat com.ibm.rmi.iiop.ORB.process(ORB.java:607)[8C
+
+[Aat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[8C
+
+[Aat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[8C
+
+[Aat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[8C
+
+[Aat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[8C
+
+[Aat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[8C
+
+[Aat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[8C
+
+[Aat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[8C
+
+[Aat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[8C
+
+[Aat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[8C
+
+[ACaused by: org.springframework.remoting.RemoteLookupFailureException: Failed to locate remote EJB [DocumentManagementService]; nested exception is com.ibm.websphere.naming.CannotIns
+
+[AtantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception is javax.naming.NameNotFoundExcepti
+
+[Aon: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentManagementServiceHome not found. [Ro
+
+[Aot exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][52;9H
+
+
+
+
+[Aat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:78)[8C
+
+[Aat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)[8C
+
+[Aat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)[8C
+
+[Aat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)[8C
+
+[Aat com.sun.proxy.$Proxy36.createPermanentDocument(Unknown Source)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForPrinting(FormSetProcessorImpl.java:2815)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForRecipient(FormSetProcessorImpl.java:2176)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:530)[8C
+
+[A... 23 more[8C
+
+[ACaused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+
+[Aexception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+
+[A DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][53;9H
+
+
+
+[Aat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)[8C[3A[A[A[A[A[A[A[A[A[A[4A[A[A[A[A[A[A[A[A[A[A[A[A[2A[2A[2A[A[A[A[A[A[A[A[A[A[3A[A[A[2A[A[2A[1L[H[11/21/19 14:36:20:165 PST] 000000d7 DefaultConfig I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an[H
+problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.[54B[K[1;9H[H[2L[11/21/19 14:36:20:149 PST] 000000d7 DWRServlet    I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info retrieved system configuration file: com.ibm.ws.classloader.Handler$ZipEntryI
+nputStream@b209f003[54B[K[A@[K[1;9H[H[1L[11/21/19 14:36:20:080 PST] 000000d7 Logger[8CI uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Logging using commons-logging.[56;1H[K[1;9H[H[2L[11/21/19 14:36:19:601 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetList.jsp]: Initialization successful.[54B[K[1;9H[H[1L[11/21/19 14:36:10:221 PST] 000000d7 DefaultAopPro I org.springframework.aop.framework.DefaultAopProxyFactory <clinit> CGLIB2 available: proxyTargetClass feature enabled[56;1H[K[1;9H[H[1L[11/21/19 14:36:10:118 PST] 000000d7 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""[56;1H[K[1;9H[H[1L[11/21/19 14:36:10:118 PST] 000000d7 SystemOut     O INFO: Exception: java.text.ParseException: Unparseable number: ""[56;1H[K[1;9H[H[2L[11/21/19 14:36:02:919 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/Recipients.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:36:02:902 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/PrintLocation.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:36:02:884 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/CourtCase.jsp]: Initialization successful.[54B[K[2A@[K
+@[K[1;9H[H[2L[11/21/19 14:36:02:870 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/parameters/CaseNumber.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:36:02:844 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetParameters.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:59:466 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetSearchFormSetNumberResults.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:59:435 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Sea
+rch.jsp]: Initialization successful.[54B[K[1;9H[H[1L[11/21/19 14:35:59:325 PST] 000000d7 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][56;1H[K[1;9H[H[1L[11/21/19 14:35:59:304 PST] 000000d7 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][56;1H[K[1;9H[H[2L[11/21/19 14:35:44:457 PST] 000000cf ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/r
+eports/SearchReportSet.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:43:901 PST] 000000d4 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Emp
+ty.jsp]: Initialization successful.[54B[K[1;9H
+
+
+
+
+
+[A[A[2A[2A[H[2L[11/21/19 14:35:43:883 PST] 000000d4 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/LDA/case/Ca
+seSearchCriteria.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:43:853 PST] 000000d4 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Bas
+icSearchLayout.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:38:897 PST] 000000d0 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/f
+orms/FormSetSearchCriteria.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:36:092 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/utilities/a
+ctivitylog/ActivityLogSearch.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:36:049 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Spe
+cialSearchLayoutWithContext.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:23:062 PST] 000000d5 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/cases/manag
+ement/cases/ViewCaseOverview.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:23:021 PST] 000000d5 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Cas
+eInfoLine.jsp]: Initialization successful.[54B[K[1;9H[H[1L[11/21/19 14:35:22:301 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ CaseServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][56;1H[K[1;9H[H[1L[11/21/19 14:35:22:272 PST] 000000d5 commonext     I CommonExtensionsHelper getInputStream ENTER [ CaseServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][56;1H[K[2A@[K
+@[K[1;9H[H[2L[11/21/19 14:35:10:222 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/cases/manag
+ement/participant/ViewParticipantOverview.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:10:193 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Par
+ticipantInfoLine.jsp]: Initialization successful.[54B[K[1;9H[H[2L[11/21/19 14:35:10:153 PST] 000000d1 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [/WEB-INF/jsp/layouts/Bas
+icLayoutWithContext.jsp]: Initialization successful.[54B[K[1;9H[H[1L[11/21/19 14:35:09:383 PST] 000000d1 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][56;1H[K[1;9H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[11/21/19 14:36:20:200 PST] 000000d7 HibernateBean I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Found Hibernate3 class: org.hibernate.Hibernate[8C
+
+[A[11/21/19 14:36:20:224 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [dwr-invoker]: Initializa
+
+[Ation successful.[54;9H
+
+
+[A[11/21/19 14:36:40:805 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][8C
+
+[A[11/21/19 14:36:40:864 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ][8C
+
+[A[11/21/19 14:36:46:218 PST] 000000cf RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "processFormSetForLocalPrint" on bean
+
+[A"BeanId(cse_SYA01_Online_StandAlone#BusinessUtilitiesServices.jar#CSEFormService, null)". Exception data: gov.ca.dcss.arch.common.exception.InternalErrorException: Unexpected throwa
+
+[Able occurred in FormSetProcessorImpl. Diagnostic info written to log.[53;9H
+
+
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:580)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:984)[8C
+
+[Aat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[8C
+
+[Aat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)[8C
+
+[Aat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)[8C
+
+[Aat java.lang.reflect.Method.invoke(Method.java:620)[8C
+
+[Aat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)[8C
+
+[Aat com.sun.proxy.$Proxy27.processFormSetForLocalPrint(Unknown Source)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.generation.service.CSEFormGenerationServiceBean.processFormSetForLocalPrint(CSEFormGenerationServiceBean.java:536)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.generation.service.EJSRemoteStatelessCSEFormGenerationService_47e5c662.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormGenerationServ
+
+[Aice_47e5c662.java:502)[54;9H
+
+
+[Aat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie.processFormSetForLocalPrint(_EJSRemoteStatelessCSEFormGenerati
+
+[AonService_47e5c662_Tie.java:419)[54;9H[2A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[Aat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie._invoke(_EJSRemoteStatelessCSEFormGenerationService_47e5c662_T
+
+[Aie.java:142)[54;9H
+
+
+[Aat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[8C
+
+[Aat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[8C
+
+[Aat com.ibm.rmi.iiop.ORB.process(ORB.java:607)[8C
+
+[Aat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[8C
+
+[Aat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[8C
+
+[Aat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[8C
+
+[Aat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[8C
+
+[Aat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[8C
+
+[Aat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[8C
+
+[Aat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[8C
+
+[Aat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[8C
+
+[Aat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[8C
+
+[ACaused by: org.springframework.remoting.RemoteLookupFailureException: Failed to locate remote EJB [DocumentManagementService]; nested exception is com.ibm.websphere.naming.CannotIns
+
+[AtantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception is javax.naming.NameNotFoundExcepti
+
+[Aon: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentManagementServiceHome not found. [Ro
+
+[Aot exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][52;9H
+
+
+
+
+[Aat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:78)[8C
+
+[Aat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)[8C
+
+[Aat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)[8C
+
+[Aat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)[8C
+
+[Aat com.sun.proxy.$Proxy36.createPermanentDocument(Unknown Source)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForPrinting(FormSetProcessorImpl.java:2815)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForRecipient(FormSetProcessorImpl.java:2176)[8C
+
+[Aat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:530)[8C
+
+[A... 23 more[8C
+
+[ACaused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+
+[Aexception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+
+[A DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][53;9H[H[2J[8C... 23 more[H
+Caused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+exception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+ DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookup(Helpers.java:796)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup(CNContextImpl.java:2877)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processResolveResults(CNContextImpl.java:3974)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1876)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookup(CNContextImpl.java:616)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:165)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:179)
+[8Cat org.apache.aries.jndi.DelegateContext.lookup(DelegateContext.java:161)
+[8Cat javax.naming.InitialContext.lookup(InitialContext.java:423)
+[8Cat org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:124)
+[8Cat org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:86)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:122)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:147)
+[8Cat org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:86)
+[8Cat org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:104)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.lookup(AbstractRemoteSlsbInvokerInterceptor.java:93)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.getHome(AbstractSlsbInvokerInterceptor.java:139)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.create(AbstractSlsbInvokerInterceptor.java:168)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.newSessionBeanInstance(AbstractRemoteSlsbInvokerInterceptor.java:202)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.getSessionBeanInstance(SimpleRemoteSlsbInvokerInterceptor.java:108)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:74)
+[8C... 30 more
+Caused by: javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name D
+ocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.mapNotFoundException(CNContextImpl.java:4564)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1822)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1476)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory$1.run(IndirectJndiLookupObjectFactory.java:388)
+[8Cat com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt(IndirectJndiLookupObjectFactory.java:227)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:990)
+[8C... 53 more
+Caused by: org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0
+[8Cat org.omg.CosNaming.NamingContextPackage.NotFoundHelper.read(NotFoundHelper.java:95)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.iiop.IDRReader.readBoxedIDLEntity(IDRReader.java:2425)
+[8Cat com.ibm.rmi.iiop.IDRReader.readIDLValue(IDRReader.java:2486)
+[8Cat com.ibm.rmi.iiop.IDRReader.fast_read_value(IDRReader.java:1987)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.fast_read_value(EncoderInputStream.java:959)
+[8Cat com.ibm.rmi.io.Serializer.readObject(Serializer.java:1075)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readReferenceFields(ObjectSerializer.java:504)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFields(ObjectSerializer.java:325)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1018)[1;9H[H[2J[8Cat com.ibm.rmi.io.ObjectSerializer.readFields(ObjectSerializer.java:325)[2;9Hat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1018)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.GeneratedMethodAccessor274.invoke(Unknown Source)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializableForSchema(IIOPInputStream.java:1555)
+[8Cat com.ibm.rmi.io.IIOPInputStream.readSerializable(IIOPInputStream.java:1532)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectInternal(IIOPInputStream.java:665)
+[8Cat com.ibm.rmi.io.IIOPInputStream.simpleReadObjectLoop(IIOPInputStream.java:740)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1020)
+[8Cat java.lang.Throwable.readObject(Throwable.java:384)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.io.IIOPInputStream.invokeObjectReader(IIOPInputStream.java:2402)
+[8Cat com.ibm.rmi.io.IIOPInputStream.inputObjectUsingClassDesc(IIOPInputStream.java:1928)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFn(ObjectSerializer.java:476)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:467)
+[8Cat com.ibm.rmi.io.ObjectSerializer.read(ObjectSerializer.java:455)[1;9H[H[2J[8C... 23 more[H
+Caused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+exception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+ DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookup(Helpers.java:796)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup(CNContextImpl.java:2877)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.processResolveResults(CNContextImpl.java:3974)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1876)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookup(CNContextImpl.java:616)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:165)
+[8Cat com.ibm.ws.naming.util.WsnInitCtx.lookup(WsnInitCtx.java:179)
+[8Cat org.apache.aries.jndi.DelegateContext.lookup(DelegateContext.java:161)
+[8Cat javax.naming.InitialContext.lookup(InitialContext.java:423)
+[8Cat org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:124)
+[8Cat org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:86)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:122)
+[8Cat org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:147)
+[8Cat org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:86)
+[8Cat org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:104)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.lookup(AbstractRemoteSlsbInvokerInterceptor.java:93)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.getHome(AbstractSlsbInvokerInterceptor.java:139)
+[8Cat org.springframework.ejb.access.AbstractSlsbInvokerInterceptor.create(AbstractSlsbInvokerInterceptor.java:168)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.newSessionBeanInstance(AbstractRemoteSlsbInvokerInterceptor.java:202)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.getSessionBeanInstance(SimpleRemoteSlsbInvokerInterceptor.java:108)
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:74)
+[8C... 30 more
+Caused by: javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name D
+ocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.mapNotFoundException(CNContextImpl.java:4564)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1822)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.doLookup(CNContextImpl.java:1777)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1434)
+[8Cat com.ibm.ws.naming.jndicos.CNContextImpl.lookupExt(CNContextImpl.java:1476)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory$1.run(IndirectJndiLookupObjectFactory.java:388)
+[8Cat com.ibm.ws.security.util.AccessController.doPrivileged(AccessController.java:118)
+[8Cat com.ibm.ws.naming.util.IndirectJndiLookupObjectFactory.getObjectInstanceExt(IndirectJndiLookupObjectFactory.java:227)
+[8Cat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:990)
+[8C... 53 more
+Caused by: org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0
+[8Cat org.omg.CosNaming.NamingContextPackage.NotFoundHelper.read(NotFoundHelper.java:95)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.rmi.iiop.IDRReader.readBoxedIDLEntity(IDRReader.java:2425)
+[8Cat com.ibm.rmi.iiop.IDRReader.readIDLValue(IDRReader.java:2486)
+[8Cat com.ibm.rmi.iiop.IDRReader.fast_read_value(IDRReader.java:1987)
+[8Cat com.ibm.rmi.iiop.EncoderInputStream.fast_read_value(EncoderInputStream.java:959)
+[8Cat com.ibm.rmi.io.Serializer.readObject(Serializer.java:1075)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readReferenceFields(ObjectSerializer.java:504)
+[8Cat com.ibm.rmi.io.ObjectSerializer.readFields(ObjectSerializer.java:325)
+[8Cat com.ibm.rmi.io.IIOPInputStream.defaultReadObject(IIOPInputStream.java:1018)[8C[H[2J[11/21/19 14:36:20:165 PST] 000000d7 DefaultConfig I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Creator 'pageflow' not loaded due to ClassNotFoundException. This is only an[H
+problem if you wanted to use it. Cause: Beehive/Weblogic Creator not available.
+[11/21/19 14:36:20:175 PST] 000000d7 DefaultConfig I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Creator 'script' not loaded due to NoClassDefFoundError. This is only an prob
+lem if you wanted to use it. Cause: org.apache.bsf.BSFException
+[11/21/19 14:36:20:200 PST] 000000d7 HibernateBean I uk.ltd.getahead.dwr.util.CommonsLoggingOutput info Found Hibernate3 class: org.hibernate.Hibernate
+[11/21/19 14:36:20:224 PST] 000000d7 ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper init SRVE0242I: [cse_SYA01_Online_StandAlone] [/CSEWEB] [dwr-invoker]: Initializa
+tion successful.
+[11/21/19 14:36:40:805 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:36:40:864 PST] 000000d6 commonext     I CommonExtensionsHelper getInputStream ENTER [ BusinessUtilitiesServices.jar ] [ META-INF/ibm-ejb-jar-ext.xml ]
+[11/21/19 14:36:46:218 PST] 000000cf RemoteExcepti E   CNTR0020E: EJB threw an unexpected (non-declared) exception during invocation of method "processFormSetForLocalPrint" on bean
+"BeanId(cse_SYA01_Online_StandAlone#BusinessUtilitiesServices.jar#CSEFormService, null)". Exception data: gov.ca.dcss.arch.common.exception.InternalErrorException: Unexpected throwa
+ble occurred in FormSetProcessorImpl. Diagnostic info written to log.
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:580)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.CSEFormActivityImpl.processFormSetForLocalPrint(CSEFormActivityImpl.java:984)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat gov.ca.dcss.arch.activity.decorator.ActivityResourceCleanupDecoratorImpl.invoke(ActivityResourceCleanupDecoratorImpl.java:105)
+[8Cat com.sun.proxy.$Proxy27.processFormSetForLocalPrint(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.CSEFormGenerationServiceBean.processFormSetForLocalPrint(CSEFormGenerationServiceBean.java:536)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service.EJSRemoteStatelessCSEFormGenerationService_47e5c662.processFormSetForLocalPrint(EJSRemoteStatelessCSEFormGenerationServ
+ice_47e5c662.java:502)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie.processFormSetForLocalPrint(_EJSRemoteStatelessCSEFormGenerati
+onService_47e5c662_Tie.java:419)
+[8Cat gov.ca.dcss.cse.utilities.forms.generation.service._EJSRemoteStatelessCSEFormGenerationService_47e5c662_Tie._invoke(_EJSRemoteStatelessCSEFormGenerationService_47e5c662_T
+ie.java:142)
+at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: org.springframework.remoting.RemoteLookupFailureException: Failed to locate remote EJB [DocumentManagementService]; nested exception is com.ibm.websphere.naming.CannotIns
+tantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root exception is javax.naming.NameNotFoundExcepti
+on: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name DocumentManagementServiceHome not found. [Ro
+ot exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]]
+[8Cat org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor.doInvoke(SimpleRemoteSlsbInvokerInterceptor.java:78)
+[8Cat org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor.invoke(AbstractRemoteSlsbInvokerInterceptor.java:114)
+[8Cat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:170)
+[8Cat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:176)
+[8Cat com.sun.proxy.$Proxy36.createPermanentDocument(Unknown Source)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForPrinting(FormSetProcessorImpl.java:2815)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.processFormSetForRecipient(FormSetProcessorImpl.java:2176)
+[8Cat gov.ca.dcss.cse.utilities.forms.activity.FormSetProcessorImpl.process(FormSetProcessorImpl.java:530)
+[8C... 23 more
+Caused by: com.ibm.websphere.naming.CannotInstantiateObjectException: threw NameNotFoundException while the JNDI NamingManager was processing a javax.naming.Reference object. [Root
+exception is javax.naming.NameNotFoundException: Context: cg1p02aCell01/nodes/cg1p02aNode01/servers/SYA01_IF_Online, name: ejb/DocumentManagementServiceHome: First component in name
+ DocumentManagementServiceHome not found. [Root exception is org.omg.CosNaming.NamingContextPackage.NotFound: IDL:omg.org/CosNaming/NamingContext/NotFound:1.0]][2A
+
+
+
+[55;9Hat com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookupExt(Helpers.java:1081)[7C
+
+[A at com.ibm.ws.naming.util.Helpers.processSerializedObjectForLookup(Helpers.java:796)[7C
+
+[A at com.ibm.ws.naming.jndicos.CNContextImpl.processBoundObjectForLookup(CNContextImpl.java:2877)[7C
+
+[A at com.ibm.ws.naming.jndicos.CNContextImpl.processResolveResults(CNContextImpl.java:3974)[7C[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q1[K[7mex: 0602-021 There are extra characters at the end of the command.[27m[55;8H
+[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ cse   sudo    whoami
+cseadmin
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ sudo cseresetuser hchda  ada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 0
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ ssh localhost@ankcsesyaa02
+localhost@ankcsesyaa02's password: 
+Permission denied, please try again.
+localhost@ankcsesyaa02's password: 
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ 
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ 
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ ssh localhost@ankcsesyaa02ssh ocalhost@ankcsesyaa02 calhost@ankcsesyaa02 alhost@ankcsesyaa02 lhost@ankcsesyaa02 host@ankcsesyaa02 ost@ankcsesyaa02 st@ankcsesyaa02 t@ankcsesyaa02 xt@ankcsesyaa02t@ankcsesyaa02 @ankcsesyaa02 h@ankcsesyaa02c@ankcsesyaa02h@ankcsesyaa02a@ankcsesyaa02d@ankcsesyaa02a@ankcsesyaa02
+hchada@ankcsesyaa02's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Tue Nov 19 10:58:56 PST 2019 on ssh from 169.2.108.102
+Last login: Tue Nov 19 11:48:26 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+ankcsesyaa02[/home/hchada]$ sudo su -wa   wasadmin
+Password:
+[compat]: 3004-300 You entered an invalid login name or password.
+
+Sorry, try again.
+Password:
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/wasadmin]$ ps -ef | grep java
+    root  2097174  8716302   0   Jul 18      - 25:48 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=IVh3XnYpbAKetvkV -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8716302 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin  3342560        1   5 14:30:46      -  1:01 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYA01_Online_StandAlone/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.ibm.websphere.metadata.ignoreDuplicateRefBindingsInWebModules=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 cg1p02aNode01 SYA01_Online_StandAlone
+wasadmin  3407994        1   2 14:30:42      -  1:07 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYA01_Integration/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA/logging.xml -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 cg1p02aNode01 SYA01_Integration
+wasadmin  6094990        1   1   Oct 03      - 181:00 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=36813 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 cg1p02aNode01 nodeagent
+wasadmin  8847536        1  44   Nov 19      - 13:35 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=36670 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/insthome/db2cinst/sqllib/lib32: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config cg1p02aCell01 cg1p02aCellManager01 dmgr
+cseadmin 11796508        1   0   Jul 18      - 1088:08 ./jre/bin/java -Xms512m -Xmx1024m -Djava.awt.headless=true -Dmail.mime.charset=UTF-8 -Dorg.owasp.esapi.resources=./config/esapi -Djavax.xml.transform.TransformerFactory=org.apache.xalan.processor.TransformerFactoryImpl com.zerog.lax.LAX /introscope/apm97em/bin/../Introscope_Enterprise_Manager.lax /tmp/env.properties.11796508
+ deploy1 12124236  4718662   0   Oct 26      -  6:36 /cse/jenkins_java/java8_64/jre/bin/java -jar slave.jar
+ankcsesyaa02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config      bin
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin]$ ./stopManager.sh
+ADMU0116I: Tool information is being logged in file
+           /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr/stopServer.log
+ADMU0128I: Starting tool with the DeploymentManager profile
+ADMU3100I: Reading configuration for server: dmgr
+ADMU3201I: Server stop request issued. Waiting for stop status.
+ADMU4000I: Server dmgr stop completed.
+
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin]$ ./stopManager.sh./sopManager.sh pManager.sh Manager.sh tManager.shaManager.shrManager.shtManager.sh
+ADMU0116I: Tool information is being logged in file
+           /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr/startServer.log
+ADMU0128I: Starting tool with the DeploymentManager profile
+ADMU3100I: Reading configuration for server: dmgr
+ADMU3200I: Server launched. Waiting for initialization status.
+ADMU3000I: Server dmgr open for e-business; process id is 4325616
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin]$ -ksh93: timed out waiting for input
+
+ankcsesyaa02[/home/hchada]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/home/hchada]$ -ksh93: timed out waiting for input
+
+Connection to ankcsesyaa02 closed.
+ankcsesyaa02[/cse/online/logs/SYA01_Online_StandAlone]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

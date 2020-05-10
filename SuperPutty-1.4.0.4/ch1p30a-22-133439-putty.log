@@ -1,0 +1,107 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.22 13:34:39 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Mon Oct 14 09:15:20 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct 22 13:26:05 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] ls -la /var/pdf/hotfolder           /hotfolders/549 01*
+total 8
+drwxrwxrwx    2 ipmadmin sys             256 Oct 10 10:45 .
+drwxrwxr-x   82 ipmadmin sys            4096 Mar 02 2018  ..
+ankcseprda18[/ipm/south] ls -la /var/pd/cse*/err*
+-rw-rw-rw-    1 ipmadmin sys            6978 Oct 22 12:41 /var/pd/cse16com01/error.log
+-rw-rw-rw-    1 ipmadmin sys            4909 Oct 22 00:00 /var/pd/cse16com01/error.log.BAK
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 13 00:00 /var/pd/cse16com01/error.log.BAK.20191014000000
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 14 00:00 /var/pd/cse16com01/error.log.BAK.20191015000001
+-rw-rw-rw-    1 ipmadmin sys            4488 Oct 15 00:00 /var/pd/cse16com01/error.log.BAK.20191016000000
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 16 00:00 /var/pd/cse16com01/error.log.BAK.20191017000000
+-rw-rw-rw-    1 ipmadmin sys            6017 Oct 17 00:00 /var/pd/cse16com01/error.log.BAK.20191018000000
+-rw-rw-rw-    1 ipmadmin sys            4265 Oct 18 00:00 /var/pd/cse16com01/error.log.BAK.20191019000000
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 19 00:00 /var/pd/cse16com01/error.log.BAK.20191020000000
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 20 00:00 /var/pd/cse16com01/error.log.BAK.20191021000000
+-rw-rw-rw-    1 ipmadmin sys             562 Oct 21 00:00 /var/pd/cse16com01/error.log.BAK.20191022000000
+-rw-rw-rw-    1 ipmadmin sys          175597 Oct 22 13:36 /var/pd/cse16spl01/error.log
+-rw-rw-rw-    1 ipmadmin sys         1105140 Oct 22 00:00 /var/pd/cse16spl01/error.log.BAK
+-rw-rw-rw-    1 ipmadmin sys           62058 Oct 13 00:00 /var/pd/cse16spl01/error.log.BAK.20191014000000
+-rw-rw-rw-    1 ipmadmin sys          145399 Oct 14 00:00 /var/pd/cse16spl01/error.log.BAK.20191015000001
+-rw-rw-rw-    1 ipmadmin sys          908687 Oct 15 00:00 /var/pd/cse16spl01/error.log.BAK.20191016000000
+-rw-rw-rw-    1 ipmadmin sys          977809 Oct 16 00:00 /var/pd/cse16spl01/error.log.BAK.20191017000000
+-rw-rw-rw-    1 ipmadmin sys         1070175 Oct 17 00:00 /var/pd/cse16spl01/error.log.BAK.20191018000000
+-rw-rw-rw-    1 ipmadmin sys          923207 Oct 18 00:00 /var/pd/cse16spl01/error.log.BAK.20191019000000
+-rw-rw-rw-    1 ipmadmin sys          844839 Oct 19 00:00 /var/pd/cse16spl01/error.log.BAK.20191020000000
+-rw-rw-rw-    1 ipmadmin sys           52595 Oct 20 00:00 /var/pd/cse16spl01/error.log.BAK.20191021000000
+-rw-rw-rw-    1 ipmadmin sys          116674 Oct 21 00:00 /var/pd/cse16spl01/error.log.BAK.20191022000000
+-rw-rw-rw-    1 ipmadmin sys          191341 Oct 22 13:36 /var/pd/cse16spl02/error.log
+-rw-rw-rw-    1 ipmadmin sys          882651 Oct 22 00:00 /var/pd/cse16spl02/error.log.BAK
+-rw-rw-rw-    1 ipmadmin sys          336994 Oct 13 00:00 /var/pd/cse16spl02/error.log.BAK.20191014000001
+-rw-rw-rw-    1 ipmadmin sys          268533 Oct 14 00:00 /var/pd/cse16spl02/error.log.BAK.20191015000002
+-rw-rw-rw-    1 ipmadmin sys          705855 Oct 15 00:00 /var/pd/cse16spl02/error.log.BAK.20191016000002
+-rw-rw-rw-    1 ipmadmin sys          687489 Oct 16 00:00 /var/pd/cse16spl02/error.log.BAK.20191017000001
+-rw-rw-rw-    1 ipmadmin sys          950092 Oct 17 00:00 /var/pd/cse16spl02/error.log.BAK.20191018000001
+-rw-rw-rw-    1 ipmadmin sys          795622 Oct 18 00:00 /var/pd/cse16spl02/error.log.BAK.20191019000001
+-rw-rw-rw-    1 ipmadmin sys          699613 Oct 19 00:00 /var/pd/cse16spl02/error.log.BAK.20191020000002
+-rw-rw-rw-    1 ipmadmin sys          324674 Oct 20 00:00 /var/pd/cse16spl02/error.log.BAK.20191021000002
+-rw-rw-rw-    1 ipmadmin sys          285848 Oct 21 00:00 /var/pd/cse16spl02/error.log.BAK.20191022000001
+-rw-rw-rw-    1 ipmadmin sys          632663 Oct 22 13:36 /var/pd/cse16suv01/error.log
+-rw-rw-rw-    1 ipmadmin sys         2189331 Oct 22 00:00 /var/pd/cse16suv01/error.log.BAK
+-rw-rw-rw-    1 ipmadmin sys          951692 Oct 13 00:00 /var/pd/cse16suv01/error.log.BAK.20191014000001
+-rw-rw-rw-    1 ipmadmin sys         1078380 Oct 14 00:00 /var/pd/cse16suv01/error.log.BAK.20191015000002
+-rw-rw-rw-    1 ipmadmin sys         2299848 Oct 15 00:00 /var/pd/cse16suv01/error.log.BAK.20191016000001
+-rw-rw-rw-    1 ipmadmin sys         2139672 Oct 16 00:00 /var/pd/cse16suv01/error.log.BAK.20191017000001
+-rw-rw-rw-    1 ipmadmin sys         2129109 Oct 17 00:00 /var/pd/cse16suv01/error.log.BAK.20191018000001
+-rw-rw-rw-    1 ipmadmin sys         2015728 Oct 18 00:00 /var/pd/cse16suv01/error.log.BAK.20191019000001
+-rw-rw-rw-    1 ipmadmin sys         2119570 Oct 19 00:00 /var/pd/cse16suv01/error.log.BAK.20191020000001
+-rw-rw-rw-    1 ipmadmin sys          874180 Oct 20 00:00 /var/pd/cse16suv01/error.log.BAK.20191021000001
+-rw-rw-rw-    1 ipmadmin sys          986739 Oct 21 00:00 /var/pd/cse16suv01/error.log.BAK.20191022000001
+-rw-rw----    1 ipmadmin sys         4436626 Aug 26 2018  /var/pd/cse16suv01/error.tmp
+-rw-rw-rw-    1 ipmadmin sys          906110 Oct 22 13:36 /var/pd/cse16suv02/error.log
+-rw-rw-rw-    1 ipmadmin sys         1934921 Oct 22 00:00 /var/pd/cse16suv02/error.log.BAK
+-rw-rw-rw-    1 ipmadmin sys         1624285 Oct 13 00:00 /var/pd/cse16suv02/error.log.BAK.20191014000002
+-rw-rw-rw-    1 ipmadmin sys         1563239 Oct 14 00:00 /var/pd/cse16suv02/error.log.BAK.20191015000003
+-rw-rw-rw-    1 ipmadmin sys         1944489 Oct 15 00:00 /var/pd/cse16suv02/error.log.BAK.20191016000002
+-rw-rw-rw-    1 ipmadmin sys         1821982 Oct 16 00:00 /var/pd/cse16suv02/error.log.BAK.20191017000002
+-rw-rw-rw-    1 ipmadmin sys         2044143 Oct 17 00:00 /var/pd/cse16suv02/error.log.BAK.20191018000002
+-rw-rw-rw-    1 ipmadmin sys         1921752 Oct 18 00:00 /var/pd/cse16suv02/error.log.BAK.20191019000002
+-rw-rw-rw-    1 ipmadmin sys         1945326 Oct 19 00:00 /var/pd/cse16suv02/error.log.BAK.20191020000002
+-rw-rw-rw-    1 ipmadmin sys         1623356 Oct 20 00:00 /var/pd/cse16suv02/error.log.BAK.20191021000002
+-rw-rw-rw-    1 ipmadmin sys         1568076 Oct 21 00:00 /var/pd/cse16suv02/error.log.BAK.20191022000002
+-rw-rw----    1 ipmadmin sys         4303819 Aug 26 2018  /var/pd/cse16suv02/error.tmp
+ankcseprda18[/ipm/south] grep 5401 /var/pdf/cse     /cse*/errro  or.log | grep 'return code 0'
+ankcseprda18[/ipm/south] 
+ankcseprda18[/ipm/south] 
+ankcseprda18[/ipm/south] history
+993     pdq -U -rv -p 2801pl01
+994     pdq -U -rv -p 2801pl01
+995     pdq -U -rv -p 2801pl01
+996     pdq -U -rv -p 2801pl01
+997     history -40
+998     grep 2801 /var/pd/cse*/error.log | grep 'return code 0'
+999     exit
+1000    pdenable 2801pa01
+1001    pdls -r verbose -c printer 2801pa01 2801pa02
+1002    exit
+1003    ls
+1004    ls -lagrt *.pdf
+1005    ls -la /var/pd/hotfolders/5401*
+1006    ls -la /var/pd/cse*/err*
+1007    grep 5401 /var/pd/cse*/error.log | grep 'return code 0'
+1008    history
+ankcseprda18[/ipm/south] historyhgrep 5401 /var/pd/cse*/error.log | grep 'return code 0'grep 5401 /var/pd/cse*/error.
+ankcseprda18[/ipm/south] ls -la /var/pd/hotfolders/5401*
+total 8
+drwxrwxrwx    2 ipmadmin sys             256 Oct 10 10:45 .
+drwxrwxr-x   82 ipmadmin sys            4096 Mar 02 2018  ..
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

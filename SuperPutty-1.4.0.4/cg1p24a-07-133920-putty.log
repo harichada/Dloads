@@ -1,0 +1,29 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.07 13:39:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep 24 18:42:50 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Sep 30 09:16:10 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a05[/home/hchada]$ cd /cse/batch
+ankcsepf1a05[/cse/batch]$ ls
+PFT09_Batch_Cluster     archive                 dumps                   fmsproperties_template  sftpfiles.dat
+PFT09_Batch_DS010_01    deploy.log              fmsproperties_PFT09     gpgproperties_PFT09
+ankcsepf1a05[/cse/batch]$ cd PFT09 _Batch _DS010 _01
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ cd J jobExecution
+ksh: jobExecution:  not found.
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ ls
+BatchRpt.txt                 logs                         record_validation_rule.del   transaction_type.del
+hibernateStatistics.log      mqjms.log                    record_validation_value.del  transformation.del
+list_of_value.del            mqjms.log.lck                record_xref.del
+log                          record.del                   refData.sql
+log.txt                      record_layout.del            transaction.del
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ cd  exit

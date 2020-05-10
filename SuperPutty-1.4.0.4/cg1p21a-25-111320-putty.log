@@ -1,0 +1,102 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 11:13:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep 24 19:39:19 PDT 2019 on ssh from ankcsepf1a05
+Last login: Tue Sep 24 20:36:08 PDT 2019 on ssh from ankcsepf1a05
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a02[/home/hchada]$ cd /cse/batch
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd PFT09 _Batch _AP023 _01
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01]$ cd logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ ls
+SystemErr.log                    SystemOut_19.05.10_09.00.58.log  SystemOut_19.09.19_08.04.07.log
+SystemErr.log.owner              SystemOut_19.05.30_01.19.57.log  native_stderr.log
+SystemOut.log                    SystemOut_19.07.03_01.00.34.log  native_stdout.log
+SystemOut.log.owner              SystemOut_19.08.16_12.43.21.log
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ tail -f systemOu        SystemOut.log
+[9/25/19 10:40:17:982 PDT] 00000858 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:40:33:445 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:33:500 PDT] 00000858 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:33:545 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:33:590 PDT] 00000858 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:691 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:736 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:781 PDT] 00000858 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:826 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:49:35:528 PDT] 0000085b FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/PFT09_Batch_AP023_01_2a56ed09_19.09.25_10.49.35.5273799413415902402692.txt com.ibm.ws.management.connector.soap.SOAPUtils.extractSoapCall 157
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ tail -f SystemOut.log
+[9/25/19 10:40:35:736 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:781 PDT] 00000858 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:40:35:826 PDT] 00000859 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:49:35:528 PDT] 0000085b FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/PFT09_Batch_AP023_01_2a56ed09_19.09.25_10.49.35.5273799413415902402692.txt com.ibm.ws.management.connector.soap.SOAPUtils.extractSoapCall 157
+[9/25/19 11:14:31:781 PDT] 000002cb JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:14:32:096 PDT] 000002cb JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:15:12:188 PDT] 0000031b SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateInputSource - PFT09XA#ENF-121031491280#ENF-126-DS02#20190513_000000(1) - Retrieved 0 keys. HQL: select distinct batchTransaction.SECUREBatchId FROM SECUREBatchTransactionBO as batchTransaction 
+                                   WHERE batchTransaction.batchStatusCode = 'CMD'
+[9/25/19 11:15:12:210 PDT] 0000031b JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:15:12:233 PDT] 0000031b JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+
+
+
+[9/25/19 11:15:51:067 PDT] 0000017a SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateInputSource - PFT09XA#ENF-121031491280#ENF-126-DS03#20190513_000000(1) - Retrieved 0 keys. HQL: select distinct batchTransaction.SECUREBatchId FROM SECUREBatchTransactionBO as batchTransaction 
+                                   WHERE batchTransaction.batchStatusCode = 'DDC'
+[9/25/19 11:15:51:092 PDT] 0000017a JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:15:51:106 PDT] 0000017a JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:27:19:563 PDT] 000002be SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCompletedSECURELienDocumentsTaskStep.java:156)
+        at gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:974)
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.DownloadCompletedSECURELienDocumentsTaskStep.setup(DownloadCompletedSECURELienDocumentsTaskStep.java:149)
+        ... 21 more
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more

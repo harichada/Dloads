@@ -1,0 +1,20 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 15:31:36 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Mar 26 11:31:27 PDT 2018 on ssh from csehws002
+Last login: Thu Nov  7 15:28:57 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva07[/home/cseadmin]$ cd /e/  cseo /online/logs
+ankcsedeva07[/cse/online/logs]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

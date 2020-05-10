@@ -1,0 +1,18 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 12:12:45 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Sun Nov 17 06:45:16 PST 2019 on ssh from 169.2.108.102
+Last login: Tue Nov 19 09:45:12 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda03[/home/hchada]$ ps =ef     -ef | grep dmgr
+  hchada 16056574 10223756   0 12:12:51  pts/3  0:00 grep dmgr
+ankcseprda03[/home/hchada]$ exit

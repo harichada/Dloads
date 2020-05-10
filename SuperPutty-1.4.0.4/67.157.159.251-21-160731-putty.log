@@ -1,0 +1,186 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.21 16:07:31 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Nov 19 15:09:40 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd /forms/tomcat8/`[K
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8[hchada@CGDCSSL1047UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mbin[0m  [01;34mconf[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlib[0m  [01;32mLICENSE[0m  [01;34mlogs[0m  [01;32mNOTICE[0m  [01;32mRELEASE-NOTES[0m  [01;32mRUNNING.txt[0m  [01;34mssl[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8[hchada@CGDCSSL1047UL tomcat8]$ cd webapps/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd EFS/n[Kansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copy              cpyhttpd.yml           CreateUser.yml   fetchhostname.yml  [0m[01;31mmaster-cisreport.zip[0m  [01;34mroles[0m            stopFW.yml
+[01;34mapache[0m                         copyBinaries.yml  CreatePartition.yml    [01;34mCustomerConnect[0m  [01;34mfinal[0m              passwd                script.yml       [01;34mtomcat[0m
+CCServers.yml                  copyKeys.retry    CreatePartsDevOps.yml  delApctl.yml     gitcommands.txt    passwd.txt            [01;34mselfsignedcerts[0m  users.yml
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.yml      CreateUser.retry       deploy1.yml      inventory          ping.yml              servers.yml      [01;32mweb.xml[0m
+[01;32mcontext.xml[0m                    copyKey.yml       CreateUsers.yml        [01;31mdevel.zip[0m        inventorycc        [01;34mpyscritps[0m             [01;32mserver.xml[0m       yumPackages.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd tomcat/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ ls
+[0m[01;34mansible-tomcat-master[0m  copyKeys.yml           CreateDocuSign.yml  creatTemp.yml      [01;31mmaster.zip[0m  port.yml        tomcatServiceStatus.yml  tomcatStatus.retry  updateXML.yml
+copyKeys.retry         copyTomcatService.yml  creatTemp.retry     installTomcat.yml  [01;32mports.sh[0m    tomcat.service  tomcatStart.yml          tomcatStatus.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ more port
+port: No such file or directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ molre po[K[K[K[K[K[Kre port.yml 
+syt01	8005	18009	18080	18443
+syt02	8006	18010	18081	18444
+syt03	8007	18011	18082	18445
+syt04	8008	18012	18083	18446
+syt06	8009	18013	18084	18447
+syt07	8010	18014	18085	18448
+syt08	8011	18015	18086	18449
+syt11	8012	18016	18087	18450
+syt12	8013	18017	18088	18451
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ more poer[K[Krts.sh 
+i=1
+for port in `cat port.yml`
+do 
+    if [ $i -eq 1 ]
+    then
+       env=$port
+    elif [ $i -eq 2 ] 
+    then
+       shutdown=$port
+    elif [ $i -eq 3 ]
+    then
+       ajp=$port
+    elif [ $i -eq 4 ]
+    then
+       http=$port
+    elif [ $i -eq 5 ]
+    then
+       https=$port
+#       ansible-playbook -i ../inventory updateXML.yml --extra-vars "var_host=sytas env=$env http=$http https=$https ajp=$ajp shutdown=$shutdown" -K
+echo $i
+       i=0
+    fi
+i=$[$i+1]
+done
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ ls updateXML.yml 
+updateXML.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ vi updateXML.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"updateXML.yml" 25L, 784C[1;1H- hosts:[2;6H- "{{ var_host }}"
+  become: true
+  tasks:[5;7H- name: change port 18080[6;9Hreplace:[7;14Hpath: /forms/tomcat8/{{ env }}/conf/server.xml[8;14Hregexp: '"18080"'[9;14Hreplace: '"{{ http }}"'[10;14Hbackup: yes[11;7H- name: Change 18443[12;9Hreplace:[13;14Hpath: /forms/tomcat8/{{ env }}/conf/server.xml[14;14Hregexp: '"18443"'[15;14Hreplace: '"{{ https }}"'[16;7H- name: change port 18009[17;9Hreplace:[18;14Hpath: /forms/tomcat8/{{ env }}/conf/server.xml[19;14Hregexp: '"8009"'[20;14Hreplace: '"{{ ajp }}"'[21;7H- name: Change 8005[22;9Hreplace:[23;14Hpath: /forms/tomcat8/{{ env }}/conf/server.xml[24;14Hregexp: '"8005"'[25;14Hreplace: '"{{ shutdown }}"'
+[1m[34m~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ cd /[Kwebapps
+-bash: cd: webapps: No such file or directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ ls
+[0m[01;34mansible-tomcat-master[0m  copyKeys.yml           CreateDocuSign.yml  creatTemp.yml      [01;31mmaster.zip[0m  port.yml        tomcatServiceStatus.yml  tomcatStatus.retry  updateXML.yml
+copyKeys.retry         copyTomcatService.yml  creatTemp.retry     installTomcat.yml  [01;32mports.sh[0m    tomcat.service  tomcatStart.yml          tomcatStatus.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ pwd
+/home/hchada/EFS/ansible/tomcat
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/tomcat[hchada@CGDCSSL1047UL tomcat]$ cd /forms/tomcat8/webapps/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls -lagrt
+total 36716
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9  2019 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9  2019 [01;34mhost-manager[0m
+-rw-r--r--.  1 tomadmin 37549149 Nov 19 15:24 [01;31mefs-sya01.war[0m
+drwxrwxr-x. 10 tomadmin     4096 Nov 19 15:26 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Nov 19 15:26 [01;34mefs-sya01[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd efs-sya01
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ cd WEB-INF/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ ls
+[0m[01;34mclasses[0m  [01;34mlib[0m  [01;34mlib-provided[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ cd classes/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ tail build.properties 
+#Build Information
+build.version=v2.0.21
+build.date=2019_11_08
+build.name=efs
+build.host=BUILD14
+build.user.name=cruisecontrol]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ df
+Filesystem                         1K-blocks    Used Available Use% Mounted on
+devtmpfs                             8121740       0   8121740   0% /dev
+tmpfs                                8133300       4   8133296   1% /dev/shm
+tmpfs                                8133300   17444   8115856   1% /run
+tmpfs                                8133300       0   8133300   0% /sys/fs/cgroup
+/dev/mapper/VG01-root_vol           30832548 3052436  26190864  11% /
+/dev/sda1                             944120  197908    681036  23% /boot
+/dev/mapper/VG01-home_vol            8125880 1316440   6373628  18% /home
+/dev/mapper/VG01-tmp_vol             3997376   23764   3747516   1% /tmp
+/dev/mapper/VG01-var_vol             3997376 1100544   2670736  30% /var
+/dev/mapper/VG01-commvault_vol      10190100   36888   9612540   1% /CommVault
+/dev/mapper/VG01-opt_lv              1998672  105908   1771524   6% /opt
+/dev/mapper/VG01-var_log_vol         4062912   75312   3782476   2% /var/log
+/dev/mapper/VG01-var_tmp_vol          999320    2572    927936   1% /var/tmp
+/dev/mapper/VG01-var_log_audit_vol    999320   37572    892936   5% /var/log/audit
+/dev/mapper/datavg-sharedVM         20511312  422212  19024140   3% /forms/java
+/dev/mapper/datavg-appsVM           10190100   36888   9612540   1% /forms/apps
+/dev/mapper/datavg-tomcatVM          5029504  584252   4166724  13% /forms/tomcat8
+/dev/mapper/datavg-aem_lv           10255636 8085812   1713056  83% /aem
+tmpfs                                1626664       0   1626664   0% /run/user/1015
+tmpfs                                1626664       0   1626664   0% /run/user/1002
+tmpfs                                1626664       0   1626664   0% /run/user/1001
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ more /etc/fstab
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Jan 29 16:53:27 2018
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/VG01-root_vol /                       ext4    defaults        1 1
+/dev/mapper/VG01-commvault_vol /CommVault              ext4    defaults        1 2
+UUID=20c4d9bb-ae65-4f18-9385-0f6b3730d936 /boot                   ext4    defaults        1 2
+/dev/mapper/VG01-home_vol /home                   ext4   rw,nodev        1 2
+/dev/mapper/VG01-tmp_vol /tmp                    ext4    rw,nosuid,nodev,noexec        1 2
+/dev/mapper/VG01-var_vol /var                    ext4    defaults        1 2
+/dev/mapper/VG01-var_log_vol /var/log                ext4    defaults        1 2
+/dev/mapper/VG01-var_log_audit_vol /var/log/audit          ext4    defaults        1 2
+/dev/mapper/VG01-var_tmp_vol /var/tmp                ext4  rw,nosuid,nodev,noexec           1 2
+/dev/mapper/VG01-swap_vol swap                    swap    defaults        0 0
+/dev/mapper/VG01-opt_lv	/opt			ext4	defaults	1 2
+/dev/datavg/appsVM /forms/apps/                 ext4    defaults        1 2
+/dev/datavg/sharedVM /forms/java/               ext4    defaults        1 2
+/dev/datavg/tomcatVM /forms/tomcat8             ext4    defaults        1 2
+/dev/mapper/datavg-aem_lv /aem			ext4	defaults	1 2
+tmpfs                   /dev/shm                tmpfs   rw,seclabel,nodev,nosuid,noexec        0 0
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ cd /forms/aps
+-bash: cd: /forms/aps: No such file or directory
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ cd /forms/apps
+]0;hchada@CGDCSSL1047UL:/forms/apps[hchada@CGDCSSL1047UL apps]$ ls
+[0m[01;34mlost+found[0m
+]0;hchada@CGDCSSL1047UL:/forms/apps[hchada@CGDCSSL1047UL apps]$ df .
+Filesystem                1K-blocks  Used Available Use% Mounted on
+/dev/mapper/datavg-appsVM  10190100 36888   9612540   1% /forms/apps
+]0;hchada@CGDCSSL1047UL:/forms/apps[hchada@CGDCSSL1047UL apps]$ 

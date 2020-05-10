@@ -1,0 +1,79 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 12:41:36 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-332 Your password has expired.
+Last unsuccessful login: Wed Aug 28 13:30:18 PDT 2019 on ssh
+Last login: Tue Nov 19 12:12:33 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+hchada    Password Expires in 84 days
+ankcsepf1a06[/home/hchada]$ ps -ef | grep mdg   dmgr
+wasadmin 17498222        1   1   Sep 16      - 430:11 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=52293 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.cacheLocalHost=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/opt/IBM/db2cmv8/lib:/opt/IBM/db2cmv8/inso:/opt/IBM/db2cmv8/lib:/opt/IBM/db2cmv8/inso:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config ch1p20aCell01 ch1p20aCellManager01 dmgr
+ankcsepf1a06[/home/hchada]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/configuration
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls
+org.eclipse.core.runtime  org.eclipse.equinox.app   org.eclipse.osgi          org.eclipse.update
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -lagrt
+total 32
+-rwxr-xr-x    1 wasadmin        102 Jun 14 2018  .configAreaProperties
+drwxr-xr-x    2 wasadmin        256 Jun 14 2018  org.eclipse.update
+drwxr-xr-x    3 wasadmin        256 Jun 14 2018  org.eclipse.equinox.app
+-rwxr-xr-x    1 wasadmin          0 Mar 01 2019  .lastTouched
+drwxr-xr-x    6 wasadmin        256 Mar 01 2019  .
+drwxr-xr-x    3 wasadmin       4096 Mar 01 2019  org.eclipse.core.runtime
+drwxrwxrwx    3 cseadmin       4096 Mar 01 2019  org.eclipse.osgi
+drwxr-xr-x   25 wasadmin       4096 Sep 03 11:31 ..
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -la
+total 32
+drwxr-xr-x    6 wasadmin wasadmin        256 Mar 01 2019  .
+drwxr-xr-x   25 wasadmin wasadmin       4096 Sep 03 11:31 ..
+-rwxr-xr-x    1 wasadmin wasadmin        102 Jun 14 2018  .configAreaProperties
+-rwxr-xr-x    1 wasadmin wasadmin          0 Mar 01 2019  .lastTouched
+drwxr-xr-x    3 wasadmin wasadmin       4096 Mar 01 2019  org.eclipse.core.runtime
+drwxr-xr-x    3 wasadmin wasadmin        256 Jun 14 2018  org.eclipse.equinox.app
+drwxrwxrwx    3 wasadmin cseadmin       4096 Mar 01 2019  org.eclipse.osgi
+drwxr-xr-x    2 wasadmin wasadmin        256 Jun 14 2018  org.eclipse.update
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd org.eclipse.osgi
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3048
+drwxrwxrwx    3 wasadmin cseadmin       4096 Mar 01 2019  .
+drwxr-xr-x    6 wasadmin wasadmin        256 Mar 01 2019  ..
+-rwxrwxrwx    1 wasadmin cseadmin     103845 Mar 01 2019  .bundledata.2
+-rwxrwxrwx    1 wasadmin cseadmin    1408438 Mar 01 2019  .lazy.2
+drwxrwxrwx    2 wasadmin cseadmin       4096 Nov 06 14:14 .manager
+-rwxrwxrwx    1 wasadmin cseadmin      35782 Mar 01 2019  .state.2
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ cd .manager
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ ls -la
+total 32
+drwxrwxrwx    2 wasadmin cseadmin       4096 Nov 06 14:14 .
+drwxrwxrwx    3 wasadmin cseadmin       4096 Mar 01 2019  ..
+-rwxrwxrwx    1 wasadmin cseadmin         89 Mar 01 2019  .fileTable.6
+-rwxrwxrwx    1 wasadmin cseadmin         89 Mar 01 2019  .fileTable.7
+-rwxrwxrwx    1 wasadmin cseadmin          0 Mar 01 2019  .fileTableLock
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ cd ..
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3048
+drwxrwxrwx    3 wasadmin cseadmin       4096 Mar 01 2019  .
+drwxr-xr-x    6 wasadmin wasadmin        256 Mar 01 2019  ..
+-rwxrwxrwx    1 wasadmin cseadmin     103845 Mar 01 2019  .bundledata.2
+-rwxrwxrwx    1 wasadmin cseadmin    1408438 Mar 01 2019  .lazy.2
+drwxrwxrwx    2 wasadmin cseadmin       4096 Nov 06 14:14 .manager
+-rwxrwxrwx    1 wasadmin cseadmin      35782 Mar 01 2019  .state.2
+ankcsepf1a06[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ exit

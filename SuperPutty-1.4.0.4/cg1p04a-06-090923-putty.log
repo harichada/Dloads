@@ -1,0 +1,464 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.06 09:09:23 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Tue Oct  9 11:57:11 PDT 2018 on ssh from 169.2.108.102
+Last login: Wed Nov  6 09:09:24 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ clear
+[H[2Jankcsesyaw01[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                    OLD_ACCOUNTS.txt                    find_wwn.sh                         memory_paging_check.sh              set_maxpasswd_age_multipleusers.pl
+ALL_ACCOUNTS_sorted.txt             OLD_ACCOUNTS_sorted.txt             jaytemp                             memory_paging_check.sh~             showerrpt.pl
+IRS_user_home_updated.sh            TAMeUpgradeTesting                  login                               memory_paging_check_SYA.sh          singleuser.pl
+LIVE_ACCOUNTS.txt                   calc_pg_space.pl                    logs                                memory_paging_output                sya_new.txt
+Mail                                checkUser.ksh                       max_passwordage.pl                  memory_paging_vmstat_NON_PROD.sh    temp
+NFS_mounts_verify.sh                collectAccountInfo.pl               memory_paging_COPY.sh               multipleuser_password.pl            tempfile
+NFS_mounts_verify_20180723.sh       copyToNonProd.sh                    memory_paging_NON_PROD_mail.sh      multipleusers_password.pl           test.ksh
+NFS_mounts_verify_P8.sh             errpt_mail.sh                       memory_paging_RUN.sh                p8_hostnames.txt                    user.txt
+NFS_mounts_verify_paul.sh           find_LUN_CuLDev.sh                  memory_paging_SELECT.sh             p8_hostnames_reverse.txt            utils
+NFS_selfcheck.sh                    find_LUN_CuLDev_cv.sh               memory_paging_SELECT_test.sh        p8_hostnames_reverse_sorted.txt     vmstat_mail.sh
+NFS_selfcheck.sh_20180723.sh        find_LUN_CuLDev_print.sh            memory_paging_SYA_SELECT.sh         resetUser.ksh                       webseal_scripts
+NFS_selfcheck_output.dat            find_LUN_sizes.sh                   memory_paging_SYA_SELECT_test.sh    run_on_NonProd.sh
+ankcsesyaw01[/home/cseadmin]$ ps -ef | grep ws
+    root  8650908        1   0   Jun 25      - 48:14 ../lib/wrapper ../conf/wrapper.conf wrapper.pidfile=../lib//cxws.pid wrapper.daemonize=TRUE
+    root  9044078  8650908   0   Jun 25      - 35:11 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=o_Q6s4UTSCUExzrG -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8650908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+   ivmgr 13828108        1   0   Jun 25      -  7:40 /opt/pdweb/bin/webseald -config etc/webseald-csehws006.conf
+ankcsesyaw01[/home/cseadmin]$ cd /opt
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ cd pdweb
+ksh: pdweb: Permission denied.
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ cd    ls -lagrt
+total 22
+drwxr-xr-x    2 system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    3 system          256 Dec 20 2008  perl
+drwxr-x--x    9 ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxrwxr-x   10 ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxr-xr-x    4 bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    2 system          256 Nov 18 2010  qhc
+drwxr--r--    4 system          256 Nov 19 2010  monitor
+drwxr-xr-x    3 system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 system          256 Mar 30 2011  tivoli
+drwxr-xr-x    2 system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    8 sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 system          256 Apr 18 2012  ibm
+drwxr-xr-x    5 ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    4 system          256 Jun 14 2013  IBMinvscout
+drwxr-x---    9 ivmgr           512 Jun 08 2015  pdweb
+drwxrwxr-x   12 ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwxrwxr-x   13 ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxr--r--    7 system          512 Apr 07 2016  itlm
+drwxr-xr-x    6 system          256 Dec 07 2016  nsr
+drwxr-xr-x    3 system          256 May 12 2017  BESClient
+drwxr-xr-x    4 bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   11 bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 system          256 Aug 09 2017  mcr
+drwxr-xr-x    3 system          256 Aug 09 2017  hsc
+drwxr-xr-x    9 system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 bin             256 Mar 13 2019  SolarWinds
+drwxrwx---    2 system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    3 system          256 Jun 25 07:25 auditout
+drwxr-xr-x    7 system          256 Jun 25 07:25 IBM
+drwxr-xr-x   13 system          512 Jun 25 07:30 freeware
+drwx------    2 system          256 Jun 25 07:31 RPM_inst_root
+lrwxrwxrwx    1 bin              14 Jun 25 07:39 rsct
+drwxr-xr-x   33 system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 system         4096 Jun 25 17:00 ..
+ankcsesyaw01[/opt]$ ps -ef | grep pd
+    root  2424962        1   0   Jun 25      -  4:51 /usr/sbin/xntpd
+    root  4718740        1   0   Jun 25      -  0:00 /usr/sbin/snmpd
+    root  9044078  8650908   0   Jun 25      - 35:11 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=o_Q6s4UTSCUExzrG -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8650908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+   ivmgr 13828108        1   0   Jun 25      -  7:40 /opt/pdweb/bin/webseald -config etc/webseald-csehws006.conf
+cseadmin 19202064 13697048   1 09:20:19  pts/1  0:00 grep pd
+ankcsesyaw01[/opt]$ cd /opt     
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ cd pdweb
+ksh: pdweb: Permission denied.
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ ls -lagrt
+total 22
+drwxr-xr-x    2 system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    3 system          256 Dec 20 2008  perl
+drwxr-x--x    9 ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxrwxr-x   10 ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxr-xr-x    4 bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    2 system          256 Nov 18 2010  qhc
+drwxr--r--    4 system          256 Nov 19 2010  monitor
+drwxr-xr-x    3 system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 system          256 Mar 30 2011  tivoli
+drwxr-xr-x    2 system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    8 sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 system          256 Apr 18 2012  ibm
+drwxr-xr-x    5 ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    4 system          256 Jun 14 2013  IBMinvscout
+drwxr-x---    9 ivmgr           512 Jun 08 2015  pdweb
+drwxrwxr-x   12 ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwxrwxr-x   13 ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxr--r--    7 system          512 Apr 07 2016  itlm
+drwxr-xr-x    6 system          256 Dec 07 2016  nsr
+drwxr-xr-x    3 system          256 May 12 2017  BESClient
+drwxr-xr-x    4 bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   11 bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 system          256 Aug 09 2017  mcr
+drwxr-xr-x    3 system          256 Aug 09 2017  hsc
+drwxr-xr-x    9 system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 bin             256 Mar 13 2019  SolarWinds
+drwxrwx---    2 system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    3 system          256 Jun 25 07:25 auditout
+drwxr-xr-x    7 system          256 Jun 25 07:25 IBM
+drwxr-xr-x   13 system          512 Jun 25 07:30 freeware
+drwx------    2 system          256 Jun 25 07:31 RPM_inst_root
+lrwxrwxrwx    1 bin              14 Jun 25 07:39 rsct
+drwxr-xr-x   33 system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 system         4096 Jun 25 17:00 ..
+ankcsesyaw01[/opt]$ ls -la
+total 22
+drwxr-xr-x   33 root     system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 root     system         4096 Jun 25 17:00 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 root     system          256 May 12 2017  BESClient
+drwxr-xr-x    7 root     system          256 Jun 25 07:25 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwxrwxr-x   13 ivmgr    ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxrwxr-x   10 ivmgr    ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxrwxr-x   12 ivmgr    ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwx------    2 root     system          256 Jun 25 07:31 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 13 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 root     system          256 Jun 25 07:25 auditout
+drwxr-xr-x   11 bin      bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 bin      bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   13 root     system          512 Jun 25 07:30 freeware
+drwxr-xr-x    2 root     system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    3 root     system          256 Aug 09 2017  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxr--r--    7 root     system          512 Apr 07 2016  itlm
+drwxrwx---    2 root     system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    2 root     system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Aug 09 2017  mcr
+drwxr--r--    4 root     system          256 Nov 19 2010  monitor
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-x---    9 ivmgr    ivmgr           512 Jun 08 2015  pdweb
+drwxr-x--x    9 ivmgr    ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxr-xr-x    5 ivmgr    ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    3 root     system          256 Dec 20 2008  perl
+drwxr-xr-x    2 root     system          256 Nov 18 2010  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:39 rsct -> /usr/sbin/rsct
+drwxr-xr-x    4 bin      bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    9 root     system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 root     system          256 Mar 30 2011  tivoli
+ankcsesyaw01[/opt]$ id
+uid=103956(cseadmin) gid=1078(cseadmin) groups=1(staff),294(batchnp),257(cseadmnp),1047(csela),1083(csemon),328(csemonnp),1086(cseprod),1033(pifadmin)
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ cd ibm
+ankcsesyaw01[/opt/ibm]$ ls
+ae
+ankcsesyaw01[/opt/ibm]$ cd ..
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ cd pdweb.*
+ankcsesyaw01[/opt/pdweb.6.1]$ ls
+ls: .: The file access permissions do not allow the specified action.
+ankcsesyaw01[/opt/pdweb.6.1]$ ls -la
+ls: .: The file access permissions do not allow the specified action.
+total 0
+ankcsesyaw01[/opt/pdweb.6.1]$ cd ..
+ankcsesyaw01[/opt]$ ls -la
+total 22
+drwxr-xr-x   33 root     system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 root     system         4096 Jun 25 17:00 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 root     system          256 May 12 2017  BESClient
+drwxr-xr-x    7 root     system          256 Jun 25 07:25 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwxrwxr-x   13 ivmgr    ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxrwxr-x   10 ivmgr    ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxrwxr-x   12 ivmgr    ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwx------    2 root     system          256 Jun 25 07:31 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 13 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 root     system          256 Jun 25 07:25 auditout
+drwxr-xr-x   11 bin      bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 bin      bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   13 root     system          512 Jun 25 07:30 freeware
+drwxr-xr-x    2 root     system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    3 root     system          256 Aug 09 2017  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxr--r--    7 root     system          512 Apr 07 2016  itlm
+drwxrwx---    2 root     system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    2 root     system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Aug 09 2017  mcr
+drwxr--r--    4 root     system          256 Nov 19 2010  monitor
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-x---    9 ivmgr    ivmgr           512 Jun 08 2015  pdweb
+drwxr-x--x    9 ivmgr    ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxr-xr-x    5 ivmgr    ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    3 root     system          256 Dec 20 2008  perl
+drwxr-xr-x    2 root     system          256 Nov 18 2010  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:39 rsct -> /usr/sbin/rsct
+drwxr-xr-x    4 bin      bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    9 root     system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 root     system          256 Mar 30 2011  tivoli
+ankcsesyaw01[/opt]$ cd splu*
+ankcsesyaw01[/opt/splunkforwarder]$ ls
+README-splunk.txt                                        include                                                  share
+bin                                                      lib                                                      splunkforwarder-6.6.2-4b804538c686-AIX-powerpc-manifest
+copyright.txt                                            license-eula.txt                                         var
+etc                                                      openssl
+ankcsesyaw01[/opt/splunkforwarder]$ ls -la
+total 208
+drwxr-xr-x    9 root     system          512 Nov 07 2017  .
+drwxr-xr-x   33 root     system         2048 Jun 25 07:39 ..
+-r--r--r--    1 root     system          841 Jun 21 2017  README-splunk.txt
+drwxr-xr-x    3 root     system         1024 Jun 21 2017  bin
+-r--r--r--    1 root     system           57 Jun 21 2017  copyright.txt
+drwxr-xr-x   13 root     system         1024 Oct 06 2017  etc
+drwxr-xr-x    2 root     system          256 Jun 21 2017  include
+drwxr-xr-x    3 root     system         1024 Jun 21 2017  lib
+-r--r--r--    1 root     system        66575 Jun 21 2017  license-eula.txt
+drwxr-xr-x    3 root     system          256 Jun 21 2017  openssl
+drwxr-xr-x    3 root     system          256 Jun 21 2017  share
+-r--r--r--    1 root     system        31789 Jun 21 2017  splunkforwarder-6.6.2-4b804538c686-AIX-powerpc-manifest
+drwx------    6 root     system          256 Oct 06 2017  var
+ankcsesyaw01[/opt/splunkforwarder]$ ps -ef   | grep splunk
+cseadmin 12255366 13697048   1 09:22:00  pts/1  0:00 grep splunk
+ankcsesyaw01[/opt/splunkforwarder]$ cd bin
+ankcsesyaw01[/opt/splunkforwarder/bin]$ ls
+btool                   classify                genSignedServerCert.sh  pid_check.sh            slim                    splunkdj
+btprobe                 copyright.txt           genWebCert.sh           scripts                 splunk                  splunkmon
+bzip2                   genRootCA.sh            openssl                 setSplunkEnv            splunkd
+ankcsesyaw01[/opt/splunkforwarder/bin]$ ls -la
+total 333566
+drwxr-xr-x    3 root     system         1024 Jun 21 2017  .
+drwxr-xr-x    9 root     system          512 Nov 07 2017  ..
+-r-xr-xr-x    1 root     system        44309 Jun 21 2017  btool
+-r-xr-xr-x    1 root     system        44309 Jun 21 2017  btprobe
+-r-xr-xr-x    1 root     system        37244 Jun 21 2017  bzip2
+-r-xr-xr-x    1 root     system        44317 Jun 21 2017  classify
+-r--r--r--    1 root     system           57 Jun 21 2017  copyright.txt
+-r-xr-xr-x    1 root     system         2375 Jun 21 2017  genRootCA.sh
+-r-xr-xr-x    1 root     system          206 Jun 21 2017  genSignedServerCert.sh
+-r-xr-xr-x    1 root     system          144 Jun 21 2017  genWebCert.sh
+-r-xr-xr-x    1 root     system       660114 Jun 21 2017  openssl
+-r-xr-xr-x    1 root     system         7390 Jun 21 2017  pid_check.sh
+drwxr-xr-x    2 root     system          256 Jun 21 2017  scripts
+-r--r--r--    1 root     system         1360 Jun 21 2017  setSplunkEnv
+-r-xr-xr-x    1 root     system          657 Jun 21 2017  slim
+-r-xr-xr-x    1 root     system       573593 Jun 21 2017  splunk
+-r-xr-xr-x    1 root     system    169387802 Jun 21 2017  splunkd
+-r-xr-xr-x    1 root     system          465 Jun 21 2017  splunkdj
+-r-xr-xr-x    1 root     system        12556 Jun 21 2017  splunkmon
+ankcsesyaw01[/opt/splunkforwarder/bin]$ cd scripts
+ankcsesyaw01[/opt/splunkforwarder/bin/scripts]$ ls
+readme.txt
+ankcsesyaw01[/opt/splunkforwarder/bin/scripts]$ mor re       e re 
+re: A file or directory in the path name does not exist.
+[?1049h[56;1H[K[?1049l[?1l>ankcsesyaw01[/opt/splunkforwarder/bin/scripts]$ more re*
+[?1049h[56;1H[KScripts placed in this directory can be called by Alerts for execution
+[K[7mreadme.txt: END[27m[K[?1049l[?1l>ankcsesyaw01[/opt/splunkforwarder/bin/scripts]$ cd ..
+ankcsesyaw01[/opt/splunkforwarder/bin]$ cd ..
+ankcsesyaw01[/opt/splunkforwarder]$ cd . .
+ksh: cd: 0403-011 The specified substitution is not valid for this command.
+ankcsesyaw01[/opt/splunkforwarder]$ ls
+README-splunk.txt                                        include                                                  share
+bin                                                      lib                                                      splunkforwarder-6.6.2-4b804538c686-AIX-powerpc-manifest
+copyright.txt                                            license-eula.txt                                         var
+etc                                                      openssl
+ankcsesyaw01[/opt/splunkforwarder]$ cd . .
+ksh: cd: 0403-011 The specified substitution is not valid for this command.
+ankcsesyaw01[/opt/splunkforwarder]$ ls
+README-splunk.txt                                        include                                                  share
+bin                                                      lib                                                      splunkforwarder-6.6.2-4b804538c686-AIX-powerpc-manifest
+copyright.txt                                            license-eula.txt                                         var
+etc                                                      openssl
+ankcsesyaw01[/opt/splunkforwarder]$ cd ..
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ ps -ef | grep pd
+    root  2424962        1   0   Jun 25      -  4:51 /usr/sbin/xntpd
+    root  4718740        1   0   Jun 25      -  0:00 /usr/sbin/snmpd
+    root  9044078  8650908   0   Jun 25      - 35:11 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=o_Q6s4UTSCUExzrG -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8650908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+   ivmgr 13828108        1   0   Jun 25      -  7:40 /opt/pdweb/bin/webseald -config etc/webseald-csehws006.conf
+cseadmin 21430352 13697048   1 09:24:13  pts/1  0:00 grep pd
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ ls -la
+total 22
+drwxr-xr-x   33 root     system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 root     system         4096 Jun 25 17:00 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 root     system          256 May 12 2017  BESClient
+drwxr-xr-x    7 root     system          256 Jun 25 07:25 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwxrwxr-x   13 ivmgr    ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxrwxr-x   10 ivmgr    ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxrwxr-x   12 ivmgr    ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwx------    2 root     system          256 Jun 25 07:31 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 13 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 root     system          256 Jun 25 07:25 auditout
+drwxr-xr-x   11 bin      bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 bin      bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   13 root     system          512 Jun 25 07:30 freeware
+drwxr-xr-x    2 root     system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    3 root     system          256 Aug 09 2017  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxr--r--    7 root     system          512 Apr 07 2016  itlm
+drwxrwx---    2 root     system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    2 root     system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Aug 09 2017  mcr
+drwxr--r--    4 root     system          256 Nov 19 2010  monitor
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-x---    9 ivmgr    ivmgr           512 Jun 08 2015  pdweb
+drwxr-x--x    9 ivmgr    ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxr-xr-x    5 ivmgr    ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    3 root     system          256 Dec 20 2008  perl
+drwxr-xr-x    2 root     system          256 Nov 18 2010  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:39 rsct -> /usr/sbin/rsct
+drwxr-xr-x    4 bin      bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    9 root     system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 root     system          256 Mar 30 2011  tivoli
+ankcsesyaw01[/opt]$ ikd ivm      d id vmgr
+uid=1530(ivmgr) gid=1032(ivmgr) groups=1(staff),268(tivoli)
+ankcsesyaw01[/opt]$ id
+uid=103956(cseadmin) gid=1078(cseadmin) groups=1(staff),294(batchnp),257(cseadmnp),1047(csela),1083(csemon),328(csemonnp),1086(cseprod),1033(pifadmin)
+ankcsesyaw01[/opt]$ cd pdweb
+ksh: pdweb: Permission denied.
+ankcsesyaw01[/opt]$ id ivmgr
+uid=1530(ivmgr) gid=1032(ivmgr) groups=1(staff),268(tivoli)
+ankcsesyaw01[/opt]$ cse   sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 5
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaw01[/opt]$ ssh hchada@c ankcsesyaw01
+hchada@ankcsesyaw01's password: 
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+Connection to ankcsesyaw01 closed.
+ankcsesyaw01[/opt]$ id
+uid=103956(cseadmin) gid=1078(cseadmin) groups=1(staff),294(batchnp),257(cseadmnp),1047(csela),1083(csemon),328(csemonnp),1086(cseprod),1033(pifadmin)
+ankcsesyaw01[/opt]$ idssh hchada@ankcsesyaw01
+hchada@ankcsesyaw01's password: 
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Wed Nov  6 09:09:05 PST 2019 on ssh from 169.2.108.102
+Last login: Wed Nov  6 09:28:54 PST 2019 on ssh
+
+ankcsesyaw01[/home/hchada]$ id
+uid=856(hchada) gid=1(staff) groups=1022(b8user),294(batchnp),1078(cseadmin),257(cseadmnp),1047(csela),1083(csemon),328(csemonnp),323(mqm),1033(pifadmin),1027(unison)
+ankcsesyaw01[/home/hchada]$ cd /opt
+ankcsesyaw01[/opt]$ ls
+APPQcime            PolicyDirector      SolarWinds          diagnostics         ibm                 mcr                 pdweb.6.1           rsct
+BESClient           PolicyDirector.6.1  Symantec            freeware            itlm                monitor             pdwebrte            rsct.prev_left
+IBM                 PolicyDirector.bad  auditout            homebase-agent      lost+found          nsr                 perl                splunkforwarder
+IBMinvscout         RPM_inst_root       csm                 hsc                 lssecfixes          pdweb               qhc                 tivoli
+ankcsesyaw01[/opt]$ ls pdweb
+ls: pdweb: The file access permissions do not allow the specified action.
+ankcsesyaw01[/opt]$ ls -la
+total 22
+drwxr-xr-x   33 root     system         2048 Jun 25 07:39 .
+drwxr-xr-x   45 root     system         4096 Jun 25 17:00 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 root     system          256 May 12 2017  BESClient
+drwxr-xr-x    7 root     system          256 Jun 25 07:25 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwxrwxr-x   13 ivmgr    ivmgr          1024 Aug 20 2015  PolicyDirector
+drwxrwxr-x   10 ivmgr    ivmgr           512 Jun 13 2009  PolicyDirector.6.1
+drwxrwxr-x   12 ivmgr    ivmgr           512 Aug 20 2015  PolicyDirector.bad
+drwx------    2 root     system          256 Jun 25 07:31 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 13 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 root     system          256 Jun 25 07:25 auditout
+drwxr-xr-x   11 bin      bin             512 Aug 08 2017  csm
+drwxr-xr-x    4 bin      bin             256 Aug 08 2017  diagnostics
+drwxr-xr-x   13 root     system          512 Jun 25 07:30 freeware
+drwxr-xr-x    2 root     system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    3 root     system          256 Aug 09 2017  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxr--r--    7 root     system          512 Apr 07 2016  itlm
+drwxrwx---    2 root     system          256 Jun 25 07:25 lost+found
+drwxr-xr-x    2 root     system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Aug 09 2017  mcr
+drwxr--r--    4 root     system          256 Nov 19 2010  monitor
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-x---    9 ivmgr    ivmgr           512 Jun 08 2015  pdweb
+drwxr-x--x    9 ivmgr    ivmgr           512 Jun 13 2009  pdweb.6.1
+drwxr-xr-x    5 ivmgr    ivmgr           256 Oct 24 2012  pdwebrte
+drwxr-xr-x    3 root     system          256 Dec 20 2008  perl
+drwxr-xr-x    2 root     system          256 Nov 18 2010  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:39 rsct -> /usr/sbin/rsct
+drwxr-xr-x    4 bin      bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    9 root     system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 root     system          256 Mar 30 2011  tivoli
+ankcsesyaw01[/opt]$ id
+uid=856(hchada) gid=1(staff) groups=1022(b8user),294(batchnp),1078(cseadmin),257(cseadmnp),1047(csela),1083(csemon),328(csemonnp),323(mqm),1033(pifadmin),1027(unison)
+ankcsesyaw01[/opt]$ gop  roup ivmgr
+ksh: group: 0403-006 Execute permission denied.
+ankcsesyaw01[/opt]$ groups
+staff b8user batchnp cseadmin cseadmnp csela csemon csemonnp mqm pifadmin unison
+ankcsesyaw01[/opt]$ groups ivmgr
+ivmgr : ivmgr staff tivoli
+ankcsesyaw01[/opt]$ clear
+[H[2Jankcsesyaw01[/opt]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcsesyaw01 closed.
+ankcsesyaw01[/opt]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

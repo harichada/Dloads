@@ -1,0 +1,629 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.01 10:15:32 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Thu Oct 31 11:01:45 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd an[K[Ke[KEFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copy              cpyhttpd.yml           CreateUser.yml   fetchhostname.yml  [0m[01;31mmaster-cisreport.zip[0m  script.yml       [01;34mtomcat[0m
+[01;34mapache[0m                         copyBinaries.yml  CreatePartition.yml    [01;34mCustomerConnect[0m  [01;34mfinal[0m              passwd                [01;34mselfsignedcerts[0m  users.yml
+CCServers.yml                  copyKeys.retry    CreatePartsDevOps.yml  delApctl.yml     gitcommands.txt    passwd.txt            servers.yml      [01;32mweb.xml[0m
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.yml      CreateUser.retry       deploy1.yml      inventory          ping.yml              [01;32mserver.xml[0m       yumPackages.yml
+[01;32mcontext.xml[0m                    copyKey.yml       CreateUsers.yml        [01;31mdevel.zip[0m        inventorycc        [01;34mpyscritps[0m             stopFW.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep [K[K[K[K[Kmore copy
+- hosts:
+      - "{{ var_host | default('devws') }}"
+  become: true
+  tasks:
+       - name: Copy openssl and apache source to servers
+         copy:
+            src: /tmp/binaries
+            dest: /tmp
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ history | grep ansible
+   11   [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=devws statte=present" -K
+   15  cd EFS/[01;31m[Kansible[m[K/
+   17  [01;31m[Kansible[m[K devas -i inventory -m shell -a "passwd hchada" -b -K
+   18  [01;31m[Kansible[m[K devas -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K
+   31  cd EFS/[01;31m[Kansible[m[K/selfsignedcerts/
+   38  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_hosts=sytws statte=present" -K
+   39  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_host=sytws statte=present" -K
+   41  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+   43  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+   45  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+   46  vi /etc/[01;31m[Kansible[m[K/[01;31m[Kansible[m[K.cfg 
+   47  vi ../[01;31m[Kansible[m[K.cfg 
+   48  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+  103  cd EFS/[01;31m[Kansible[m[K/
+  111   [01;31m[Kansible[m[K prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K
+  114   [01;31m[Kansible[m[K prodasgrp -i inventory -m shell -a "echo -e 'Gr88td@y\nGr88td@y' | passwd deploy1" -b -K
+  118  cd EFS/[01;31m[Kansible[m[K/selfsignedcerts/
+  400  cd [01;31m[Kansible[m[K/
+  448  cd [01;31m[Kansible[m[K/
+  451  cd [01;31m[Kansible[m[K/
+  784  cd EFS/[01;31m[Kansible[m[K/
+  905  more run[01;31m[Kansible[m[K.py 
+  920  cd EFS/[01;31m[Kansible[m[K/
+  921  [01;31m[Kansible[m[K all -i inventory -m shell -a "id aguggill"
+  923  [01;31m[Kansible[m[K all -i inventory -m shell -a "echo -e 'Ironm@n456&\nIronm@n456&' | passwd aguggill" -b -K
+  927  [01;31m[Kansible[m[K all -i inventory -m shell -a "echo -e 'Ironm@n456&\nIronm@n456&' | passwd aguggill" -b -K
+  950  cd EFS/[01;31m[Kansible[m[K/
+  958  [01;31m[Kansible[m[K-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=pft2wsgrp statte=present" -K
+  965  cd CC/[01;31m[Kansible[m[K/
+  973  cd [01;31m[Kansible[m[K/
+  981  cd [01;31m[Kansible[m[K/
+  996  cd EFS/[01;31m[Kansible[m[K/
+  999  history | grep [01;31m[Kansible[m[K
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep sudo *.[K
+[35m[Kansible.cfg[m[K[36m[K:[m[K#[01;31m[Ksudo[m[K_user      = root
+[35m[Kansible.cfg[m[K[36m[K:[m[K#ask_[01;31m[Ksudo[m[K_pass = True
+[35m[Kansible.cfg[m[K[36m[K:[m[K# change this for alternative [01;31m[Ksudo[m[K implementations
+[35m[Kansible.cfg[m[K[36m[K:[m[K#[01;31m[Ksudo[m[K_exe = [01;31m[Ksudo[m[K
+[35m[Kansible.cfg[m[K[36m[K:[m[K# What flags to pass to [01;31m[Ksudo[m[K
+[35m[Kansible.cfg[m[K[36m[K:[m[K#[01;31m[Ksudo[m[K_flags = -H -S -n
+[35m[Kansible.cfg[m[K[36m[K:[m[K# use this shell for commands executed under [01;31m[Ksudo[m[K
+[35m[Kansible.cfg[m[K[36m[K:[m[K# if [01;31m[Ksudo[m[K is constrained
+[35m[Kansible.cfg[m[K[36m[K:[m[K#become_method=[01;31m[Ksudo[m[K
+[35m[Kansible.cfg[m[K[36m[K:[m[K# by default, Ansible requests a pseudo-terminal for commands executed under [01;31m[Ksudo[m[K. Uncomment this
+[35m[Kansible.cfg[m[K[36m[K:[m[K# performance improvement when enabled, however when using "[01;31m[Ksudo[m[K:" you must
+[35m[Kansible.cfg[m[K[36m[K:[m[K# first disable 'requiretty' in /etc/[01;31m[Ksudo[m[Kers
+[35m[Kansible.cfg[m[K[36m[K:[m[K# [01;31m[Ksudo[m[Kers configurations that have requiretty (the default on many distros).
+[35m[Kansible.cfg[m[K[36m[K:[m[K# The -tt argument is passed to ssh when pipelining is not enabled because [01;31m[Ksudo[m[K 
+grep: apache: Is a directory
+grep: cis-rhel-ansible-audit-master: Is a directory
+grep: CustomerConnect: Is a directory
+Binary file devel.zip matches
+grep: final: Is a directory
+[35m[Kgitcommands.txt[m[K[36m[K:[m[K 1023  [01;31m[Ksudo[m[K yum install git
+[35m[Kgitcommands.txt[m[K[36m[K:[m[K 1102  [01;31m[Ksudo[m[K find / -name ".gitconfig" 
+[35m[Kgitcommands.txt[m[K[36m[K:[m[K 1103  [01;31m[Ksudo[m[K find / -name "gitconfig" 
+[35m[Kgitcommands.txt[m[K[36m[K:[m[K 1105  [01;31m[Ksudo[m[K cp ~/.gitconfig /etc/gitconfig
+[35m[Kinventorycc[m[K[36m[K:[m[Ksqtwscc #ansible_[01;31m[Ksudo[m[K_pass=
+grep: pyscritps: Is a directory
+grep: selfsignedcerts: Is a directory
+grep: tomcat: Is a directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ssh syawscc
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+Last login: Thu Oct 31 12:55:46 2019
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1073UL:~[?1034h[hchada@CGDCSSL1073UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ ls
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ sudo su -
+[sudo] password for hchada: 
+Last login: Thu Oct 31 12:54:54 PDT 2019 on pts/0
+]0;root@CGDCSSL1073UL:~[?1034h[root@CGDCSSL1073UL ~]# cd /etc/httpd/
+]0;root@CGDCSSL1073UL:/etc/httpd[root@CGDCSSL1073UL httpd]# ls
+[0m[01;34mconf[0m  [01;34mconf.d[0m  [01;34mconf.modules.d[0m  [01;36mlogs[0m  [01;36mmodules[0m  [01;34mremoved_modules[0m  [01;36mrun[0m  [01;34mssl[0m
+]0;root@CGDCSSL1073UL:/etc/httpd[root@CGDCSSL1073UL httpd]# cd conf.d
+]0;root@CGDCSSL1073UL:/etc/httpd/conf.d[root@CGDCSSL1073UL conf.d]# ls
+autoindex.conf  httpd-vhosts.conf           httpd-vhosts.conf.20190625  README    ssl.conf.20190917  userdir.conf
+fcgid.conf      httpd-vhosts.conf.20190315  manual.conf                 ssl.conf  ssl.conf.orig      welcome.conf
+]0;root@CGDCSSL1073UL:/etc/httpd/conf.d[root@CGDCSSL1073UL conf.d]# vi ssl.conf
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"ssl.conf" 250L, 10606C[1;1H#
+# When we also provide SSL we have to listen to the
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512
+
+#
+# Use "SSLCryptoDevice" to enable any supported hardware
+# accelerators. Use "openssl engine -v" to list supported
+# engine names.  NOTE: If you enable an accelerator and the
+# server does not start, consult the error logs and ensure
+# your accelerator is functioning properly.
+#
+SSLCryptoDevice builtin
+#SSLCryptoDevice ubsec
+
+##
+## SSL Virtual Host Context
+##[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H#     this when you receive I/O errors because of the standard approach where
+#     mod_ssl sends the close notify alert.
+#   o ssl-accurate-shutdown:
+#     This forces an accurate shutdown when the connection is closed, i.e. a
+#     SSL close notify alert is send and mod_ssl waits for the close notify
+#     alert of the client. This is 100% SSL/TLS standard compliant, but in
+#     practice often causes hanging connections with brain-dead browsers. Use
+#     this only for browsers where you know that their SSL implementation
+#     works correctly.
+#   Notice: Most problems of broken clients are also related to the HTTP
+#   keep-alive facility, so you usually additionally want to disable
+#   keep-alive for those clients, too. Use variable "nokeepalive" for this.
+#   Similarly, one has to force some clients to use HTTP/1.0 to workaround
+#   their broken HTTP/1.1 implementation. Use variables "downgrade-1.0" and
+#   "force-response-1.0" for this.
+BrowserMatch "MSIE [2-5]" \[17;10Hnokeepalive ssl-unclean-shutdown \[18;10Hdowngrade-1.0 force-response-1.0
+
+#   Per-Server Logging:
+#   The home of a custom SSL log file. Use this when you want a
+#   compact non-error SSL logfile on a virtual host basis.
+#CustomLog logs/ssl_request_log \
+#[10C"%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+
+ProxyRequests Off
+SSLProxyEngine on
+
+# test to reroute to guideline calculator
+#RedirectMatch permanent ^/ChildSupport/(.*)$ https://165.235.105.69/ChildSupport/$1
+#Redirect permanent /ChildSupport/ https://165.235.105.69/ChildSupport/     works
+Redirect permanent /ChildSupport/cse/guidelineCalculator  https://165.235.105.69/ChildSupport/cse/guidelineCalculator
+#EnableMMAP off
+EnableSendfile on
+<Location /server-status>
+    SetHandler server-status
+    Order deny,allow
+    Deny from all
+    # Allow only ECU vlan and CCSAS
+    Allow from all
+    Allow from 100.95.20.103
+    Allow from CGDCSSL1073UL
+    Allow from 169.2.108.102
+ </Location>
+
+#ProxyPass /ChildSupport/*  https://165.235.105.69/ChildSupport/
+
+#ProxyPass / https://CGDCSSL1083UL:18443/
+#ProxyPassReverse /   https://CGDCSSL1083UL/
+ProxyPass /manager https://CGDCSSL1083UL:18443/manager
+ProxyPassReverse /manager https://CGDCSSL1083UL:18443/manager
+
+</VirtualHost>
+[?12l[?25h[?25l
+:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;root@CGDCSSL1073UL:/etc/httpd/conf.d[root@CGDCSSL1073UL conf.d]# mt [K[K[Kcd ..
+]0;root@CGDCSSL1073UL:/etc/httpd[root@CGDCSSL1073UL httpd]# cat conf/httpd.conf
+#
+# This is the main Apache HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://httpd.apache.org/docs/2.4/> for detailed information.
+# In particular, see 
+# <URL:http://httpd.apache.org/docs/2.4/mod/directives.html>
+# for a discussion of each configuration directive.
+#
+# Do NOT simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.  
+#
+# Configuration and logfile names: If the filenames you specify for many
+# of the server's control files begin with "/" (or "drive:/" for Win32), the
+# server will use that explicit path.  If the filenames do *not* begin
+# with "/", the value of ServerRoot is prepended -- so 'log/access_log'
+# with ServerRoot set to '/www' will be interpreted by the
+# server as '/www/log/access_log', where as '/log/access_log' will be
+# interpreted as '/log/access_log'.
+
+#
+# ServerRoot: The top of the directory tree under which the server's
+# configuration, error, and log files are kept.
+#
+# Do not add a slash at the end of the directory path.  If you point
+# ServerRoot at a non-local disk, be sure to specify a local disk on the
+# Mutex directive, if file-based mutexes are used.  If you wish to share the
+# same ServerRoot for multiple httpd daemons, you will need to change at
+# least PidFile.
+#
+ServerRoot "/etc/httpd"
+
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to 
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:80
+Listen 80
+
+#
+# Dynamic Shared Object (DSO) Support
+#
+# To be able to use the functionality of a module which was built as a DSO you
+# have to place corresponding `LoadModule' lines at this location so the
+# directives contained in it are actually available _before_ they are used.
+# Statically compiled modules (those listed by `httpd -l') do not need
+# to be loaded here.
+#
+# Example:
+# LoadModule foo_module modules/mod_foo.so
+#
+LoadModule status_module modules/mod_status.so
+Include conf.modules.d/*.conf
+
+#
+# If you wish httpd to run as a different user or group, you must run
+# httpd as root initially and it will switch.  
+#
+# User/Group: The name (or #number) of the user/group to run httpd as.
+# It is usually good practice to create a dedicated user and group for
+# running httpd, as with most system services.
+#
+User apache
+Group apache
+
+# 'Main' server configuration
+#
+# The directives in this section set up the values used by the 'main'
+# server, which responds to any requests that aren't handled by a
+# <VirtualHost> definition.  These values also provide defaults for
+# any <VirtualHost> containers you may define later in the file.
+#
+# All of these directives may appear inside <VirtualHost> containers,
+# in which case these default settings will be overridden for the
+# virtual host being defined.
+#
+
+#
+# ServerAdmin: Your address, where problems with the server should be
+# e-mailed.  This address appears on some server-generated pages, such
+# as error documents.  e.g. admin@your-domain.com
+#
+ServerAdmin root@localhost
+
+#
+# ServerName gives the name and port that the server uses to identify itself.
+# This can often be determined automatically, but we recommend you specify
+# it explicitly to prevent problems during startup.
+#
+# If your host doesn't have a registered DNS name, enter its IP address here.
+#
+#ServerName www.example.com:80
+
+#
+# Deny access to the entirety of your server's filesystem. You must
+# explicitly permit access to web content directories in other 
+# <Directory> blocks below.
+#
+<Directory />
+    AllowOverride none
+    Require all denied
+</Directory>
+
+#
+# Note that from this point forward you must specifically allow
+# particular features to be enabled - so if something's not working as
+# you might expect, make sure that you have specifically enabled it
+# below.
+#
+
+#
+# DocumentRoot: The directory out of which you will serve your
+# documents. By default, all requests are taken from this directory, but
+# symbolic links and aliases may be used to point to other locations.
+#
+DocumentRoot "/var/www/html"
+
+#
+# Relax access to content within /var/www.
+#
+<Directory "/var/www">
+    AllowOverride None
+    # Allow open access:
+    Require all granted
+</Directory>
+
+# Further relax access to the default document root:
+<Directory "/var/www/html">
+    #
+    # Possible values for the Options directive are "None", "All",
+    # or any combination of:
+    #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+    #
+    # Note that "MultiViews" must be named *explicitly* --- "Options All"
+    # doesn't give it to you.
+    #
+    # The Options directive is both complicated and important.  Please see
+    # http://httpd.apache.org/docs/2.4/mod/core.html#options
+    # for more information.
+    #
+    Options Indexes FollowSymLinks
+
+    #
+    # AllowOverride controls what directives may be placed in .htaccess files.
+    # It can be "All", "None", or any combination of the keywords:
+    #   Options FileInfo AuthConfig Limit
+    #
+    AllowOverride None
+
+    #
+    # Controls who can get stuff from this server.
+    #
+    Require all granted
+</Directory>
+
+#
+# DirectoryIndex: sets the file that Apache will serve if a directory
+# is requested.
+#
+<IfModule dir_module>
+    DirectoryIndex index.html
+</IfModule>
+
+#
+# The following lines prevent .htaccess and .htpasswd files from being 
+# viewed by Web clients. 
+#
+<Files ".ht*">
+    Require all denied
+</Files>
+
+#
+# ErrorLog: The location of the error log file.
+# If you do not specify an ErrorLog directive within a <VirtualHost>
+# container, error messages relating to that virtual host will be
+# logged here.  If you *do* define an error logfile for a <VirtualHost>
+# container, that host's errors will be logged there and not here.
+#
+#ErrorLog "/forms/logs/error_log"
+ErrorLog "/var/log/httpd/error_log"
+
+#
+# LogLevel: Control the number of messages logged to the error_log.
+# Possible values include: debug, info, notice, warn, error, crit,
+# alert, emerg.
+#
+LogLevel info
+
+<IfModule log_config_module>
+    #
+    # The following directives define some format nicknames for use with
+    # a CustomLog directive (see below).
+    #
+    LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+    LogFormat "%h %l %u %t \"%r\" %>s %b" common
+
+    <IfModule logio_module>
+      # You need to enable mod_logio.c to use %I and %O
+      LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combinedio
+    </IfModule>
+
+    #
+    # The location and format of the access logfile (Common Logfile Format).
+    # If you do not define any access logfiles within a <VirtualHost>
+    # container, they will be logged here.  Contrariwise, if you *do*
+    # define per-<VirtualHost> access logfiles, transactions will be
+    # logged therein and *not* in this file.
+    #
+    #CustomLog "logs/access_log" common
+
+    #
+    # If you prefer a logfile with access, agent, and referer information
+    # (Combined Logfile Format) you can use the following directive.
+    #
+    CustomLog "/var/log/httpd/access_log" combined
+</IfModule>
+
+<IfModule alias_module>
+    #
+    # Redirect: Allows you to tell clients about documents that used to 
+    # exist in your server's namespace, but do not anymore. The client 
+    # will make a new request for the document at its new location.
+    # Example:
+    # Redirect permanent /foo http://www.example.com/bar
+
+    #
+    # Alias: Maps web paths into filesystem paths and is used to
+    # access content that does not live under the DocumentRoot.
+    # Example:
+    # Alias /webpath /full/filesystem/path
+    #
+    # If you include a trailing / on /webpath then the server will
+    # require it to be present in the URL.  You will also likely
+    # need to provide a <Directory> section to allow access to
+    # the filesystem path.
+
+    #
+    # ScriptAlias: This controls which directories contain server scripts. 
+    # ScriptAliases are essentially the same as Aliases, except that
+    # documents in the target directory are treated as applications and
+    # run by the server when requested rather than as documents sent to the
+    # client.  The same rules about trailing "/" apply to ScriptAlias
+    # directives as to Alias.
+    #
+    ScriptAlias /cgi-bin/ "/var/www/cgi-bin/"
+
+</IfModule>
+
+#
+# "/var/www/cgi-bin" should be changed to whatever your ScriptAliased
+# CGI directory exists, if you have that configured.
+#
+<Directory "/var/www/cgi-bin">
+    AllowOverride None
+    Options None
+    Require all granted
+</Directory>
+
+<IfModule mime_module>
+    #
+    # TypesConfig points to the file containing the list of mappings from
+    # filename extension to MIME-type.
+    #
+    TypesConfig /etc/mime.types
+
+    #
+    # AddType allows you to add to or override the MIME configuration
+    # file specified in TypesConfig for specific file types.
+    #
+    #AddType application/x-gzip .tgz
+    #
+    # AddEncoding allows you to have certain browsers uncompress
+    # information on the fly. Note: Not all browsers support this.
+    #
+    #AddEncoding x-compress .Z
+    #AddEncoding x-gzip .gz .tgz
+    #
+    # If the AddEncoding directives above are commented-out, then you
+    # probably should define those extensions to indicate media types:
+    #
+    AddType application/x-compress .Z
+    AddType application/x-gzip .gz .tgz
+
+    #
+    # AddHandler allows you to map certain file extensions to "handlers":
+    # actions unrelated to filetype. These can be either built into the server
+    # or added with the Action directive (see below)
+    #
+    # To use CGI scripts outside of ScriptAliased directories:
+    # (You will also need to add "ExecCGI" to the "Options" directive.)
+    #
+    #AddHandler cgi-script .cgi
+
+    # For type maps (negotiated resources):
+    #AddHandler type-map var
+
+    #
+    # Filters allow you to process content before it is sent to the client.
+    #
+    # To parse .shtml files for server-side includes (SSI):
+    # (You will also need to add "Includes" to the "Options" directive.)
+    #
+    AddType text/html .shtml
+    AddOutputFilter INCLUDES .shtml
+</IfModule>
+
+#
+# Specify a default charset for all content served; this enables
+# interpretation of all content as UTF-8 by default.  To use the 
+# default browser choice (ISO-8859-1), or to allow the META tags
+# in HTML content to override this choice, comment out this
+# directive:
+#
+AddDefaultCharset UTF-8
+
+<IfModule mime_magic_module>
+    #
+    # The mod_mime_magic module allows the server to use various hints from the
+    # contents of the file itself to determine its type.  The MIMEMagicFile
+    # directive tells the module where the hint definitions are located.
+    #
+    MIMEMagicFile conf/magic
+</IfModule>
+
+#
+# Customizable error responses come in three flavors:
+# 1) plain text 2) local redirects 3) external redirects
+#
+# Some examples:
+#ErrorDocument 500 "The server made a boo boo."
+#ErrorDocument 404 /missing.html
+#ErrorDocument 404 "/cgi-bin/missing_handler.pl"
+#ErrorDocument 402 http://www.example.com/subscription_info.html
+#
+
+#
+# EnableMMAP and EnableSendfile: On systems that support it, 
+# memory-mapping or the sendfile syscall may be used to deliver
+# files.  This usually improves server performance, but must
+# be turned off when serving from networked-mounted 
+# filesystems or if support for these functions is otherwise
+# broken on your system.
+# Defaults if commented: EnableMMAP On, EnableSendfile Off
+#
+ExtendedStatus On
+#EnableMMAP off
+EnableSendfile on
+<Location /server-status>
+    SetHandler server-status
+    Order deny,allow
+    Deny from all
+    # Allow only ECU vlan and CCSAS
+    Allow from all
+    Allow from CGDCSSL1073UL 
+    Allow from 100.95.20.103
+    Allow from 169.2.108.102
+ </Location> 
+
+# Add an "Allow from" directive to provide access to the server status page.
+#
+# Examples:
+#
+# 1. Allow any client with hostname *.example.com to view the page.
+#
+# Allow from .example.com
+#
+# 2. Allow the local machine to view the page using the loopback address.
+#
+# Allow from 127.0.0.1
+#
+# 3. Allow any machine on the local network to view the page.
+#
+# Allow from 192.168.1
+#</Location>
+#</IfModule> 
+# Supplemental configuration
+#
+# Load config files in the "/etc/httpd/conf.d" directory, if any.
+IncludeOptional conf.d/*.conf
+]0;root@CGDCSSL1073UL:/etc/httpd[root@CGDCSSL1073UL httpd]# exit
+logout
+]0;hchada@CGDCSSL1073UL:~[hchada@CGDCSSL1073UL ~]$ exit
+logout
+Connection to syawscc closed.
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ 

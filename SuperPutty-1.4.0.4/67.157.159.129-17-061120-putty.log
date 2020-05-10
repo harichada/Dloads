@@ -1,0 +1,256 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.17 06:11:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Sun Nov 17 06:11:19 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1062UL:~[?1034h[hchada@CGDCSSL1062UL ~]$ [K[hchada@CGDCSSL1062UL ~]$ [K[hchada@CGDCSSL1062UL ~]$ sudo su -
+[sudo] password for hchada: 
+Last login: Thu Aug 15 14:07:08 PDT 2019 on pts/0
+]0;root@CGDCSSL1062UL:~[?1034h[root@CGDCSSL1062UL ~]# cd /etc/httpd
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# ls
+[0m[01;34mconf[0m  [01;34mconf.d[0m  [01;34mconf.modules.d[0m  [01;36mlogs[0m  [01;36mmodules[0m  [01;36mrun[0m  [01;34mssl[0m
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# ls ssl
+efsprod-new.crt  efsprod-new.key  prodefs.csr
+efsprod-new.csr  prodefs.crt      prodefs.key
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# ls -la
+total 32
+drwxr-xr-x.  6 root root  4096 Sep 22 08:43 [0m[01;34m.[0m
+drwxr-xr-x. 81 root root 12288 Nov 15 13:36 [01;34m..[0m
+drwxr-xr-x.  2 root root  4096 Sep 22 08:43 [01;34mconf[0m
+drwxr-xr-x.  2 root root  4096 Sep 22 08:43 [01;34mconf.d[0m
+drwxr-xr-x.  2 root root  4096 Sep 22 08:43 [01;34mconf.modules.d[0m
+lrwxrwxrwx.  1 root root    19 Sep 22 08:43 [01;36mlogs[0m -> [01;34m../../var/log/httpd[0m
+lrwxrwxrwx.  1 root root    29 Sep 22 08:43 [01;36mmodules[0m -> [01;34m../../usr/lib64/httpd/modules[0m
+lrwxrwxrwx.  1 root root    10 Sep 22 08:43 [01;36mrun[0m -> [01;34m/run/httpd[0m
+drwxr-xr-x.  2 root root  4096 Nov 17 06:23 [01;34mssl[0m
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# ls -la ssl
+total 32
+drwxr-xr-x. 2 root root 4096 Nov 17 06:23 [0m[01;34m.[0m
+drwxr-xr-x. 6 root root 4096 Sep 22 08:43 [01;34m..[0m
+-rw-r--r--. 1 root root  948 Nov 17 06:23 efsprod-new.crt
+-rw-r--r--. 1 root root  757 Nov 17 06:23 efsprod-new.csr
+-rw-------. 1 root root  916 Nov 17 06:23 efsprod-new.key
+-rw-r--r--. 1 root root  964 Apr 21  2019 prodefs.crt
+-rw-r--r--. 1 root root  769 Apr 21  2019 prodefs.csr
+-rw-------. 1 root root  916 Apr 21  2019 prodefs.key
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# sco[Kp *new* prodws2:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+root@prodws2's password: 
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# scp *new* prodws2:/tmphprodws2:/tmpcprodws2:/tmphprodws2:/tmpaprodws2:/tmpdprodws2:/tmpaprodws2:/tmp@prodws2:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+hchada@prodws2's password: 
+*new*: No such file or directory
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# ls
+[0m[01;34mconf[0m  [01;34mconf.d[0m  [01;34mconf.modules.d[0m  [01;36mlogs[0m  [01;36mmodules[0m  [01;36mrun[0m  [01;34mssl[0m
+]0;root@CGDCSSL1062UL:/etc/httpd[root@CGDCSSL1062UL httpd]# cd ssl
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# cd ssl[4Plsscp *new* hchada@prodws2:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+hchada@prodws2's password: 
+efsprod-new.crt                                 0%    0     0.0KB/s   --:-- ETAefsprod-new.crt                               100%  948     2.6MB/s   00:00    
+efsprod-new.csr                                 0%    0     0.0KB/s   --:-- ETAefsprod-new.csr                               100%  757     3.0MB/s   00:00    
+efsprod-new.key                                 0%    0     0.0KB/s   --:-- ETAefsprod-new.key                               100%  916     3.8MB/s   00:00    
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# ls
+efsprod-new.crt  efsprod-new.key  prodefs.csr
+efsprod-new.csr  prodefs.crt      prodefs.key
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# ls -la
+total 32
+drwxr-xr-x. 2 root root 4096 Nov 17 06:23 [0m[01;34m.[0m
+drwxr-xr-x. 6 root root 4096 Sep 22 08:43 [01;34m..[0m
+-rw-r--r--. 1 root root  948 Nov 17 06:23 efsprod-new.crt
+-rw-r--r--. 1 root root  757 Nov 17 06:23 efsprod-new.csr
+-rw-------. 1 root root  916 Nov 17 06:23 efsprod-new.key
+-rw-r--r--. 1 root root  964 Apr 21  2019 prodefs.crt
+-rw-r--r--. 1 root root  769 Apr 21  2019 prodefs.csr
+-rw-------. 1 root root  916 Apr 21  2019 prodefs.key
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# vi ../conf.d/ssl.conf
+[?1049h[?1h=[1;36r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[36;1H"../conf.d/ssl.conf" 227L, 9774C[1;1H#
+# When we also provide SSL we have to listen to the
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;35r[35;1H
+[1;36r[35;1HSSLRandomSeed startup file:/dev/urandom  256[36;1H[K[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLRandomSeed connect builtin[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLRandomSeed startup file:/dev/random  512[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLRandomSeed connect file:/dev/random  512[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLRandomSeed connect file:/dev/urandom 512[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# Use "SSLCryptoDevice" to enable any supported hardware[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# accelerators. Use "openssl engine -v" to list supported[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# engine names.  NOTE: If you enable an accelerator and the[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# server does not start, consult the error logs and ensure[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# your accelerator is functioning properly.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLCryptoDevice builtin[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLCryptoDevice ubsec[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H##[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H## SSL Virtual Host Context[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H##[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H<VirtualHost _default_:443>[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# General setup for the virtual host, inherited from global configuration[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#DocumentRoot "/var/www/html"[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#ServerName www.example.com:443[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# Use separate log files for the SSL virtual host; note that LogLevel[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# is not inherited from httpd.conf.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HErrorLog logs/ssl_error_log[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HTransferLog logs/ssl_access_log[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HLogLevel warn[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   SSL Engine Switch:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Enable/Disable SSL for this virtual host.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLEngine on[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   SSL Protocol support:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# List the enable protocol levels with which clients will be able to[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# connect.  Disable SSLv2 access by default:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLProtocol all -SSLv2 -SSLv3[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   SSL Cipher Suite:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   List the ciphers that the client is permitted to negotiate.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   See the mod_ssl documentation for a complete list.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Speed-optimized SSL Cipher configuration:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   If speed is your main concern (on busy HTTPS servers e.g.),[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   you might want to force clients to specific, performance[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   optimized ciphers. In this case, prepend those ciphers[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Caveat: by giving precedence to RC4-SHA and AES128-SHA[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   (as in the example below), most connections will no longer[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   have perfect forward secrecy - if the server's key is[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   compromised, captures of past or future traffic must be[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   considered compromised, too.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLHonorCipherOrder on[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Server Certificate:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# Point SSLCertificateFile at a PEM encoded certificate.  If[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# the certificate is encrypted, then you will be prompted for a[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# pass phrase.  Note that a kill -HUP will prompt again.  A new[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H# certificate can be generated using the genkey(1) command.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLCertificateFile /etc/httpd/ssl/prodefs.crt[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Server Private Key:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   If the key is not combined with the certificate, use this[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   directive to point at the key file.  Keep in mind that if[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   you've both a RSA and a DSA private key you can configure[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   both in parallel (to also allow the use of DSA ciphers, etc.)[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1HSSLCertificateKeyFile  /etc/httpd/ssl/prodefs.key[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Server Certificate Chain:[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Point SSLCertificateChainFile at a file containing the[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   concatenation of PEM encoded CA certificates which form the[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   certificate chain for the server certificate. Alternatively[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   the referenced file can be the same as SSLCertificateFile[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   when the CA certificates are directly appended to the server[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   certificate for convinience.[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Certificate Authority (CA):[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   Set the CA certificate verification path where to find CA[?12l[?25h[?25l[1;35r[35;1H
+[1;36r[35;1H#   certificates for client authentication or alternatively one[?12l[?25h[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1HSSLCertificateFile /etc/httpd/ssl[?25l[36;1H:[?12l[?25h%s/prodefs/efsprod-new/g[?25l[15;35Hefsprod-new.crt[22;39Hefsprod-new.key[?12l[?25h[?25l[36;1H[1m[37m[41mE78: Unknown mark[m[36;18H[K[22;1H[?12l[?25h[23C[?25l[36;1H[K[36;1H:[?12l[?25h/ew[?25l[36;4H[K[36;4H[?12l[?25h[?25l[36;3H[K[36;3H[?12l[?25hwq[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: wq[m[36;28H[K[22;24H[?12l[?25h[?25l[36;1H[K[36;1H:[?12l[?25hew[?25l[36;3H[K[36;3H[?12l[?25h[?25l[36;2H[K[36;2H[?12l[?25hwq[?25l"../conf.d/ssl.conf" 227L, 9782C written
+[?1l>[?12l[?25h[?1049l]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# vi ../conf.d/ssl.confls -la[K[Kscp *new* hchada@prodws2:/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ssl[Kscp *new* hchada@prodws2:/tmp^C
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# clear
+[3;J[H[2J]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# systemctl restart httpd
+]0;root@CGDCSSL1062UL:/etc/httpd/ssl[root@CGDCSSL1062UL ssl]# 

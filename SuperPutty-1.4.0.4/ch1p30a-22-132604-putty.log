@@ -1,0 +1,81 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.22 13:26:04 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Mon Oct 14 09:15:20 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct 22 13:23:33 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] ls
+0601b.txt                                         dprt                                              mkxcel2                                           pdrestartlog
+0701.txt                                          dumpdestcomms                                     mkxcel20121106                                    pdresuball
+0701b.txt                                         e2ecleanup                                        mkxcel20121217                                    pdrmjob
+10_23_18.txt                                      ebhc                                              mkxcel20130729                                    pdrmresub
+1201a.txt                                         error1127.log                                     mkxcel20131016                                    perqueue
+1201b.txt                                         findbad                                           mkxcel20140212                                    pingchk
+2301.txt                                          findheld                                          mkxcel2a                                          poo
+2701b.txt                                         findpdpr                                          mkxcel2b                                          porttest
+2901.txt                                          findpdpr.new                                      mkxcel2c                                          porttest.07052019
+2901b.txt                                         findrdd                                           mkxcel3                                           porttest2
+3101b.txt                                         fixclock                                          mkxcel33                                          porttest_LEX
+3401.txt                                          fixprt                                            mkxcel_5001                                       preup
+5801                                              fixusers                                          mkxcel_jay.back                                   printeracc
+6_1_17.txt                                        fst.users                                         mkxcel_new                                        printers.log
+Alameda.pdf                                       getprinted.sh                                     mkxcelcp                                          printout.sh
+Defect 354304 Central Print 2 syt11.pdf.filepart  hcraform.list3820                                 moveprinter.old                                   prints
+FS-ENF-028_0134511640-01_25c7ac25.pdf             ipmthreads                                        mysubmit                                          prstate
+FS-ENF-028_0970056784-01_b0d1ee34.pdf             itlogin.sh                                        newcreate                                         psmqprint
+Glenn.pdf                                         itmenu.sh                                         newtest                                           queuelist.txt
+Kings.pdf                                         itmenu.tar                                        nonotif                                           queuelist1.txt
+Nevada.pdf                                        jimloc                                            notifyme                                          queuemaillist
+Ridge.txt                                         jimresuball                                       notpro                                            queuemaillist.bak
+Trinity.pdf                                       jimtime                                           offhold                                           recphys
+Yolo.pdf                                          jobid.out                                         offpend                                           reprint
+acct                                              jobid.txt                                         olbt01.pdf                                        reset4308
+admhelp                                           jobstate                                          olbt02.pdf                                        reset4308.bak
+attrib                                            killtransprocs                                    olbt03.pdf                                        resetprt
+bytect                                            maillogs                                          olbt04.pdf                                        sample.afp
+ch1p30a_ports.xls                                 maillogs.06142019                                 olbt05.pdf                                        sample.pdf
+changeip                                          maillogstest                                      olbt06.pdf                                        sanber
+checkpio                                          mailtestipm                                       olbtS2CH1P30A.pdf                                 sendfile
+checkqueues.sh                                    mailtestjw                                        panel                                             servjobs
+checkscratch.sh                                   mailtestjw20130729                                pdallresub                                        shortpanel
+chkallprinters                                    maw.ps                                            pdchangedomain                                    showptia
+chkallprinters.original                           melon.ps                                          pdcleanvarpsm                                     skeleton
+chkprt                                            micro                                             pddisablelp                                       spool-culprit
+chport                                            mkfstusers                                        pdfindbigjob                                      spoolchk
+chprcom                                           mktest                                            pdgroup                                           stanislaus
+chprdom                                           mkxcel                                            pdhelpgroup                                       star.afp
+cleanup                                           mkxcel.06282019                                   pdhelpungroup                                     star.ps
+cse16suv01,3801pa02]                              mkxcel.07052019                                   pdipmcore                                         temp
+delown.pl                                         mkxcel.4252018                                    pdlastprint                                       testspool.ksh
+destinations.txt                                  mkxcel.bak20131016                                pdpingprt                                         timex.out
+doacct                                            mkxcel04072016                                    pdqlist                                           topcpu
+ankcseprda18[/ipm/south] ls -lagrt * .pdf     .pdf
+-rw-rw-r--    1 printq         3301 May 23 2007  sample.pdf
+-rw-rw-r--    1 printq        11050 Apr 19 2011  olbt01.pdf
+-rw-rw-r--    1 printq        11050 Apr 19 2011  olbtS2CH1P30A.pdf
+-rw-rw-r--    1 printq        11050 May 03 2011  olbt02.pdf
+-rw-rw-r--    1 printq        11050 May 03 2011  olbt03.pdf
+-rw-rw-r--    1 printq        11050 May 04 2011  olbt04.pdf
+-rwxrwxrwx    1 other         22948 Aug 16 2013  Trinity.pdf
+-rwxrwxrwx    1 other         24204 Aug 16 2013  Yolo.pdf
+-rwxrwxrwx    1 other         20121 Aug 19 2013  Alameda.pdf
+-rwxrwxrwx    1 other         25184 Aug 19 2013  Nevada.pdf
+-rwxrwxrwx    1 other         28594 Aug 19 2013  Kings.pdf
+-rwxrwxrwx    1 other         25866 Aug 19 2013  Glenn.pdf
+-rw-r-----    1 printq        11050 Nov 30 2016  olbt05.pdf
+-rw-rw-r--    1 printq       155683 Jan 03 2018  FS-ENF-028_0970056784-01_b0d1ee34.pdf
+-rw-rw-r--    1 printq       155694 Jan 03 2018  FS-ENF-028_0134511640-01_25c7ac25.pdf
+-rw-rw-r--    1 printq        52711 Jan 09 2018  olbt06.pdf
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

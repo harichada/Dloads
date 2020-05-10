@@ -1,0 +1,144 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 11:11:28 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Aug 28 13:30:18 PDT 2019 on ssh
+Last login: Wed Sep 25 11:11:00 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+hchada    Password Expires in 44 days
+ankcsepf1a06[/home/hchada]$ cd /cse/batch
+ankcsepf1a06[/cse/batch]$ ls
+PFT09_Batch_AP021_01  PFT09_Batch_AP021_02  PFT09_Batch_Cluster   dumps
+ankcsepf1a06[/cse/batch]$ cd PFT09 _Batch _AP021 _01
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01]$ cd logs
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/logs]$ ls -lagrt
+total 179712
+-rw-rw-r--    1 cseadmin         48 Mar 20 2018  SystemOut.log.owner
+-rw-rw-r--    1 cseadmin         48 Mar 20 2018  SystemErr.log.owner
+drwxrwsrwx    5 cseadmin       4096 May 01 2018  ..
+-rw-rw-r--    1 cseadmin          0 Jul 02 08:24 SystemOut_19.05.20_14.50.26.log
+-rw-rw-r--    1 cseadmin          0 Jul 02 08:24 SystemOut_19.06.18_10.31.43.log
+-rw-rw-r--    1 cseadmin   20963959 Jul 23 08:44 SystemOut_19.07.23_08.44.05.log
+-rw-rw-r--    1 cseadmin   20967487 Sep 03 09:24 SystemOut_19.09.03_09.24.42.log
+-rw-rw-r--    1 cseadmin   20971502 Sep 20 00:13 SystemOut_19.09.20_00.13.05.log
+drwxr-sr-x    2 cseadmin       4096 Sep 20 00:13 .
+-rw-rw-r--    1 cseadmin    7551949 Sep 24 06:30 SystemErr.log
+-rwxrwxrwx    1 cseadmin          0 Sep 25 00:00 native_stdout.log
+-rw-rw-r--    1 cseadmin    3833234 Sep 25 10:46 SystemOut.log
+-rwxrwxrwx    1 cseadmin   17654912 Sep 25 11:10 native_stderr.log
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/logs]$ tail -f SystemOut.log
+[9/25/19 10:41:07:009 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:41:24:579 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:24:632 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:24:677 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:24:723 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:27:662 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:27:709 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:27:758 PDT] 000017d3 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:41:27:804 PDT] 000017d7 WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:46:36:334 PDT] 000017e5 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/PFT09_Batch_AP021_01_e727153e_19.09.25_10.46.36.3292285379838333992031.txt com.ibm.ws.management.connector.soap.SOAPUtils.extractSoapCall 157
+
+
+
+[9/25/19 11:17:49:042 PDT] 00000bd4 SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURECompletedBatchesDownloadTaskStep.java:141)
+        at gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:974)
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.FinalSECURECompletedBatchesDownloadTaskStep.setup(FinalSECURECompletedBatchesDownloadTaskStep.java:134)
+        ... 21 more
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more
+[9/25/19 11:25:41:128 PDT] 0000160b SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUREBatchesTaskStep.java:160)
+        at gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:974)
+        at gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUREBatchesTaskStep.java:153)
+        ... 21 more
+Caused by: 
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more

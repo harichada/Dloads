@@ -1,0 +1,280 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.31 09:15:29 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Apr 29 10:50:42 PDT 2019 on ssh from 134.187.119.107
+Last login: Thu Oct 31 08:00:27 PDT 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2d01[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2621440   1763136   33%    15316     8% /
+/dev/hd2        15204352   1745848   89%    93023    31% /usr
+/dev/hd9var      6291456   2050800   68%    12501     6% /var
+/dev/hd3         8388608   6648312   21%      519     1% /tmp
+/dev/hd1        11534336   6744192   42%    10056     2% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     8388608   6798464   19%     5411     1% /opt
+/dev/home_hw     1048576    582400   45%      492     1% /home/hw
+/dev/mksysb     33554432  13994240   59%       53     1% /mksysb
+/dev/savevg       524288    516200    2%       65     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    438136   17%      632     2% /usr/local
+/dev/nmdb2lv     8388608   7456768   12%       51     1% /db2/NMDB2
+/dev/optIBMdb2lv   21856256    422136   99%    38968    28% /opt/IBM/db2
+/dev/db2dba_lv    6291456    802344   88%    30471    13% /db2_dba
+/dev/db2homelvX   19922944     15488  100%     5894    30% /db2homeX
+/dev/db2homelv   30408704  10160936   67%     6074     1% /db2home
+/dev/db2templv    2097152   2079792    1%        4     1% /db2temp
+/dev/db2adminlv    2097152   2079792    1%        4     1% /db2admin
+/dev/db2backldap    2097152   2079792    1%        5     1% /db2backup_ldapdb2
+/dev/db2back_tws   12582912  12387096    2%        7     1% /db2backup_insttws8
+/dev/db2backptcmlv   12582912  12531184    1%        4     1% /db2backup_instptcm
+/dev/db2datastagel   96468992  81455392   16%     1993     1% /db2data_stage
+/dev/db2datamgrtlv 11995709440 1077852872   92%    39471     1% /db2data_migrate
+/dev/db2logldaplv    2097152   2079792    1%        4     1% /db2log_ldapdb2
+/dev/db2log_tws    2097152   1446288   32%       88     1% /db2log_insttws8
+/dev/db2logptcmlv    2097152   1046568   51%       83     1% /db2log_instptcm
+/dev/db2log_hypr    2097152   1403504   34%       20     1% /db2log_insthypr
+/dev/db2logpt02lv  102760448  68741352   34%       43     1% /db2log_instpt02
+/dev/db2logpt06lv   33554432  31017016    8%       38     1% /db2log_instptld
+/dev/db2logpt04lv   46137344  45750824    1%       34     1% /db2log_instptad
+/dev/fixeslv     1835008   1819736    1%        4     1% /fixes
+/dev/finalistlv   12058624   5572856   54%      357     1% /finalist
+/dev/poldir_lv    1048576    947416   10%       25     1% /var/PolicyDirector
+/dev/websphr_lv    2097152   2079712    1%       10     1% /usr/WebSphere
+/dev/p02a_cselv   10485760   1345328   88%     8525     3% /cp1p02a/cse
+/dev/IBMHttpSvlv     262144    257352    2%        4     1% /usr/IBMHttpServer
+/dev/hyptranslv    2097152   2079792    1%        4     1% /ap022_hyperion_transient
+/dev/ldap_lv01    8388608   4188528   51%     3589     1% /home/ldapdb2
+/dev/cse_lv       262144    257280    2%       10     1% /cse
+/dev/adobeES3GDSlv   12582912  12440216    2%      170     1% /adobeES3GDS
+/dev/db2cmv8_lv    4194304    782400   82%    14607    15% /opt/IBM/db2cmv8
+/dev/tamBackup   16777216   5735672   66%     2950     1% /tamBackup
+/dev/cpos_01_lv   68419584  67790936    1%     1179     1% /cpos
+/dev/pdf2afp_lv   38797312  38481960    1%     1715     1% /pdf2afp
+/dev/p05a_cse    6291456   1387616   78%     5740     4% /cp1p05a/cse
+/dev/cm_lv        262144    257288    2%       12     1% /cm
+/dev/db2diagptcmlv    2097152    796840   63%       46     1% /db2diag_instptcm
+/dev/db2diag_hypr    2097152   1387184   34%       29     1% /db2diag_insthypr
+/dev/db2diagpt02lv    6291456   3292936   48%      102     1% /db2diag_instpt02
+/dev/db2diagpt06lv    2097152   1038480   51%       32     1% /db2diag_instptld
+/dev/db2diagldaplv    2097152   2079792    1%        4     1% /db2diag_ldapdb2
+/dev/db2diagpt04lv    2097152   1761072   17%       87     1% /db2diag_instptad
+/dev/db2diag_tws    2097152   1379728   35%       41     1% /db2diag_insttws8
+/dev/db2data_tws    4194304   4100464    3%      187     1% /db2data_insttws8
+/dev/db2databatc   58720256  42605432   28%    11166     1% /db2data_batch
+/dev/db2data_hup    8388608   8345112    1%       24     1% /db2data_insthypr
+/dev/db2dataptcm   20971520  16564632   22%      805     1% /db2data_instptcm
+/dev/db2datapt04lv   11534336   8783960   24%       50     1% /db2data_instptad
+/dev/db2archptcmlv    4194304   4176560    1%       13     1% /db2arch_instptcm
+/dev/db2arch_hypr    4194304   4176624    1%        4     1% /db2arch_insthypr
+/dev/db2archldaplv    4194304   4176624    1%        4     1% /db2arch_ldapdb2
+/dev/db2archpt02lv   14680064  14609720    1%       17     1% /db2arch_instpt02
+/dev/db2archpt04lv   14680064  12729848   14%      309     1% /db2arch_instptad
+/dev/db2arch_tws    2097152   1029072   51%      140     1% /db2arch_insttws8
+/dev/db2archpt06lv   10485760  10442544    1%        4     1% /db2arch_instptld
+/dev/arclt001lv  100663296 100254112    1%        4     1% /cm/archivelt001
+/dev/archive001lv  144703488 141572136    3%     7021     1% /cm/archive/001
+/dev/cminstalllv    4194304   4176624    1%        4     1% /CMInstall
+/dev/cmlbosdata1lv    8388608   8353760    1%        9     1% /cmlbosdata1
+/dev/active001lv   20824064  20358192    3%     3563     1% /cm/active/001
+/dev/drArchive001l   39845888  12989704   68%     3407     1% /cm/drArchive/001
+/dev/cmedocs    41943040  41748704    1%     1321     1% /cm/eDocs
+/dev/optpoldirlv    1048576    979648    7%      217     1% /opt/PolicyDirector
+/dev/optIBMldaplv    4194304   2751992   35%     6091     2% /opt/IBM/ldap
+/dev/scratchlv   16777216   9494744   44%     1400     1% /scratch
+/dev/auditlv     4194304   3919192    7%        7     1% /opt/auditout
+/dev/websealloglv    2097152   2079792    1%        4     1% /webseal_log
+/dev/hypertranslv    2097152   2079792    1%        4     1% /pft02_hyperion_transient
+/dev/db2datapd01lv  984612864  83220704   92%      467     1% /db2data_instpd_01
+/dev/db2datapd02lv  984612864  83225112   92%      454     1% /db2data_instpd_02
+/dev/db2datapd03lv  984612864  83209848   92%      475     1% /db2data_instpd_03
+/dev/db2datapd04lv  984612864  83206512   92%      483     1% /db2data_instpd_04
+/dev/db2datapd05lv  984612864  83206304   92%      482     1% /db2data_instpd_05
+/dev/db2datapd06lv  984612864  83211104   92%      490     1% /db2data_instpd_06
+/dev/db2datapd07lv  984612864  83211528   92%      480     1% /db2data_instpd_07
+/dev/db2datapd08lv  984612864  83209600   92%      474     1% /db2data_instpd_08
+/dev/db2datapd09lv  984612864  83208040   92%      482     1% /db2data_instpd_09
+/dev/db2datapd10lv  984612864  83207624   92%      476     1% /db2data_instpd_10
+/dev/db2datapd11lv  984612864  83208336   92%      480     1% /db2data_instpd_11
+/dev/db2datapd12lv  984612864  83206456   92%      483     1% /db2data_instpd_12
+/dev/db2datapd13lv  984612864  83209384   92%      488     1% /db2data_instpd_13
+/dev/db2datapd14lv  984612864  83205104   92%      485     1% /db2data_instpd_14
+/dev/db2datapd15lv  984612864  83207336   92%      492     1% /db2data_instpd_15
+/dev/db2datapd16lv  984612864  83209304   92%      480     1% /db2data_instpd_16
+/dev/db2datapd17lv  984612864  83212104   92%      473     1% /db2data_instpd_17
+/dev/db2datapd18lv  984612864  83214768   92%      469     1% /db2data_instpd_18
+/dev/db2datapd19lv  984612864  83210392   92%      467     1% /db2data_instpd_19
+/dev/db2datapd20lv  984612864  83204424   92%      465     1% /db2data_instpd_20
+/dev/db2datapd21lv  984612864  83204128   92%      477     1% /db2data_instpd_21
+/dev/db2datapd22lv  984612864  83207640   92%      471     1% /db2data_instpd_22
+/dev/db2datapd23lv  984612864  83205392   92%      476     1% /db2data_instpd_23
+/dev/db2datapd24lv  984612864  83213560   92%      471     1% /db2data_instpd_24
+/dev/db2datapd25lv  984612864  83216496   92%      472     1% /db2data_instpd_25
+/dev/db2datapd26lv  984612864  88917008   91%      405     1% /db2data_instpd_26
+/dev/docstoragelv    8388608   7447560   12%     2758     1% /docstorage
+/dev/db2instptvllv    4194304   3773920   11%      264     1% /db2log_instptvl
+/dev/db2arcptvllv    4194304   2782680   34%     1263     1% /db2arch_instptvl
+/dev/db2diagvllv    4194304   3548440   16%       24     1% /db2diag_instptvl
+/dev/db2datapdvl01lv   52428800  50218288    5%      274     1% /db2data_instpdvl_01
+/dev/db2datapdvl02lv   52428800  50219080    5%      296     1% /db2data_instpdvl_02
+/dev/CommVaultlv   20971520  19493160    8%     1665     1% /CommVault
+/dev/CommVaultdblv   31227904  31099552    1%        6     1% /CommVault/DB2
+/dev/livedump     524288    519456    1%        4     1% /var/adm/ras/livedump
+/dev/db2datapdcmlv  901775360 900588584    1%        4     1% /db2data_instpdcm
+/dev/FromCSElv    1048576   1039504    1%        8     1% /FromCSE
+/dev/ToCSElv     1048576    987480    6%       23     1% /ToCSE
+/dev/logslv      2097152   2078936    1%        9     1% /var/adm/logs
+/dev/hd11admin     524288    523488    1%        7     1% /admin
+/dev/db2auditlv 1047527424 191516440   82%   145625     1% /db2audit
+/dev/informaticalv    2097152   1067008   50%      626     1% /informatica
+ankcsepf1d02:/swstage   283115520  22815376   92%    83293     3% /swstage
+ankcsesytd01:/db2work   184549376  24787240   87%    69467     3% /db2work
+/dev/itmlv       6291456   4744696   25%     3992     1% /opt/IBM/ITM
+ankcsepf2d01[/home/cseadmin]$ df | grep 100
+/dev/hd1        11534336   6744192   42%    10056     2% /home
+/dev/db2homelvX   19922944     15488  100%     5894    30% /db2homeX
+/dev/db2data_tws    4194304   4100464    3%      187     1% /db2data_insttws8
+/dev/arclt001lv  100663296 100254112    1%        4     1% /cm/archivelt001
+ankcsepf2d01[/home/cseadmin]$ df -h
+df: Not a recognized flag: h
+Usage: df  [-P] | [-IMitv] [-gkm] [-s] [filesystem ...] [file ...]
+ankcsepf2d01[/home/cseadmin]$ df -g
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4           1.25      0.84   33%    15316     8% /
+/dev/hd2           7.25      0.83   89%    93023    31% /usr
+/dev/hd9var        3.00      0.98   68%    12501     6% /var
+/dev/hd3           4.00      3.17   21%      519     1% /tmp
+/dev/hd1           5.50      3.22   42%    10056     2% /home
+/proc                 -         -    -        -      - /proc
+/dev/hd10opt       4.00      3.24   19%     5411     1% /opt
+/dev/home_hw       0.50      0.28   45%      492     1% /home/hw
+/dev/mksysb       16.00      6.67   59%       53     1% /mksysb
+/dev/savevg        0.25      0.25    2%       65     1% /savevg
+/dev/dumpcopy      0.50      0.50    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local      0.25      0.21   17%      632     2% /usr/local
+/dev/nmdb2lv       4.00      3.56   12%       51     1% /db2/NMDB2
+/dev/optIBMdb2lv     10.42      0.20   99%    38968    28% /opt/IBM/db2
+/dev/db2dba_lv      3.00      0.38   88%    30471    13% /db2_dba
+/dev/db2homelvX      9.50      0.01  100%     5894    30% /db2homeX
+/dev/db2homelv     14.50      4.85   67%     6074     1% /db2home
+/dev/db2templv      1.00      0.99    1%        4     1% /db2temp
+/dev/db2adminlv      1.00      0.99    1%        4     1% /db2admin
+/dev/db2backldap      1.00      0.99    1%        5     1% /db2backup_ldapdb2
+/dev/db2back_tws      6.00      5.91    2%        7     1% /db2backup_insttws8
+/dev/db2backptcmlv      6.00      5.98    1%        4     1% /db2backup_instptcm
+/dev/db2datastagel     46.00     38.84   16%     1993     1% /db2data_stage
+/dev/db2datamgrtlv   5720.00    513.96   92%    39471     1% /db2data_migrate
+/dev/db2logldaplv      1.00      0.99    1%        4     1% /db2log_ldapdb2
+/dev/db2log_tws      1.00      0.69   32%       88     1% /db2log_insttws8
+/dev/db2logptcmlv      1.00      0.50   51%       83     1% /db2log_instptcm
+/dev/db2log_hypr      1.00      0.67   34%       20     1% /db2log_insthypr
+/dev/db2logpt02lv     49.00     32.78   34%       43     1% /db2log_instpt02
+/dev/db2logpt06lv     16.00     14.79    8%       38     1% /db2log_instptld
+/dev/db2logpt04lv     22.00     21.82    1%       34     1% /db2log_instptad
+/dev/fixeslv       0.88      0.87    1%        4     1% /fixes
+/dev/finalistlv      5.75      2.66   54%      357     1% /finalist
+/dev/poldir_lv      0.50      0.45   10%       25     1% /var/PolicyDirector
+/dev/websphr_lv      1.00      0.99    1%       10     1% /usr/WebSphere
+/dev/p02a_cselv      5.00      0.64   88%     8525     3% /cp1p02a/cse
+/dev/IBMHttpSvlv      0.12      0.12    2%        4     1% /usr/IBMHttpServer
+/dev/hyptranslv      1.00      0.99    1%        4     1% /ap022_hyperion_transient
+/dev/ldap_lv01      4.00      2.00   51%     3589     1% /home/ldapdb2
+/dev/cse_lv        0.12      0.12    2%       10     1% /cse
+/dev/adobeES3GDSlv      6.00      5.93    2%      190     1% /adobeES3GDS
+/dev/db2cmv8_lv      2.00      0.37   82%    14607    15% /opt/IBM/db2cmv8
+/dev/tamBackup      8.00      2.73   66%     2950     1% /tamBackup
+/dev/cpos_01_lv     32.62     32.33    1%     1177     1% /cpos
+/dev/pdf2afp_lv     18.50     18.35    1%     1716     1% /pdf2afp
+/dev/p05a_cse      3.00      0.66   79%     5741     4% /cp1p05a/cse
+/dev/cm_lv         0.12      0.12    2%       12     1% /cm
+/dev/db2diagptcmlv      1.00      0.38   63%       46     1% /db2diag_instptcm
+/dev/db2diag_hypr      1.00      0.66   34%       29     1% /db2diag_insthypr
+/dev/db2diagpt02lv      3.00      1.57   48%      102     1% /db2diag_instpt02
+/dev/db2diagpt06lv      1.00      0.50   51%       32     1% /db2diag_instptld
+/dev/db2diagldaplv      1.00      0.99    1%        4     1% /db2diag_ldapdb2
+/dev/db2diagpt04lv      1.00      0.84   17%       87     1% /db2diag_instptad
+/dev/db2diag_tws      1.00      0.66   35%       41     1% /db2diag_insttws8
+/dev/db2data_tws      2.00      1.96    3%      187     1% /db2data_insttws8
+/dev/db2databatc     28.00     20.32   28%    11163     1% /db2data_batch
+/dev/db2data_hup      4.00      3.98    1%       24     1% /db2data_insthypr
+/dev/db2dataptcm     10.00      7.90   22%      805     1% /db2data_instptcm
+/dev/db2datapt04lv      5.50      4.19   24%       50     1% /db2data_instptad
+/dev/db2archptcmlv      2.00      1.99    1%       13     1% /db2arch_instptcm
+/dev/db2arch_hypr      2.00      1.99    1%        4     1% /db2arch_insthypr
+/dev/db2archldaplv      2.00      1.99    1%        4     1% /db2arch_ldapdb2
+/dev/db2archpt02lv      7.00      6.97    1%       17     1% /db2arch_instpt02
+/dev/db2archpt04lv      7.00      6.07   14%      309     1% /db2arch_instptad
+/dev/db2arch_tws      1.00      0.49   51%      140     1% /db2arch_insttws8
+/dev/db2archpt06lv      5.00      4.98    1%        4     1% /db2arch_instptld
+/dev/arclt001lv     48.00     47.80    1%        4     1% /cm/archivelt001
+/dev/archive001lv     69.00     67.51    3%     7054     1% /cm/archive/001
+/dev/cminstalllv      2.00      1.99    1%        4     1% /CMInstall
+/dev/cmlbosdata1lv      4.00      3.98    1%        9     1% /cmlbosdata1
+/dev/active001lv      9.93      9.71    3%     3580     1% /cm/active/001
+/dev/drArchive001l     19.00      6.19   68%     3407     1% /cm/drArchive/001
+/dev/cmedocs      20.00     19.91    1%     1321     1% /cm/eDocs
+/dev/optpoldirlv      0.50      0.47    7%      217     1% /opt/PolicyDirector
+/dev/optIBMldaplv      2.00      1.31   35%     6091     2% /opt/IBM/ldap
+/dev/scratchlv      8.00      4.53   44%     1400     1% /scratch
+/dev/auditlv       2.00      1.87    7%        7     1% /opt/auditout
+/dev/websealloglv      1.00      0.99    1%        4     1% /webseal_log
+/dev/hypertranslv      1.00      0.99    1%        4     1% /pft02_hyperion_transient
+/dev/db2datapd01lv    469.50     39.68   92%      468     1% /db2data_instpd_01
+/dev/db2datapd02lv    469.50     39.68   92%      454     1% /db2data_instpd_02
+/dev/db2datapd03lv    469.50     39.68   92%      475     1% /db2data_instpd_03
+/dev/db2datapd04lv    469.50     39.68   92%      483     1% /db2data_instpd_04
+/dev/db2datapd05lv    469.50     39.68   92%      482     1% /db2data_instpd_05
+/dev/db2datapd06lv    469.50     39.68   92%      490     1% /db2data_instpd_06
+/dev/db2datapd07lv    469.50     39.68   92%      480     1% /db2data_instpd_07
+/dev/db2datapd08lv    469.50     39.68   92%      474     1% /db2data_instpd_08
+/dev/db2datapd09lv    469.50     39.68   92%      482     1% /db2data_instpd_09
+/dev/db2datapd10lv    469.50     39.68   92%      476     1% /db2data_instpd_10
+/dev/db2datapd11lv    469.50     39.68   92%      480     1% /db2data_instpd_11
+/dev/db2datapd12lv    469.50     39.68   92%      483     1% /db2data_instpd_12
+/dev/db2datapd13lv    469.50     39.68   92%      488     1% /db2data_instpd_13
+/dev/db2datapd14lv    469.50     39.68   92%      485     1% /db2data_instpd_14
+/dev/db2datapd15lv    469.50     39.68   92%      492     1% /db2data_instpd_15
+/dev/db2datapd16lv    469.50     39.68   92%      480     1% /db2data_instpd_16
+/dev/db2datapd17lv    469.50     39.68   92%      473     1% /db2data_instpd_17
+/dev/db2datapd18lv    469.50     39.68   92%      469     1% /db2data_instpd_18
+/dev/db2datapd19lv    469.50     39.68   92%      467     1% /db2data_instpd_19
+/dev/db2datapd20lv    469.50     39.67   92%      465     1% /db2data_instpd_20
+/dev/db2datapd21lv    469.50     39.67   92%      477     1% /db2data_instpd_21
+/dev/db2datapd22lv    469.50     39.68   92%      471     1% /db2data_instpd_22
+/dev/db2datapd23lv    469.50     39.68   92%      476     1% /db2data_instpd_23
+/dev/db2datapd24lv    469.50     39.68   92%      471     1% /db2data_instpd_24
+/dev/db2datapd25lv    469.50     39.68   92%      472     1% /db2data_instpd_25
+/dev/db2datapd26lv    469.50     42.40   91%      405     1% /db2data_instpd_26
+/dev/docstoragelv      4.00      3.55   12%     2758     1% /docstorage
+/dev/db2instptvllv      2.00      1.80   11%      264     1% /db2log_instptvl
+/dev/db2arcptvllv      2.00      1.33   34%     1263     1% /db2arch_instptvl
+/dev/db2diagvllv      2.00      1.69   16%       24     1% /db2diag_instptvl
+/dev/db2datapdvl01lv     25.00     23.95    5%      274     1% /db2data_instpdvl_01
+/dev/db2datapdvl02lv     25.00     23.95    5%      296     1% /db2data_instpdvl_02
+/dev/CommVaultlv     10.00      9.30    8%     1665     1% /CommVault
+/dev/CommVaultdblv     14.89     14.83    1%        6     1% /CommVault/DB2
+/dev/livedump      0.25      0.25    1%        4     1% /var/adm/ras/livedump
+/dev/db2datapdcmlv    430.00    429.43    1%        4     1% /db2data_instpdcm
+/dev/FromCSElv      0.50      0.50    1%        8     1% /FromCSE
+/dev/ToCSElv       0.50      0.47    6%       23     1% /ToCSE
+/dev/logslv        1.00      0.99    1%        9     1% /var/adm/logs
+/dev/hd11admin      0.25      0.25    1%        7     1% /admin
+/dev/db2auditlv    499.50     91.32   82%   145625     1% /db2audit
+/dev/informaticalv      1.00      0.51   50%      626     1% /informatica
+ankcsepf1d02:/swstage     135.00     10.88   92%    83293     3% /swstage
+ankcsesytd01:/db2work      88.00     11.82   87%    69467     3% /db2work
+/dev/itmlv         3.00      2.26   25%     3992     1% /opt/IBM/ITM
+ankcsepf2d01[/home/cseadmin]$ ls -lad /db2homeX
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  /db2homeX
+ankcsepf2d01[/home/cseadmin]$ id
+uid=103956(cseadmin) gid=900(cseadmin) groups=1(staff),902(csebatch),911(csemon),927(csela),1071(pftbatch)
+ankcsepf2d01[/home/cseadmin]$ exit

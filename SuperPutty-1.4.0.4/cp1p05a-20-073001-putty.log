@@ -1,0 +1,38 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 07:30:01 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Fri Sep 20 07:29:08 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 19 10:05:54 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+ankcsepf2a05[/home/hchada]$ cd /cse/batch
+ankcsepf2a05[/cse/batch]$ sudo su - wasadmin
+Password:
+[YOU HAVE NEW MAIL]
+ankcsepf2a05[/home/wasadmin]$ cd /cse/batch/TEAM05*
+ksh: /cse/batch/TEAM05*:  not found.
+ankcsepf2a05[/home/wasadmin]$ cd    cd /cse/batch
+ankcsepf2a05[/cse/batch]$ ls
+PFT02_Batch_Cluster  PFT02_Batch_p05a_01  deploy.log           fmsproperties_PFT02  gpgproperties_PFT02
+ankcsepf2a05[/cse/batch]$ exit
+ankcsepf2a05[/cse/batch]$ exit

@@ -1,0 +1,1106 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.09 14:53:41 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Mar 21 15:25:53 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct  9 14:18:51 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda01[/home/cseadmin]$ cd /tmp
+ankcseprda01[/tmp]$ ls
+AdobeDocumentStorage    daily_log-tmp.txt       errpt_out2.txt          mksysb-status.txt       savevg_4patrol.status
+BES                     daily_log.txt           fslst1.txt              mksysb.56885418         scriptlist.txt
+IRS                     db2setup.log            fslst2.txt              mksysb_4patrol.status   showerrpt
+Jetty__2111__           defunct_procs           inutmpgn1Maa            niflogs                 sshivama
+SolarWinds              devsave                 javasharedresources     objrepos                test
+bigfix                  dpi_socket              jcore.lst.old           osgi_instance_location  tlist.txt
+bos                     error_rpt.txt           locks                   perf71                  vgdata
+ciclogs_khealy          error_rpt1.txt          lost+found              perf_backups
+comptrace_dir           errpt_out.txt           lvmt.log                perfdata
+crontabs                errpt_out1.txt          mem_details_dir         pmcfg.out
+ankcseprda01[/tmp]$ ls -lagrt
+total 472
+drwx------    2 system          256 Jan 13 2018  inutmpgn1Maa
+drwxrwxr-x    3 cseadmin        256 Jan 14 2018  AdobeDocumentStorage
+drwx------    2 system          256 Jan 15 2018  .workdir.17498354.19595418_1
+drwxr-xr-x    6 system          256 Jan 15 2018  bos
+drwx------    2 system          256 Apr 11 2018  comptrace_dir
+drwx------    2 system          256 Apr 11 2018  crontabs
+drwx------    2 system          256 Apr 11 2018  mem_details_dir
+drwx------    2 system          256 Apr 11 2018  objrepos
+drwx------    6 system          256 Apr 14 2018  perfdata
+drwx------    6 system          256 Apr 16 2018  perf71
+drwxr-xr-x    2 system          256 May 16 2018  IRS
+drwx------    2 system          256 Jul 23 2018  .workdir.5898442.5636260_1
+drwx------    2 system          256 Jul 23 2018  .workdir.6488206.5636178_1
+drwxr-xr-x    2 system          256 Jul 23 2018  devsave
+drwxr-x---    3 system          256 Oct 19 2018  osgi_instance_location
+drwxr-x---    2 system          256 Oct 20 2018  niflogs
+drwxr-x---    2 staff           256 Nov 02 2018  ciclogs_khealy
+drwx------    2 system          256 Dec 20 2018  mksysb.56885418
+drwx------    3 system          256 Mar 16 2019  SolarWinds
+drwx------    2 system          256 May 06 17:04 bigfix
+drwxr-xr-x    2 wasadmin        256 May 24 03:10 test
+drwx------    3 system          256 Jun 21 16:37 sshivama
+drwx------    2 system          256 Jun 23 08:48 lost+found
+lrwxrwxrwx    1 other            28 Jun 23 08:51 db2setup.log
+srwxrwxrwx    1 system            0 Jun 23 09:13 dpi_socket
+drwxr-x---    3 other           256 Jun 23 09:14 Jetty__2111__
+drwx------    3 system          256 Jun 23 09:14 BES
+drwxrwxrwx    2 wasadmin        256 Sep 24 03:10 javasharedresources
+drwxr-xr-x   59 system         8192 Oct 03 08:27 ..
+drwxrwxr-x    2 cvadmin         256 Oct 03 08:27 locks
+-rw-r-----    1 wasadmin          0 Oct 08 05:00 jcore.lst.old
+-rw-------    1 system          320 Oct 08 08:34 tlist.txt
+-rw-------    1 system           88 Oct 08 08:34 scriptlist.txt
+drwx------    4 system          256 Oct 08 19:00 vgdata
+-rw-------    1 system           31 Oct 08 19:00 savevg_4patrol.status
+-rw-------    1 system           31 Oct 08 19:04 mksysb_4patrol.status
+drwxrwxrwt    7 wasadmin       4096 Oct 09 03:10 .com_ibm_tools_attach
+-rw-------    1 system            0 Oct 09 05:00 daily_log.txt
+-rw-------    1 system            0 Oct 09 05:00 daily_log-tmp.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst1.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst2.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out1.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out2.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt1.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt.txt
+-rw-------    1 system            0 Oct 09 05:21 mksysb-status.txt
+-rw-r--r--    1 system            0 Oct 09 05:57 pmcfg.out
+-rw-r-----    1 cseadmin          0 Oct 09 08:00 showerrpt
+-rw-------    1 system           18 Oct 09 08:39 defunct_procs
+drwx------    3 system          256 Oct 09 11:26 perf_backups
+drwxr-xr-x    2 system          256 Oct 09 14:53 .oslevel.datafiles
+-rw-r--r--    1 system       204800 Oct 09 14:53 lvmt.log
+drwxrwxrwt   33 bin            4096 Oct 09 14:53 .
+ankcseprda01[/tmp]$ ls -lagrt
+total 472
+drwx------    2 system          256 Jan 13 2018  inutmpgn1Maa
+drwxrwxr-x    3 cseadmin        256 Jan 14 2018  AdobeDocumentStorage
+drwx------    2 system          256 Jan 15 2018  .workdir.17498354.19595418_1
+drwxr-xr-x    6 system          256 Jan 15 2018  bos
+drwx------    2 system          256 Apr 11 2018  comptrace_dir
+drwx------    2 system          256 Apr 11 2018  crontabs
+drwx------    2 system          256 Apr 11 2018  mem_details_dir
+drwx------    2 system          256 Apr 11 2018  objrepos
+drwx------    6 system          256 Apr 14 2018  perfdata
+drwx------    6 system          256 Apr 16 2018  perf71
+drwxr-xr-x    2 system          256 May 16 2018  IRS
+drwx------    2 system          256 Jul 23 2018  .workdir.5898442.5636260_1
+drwx------    2 system          256 Jul 23 2018  .workdir.6488206.5636178_1
+drwxr-xr-x    2 system          256 Jul 23 2018  devsave
+drwxr-x---    3 system          256 Oct 19 2018  osgi_instance_location
+drwxr-x---    2 system          256 Oct 20 2018  niflogs
+drwxr-x---    2 staff           256 Nov 02 2018  ciclogs_khealy
+drwx------    2 system          256 Dec 20 2018  mksysb.56885418
+drwx------    3 system          256 Mar 16 2019  SolarWinds
+drwx------    2 system          256 May 06 17:04 bigfix
+drwxr-xr-x    2 wasadmin        256 May 24 03:10 test
+drwx------    3 system          256 Jun 21 16:37 sshivama
+drwx------    2 system          256 Jun 23 08:48 lost+found
+lrwxrwxrwx    1 other            28 Jun 23 08:51 db2setup.log
+srwxrwxrwx    1 system            0 Jun 23 09:13 dpi_socket
+drwxr-x---    3 other           256 Jun 23 09:14 Jetty__2111__
+drwx------    3 system          256 Jun 23 09:14 BES
+drwxrwxrwx    2 wasadmin        256 Sep 24 03:10 javasharedresources
+drwxr-xr-x   59 system         8192 Oct 03 08:27 ..
+drwxrwxr-x    2 cvadmin         256 Oct 03 08:27 locks
+-rw-r-----    1 wasadmin          0 Oct 08 05:00 jcore.lst.old
+-rw-------    1 system          320 Oct 08 08:34 tlist.txt
+-rw-------    1 system           88 Oct 08 08:34 scriptlist.txt
+drwx------    4 system          256 Oct 08 19:00 vgdata
+-rw-------    1 system           31 Oct 08 19:00 savevg_4patrol.status
+-rw-------    1 system           31 Oct 08 19:04 mksysb_4patrol.status
+drwxrwxrwt    7 wasadmin       4096 Oct 09 03:10 .com_ibm_tools_attach
+-rw-------    1 system            0 Oct 09 05:00 daily_log.txt
+-rw-------    1 system            0 Oct 09 05:00 daily_log-tmp.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst1.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst2.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out1.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out2.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt1.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt.txt
+-rw-------    1 system            0 Oct 09 05:21 mksysb-status.txt
+-rw-r--r--    1 system            0 Oct 09 05:57 pmcfg.out
+-rw-r-----    1 cseadmin          0 Oct 09 08:00 showerrpt
+-rw-------    1 system           18 Oct 09 08:39 defunct_procs
+drwx------    3 system          256 Oct 09 11:26 perf_backups
+-rw-r--r--    1 system       204800 Oct 09 14:58 lvmt.log
+drwxrwxrwt   34 bin            4096 Oct 09 15:00 .
+drwx------    2 other           256 Oct 09 15:00 oslevel.214.31785208
+drwxr-xr-x    2 system          256 Oct 09 15:00 .oslevel.datafiles
+ankcseprda01[/tmp]$ ls -lagrt
+total 472
+drwx------    2 system          256 Jan 13 2018  inutmpgn1Maa
+drwxrwxr-x    3 cseadmin        256 Jan 14 2018  AdobeDocumentStorage
+drwx------    2 system          256 Jan 15 2018  .workdir.17498354.19595418_1
+drwxr-xr-x    6 system          256 Jan 15 2018  bos
+drwx------    2 system          256 Apr 11 2018  comptrace_dir
+drwx------    2 system          256 Apr 11 2018  crontabs
+drwx------    2 system          256 Apr 11 2018  mem_details_dir
+drwx------    2 system          256 Apr 11 2018  objrepos
+drwx------    6 system          256 Apr 14 2018  perfdata
+drwx------    6 system          256 Apr 16 2018  perf71
+drwxr-xr-x    2 system          256 May 16 2018  IRS
+drwx------    2 system          256 Jul 23 2018  .workdir.5898442.5636260_1
+drwx------    2 system          256 Jul 23 2018  .workdir.6488206.5636178_1
+drwxr-xr-x    2 system          256 Jul 23 2018  devsave
+drwxr-x---    3 system          256 Oct 19 2018  osgi_instance_location
+drwxr-x---    2 system          256 Oct 20 2018  niflogs
+drwxr-x---    2 staff           256 Nov 02 2018  ciclogs_khealy
+drwx------    2 system          256 Dec 20 2018  mksysb.56885418
+drwx------    3 system          256 Mar 16 2019  SolarWinds
+drwx------    2 system          256 May 06 17:04 bigfix
+drwxr-xr-x    2 wasadmin        256 May 24 03:10 test
+drwx------    3 system          256 Jun 21 16:37 sshivama
+drwx------    2 system          256 Jun 23 08:48 lost+found
+lrwxrwxrwx    1 other            28 Jun 23 08:51 db2setup.log
+srwxrwxrwx    1 system            0 Jun 23 09:13 dpi_socket
+drwxr-x---    3 other           256 Jun 23 09:14 Jetty__2111__
+drwx------    3 system          256 Jun 23 09:14 BES
+drwxrwxrwx    2 wasadmin        256 Sep 24 03:10 javasharedresources
+drwxr-xr-x   59 system         8192 Oct 03 08:27 ..
+drwxrwxr-x    2 cvadmin         256 Oct 03 08:27 locks
+-rw-r-----    1 wasadmin          0 Oct 08 05:00 jcore.lst.old
+-rw-------    1 system          320 Oct 08 08:34 tlist.txt
+-rw-------    1 system           88 Oct 08 08:34 scriptlist.txt
+drwx------    4 system          256 Oct 08 19:00 vgdata
+-rw-------    1 system           31 Oct 08 19:00 savevg_4patrol.status
+-rw-------    1 system           31 Oct 08 19:04 mksysb_4patrol.status
+drwxrwxrwt    7 wasadmin       4096 Oct 09 03:10 .com_ibm_tools_attach
+-rw-------    1 system            0 Oct 09 05:00 daily_log.txt
+-rw-------    1 system            0 Oct 09 05:00 daily_log-tmp.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst1.txt
+-rw-------    1 system            0 Oct 09 05:00 fslst2.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out1.txt
+-rw-------    1 system            0 Oct 09 05:08 errpt_out2.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt1.txt
+-rw-------    1 system            0 Oct 09 05:08 error_rpt.txt
+-rw-------    1 system            0 Oct 09 05:21 mksysb-status.txt
+-rw-r--r--    1 system            0 Oct 09 05:57 pmcfg.out
+-rw-r-----    1 cseadmin          0 Oct 09 08:00 showerrpt
+-rw-------    1 system           18 Oct 09 08:39 defunct_procs
+drwxr-xr-x    3 system          256 Oct 09 11:26 perf_backups
+-rw-r--r--    1 system       204800 Oct 09 15:08 lvmt.log
+drwxr-xr-x    2 system          256 Oct 09 15:08 .oslevel.datafiles
+drwxrwxrwt   33 bin            4096 Oct 09 15:08 .
+ankcseprda01[/tmp]$ cd
+ankcseprda01[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                         dat                                      memory_paging_SELECT.sh
+ALL_ACCOUNTS_sorted.txt                  errpt_mail.sh                            memory_paging_SELECT_test.sh
+BaseActivity.pbd                         errpt_mail_paul.sh                       memory_paging_check.sh
+CSE.SECURE_User.properties               find_LUN_sizes.sh                        memory_paging_output
+IntroscopeAgent_Online.profile.20070905  find_wwn.sh                              memory_virtual_check.sh
+LIVE_ACCOUNTS.txt                        gecos.sh                                 p8_hostnames.txt
+LOGFILE                                  gecos_users.txt                          p8_hostnames_reverse.txt
+NFS_mounts_verify.sh                     logs                                     p8_hostnames_reverse_sorted.txt
+NFS_mounts_verify_P8.sh                  lpar1                                    resetUser.ksh
+NFS_mounts_verify_nomail.sh              lpars                                    run_on_Prod.sh
+NFS_selfcheck.sh                         lsnfsmnt.out                             scripts
+NFS_selfcheck_output.dat                 maxage.sh                                showerrpt.pl
+OLD_ACCOUNTS.txt                         maxage0_userslist.txt                    smit.log
+OLD_ACCOUNTS_sorted.txt                  maxage8_users.txt                        smit.script
+Tivoli_check_status.sh                   memory_paging_COPY.sh                    smit.transaction
+WAS8.5_init_scripts                      memory_paging_PROD_mail.sh               smoketest_08am_Mar_2am.log
+copyToProd.sh                            memory_paging_RUN.sh                     utils
+ankcseprda01[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 4
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcseprda01[/home/cseadmin]$ ssh lo  hchada@lo  ankcseprda01
+hchada@ankcseprda01's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Wed Oct  9 11:15:45 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu May 30 09:39:57 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+ankcseprda01[/home/hchada]$ ls
+cg1p26a
+ankcseprda01[/home/hchada]$ ls -la /tmp/perf _backups
+total 16
+drwxr-xr-x    3 root     system          256 Oct 09 11:26 .
+drwxrwxrwt   33 bin      bin            4096 Oct 09 15:10 ..
+drwxr-xr-x    2 root     system         4096 Oct 09 10:14 perf_backups
+ankcseprda01[/home/hchada]$ topasout -a /tm/ / [ p/perf _backups/ankcseprda01 _190916.topas
+
+ERROR:  Unable to open input file /tmp/perf_backups/ankcseprda01_190916.topas
+Warning: : No such file or directory
+ankcseprda01[/home/hchada]$ cd /tmp/perf                 _backups
+ankcseprda01[/tmp/perf_backups]$ ls
+perf_backups
+ankcseprda01[/tmp/perf_backups]$ ls -la
+total 16
+drwxr-xr-x    3 root     system          256 Oct 09 11:26 .
+drwxrwxrwt   33 bin      bin            4096 Oct 09 15:11 ..
+drwxr-xr-x    2 root     system         4096 Oct 09 10:14 perf_backups
+ankcseprda01[/tmp/perf_backups]$ cd perrr
+ankcseprda01[/tmp/perf_backups]$ ls perf*
+ankcseprda01_190916.topas  ankcseprda01_190920.topas  ankcseprda01_190924.topas  ankcseprda01_190928.topas
+ankcseprda01_190917.topas  ankcseprda01_190921.topas  ankcseprda01_190925.topas  ankcseprda01_190929.topas
+ankcseprda01_190918.topas  ankcseprda01_190922.topas  ankcseprda01_190926.topas  ankcseprda01_190930.topas
+ankcseprda01_190919.topas  ankcseprda01_190923.topas  ankcseprda01_190927.topas  nmon_analyser_v54.xlsm
+ankcseprda01[/tmp/perf_backups]$ ls -la perf*
+total 92280
+drwxr-xr-x    2 root     system         4096 Oct 09 10:14 .
+drwxr-xr-x    3 root     system          256 Oct 09 11:26 ..
+-rwxr-xr-x    1 root     system      3176764 Sep 16 23:56 ankcseprda01_190916.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 17 23:56 ankcseprda01_190917.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 18 23:56 ankcseprda01_190918.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 19 23:57 ankcseprda01_190919.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 20 23:57 ankcseprda01_190920.topas
+-rwxr-xr-x    1 root     system      2951392 Sep 21 22:12 ankcseprda01_190921.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 22 23:57 ankcseprda01_190922.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 23 23:57 ankcseprda01_190923.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 24 23:58 ankcseprda01_190924.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 25 23:58 ankcseprda01_190925.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 26 23:58 ankcseprda01_190926.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 27 23:58 ankcseprda01_190927.topas
+-rwxr-xr-x    1 root     system      2951392 Sep 28 22:13 ankcseprda01_190928.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 29 23:58 ankcseprda01_190929.topas
+-rwxr-xr-x    1 root     system      2929928 Sep 30 22:04 ankcseprda01_190930.topas
+-rwxr-xr-x    1 root     system       261375 Jul 25 2018  nmon_analyser_v54.xlsm
+ankcseprda01[/tmp/perf_backups]$ cd
+ankcseprda01[/home/hchada]$ cdls -la perf*ls perf*    ls -la  ls    cd /tmp/perf _backupstopasout -a /tmp/perf _backups/ankcseprda01 _190916.topastopasout -a /tmp/perf _backups//ankcseprda01 _190916.topasp/ankcseprda01 _190916.topase/ankcseprda01 _190916.topasr/ankcseprda01 _190916.topasf/ankcseprda01 _190916.topas _/ankcseprda01 _190916.topasb/ankcseprda01 _190916.topasa/ankcseprda01 _190916.topasc/ankcseprda01 _190916.topask/ankcseprda01 _190916.topasu/ankcseprda01 _190916.topasp/ankcseprda01 _190916.topass/ankcseprda01 _190916.topas
+Unable to open file "/tmp/perf_backups/perf_backups/ankcseprda01_190916.topas.csv"
+Warning: : Permission denied
+ankcseprda01[/home/hchada]$ topasout
+Error, topasout: no filename or options specified
+Usage:
+topasout [-c|-s|-a|-P] [-R detailed|-R summary|-R adapter|-R vadapter|-R poolinfo|-R mempool|-R disk|-R vios|-R vios_adapter|-R lan [ -i MM -b HHMM -e HHMM]] [topas_recording|cec_recording]
+topasout [-c|-s] [-r|-t] azzizo_recording
+topasout [-c|-s|-a] [-R detailed] cluster_recording
+flags:  -c comma separated output format
+        -P PM ASCII text format. The O/P report file is generated in /var/perf/pm/daily/<hostname>/ directory
+        -s spreadsheet import format
+        -R detailed | summary | poolinfo | disk | lan (local recordings)
+        -R detailed | summary | poolinfo |mempool|adapter|vadapter|vios|vios_adapter (topas recordings)
+        -i MM   split the recording reports into equal size time periods.Allowed Values (in minutes) are 5, 10, 15, 30,60 
+        -b HHMM  begin time in hours (HH) and minutes (MM).Range is between 0000 and 2400]
+        -e HHMM  end time in hours (HH) and minutes (MM).Range is between 0000 and 2400 and is greater than the begin time]
+        -r print rates rather than delta values, supported only for azzizo_recording
+        -t print counter values rather than delta values, supported only for azzizo_recording
+        -a nmon analyzer format style;
+           For using nmon analyzer with topasout then please refer
+           /usr/lpp/perfagent/README.perfagent.tools for more help
+ankcseprda01[/home/hchada]$ topasouttopasout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topascd                                                                  topasout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topasopasout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas pasout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas asout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas sout -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas out -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas ut -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas t -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas  -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas -a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas a /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas  /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas c /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topasd /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas  /tmp/perf _backups/perf _backups/ankcseprda01 _190916.topas                                                            cd /tmp/perf*/e perf*
+ankcseprda01[/tmp/perf_backups/perf_backups]$ ls
+ankcseprda01_190916.topas  ankcseprda01_190920.topas  ankcseprda01_190924.topas  ankcseprda01_190928.topas
+ankcseprda01_190917.topas  ankcseprda01_190921.topas  ankcseprda01_190925.topas  ankcseprda01_190929.topas
+ankcseprda01_190918.topas  ankcseprda01_190922.topas  ankcseprda01_190926.topas  ankcseprda01_190930.topas
+ankcseprda01_190919.topas  ankcseprda01_190923.topas  ankcseprda01_190927.topas  nmon_analyser_v54.xlsm
+ankcseprda01[/tmp/perf_backups/perf_backups]$ ls -la
+total 92280
+drwxr-xr-x    2 root     system         4096 Oct 09 10:14 .
+drwxr-xr-x    3 root     system          256 Oct 09 11:26 ..
+-rwxr-xr-x    1 root     system      3176764 Sep 16 23:56 ankcseprda01_190916.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 17 23:56 ankcseprda01_190917.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 18 23:56 ankcseprda01_190918.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 19 23:57 ankcseprda01_190919.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 20 23:57 ankcseprda01_190920.topas
+-rwxr-xr-x    1 root     system      2951392 Sep 21 22:12 ankcseprda01_190921.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 22 23:57 ankcseprda01_190922.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 23 23:57 ankcseprda01_190923.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 24 23:58 ankcseprda01_190924.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 25 23:58 ankcseprda01_190925.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 26 23:58 ankcseprda01_190926.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 27 23:58 ankcseprda01_190927.topas
+-rwxr-xr-x    1 root     system      2951392 Sep 28 22:13 ankcseprda01_190928.topas
+-rwxr-xr-x    1 root     system      3176764 Sep 29 23:58 ankcseprda01_190929.topas
+-rwxr-xr-x    1 root     system      2929928 Sep 30 22:04 ankcseprda01_190930.topas
+-rwxr-xr-x    1 root     system       261375 Jul 25 2018  nmon_analyser_v54.xlsm
+ankcseprda01[/tmp/perf_backups/perf_backups]$ du
+92280   .
+ankcseprda01[/tmp/perf_backups/perf_backups]$ du -h
+du: Not a recognized flag: h
+Usage: du [-a | -s] [-rlkmgx] [ -H | -L ] [Name ...]
+ankcseprda01[/tmp/perf_backups/perf_backups]$ du -m
+45.06   .
+ankcseprda01[/tmp/perf_backups/perf_backups]$ cd  cp * ~
+ankcseprda01[/tmp/perf_backups/perf_backups]$ cd
+ankcseprda01[/home/hchada]$ ls
+ankcseprda01_190916.topas  ankcseprda01_190921.topas  ankcseprda01_190926.topas  cg1p26a
+ankcseprda01_190917.topas  ankcseprda01_190922.topas  ankcseprda01_190927.topas  nmon_analyser_v54.xlsm
+ankcseprda01_190918.topas  ankcseprda01_190923.topas  ankcseprda01_190928.topas
+ankcseprda01_190919.topas  ankcseprda01_190924.topas  ankcseprda01_190929.topas
+ankcseprda01_190920.topas  ankcseprda01_190925.topas  ankcseprda01_190930.topas
+ankcseprda01[/home/hchada]$ topasout -a ankcseprda01 _190916.topas
+ankcseprda01[/home/hchada]$ ls *.csv
+ankcseprda01_190916.topas.csv
+ankcseprda01[/home/hchada]$ more *.csv
+[?1049h[95;1H[KCPU_ALL,CPU Total ,User%,Sys%,Wait%,Idle%,CPUs,
+CPU011,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU010,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU09,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU08,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU07,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU06,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU05,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU04,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU03,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU02,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU01,CPU Total ,User%,Sys%,Wait%,Idle%,
+CPU00,CPU Total ,User%,Sys%,Wait%,Idle%,
+DISKBUSY,Disk %Busy ,hdisk1,hdisk99,hdisk0,
+DISKREAD,Disk Read 512 bytes per sec ,hdisk1,hdisk99,hdisk0,
+DISKWRITE,Disk Write 512 bytes per sec ,hdisk1,hdisk99,hdisk0,
+DISKXFER,Disk transfers per second ,hdisk1,hdisk99,hdisk0,
+DISKSERV,Disk Avg service time/transfer ,hdisk1,hdisk99,hdisk0,
+DISKWAIT,Average wait queue time for read/write transfers,hdisk1,hdisk99,hdisk0,
+MEMREAL,Real Memory Statistics,Size 4k pages,free frames 4k,%pinned,%comp,%noncomp,%client,
+MEMVIRT,PgSp / Virtual Memory Statistics,PageSpace,%free,%used,pagein,pageout,pgspgin,pgspgout,sio,totfaults,steal,
+PROC,Processes ,Runnable,Swap-in,pswitch,syscall,read,write,fork,exec,loadavg,utilavg,numprocs,
+LAN,LAN Interfaces Statistics,ent0/kbytesout,ent2/kbytesout,ent1/kbytesout,ent0/kbytesin,ent2/kbytesin,ent1/kbytesin,ent0/fra
+mesout,ent2/framesout,ent1/framesout,ent0/framesin,ent2/framesin,ent1/framesin,ent0/recvdrops,ent2/recvdrops,ent1/recvdrops,
+IP,IP Statistics for network interface,lo0/ipacket,en2/ipacket,en1/ipacket,en0/ipacket,lo0/opacket,en2/opacket,en1/opacket,en
+0/opacket,lo0/ioctet_kb,en2/ioctet_kb,en1/ioctet_kb,en0/ioctet_kb,lo0/ooctet_kb,en2/ooctet_kb,en1/ooctet_kb,en0/ooctet_kb,
+TCPUDP,IP Protocol statistics,TCPSendTot,TCPRcvTot,UDPSnddgrm,UDPRcvdgrm,
+FILE,File I/O ,iget,namei,dirblk,readch,writech,
+JFSFILE,JFS Filespace %Used,/,/home,/usr,/var,/tmp,/opt,
+JFSINODE,JFS Inode %Used,/,/home,/usr,/var,/tmp,opt,
+LPAR,LPAR Stats,PhysicalCPU,VirtualCPUs,LogicalCPUs,poolCPUS,entitled,weight,poolIdle,UsedAllCPU%,UsedPoolCPU%,SharedCPU,
+ZZZZ,T0001,00:06:26,16-Sep-2019,,
+CPU_ALL,T0001,2.71,2.63,0.00,94.66,12.00,
+CPU011,T0001,0.00,1.74,0.00,98.26,
+CPU010,T0001,0.00,1.71,0.00,98.29,
+CPU09,T0001,0.00,1.91,0.00,98.09,
+CPU08,T0001,0.00,47.50,0.00,52.50,
+CPU07,T0001,0.00,1.94,0.00,98.06,
+CPU06,T0001,0.00,1.91,0.00,98.09,
+CPU05,T0001,0.00,2.02,0.00,97.98,
+CPU04,T0001,0.00,45.27,0.00,54.73,
+CPU03,T0001,0.24,0.60,0.00,99.16,
+CPU02,T0001,0.37,1.00,0.00,98.63,
+CPU01,T0001,8.56,11.42,0.00,80.02,
+CPU00,T0001,49.79,47.06,0.01,3.14,
+DISKBUSY,T0001,0.00,0.00,0.00,
+DISKREAD,T0001,7.02,7.04,0.00,
+DISKWRITE,T0001,9.47,56.71,0.00,
+DISKXFER,T0001,1.01,6.20,0.00,
+DISKSERV,T0001,0.00,0.00,0.00,
+DISKWAIT,T0001,0.00,0.00,0.00,
+MEMREAL,T0001,9437184.00,28496.40,15.42,50.54,49.16,46.31,
+MEMVIRT,T0001,2097152.00,99.38,0.62,0.33,2.18,0.00,0.01,2.15,2241.60,0.00,
+PROC,T0001,8.66,0.00,4848.89,14300.33,530.15,206.01,12.15,11.46,33.40,2.00,127.80,
+LAN,T0001,143.36,0.01,0.12,10.16,0.36,0.19,49.89,0.06,0.63,44.71,4.14,2.19,0.00,0.00,0.00,
+IP,T0001,10.28,4.03,2.19,44.71,10.28,0.06,0.63,49.89,2.19,0.27,0.16,9.55,2.19,0.00,0.12,143.36,
+TCPUDP,T0001,49.71,48.68,10.23,7.68,
+FILE,T0001,1.03,3347.22,0.00,726969.94,25692.36,
+JFSFILE,T0001,15.19,70.53,77.01,73.77,3.89,44.24,
+JFSINODE,T0001,3.03,9.12,19.58,4.32,0.03,2.25,
+LPAR,T0001,0.19,3.00,12.00,64.00,2.00,128.00,51.62,0.29,0.29,1.00,
+ZZZZ,T0002,00:11:26,16-Sep-2019,,
+CPU_ALL,T0002,3.80,2.88,0.00,93.32,12.00,
+CPU011,T0002,0.00,1.71,0.00,98.29,
+CPU010,T0002,0.00,1.69,0.00,98.31,
+CPU09,T0002,0.12,2.30,0.00,97.58,
+CPU08,T0002,11.90,42.63,0.00,45.47,
+CPU07,T0002,0.00,1.95,0.00,98.05,
+CPU06,T0002,0.00,1.96,0.00,98.04,
+CPU05,T0002,3.56,2.66,0.00,93.78,
+CPU04,T0002,15.18,38.79,0.00,46.03,
+CPU03,T0002,1.85,1.49,0.00,96.66,
+CPU02,T0002,0.82,1.38,0.00,97.79,
+CPU01,T0002,10.20,9.33,0.00,80.47,
+CPU00,T0002,51.80,44.86,0.01,3.33,
+DISKBUSY,T0002,0.00,0.20,0.00,
+DISKREAD,T0002,14.03,3506.45,0.00,
+DISKWRITE,T0002,6.67,58.66,0.00,
+DISKXFER,T0002,0.83,12.98,0.00,
+DISKSERV,T0002,0.00,0.00,0.00,
+DISKWAIT,T0002,0.00,0.00,0.00,
+MEMREAL,T0002,9437184.00,24858.40,15.42,50.53,49.21,46.36,
+MEMVIRT,T0002,2097152.00,99.38,0.62,438.29,1.99,0.00,0.00,438.66,2252.22,367.52,
+PROC,T0002,9.75,0.20,5169.97,15573.57,764.40,513.93,12.20,11.51,41.60,2.80,127.40,
+LAN,T0002,1908.54,0.01,0.14,28.23,0.34,0.21,106.28,0.07,0.73,301.89,4.07,2.29,0.00,0.00,0.00,
+IP,T0002,9.59,3.95,2.29,301.89,9.59,0.07,0.73,106.28,1.84,0.26,0.17,24.11,1.84,0.01,0.14,1908.54,
+TCPUDP,T0002,105.59,304.87,10.21,7.72,
+FILE,T0002,0.97,3374.64,0.00,4344482.00,3623158.00,
+JFSFILE,T0002,15.19,70.53,77.01,73.77,3.89,44.25,
+JFSINODE,T0002,3.03,9.12,19.58,4.32,0.03,2.25,
+LPAR,T0002,0.23,3.00,12.00,64.00,2.00,128.00,55.38,0.37,0.37,1.00,
+ZZZZ,T0003,00:16:26,16-Sep-2019,,
+CPU_ALL,T0003,18.81,5.07,0.00,76.11,12.00,
+CPU011,T0003,0.00,0.58,0.00,99.42,
+[95;1H[K[7mankcseprda01_190916.topas.csv (1%)[27m[95;1H[95;1H[KCPU010,T0003,0.00,0.53,0.00,99.47,
+CPU09,T0003,0.00,0.57,0.00,99.43,
+CPU08,T0003,0.00,51.88,0.00,48.12,
+CPU07,T0003,0.16,1.91,0.00,97.93,
+CPU06,T0003,0.06,1.97,0.00,97.98,
+CPU05,T0003,7.80,3.80,0.01,88.39,
+CPU04,T0003,66.23,20.53,0.00,13.24,
+CPU03,T0003,0.38,1.85,0.00,97.78,
+CPU02,T0003,0.27,2.02,0.00,97.71,
+CPU01,T0003,13.00,7.83,0.00,79.16,
+CPU00,T0003,68.08,28.35,0.00,3.56,
+DISKBUSY,T0003,0.00,0.60,0.00,
+DISKREAD,T0003,7.02,4479.29,0.00,
+DISKWRITE,T0003,8.56,53.88,0.00,
+DISKXFER,T0003,0.95,194.90,0.00,
+DISKSERV,T0003,0.00,0.00,0.00,
+DISKWAIT,T0003,0.00,0.00,0.00,
+MEMREAL,T0003,9437184.00,9313.20,15.42,50.55,49.35,46.73,
+MEMVIRT,T0003,2097152.00,99.38,0.62,560.77,1.66,0.00,0.00,560.82,2257.00,570.41,
+PROC,T0003,7.33,0.20,8464.27,30369.92,3970.66,4693.45,12.15,11.45,61.80,8.20,128.60,
+LAN,T0003,25700.86,0.00,0.12,260.70,0.34,0.75,855.72,0.05,0.61,3775.01,3.88,12.15,0.00,0.00,0.00,
+IP,T0003,10.57,3.76,12.15,3775.01,10.57,0.05,0.61,855.71,2.24,0.26,0.59,209.08,2.24,0.01,0.12,11721.17,
+TCPUDP,T0003,856.51,3779.46,9.78,7.39,
+FILE,T0003,0.89,3592.79,0.00,10061807.00,9253281.00,
+JFSFILE,T0003,15.19,70.53,77.01,73.77,3.89,44.25,
+JFSINODE,T0003,3.03,9.12,19.58,4.31,0.03,2.26,
+LPAR,T0003,0.84,3.00,12.00,64.00,2.00,128.00,54.30,1.31,1.31,1.00,
+ZZZZ,T0004,00:21:26,16-Sep-2019,,
+CPU_ALL,T0004,4.70,12.92,1.30,81.08,12.00,
+CPU011,T0004,1.11,8.74,0.90,89.25,
+CPU010,T0004,0.97,10.42,2.46,86.15,
+CPU09,T0004,6.20,28.99,2.85,61.96,
+CPU08,T0004,9.05,59.84,1.18,29.93,
+CPU07,T0004,3.22,17.07,1.50,78.21,
+CPU06,T0004,3.20,17.57,1.42,77.80,
+CPU05,T0004,9.27,35.93,2.75,52.06,
+CPU04,T0004,12.29,58.92,1.31,27.48,
+CPU03,T0004,4.26,17.79,1.11,76.84,
+CPU02,T0004,4.61,17.78,1.13,76.49,
+CPU01,T0004,13.63,37.70,2.02,46.65,
+CPU00,T0004,36.40,57.77,0.86,4.96,
+DISKBUSY,T0004,0.00,0.00,0.00,
+DISKREAD,T0004,7.02,7.02,0.00,
+DISKWRITE,T0004,8.83,120.99,0.00,
+DISKXFER,T0004,0.91,10.23,0.00,
+DISKSERV,T0004,0.00,0.00,0.00,
+DISKWAIT,T0004,0.00,0.00,0.00,
+MEMREAL,T0004,9437184.00,20630.00,15.42,50.53,49.25,46.77,
+MEMVIRT,T0004,2097152.00,99.38,0.62,10007.91,3157.77,0.00,0.00,966.56,2512.62,1343.04,
+PROC,T0004,9.00,1.39,13129.20,21212.77,787.73,856.40,12.14,11.44,92.40,7.80,127.00,
+LAN,T0004,11843.97,0.01,0.12,11703.56,0.42,0.75,2248.88,0.07,0.59,2742.80,4.56,12.12,0.00,0.00,0.00,
+IP,T0004,9.74,4.45,12.12,2742.80,9.74,0.07,0.59,2248.80,1.81,0.33,0.59,9287.47,1.81,0.01,0.12,5876.25,
+TCPUDP,T0004,2147.61,2746.32,110.98,8.07,
+FILE,T0004,1.30,4821.44,0.00,12147358.00,11493774.00,
+JFSFILE,T0004,15.19,70.53,77.01,73.77,3.89,44.25,
+JFSINODE,T0004,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0004,0.54,3.00,12.00,64.00,2.00,128.00,53.16,0.85,0.85,1.00,
+ZZZZ,T0005,00:26:26,16-Sep-2019,,
+CPU_ALL,T0005,2.67,2.72,0.00,94.60,12.00,
+CPU011,T0005,0.00,1.71,0.00,98.29,
+CPU010,T0005,0.00,1.66,0.00,98.34,
+CPU09,T0005,0.00,1.89,0.00,98.11,
+CPU08,T0005,0.00,47.05,0.00,52.95,
+CPU07,T0005,0.00,1.85,0.00,98.15,
+CPU06,T0005,0.00,1.93,0.00,98.07,
+CPU05,T0005,0.00,2.12,0.00,97.88,
+CPU04,T0005,0.00,44.03,0.00,55.97,
+CPU03,T0005,1.69,1.33,0.00,96.97,
+CPU02,T0005,0.73,1.29,0.00,97.98,
+CPU01,T0005,9.96,11.15,0.00,78.89,
+CPU00,T0005,48.09,48.48,0.01,3.42,
+DISKBUSY,T0005,0.00,0.00,0.00,
+DISKREAD,T0005,14.03,14.03,0.00,
+DISKWRITE,T0005,9.81,52.18,0.00,
+DISKXFER,T0005,1.02,5.84,0.00,
+DISKSERV,T0005,0.00,0.00,0.00,
+DISKWAIT,T0005,0.00,0.00,0.00,
+MEMREAL,T0005,9437184.00,36756.80,15.42,50.54,49.07,46.66,
+MEMVIRT,T0005,2097152.00,99.38,0.62,1.41,1.79,0.00,0.00,1.87,2240.98,0.00,
+PROC,T0005,9.24,0.00,5186.13,15750.97,564.23,100.36,12.16,11.49,37.20,2.00,127.20,
+LAN,T0005,142.40,0.01,0.13,10.71,0.34,0.53,51.87,0.09,0.70,46.90,3.84,8.13,0.00,0.00,0.00,
+IP,T0005,11.04,3.73,8.13,46.90,11.04,0.09,0.70,51.87,2.22,0.26,0.42,10.07,2.22,0.01,0.13,142.40,
+TCPUDP,T0005,52.89,51.79,9.81,7.40,
+FILE,T0005,0.91,3658.87,0.00,864035.94,23746.25,
+JFSFILE,T0005,15.19,70.53,77.01,73.77,3.89,44.26,
+JFSINODE,T0005,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0005,0.19,3.00,12.00,64.00,2.00,128.00,54.44,0.30,0.30,1.00,
+ZZZZ,T0006,00:31:26,16-Sep-2019,,
+CPU_ALL,T0006,2.78,2.71,0.00,94.51,12.00,
+CPU011,T0006,0.00,1.67,0.00,98.33,
+CPU010,T0006,0.00,1.65,0.00,98.35,
+CPU09,T0006,0.00,1.74,0.00,98.26,
+CPU08,T0006,6.81,46.62,0.00,46.57,
+CPU07,T0006,0.00,1.62,0.00,98.38,
+[95;1H[K[7mankcseprda01_190916.topas.csv (2%)[27m[95;1H[95;1H[KCPU06,T0006,0.00,1.68,0.00,98.32,
+CPU05,T0006,0.00,1.96,0.00,98.04,
+CPU04,T0006,5.89,45.24,0.00,48.86,
+CPU03,T0006,2.37,1.75,0.00,95.88,
+CPU02,T0006,0.53,2.41,0.00,97.06,
+CPU01,T0006,9.81,8.92,0.01,81.26,
+CPU00,T0006,48.94,47.67,0.00,3.38,
+DISKBUSY,T0006,0.00,0.00,0.00,
+DISKREAD,T0006,7.02,7.02,0.00,
+DISKWRITE,T0006,8.08,46.70,0.00,
+DISKXFER,T0006,0.84,5.19,0.00,
+DISKSERV,T0006,0.00,0.00,0.00,
+DISKWAIT,T0006,0.00,0.00,0.00,
+MEMREAL,T0006,9437184.00,37370.20,15.42,50.53,49.08,46.67,
+MEMVIRT,T0006,2097152.00,99.38,0.62,1.31,1.61,0.00,0.01,1.71,2275.53,0.00,
+PROC,T0006,9.05,0.00,5175.40,15991.45,569.92,105.08,12.19,11.50,45.20,2.00,126.40,
+LAN,T0006,142.20,0.01,0.14,11.13,0.35,0.50,51.31,0.09,0.76,46.67,4.11,7.59,0.00,0.00,0.00,
+IP,T0006,10.62,3.99,7.59,46.67,10.62,0.09,0.76,51.31,2.18,0.27,0.40,10.49,2.18,0.01,0.14,142.20,
+TCPUDP,T0006,51.75,50.55,9.95,7.81,
+FILE,T0006,0.85,3593.97,0.00,932205.81,22622.41,
+JFSFILE,T0006,15.19,70.53,77.01,73.77,3.89,44.26,
+JFSINODE,T0006,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0006,0.19,3.00,12.00,64.00,2.00,128.00,53.43,0.30,0.30,1.00,
+ZZZZ,T0007,00:36:26,16-Sep-2019,,
+CPU_ALL,T0007,2.72,2.63,0.01,94.64,12.00,
+CPU011,T0007,0.00,1.80,0.00,98.20,
+CPU010,T0007,0.00,1.84,0.00,98.16,
+CPU09,T0007,0.00,1.97,0.00,98.03,
+CPU08,T0007,0.00,47.01,0.00,52.99,
+CPU07,T0007,0.00,1.77,0.00,98.23,
+CPU06,T0007,0.00,1.85,0.00,98.15,
+CPU05,T0007,0.00,1.94,0.00,98.06,
+CPU04,T0007,0.00,45.87,0.00,54.13,
+CPU03,T0007,0.93,1.29,0.00,97.79,
+CPU02,T0007,0.98,2.00,0.02,96.99,
+CPU01,T0007,7.82,10.31,0.07,81.80,
+CPU00,T0007,49.80,46.89,0.01,3.30,
+DISKBUSY,T0007,0.00,0.00,0.00,
+DISKREAD,T0007,7.02,7.04,0.00,
+DISKWRITE,T0007,10.03,62.40,0.00,
+DISKXFER,T0007,1.02,6.54,0.00,
+DISKSERV,T0007,0.00,0.00,0.00,
+DISKWAIT,T0007,0.00,0.00,0.00,
+MEMREAL,T0007,9437184.00,36114.00,15.42,50.54,49.08,46.67,
+MEMVIRT,T0007,2097152.00,99.38,0.62,2.83,2.53,0.00,0.00,2.58,2232.52,0.00,
+PROC,T0007,9.96,0.00,5185.63,14647.27,522.25,205.15,12.14,11.45,38.00,2.00,127.40,
+LAN,T0007,145.46,0.01,0.14,12.11,0.33,0.28,51.06,0.09,0.77,46.55,3.87,3.56,0.00,0.00,0.00,
+IP,T0007,10.27,3.76,3.56,46.55,10.27,0.09,0.77,51.06,1.94,0.25,0.23,11.48,1.93,0.01,0.14,145.43,
+TCPUDP,T0007,50.66,50.63,10.13,7.45,
+FILE,T0007,1.04,3346.67,0.00,716126.44,27022.03,
+JFSFILE,T0007,15.19,70.53,77.01,73.78,3.89,44.27,
+JFSINODE,T0007,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0007,0.19,3.00,12.00,64.00,2.00,128.00,53.38,0.29,0.29,1.00,
+ZZZZ,T0008,00:41:26,16-Sep-2019,,
+CPU_ALL,T0008,2.65,2.72,0.00,94.64,12.00,
+CPU011,T0008,0.00,1.73,0.00,98.27,
+CPU010,T0008,0.00,1.72,0.00,98.28,
+CPU09,T0008,0.00,1.99,0.00,98.01,
+CPU08,T0008,0.00,47.33,0.00,52.67,
+CPU07,T0008,0.00,1.90,0.00,98.10,
+CPU06,T0008,0.00,1.98,0.00,98.02,
+CPU05,T0008,0.00,2.14,0.00,97.86,
+CPU04,T0008,0.00,43.82,0.00,56.18,
+CPU03,T0008,0.95,1.44,0.00,97.61,
+CPU02,T0008,0.75,1.55,0.00,97.70,
+CPU01,T0008,7.69,9.27,0.02,83.03,
+CPU00,T0008,48.30,48.63,0.01,3.06,
+DISKBUSY,T0008,0.00,0.00,0.00,
+DISKREAD,T0008,14.03,14.11,0.00,
+DISKWRITE,T0008,8.48,52.54,0.00,
+DISKXFER,T0008,0.98,5.85,0.00,
+DISKSERV,T0008,0.00,0.00,0.00,
+DISKWAIT,T0008,0.00,0.00,0.00,
+MEMREAL,T0008,9437184.00,36712.60,15.42,50.53,49.08,46.67,
+MEMVIRT,T0008,2097152.00,99.38,0.62,0.01,1.75,0.00,0.00,1.75,2246.86,0.00,
+PROC,T0008,9.04,0.00,5139.94,15653.96,550.23,96.61,12.14,11.45,45.00,2.00,127.00,
+LAN,T0008,143.85,0.01,0.13,10.06,0.35,0.48,51.56,0.08,0.71,46.88,4.04,7.22,0.00,0.00,0.00,
+IP,T0008,10.56,3.92,7.22,46.88,10.56,0.08,0.71,51.55,2.24,0.27,0.38,9.42,2.24,0.01,0.13,143.85,
+TCPUDP,T0008,51.98,51.26,9.53,7.50,
+FILE,T0008,0.84,3650.41,0.00,842780.00,24215.60,
+JFSFILE,T0008,15.19,70.53,77.01,73.78,3.89,44.27,
+JFSINODE,T0008,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0008,0.19,3.00,12.00,64.00,2.00,128.00,54.88,0.29,0.29,1.00,
+ZZZZ,T0009,00:46:26,16-Sep-2019,,
+CPU_ALL,T0009,2.65,2.72,0.01,94.62,12.00,
+CPU011,T0009,0.00,1.83,0.00,98.17,
+CPU010,T0009,0.00,1.82,0.00,98.18,
+CPU09,T0009,0.00,1.91,0.00,98.09,
+CPU08,T0009,0.00,47.28,0.00,52.72,
+CPU07,T0009,0.00,1.88,0.00,98.12,
+CPU06,T0009,0.00,1.98,0.00,98.02,
+CPU05,T0009,0.00,2.29,0.00,97.71,
+CPU04,T0009,0.00,44.10,0.00,55.90,
+CPU03,T0009,0.38,0.63,0.00,98.99,
+[95;1H[K[7mankcseprda01_190916.topas.csv (3%)[27m[95;1H[95;1H[KCPU02,T0009,0.54,1.04,0.09,98.32,
+CPU01,T0009,8.71,9.41,0.05,81.84,
+CPU00,T0009,48.12,48.87,0.01,3.00,
+DISKBUSY,T0009,0.00,0.00,0.00,
+DISKREAD,T0009,7.02,7.84,0.00,
+DISKWRITE,T0009,9.52,53.13,0.00,
+DISKXFER,T0009,1.02,5.82,0.00,
+DISKSERV,T0009,0.00,0.00,0.00,
+DISKWAIT,T0009,0.00,0.00,0.00,
+MEMREAL,T0009,9437184.00,35779.80,15.42,50.54,49.08,46.67,
+MEMVIRT,T0009,2097152.00,99.38,0.62,1.51,1.72,0.00,0.00,1.90,2240.52,0.00,
+PROC,T0009,9.69,0.20,5067.18,15563.31,561.87,96.91,12.15,11.47,37.40,2.00,127.20,
+LAN,T0009,141.43,0.01,0.13,10.11,0.35,0.19,50.50,0.09,0.69,45.43,4.03,2.08,0.00,0.00,0.00,
+IP,T0009,9.68,3.91,2.08,45.43,9.68,0.09,0.69,50.50,1.76,0.27,0.16,9.49,1.76,0.01,0.13,141.43,
+TCPUDP,T0009,49.73,48.94,9.82,7.56,
+FILE,T0009,0.89,3620.96,0.00,872293.31,21125.37,
+JFSFILE,T0009,15.19,70.53,77.01,73.78,3.89,44.27,
+JFSINODE,T0009,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0009,0.19,3.00,12.00,64.00,2.00,128.00,54.34,0.29,0.29,1.00,
+ZZZZ,T0010,00:51:26,16-Sep-2019,,
+CPU_ALL,T0010,2.66,2.60,0.00,94.74,12.00,
+CPU011,T0010,0.00,1.84,0.00,98.16,
+CPU010,T0010,0.00,2.08,0.00,97.92,
+CPU09,T0010,0.00,2.00,0.00,98.00,
+CPU08,T0010,0.00,46.75,0.00,53.25,
+CPU07,T0010,0.00,1.96,0.00,98.04,
+CPU06,T0010,0.00,2.04,0.00,97.96,
+CPU05,T0010,0.00,2.12,0.00,97.88,
+CPU04,T0010,0.00,43.99,0.00,56.01,
+CPU03,T0010,0.33,1.32,0.00,98.35,
+CPU02,T0010,1.24,0.88,0.00,97.88,
+CPU01,T0010,8.37,9.49,0.00,82.14,
+CPU00,T0010,49.38,47.57,0.01,3.04,
+DISKBUSY,T0010,0.00,0.00,0.00,
+DISKREAD,T0010,7.02,7.02,0.00,
+DISKWRITE,T0010,6.91,59.00,0.00,
+DISKXFER,T0010,0.85,6.43,0.00,
+DISKSERV,T0010,0.00,0.00,0.00,
+DISKWAIT,T0010,0.00,0.00,0.00,
+MEMREAL,T0010,9437184.00,36404.40,15.42,50.53,49.09,46.68,
+MEMVIRT,T0010,2097152.00,99.38,0.62,0.68,2.50,0.00,0.00,2.30,2235.61,0.00,
+PROC,T0010,8.13,0.20,4860.16,14533.40,524.51,212.46,12.16,11.46,41.20,2.00,126.40,
+LAN,T0010,143.75,0.01,0.14,11.60,0.35,0.22,52.43,0.09,0.82,48.12,4.07,2.46,0.00,0.00,0.00,
+IP,T0010,10.18,3.95,2.46,48.12,10.18,0.09,0.82,52.43,2.24,0.26,0.18,10.94,2.24,0.01,0.14,143.75,
+TCPUDP,T0010,51.99,51.81,9.99,7.62,
+FILE,T0010,0.98,3345.47,0.00,712786.38,24923.24,
+JFSFILE,T0010,15.19,70.53,77.01,73.79,3.89,44.28,
+JFSINODE,T0010,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0010,0.18,3.00,12.00,64.00,2.00,128.00,54.98,0.29,0.29,1.00,
+ZZZZ,T0011,00:56:26,16-Sep-2019,,
+CPU_ALL,T0011,2.55,2.67,0.00,94.77,12.00,
+CPU011,T0011,0.00,1.81,0.00,98.19,
+CPU010,T0011,0.00,2.03,0.00,97.97,
+CPU09,T0011,0.00,2.29,0.00,97.71,
+CPU08,T0011,0.00,46.54,0.00,53.46,
+CPU07,T0011,0.00,2.02,0.00,97.98,
+CPU06,T0011,0.00,2.50,0.00,97.50,
+CPU05,T0011,0.00,2.27,0.00,97.73,
+CPU04,T0011,0.00,43.16,0.00,56.84,
+CPU03,T0011,0.06,1.00,0.00,98.95,
+CPU02,T0011,0.43,1.25,0.00,98.32,
+CPU01,T0011,8.09,10.42,0.01,81.49,
+CPU00,T0011,47.96,49.00,0.01,3.04,
+DISKBUSY,T0011,0.00,0.00,0.00,
+DISKREAD,T0011,14.03,14.03,0.00,
+DISKWRITE,T0011,6.24,54.75,0.00,
+DISKXFER,T0011,0.82,5.87,0.00,
+DISKSERV,T0011,0.00,0.00,0.00,
+DISKWAIT,T0011,0.00,0.00,0.00,
+MEMREAL,T0011,9437184.00,35573.60,15.42,50.54,49.09,46.68,
+MEMVIRT,T0011,2097152.00,99.38,0.62,0.65,1.41,0.00,0.00,1.46,2253.16,0.00,
+PROC,T0011,9.77,0.00,4843.24,15299.92,561.94,94.58,12.19,11.51,42.00,2.00,127.20,
+LAN,T0011,140.42,0.01,0.13,9.48,0.34,0.20,49.26,0.09,0.66,44.21,3.88,2.23,0.00,0.00,0.00,
+IP,T0011,9.88,3.76,2.23,44.21,9.88,0.09,0.66,49.26,1.91,0.26,0.17,8.87,1.91,0.01,0.13,140.42,
+TCPUDP,T0011,48.72,47.63,10.06,7.73,
+FILE,T0011,0.89,3602.19,0.00,893835.81,19818.78,
+JFSFILE,T0011,15.19,70.53,77.01,73.79,3.89,44.28,
+JFSINODE,T0011,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0011,0.18,3.00,12.00,64.00,2.00,128.00,54.93,0.29,0.29,1.00,
+ZZZZ,T0012,01:01:26,16-Sep-2019,,
+CPU_ALL,T0012,2.66,2.69,0.00,94.64,12.00,
+CPU011,T0012,0.00,1.93,0.00,98.07,
+CPU010,T0012,0.00,1.82,0.00,98.18,
+CPU09,T0012,0.00,1.79,0.00,98.21,
+CPU08,T0012,3.40,48.83,0.01,47.75,
+CPU07,T0012,0.00,1.63,0.00,98.37,
+CPU06,T0012,0.00,1.67,0.00,98.33,
+CPU05,T0012,0.00,1.99,0.00,98.01,
+CPU04,T0012,10.78,41.19,0.00,48.04,
+CPU03,T0012,0.72,1.20,0.00,98.08,
+CPU02,T0012,1.40,1.56,0.00,97.04,
+CPU01,T0012,9.31,7.82,0.00,82.88,
+CPU00,T0012,48.04,48.99,0.01,2.96,
+DISKBUSY,T0012,0.00,0.00,0.00,
+[95;1H[K[7mankcseprda01_190916.topas.csv (4%)[27m[95;1H[95;1H[KDISKREAD,T0012,7.02,7.02,0.00,
+DISKWRITE,T0012,6.40,52.29,0.00,
+DISKXFER,T0012,0.78,5.74,0.00,
+DISKSERV,T0012,0.00,0.00,0.00,
+DISKWAIT,T0012,0.00,0.00,0.00,
+MEMREAL,T0012,9437184.00,36386.60,15.42,50.53,49.09,46.68,
+MEMVIRT,T0012,2097152.00,99.38,0.62,0.65,1.67,0.00,0.00,1.70,2276.35,0.00,
+PROC,T0012,7.58,0.00,4848.20,15422.85,548.08,94.49,12.16,11.47,35.40,2.20,127.00,
+LAN,T0012,140.44,0.01,0.11,9.66,0.35,0.66,49.23,0.08,0.54,44.39,4.15,10.63,0.00,0.00,0.00,
+IP,T0012,9.59,4.03,10.63,44.39,9.59,0.08,0.54,49.23,1.90,0.27,0.52,9.05,1.90,0.01,0.11,140.45,
+TCPUDP,T0012,49.00,47.89,9.58,7.45,
+FILE,T0012,0.85,3654.11,0.00,863004.69,20863.08,
+JFSFILE,T0012,15.20,70.53,77.01,73.79,3.89,44.29,
+JFSINODE,T0012,3.03,9.12,19.58,4.32,0.03,2.26,
+LPAR,T0012,0.19,3.00,12.00,64.00,2.00,128.00,53.35,0.29,0.29,1.00,
+ZZZZ,T0013,01:06:26,16-Sep-2019,,
+CPU_ALL,T0013,2.89,2.82,0.02,94.28,12.00,
+CPU011,T0013,0.00,1.76,0.00,98.24,
+CPU010,T0013,0.00,1.79,0.00,98.21,
+CPU09,T0013,0.00,1.95,0.00,98.05,
+CPU08,T0013,9.62,47.23,0.05,43.09,
+CPU07,T0013,0.00,1.80,0.00,98.20,
+CPU06,T0013,0.00,1.89,0.00,98.11,
+CPU05,T0013,0.00,1.86,0.00,98.14,
+CPU04,T0013,9.99,45.22,0.04,44.75,
+CPU03,T0013,0.56,0.78,0.00,98.66,
+CPU02,T0013,0.74,1.10,0.00,98.16,
+CPU01,T0013,10.94,12.81,0.06,76.18,
+CPU00,T0013,49.52,47.31,0.02,3.16,
+DISKBUSY,T0013,0.00,0.00,0.00,
+DISKREAD,T0013,498.14,753.62,0.00,
+DISKWRITE,T0013,6.19,88.84,0.00,
+DISKXFER,T0013,3.10,13.38,0.00,
+DISKSERV,T0013,0.00,0.00,0.00,
+DISKWAIT,T0013,0.00,0.00,0.00,
+MEMREAL,T0013,9437184.00,35393.80,15.42,50.54,49.09,46.68,
+MEMVIRT,T0013,2097152.00,99.38,0.62,0.40,2.31,0.00,0.00,2.69,3175.38,0.00,
+PROC,T0013,8.82,0.00,5019.91,15659.41,632.93,226.70,16.54,15.94,46.40,2.20,127.20,
+LAN,T0013,141.70,0.01,0.13,10.22,0.35,0.79,54.63,0.07,0.65,46.14,3.97,12.76,0.00,0.00,0.00,
+IP,T0013,11.65,3.85,12.76,46.14,11.65,0.07,0.65,54.63,2.23,0.27,0.62,9.59,2.23,0.01,0.13,141.70,
+TCPUDP,T0013,52.52,51.23,13.61,7.89,
+FILE,T0013,2.27,3556.83,0.00,1475874.62,27218.79,
+JFSFILE,T0013,15.20,70.53,77.01,73.80,3.89,44.29,
+JFSINODE,T0013,3.03,9.13,19.58,4.32,0.03,2.26,
+LPAR,T0013,0.20,3.00,12.00,64.00,2.00,128.00,52.51,0.31,0.31,1.00,
+ZZZZ,T0014,01:11:26,16-Sep-2019,,
+CPU_ALL,T0014,2.82,2.64,0.09,94.45,12.00,
+CPU011,T0014,0.00,1.68,0.00,98.32,
+CPU010,T0014,0.00,1.68,0.00,98.32,
+CPU09,T0014,0.00,1.87,0.00,98.13,
+CPU08,T0014,0.00,49.70,0.00,50.30,
+CPU07,T0014,0.00,1.79,0.00,98.21,
+CPU06,T0014,0.00,2.21,0.00,97.79,
+CPU05,T0014,0.00,2.03,0.00,97.97,
+CPU04,T0014,0.00,46.52,0.00,53.48,
+CPU03,T0014,1.19,0.93,0.00,97.88,
+CPU02,T0014,1.33,1.35,0.04,97.29,
+CPU01,T0014,8.79,10.04,0.18,80.99,
+CPU00,T0014,50.42,46.44,0.14,3.00,
+DISKBUSY,T0014,0.00,1.00,0.00,
+DISKREAD,T0014,14.03,181.35,0.00,
+DISKWRITE,T0014,8.59,62.49,0.00,
+DISKXFER,T0014,0.99,25.42,0.00,
+DISKSERV,T0014,0.00,0.00,0.00,
+DISKWAIT,T0014,0.00,0.00,0.00,
+MEMREAL,T0014,9437184.00,34715.40,15.42,50.53,49.10,46.69,
+MEMVIRT,T0014,2097152.00,99.38,0.62,23.73,2.33,0.00,0.00,23.27,2294.65,0.00,
+PROC,T0014,8.76,0.20,5210.35,14670.63,519.92,201.17,12.17,11.48,37.20,2.00,127.00,
+LAN,T0014,143.04,0.01,0.13,11.24,0.34,0.44,48.47,0.09,0.64,43.58,4.02,6.57,0.00,0.00,0.00,
+IP,T0014,9.52,3.91,6.57,43.58,9.52,0.09,0.64,48.47,1.73,0.26,0.35,10.64,1.73,0.01,0.13,143.04,
+TCPUDP,T0014,48.15,46.73,9.79,7.41,
+FILE,T0014,0.97,3354.52,0.00,722308.56,24349.46,
+JFSFILE,T0014,15.20,70.53,77.01,73.80,3.89,44.30,
+JFSINODE,T0014,3.03,9.13,19.58,4.32,0.03,2.26,
+LPAR,T0014,0.19,3.00,12.00,64.00,2.00,128.00,52.61,0.30,0.30,1.00,
+ZZZZ,T0015,01:16:27,16-Sep-2019,,
+CPU_ALL,T0015,2.67,2.73,0.00,94.59,12.00,
+CPU011,T0015,0.00,1.84,0.00,98.16,
+CPU010,T0015,0.00,1.82,0.00,98.18,
+CPU09,T0015,0.00,1.94,0.00,98.06,
+CPU08,T0015,0.00,47.64,0.00,52.36,
+CPU07,T0015,0.00,1.87,0.00,98.13,
+CPU06,T0015,0.00,1.96,0.00,98.04,
+CPU05,T0015,0.00,2.23,0.00,97.77,
+CPU04,T0015,0.00,45.10,0.00,54.90,
+CPU03,T0015,0.54,1.01,0.00,98.45,
+CPU02,T0015,0.46,1.75,0.00,97.79,
+CPU01,T0015,7.13,8.30,0.00,84.56,
+CPU00,T0015,48.47,48.54,0.01,2.98,
+DISKBUSY,T0015,0.00,0.00,0.00,
+DISKREAD,T0015,7.02,7.02,0.00,
+DISKWRITE,T0015,8.45,54.37,0.00,
+DISKXFER,T0015,0.94,5.85,0.00,
+DISKSERV,T0015,0.00,0.00,0.00,
+[95;1H[K[7mankcseprda01_190916.topas.csv (5%)[27m[95;1H[K[?1049l[?1l>ankcseprda01[/home/hchada]$ ls -la
+total 93168
+drwxr-xr-x    4 hchada   other          4096 Oct 09 15:13 .
+drwxr-xr-x  500 bin      bin           28672 Sep 16 10:41 ..
+-rwx------    1 hchada   other           269 Oct 10 2017  .profile
+-rw-------    1 hchada   other          2892 Oct 09 15:13 .sh_history
+drwx------    2 hchada   other           256 Oct 11 2017  .ssh
+-rw-------    1 hchada   other            34 May 23 11:54 .vi_history
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190916.topas
+-rw-r-----    1 hchada   other        390130 Oct 09 15:13 ankcseprda01_190916.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190917.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190918.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190919.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190920.topas
+-rwxr-x---    1 hchada   other       2951392 Oct 09 15:13 ankcseprda01_190921.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190922.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190923.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190924.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190925.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190926.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190927.topas
+-rwxr-x---    1 hchada   other       2951392 Oct 09 15:13 ankcseprda01_190928.topas
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190929.topas
+-rwxr-x---    1 hchada   other       2929928 Oct 09 15:13 ankcseprda01_190930.topas
+drwxr-x---    2 hchada   other          4096 Jul 02 2018  cg1p26a
+-rwxr-x---    1 hchada   other        261375 Oct 09 15:13 nmon_analyser_v54.xlsm
+ankcseprda01[/home/hchada]$ for in `ls *.topas` 
+ankcseprda01[/home/hchada]$ for in    in `ls *.topas` do
+> topasout -a $i
+ksh: 0403-057 Syntax error: `topasout' is not expected.
+ankcseprda01[/home/hchada]$ bash
+ksh: bash:  not found.
+ankcseprda01[/home/hchada]$ b sh
+ankcseprda01[/home/hchada]$ echo $SHELL
+/usr/bin/ksh
+ankcseprda01[/home/hchada]$ ls -ls /usr/bin/*sh
+2896 -r-xr-xr-x    2 bin      bin         2963636 Aug 05 2018  /usr/bin/Rsh
+2896 -r-xr-xr-x    2 bin      bin         2963636 Aug 05 2018  /usr/bin/bsh
+   8 -rwxr-xr-x    1 root     system         4690 Nov 23 2015  /usr/bin/c_rehash
+  36 -r-xr-sr-x    1 root     security      36476 Jul 07 2018  /usr/bin/chsh
+ 180 -r-xr-xr-x    1 bin      bin          184152 May 02 2018  /usr/bin/csh
+   0 lrwxrwxrwx    1 root     system           28 Jun 23 09:01 /usr/bin/cttrflush -> /usr/sbin/rsct/bin/cttrflush
+   0 lrwxrwxrwx    1 root     system           29 Jun 23 09:01 /usr/bin/fcinit.csh -> /usr/sbin/rsct/bin/fcinit.csh
+   0 lrwxrwxrwx    1 root     system           28 Jun 23 09:01 /usr/bin/fcinit.sh -> /usr/sbin/rsct/bin/fcinit.sh
+   4 -r-xr-xr-x   15 bin      bin            1457 Jun 27 2010  /usr/bin/hash
+   0 lrwxrwxrwx    1 root     system           28 Jun 23 08:52 /usr/bin/instmodsh -> /usr/opt/perl5/bin/instmodsh
+ 292 -r-xr-xr-x    5 bin      bin          297158 Aug 20 2018  /usr/bin/ksh
+ 272 -r-xr-xr-x    1 bin      bin          288286 Jul 20 2013  /usr/bin/msh
+ 292 -r-xr-xr-x    5 bin      bin          297158 Aug 20 2018  /usr/bin/psh
+   4 -r-xr-xr-x    1 bin      bin             918 Jun 27 2010  /usr/bin/recsh
+   8 -r-xr-s---    1 root     system         5864 Apr 23 2018  /usr/bin/refresh
+  28 -r-sr-xr-x    2 root     system        27788 May 02 2018  /usr/bin/remsh
+ 292 -r-xr-xr-x    5 bin      bin          297158 Aug 20 2018  /usr/bin/rksh
+  28 -r-sr-xr-x    2 root     system        27788 May 02 2018  /usr/bin/rsh
+ 292 -r-xr-xr-x    5 bin      bin          297158 Aug 20 2018  /usr/bin/sh
+1728 -r-xr-xr-x    1 root     system      1767879 Jul 21 2016  /usr/bin/ssh
+ 292 -r-xr-xr-x    5 bin      bin          297158 Aug 20 2018  /usr/bin/tsh
+ankcseprda01[/home/hchada]$ bsh
+ankcseprda01[$PWD]$ ls
+ankcseprda01_190916.topas      ankcseprda01_190920.topas      ankcseprda01_190925.topas      ankcseprda01_190930.topas
+ankcseprda01_190916.topas.csv  ankcseprda01_190921.topas      ankcseprda01_190926.topas      cg1p26a
+ankcseprda01_190917.topas      ankcseprda01_190922.topas      ankcseprda01_190927.topas      nmon_analyser_v54.xlsm
+ankcseprda01_190918.topas      ankcseprda01_190923.topas      ankcseprda01_190928.topas
+ankcseprda01_190919.topas      ankcseprda01_190924.topas      ankcseprda01_190929.topas
+ankcseprda01[$PWD]$ for i in `ls 
+ankcseprda01[$PWD]$ ls *.topas
+ankcseprda01_190916.topas  ankcseprda01_190920.topas  ankcseprda01_190924.topas  ankcseprda01_190928.topas
+ankcseprda01_190917.topas  ankcseprda01_190921.topas  ankcseprda01_190925.topas  ankcseprda01_190929.topas
+ankcseprda01_190918.topas  ankcseprda01_190922.topas  ankcseprda01_190926.topas  ankcseprda01_190930.topas
+ankcseprda01_190919.topas  ankcseprda01_190923.topas  ankcseprda01_190927.topas
+ankcseprda01[$PWD]$ for i in `ls *.otopas` do
+> topasout -a $i
+Syntax error: `topasout' not expected.
+ankcseprda01[$PWD]$ for i in `ls *.topas`
+> do
+> topasout -a $i
+> done
+ankcseprda01[$PWD]$ ls
+ankcseprda01_190916.topas      ankcseprda01_190920.topas      ankcseprda01_190924.topas      ankcseprda01_190928.topas
+ankcseprda01_190916.topas.csv  ankcseprda01_190920.topas.csv  ankcseprda01_190924.topas.csv  ankcseprda01_190928.topas.csv
+ankcseprda01_190917.topas      ankcseprda01_190921.topas      ankcseprda01_190925.topas      ankcseprda01_190929.topas
+ankcseprda01_190917.topas.csv  ankcseprda01_190921.topas.csv  ankcseprda01_190925.topas.csv  ankcseprda01_190929.topas.csv
+ankcseprda01_190918.topas      ankcseprda01_190922.topas      ankcseprda01_190926.topas      ankcseprda01_190930.topas
+ankcseprda01_190918.topas.csv  ankcseprda01_190922.topas.csv  ankcseprda01_190926.topas.csv  ankcseprda01_190930.topas.csv
+ankcseprda01_190919.topas      ankcseprda01_190923.topas      ankcseprda01_190927.topas      cg1p26a
+ankcseprda01_190919.topas.csv  ankcseprda01_190923.topas.csv  ankcseprda01_190927.topas.csv  nmon_analyser_v54.xlsm
+ankcseprda01[$PWD]$ ls *.csv
+ankcseprda01_190916.topas.csv  ankcseprda01_190920.topas.csv  ankcseprda01_190924.topas.csv  ankcseprda01_190928.topas.csv
+ankcseprda01_190917.topas.csv  ankcseprda01_190921.topas.csv  ankcseprda01_190925.topas.csv  ankcseprda01_190929.topas.csv
+ankcseprda01_190918.topas.csv  ankcseprda01_190922.topas.csv  ankcseprda01_190926.topas.csv  ankcseprda01_190930.topas.csv
+ankcseprda01_190919.topas.csv  ankcseprda01_190923.topas.csv  ankcseprda01_190927.topas.csv
+ankcseprda01[$PWD]$ ls -la
+total 103792
+drwxr-xr-x    4 hchada   other          4096 Oct 09 15:16 .
+drwxr-xr-x  500 bin      bin           28672 Sep 16 10:41 ..
+-rwx------    1 hchada   other           269 Oct 10 2017  .profile
+-rw-------    1 hchada   other          2986 Oct 09 15:15 .sh_history
+drwx------    2 hchada   other           256 Oct 11 2017  .ssh
+-rw-------    1 hchada   other            34 May 23 11:54 .vi_history
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190916.topas
+-rw-r-----    1 hchada   other        390130 Oct 09 15:16 ankcseprda01_190916.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190917.topas
+-rw-r-----    1 hchada   other        390653 Oct 09 15:16 ankcseprda01_190917.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190918.topas
+-rw-r-----    1 hchada   other        390582 Oct 09 15:16 ankcseprda01_190918.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190919.topas
+-rw-r-----    1 hchada   other        390190 Oct 09 15:16 ankcseprda01_190919.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190920.topas
+-rw-r-----    1 hchada   other        390209 Oct 09 15:16 ankcseprda01_190920.topas.csv
+-rwxr-x---    1 hchada   other       2951392 Oct 09 15:13 ankcseprda01_190921.topas
+-rw-r-----    1 hchada   other        358926 Oct 09 15:16 ankcseprda01_190921.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190922.topas
+-rw-r-----    1 hchada   other        384790 Oct 09 15:16 ankcseprda01_190922.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190923.topas
+-rw-r-----    1 hchada   other        390088 Oct 09 15:16 ankcseprda01_190923.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190924.topas
+-rw-r-----    1 hchada   other        390580 Oct 09 15:16 ankcseprda01_190924.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190925.topas
+-rw-r-----    1 hchada   other        390504 Oct 09 15:16 ankcseprda01_190925.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190926.topas
+-rw-r-----    1 hchada   other        391051 Oct 09 15:16 ankcseprda01_190926.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190927.topas
+-rw-r-----    1 hchada   other        391103 Oct 09 15:16 ankcseprda01_190927.topas.csv
+-rwxr-x---    1 hchada   other       2951392 Oct 09 15:13 ankcseprda01_190928.topas
+-rw-r-----    1 hchada   other        359170 Oct 09 15:16 ankcseprda01_190928.topas.csv
+-rwxr-x---    1 hchada   other       3176764 Oct 09 15:13 ankcseprda01_190929.topas
+-rw-r-----    1 hchada   other        385435 Oct 09 15:16 ankcseprda01_190929.topas.csv
+-rwxr-x---    1 hchada   other       2929928 Oct 09 15:13 ankcseprda01_190930.topas
+-rw-r-----    1 hchada   other        359576 Oct 09 15:16 ankcseprda01_190930.topas.csv
+drwxr-x---    2 hchada   other          4096 Jul 02 2018  cg1p26a
+-rwxr-x---    1 hchada   other        261375 Oct 09 15:13 nmon_analyser_v54.xlsm
+ankcseprda01[$PWD]$ .
+ankcseprda01[$PWD]$ 
+ankcseprda01[$PWD]$ 
+ankcseprda01[$PWD]$ 
+ankcseprda01[$PWD]$ df .
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd1         3670016    942008   75%    12596    11% /home
+ankcseprda01[$PWD]$ cd /cse
+ankcseprda01[$PWD]$ ls
+admin                            epagent824                       lost+found
+aix53_upgrade_backup_marker.txt  finalist                         online
+batch                            forms                            properties
+bin                              introscopeAgent                  reporting
+centralprint_daemon              introscopeAgent801               selfservice
+centralpro_daemon                introscopeAgent95                wily
+epagent                          introscopeAgent971
+epagent801                       lib
+ankcseprda01[$PWD]$ cd batch
+ankcseprda01[$PWD]$ df .
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/cse_lv      7340032   1913264   74%    10132     2% /cse
+ankcseprda01[$PWD]$ fclear
+[H[2Jankcseprda01[$PWD]$ ls
+PROD01_Batch_AP031_01   PROD01_Batch_Cluster_1  dumps
+PROD01_Batch_AP031_02   archive                 fmsproperties
+ankcseprda01[$PWD]$ whereis
+Usage: whereis [-sbmu] [-SBM Directory ... -f] Name ...
+ankcseprda01[$PWD]$ whereisj ava
+whereisj:  not found.
+ankcseprda01[$PWD]$ whereis java
+java:
+ankcseprda01[$PWD]$ whereis cse
+cse:
+ankcseprda01[$PWD]$ whereis /cse
+cse:
+ankcseprda01[$PWD]$ whereis
+Usage: whereis [-sbmu] [-SBM Directory ... -f] Name ...
+ankcseprda01[$PWD]$ man whereis
+[?1049h[95;1H[K
+[1mwhereis(B[m [1mCommand(B[m
+
+[1mPurpose(B[m
+
+       Locates source, binary, or manual for program.
+
+[1mSyntax(B[m
+
+       [1mwhereis(B[m [ [1m-s(B[m ] [ [1m-b(B[m ] [ [1m-m(B[m ] [ [1m-u(B[m ] [ { { [1m-S(B[m | [1m-B(B[m | [1m-M(B[m } Directory ... }... [1m-f(B[m ] File ...
+
+[1mDescription(B[m
+
+       The [1mwhereis(B[m command locates the source, binary, and manuals sections for specified files. The supplied names are
+       first stripped of leading path name components and any (single) trailing extension of the form .ext (for example,
+       [1m.c(B[m). Prefixes of [1ms.(B[m resulting from use of the Source Code Control System (see [1mSCCS(B[m) are also dealt with. The command
+       then attempts to find the desired program from a list of standard locations.
+
+       A usage message is returned if a bad option is entered. In other cases, no diagnostics are provided.
+
+[1mFlags(B[m
+
+       If any of the [1m-b,(B[m [1m-s,(B[m [1m-m(B[m or [1m-u(B[m flags are given, the [1mwhereis(B[m command searches only for binary, source, manual, or
+       unusual sections respectively (or any two thereof).
+       Item
+            Description
+       [1m-b(B[m
+            Searches for binary sections of a file.
+       [1m-m(B[m
+            Searches for manual sections of a file.
+       [1m-s(B[m
+            Searches for source sections of a file.
+       [1m-u(B[m
+            Searches for unusual files. A file is said to be unusual if it does not have one entry of each requested type.
+            Entering whereis -m -u * asks for those files in the current directory which have no documentation.
+
+       The [1m-B,(B[m [1m-M,(B[m and [1m-S(B[m flags can be used to change or otherwise limit the places where the [1mwhereis(B[m command searches.
+       Since the program uses the [1mchdir(B[m subroutine to run faster, path names given with the [1m-M,(B[m [1m-S(B[m and [1m-B(B[m flag directory
+       list must be full; for example, they must begin with a [1m/(B[m (slash).
+       Item
+            Description
+       [1m-B(B[m
+            Like [1m-b(B[m, but adds a directory to search. Change or limit the places where the [1mwhereis(B[m command searches for
+            binaries.
+       [1m-M(B[m
+            Like [1m-m(B[m, but adds a directory to search. Change or limit the places where the [1mwhereis(B[m command searches for
+            manual sections.
+       [1m-S(B[m
+            Like [1m-s(B[m, but adds a directory to search. Change or limit the places where the [1mwhereis(B[m command searches for
+            sources
+       [1m-f(B[m
+            Terminates the last [1m-M,(B[m [1m-S(B[m or [1m-B(B[m directory list and signal the start of file names.
+
+[1mExamples(B[m
+
+       To find all of the files in the [1m/usr/ucb(B[m directory that either are not documented in the [1m/usr/man/man1(B[m directory or
+       do not have source in the [1m/usr/src/cmd(B[m directory, enter:
+
+       cd /usr/ucb
+       whereis -u -M /usr/man/man1 -S /usr/src/cmd -f *
+
+[1mFiles(B[m
+
+       Item
+            Description
+       [1m/usr/share/man/*(B[m
+            Directories containing manual files.
+       [1m/sbin(B[m, [1m/etc(B[m, [1m/usr/(B[m{[1mlib(B[m,[1mbin(B[m,[1mucb(B[m,[1mlpp(B[m}
+            Directories containing binary files.
+       [1m/usr/src/*(B[m
+            Directories containing source code files.
+
+[K[7mStandard input: END[27m[K[?1049l[?1l>ankcseprda01[$PWD]$ whereis -S java
+ankcseprda01[$PWD]$ whereis -B java
+ankcseprda01[$PWD]$ [A[B
+ankcseprda01[$PWD]$ exit
+ankcseprda01[/home/hchada]$ clear
+[H[2Jankcseprda01[/home/hchada]$ wehreis
+sh: wehreis:  not found.
+ankcseprda01[/home/hchada]$ whereis
+Usage: whereis [-sbmu] [-SBM Directory ... -f] Name ...
+ankcseprda01[/home/hchada]$ whereis -b java
+java:
+ankcseprda01[/home/hchada]$ whereis -b -f java
+java:
+ankcseprda01[/home/hchada]$ whereis -f java
+java:
+ankcseprda01[/home/hchada]$ which java
+which: 0652-141 There is no java in /usr/bin /etc /usr/sbin /usr/ucb /home/hchada/bin /usr/bin/X11 /sbin . /usr/local/bin.
+ankcseprda01[/home/hchada]$ opensl sl
+OpenSSL> ankcseprda01[/home/hchada]$ clear
+[H[2Jankcseprda01[/home/hchada]$ hwere     h whereis -b openssl
+openssl: /usr/bin/openssl /usr/include/openssl
+ankcseprda01[/home/hchada]$ whereis -s openssl
+openssl:
+ankcseprda01[/home/hchada]$ whereis -m openssl
+openssl: /usr/share/man/man1/openssl.1
+ankcseprda01[/home/hchada]$ clear
+[H[2Jankcseprda01[/home/hchada]$ 
+Shell will time out in 60 seconds.
+sh: Timed out waiting for input.
+ankcseprda01[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcseprda01 closed.
+ankcseprda01[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

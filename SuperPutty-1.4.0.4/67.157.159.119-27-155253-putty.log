@@ -1,0 +1,70 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.27 15:52:53 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Mon Sep 23 10:55:40 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1051UL:~[?1034h[hchada@CGDCSSL1051UL ~]$ cd /forms/tomcat8/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlost+found[0m  [01;34msyt01[0m  [01;34msyt02[0m  [01;34msyt03[0m  [01;34msyt04[0m  [01;34msyt06[0m  [01;34msyt07[0m  [01;34msyt08[0m  [01;34msyt11[0m  [01;34msyt12[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ cd base
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/base[hchada@CGDCSSL1051UL base]$ ls
+[0m[01;34mbin[0m  [01;34mconf[0m  [01;34mlib[0m  [01;32mLICENSE[0m  [01;32mRELEASE-NOTES[0m  [01;32mRUNNING.txt[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/base[hchada@CGDCSSL1051UL base]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ cd syt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ ls
+[0m[01;34mbin[0m  [01;34mconf[0m  [01;34mlogs[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ cd bin
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/bin[hchada@CGDCSSL1051UL bin]$ ls
+[0m[01;32mcatalina.sh[0m  [01;32msetenv.sh[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/bin[hchada@CGDCSSL1051UL bin]$ c[Kcat setenv.sh
+CATALINA_BASE=/forms/tomcat8/syt01
+CATALINA_HOME=/forms/tomcat8/base
+CATALINA_TMPDIR=$CATALINA_BASE/temp
+JRE_HOME=/forms/java/jdk1.8.0_181
+CATALINA_PID=$CATALINA_BASE/logs/tomcat.pid
+CATALINA_OUT=$CATALINA_BASE/logs/catalina.out
+JAVA_OPTS="-Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9099 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/bin[hchada@CGDCSSL1051UL bin]$ cd ././[K[K[K[K[K[K[Kcat ../../syt02/bin/setenv.sh 
+CATALINA_BASE=/forms/tomcat8/syt02
+CATALINA_HOME=/forms/tomcat8/base
+CATALINA_TMPDIR=$CATALINA_BASE/temp
+JRE_HOME=/forms/java/jdk1.8.0_181
+CATALINA_PID=$CATALINA_BASE/logs/tomcat.pid
+CATALINA_OUT=$CATALINA_BASE/logs/catalina.out
+JAVA_OPTS="-Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9100 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/bin[hchada@CGDCSSL1051UL bin]$ ps -ef | grep tomcat
+tomadmin  1735     1  0 Aug18 ?        00:30:16 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt02/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9100 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt02 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt02/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1741     1  0 Aug18 ?        00:30:11 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt12/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9107 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt12 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt12/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1742     1  0 Aug18 ?        00:31:01 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt08/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9105 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt08 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt08/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1745     1  0 Aug18 ?        00:30:57 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt03/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9101 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt03 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt03/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1747     1  0 Aug18 ?        00:31:49 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt06/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9103 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt06 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt06/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1752     1  0 Aug18 ?        00:31:49 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt04/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9102 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt04 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt04/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1758     1  0 Aug18 ?        00:31:01 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt11/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9106 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt11 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt11/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1759     1  0 Aug18 ?        00:31:06 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt07/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9104 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt07 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt07/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1765     1  0 Aug18 ?        00:30:46 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt01/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9099 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt01 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt01/temp org.apache.catalina.startup.Bootstrap start
+hchada    6160  6052  0 15:54 pts/0    00:00:00 grep --color=auto [01;31m[Ktomcat[m[K
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/bin[hchada@CGDCSSL1051UL bin]$ 

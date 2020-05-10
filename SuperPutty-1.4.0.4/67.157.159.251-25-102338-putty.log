@@ -1,0 +1,1069 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.25 10:23:38 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Oct 23 15:44:07 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ history
+    1  vi pyscritps/runansible.py 
+    2  git status
+    3  git commit -am "removed passwd from the script"
+    4  git push
+    5  cd /forms/
+    6  ls
+    7  cd tomcat8/
+    8  cd temp
+    9  ls
+   10  scp efs-v2.0.21-2019_08_22.war devas:/tmp
+   11  ifconfig
+   12  ssh devas
+   13  ssh devws
+   14  xauth list
+   15  xauth
+   16  xclock
+   17  clear
+   18  exit
+   19  claer
+   20  clear
+   21  grep -i x11 /etc/ssh/sshd_config
+   22  sudo grep -i x11 /etc/ssh/sshd_config
+   23  sudo vi /etc/ssh/sshd_config
+   24  sudo systemctl restart sshd
+   25  sudo vi /etc/ssh/sshd_config
+   26  sudo systemctl restart sshd
+   27  clear
+   28  vnc
+   29  sudo yum  install vncclient
+   30  sudo yum  install vnc-client
+   31  sudo yum  install vnc
+   32  clear
+   33  cd EFS/ansible/
+   34  ansible devas -i inventory -m shell -a "echo -s "Rambo@123\nRambo@123" | passwd hchada" -b -K
+   35  history | grep Ir0n
+   36  ansible devas -i inventory -m shell -a "echo -e "Rambo@123\nRambo@123" | passwd hchada" -b -K
+   37  clear
+   38  telnet
+   39  sudo yum install telnet
+   40  clear
+   41  telnet 104.177.181.228 5900
+   42  telnet google.com
+   43  telnet google.com 80
+   44  telnet google.com 443
+   45  clear
+   46  ls
+   47  cd EFS/ansible/
+   48  ls
+   49  ls *.sh
+   50  cd apache/
+   51  ls 8.sh
+   52  ls *.sh
+   53  ls
+   54  cd ..
+   55  ls
+   56  find . *.sh 
+   57  find . -name *.sh
+   58  cd tomcat/
+   59  ls
+   60  more ports.sh
+   61  vi ports.sh 
+   62  time ./ports.sh
+   63  ls
+   64  ls -lagrt
+   65  chmod 777 ports.sh
+   66  vi ports.sh
+   67  chmod 777 ports.sh
+   68  ./ports.sh
+   69  time ./ports.sh
+   70  ls
+   71  wget https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
+   72  cd /forms/tomcat8/
+   73  ls
+   74  cd webapps/
+   75  ls
+   76  ls -lagrt
+   77  cd EFS/ansible/
+   78  ls
+   79  cd selfsignedcerts/
+   80  ls
+   81  cat CreateCerts.yml
+   82  ls
+   83  cat CreateCerts-pft.yml
+   84  cat /etc/hosts
+   85  cat CreateCerts-pft.yml
+   86  ls
+   87  more CreateCerts.yml
+   88  cp CreateCerts.yml CreateCerts-pft1.yml
+   89  vi CreateCerts-pft1.yml 
+   90  history | grep Certs
+   91   ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_hosts=pft1ws1 statte=present" -K
+   92   ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   93  vi CreateCerts-pft1.yml 
+   94   ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   95  vi CreateCerts-pft1.yml 
+   96   ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   97  3
+   98  exit
+   99  yum list apache2
+  100  yum list httpd
+  101  yum repolist
+  102  cat /etc/yum.repos.d/redhat.repo 
+  103  cat /etc/yum.repos.d/redhat.repo | more
+  104  cat /etc/yum.repos.d/redhat.repo | wc -l
+  105  exit
+  106  cd EFS/ansible/selfsignedcerts/
+  107  ls
+  108  more CreateCerts.yml
+  109  vi CreateCerts.yml
+  110  links
+  111  curl
+  112  linx
+  113  links
+  114  curl
+  115  curl google.com
+  116  firefox
+  117  ls
+  118   ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=devws statte=present" -K
+  119  curl
+  120  curl https://104.177.181.228:8006
+  121  ssh devas
+  122  cd EFS/ansible/
+  123  ls
+  124  ansible devas -i inventory -m shell -a "passwd hchada" -b -K
+  125  ansible devas -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K
+  126  ssh devas
+  127  exit
+  128  id deploy1
+  129  finger
+  130  users 
+  131  users deploy1
+  132  change
+  133  chage
+  134  chage -l deploy1
+  135  sudo chage -l deploy1
+  136  sudo passwd deploy1
+  137  sudo chage -l deploy1
+  138  cd EFS/ansible/selfsignedcerts/
+  139  ls
+  140  more CreateCerts.yml
+  141  ping devws
+  142  ping sytws
+  143  vi CreateCerts.yml
+  144  history | grep var
+  145  ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_hosts=sytws statte=present" -K
+  146  ansible-playbook -i ../inventory CreateCerts-pft1.yml --extra-vars "var_host=sytws statte=present" -K
+  147  ping sytws
+  148  ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+  149  ssh sytws
+  150  ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+  151  ssh sytws
+  152  ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+  153  vi /etc/ansible/ansible.cfg 
+  154  vi ../ansible.cfg 
+  155  ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=sytws statte=present" -K
+  156  ssh sytws
+  157  top
+  158  cd /forms/tomcat8/
+  159  ls
+  160  cd logs
+  161  ls
+  162  ls -lagrt
+  163  cd ../webapps/
+  164  ls
+  165  cd ..
+  166  ls
+  167  ps -ef | grep tomcat
+  168  cd webapps/
+  169  ls
+  170  ls -lagrt
+  171  cd ../logs
+  172  ls
+  173  ls -lagrt
+  174  vi catalina.out 
+  175  grep SystemOut.log catalina.out
+  176  grep -B 1 SystemOut.log catalina.out
+  177  grep -B 2 SystemOut.log catalina.out
+  178  grep -B 2 -A 2 SystemOut.log catalina.out
+  179  vi catalina.out 
+  180  grep -B 3 -A 2 SystemOut.log catalina.out
+  181  cd ..
+  182  ls
+  183  cd webapps/
+  184  ls
+  185  cd efs-sya01
+  186  ls
+  187  find . -name SystemOut.log
+  188  cd WEB-INF/
+  189  ls
+  190  cd classes/
+  191  ls
+  192  more application-sya.properties 
+  193  cd ..
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd efs-sya01
+  200  clear
+  201  ls
+  202  cd ..
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd logs
+  207  ls
+  208  ls -lagrt
+  209  exit
+  210  cd EFS/ansible/
+  211  ls
+  212  cd final
+  213  ls
+  214  more CreateUsers.yml 
+  215  cd..
+  216  cd ..
+  217  history | grep passwd
+  218   ansible prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K
+  219  grep grep inventory
+  220  grep grp inventory
+  221   ansible prodasgrp -i inventory -m shell -a "echo -e 'Gr88td@y\nGr88td@y' | passwd deploy1" -b -K
+  222  clear
+  223  ls
+  224  exit
+  225  cd EFS/ansible/selfsignedcerts/
+  226  ls
+  227  vi CreateCerts.yml
+  228  history | grep CreateCerts
+  229  ls
+  230  cd ..
+  231  ls
+  232  cd final
+  233  ls
+  234  vi CreatePartitions.yml
+  235  clear
+  236  ls
+  237  ps -ef | grep tomcat
+  238  cd /forms/tomcat8/
+  239  ls
+  240  cd webapps/
+  241  ls
+  242  id deploy1
+  243  su deploy1
+  244  cd /E
+  245  cd EFS/
+  246  ls
+  247  df .
+  248  df 
+  249  df /aem
+  250  cd /aem
+  251  ls
+  252  ls -lagrt
+  253  ls -lah
+  254  du -m | sort -n | tail
+  255  lvdisplay
+  256  sudo su -
+  257  cat /etc/yum.repos.d/
+  258  ls /etc/yum.repos.d/
+  259  more /etc/yum.repos.d/epel.repo 
+  260  more /etc/yum.repos.d/redhat.repo 
+  261  cp /etc/yum.repos.d/redhat.repo /tmp
+  262  cd /tmp
+  263  ls
+  264  cd /etc/pki/entitlement/
+  265  ls
+  266  ls -la
+  267  more 6540939498888370825.pem
+  268    ls
+  269  cp * /tmp
+  270  sudo su -
+  271  exit
+  272  cd /tmp
+  273  ls
+  274  ls ef*
+  275  pwd
+  276  ls -la
+  277  ls efs*
+  278  exit
+  279  cd /forms/tomcat8/
+  280  ls
+  281  cd webapps/
+  282  ls
+  283  ls -lagrt
+  284  id ryoung
+  285  rm -rf efs-sya02.war efs-sya02 efs-sya04.war efs-sya04
+  286  ls
+  287  ls -la
+  288  id
+  289  ls -la
+  290  sudo su -
+  291  ls
+  292  cp /tmp/efs-sya01.war .
+  293  sudo su -
+  294  exit
+  295  ls
+  296  ps -ef | grep aes
+  297  cd /opt
+  298  ls
+  299  cd /
+  300  ls
+  301  cd aem
+  302  ls
+  303  cd /forms/tomcat8/
+  304  ls
+  305  cd webapps/
+  306  ls
+  307  c d..
+  308  ls
+  309  cd ..
+  310  cd logs
+  311  ls
+  312  ls -lagrt
+  313  vi catalina.out
+  314  tail localhost_access_log.2019-10-03.txt
+  315  cd /aec
+  316  ps -ef | grep osgi
+  317  ifconfig
+  318  java -version
+  319  which java
+  320  cd /forms/java/jdk1.8.0_181/bin
+  321  ls
+  322  cd /forms/tomcat8/
+  323  ls
+  324  cd bin
+  325  ls
+  326  ./version.sh 
+  327  cd
+  328  ls
+  329  cd binaries
+  330  ls
+  331  scp jdk-8u181-linux-x64.tar.gz smohamma@67.157.157.173:/tmp
+  332  scp jdk-8u181-linux-x64.tar.gz smohamma@100.95.22.90:/tmp
+  333  exit
+  334  cd /forms/tomcat8/logs
+  335  ls
+  336  ls -lagrt
+  337  tail -f localhost_access_log.2019-10-03.txt
+  338  ls -lagrt
+  339  tail catalina.out
+  340  ls -lagrt
+  341  vi localhost_access_log.2019-10-03.txt
+  342  tail localhost_access_log.2019-10-03.txt
+  343  tail -f localhost_access_log.2019-10-03.txt
+  344  ls -lagrt
+  345  tail catalina.out
+  346  ls
+  347  ls -lagrt
+  348  tail -f localhost_access_log.2019-10-03.txt
+  349  cd ../webapps/
+  350  ls
+  351  cd efs-sya01
+  352  ls
+  353  cd WEB-INF/classes/
+  354  ls
+  355  vi logback-spring.xml 
+  356  cd
+  357  ls
+  358  ls -lagrt
+  359  cd pyscripts/
+  360  ls
+  361  more main.py 
+  362  ls
+  363  cd ..
+  364  ls
+  365  cd flask
+  366  ls
+  367  cd oreilly-intro-to-flask-video/
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd flaskenv/
+  372  ls
+  373  cd ..
+  374  clear
+  375  cd /forms/tomcat8/
+  376  ls
+  377  cd logs
+  378  ls
+  379  ls -lagrt
+  380  vi localhost_access_log.2019-10-04.txt
+  381  cd ../webapps/efs-sya01/WEB-INF/classes/
+  382  ls
+  383  vi logback-spring.xml 
+  384  sudo vi logback-spring.xml 
+  385  ls
+  386  systemctl restart tomcat
+  387  sudo systemctl restart tomcat
+  388  cd ../../../
+  389  cd ../logs
+  390  ls -lagrt
+  391  tail catalina.out 
+  392  ls -lagtt
+  393  ls -lagrt
+  394  tail -f localhost_access_log.2019-10-04.txt
+  395  ls -lagrt
+  396  cd ..
+  397  ls
+  398  find . -name SystemOut.log
+  399  find . -name SystemOut.log -exec ls -la {} \;
+  400  cd webapps/
+  401  ls
+  402  cd e
+  403  cd efs-sya01
+  404  ls
+  405  cd WEB-INF/classes/
+  406  vi logback-spring.xml 
+  407  sudo vi logback-spring.xml 
+  408  cd ../../../
+  409  cd ../logs
+  410  ls -lagrt
+  411  tail localhost_access_log.2019-10-04.txt
+  412  tail catalina.out
+  413  cd ..
+  414  cd bin
+  415  ls
+  416  cd /etc/systemd/system
+  417  ls
+  418  more tomcat.service 
+  419  q1
+  420  cd /forms/tomcat8/
+  421  ls
+  422  cd conf
+  423  ls
+  424  vi server.xml
+  425  grep sya server.xml
+  426  grep sya context.xml 
+  427  grep sya web.xml
+  428  java
+  429  java --versioon
+  430  java --version
+  431  java -version
+  432  which java
+  433  ls
+  434  vi server.xml
+  435  vi context.xml 
+  436  vi web.xml
+  437  sudo systemctl restart tomcat
+  438  ps -ef | grep java
+  439  ps -ef | grep tomcat
+  440  cd ..
+  441  ls
+  442  cd logs
+  443  ls
+  444  ls -lagrt
+  445  tail SystemOut.log 
+  446  tail -f SystemOut.log 
+  447  tail localhost_access_log.2019-10-04.txt
+  448  curl -X POST "https://100.95.20.99/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json"
+  449  curl -X POST "https://100.95.20.99/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json" -k
+  450  ls -lagrt
+  451  tail localhost_access_log.2019-10-04.txt
+  452  tail -f localhost_access_log.2019-10-04.txt
+  453  ls
+  454  exit
+  455  curl -X POST "https://efssya.cse.ca.gov/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json" -d "ghjhk,jb"
+  456  ping efssya.cse.ca.gov
+  457  telnet efssya.cse.ca.gov 443
+  458  curl -X POST "https://100.95.20.99/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json" -d "ghjhk,jb"
+  459  curl -X POST "https://100.95.20.99/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json" -d "ghjhk,jb" -k
+  460  curl -X POST "https://100.95.20.99/efs-sya01/efs/submitParticipantInfo" -H "accept: application/json" -H "Content-Type: application/json" -d "ghjhk,jb" 
+  461  ls
+  462  cd /aem
+  463  ls
+  464  cd crx-quickstart/
+  465  ls
+  466  cd logs
+  467  ls
+  468  ls -lagrt
+  469  more error.log
+  470  tail error.log
+  471  ls
+  472  ls -lagrt
+  473  tail access.log
+  474  greo efssya *
+  475  grep efssya *
+  476  vi error.log
+  477  grep 100.95.20.99 *
+  478  vi error.log
+  479  tail -f  error.log
+  480  vi error.log
+  481  ps -ef | grep aem
+  482  ps -ef | grep java
+  483  ls
+  484  cd .
+  485  ls
+  486  cd ..
+  487  ls
+  488  cd bin
+  489  ls
+  490  cd ..
+  491  ls
+  492  java
+  493  which java
+  494  cd /forms/java/jdk1.8.0_181/
+  495  ls
+  496  cd jre/lib/security
+  497  ls
+  498  cp /tmp/syaefs.crt .
+  499  ls -la
+  500  sudo su -
+  501  exit
+  502  top
+  503  java -version
+  504  ls
+  505  cd EFS/
+  506  ls
+  507  cd ansible/
+  508  ls
+  509  cd final/
+  510  ls
+  511  cd ..
+  512  ls pass*
+  513  more paa
+  514  sshpass
+  515  grep sshpass *
+  516  clear
+  517  systemctl status tomcat
+  518  cd /etc/systemd/system
+  519  ls
+  520  more tomcat.service 
+  521  ssh sytas
+  522  clear
+  523  ls
+  524  cd flask
+  525  s
+  526  ls
+  527  history | grep flask
+  528  source flaskenv/bin/activate
+  529  ls
+  530  cd oreilly-intro-to-flask-video/
+  531  ls
+  532  cd 2b
+  533  ls
+  534  python -f weather.py 
+  535  python weather.py 
+  536  clear
+  537  ls
+  538  more weather.py 
+  539  exit
+  540  ls
+  541  clear
+  542  ls
+  543  rm -rf efs-*
+  544  ls
+  545  more issue.net 
+  546  clear
+  547  ls
+  548  pw
+  549  pwd
+  550  ls
+  551  cd
+  552  ls
+  553  cd E
+  554  cd EFS/
+  555  cd ansible/
+  556  cd ..
+  557  ls
+  558  cd ansible/
+  559  ls
+  560  more delApctl.yml 
+  561  cd /forms/tomcat8/logs
+  562  ls
+  563  ls -lagrt
+  564  tail -f localhost_access_log.2019-10-11.txt
+  565  tail -f SystemOut.log
+  566  cd /forms/tomcat8/
+  567  ls
+  568  cd webapps/
+  569  ls
+  570  ls /tmp
+  571  ls -la /tmp
+  572  mv efs-{project.version}-2019_10_11.war efs-sya01.war1
+  573  mv efs-\{project.version\}-2019_10_11.war efs-sya01.war1
+  574  cd /tmp
+  575  mv efs-\{project.version\}-2019_10_11.war efs-sya01.war1
+  576  ls
+  577  rm efs-sya01.war
+  578  mv efs-sya01.war1 efs-sya01.war
+  579  cp efs-sya01.war /forms/tomcat8/webapps/
+  580  sudo cp efs-sya01.war /forms/tomcat8/webapps/
+  581  cd /forms/tomcat8/
+  582  cd webapps/
+  583  ls
+  584  ls -lagrt
+  585  cd .
+  586  ssh syaws
+  587  cd /forms/tomcat8/logs
+  588  s
+  589  ls
+  590  ls -lagrt
+  591  ls
+  592  ls -lagrt
+  593  tail localhost_access_log.2019-10-11.txt
+  594  ls
+  595  tail SystemOut.log 
+  596  ls
+  597  ls -lagrt
+  598  tail -f localhost_access_log.2019-10-11.txt
+  599  tail SystemOut.log 
+  600  tail -f localhost_access_log.2019-10-11.txt
+  601  ssh syaws
+  602  clear
+  603  ls
+  604  tail SystemOut.log 
+  605  vi SystemOut.log 
+  606  ls
+  607  cd 
+  608  ls
+  609  cd /opt
+  610  ls
+  611  cd uim
+  612  ls
+  613  cd /
+  614  ls
+  615  cd ae
+  616  ls
+  617  cd aem
+  618  ls
+  619  cd crx-quickstart/
+  620  l
+  621  ls
+  622  more readme.txt 
+  623  pwd
+  624  cd /tmp
+  625  ls
+  626  cls
+  627  ls ~
+  628  more ~/issue.net 
+  629  cp ~/issue.net .
+  630  chmod 777 issue.net 
+  631  ls
+  632  cd /forms/tomcat8/logs/
+  633  ls
+  634  ls -lagrt
+  635  tail -f localhost_access_log.2019-10-11.txt
+  636  cd /ae
+  637  cd /aem/crx-quickstart/
+  638  ls
+  639  cd logs
+  640  ls
+  641  ls -lagrt
+  642  tail access.log
+  643  ls
+  644  ls -lagrt
+  645  tail error.log
+  646  vi error.log
+  647  tail -f error.log
+  648  cd /forms/tomcat8/
+  649  ls
+  650  cd logs
+  651  ls
+  652  ls -lagrt
+  653  tail localhost_access_log.2019-10-11.txt
+  654  tail -f localhost_access_log.2019-10-11.txt
+  655  cd ..
+  656  ls
+  657  cd ssl
+  658  ls
+  659  cd ..
+  660  ls
+  661  cd conf
+  662  grep crt server.xml
+  663  grep p12 server.xml
+  664  cd ..
+  665  clear
+  666  ls
+  667  cd logs
+  668  ls
+  669  ls -lagrt
+  670  tail -f localhost_access_log.2019-10-11.txt
+  671  tail SystemOut.log 
+  672  date
+  673  cd /aem/crx-quickstart/
+  674  ls
+  675  cd logs
+  676  ls
+  677  ls -lagrt
+  678  tail access.log
+  679  cd /forms/tomcat8/
+  680  ls
+  681  cd logs
+  682  tail SystemOut.log 
+  683  cd /aem/crx-quickstart/logs
+  684  ls
+  685  ls -lagrt
+  686  vi external.log
+  687  grep participantJSON *.log
+  688  grep efs *.log
+  689  ls -lagrt
+  690  vi error.log
+  691  ssh syaws
+  692  ls
+  693  ls -lagrt
+  694  grep swagger *
+  695  grep submit *.log
+  696  grep efs *
+  697  vi error.log
+  698  vi error.log.2019-10-04
+  699  tail error.log
+  700  cd /forms/tomcat8/logs
+  701  ls
+  702  ls -lagr
+  703  tls -lagrt
+  704  ls -lagrt
+  705  tail localhost_access_log.2019-10-11.txt
+  706  clear
+  707  ls
+  708  ls -lagrt
+  709  cd ../webapps/
+  710  ls
+  711  cp /tmp/efs-sya01.war .
+  712  sudo cp /tmp/efs-sya01.war .
+  713  ls -la
+  714  date
+  715  tail ../logs/catalina.out 
+  716  cd /forms/tomcat8/
+  717  ls
+  718  cd logs
+  719  ls
+  720  ls -lagrt
+  721  tail localhost_access_log.2019-10-14.txt
+  722  ps -ef | grep java
+  723  ps -ef | grep aem
+  724  ps -ef | grep osgi
+  725  ps -ef | grep -i osgi
+  726  ls
+  727  ls -lagrt
+  728  tail -f SystemOut.log
+  729  clear
+  730  ls
+  731  cd /aem
+  732  ls
+  733  cd crx-quickstart/
+  734  ls
+  735  cd logs
+  736  ls
+  737  ls -lagrt
+  738  tail ldap.log
+  739  vi ldap.or
+  740  vi ldap.log
+  741  telnet localhost 80
+  742  curl localhost
+  743  clear
+  744  ls
+  745  cd /aem/crx-quickstart/
+  746  cd logs
+  747  ls
+  748  tail ldap.log
+  749  vi ldap.log
+  750  more ldap.log
+  751  ls
+  752  ls -lagrt
+  753  more error.log
+  754  tail error.log
+  755  telnet
+  756  curl localhost:4503
+  757  ls
+  758  ls -lagrt
+  759  tail stdout.log 
+  760  vi stdout.log 
+  761  cd ..
+  762  ls
+  763  cd conf
+  764  ls
+  765  cd ..
+  766  find . -name ESAPI*
+  767  ls
+  768  cd ..
+  769  ls
+  770  cd crx-quickstart/
+  771  ls
+  772  cd conf
+  773  ls
+  774  cd ..
+  775  ls
+  776  cd logs
+  777  ls
+  778  vi stdout.log 
+  779  ls ldap*
+  780  more ldap.log.2019-10-10
+  781  ls /tmp
+  782  cd /forms/ro
+  783  cd /forms/tomcat8/
+  784  cd webapps/
+  785  ls
+  786  sudo cp /tmp/efs-sya01.war .
+  787  ls -lagrt
+  788  cd /aem/
+  789  cd crx-quickstart/
+  790  ls
+  791  cd bin
+  792  ls
+  793  sudo ./stop
+  794  sudo ./start
+  795  ps -ef | grep aem
+  796  sudo ./stop
+  797  ps -ef | grep aem
+  798  sudo ./start
+  799  java
+  800  more start
+  801  grep java start
+  802  grep java stop
+  803  which java
+  804  sudo su - root
+  805  cd /forms/tomcat8/webapps/
+  806  ls
+  807  sudo cp /tmp/efs-sya01.war .
+  808  ls -lagrt
+  809  clear
+  810  cd /forms/tomcat8/logs/
+  811  ls
+  812  ls -lagrt
+  813  tail localhost_access_log.2019-10-21.txt
+  814  cd /aem/
+  815  l
+  816  cd crx-quickstart/
+  817  ls
+  818  cd logs
+  819  ls
+  820  tail -f error.log
+  821  ls
+  822  ls -lagrt
+  823  tail external.log
+  824  grep filetoupload *
+  825  ls
+  826  grep 100.95.21.96 *
+  827  tail -f error.log
+  828  vi error.log
+  829  ls
+  830  cd /forms/tomcat8/
+  831  ls
+  832  cd webapps/
+  833  ls
+  834  ls -lagrt
+  835  ls
+  836  sudo cp /tmp/efs-sya01.war .
+  837  ls -lagrt
+  838  cd ../logs
+  839  ls
+  840  ls -lagrt
+  841  tail -f localhost_access_log.2019-10-21.txt
+  842  ls -lagrt
+  843  tail catalina.
+  844  tail catalina.out 
+  845  tail -f localhost_access_log.2019-10-21.txt
+  846  ls -lagrt
+  847  vi SystemOut.log 
+  848  tail -f localhost_access_log.2019-10-21.txt
+  849  cd /aem/crx-quickstart/logs
+  850  ls
+  851  tail error.log
+  852  vi error.log
+  853  tail -f error.log
+  854  telnet
+  855  sudo apt-get install telnet
+  856  sudo yum install telnet
+  857  telnet
+  858  clear
+  859  ls
+  860  curl
+  861  curl 134.186.202.119:25
+  862  ls
+  863  vi error.log
+  864  curl 134.186.202.119:25
+  865  vi error.log
+  866  mail
+  867  mailx]
+  868  mailx
+  869  tail -f error.log
+  870  vi error.log
+  871  sudo yum install mailx
+  872  echo "This is the message body and contains the message" | mailx -v > -r "harikishore.chada@dcss.ca.gov" > -s "This is the subject" > -S smtp="134.186.202.119:25" > -S smtp-auth=login > harikishore.chada@dcss.ca.gov
+  873  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  874  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  > harikishore.chada@dcss.ca.gov
+  875  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  876  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  877  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"
+  878  echo "This is the message body and contains the message" | mailx -v  -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  879  echo "This is the message body and contains the message" | mailx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  880  clear
+  881  echo "This is the message body and contains the message" | mailx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  882  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  883  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25" harikishore.chada@dcss.ca.gov
+  884  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25" harikishore.chada@dcss.ca.gov
+  885  clear
+  886  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"
+  887  echo "This is the message body and contains the message" | mailx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  888  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  889  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  890  echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  891  cd EFS/ansible/
+  892  ls
+  893  cd final/
+  894  ls
+  895  cd ..
+  896  ls
+  897  cat CreatePartition.yml 
+  898  cd ../
+  899  cd -
+  900  ls
+  901  cd se
+  902  cd selfsignedcerts/
+  903  ls
+  904  more CreateCerts-pft1.yml
+  905  cd 
+  906  clear
+  907  ls
+  908  cd -
+  909  cd /tmp
+  910  ls
+  911  java RunCmd
+  912  ls
+  913  vi RunCmd.java 
+  914  javac
+  915  javac RunCmd.java 
+  916  java RunCmd
+  917  ps -ef
+  918  ps -ef | grep tomcat
+  919  java RunCmd
+  920  vi RunCmd.java 
+  921  javac RunCmd.java 
+  922  java RunCmd
+  923  vi RunCmd.java 
+  924  javac RunCmd.java 
+  925  java RunCmd
+  926  ls
+  927  ps -ef | grep java
+  928  vi RunCmd.java 
+  929  javac RunCmd.java 
+  930  java RunCmd
+  931  vi RunCmd.java 
+  932  javac RunCmd.java 
+  933  java RunCmd
+  934  which ps
+  935  vi RunCmd.java 
+  936  javac RunCmd.java 
+  937  java RunCmd
+  938  vi RunCmd.java 
+  939  ps
+  940  ps -e
+  941  javac RunCmd.java 
+  942  java RunCmd
+  943  vi RunCmd.java 
+  944  javac RunCmd.java 
+  945  vi RunCmd.java 
+  946  javac RunCmd.java 
+  947  java RunCmd
+  948  vi RunCmd.java 
+  949  javac RunCmd.java 
+  950  java RunCmd
+  951  ps -ef | grep tomcat
+  952  vi RunCmd.java 
+  953  javac RunCmd.java 
+  954  java RunCmd
+  955  vi RunCmd.java 
+  956  javac RunCmd.java 
+  957  java RunCmd
+  958  vi RunCmd.java 
+  959  javac RunCmd.java 
+  960  java RunCmd
+  961  ls
+  962  java RunCmd -v
+  963  java -v RunCmd 
+  964  java -? 
+  965  java -verbose RunCmd 
+  966  vi RunCmd.java 
+  967  javac RunCmd.java 
+  968  java RunCmd 
+  969  vi RunCmd.java 
+  970  javac RunCmd.java 
+  971  vi RunCmd.java 
+  972  javac RunCmd.java 
+  973  vi RunCmd.java 
+  974  javac RunCmd.java 
+  975  java RunCmd 
+  976  vi RunCmd.java 
+  977  javac RunCmd.java 
+  978  java RunCmd 
+  979  vi RunCmd.java 
+  980  javac RunCmd.java 
+  981  java RunCmd 
+  982  vi RunCmd.java 
+  983  javac RunCmd.java 
+  984  java RunCmd 
+  985  vi RunCmd.java 
+  986  javac RunCmd.java 
+  987  java RunCmd 
+  988  vi RunCmd.java 
+  989  javac RunCmd.java 
+  990  java RunCmd 
+  991  service status tomcat
+  992  systemctl status tomcat
+  993  vi RunCmd.java 
+  994  javac RunCmd.java 
+  995  java RunCmd 
+  996  history
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ history | grep mail
+  866  [01;31m[Kmail[m[K
+  867  [01;31m[Kmail[m[Kx]
+  868  [01;31m[Kmail[m[Kx
+  871  sudo yum install [01;31m[Kmail[m[Kx
+  872  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v > -r "harikishore.chada@dcss.ca.gov" > -s "This is the subject" > -S smtp="134.186.202.119:25" > -S smtp-auth=login > harikishore.chada@dcss.ca.gov
+  873  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  874  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  > harikishore.chada@dcss.ca.gov
+  875  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  876  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  877  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"
+  878  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v  -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  879  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  881  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  882  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  883  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25" harikishore.chada@dcss.ca.gov
+  884  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25" harikishore.chada@dcss.ca.gov
+  886  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"
+  887  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v  -r "deepak.saroya@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"   harikishore.chada@dcss.ca.gov
+  888  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  889  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  890  echo "This is the message body and contains the message" | [01;31m[Kmail[m[Kx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp-auth=login -S smtp-auth-user="harikishore.chada@dcss.ca.gov" -S smtp-auth-password="Saturday80%" -S smtp="134.186.202.119:25"  -S smtp-auth=login  harikishore.chada@dcss.ca.gov
+  997  history | grep [01;31m[Kmail[m[K
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"
+Send options without primary recipient specified.
+Usage: mailx -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ echo "This is the message body and contains the message" | mailx -v -r "harikishore.chada@dcss.ca.gov" -s "This is the subject" -S smtp="134.186.202.119:25"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C harikishore.chada@dc ss.ca.gov
+Resolving host 134.186.202.119 . . . done.
+Connecting to 134.186.202.119:25 . . . connected.
+220 ESMTP IMSVA
+>>> HELO CGDCSSL1047UL.calcloud.local
+250 SMTPRELGC03.mail.ca.gov
+>>> MAIL FROM:<harikishore.chada@dcss.ca.gov>
+250 2.1.0 Ok
+>>> RCPT TO:<harikishore.chada@dcss.ca.gov>
+250 2.1.5 Ok
+>>> DATA
+354 End data with <CR><LF>.<CR><LF>
+>>> .
+250 2.0.0 Ok: queued as 7A073130058
+>>> QUIT
+221 2.0.0 Bye
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ [K[hchada@CGDCSSL1047UL ~]$ [K[hchada@CGDCSSL1047UL ~]$     

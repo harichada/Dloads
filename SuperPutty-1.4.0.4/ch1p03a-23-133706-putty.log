@@ -1,0 +1,104 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.23 13:37:06 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-328 Your password will expire: Wed Oct 30 14:50:15 PDT 2019
+Last unsuccessful login: Tue Mar  5 11:09:24 PST 2019 on ssh from 169.2.108.102
+Last login: Fri Aug  9 16:22:19 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyaa05[/home/hchada]$ ps    cd    ls -lad /opt
+drwxr-xr-x   29 root     system         1024 Jun 25 07:42 /opt
+ankcsesyaa05[/home/hchada]$ cd /opt
+ankcsesyaa05[/opt]$ ls
+APPQcime         IBM              SolarWinds       adobeES3         csm              freeware         ibm              mcr              qhc              splunkforwarder
+AdobeAEM         IBMinvscout      Symantec         adobe_db2        dcelocal         homebase-agent   lost+found       nsr              rsct             tivoli
+BESClient        RPM_inst_root    adobe            auditout         diagnostics      hsc              lssecfixes       perl             rsct.prev_left
+ankcsesyaa05[/opt]$ ls -lagrt
+total 39
+drwxr-xr-x    2 system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    3 system          256 Dec 24 2008  perl
+drwxr-xr-x    4 bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    2 system          256 Nov 18 2010  qhc
+drwxr-xr-x    3 system          256 Mar 10 2011  Symantec
+drwxr-xr-x    3 system          256 Mar 30 2011  tivoli
+drwxr-xr-x    2 system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    8 sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 system          256 Apr 18 2012  ibm
+drwxr-xr-x    2 system          256 Jul 03 2012  adobe_db2
+drwxrwxr-x   16 wasadmin       4096 Mar 06 2013  adobeES3
+drwxr-xr-x    4 system          256 Jun 14 2013  IBMinvscout
+drwxr-s---    5 wasadmin        256 Nov 20 2014  adobe
+drwxr-xr-x    6 system          256 Dec 07 2016  nsr
+drwxr-xr-x    3 system          256 May 16 2017  BESClient
+drwxr-xr-x    4 bin             256 Aug 01 2017  diagnostics
+drwxr-xr-x   11 bin             512 Aug 01 2017  csm
+drwxr-xr-x    4 system          256 Aug 01 2017  mcr
+drwxr-xr-x    3 system          256 Aug 02 2017  hsc
+drwxr-xr-x    9 system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 bin             256 Mar 13 2019  SolarWinds
+drwxrwx---    2 system          256 Jun 25 07:23 lost+found
+drwxr-xr-x    3 system          256 Jun 25 07:23 auditout
+lrwxrwxrwx    1 system           12 Jun 25 07:26 dcelocal
+lrwxrwxrwx    1 bin              14 Jun 25 07:42 rsct
+drwxr-xr-x   29 system         1024 Jun 25 07:42 .
+drwxr-xr-x   11 system          512 Jul 26 09:03 IBM
+drwxrwxr-x   19 wasadmin       4096 Aug 05 11:22 AdobeAEM
+drwxr-xr-x   74 system         8192 Aug 22 08:18 ..
+drwxr-xr-x   18 system         1024 Aug 22 08:58 freeware
+drwx------    4 system          256 Aug 22 09:02 RPM_inst_root
+ankcsesyaa05[/opt]$ ls -la
+total 39
+drwxr-xr-x   29 root     system         1024 Jun 25 07:42 .
+drwxr-xr-x   74 root     system         8192 Aug 22 08:18 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxrwxr-x   19 wasadmin wasadmin       4096 Aug 05 11:22 AdobeAEM
+drwxr-xr-x    3 root     system          256 May 16 2017  BESClient
+drwxr-xr-x   11 root     system          512 Jul 26 09:03 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwx------    4 root     system          256 Aug 22 09:02 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 13 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 Mar 10 2011  Symantec
+drwxr-s---    5 wasadmin wasadmin        256 Nov 20 2014  adobe
+drwxrwxr-x   16 wasadmin wasadmin       4096 Mar 06 2013  adobeES3
+drwxr-xr-x    2 root     system          256 Jul 03 2012  adobe_db2
+drwxr-xr-x    3 root     system          256 Jun 25 07:23 auditout
+drwxr-xr-x   11 bin      bin             512 Aug 01 2017  csm
+lrwxrwxrwx    1 root     system           12 Jun 25 07:26 dcelocal -> /usr/lpp/dce
+drwxr-xr-x    4 bin      bin             256 Aug 01 2017  diagnostics
+drwxr-xr-x   18 root     system         1024 Aug 22 08:58 freeware
+drwxr-xr-x    2 root     system          256 Apr 22 2011  homebase-agent
+drwxr-xr-x    3 root     system          256 Aug 02 2017  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxrwx---    2 root     system          256 Jun 25 07:23 lost+found
+drwxr-xr-x    2 root     system          256 Jun 02 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Aug 01 2017  mcr
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-xr-x    3 root     system          256 Dec 24 2008  perl
+drwxr-xr-x    2 root     system          256 Nov 18 2010  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:42 rsct -> /usr/sbin/rsct
+drwxr-xr-x    4 bin      bin             256 Aug 04 2010  rsct.prev_left
+drwxr-xr-x    9 root     system          512 Nov 07 2017  splunkforwarder
+drwxr-xr-x    3 root     system          256 Mar 30 2011  tivoli
+ankcsesyaa05[/opt]$ cd /usr/We    Sp  bnS  Sphere
+ankcsesyaa05[/usr/WebSphere]$ ls
+AppServer_85A        AppServer_85_CF      IMShared             InstallationManager  backup               jlib                 lost+found
+ankcsesyaa05[/usr/WebSphere]$ ls la  -la
+total 24
+drwxr-xr-x    9 wasadmin wasadmin        256 Aug 09 16:47 .
+drwxr-xr-x   64 bin      bin            4096 Aug 22 08:58 ..
+drwxr-xr-x   40 wasadmin wasadmin       4096 Aug 26 09:29 AppServer_85A
+drwxr-xr-x   38 wasadmin wasadmin       4096 Sep 05 06:42 AppServer_85_CF
+drwxr-xr-x    6 wasadmin wasadmin        256 Aug 09 16:47 IMShared
+drwxr-xr-x    5 wasadmin wasadmin        256 Aug 09 14:22 InstallationManager
+drwxr-x---    3 root     system          256 Nov 07 2018  backup
+drwxr-x---    2 wasadmin wasadmin        256 Nov 01 2018  jlib
+drwxr-xr-x    2 wasadmin wasadmin        256 Oct 23 2018  lost+found
+ankcsesyaa05[/usr/WebSphere]$ exit

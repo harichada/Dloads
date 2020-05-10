@@ -1,0 +1,1076 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 10:14:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Oct  1 11:48:34 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1046UL:~[?1034h[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ [K[hchada@CGDCSSL1046UL ~]$ cd /opt/
+]0;hchada@CGDCSSL1046UL:/opt[hchada@CGDCSSL1046UL opt]$ ls
+[0m[01;34mlost+found[0m  [01;34mnimsoft[0m  [01;34mopenssl[0m  [01;34muim[0m
+]0;hchada@CGDCSSL1046UL:/opt[hchada@CGDCSSL1046UL opt]$ cd[K[Kcd /
+]0;hchada@CGDCSSL1046UL:/[hchada@CGDCSSL1046UL /]$ ls
+[0m[01;36mbin[0m   [01;34mCommVault[0m  [01;34metc[0m   [01;36mlib[0m    [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34mdev[0m        [01;34mhome[0m  [01;36mlib64[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+]0;hchada@CGDCSSL1046UL:/[hchada@CGDCSSL1046UL /]$ ifconfig
+ens192: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 100.95.20.99  netmask 255.255.255.128  broadcast 100.95.20.127
+        inet6 fe80::250:56ff:feb5:616d  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:b5:61:6d  txqueuelen 1000  (Ethernet)
+        RX packets 10586397  bytes 1120276545 (1.0 GiB)
+        RX errors 0  dropped 35134  overruns 0  frame 0
+        TX packets 4757566  bytes 2076214659 (1.9 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 13639469  bytes 1972257343 (1.8 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13639469  bytes 1972257343 (1.8 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;hchada@CGDCSSL1046UL:/[hchada@CGDCSSL1046UL /]$ sudo su - wa[K[K
+[sudo] password for hchada: 
+[sudo] password for hchada: 
+Sorry, try again.
+[sudo] password for hchada: 
+[sudo] password for hchada: 
+Sorry, try again.
+[sudo] password for hchada: 
+Last login: Tue Sep 24 14:40:05 PDT 2019 on pts/0
+]0;root@CGDCSSL1046UL:~[?1034h[root@CGDCSSL1046UL ~]# cd /f[K[Ketc[K[K[K[K[root@CGDCSSL1046UL ~]# cd /etc/httpd/logs
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190927.gz[0m       [01;31mssl_access_log-20190920.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190928.gz[0m       [01;31mssl_access_log-20190921.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190929.gz[0m       ssl_access_log-20190925
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190930.gz[0m       ssl_error_log
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20191001.gz[0m       ssl_request_log
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20191002.gz[0m       [01;31mssl_request_log-20190608.gz[0m
+[01;31maccess_log-20190510.gz[0m  error_log-20191003          [01;31mssl_request_log-20190611.gz[0m
+[01;31maccess_log-20190521.gz[0m  ssl_access_log              [01;31mssl_request_log-20190612.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_request_log-20190613.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_request_log-20190625.gz[0m
+access_log-20190920     [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+error_log               [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31mssl_access_log-20190625.gz[0m  [01;31mssl_request_log-20190719.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31mssl_access_log-20190626.gz[0m  [01;31mssl_request_log-20190724.gz[0m
+[01;31merror_log-20190915.gz[0m   [01;31mssl_access_log-20190628.gz[0m  [01;31mssl_request_log-20190813.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190815.gz[0m
+[01;31merror_log-20190917.gz[0m   [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190816.gz[0m
+[01;31merror_log-20190918.gz[0m   [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190817.gz[0m
+[01;31merror_log-20190919.gz[0m   [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190829.gz[0m
+[01;31merror_log-20190920.gz[0m   [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190905.gz[0m
+[01;31merror_log-20190921.gz[0m   [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190906.gz[0m
+[01;31merror_log-20190922.gz[0m   [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+[01;31merror_log-20190923.gz[0m   [01;31mssl_access_log-20190905.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+[01;31merror_log-20190924.gz[0m   [01;31mssl_access_log-20190906.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190925.gz[0m   [01;31mssl_access_log-20190913.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190926.gz[0m   [01;31mssl_access_log-20190918.gz[0m  ssl_request_log-20190925
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 336
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 12491 Oct  3 10:22 ssl_request_log
+-rw-r--r--.  1 root 10235 Oct  3 10:22 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log`
+> ^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log`[K
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:10:09:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:21:49 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# tail ssl_access_log
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:10:09:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:21:49 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log-ssl_access_logfssl_access_log ssl_access_log ssl_access_log
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:10:09:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:21:49 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+
+
+
+
+
+
+
+^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ifconfig
+ens192: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 100.95.20.99  netmask 255.255.255.128  broadcast 100.95.20.127
+        inet6 fe80::250:56ff:feb5:616d  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:b5:61:6d  txqueuelen 1000  (Ethernet)
+        RX packets 10588142  bytes 1120428608 (1.0 GiB)
+        RX errors 0  dropped 35134  overruns 0  frame 0
+        TX packets 4758444  bytes 2076522273 (1.9 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 13641499  bytes 1972551591 (1.8 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13641499  bytes 1972551591 (1.8 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 336
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 12491 Oct  3 10:22 ssl_request_log
+-rw-r--r--.  1 root 10235 Oct  3 10:22 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail -f ssl_request_log
+[03/Oct/2019:10:09:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 14048
+[03/Oct/2019:10:09:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 11640
+[03/Oct/2019:10:09:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/v2/api-docs HTTP/1.1" 1905
+[03/Oct/2019:10:09:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 14720
+[03/Oct/2019:10:09:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 13292
+[03/Oct/2019:10:09:54 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 12956
+[03/Oct/2019:10:10:12 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "-" -
+[03/Oct/2019:10:10:12 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "-" -
+[03/Oct/2019:10:21:49 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 12264
+[03/Oct/2019:10:22:16 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+
+
+
+
+
+
+[03/Oct/2019:10:34:10 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 336
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 12625 Oct  3 10:34 ssl_request_log
+-rw-r--r--.  1 root 10341 Oct  3 10:34 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# a[Ktail ssl_aa[Kccess_log
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:10:09:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:21:49 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+100.95.21.96 - - [03/Oct/2019:10:34:10 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log[C[C[C[C[C-ssl_access_logfssl_access_log ssl_access_log
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:10:09:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:10:09:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:10:12 -0700] "-" 408 -
+169.2.108.102 - - [03/Oct/2019:10:21:49 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+100.95.21.96 - - [03/Oct/2019:10:34:10 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+
+
+
+
+
+169.2.108.102 - - [03/Oct/2019:10:41:51 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [03/Oct/2019:10:42:00 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [03/Oct/2019:10:43:19 -0700] "GET /efs-sya01/efs/submitParticipantInfo%22%20-H%20%22accept:%20application/json%22%20-H%20%22Content-Type:%20application/json%22%20-d%20%22test1%22 HTTP/1.1" 404 306
+^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# cd ../ssl
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# ls
+ca.crt  intermediate.crt  syaefs.crt  syaefs.csr  syaefs.key  syaws.crt  syaws.csr  syaws.key
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# ls -lagrt
+total 40
+-rw-r--r--. 1 root  993 Mar 21  2019 intermediate.crt
+-rw-r--r--. 1 root 1050 Mar 21  2019 ca.crt
+drwxr-xr-x. 2 root 4096 May  8 10:26 [0m[01;34m.[0m
+-rw-------. 1 root  916 May  9 09:39 syaefs.key
+-rw-r--r--. 1 root  737 May  9 09:39 syaefs.csr
+-rw-r--r--. 1 root  932 May  9 09:39 syaefs.crt
+-rw-r--r--. 1 root 1102 May  9 09:39 syaws.csr
+-rw-r--r--. 1 root 1302 May  9 09:39 syaws.crt
+-rw-------. 1 root 1704 May  9 09:39 syaws.key
+drwxr-xr-x. 6 root 4096 Aug 18 10:20 [01;34m..[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# grep ssl ../conf.d/ssl.conf 
+SSLPassPhraseDialog exec:/usr/libexec/httpd-[01;31m[Kssl[m[K-pass-dialog
+SSLSessionCache         shmcb:/run/httpd/[01;31m[Kssl[m[Kcache(512000)
+#   block. So, if available, use this one instead. Read the mod_[01;31m[Kssl[m[K User
+# accelerators. Use "open[01;31m[Kssl[m[K engine -v" to list supported
+ErrorLog /var/log/httpd/[01;31m[Kssl[m[K_error_log
+TransferLog /var/log/httpd/[01;31m[Kssl[m[K_access_log
+#   See the mod_[01;31m[Kssl[m[K documentation for a complete list.
+SSLCertificateFile /etc/httpd/[01;31m[Kssl[m[K/syaefs.crt
+SSLCertificateKeyFile /etc/httpd/[01;31m[Kssl[m[K/syaefs.key
+SSLCACertificateFile /etc/httpd/[01;31m[Kssl[m[K/ca.crt
+#   mixture between C and Perl.  See the mod_[01;31m[Kssl[m[K documentation
+#   approach is that mod_[01;31m[Kssl[m[K sends the close notify alert but doesn't wait for
+#   o [01;31m[Kssl[m[K-unclean-shutdown:
+#     mod_[01;31m[Kssl[m[K sends the close notify alert.
+#   o [01;31m[Kssl[m[K-accurate-shutdown:
+#     SSL close notify alert is send and mod_[01;31m[Kssl[m[K waits for the close notify
+         nokeepalive [01;31m[Kssl[m[K-unclean-shutdown \
+CustomLog /var/log/httpd/[01;31m[Kssl[m[K_request_log \
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# cp /etc/httpd/ssl/syaefs.crt /tmp
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# chmod 777 /etc/httpd/ssl/syaefs.crt^C
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# chkod [K[K[K[Kmod 777 /tmp/syaefs.crt 
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# scp /tmp/syaefs.crt efssya:/tmp
+ssh: Could not resolve hostname efssya: Name or service not known
+lost connection
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# ping sy[K[Ke[Kscp /tmp/syaefs.crt efssya:/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pchmod 777 /tmp/syaefs.crt scp /tmp/syaefs.crt efssya:/tmp[1Pya:/tmp[1Psya:/tmp[1Psya:/tmp[1Psya:/tmp[C[C sya:/tmp[C[C[Ca:/tmps:/tmp
+The authenticity of host 'syaas (100.95.21.96)' can't be established.
+ECDSA key fingerprint is SHA256:xvcdqm/75dIGZghMwNrEageLGh3ZmDTbDR5eFj28RM4.
+ECDSA key fingerprint is MD5:18:f6:16:a1:f4:c8:27:8f:bc:80:04:db:d7:52:66:bf.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'syaas' (ECDSA) to the list of known hosts.
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+root@syaas's password: 
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# scp /tmp/syaefs.crt syaas:/tmp[C[C[C[C[C[C[Chsyaas:/tmpcsyaas:/tmphsyaas:/tmpasyaas:/tmpdsyaas:/tmpasyaas:/tmp@syaas:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+hchada@syaas's password: 
+Permission denied, please try again.
+hchada@syaas's password: 
+syaefs.crt                                                                                                 0%    0     0.0KB/s   --:-- ETAsyaefs.crt                                                                                               100%  932     1.2MB/s   00:00    
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# scp /tmp/syaefs.crt hchada@syaas:/tmp[7Psyaas:/tmpefssya:/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pchmod 777 /tmp/syaefs.crt p /etc/httpd/ssl/syaefs.crt /tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgrep ssl ../conf.d/ssl.conf [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /etc/httpd/ssl/syaefs.crt /tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgrep ssl ../conf.d/ssl.conf ^C
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# cd /aem
+-bash: cd: /aem: No such file or directory
+]0;root@CGDCSSL1046UL:/etc/httpd/ssl[root@CGDCSSL1046UL ssl]# cd ../logs
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail access_log
+::1 - - [03/Oct/2019:09:42:25 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 (internal dummy connection)"
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 336
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 13525 Oct  3 11:11 ssl_request_log
+-rw-r--r--.  1 root 11085 Oct  3 11:11 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail -f access_log
+::1 - - [03/Oct/2019:09:42:25 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 (internal dummy connection)"
+^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_request_log
+[03/Oct/2019:10:10:12 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "-" -
+[03/Oct/2019:10:21:49 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 12264
+[03/Oct/2019:10:22:16 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:34:10 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:41:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:42:00 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:43:19 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/efs/submitParticipantInfo%22%20-H%20%22accept:%20application/json%22%20-H%20%22Content-Type:%20application/json%22%20-d%20%22test1%22 HTTP/1.1" 306
+[03/Oct/2019:11:08:25 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:11:07 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:11:27 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_request_log[2P-f access_logssl_request_log
+[03/Oct/2019:10:22:16 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:34:10 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:41:51 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:42:00 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 38
+[03/Oct/2019:10:43:19 -0700] 169.2.108.102 TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256 "GET /efs-sya01/efs/submitParticipantInfo%22%20-H%20%22accept:%20application/json%22%20-H%20%22Content-Type:%20application/json%22%20-d%20%22test1%22 HTTP/1.1" 306
+[03/Oct/2019:11:08:25 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:11:07 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:11:27 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:26:14 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+[03/Oct/2019:11:31:20 -0700] 100.95.21.96 TLSv1.2 ECDHE-RSA-AES256-SHA384 "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" -
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 336
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 13783 Oct  3 11:31 ssl_request_log
+-rw-r--r--.  1 root 11295 Oct  3 11:31 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log
+169.2.108.102 - - [03/Oct/2019:10:22:16 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+100.95.21.96 - - [03/Oct/2019:10:34:10 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [03/Oct/2019:10:41:51 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [03/Oct/2019:10:42:00 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [03/Oct/2019:10:43:19 -0700] "GET /efs-sya01/efs/submitParticipantInfo%22%20-H%20%22accept:%20application/json%22%20-H%20%22Content-Type:%20application/json%22%20-d%20%22test1%22 HTTP/1.1" 404 306
+100.95.21.96 - - [03/Oct/2019:11:08:25 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+100.95.21.96 - - [03/Oct/2019:11:11:07 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+100.95.21.96 - - [03/Oct/2019:11:11:27 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+100.95.21.96 - - [03/Oct/2019:11:26:14 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+100.95.21.96 - - [03/Oct/2019:11:31:20 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log[C[C[C[C[Cissl_access_log[1Pssl_access_log-ssl_access_logfssl_access_log ssl_access_log
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 344
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 2
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 90
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:11:38:19 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+169.2.108.102 - - [03/Oct/2019:11:38:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:11:38:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:11:38:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:11:38:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+
+
+
+
+
+169.2.108.102 - - [03/Oct/2019:11:38:51 -0700] "GET /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 405 -
+169.2.108.102 - - [03/Oct/2019:11:39:58 -0700] "GET /efs-sya01/swagger-ui.html HTTP/1.1" 200 3381
+169.2.108.102 - - [03/Oct/2019:11:39:58 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 2894
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 33837
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 4034
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 330779
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 1530897
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 344
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 2
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 90
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [03/Oct/2019:11:39:59 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [03/Oct/2019:11:40:12 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+^C
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# clear
+[3;J[H[2J]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ex[K[Kex[K[Kclear
+[3;J[H[2J]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  error_log-20191003          [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  ssl_access_log              [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  [01;31mssl_access_log-20190608.gz[0m  [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  ssl_access_log-20190925      [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_error_log                [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_request_log              [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  [01;31mssl_request_log-20190608.gz[0m  [01;31mssl_request_log-20190913.gz[0m
+access_log-20190920     [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+error_log               [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+[01;31merror_log-20190913.gz[0m   [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  ssl_request_log-20190925
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls -lagrt
+total 360
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   135 Jun  7 14:03 [01;31mssl_request_log-20190608.gz[0m
+-rw-r--r--.  1 root   114 Jun  7 14:03 [01;31mssl_access_log-20190608.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   331 Sep 13 00:01 [01;31merror_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   489 Sep 19 14:54 access_log-20190920
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   103 Sep 24 14:43 ssl_request_log-20190925
+-rw-r--r--.  1 root    79 Sep 24 14:43 ssl_access_log-20190925
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   538 Oct  3 00:01 error_log-20191003
+drwx------.  2 root  4096 Oct  3 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  3 00:01 error_log
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log
+-rw-r--r--.  1 root 22198 Oct  3 11:40 ssl_request_log
+-rw-r--r--.  1 root 18254 Oct  3 11:40 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logsYou have new mail in /var/spool/mail/root
+[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# 
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# strmqm
+-bash: strmqm: command not found
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# st
+stat     stdbuf   strings  strip    stty     
+[root@CGDCSSL1046UL logs]# st[K[Kdocker
+-bash: docker: command not found
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# ls
+access_log              [0m[01;31merror_log-20190917.gz[0m  [01;31merror_log-20191003.gz[0m       [01;31mssl_access_log-20190905.gz[0m   [01;31mssl_request_log-20190719.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31merror_log-20190918.gz[0m  error_log-20191004          [01;31mssl_access_log-20190906.gz[0m   [01;31mssl_request_log-20190724.gz[0m
+[01;31maccess_log-20190423.gz[0m  [01;31merror_log-20190919.gz[0m  ssl_access_log              [01;31mssl_access_log-20190913.gz[0m   [01;31mssl_request_log-20190813.gz[0m
+[01;31maccess_log-20190424.gz[0m  [01;31merror_log-20190920.gz[0m  [01;31mssl_access_log-20190611.gz[0m  [01;31mssl_access_log-20190918.gz[0m   [01;31mssl_request_log-20190815.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20190921.gz[0m  [01;31mssl_access_log-20190612.gz[0m  [01;31mssl_access_log-20190920.gz[0m   [01;31mssl_request_log-20190816.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20190922.gz[0m  [01;31mssl_access_log-20190613.gz[0m  [01;31mssl_access_log-20190921.gz[0m   [01;31mssl_request_log-20190817.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20190923.gz[0m  [01;31mssl_access_log-20190625.gz[0m  [01;31mssl_access_log-20190925.gz[0m   [01;31mssl_request_log-20190829.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20190924.gz[0m  [01;31mssl_access_log-20190626.gz[0m  ssl_access_log-20191004      [01;31mssl_request_log-20190905.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20190925.gz[0m  [01;31mssl_access_log-20190628.gz[0m  ssl_error_log                [01;31mssl_request_log-20190906.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20190926.gz[0m  [01;31mssl_access_log-20190719.gz[0m  ssl_request_log              [01;31mssl_request_log-20190913.gz[0m
+[01;31maccess_log-20190920.gz[0m  [01;31merror_log-20190927.gz[0m  [01;31mssl_access_log-20190724.gz[0m  [01;31mssl_request_log-20190611.gz[0m  [01;31mssl_request_log-20190918.gz[0m
+access_log-20191004     [01;31merror_log-20190928.gz[0m  [01;31mssl_access_log-20190813.gz[0m  [01;31mssl_request_log-20190612.gz[0m  [01;31mssl_request_log-20190920.gz[0m
+error_log               [01;31merror_log-20190929.gz[0m  [01;31mssl_access_log-20190815.gz[0m  [01;31mssl_request_log-20190613.gz[0m  [01;31mssl_request_log-20190921.gz[0m
+[01;31merror_log-20190914.gz[0m   [01;31merror_log-20190930.gz[0m  [01;31mssl_access_log-20190816.gz[0m  [01;31mssl_request_log-20190625.gz[0m  [01;31mssl_request_log-20190925.gz[0m
+[01;31merror_log-20190915.gz[0m   [01;31merror_log-20191001.gz[0m  [01;31mssl_access_log-20190817.gz[0m  [01;31mssl_request_log-20190626.gz[0m  ssl_request_log-20191004
+[01;31merror_log-20190916.gz[0m   [01;31merror_log-20191002.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_request_log-20190628.gz[0m
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# cd[K[Kls -lagrt
+total 360
+-rw-r--r--.  1 root     0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root   223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root   338 Apr 23 16:07 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root   274 Apr 23 16:49 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root   257 Apr 24 09:49 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root   381 May  1 15:40 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root   307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root   188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   285 Jun 10 13:49 [01;31mssl_request_log-20190611.gz[0m
+-rw-r--r--.  1 root   260 Jun 10 13:49 [01;31mssl_access_log-20190611.gz[0m
+-rw-r--r--.  1 root   165 Jun 11 11:15 [01;31mssl_request_log-20190612.gz[0m
+-rw-r--r--.  1 root   150 Jun 11 11:15 [01;31mssl_access_log-20190612.gz[0m
+-rw-r--r--.  1 root   159 Jun 12 14:02 [01;31mssl_request_log-20190613.gz[0m
+-rw-r--r--.  1 root   140 Jun 12 14:02 [01;31mssl_access_log-20190613.gz[0m
+-rw-r--r--.  1 root   158 Jun 24 10:29 [01;31mssl_request_log-20190625.gz[0m
+-rw-r--r--.  1 root   140 Jun 24 10:29 [01;31mssl_access_log-20190625.gz[0m
+-rw-r--r--.  1 root   199 Jun 25 15:10 [01;31mssl_request_log-20190626.gz[0m
+-rw-r--r--.  1 root   180 Jun 25 15:10 [01;31mssl_access_log-20190626.gz[0m
+-rw-r--r--.  1 root   201 Jun 27 14:08 [01;31mssl_request_log-20190628.gz[0m
+-rw-r--r--.  1 root   179 Jun 27 14:08 [01;31mssl_access_log-20190628.gz[0m
+-rw-r--r--.  1 root   183 Jul 18 14:11 [01;31mssl_request_log-20190719.gz[0m
+-rw-r--r--.  1 root   164 Jul 18 14:11 [01;31mssl_access_log-20190719.gz[0m
+-rw-r--r--.  1 root   158 Jul 23 11:02 [01;31mssl_request_log-20190724.gz[0m
+-rw-r--r--.  1 root   141 Jul 23 11:02 [01;31mssl_access_log-20190724.gz[0m
+-rw-r--r--.  1 root   157 Aug 12 15:24 [01;31mssl_request_log-20190813.gz[0m
+-rw-r--r--.  1 root   141 Aug 12 15:24 [01;31mssl_access_log-20190813.gz[0m
+-rw-r--r--.  1 root   197 Aug 14 15:08 [01;31mssl_request_log-20190815.gz[0m
+-rw-r--r--.  1 root   181 Aug 14 15:08 [01;31mssl_access_log-20190815.gz[0m
+-rw-r--r--.  1 root   169 Aug 15 14:42 [01;31mssl_request_log-20190816.gz[0m
+-rw-r--r--.  1 root   156 Aug 15 14:42 [01;31mssl_access_log-20190816.gz[0m
+-rw-r--r--.  1 root   166 Aug 16 10:04 [01;31mssl_request_log-20190817.gz[0m
+-rw-r--r--.  1 root   152 Aug 16 10:04 [01;31mssl_access_log-20190817.gz[0m
+-rw-r--r--.  1 root    77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root   537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root   511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root   350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root   208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root   178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root   177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root   158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root   179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root   162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root   329 Sep 14 00:01 [01;31merror_log-20190914.gz[0m
+-rw-r--r--.  1 root   328 Sep 15 00:01 [01;31merror_log-20190915.gz[0m
+-rw-r--r--.  1 root   330 Sep 16 00:01 [01;31merror_log-20190916.gz[0m
+-rw-r--r--.  1 root   330 Sep 17 00:01 [01;31merror_log-20190917.gz[0m
+-rw-r--r--.  1 root  1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root  1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root   331 Sep 18 00:01 [01;31merror_log-20190918.gz[0m
+-rw-r--r--.  1 root   332 Sep 19 00:01 [01;31merror_log-20190919.gz[0m
+-rw-r--r--.  1 root   261 Sep 19 14:54 [01;31maccess_log-20190920.gz[0m
+-rw-r--r--.  1 root   630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root   599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root   329 Sep 20 00:01 [01;31merror_log-20190920.gz[0m
+-rw-r--r--.  1 root   142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root   113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root   330 Sep 21 00:01 [01;31merror_log-20190921.gz[0m
+-rw-r--r--.  1 root   329 Sep 22 00:01 [01;31merror_log-20190922.gz[0m
+-rw-r--r--.  1 root   332 Sep 23 00:01 [01;31merror_log-20190923.gz[0m
+-rw-r--r--.  1 root   331 Sep 24 00:01 [01;31merror_log-20190924.gz[0m
+-rw-r--r--.  1 root   118 Sep 24 14:43 [01;31mssl_request_log-20190925.gz[0m
+-rw-r--r--.  1 root    95 Sep 24 14:43 [01;31mssl_access_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 25 00:01 [01;31merror_log-20190925.gz[0m
+-rw-r--r--.  1 root   331 Sep 26 00:01 [01;31merror_log-20190926.gz[0m
+-rw-r--r--.  1 root   330 Sep 27 00:01 [01;31merror_log-20190927.gz[0m
+-rw-r--r--.  1 root   330 Sep 28 00:01 [01;31merror_log-20190928.gz[0m
+-rw-r--r--.  1 root   329 Sep 29 00:01 [01;31merror_log-20190929.gz[0m
+-rw-r--r--.  1 root   331 Sep 30 00:01 [01;31merror_log-20190930.gz[0m
+-rw-r--r--.  1 root   332 Oct  1 00:01 [01;31merror_log-20191001.gz[0m
+drwxr-xr-x. 14 root  4096 Oct  1 00:01 [01;34m..[0m
+-rw-r--r--.  1 root   329 Oct  2 00:01 [01;31merror_log-20191002.gz[0m
+-rw-r--r--.  1 root   330 Oct  3 00:01 [01;31merror_log-20191003.gz[0m
+-rw-r--r--.  1 root   174 Oct  3 09:42 access_log-20191004
+-rw-r--r--.  1 root 22198 Oct  3 11:40 ssl_request_log-20191004
+-rw-r--r--.  1 root 18254 Oct  3 11:40 ssl_access_log-20191004
+-rw-r--r--.  1 root     0 Oct  4 00:01 access_log
+-rw-r--r--.  1 root   538 Oct  4 00:01 error_log-20191004
+drwx------.  2 root  4096 Oct  4 00:01 [01;34m.[0m
+-rw-r--r--.  1 root   421 Oct  4 00:01 error_log
+-rw-r--r--.  1 root  3542 Oct  4 09:20 ssl_request_log
+-rw-r--r--.  1 root  2918 Oct  4 09:20 ssl_access_log
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# tail ssl_access_log
+169.2.108.102 - - [04/Oct/2019:09:03:58 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+169.2.108.102 - - [04/Oct/2019:09:03:58 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1905
+169.2.108.102 - - [04/Oct/2019:09:03:58 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+169.2.108.102 - - [04/Oct/2019:09:03:58 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+169.2.108.102 - - [04/Oct/2019:09:04:00 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+169.2.108.102 - - [04/Oct/2019:09:04:01 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+169.2.108.102 - - [04/Oct/2019:09:04:07 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+169.2.108.102 - - [04/Oct/2019:09:14:03 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 38
+100.95.21.96 - - [04/Oct/2019:09:16:28 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+100.95.21.96 - - [04/Oct/2019:09:20:45 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 -
+]0;root@CGDCSSL1046UL:/etc/httpd/logs[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# [K[root@CGDCSSL1046UL logs]# exit
+logout
+]0;hchada@CGDCSSL1046UL:/[hchada@CGDCSSL1046UL /]$ exit
+logout

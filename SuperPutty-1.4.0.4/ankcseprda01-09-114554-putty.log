@@ -1,0 +1,40 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.09 11:45:54 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Mar 21 15:25:53 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct  9 11:16:03 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda01[/home/cseadmin]$ cd /scratch
+ankcseprda01[/scratch]$ topasout
+Error, topasout: no filename or options specified
+Usage:
+topasout [-c|-s|-a|-P] [-R detailed|-R summary|-R adapter|-R vadapter|-R poolinfo|-R mempool|-R disk|-R vios|-R vios_adapter|-R lan [ -i MM -b HHMM -e HHMM]] [topas_recording|cec_recording]
+topasout [-c|-s] [-r|-t] azzizo_recording
+topasout [-c|-s|-a] [-R detailed] cluster_recording
+flags:  -c comma separated output format
+        -P PM ASCII text format. The O/P report file is generated in /var/perf/pm/daily/<hostname>/ directory
+        -s spreadsheet import format
+        -R detailed | summary | poolinfo | disk | lan (local recordings)
+        -R detailed | summary | poolinfo |mempool|adapter|vadapter|vios|vios_adapter (topas recordings)
+        -i MM   split the recording reports into equal size time periods.Allowed Values (in minutes) are 5, 10, 15, 30,60 
+        -b HHMM  begin time in hours (HH) and minutes (MM).Range is between 0000 and 2400]
+        -e HHMM  end time in hours (HH) and minutes (MM).Range is between 0000 and 2400 and is greater than the begin time]
+        -r print rates rather than delta values, supported only for azzizo_recording
+        -t print counter values rather than delta values, supported only for azzizo_recording
+        -a nmon analyzer format style;
+           For using nmon analyzer with topasout then please refer
+           /usr/lpp/perfagent/README.perfagent.tools for more help
+ankcseprda01[/scratch]$ /scratch/perf _backups/ankcseprda01 _190916.topas
+ksh: /scratch/perf_backups/ankcseprda01_190916.topas:  not found.
+ankcseprda01[/scratch]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

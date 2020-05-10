@@ -1,0 +1,23 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.18 15:11:27 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Nov 14 10:01:44 PST 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 14 13:46:37 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm
+
+
+[1] + Stopped (SIGTSTP)        /usr/lpp/pd/bin/ipguiadvadm
+ankcseprda06[/ipm/south] exit
+There are stopped jobs.
+ankcseprda06[/ipm/south] exit

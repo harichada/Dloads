@@ -1,0 +1,122 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.28 08:36:55 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Mon Oct 28 08:36:34 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1046UL:~[?1034h[hchada@CGDCSSL1046UL ~]$ lynx
+-bash: lynx: command not found
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ linx
+-bash: linx: command not found
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ sudo su -
+[sudo] password for hchada: 
+Last login: Fri Oct 11 15:38:46 PDT 2019 on pts/0
+]0;root@CGDCSSL1046UL:~[?1034h[root@CGDCSSL1046UL ~]# lynx
+-bash: lynx: command not found
+]0;root@CGDCSSL1046UL:~[root@CGDCSSL1046UL ~]# cd /etc/httpd/
+]0;root@CGDCSSL1046UL:/etc/httpd[root@CGDCSSL1046UL httpd]# ls
+[0m[01;34mconf[0m  [01;34mconf.d[0m  [01;34mconf.modules.d[0m  [01;36mlogs[0m  [01;36mmodules[0m  [01;36mrun[0m  [01;34mssl[0m
+]0;root@CGDCSSL1046UL:/etc/httpd[root@CGDCSSL1046UL httpd]# cd /etc/systemd/system
+]0;root@CGDCSSL1046UL:/etc/systemd/system[root@CGDCSSL1046UL system]# ls
+[0m[01;34mbasic.target.wants[0m                           [01;36mdefault.target[0m        [01;34mlocal-fs.target.wants[0m        [01;34msockets.target.wants[0m        [01;34mvmtoolsd.service.requires[0m
+[01;36mdbus-org.freedesktop.NetworkManager.service[0m  [01;34mdefault.target.wants[0m  [01;34mmulti-user.target.wants[0m      [01;34msysinit.target.wants[0m
+[01;36mdbus-org.freedesktop.nm-dispatcher.service[0m   [01;34mgetty.target.wants[0m    [01;34mnetwork-online.target.wants[0m  [01;34msystem-update.target.wants[0m
+]0;root@CGDCSSL1046UL:/etc/systemd/system[root@CGDCSSL1046UL system]# cd
+]0;root@CGDCSSL1046UL:~[root@CGDCSSL1046UL ~]# ls
+anaconda-ks.cfg  apr.c  [0m[01;34mbinaries[0m  [01;34mbkp[0m  cpfile.sh  efssya1.key  fstab  getFormsefsApp.xml  getForms.xml  initLinux.sh  [01;34mlib[0m  [01;34morg[0m  updfiles.sh
+]0;root@CGDCSSL1046UL:~[root@CGDCSSL1046UL ~]# cd binaries
+]0;root@CGDCSSL1046UL:~/binaries[root@CGDCSSL1046UL binaries]# ls
+[0m[01;31mapache-tomcat-8.5.32.tar.gz[0m  [01;31mapr-1.6.5.tar.gz[0m  [01;31mapr-util-1.6.1.tar.gz[0m  [01;31mhttpd-2.4.34.tar.gz[0m  [01;32mjdk-8u181-linux-x64.tar.gz[0m
+[01;34mapr-1.6.5[0m                    [01;34mapr-util-1.6.1[0m    [01;34mhttpd-2.4.34[0m           [01;34mjdk1.8.0_181[0m
+]0;root@CGDCSSL1046UL:~/binaries[root@CGDCSSL1046UL binaries]# exit
+logout
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ ls
+[0m[01;31mansible-2.8.4.tar.gz[0m      [01;31mclick-5.1.tar.gz[0m         [01;31mFlask-Bootstrap-3.3.7.1.tar.gz[0m  [01;31mgunicorn-19.9.0.tar.gz[0m      [01;31mJinja2-2.10.1.tar.gz[0m   [01;31mSQLAlchemy-1.3.7.tar.gz[0m
+[01;31masn1crypto-0.24.0.tar.gz[0m  [01;34mconf[0m                     [01;31mFlask-Ext-0.1.tar.gz[0m            httpd.service               [01;31mMarkupSafe-1.0.tar.gz[0m  [01;34mssl[0m
+[01;31mcffi-1.12.3.tar.gz[0m        [01;31mcoverage-5.0a6.tar.gz[0m    [01;31mFlask-Login-0.4.1.tar.gz[0m        issue.net                   [01;31mpycparser-2.19.tar.gz[0m  [01;31mvisitor-0.1.3.tar.gz[0m
+cis_report.html           [01;31mcryptography-2.7.tar.gz[0m  [01;31mFlask-SQLAlchemy-2.4.0.tar.gz[0m   [01;31mitsdangerous-1.1.0.tar.gz[0m   [01;31mPyYAML-5.1.2.tar.gz[0m    [01;31mWerkzeug-0.15.5.tar.gz[0m
+[01;31mclick-0.1.tar.gz[0m          [01;31mdominate-2.4.0.tar.gz[0m    [01;31mFlask-WTF-0.14.2.tar.gz[0m         [01;32mjdk-8u181-linux-x64.tar.gz[0m  [01;31msix-1.12.0.tar.gz[0m      [01;31mWTForms-2.2.1.tar.gz[0m
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ cd
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ ls
+[0m[01;31mansible-2.8.4.tar.gz[0m      [01;31mclick-5.1.tar.gz[0m         [01;31mFlask-Bootstrap-3.3.7.1.tar.gz[0m  [01;31mgunicorn-19.9.0.tar.gz[0m      [01;31mJinja2-2.10.1.tar.gz[0m   [01;31mSQLAlchemy-1.3.7.tar.gz[0m
+[01;31masn1crypto-0.24.0.tar.gz[0m  [01;34mconf[0m                     [01;31mFlask-Ext-0.1.tar.gz[0m            httpd.service               [01;31mMarkupSafe-1.0.tar.gz[0m  [01;34mssl[0m
+[01;31mcffi-1.12.3.tar.gz[0m        [01;31mcoverage-5.0a6.tar.gz[0m    [01;31mFlask-Login-0.4.1.tar.gz[0m        issue.net                   [01;31mpycparser-2.19.tar.gz[0m  [01;31mvisitor-0.1.3.tar.gz[0m
+cis_report.html           [01;31mcryptography-2.7.tar.gz[0m  [01;31mFlask-SQLAlchemy-2.4.0.tar.gz[0m   [01;31mitsdangerous-1.1.0.tar.gz[0m   [01;31mPyYAML-5.1.2.tar.gz[0m    [01;31mWerkzeug-0.15.5.tar.gz[0m
+[01;31mclick-0.1.tar.gz[0m          [01;31mdominate-2.4.0.tar.gz[0m    [01;31mFlask-WTF-0.14.2.tar.gz[0m         [01;32mjdk-8u181-linux-x64.tar.gz[0m  [01;31msix-1.12.0.tar.gz[0m      [01;31mWTForms-2.2.1.tar.gz[0m
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ more httpd.service 
+[Unit]
+Description=Apache httpd  Web Server
+After=syslog.target network.target
+
+[Service]
+Type=forking
+
+ExecStart=/forms/apache24/bin/apachectl 
+ExecStop=/forms/apache24/bin/apachectl 
+
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ ls
+[0m[01;31mansible-2.8.4.tar.gz[0m      [01;31mclick-5.1.tar.gz[0m         [01;31mFlask-Bootstrap-3.3.7.1.tar.gz[0m  [01;31mgunicorn-19.9.0.tar.gz[0m      [01;31mJinja2-2.10.1.tar.gz[0m   [01;31mSQLAlchemy-1.3.7.tar.gz[0m
+[01;31masn1crypto-0.24.0.tar.gz[0m  [01;34mconf[0m                     [01;31mFlask-Ext-0.1.tar.gz[0m            httpd.service               [01;31mMarkupSafe-1.0.tar.gz[0m  [01;34mssl[0m
+[01;31mcffi-1.12.3.tar.gz[0m        [01;31mcoverage-5.0a6.tar.gz[0m    [01;31mFlask-Login-0.4.1.tar.gz[0m        issue.net                   [01;31mpycparser-2.19.tar.gz[0m  [01;31mvisitor-0.1.3.tar.gz[0m
+cis_report.html           [01;31mcryptography-2.7.tar.gz[0m  [01;31mFlask-SQLAlchemy-2.4.0.tar.gz[0m   [01;31mitsdangerous-1.1.0.tar.gz[0m   [01;31mPyYAML-5.1.2.tar.gz[0m    [01;31mWerkzeug-0.15.5.tar.gz[0m
+[01;31mclick-0.1.tar.gz[0m          [01;31mdominate-2.4.0.tar.gz[0m    [01;31mFlask-WTF-0.14.2.tar.gz[0m         [01;32mjdk-8u181-linux-x64.tar.gz[0m  [01;31msix-1.12.0.tar.gz[0m      [01;31mWTForms-2.2.1.tar.gz[0m
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ more cis_report.html 
+<html><head>  <meta name="viewport" content="width=device-width, initial-scale=1">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css
+/bootstrap.min.css">  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <script src="https://maxcdn.bootstrapcdn.com/bootstr
+ap/3.3.7/js/bootstrap.min.js"></script></head><body><center><h3> cis scan report</h3></center><div class="container"><button type="button" class="btn btn-info" data
+-toggle="collapse" data-target="#host1">pft1ws2</button><div id="host1" class="collapse"><div class="container"><button type="button" class="btn btn-info" data-togg
+le="collapse" data-target="#report_11">2018-12-03_09_44</button><div id="report_11" class="collapse"><div class="container"><button type="button" class="btn btn-dan
+ger" data-toggle="collapse" data-target="#reportfailed_11">FAILED</button><div id="reportfailed_11" class="collapse"><div class="table-responsive"><table class='tab
+le'><tr><td>Date of run: 2018-12-03_09_44</td><tr bgcolor=grey><th> control</th> <th> status </th> <th>command</th> <th>output</th></tr></table></div></div></div><d
+iv class="container"><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#reportpass_11">PASS</button><div id="reportpass_11" class="c
+ollapse"><div class="table-responsive"><table class='table'><tr><td>Date of run: 2018-12-03_09_44</td><tr bgcolor=grey><th> control</th> <th> status </th> <th>comma
+nd</th> <th>output</th></tr></table></div></div></div><div class="container"><button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#repo
+rtverify_11">VERIFY</button><div id="reportverify_11" class="collapse"><div class="table-responsive"><table class='table'><tr><td>Date of run: 2018-12-03_09_44</td>
+<tr bgcolor=grey><th> control</th> <th> status </th> <th>command</th> <th>output</th></tr><tr bgcolor=orange><td>Gathering Facts</td><td>UNKNOWN</td><td></td><td>
+
+</td></tr></table></div></div></div></div></div><div class="container"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#report_12">20
+18-12-03_09_34</button><div id="report_12" class="collapse"><div class="container"><button type="button" class="btn btn-danger" data-toggle="collapse" data-target="
+#reportfailed_12">FAILED</button><div id="reportfailed_12" class="collapse"><div class="table-responsive"><table class='table'><tr><td>Date of run: 2018-12-03_09_34
+</td><tr bgcolor=grey><th> control</th> <th> status </th> <th>command</th> <th>output</th></tr></table></div></div></div><div class="container"><button type="button
+" class="btn btn-success" data-toggle="collapse" data-target="#reportpass_12">PASS</button><div id="reportpass_12" class="collapse"><div class="table-responsive"><t
+able class='table'><tr><td>Date of run: 2018-12-03_09_34</td><tr bgcolor=grey><th> control</th> <th> status </th> <th>command</th> <th>output</th></tr></table></div
+></div></div><div class="container"><button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#reportverify_12">VERIFY</button><div id="repo
+rtverify_12" class="collapse"><div class="table-responsive"><table class='table'><tr><td>Date of run: 2018-12-03_09_34</td><tr bgcolor=grey><th> control</th> <th> s
+tatus </th> <th>command</th> <th>output</th></tr><tr bgcolor=orange><td>Gathering Facts</td><td>UNKNOWN</td><td></td><td>
+
+</td></tr></table></div></div></div></div></div></div></div></body></html>
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ ls
+[0m[01;31mansible-2.8.4.tar.gz[0m      [01;31mclick-5.1.tar.gz[0m         [01;31mFlask-Bootstrap-3.3.7.1.tar.gz[0m  [01;31mgunicorn-19.9.0.tar.gz[0m      [01;31mJinja2-2.10.1.tar.gz[0m   [01;31mSQLAlchemy-1.3.7.tar.gz[0m
+[01;31masn1crypto-0.24.0.tar.gz[0m  [01;34mconf[0m                     [01;31mFlask-Ext-0.1.tar.gz[0m            httpd.service               [01;31mMarkupSafe-1.0.tar.gz[0m  [01;34mssl[0m
+[01;31mcffi-1.12.3.tar.gz[0m        [01;31mcoverage-5.0a6.tar.gz[0m    [01;31mFlask-Login-0.4.1.tar.gz[0m        issue.net                   [01;31mpycparser-2.19.tar.gz[0m  [01;31mvisitor-0.1.3.tar.gz[0m
+cis_report.html           [01;31mcryptography-2.7.tar.gz[0m  [01;31mFlask-SQLAlchemy-2.4.0.tar.gz[0m   [01;31mitsdangerous-1.1.0.tar.gz[0m   [01;31mPyYAML-5.1.2.tar.gz[0m    [01;31mWerkzeug-0.15.5.tar.gz[0m
+[01;31mclick-0.1.tar.gz[0m          [01;31mdominate-2.4.0.tar.gz[0m    [01;31mFlask-WTF-0.14.2.tar.gz[0m         [01;32mjdk-8u181-linux-x64.tar.gz[0m  [01;31msix-1.12.0.tar.gz[0m      [01;31mWTForms-2.2.1.tar.gz[0m
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ ansi[K[K[K[K

@@ -1,0 +1,549 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.23 08:41:25 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+ankcseprdw01[/home/cseadmin]$ ps -ef | grep HTTP    http
+    root 17957040        1   0 14:02:21      -  0:00 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+cseadmin 20381714 15204354   0 08:41:31  pts/1  0:00 grep http
+wasadmin 21495842 17957040   0 14:02:22      -  0:03 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+wasadmin 23527600 17957040   0 14:02:45      -  1:38 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+wasadmin 27197444 17957040   4 14:02:22      -  0:55 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+ankcseprdw01[/home/cseadmin]$ sudo -l 
+Matching Defaults entries for cseadmin on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset,
+    logfile=/var/adm/sudo.log
+
+User cseadmin may run the following commands on this host:
+    (wasadmin) /home/wasadmin/ss61-sitedown gconly, /home/wasadmin/ss61-sitedown, /home/wasadmin/ss61-siteup,
+    /home/wasadmin/ss7-sitedown gconly, /home/wasadmin/ss7-sitedown, /home/wasadmin/ss7-siteup,
+    /home/wasadmin/ss7VA-sitedown, /home/wasadmin/ss7VA-siteup, /home/wasadmin/ss85-sitedown, /home/wasadmin/ss85-siteup,
+    /home/wasadmin/ss85VA-sitedown, /home/wasadmin/ss85VA-siteup
+    (root) /usr/local/bin/cseunlockuser, /usr/local/bin/csecheckuser, /usr/local/bin/cseresetuser
+    (root) /usr/local/bin/csechown, /usr/local/bin/csechmod, /usr/local/bin/csecheckuser
+    (root) /usr/bin/lsuser
+    (ALL) NOPASSWD: /usr/bin/du
+ankcseprdw01[/home/cseadmin]$ cd /usr      
+ankcseprdw01[/usr]$ ls
+HTTPLogs_SS  X11R7        dict         icu4c        lbin         man          perfagent    src          ucb
+HTTPLogs_VA  adde         doc          include      lib          ml           pmapi        suma         usg
+HTTPServer   adm          docsearch    java131      libexec      mozilla      pub          swlag        websm
+IHS7         aix          dt           java14       linux        netiq        samples      symantec
+IHS7_VA      aixnre       ecc          java5        local        netscape     sbin         sys
+WebSphere    artic960     emgrdata     java6        lost+found   openssh      share        sysv
+WebSphere61  bin          etc          java71_64    lpd          openssl      sni          tivoli
+X11R6        ccs          hfi          java7_64     lpp          opt          spool        tmp
+ankcseprdw01[/usr]$ cd HTTPServer
+ankcseprdw01[/usr/HTTPServer]$ ls
+IHS_85      IHS_85_VA   ihs7        ihs7va      lost+found
+ankcseprdw01[/usr/HTTPServer]$ cd IHS _85
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ ls
+bin                error              htdocs_maint       lib                readme
+build              example_module     icons              logs               ssl
+cgi-bin            gsk8               include            man                uninstall
+codeset            htdocs             java               modules            util
+conf               htdocs_gconly      lafiles            properties         version.signature
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ ls -la
+total 128
+drwxr-xr-x   26 wasadmin wasadmin       4096 Apr 27 08:30 .
+drwxrwxr-x    7 wasadmin wasadmin        256 Oct 15 2018  ..
+drwxr-xr-x    3 wasadmin wasadmin       4096 Apr 27 08:30 bin
+drwxr-xr-x    2 wasadmin wasadmin       4096 Apr 27 08:30 build
+drwxr-xr-x    2 wasadmin wasadmin        256 Oct 15 2018  cgi-bin
+drwxr-xr-x    2 wasadmin wasadmin       8192 Apr 27 08:30 codeset
+drwxr-xr-x    2 wasadmin wasadmin       4096 May 14 11:52 conf
+drwxr-xr-x    3 wasadmin wasadmin       4096 Apr 27 08:30 error
+drwxr-xr-x    2 wasadmin wasadmin        256 Apr 27 08:30 example_module
+drwxr-xr-x    4 wasadmin wasadmin        256 Apr 27 08:30 gsk8
+drwxr-xr-x    3 wasadmin wasadmin        256 Apr 27 08:30 htdocs
+drwxr-xr-x    4 wasadmin wasadmin       4096 Oct 19 2018  htdocs_gconly
+drwxr-xr-x    4 wasadmin wasadmin       4096 Oct 19 2018  htdocs_maint
+drwxr-xr-x    3 wasadmin wasadmin       8192 Apr 27 08:30 icons
+drwxr-xr-x    2 wasadmin wasadmin       4096 Apr 27 08:30 include
+drwxr-xr-x    4 wasadmin wasadmin        256 Apr 27 08:30 java
+drwxr-xr-x    2 wasadmin wasadmin       4096 Oct 15 2018  lafiles
+drwxr-xr-x    2 wasadmin wasadmin       4096 Apr 27 08:30 lib
+drwxrwxr-x    3 wasadmin wasadmin        256 Sep 22 13:22 logs
+drwxr-xr-x    4 wasadmin wasadmin        256 Apr 27 08:30 man
+drwxr-xr-x    4 wasadmin wasadmin       4096 Apr 27 08:30 modules
+drwxr-xr-x    9 wasadmin wasadmin        256 Apr 27 08:30 properties
+drwxr-xr-x    2 wasadmin wasadmin        256 Apr 27 08:30 readme
+drwxr-xr-x    6 wasadmin wasadmin        256 May 13 15:44 ssl
+drwxr-xr-x    2 wasadmin wasadmin        256 Oct 15 2018  uninstall
+drwxr-xr-x    2 wasadmin wasadmin        256 Apr 27 08:30 util
+-rwxr-xr-x    1 wasadmin wasadmin         25 Aug 02 2018  version.signature
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ sudo   cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 2
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ ssh hchada@ankcseprdw01
+hchada@ankcseprdw01's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Mon Sep 23 08:41:06 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Sep 11 15:33:42 PDT 2018 on /dev/pts/0 from 169.2.67.186
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+3004-604 Your entry does not match the old password.
+Connection to ankcseprdw01 closed.
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ R ssh hchada@ankcseprdw01
+hchada@ankcseprdw01's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Mon Sep 23 08:41:06 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Sep 23 08:44:53 PDT 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+ankcseprdw01[/home/hchada] sudo su - c wasadmin
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+Password:
+[YOU HAVE NEW MAIL]
+ankcseprdw01[/home/wasadmin] cd /us      sudo -l
+Matching Defaults entries for wasadmin on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset,
+    logfile=/var/adm/sudo.log
+
+User wasadmin may run the following commands on this host:
+    (root) /usr/bin/su - wasadmin, /usr/HTTPServer/IHS_85/bin/apachectl *, /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) /usr/ihs/bin/apachectl * /usr/IHS7/bin/apachectl * /usr/IHS7_VA/bin/apachectl *,
+    /usr/HTTPServer/IHS_85/bin/apachectl *, /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) NOPASSWD: /usr/ihs/bin/apachectl *
+    (root) NOPASSWD: /usr/IHS7/bin/apachectl *, (root) /usr/IHS7_VA/bin/apachectl *, (root)
+    /usr/HTTPServer/IHS_85/bin/apachectl *, (root) /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) NOPASSWD: /usr/bin/su - wasadmin, (root) /usr/WebSphere61/IHS/bin/apachectl *
+ankcseprdw01[/home/wasadmin] sudo /usr/HTTPServer/IHS _85/bin/apachectl start
+ankcseprdw01[/home/wasadmin] ps -ef | grep http
+wasadmin  8782062 13500462   0 08:45:39      -  0:00 /usr/HTTPServer/IHS_85/bin/httpd -d /usr/HTTPServer/IHS_85 -k start
+    root 13500462        1   9 08:45:38      -  0:00 /usr/HTTPServer/IHS_85/bin/httpd -d /usr/HTTPServer/IHS_85 -k start
+wasadmin 15335456 13500462   1 08:45:39      -  0:00 /usr/HTTPServer/IHS_85/bin/httpd -d /usr/HTTPServer/IHS_85 -k start
+    root 17957040        1   0 14:02:21      -  0:00 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+wasadmin 21495842 17957040   0 14:02:22      -  0:03 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+wasadmin 23527600 17957040   0 14:02:45      -  1:38 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+wasadmin 27197444 17957040   0 14:02:22      -  0:57 /usr/HTTPServer/IHS_85_VA/bin/httpd -d /usr/HTTPServer/IHS_85_VA -k start
+ankcseprdw01[/home/wasadmin] ls
+SSLScripts                   ihs7VAlogmaint.out           rc.ihs                       ss85-sitedown
+Scripts                      ihs7logmaint.out             self-service-IHS_httpd.conf  ss85-siteup
+SelfServiceMaintenance.htm   ihs85logmaint.out            setIHSperms                  ss85VA-sitedown
+cert.cer                     ihslogmaint.out              setWASperms                  ss85VA-siteup
+checkid.ksh                  index.htm                    ss-sitedown.old              testit
+checkpluginlog.ksh.out       installWASCF-JDK             ss61-sitedown                topas.error
+checkwasadmin                install_.out                 ss61-siteup                  updilogs
+csehws100.httpd.conf         install_scripts              ss7-sitedown                 vpd.properties
+csehws101.httpd.conf         install_was511_cf11.out      ss7-sitedown.bak             wasadmin@csehws101
+favicon.ico                  kdb                          ss7-siteup                   websphere6scripts
+healthcheck_reports          mbox                         ss7-siteup.bak
+healthcheck_scripts_IHS      plugin-cfg.xml               ss7VA-sitedown
+ihs61logmaint.out            plugin-cfg_gconly.xml        ss7VA-siteup
+ankcseprdw01[/home/wasadmin] sudo -l
+Matching Defaults entries for wasadmin on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset,
+    logfile=/var/adm/sudo.log
+
+User wasadmin may run the following commands on this host:
+    (root) /usr/bin/su - wasadmin, /usr/HTTPServer/IHS_85/bin/apachectl *, /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) /usr/ihs/bin/apachectl * /usr/IHS7/bin/apachectl * /usr/IHS7_VA/bin/apachectl *,
+    /usr/HTTPServer/IHS_85/bin/apachectl *, /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) NOPASSWD: /usr/ihs/bin/apachectl *
+    (root) NOPASSWD: /usr/IHS7/bin/apachectl *, (root) /usr/IHS7_VA/bin/apachectl *, (root)
+    /usr/HTTPServer/IHS_85/bin/apachectl *, (root) /usr/HTTPServer/IHS_85_VA/bin/apachectl
+    (root) NOPASSWD: /usr/bin/su - wasadmin, (root) /usr/WebSphere61/IHS/bin/apachectl *
+ankcseprdw01[/home/wasadmin] ls
+SSLScripts                   ihs7VAlogmaint.out           rc.ihs                       ss85-sitedown
+Scripts                      ihs7logmaint.out             self-service-IHS_httpd.conf  ss85-siteup
+SelfServiceMaintenance.htm   ihs85logmaint.out            setIHSperms                  ss85VA-sitedown
+cert.cer                     ihslogmaint.out              setWASperms                  ss85VA-siteup
+checkid.ksh                  index.htm                    ss-sitedown.old              testit
+checkpluginlog.ksh.out       installWASCF-JDK             ss61-sitedown                topas.error
+checkwasadmin                install_.out                 ss61-siteup                  updilogs
+csehws100.httpd.conf         install_scripts              ss7-sitedown                 vpd.properties
+csehws101.httpd.conf         install_was511_cf11.out      ss7-sitedown.bak             wasadmin@csehws101
+favicon.ico                  kdb                          ss7-siteup                   websphere6scripts
+healthcheck_reports          mbox                         ss7-siteup.bak
+healthcheck_scripts_IHS      plugin-cfg.xml               ss7VA-sitedown
+ihs61logmaint.out            plugin-cfg_gconly.xml        ss7VA-siteup
+ankcseprdw01[/home/wasadmin] cd /usr    h      r/HTTPServer
+ankcseprdw01[/usr/HTTPServer] ls
+IHS_85      IHS_85_VA   ihs7        ihs7va      lost+found
+ankcseprdw01[/usr/HTTPServer] cd IH
+ankcseprdw01[/usr/HTTPServer] bash
+ksh: bash:  not found.
+ankcseprdw01[/usr/HTTPServer] cd / IHS _85
+ankcseprdw01[/usr/HTTPServer/IHS_85] ls
+bin                error              htdocs_maint       lib                readme
+build              example_module     icons              logs               ssl
+cgi-bin            gsk8               include            man                uninstall
+codeset            htdocs             java               modules            util
+conf               htdocs_gconly      lafiles            properties         version.signature
+ankcseprdw01[/usr/HTTPServer/IHS_85] cd conf
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] ls
+admin.conf                  httpd.conf.20190110cv       httpd.conf.hold             magic
+admin.conf.default          httpd.conf.20190513         httpd.conf.maint            magic.default
+admin.passwd                httpd.conf.default          httpd.conf.maint.20190514   mime.types
+httpd.conf                  httpd.conf.gconly           httpd.conf.org              mime.types.default
+httpd.conf.20190110         httpd.conf.gconly.20190514  ldap.prop.sample            postinst.properties
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] more httpd.conf
+[?1049h[95;1H[K#OTECH name and IP cg1p40a 134.186.247.99
+################################################################################
+# This is the base configuration file for IHS Version 7 on AIX
+#
+# Author: eCommerce - OTech, OCIO
+# Date: 04/20/2012
+# Version: 1.0 CCSAS ONLY Draft
+#          Merged CCSAS config with security requirements
+# Version: 2.0 CCSAS Production web environement. (Not tested by DCSS)
+#          Added documentation for required sections
+#          Added new IBM cypher list
+#
+# Version: 3.0 WAS 8.5.5
+# 10/12/18
+#
+# Description: This configuration contains the  configuration for IHS
+#        and documents each function.
+# 
+#ChangeMe --
+# The "#ChangeMe --" text designates the locations that may need to be 
+# customized on a per server basis.
+#
+# QUICK Start: Back up existing file before you begin.
+#   1) Search for XXX.XXX.XXX.XXX and replace with the servers IP address
+#   2) Search for HOSTNAME.DEPARTMENT.CA.GOV and replace with fully qualified hostname
+#   3) Verify these directories exist
+#      HTTPSERVER is the standard directory but for CCSAS we are using IHS
+#       /usr/IHS
+#       /usr/IHS/htdocs (Consider replacing with /webDocs)
+#       /user/IHS/logs (Consider replacing with /webLogs/HTTPServer)
+#       /user/IHS/logs/wiley (Consider replacing with /webLogs/wiley)
+#   4) Verify the SSL keyfile /usr/IHS/keys/keyfile.kdb exists if SSL being used
+#   5) Verify the correct plugin information is locate on last 2 lines of this file.
+#   6) If not at IHS 2.0.47 or higher remove the new Ciphers (no SSL in this config yet)
+#
+# This is the main IBM HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://publib.boulder.ibm.com/httpserv/manual70/> for detailed 
+# information about the Apache directives.
+#
+# The instructions provided in this configuration file are only hints or
+# reminders.  Consult the online docs for definitive information.
+#
+# The configuration directives are grouped into three basic sections:
+#  1. Directives that control the operation of the web server process as a
+#     whole (the 'global environment').
+#  2. Directives that define the parameters of the 'main' or 'default' server,
+#     which responds to requests that aren't handled by a virtual host.
+#     These directives also provide default values for the settings
+#     of all virtual hosts.
+#  3. Settings for virtual hosts, which allow Web requests to be sent to
+#     different IP addresses or hostnames and have them handled by the
+#     same web server process.
+#
+# Configuration and logfile names: If the filenames you specify for many
+# of the server's control files begin with "/" (or "drive:/" for Win32), the
+# server will use that explicit path.  If the filenames do *not* begin
+# with "/", the value of ServerRoot is prepended -- so "logs/foo.log"
+# with ServerRoot set to "/usr/IHS" will be interpreted by the
+# server as "/usr/IHS/logs/foo.log".
+#
+
+### Section 1: Global Environment
+#
+# The directives in this section affect the overall operation of the 
+# IBM HTTP server, such as the number of concurrent requests it can handle or 
+# where it can find its configuration files.
+#
+
+#
+# ServerRoot: The top of the directory tree under which the server's
+# configuration, error, and log files are kept.
+#
+# Do NOT add a slash at the end of the directory path.
+#
+#ChangeMe -- Change to IHS Install Root if different from below
+# "/usr/IHS" is the stardard for the CCSAS servers managed byeCommerce
+ServerRoot "/usr/HTTPServer/IHS_85"
+
+#
+# The accept serialization lock file MUST BE STORED ON A LOCAL DISK.
+#
+#LockFile logs/accept.lock
+
+#
+# PidFile: The file in which the server should record its process
+# identification number when it starts.
+#
+PidFile logs/httpd.pid
+
+#
+# Timeout: The number of seconds before receives and sends time out.
+#
+Timeout 300
+[95;1H[K[7mhttpd.conf (9%)[27m[95;1H[H[2J[H[L
+[H[LWebSpherePluginConfig /usr/WebSphere/Plugins_85/config/webserver1/plugin-cfg.xml
+[H[LLoadModule was_ap22_module /usr/WebSphere/Plugins_85/bin/32bits//mod_was_ap22_http.so
+[H[L#WebSphere Plugin Module and link to configuration file
+[H[L
+[H[L#RewriteRule ^/(.*) https://xxx.xxx.xxx.xxx/$1 [R,L]
+[H[L#ChangeMe -- Change to reflect host IP Address
+[H[L#RewriteEngine On
+[H[L#Forward all Port 80 requests to SSL
+[H[L
+[H[LRewriteRule .* - [F]
+[H[L#RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+[H[LRewriteCond %{REQUEST_METHOD} ^(TRACE|OPTIONS)
+[H[L#Disable TRACE and OPTIONS request 
+[H[L
+[H[L#RewriteRule ^/(.*) https://XXX.XXX.XXX.XXX/$1 [R,L]
+[H[L#ChangeMe -- Change to reflect host IP Address Rewrites from HTTP to HTTPS
+[H[L#Forward all Port 80 requests to SSL
+[H[LRewriteEngine On
+[H[L#Enable URL rewriting
+[H[L
+[H[L</IfModule>
+[H[LNetTrace client * dest file event senddata=65535 event recvdata=65535
+[H[LNetTraceFile /tmp/nettrace
+[H[L<IfModule mod_net_trace.c>
+[H[L#LoadModule net_trace_module modules/debug/mod_net_trace.so
+[H[L# the LoadModule directive.
+[H[L# The following example configuration can be activated by uncommenting
+[H[L# trace, interaction with the platform network APIs can be seen.
+[H[L# and on proxy connections, even for SSL connections.  Unlike an IP
+[H[L# mod_net_trace will record actual data sent/received from the client
+[H[L
+[H[L# LoadModule whatkilledus_module modules/debug/mod_whatkilledus.so
+[H[L# important information for diagnosing the cause of the crash.
+[H[L# and connection to the error log at the time of a crash.  This is
+[H[L# mod_whatkilledus will record information about the current request
+[H[L
+[H[L# EnableExceptionHook On
+[H[L# mod_whatkilledus.
+[H[L# EnableExceptionHook must be "on" in order to use mod_backtrace or
+[H[L# diagnostic information.
+[H[L# mod_whatkilledus to run after a crash and gather additional
+[H[L# EnableExceptionHook allows modules such as mod_backtrace and
+[H[L
+[H[L</IfModule>
+[H[LTrackModules On
+[H[L# Include details of active module in the statistics.
+[H[LReportInterval 600
+[H[L# information about server load.
+[H[L# result in the error log growing faster but with more accurate
+[H[L# Recommendation: Lower this interval to 60 seconds, which will
+[H[L# Write a record every 10 minutes (if server isn't idle).
+[H[L<IfModule mod_mpmstats.c>
+[H[L#LoadModule mpmstats_module modules/debug/mod_mpmstats.so
+[H[L# error log.  No records are written while the server is idle.
+[H[L# mod_mpmstats logs statistics about server activity to the main
+[H[L
+[H[L#CoreDumpDirectory /tmp
+[H[L#
+[H[L# The /tmp directory is often sufficient.
+[H[L#
+[H[L# potentially large core files.
+[H[L# this directive.  The filesystem will have to be large enough to hold 
+[H[L# (see User config directive above) must have permission to write to 
+[H[L# attempt to put a core dump.  The child processes running as 'User'
+[H[L# CoreDumpDirectory directory: Sets the location where the server will
+[H[L#
+[H[L# Enable IBM HTTP Server diagnostic features.
+[H[L#
+[H[L
+[H[LSSLV3Timeout 1000
+[H[LSSLV2Timeout 100
+[H[LSSLCachePortFilename /usr/HTTPServer/IHS_85/logs/siddport
+[H[LSSLCacheEnable
+[H[LSSLDisable
+[H[L
+[H[L</VirtualHost>
+[H[L    RewriteRule .* - [F]
+[H[L    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+[H[L    #RewriteCond %{REQUEST_METHOD} ^(TRACE|OPTIONS)
+[H[L    RewriteEngine On
+[H[L    #Disable TRACE and OPTIONS request (Use for older versions of IHS)
+[H[L    TraceEnable off
+[H[L    # Disable TRACE to pass security scans. Must be in each virtual host.
+[H[L        SSLCipherSpec 35b
+[H[L    # AES SHA (256 bit)
+[H[L        SSLCipherSpec 2F
+[H[L    # AES SHA (128 bit)
+[H[L    # Available in IHS 2.0.47 or higher only
+[H[L        SSLCipherSpec 35
+[H[L    #RC4 SHA (128-bit)
+[H[L        SSLCipherSpec 3A
+[H[L    #Triple-DES SHA (168-bit)
+[H[L    # 2F        TLS_RSA_WITH_AES_128_CBC_SHA    AES SHA (128 bit)
+[95;1H[K[7mhttpd.conf: END[27m[95;1H[K[7mhttpd.conf: END[27m[95;1H[K[7mhttpd.conf: END[27m[95;1H[K[7mhttpd.conf: END[27m[95;1H[K[?1049l[?1l>ankcseprdw01[/usr/HTTPServer/IHS_85/conf] more /usr/WebSphere/Plugins _85/config/webserver1/plugin-cfg.xml
+[?1049h[95;1H[K<?xml version="1.0" encoding="ISO-8859-1"?><!--HTTP server plugin config file for the webserver ch1p34aCell01.cg1p40aNode01.w
+ebserver1 generated on 2018.10.21 at 01:05:47 PM PDT-->
+<Config ASDisableNagle="false" AcceptAllContent="true" AppServerPortPreference="HostHeader" ChunkedResponse="false" FIPSEnabl
+e="false" FailoverToNext="false" HTTPMaxHeaders="300" IISDisableFlushFlag="false" IISDisableNagle="false" IISPluginPriority="
+High" IgnoreDNSFailures="false" KillWebServerStartUpOnParseErr="false" MarkBusyDown="false" OS400ConvertQueryStringToJobCCSID
+="false" RefreshInterval="60" ResponseChunkSize="64" SSLConsolidate="true" StrictSecurity="false" TrustedProxyEnable="false" 
+VHostMatchingCompat="false">
+   <Log LogLevel="Error" Name="/usr/WebSphere/Plugins_85/logs/webserver1/http_plugin.log"/>
+   <Property Name="ESIEnable" Value="true"/>
+   <Property Name="ESIMaxCacheSize" Value="1024"/>
+   <Property Name="ESIInvalidationMonitor" Value="false"/>
+   <Property Name="ESIEnableToPassCookies" Value="false"/>
+   <Property Name="ESICacheidFull" Value="false"/>
+   <Property Name="PostSizeLimit" Value="-1"/>
+   <Property Name="PostBufferSize" Value="64"/>
+   <Property Name="PluginInstallRoot" Value="/usr/WebSphere/Plugins_85/"/>
+   <Property Name="Keyfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.kdb"/>
+   <Property Name="Stashfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.sth"/>
+   <VirtualHostGroup Name="default_host">
+      <VirtualHost Name="*:80"/>
+      <VirtualHost Name="*:443"/>
+      <VirtualHost Name="*:244"/>
+      <VirtualHost Name="*:40081"/>
+      <VirtualHost Name="*:9063"/>
+      <VirtualHost Name="*:9080"/>
+      <VirtualHost Name="*:9443"/>
+      <VirtualHost Name="*:9043"/>
+      <VirtualHost Name="cg1p33a.dts.ca.gov:81"/>
+      <VirtualHost Name="*:81"/>
+      <VirtualHost Name="cg1p32a.dts.ca.gov:80"/>
+      <VirtualHost Name="ch1p28a.dts.ca.gov:80"/>
+      <VirtualHost Name="*:40082"/>
+      <VirtualHost Name="*:40083"/>
+      <VirtualHost Name="*:40084"/>
+      <VirtualHost Name="cg1p40a.dts.ca.gov:443"/>
+      <VirtualHost Name="ch1p38a.dts.ca.gov:443"/>
+   </VirtualHostGroup>
+   <ServerCluster CloneSeparatorChange="false" GetDWLMTable="false" IgnoreAffinityRequests="false" LoadBalance="Round Robin" 
+Name="PROD01_SelfService" PostBufferSize="64" PostSizeLimit="-1" RemoveSpecialHeaders="true" RetryInterval="60" ServerIOTimeo
+utRetry="-1">
+      <Server CloneID="1504ef9hp" ConnectTimeout="5" ExtendedHandshake="false" LoadBalanceWeight="2" MaxConnections="-1" Name
+="cg1p32aNode01_PROD01_SelfService_AP111_01" ServerIOTimeout="0" WaitForContinue="false">
+         <Transport ConnectionTTL="28" Hostname="cg1p32a" Port="9081" Protocol="http"/>
+         <Transport ConnectionTTL="28" Hostname="cg1p32a" Port="40081" Protocol="https">
+            <Property Name="keyring" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.kdb"/>
+            <Property Name="stashfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.sth"/>
+         </Transport>
+      </Server>
+      <Server CloneID="1504f80so" ConnectTimeout="0" ExtendedHandshake="false" LoadBalanceWeight="2" MaxConnections="-1" Name
+="cg1p32aNode01_PROD01_SelfService_AP111_02" ServerIOTimeout="0" WaitForContinue="false">
+         <Transport ConnectionTTL="28" Hostname="cg1p32a" Port="9082" Protocol="http"/>
+         <Transport ConnectionTTL="28" Hostname="cg1p32a" Port="40082" Protocol="https">
+            <Property Name="keyring" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.kdb"/>
+            <Property Name="stashfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.sth"/>
+         </Transport>
+      </Server>
+      <Server CloneID="1504g0b7h" ConnectTimeout="0" ExtendedHandshake="false" LoadBalanceWeight="2" MaxConnections="-1" Name
+="ch1p28aNode01_PROD01_SelfService_AP112_01" ServerIOTimeout="0" WaitForContinue="false">
+         <Transport ConnectionTTL="28" Hostname="ch1p28a" Port="9083" Protocol="http"/>
+         <Transport ConnectionTTL="28" Hostname="ch1p28a" Port="40083" Protocol="https">
+            <Property Name="keyring" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.kdb"/>
+            <Property Name="stashfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.sth"/>
+         </Transport>
+      </Server>
+      <Server CloneID="1504gr70a" ConnectTimeout="0" ExtendedHandshake="false" LoadBalanceWeight="2" MaxConnections="-1" Name
+="ch1p28aNode01_PROD01_SelfService_AP112_02" ServerIOTimeout="0" WaitForContinue="false">
+         <Transport ConnectionTTL="28" Hostname="ch1p28a" Port="9084" Protocol="http"/>
+         <Transport ConnectionTTL="28" Hostname="ch1p28a" Port="40084" Protocol="https">
+            <Property Name="keyring" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.kdb"/>
+            <Property Name="stashfile" Value="/usr/WebSphere/Plugins_85/config/webserver1/plugin-key.sth"/>
+         </Transport>
+      </Server>
+      <PrimaryServers>
+         <Server Name="cg1p32aNode01_PROD01_SelfService_AP111_01"/>
+         <Server Name="cg1p32aNode01_PROD01_SelfService_AP111_02"/>
+         <Server Name="ch1p28aNode01_PROD01_SelfService_AP112_01"/>
+         <Server Name="ch1p28aNode01_PROD01_SelfService_AP112_02"/>
+      </PrimaryServers>
+   </ServerCluster>
+   <UriGroup Name="default_host_PROD01_SelfService_URIs">
+      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ArchImagingBootstrapWeb/*"/>
+      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ECSSIVR/*"/>
+      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ChildSupport/*"/>
+      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/SSBootstrapWeb/*"/>
+   </UriGroup>
+   <Route ServerCluster="PROD01_SelfService" UriGroup="default_host_PROD01_SelfService_URIs" VirtualHostGroup="default_host"/
+>
+   <RequestMetrics armEnabled="false" loggingEnabled="true" rmEnabled="false" traceLevel="HOPS">
+      <filters enable="false" type="URI">
+         <filterValues enable="false" value="/snoop"/>
+         <filterValues enable="false" value="/hitcount"/>
+      </filters>
+      <filters enable="false" type="SOURCE_IP">
+         <filterValues enable="false" value="255.255.255.255"/>
+[95;1H[K[7mplugin-cfg.xml (93%)[27m[95;1H[K[?1049l[?1l>ankcseprdw01[/usr/HTTPServer/IHS_85/conf] more self-service-IHS _httpd.conf
+self-service-IHS_httpd.conf: A file or directory in the path name does not exist.
+[?1049h[95;1H[K[?1049l[?1l>ankcseprdw01[/usr/HTTPServer/IHS_85/conf] ls
+admin.conf                  httpd.conf.20190110cv       httpd.conf.hold             magic
+admin.conf.default          httpd.conf.20190513         httpd.conf.maint            magic.default
+admin.passwd                httpd.conf.default          httpd.conf.maint.20190514   mime.types
+httpd.conf                  httpd.conf.gconly           httpd.conf.org              mime.types.default
+httpd.conf.20190110         httpd.conf.gconly.20190514  ldap.prop.sample            postinst.properties
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] gpre l     rep logshttpd.conf
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] grep logs httpd.conf
+#       /user/IHS/logs (Consider replacing with /webLogs/HTTPServer)
+#       /user/IHS/logs/wiley (Consider replacing with /webLogs/wiley)
+# with "/", the value of ServerRoot is prepended -- so "logs/foo.log"
+# server as "/usr/IHS/logs/foo.log".
+#LockFile logs/accept.lock
+PidFile logs/httpd.pid
+#CustomLog logs/mobile_log mobile
+#CustomLog logs/referer_log referer
+#CustomLog logs/agent_log agent
+#CustomLog logs/access_log combined
+#Scriptsock            logs/cgisock
+#    ErrorLog logs/dummy-host.example.com-error_log
+#    CustomLog logs/dummy-host.example.com-access_log common
+SSLCachePortFilename /usr/HTTPServer/IHS_85/logs/siddport
+# mod_mpmstats logs statistics about server activity to the main
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] ls
+admin.conf                  httpd.conf.20190110cv       httpd.conf.hold             magic
+admin.conf.default          httpd.conf.20190513         httpd.conf.maint            magic.default
+admin.passwd                httpd.conf.default          httpd.conf.maint.20190514   mime.types
+httpd.conf                  httpd.conf.gconly           httpd.conf.org              mime.types.default
+httpd.conf.20190110         httpd.conf.gconly.20190514  ldap.prop.sample            postinst.properties
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] ^V  tail /usr/HTTPLogs _SS/access _log
+10.186.105.69 - - [23/Sep/2019:08:59:41 -0700] "POST /ChildSupport/selfservice/participantservice/getPaymentsReceived HTTP/1.1" 200 78576 532379 JSESSIONID="-""- - Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36"
+10.186.105.69 - - [23/Sep/2019:08:59:42 -0700] "POST /ChildSupport/selfservice/loginservice/login HTTP/1.1" 200 77782 554432 JSESSIONID="-""- - Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/82.1.267240167 Mobile/15E148 Safari/605.1"
+172.16.218.45 - - [23/Sep/2019:08:59:43 -0700] "GET /" 200 3493 427 JSESSIONID="-""- - -"
+10.186.104.69 - - [23/Sep/2019:08:59:45 -0700] "OPTIONS /ChildSupport/selfservice/participantservice/geteCommuncations HTTP/1.1" 202 - 2360 JSESSIONID="-""- - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763"
+10.186.104.69 - - [23/Sep/2019:08:59:45 -0700] "POST /ChildSupport/selfservice/participantservice/geteCommuncations HTTP/1.1" 200 2087 13818 JSESSIONID="-""- - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763"
+10.186.104.69 - - [23/Sep/2019:08:59:45 -0700] "OPTIONS /ChildSupport/selfservice/participantservice/getDocuments HTTP/1.1" 202 - 7314 JSESSIONID="-""- - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763"
+10.186.104.69 - - [23/Sep/2019:08:59:45 -0700] "POST /ChildSupport/selfservice/participantservice/getDocuments HTTP/1.1" 200 1799 11350 JSESSIONID="-""- - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763"
+10.186.105.69 - - [23/Sep/2019:08:59:46 -0700] "OPTIONS /ChildSupport/selfservice/participantservice/getPaymentsReceivedDetails HTTP/1.1" 202 - 1955 JSESSIONID="-""- - Mozilla/5.0 (Linux; Android 8.1.0; U683CL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36"
+10.186.105.69 - - [23/Sep/2019:08:59:46 -0700] "POST /ChildSupport/selfservice/participantservice/getPaymentsReceivedDetails HTTP/1.1" 200 469 18158 JSESSIONID="-""- - Mozilla/5.0 (Linux; Android 8.1.0; U683CL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36"
+172.16.218.44 - - [23/Sep/2019:08:59:46 -0700] "GET /" 200 3493 384 JSESSIONID="-""- - -"
+ankcseprdw01[/usr/HTTPServer/IHS_85/conf] exit
+ankcseprdw01[/home/hchada] exit
+Connection to ankcseprdw01 closed.
+ankcseprdw01[/usr/HTTPServer/IHS_85]$ exit

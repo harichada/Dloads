@@ -1,0 +1,25 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 07:29:30 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Sep 19 10:05:46 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Sep 20 07:26:09 PDT 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf2a05[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsepf2a05[/home/cseadmin]$ exit

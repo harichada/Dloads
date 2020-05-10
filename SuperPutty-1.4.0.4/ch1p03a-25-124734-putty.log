@@ -1,0 +1,113 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.25 12:47:34 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa05[/home/cseadmin]$ ssh hchada@ch12p  p03a
+hchada@ch1p03a's password: 
+Permission denied, please try again.
+hchada@ch1p03a's password: 
+Permission denied, please try again.
+hchada@ch1p03a's password: 
+ankcsesyaa05[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                       OLD_ACCOUNTS.txt                       jetform.rsp                            memory_paging_output_bak               sya_new.txt
+ALL_ACCOUNTS_sorted.txt                OLD_ACCOUNTS_sorted.txt                logs                                   memory_paging_vmstat_NON_PROD.sh       tempfile
+IPM                                    WAS8.5_init_scripts                    memory_paging_COPY.sh                  p8_hostnames.txt                       test.pdf
+IRS_user_home_updated.sh               copyToNonProd.sh                       memory_paging_NON_PROD_mail.sh         p8_hostnames_reverse.txt               test_2169089038_01012004_0000.afp
+LIVE_ACCOUNTS.txt                      dead.letter                            memory_paging_RUN.sh                   p8_hostnames_reverse_sorted.txt        test_2169089038_01012004_0000.pdf
+NFS_mounts_verify.sh                   errpt_mail.sh                          memory_paging_SELECT.sh                paging_check.sh                        test_2169089038_01012004_0000.pdf.err
+NFS_mounts_verify_20180723.sh          find_LUN_CuLDev.sh                     memory_paging_SELECT_test.sh           paging_check.sh.emailaddrs             test_2169089055_04062018_1203.pdf
+NFS_mounts_verify_P8.sh                find_LUN_CuLDev_cv.sh                  memory_paging_SYA_SELECT.sh            paging_check_orig.sh                   test_2169089056_04062018_1559.pdf
+NFS_mounts_verify_paul.sh              find_LUN_CuLDev_print.sh               memory_paging_SYA_SELECT_test.sh       ps2afpd.log                            tmp
+NFS_selfcheck.sh                       find_LUN_sizes.sh                      memory_paging_check.sh                 resetUser.ksh                          utils
+NFS_selfcheck.sh_20180723.sh           find_wwn.sh                            memory_paging_check_SYA.sh             run_on_NonProd.sh                      vmstat_mail.sh
+NFS_selfcheck_output.dat               formsTest.xml                          memory_paging_output                   showerrpt.pl                           workspace
+ankcsesyaa05[/home/cseadmin]$ cd /opt/AdobeAEM
+ankcsesyaa05[/opt/AdobeAEM]$ ls
+GDS                                       crx-repository                            lib                                       pdfg_srt
+JEE_PATCH                                 deploy                                    license.properties                        plugins
+Uninstall_Adobe Experience Manager Forms  docs                                      licenses                                  sdk
+configurationManager                      fonts                                     log                                       tmp
+copyright                                 jre                                       patch
+ankcsesyaa05[/opt/AdobeAEM]$ cd lib
+ankcsesyaa05[/opt/AdobeAEM/lib]$ cd caching
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548views.log      startlocator.sh            stoplocator.bat            stoplocator.sh.old
+GFLocator.log              lib                        start_locator.log          startlocator.sh.bak        stoplocator.sh
+GemFireVersion.properties  locator22548state.dat      startlocator.bat           stoplocator                          stoplocator.sh.bak
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls -lagrt
+total 3568
+-rwxrwxr-x    1 wasadmin        154 Apr 07 2016  GemFireVersion.properties
+-rwxrwxr-x    1 wasadmin       2052 Apr 07 2016  startlocator.bat
+-rwxrwxr-x    1 wasadmin       1498 Apr 07 2016  stoplocator.bat
+drwxrwxr-x    4 wasadmin        256 Feb 21 2019  ..
+-rwxr-xr-x    1 wasadmin       1531 Feb 21 2019  startlocator.sh.bak
+-rwxr-xr-x    1 wasadmin       1097 Mar 01 2019  stoplocator.sh.old
+-rw-r--r--    1 wasadmin          0 Mar 01 2019  stoplocator
+-rwxr-xr-x    1 wasadmin       1096 Mar 13 2019  stoplocator.sh.bak
+drwxrwxr-x    5 wasadmin       4096 Mar 13 2019  bin
+-rwxrwxr-x    1 wasadmin       1601 Mar 18 2019  startlocator.sh
+-rwxr--r--    1 wasadmin       1162 Mar 18 2019  stoplocator.sh
+drwxrwxr-x    2 wasadmin       4096 Mar 18 2019  lib
+-rw-r--r--    1 wasadmin         63 Aug 15 21:26 .locator
+drwxr-xr-x    2 wasadmin       4096 Aug 15 21:26 ConfigDiskDir_
+-rw-r--r--    1 wasadmin    1669081 Aug 26 09:31 GFLocator.log
+-rw-r--r--    1 wasadmin      87226 Aug 26 09:31 locator22548views.log
+-rw-r--r--    1 wasadmin        797 Sep 02 15:43 start_locator.log
+drwxrwxr-x    5 wasadmin       4096 Oct 25 12:47 .
+-rw-r--r--    1 wasadmin        212 Oct 25 12:47 locator22548state.dat
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ more Gem*
+[?1049h[56;1H[K#Expected versions for this product build as of
+#Wed Jan 06 16:35:59 PST 2016
+gemfire.jar=8.2.0.9 build 18035 01/06/2016 16\:34\:31 PST javac 1.7.0_79
+[K[7mGemFireVersion.properties: END[27m[K[?1049l[?1l>ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ which ca  ajva
+which: 0652-141 There is no ajva in /usr/bin /etc /usr/sbin /usr/ucb /home/cseadmin/bin /usr/bin/X11 /sbin . /usr/local/bin /bin /bin /cse/bin.
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ which java
+which: 0652-141 There is no java in /usr/bin /etc /usr/sbin /usr/ucb /home/cseadmin/bin /usr/bin/X11 /sbin . /usr/local/bin /bin /bin /cse/bin.
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ more startlocator.sh
+[?1049h[56;1H[K# -------------------------------------------------------------------------
+# Gemfire Start Locator Script Template for linux(bash)
+#
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system
+#   Default: 22345. Valid values are 0-65535.
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to
+#   specify which IP address this distributed system's server sockets will listen on.
+#   Default: null (localhost)
+# * When multiple locators are part of the distributed system, add the following property to the
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]
+# * Copy your gemfireLicense.zip file to the current directory
+# -------------------------------------------------------------------------
+# Adds the current directory to the path.  Changes are not exported to the calling shell.
+path=.:$path
+# Set the classpath for this locator
+GF_CLASSPATH=/opt/AdobeAEM/lib/caching/lib/gfsh-dependencies.jar:./opt/AdobeAEM/lib/caching/lib/gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH
+# Set any properties for the locator
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"
+# Set the port
+GF_PORT=22548
+# Set the bind address (optional on single homed machine)
+GF_BIND_ADDRESS="134.187.144.6"
+# Start the locator on the specified port
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &
+[K[7mstartlocator.sh: END[27m[K[?1049l[?1l>ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ ls -la
+total 3568
+drwxrwxr-x    5 wasadmin wasadmin       4096 Oct 25 12:51 .
+drwxrwxr-x    4 wasadmin wasadmin        256 Feb 21 2019  ..
+-rw-r--r--    1 wasadmin wasadmin         63 Aug 15 21:26 .locator
+drwxr-xr-x    2 wasadmin wasadmin       4096 Aug 15 21:26 ConfigDiskDir_
+-rw-r--r--    1 wasadmin wasadmin    1669081 Aug 26 09:31 GFLocator.log
+-rwxrwxr-x    1 wasadmin wasadmin        154 Apr 07 2016  GemFireVersion.properties
+drwxrwxr-x    5 wasadmin wasadmin       4096 Mar 13 2019  bin
+drwxrwxr-x    2 wasadmin wasadmin       4096 Mar 18 2019  lib
+-rw-r--r--    1 wasadmin wasadmin        212 Oct 25 12:51 locator22548state.dat
+-rw-r--r--    1 wasadmin wasadmin      87226 Aug 26 09:31 locator22548views.log
+-rw-r--r--    1 wasadmin wasadmin        797 Sep 02 15:43 start_locator.log
+-rwxrwxr-x    1 wasadmin wasadmin       2052 Apr 07 2016  startlocator.bat
+-rwxrwxr-x    1 wasadmin wasadmin       1601 Mar 18 2019  startlocator.sh
+-rwxr-xr-x    1 wasadmin wasadmin       1531 Feb 21 2019  startlocator.sh.bak
+-rw-r--r--    1 wasadmin wasadmin          0 Mar 01 2019  stoplocator
+-rwxrwxr-x    1 wasadmin wasadmin       1498 Apr 07 2016  stoplocator.bat
+-rwxr--r--    1 wasadmin wasadmin       1162 Mar 18 2019  stoplocator.sh
+-rwxr-xr-x    1 wasadmin wasadmin       1096 Mar 13 2019  stoplocator.sh.bak
+-rwxr-xr-x    1 wasadmin wasadmin       1097 Mar 01 2019  stoplocator.sh.old
+ankcsesyaa05[/opt/AdobeAEM/lib/caching]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

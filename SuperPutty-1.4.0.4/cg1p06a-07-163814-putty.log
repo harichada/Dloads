@@ -1,0 +1,47 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 16:38:14 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed May 29 18:33:23 PDT 2019 on ssh from 158.96.152.172
+Last login: Thu Nov  7 16:34:52 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva02[/home/cseadmin]$ cd /cse/onoline     line/logs
+ankcsedeva02[/cse/online/logs]$ ls
+ArchServices.jar                      FinalistVolAssessment.log.2018-11-28  FinalistVolAssessment.log.2019-01-29  FinalistVolAssessment.log.2019-04-17  TEAM05_Online
+ContentManagerAPILog_dklog.log        FinalistVolAssessment.log.2018-11-30  FinalistVolAssessment.log.2019-02-08  FinalistVolAssessment.log.2019-04-18  TEAM06_Online
+ContentManagerAPILog_dklog.log.sav1   FinalistVolAssessment.log.2018-12-05  FinalistVolAssessment.log.2019-02-22  FinalistVolAssessment.log.2019-04-19  TEAM09_Integration
+DEV01_IF                              FinalistVolAssessment.log.2018-12-07  FinalistVolAssessment.log.2019-03-20  FinalistVolAssessment.log.2019-04-24  TEAM09_Online
+FinalistVolAssessment.log             FinalistVolAssessment.log.2018-12-14  FinalistVolAssessment.log.2019-03-21  FinalistVolAssessment.log.2019-04-25  TRN03_Integration
+FinalistVolAssessment.log.2018-09-16  FinalistVolAssessment.log.2018-12-27  FinalistVolAssessment.log.2019-03-22  FinalistVolAssessment.log.2019-05-10  TRN03_Online
+FinalistVolAssessment.log.2018-09-20  FinalistVolAssessment.log.2018-12-28  FinalistVolAssessment.log.2019-03-26  FinalistVolAssessment.log.2019-09-26  UIT05_IF_Online
+FinalistVolAssessment.log.2018-10-09  FinalistVolAssessment.log.2019-01-03  FinalistVolAssessment.log.2019-03-28  FinalistVolAssessment.log.2019-10-11  UIT05_Integration
+FinalistVolAssessment.log.2018-10-10  FinalistVolAssessment.log.2019-01-04  FinalistVolAssessment.log.2019-03-29  FinalistVolAssessment.log.2019-10-15  UIT05_Online
+FinalistVolAssessment.log.2018-10-11  FinalistVolAssessment.log.2019-01-10  FinalistVolAssessment.log.2019-04-04  FinalistVolAssessment.log.2019-10-17  a.out
+FinalistVolAssessment.log.2018-10-12  FinalistVolAssessment.log.2019-01-23  FinalistVolAssessment.log.2019-04-09  FinalistVolAssessment.log.2019-10-18  dumps
+FinalistVolAssessment.log.2018-11-16  FinalistVolAssessment.log.2019-01-24  FinalistVolAssessment.log.2019-04-10  TEAM05_IF_Online
+FinalistVolAssessment.log.2018-11-27  FinalistVolAssessment.log.2019-01-25  FinalistVolAssessment.log.2019-04-11  TEAM05_Integration
+ankcsedeva02[/cse/online/logs]$ find . -name SystemOut.log
+./DEV01_IF/SystemOut.log
+./TEAM05_IF_Online/SystemOut.log
+./TEAM05_Integration/SystemOut.log
+./TEAM05_Online/SystemOut.log
+./TEAM09_Integration/SystemOut.log
+./TEAM09_Online/SystemOut.log
+./TRN03_Integration/SystemOut.log
+./TRN03_Online/SystemOut.log
+./UIT05_IF_Online/SystemOut.log
+./UIT05_Integration/SystemOut.log
+./UIT05_Online/SystemOut.log
+ankcsedeva02[/cse/online/logs]$ find . -name SystemOut.logfind . -name SystemOut.log -exde  ec grep remote E        "remote EJB cannot" {} \;
+ankcsedeva02[/cse/online/logs]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

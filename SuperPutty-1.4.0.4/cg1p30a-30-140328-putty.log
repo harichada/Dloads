@@ -1,0 +1,58 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 14:03:28 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+ankcseprda05[/home/cseadmin]$ cd /opt/AdobeAEM
+ksh: /opt/AdobeAEM:  not found.
+ankcseprda05[/home/cseadmin]$ cd /opt
+ankcseprda05[/opt]$ ls
+APPQcime       SolarWinds     csm            lost+found     pssp_to_csm
+BESClient      Symantec       diagnostics    lssecfixes     qhc
+IBM            adobe          freeware       mcr            rsct
+IBMinvscout    adobeES3       hsc            nsr            tivoli
+RPM_inst_root  auditout       ibm            perl
+ankcseprda05[/opt]$ cd adobe
+ksh: adobe: Permission denied.
+ankcseprda05[/opt]$ ls
+APPQcime       SolarWinds     csm            lost+found     pssp_to_csm
+BESClient      Symantec       diagnostics    lssecfixes     qhc
+IBM            adobe          freeware       mcr            rsct
+IBMinvscout    adobeES3       hsc            nsr            tivoli
+RPM_inst_root  auditout       ibm            perl
+ankcseprda05[/opt]$ ls -la
+total 40
+drwxr-xr-x   25 root     system         4096 Jun 23 09:04 .
+drwxr-xr-x   51 root     system         4096 Jun 23 19:46 ..
+drwxr-xr-x    8 root     sys             256 Mar 20 2012  APPQcime
+drwxr-xr-x    3 root     system          256 May 12 2017  BESClient
+drwxr-xr-x    5 root     system          256 Jun 23 08:49 IBM
+drwxr-xr-x    4 root     system          256 Jun 14 2013  IBMinvscout
+drwx------    2 root     system          256 Jun 23 08:54 RPM_inst_root
+drwxr-xr-x    3 bin      bin             256 Mar 14 2019  SolarWinds
+drwxr-xr-x    3 root     system          256 May 13 2011  Symantec
+drwxr-x---    5 wasadmin wasadmin        256 Feb 09 2009  adobe
+drwxrwxr-x   16 wasadmin wasadmin       4096 Sep 14 2013  adobeES3
+drwxr-xr-x    4 root     system          256 Jun 23 08:48 auditout
+drwxr-xr-x   12 bin      bin            4096 Jan 12 2018  csm
+drwxr-xr-x    4 bin      bin             256 Jan 12 2018  diagnostics
+drwxr-xr-x   13 root     system         4096 Jun 23 08:54 freeware
+drwxr-xr-x    4 root     system          256 Jan 13 2018  hsc
+drwxr-xr-x    3 root     system          256 Apr 18 2012  ibm
+drwxr-xr-x    2 root     system          256 Jun 23 08:48 lost+found
+drwxr-xr-x    4 root     system          256 Aug 25 2008  lssecfixes
+drwxr-xr-x    4 root     system          256 Jan 13 2018  mcr
+drwxr-xr-x    6 root     system          256 Dec 07 2016  nsr
+drwxr-xr-x    3 root     system          256 Aug 10 2006  perl
+drwxr-xr-x    8 bin      bin             256 Jul 07 2004  pssp_to_csm
+drwxr-xr-x    2 root     system          256 Mar 06 2011  qhc
+lrwxrwxrwx    1 bin      bin              14 Jun 23 09:04 rsct -> /usr/sbin/rsct
+drwxr-xr-x    3 root     system          256 Apr 01 2011  tivoli
+ankcseprda05[/opt]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcseprda05[/opt]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

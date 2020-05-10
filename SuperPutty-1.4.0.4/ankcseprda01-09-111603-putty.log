@@ -1,0 +1,85 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.09 11:16:03 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Mar 21 15:25:53 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct  9 10:01:42 PDT 2019 on ssh from ankcseprda10
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda01[/home/cseadmin]$ cd /scratch
+ankcseprda01[/scratch]$ ls
+agent-cert.ssl       crontab.root.mksysb  motd                 rc.WASNODE.20110721  sudoers_5lines
+bb                   crontab.root.new     networker            savevg               sudoers_5lines.sh
+bb-dftab.new         lost+found           nfsdest.dat          sisip_update.sh      syslog_5lines
+bbc1.9e-btf.tar.Z    lsof_4.82_aix53      nfsoptionchg.sh      sqllib_v81           syslog_5lines.sh
+before_upgrade       mksysb               perf_backups         stats
+ankcseprda01[/scratch]$ cd per    f*
+ksh: perf_backups: Permission denied.
+ankcseprda01[/scratch]$ cd    ls -lagrt
+total 4512
+drwxrwsr-t   17 db2cgrp        4096 Feb 28 2008  sqllib_v81
+drwxrwxr-x    2 system          256 Mar 24 2011  stats
+drwxrwxr-x    4 system          256 Apr 11 2011  networker
+-rwxrwxr-x    1 system          699 Apr 12 2011  crontab.root.mksysb
+drwxrwxr-x    7 system          256 Apr 13 2011  mksysb
+-rwxrwxr-x    1 system         5591 Apr 13 2011  crontab.root.new
+drwxrwxr-x    7 system          256 Apr 13 2011  savevg
+-rwxrwxr-x    1 system      2221891 May 12 2011  bbc1.9e-btf.tar.Z
+drwxrwxr-x    9 system         4096 May 16 2011  bb
+drwxrwxr-x    2 system          256 May 31 2011  lsof_4.82_aix53
+-rwxrwxr-x    1 system          260 May 31 2011  syslog_5lines
+-rwxrwxr-x    1 system           47 May 31 2011  syslog_5lines.sh
+-rwxrwxr-x    1 system           44 May 31 2011  sudoers_5lines.sh
+-rwxrwxr-x    1 system          386 May 31 2011  sudoers_5lines
+-rwxrwxr-x    1 system         2382 Jun 07 2011  agent-cert.ssl
+-rwxrwxr-x    1 system          236 Jun 20 2011  sisip_update.sh
+-rwxrwxr-x    1 system          991 Jul 13 2011  bb-dftab.new
+-rwxrwxr-x    1 system         1274 Jul 21 2011  rc.WASNODE.20110721
+-rwxrwxr-x    1 system         1155 Aug 18 2011  nfsoptionchg.sh
+-rwxrwxr-x    1 system            1 Aug 18 2011  nfsdest.dat
+drwxrwxr-x    4 system         4096 Apr 21 2012  before_upgrade
+-rwxrwxr-x    1 system         1206 May 01 2012  motd
+drwxrwxr-x    2 system          256 Jun 23 08:48 lost+found
+drwxr-xr-x   59 system         8192 Oct 03 08:27 ..
+drwxrwxr-x   12 system         4096 Oct 08 16:48 .
+drwx------    2 system         4096 Oct 09 10:14 perf_backups
+ankcseprda01[/scratch]$ cd ls -la
+ksh: cd: 0403-011 The specified substitution is not valid for this command.
+ankcseprda01[/scratch]$ ls -la
+total 4512
+drwxrwxr-x   12 root     system         4096 Oct 08 16:48 .
+drwxr-xr-x   59 root     system         8192 Oct 03 08:27 ..
+-rwxrwxr-x    1 root     system         2382 Jun 07 2011  agent-cert.ssl
+drwxrwxr-x    9 root     system         4096 May 16 2011  bb
+-rwxrwxr-x    1 root     system          991 Jul 13 2011  bb-dftab.new
+-rwxrwxr-x    1 root     system      2221891 May 12 2011  bbc1.9e-btf.tar.Z
+drwxrwxr-x    4 root     system         4096 Apr 21 2012  before_upgrade
+-rwxrwxr-x    1 root     system          699 Apr 12 2011  crontab.root.mksysb
+-rwxrwxr-x    1 root     system         5591 Apr 13 2011  crontab.root.new
+drwxrwxr-x    2 root     system          256 Jun 23 08:48 lost+found
+drwxrwxr-x    2 root     system          256 May 31 2011  lsof_4.82_aix53
+drwxrwxr-x    7 root     system          256 Apr 13 2011  mksysb
+-rwxrwxr-x    1 root     system         1206 May 01 2012  motd
+drwxrwxr-x    4 root     system          256 Apr 11 2011  networker
+-rwxrwxr-x    1 root     system            1 Aug 18 2011  nfsdest.dat
+-rwxrwxr-x    1 root     system         1155 Aug 18 2011  nfsoptionchg.sh
+drwx------    2 root     system         4096 Oct 09 10:14 perf_backups
+-rwxrwxr-x    1 root     system         1274 Jul 21 2011  rc.WASNODE.20110721
+drwxrwxr-x    7 root     system          256 Apr 13 2011  savevg
+-rwxrwxr-x    1 root     system          236 Jun 20 2011  sisip_update.sh
+drwxrwsr-t   17 db2cinst db2cgrp        4096 Feb 28 2008  sqllib_v81
+drwxrwxr-x    2 root     system          256 Mar 24 2011  stats
+-rwxrwxr-x    1 root     system          386 May 31 2011  sudoers_5lines
+-rwxrwxr-x    1 root     system           44 May 31 2011  sudoers_5lines.sh
+-rwxrwxr-x    1 root     system          260 May 31 2011  syslog_5lines
+-rwxrwxr-x    1 root     system           47 May 31 2011  syslog_5lines.sh
+ankcseprda01[/scratch]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

@@ -1,0 +1,304 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.31 10:46:10 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Apr 29 10:50:42 PDT 2019 on ssh from 134.187.119.107
+Last login: Thu Oct 31 10:13:11 PDT 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2d01[/home/cseadmin]$ df -g /homeX
+df: 0506-003 Cannot find or open file system /homeX.
+ankcsepf2d01[/home/cseadmin]$ df -g /homeXdf -g /dhomeXbhomeX2homeX
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/db2homelvX      9.50      0.01  100%     5894    30% /db2homeX
+ankcsepf2d01[/home/cseadmin]$ ls -la /db2homeX
+total 80
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  .
+drwxr-xr-x  140 root     system         8192 May 22 05:39 ..
+drwxr-xr-x    2 db2as    db2asgrp        256 Feb 19 2014  db2as
+drwxr-xr-x    3 instadb2 dbsadmpt        256 Dec 21 2018  instadb2
+drwxr-xr-x    2 5693     dbsadmpt        256 Mar 02 2016  instbrio
+drwxr-xr-x    4 insthypr dbsadmpt       4096 Apr 26 2019  insthypr
+drwxr-xr-x    9 instpt02 staff          4096 Apr 26 2019  instpt02
+drwxr-xr-x    6 instptad staff          4096 Apr 25 2019  instptad
+drwxr-xr-x    6 instptcm dbsadmpt       4096 Apr 25 2019  instptcm
+drwxr-xr-x    8 instptld staff          4096 Apr 25 2019  instptld
+drwxr-xr-x    9 instptvl dbsadmpt       4096 Apr 26 2019  instptvl
+drwxr-xr-x    6 insttws8 dbsadmpt       4096 Apr 26 2019  insttws8
+drwxr-xr-x    2 root     system          256 Jan 29 2014  lost+found
+ankcsepf2d01[/home/cseadmin]$ cd /db2homeX
+ankcsepf2d01[/db2homeX]$ ls -la
+total 80
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  .
+drwxr-xr-x  140 root     system         8192 May 22 05:39 ..
+drwxr-xr-x    2 db2as    db2asgrp        256 Feb 19 2014  db2as
+drwxr-xr-x    3 instadb2 dbsadmpt        256 Dec 21 2018  instadb2
+drwxr-xr-x    2 5693     dbsadmpt        256 Mar 02 2016  instbrio
+drwxr-xr-x    4 insthypr dbsadmpt       4096 Apr 26 2019  insthypr
+drwxr-xr-x    9 instpt02 staff          4096 Apr 26 2019  instpt02
+drwxr-xr-x    6 instptad staff          4096 Apr 25 2019  instptad
+drwxr-xr-x    6 instptcm dbsadmpt       4096 Apr 25 2019  instptcm
+drwxr-xr-x    8 instptld staff          4096 Apr 25 2019  instptld
+drwxr-xr-x    9 instptvl dbsadmpt       4096 Apr 26 2019  instptvl
+drwxr-xr-x    6 insttws8 dbsadmpt       4096 Apr 26 2019  insttws8
+drwxr-xr-x    2 root     system          256 Jan 29 2014  lost+found
+ankcsepf2d01[/db2homeX]$ ls -laR | greo Oct   "Oct 31"
+ksh: greo:  not found.
+ankcsepf2d01[/db2homeX]$ ls -laR | greo "Oct 31"ls -laR | grep
+ls: ./instadb2/sqllib/backup: The file access permissions do not allow the specified action.
+ls: ./instadb2/sqllib/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./instadb2/sqllib/db2tss/log: The file access permissions do not allow the specified action.
+ls: ./instadb2/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instadb2/sqllib/spmlog: The file access permissions do not allow the specified action.
+ls: ./insthypr/insthypr/NODE0000/HYP11PT2: The file access permissions do not allow the specified action.
+ls: ./insthypr/insthypr/NODE0000/SQL00001: The file access permissions do not allow the specified action.
+ls: ./insthypr/sqllib/backup: The file access permissions do not allow the specified action.
+ls: ./insthypr/sqllib/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./insthypr/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./insthypr/sqllib/spmlog/SPMLOGSD: The file access permissions do not allow the specified action.
+ls: ./instpt02/.ssh: The file access permissions do not allow the specified action.
+ls: ./instpt02/instpt02/NODE0000/SQL00001/SQLT0000.0: The file access permissions do not allow the specified action.
+ls: ./instpt02/instpt02/NODE0000/SQL00001/SYSTOOLSTMPSPACE: The file access permissions do not allow the specified action.
+ls: ./instpt02/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instpt02/sqllib_v101/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptad/instptad: The file access permissions do not allow the specified action.
+ls: ./instptad/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptcm/FP10Plus: The file access permissions do not allow the specified action.
+ls: ./instptcm/FP6SB_36889: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/CMPERF: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/CMPERFRM: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/SQL00001: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/SQL00002: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/SQL00003: The file access permissions do not allow the specified action.
+ls: ./instptcm/instptcm/NODE0000/SQL00004: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/backup: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/db2dump/autodump: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/db2tss/log: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptcm/sqllib/spmlog: The file access permissions do not allow the specified action.
+ls: ./instptld/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptld/sqllib_v101/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptvl/FP10Plus: The file access permissions do not allow the specified action.
+ls: ./instptvl/FP6SB_36889: The file access permissions do not allow the specified action.
+ls: ./instptvl/V11.1: The file access permissions do not allow the specified action.
+ls: ./instptvl/instptvl/NODE0000/SQL00001: The file access permissions do not allow the specified action.
+ls: ./instptvl/shixun: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib/backup: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib/db2tss/log: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib/spmlog: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/backup: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/db2dump/autodump: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/db2tss/log: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/hmonCache: The file access permissions do not allow the specified action.
+ls: ./instptvl/sqllib_v101/spmlog: The file access permissions do not allow the specified action.
+ls: ./insttws8/FP10Plus: The file access permissions do not allow the specified action.
+ls: ./insttws8/FP6SB_36889: The file access permissions do not allow the specified action.
+ls: ./insttws8/insttws8/NODE0000/SQL00001/HADR: The file access permissions do not allow the specified action.
+ls: ./insttws8/insttws8/NODE0000/SQL00001/MEMBER0000: The file access permissions do not allow the specified action.
+ls: ./insttws8/insttws8/NODE0000/TWSDB: The file access permissions do not allow the specified action.
+ls: ./insttws8/sqllib/backup: The file access permissions do not allow the specified action.
+ls: ./insttws8/sqllib/db2tss/config: The file access permissions do not allow the specified action.
+ls: ./insttws8/sqllib/db2tss/log: The file access permissions do not allow the specified action.
+ls: ./insttws8/sqllib/hmonCache: The file access permissions do not allow the specified action.
+ankcsepf2d01[/db2homeX]$ ls
+db2as       instadb2    instbrio    insthypr    instpt02    instptad    instptcm    instptld    instptvl    insttws8    lost+found
+ankcsepf2d01[/db2homeX]$ cd ..
+ankcsepf2d01[/]$ ls
+CA_Test_FS                db2arch_insthypr          db2data_instpd_08         db2data_insttws8          db2log_instptld           nsr
+CMInstall                 db2arch_instpdvl          db2data_instpd_09         db2data_migrate           db2log_instptvl           opt
+CommVault                 db2arch_instpt02          db2data_instpd_10         db2data_stage             db2log_insttws8           pdf2afp
+FromCSE                   db2arch_instpt04          db2data_instpd_11         db2diag_instadb2          db2log_ldapdb2            pft02_hyperion_transient
+LogLogic                  db2arch_instpt06          db2data_instpd_12         db2diag_instbrio          db2temp                   proc
+ToCSE                     db2arch_instptad          db2data_instpd_13         db2diag_insthypr          db2temp_backup            psef_final.out
+admin                     db2arch_instptcm          db2data_instpd_14         db2diag_instpdvl          db2work                   savevg
+adobeES3GDS               db2arch_instptld          db2data_instpd_15         db2diag_instpt02          dev                       sbin
+ap022_hyperion_transient  db2arch_instptvl          db2data_instpd_16         db2diag_instpt04          docstorage                scratch
+audit                     db2arch_insttws8          db2data_instpd_17         db2diag_instpt06          ds009_cpos                smit.log
+bin                       db2arch_ldapdb2           db2data_instpd_18         db2diag_instptad          ds009_pdf2afp             smit.script
+bosinst.data              db2audit                  db2data_instpd_19         db2diag_instptcm          esa                       smit.transaction
+cdrom                     db2backup_instpdvl        db2data_instpd_20         db2diag_instptld          etc                       swstage
+cm                        db2backup_instptcm        db2data_instpd_21         db2diag_instptvl          finalist                  tamBackup
+cmlbosdata1               db2backup_insttws8        db2data_instpd_22         db2diag_insttws8          fixes                     tftpboot
+core                      db2backup_ldapdb2         db2data_instpd_23         db2diag_ldapdb2           home                      tmp
+cp1p02a                   db2data_batch             db2data_instpd_24         db2home                   image.data                tmpswstage
+cp1p05a                   db2data_instbrio          db2data_instpd_25         db2homeX                  image.data.save.altinst   u
+cpos                      db2data_insthypr          db2data_instpd_26         db2log_instbrio           informatica               unix
+cse                       db2data_instpd_01         db2data_instpdcm          db2log_insthypr           lib                       usr
+csehap023                 db2data_instpd_02         db2data_instpdvl_01       db2log_instpdvl           liblpp.a                  var
+csehds010                 db2data_instpd_03         db2data_instpdvl_02       db2log_instpt02           lost+found                webseal_log
+db2                       db2data_instpd_04         db2data_instpt02          db2log_instpt04           lpp
+db2_dba                   db2data_instpd_05         db2data_instpt04          db2log_instpt06           lpp_name
+db2admin                  db2data_instpd_06         db2data_instptad          db2log_instptad           mksysb
+db2arch_instbrio          db2data_instpd_07         db2data_instptcm          db2log_instptcm           mnt
+ankcsepf2d01[/]$ ls -lad
+drwxr-xr-x  140 root     system         8192 May 22 05:39 .
+ankcsepf2d01[/]$ ls -lad *
+drwx--x--x    2 root     system          256 Apr 09 2014  CA_Test_FS
+drwxr-xr-x    3 root     system          256 Jan 29 2014  CMInstall
+drwxr-xr-x    5 root     system          256 Apr 29 2019  CommVault
+drwxrwsrwx    4 cseadmin csebatch        256 Jun 23 2017  FromCSE
+drwxrwxr-x    3 root     system          256 Sep 17 2015  LogLogic
+drwxrwsrwx    4 cseadmin csebatch        256 Jun 23 2017  ToCSE
+drwxr-xr-x    4 root     system          256 Apr 29 2019  admin
+drwxr-xr-x   16 wasadmin wasadmin       4096 Oct 31 10:47 adobeES3GDS
+drwxr-xr-x    3 root     system          256 Jan 29 2014  ap022_hyperion_transient
+drwxr-x---    2 root     audit           256 Mar 15 2017  audit
+lrwxrwxrwx    1 bin      bin               8 Apr 29 2019  bin -> /usr/bin
+-r-xr-xr-x    1 root     system         6865 Oct 30 18:08 bosinst.data
+drwxr-xr-x    2 root     system          256 Aug 14 2013  cdrom
+drwxr-xr-x    8 wasadmin wasadmin        256 Jan 29 2014  cm
+drwxr-xr-x    4 wasadmin wasadmin        256 Jul 01 2014  cmlbosdata1
+-rw-------    1 root     system      6042447 Jan 30 2015  core
+drwxrwxrwx    3 cseadmin cseadmin        256 May 21 2014  cp1p02a
+drwxrwxrwx    3 cseadmin cseadmin        256 May 21 2014  cp1p05a
+drwxrwxr-x    4 cseadmin csebatch        256 Jul 01 2014  cpos
+drwxrwx---    4 cseadmin cseadmin        256 Jan 20 2017  cse
+drwx------    3 root     system          256 Jan 29 2014  csehap023
+drwx------    3 root     system          256 Jan 29 2014  csehds010
+drwxr-xr-x    3 root     system          256 Jan 29 2014  db2
+drwxrwx---    8 bin      dbctrlpt        256 Dec 07 2016  db2_dba
+drwxrwxr-x    3 bin      dbsadmpt        256 Jan 29 2014  db2admin
+drwxr-xr-x    2 root     system          256 Jan 29 2014  db2arch_instbrio
+drwxr-x---    3 insthypr dbsadmpt        256 Jan 29 2014  db2arch_insthypr
+drwx--x--x    2 root     system          256 Aug 13 2015  db2arch_instpdvl
+drwxr-x---    4 instpt02 dbctrlpt        256 Dec 21 2015  db2arch_instpt02
+drwxrwx--x    3 instptad dbsadmpt        256 Feb 25 2014  db2arch_instpt04
+drwx--x--x    2 root     system          256 Jan 29 2014  db2arch_instpt06
+drwxr-xr-x    4 instptad dbctrlpt        256 Mar 14 2014  db2arch_instptad
+drwxr-x---    4 instptcm dbsadmdt        256 Feb 26 2014  db2arch_instptcm
+drwxr-xr-x    3 instptld dbctrlpt        256 Jan 29 2014  db2arch_instptld
+drwxrwx---    4 instptvl dbsadmpt        256 Sep 10 2015  db2arch_instptvl
+drwxr-x---    4 insttws8 dbsadmpt        256 Feb 26 2014  db2arch_insttws8
+drwxr-x---    3 ldapdb2  dbsysadm        256 Mar 05 2014  db2arch_ldapdb2
+drwxrwx---    7 dbaudadm db2audit       4096 Apr 24 2019  db2audit
+drwx--x--x    2 root     system          256 Aug 13 2015  db2backup_instpdvl
+drwxr-x---    3 instptcm dbctrlpt        256 Jan 29 2014  db2backup_instptcm
+drwxr-x---    4 insttws8 dbsadmpt        256 Sep 22 2016  db2backup_insttws8
+drwxr-x---    3 ldapdb2  dbsysadm        256 Mar 05 2014  db2backup_ldapdb2
+drwxrwxrwx    5 cseadmin cseadmin        256 Jan 13 2017  db2data_batch
+drwxr-xr-x    2 root     system          256 Jan 29 2014  db2data_instbrio
+drwxrwxr-x    4 insthypr dbsadmpt        256 May 21 2014  db2data_insthypr
+drwxrwx---    7 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_01
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_02
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_03
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_04
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_05
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_06
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_07
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_08
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_09
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_10
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_11
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_12
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_13
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_14
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_15
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_16
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_17
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_18
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_19
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_20
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_21
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_22
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_23
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_24
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_25
+drwxrwx---    5 csedba1  dbctrlpt        256 May 22 14:48 db2data_instpd_26
+drwxrwxr-x    3 instptcm dbsadmdt        256 Sep 26 2016  db2data_instpdcm
+drwxrwx---    4 instptvl dbsadmpt        256 May 28 15:45 db2data_instpdvl_01
+drwxrwx---    4 instptvl dbsadmpt        256 May 28 15:45 db2data_instpdvl_02
+drwxr-xr-x    2 root     system          256 Feb 24 2014  db2data_instpt02
+drwx--x--x    2 root     system          256 Jan 29 2014  db2data_instpt04
+drwxrwxr-x    5 instptad dbctrlpt        256 Feb 25 2014  db2data_instptad
+drwxrwxr-x    7 instptcm dbsadmdt        256 Aug 14 2015  db2data_instptcm
+drwxrwx---    7 insttws8 dbsadmpt        256 Jul 10 2014  db2data_insttws8
+drwxrwxrwx   55 bin      dbctrlpt       4096 Oct 03 10:07 db2data_migrate
+drwxrwxr-x    6 cseadmin cseadmin        256 Sep 01 2017  db2data_stage
+drwxr-x---    3 instadb2 dbsadmpt        256 Apr 25 2019  db2diag_instadb2
+drwxr-xr-x    2 root     system          256 Jan 29 2014  db2diag_instbrio
+drwxr-x---    7 insthypr dbsadmpt       4096 Aug 02 2018  db2diag_insthypr
+drwx--x--x    2 root     system          256 Aug 13 2015  db2diag_instpdvl
+drwxrwx---    6 instpt02 dbctrlpt       8192 Oct 04 09:33 db2diag_instpt02
+drwx--x--x    2 root     system          256 Jan 29 2014  db2diag_instpt04
+drwx--x--x    2 root     system          256 Jan 29 2014  db2diag_instpt06
+drwxr-xr-x    6 instptad dbctrlpt       4096 Nov 20 2017  db2diag_instptad
+drwxr-x---    5 instptcm dbctrlpt       4096 Oct 31 10:25 db2diag_instptcm
+drwxr-xr-x    8 instptld dbctrlpt       4096 Apr 26 2019  db2diag_instptld
+drwxrwx---    6 instptvl dbsadmpt       4096 Oct 16 09:10 db2diag_instptvl
+drwxr-x---    6 insttws8 dbsadmpt       4096 May 31 2018  db2diag_insttws8
+drwxr-x---    3 ldapdb2  dbsysadm        256 Jan 29 2014  db2diag_ldapdb2
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  db2home
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  db2homeX
+drwxr-xr-x    2 root     system          256 Jan 29 2014  db2log_instbrio
+drwxrwxrwx    4 insthypr dbsadmpt        256 Aug 07 2015  db2log_insthypr
+drwx--x--x    2 root     system          256 Aug 13 2015  db2log_instpdvl
+drwxrwx---    4 instpt02 dbctrlpt       4096 Oct 03 16:31 db2log_instpt02
+drwxrwx--x    2 instptad dbsadmpt        256 Jan 29 2014  db2log_instpt04
+drwx--x--x    2 root     system          256 Jan 29 2014  db2log_instpt06
+drwxr-xr-x    4 instptad dbctrlpt       4096 Dec 15 2014  db2log_instptad
+drwxr-x---    7 instptcm dbsadmdt       4096 Feb 28 2014  db2log_instptcm
+drwxr-xr-x    4 instptld dbctrlpt       4096 Dec 15 2014  db2log_instptld
+drwxrwx---    6 instptvl dbsadmpt        256 Sep 26 11:24 db2log_instptvl
+drwxr-x---    4 insttws8 dbsadmpt       4096 Dec 15 2014  db2log_insttws8
+drwxr-x---    3 ldapdb2  dbsysadm        256 Jan 29 2014  db2log_ldapdb2
+drwxr-x---    3 bin      dbctrlpt        256 Nov 26 2014  db2temp
+drwx--x--x    2 root     system          256 Jun 26 2014  db2temp_backup
+drwxr-xr-x   35 csedba3  staff          8192 Apr 26 2019  db2work
+drwxr-xr-x    5 root     system        32768 Oct 31 10:01 dev
+drwxrwxr-x    4 wasadmin wasadmin        256 Aug 17 2015  docstorage
+drwxr-xr-x    2 root     system          256 Jan 29 2014  ds009_cpos
+drwxr-xr-x    2 root     system          256 Jan 29 2014  ds009_pdf2afp
+drwxr-xr-x   15 bin      bin            4096 Feb 08 2018  esa
+drwxr-xr-x   44 root     system        20480 Oct 31 10:28 etc
+drwxr-xr-x    5 cseadmin cseadmin        256 Jun 26 2017  finalist
+drwxr-xr-x    3 root     system          256 Jan 29 2014  fixes
+drwxr-xr-x  114 bin      bin            4096 Oct 30 10:23 home
+-rw-------    1 root     system        21192 Oct 30 18:08 image.data
+-rw-------    1 root     system        20215 Apr 28 2019  image.data.save.altinst
+drwxr-xr-x    5 pxuser   dbsadmpt        256 May 21 13:02 informatica
+lrwxrwxrwx    1 bin      bin               8 Apr 29 2019  lib -> /usr/lib
+-r-xr-xr-x    1 root     system       122292 Mar 15 2017  liblpp.a
+drwx------    2 root     system          256 Apr 29 2019  lost+found
+drwxr-xr-x  206 bin      bin           12288 Jun 18 09:53 lpp
+-r-xr-xr-x    1 root     system         9442 Mar 15 2017  lpp_name
+drwxr-xr-x    8 root     system          256 Apr 29 2019  mksysb
+drwxrwxrwx    2 root     system          256 Apr 03 2019  mnt
+drwxr-xr-x    9 root     system          256 Nov 05 2013  nsr
+drwxr-xr-x   22 root     system         4096 Apr 29 2019  opt
+drwxrwsrwx    4 cseadmin csebatch        256 Oct 30 2018  pdf2afp
+drwxrwsrwx    3 cseadmin csebatch        256 Jan 13 2017  pft02_hyperion_transient
+dr-xr-xr-x    1 root     system            0 Oct 31 10:52 proc
+-rw-r-----    1 root     dbsadmpt      37118 Apr 25 2019  psef_final.out
+drwxr-xr-x    8 root     system          256 Apr 29 2019  savevg
+drwxr-xr-x    3 bin      bin             256 Apr 29 2019  sbin
+drwxr-xr-x    9 root     system         4096 May 21 12:12 scratch
+-rw-r--r--    1 root     system       152224 Jan 23 2012  smit.log
+-rw-r--r--    1 root     system         4006 Jan 23 2012  smit.script
+-rw-r--r--    1 root     system         5884 Jan 23 2012  smit.transaction
+drwxrwxr-x   80 root     staff          8192 Oct 20 17:01 swstage
+drwxrwxrwx   15 ldapdb2  dbsysadm       4096 Oct 31 03:00 tamBackup
+drwxrwxr-x    2 root     system          256 Feb 08 2018  tftpboot
+drwxrwxrwt   21 bin      bin           24576 Oct 31 10:52 tmp
+drwx--x--x    2 root     system          256 Nov 26 2014  tmpswstage
+lrwxrwxrwx    1 bin      bin               5 Apr 29 2019  u -> /home
+lrwxrwxrwx    1 root     system           21 Apr 29 2019  unix -> /usr/lib/boot/unix_64
+drwxr-xr-x   59 bin      bin            4096 May 17 16:21 usr
+drwxr-xr-x   38 bin      bin            4096 May 01 2019  var
+drwxrwxr-x    3 root     csebatch        256 Oct 29 03:01 webseal_log
+ankcsepf2d01[/]$ ls -lad /hom   db3 2homeX
+drwxr-xr-x   13 bin      dbsadmpt       4096 Nov 05 2018  /db2homeX
+ankcsepf2d01[/]$ 
+Shell will time out in 60 seconds.
+
+ankcsepf2d01[/]$ exit

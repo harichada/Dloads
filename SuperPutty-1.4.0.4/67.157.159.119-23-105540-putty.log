@@ -1,0 +1,573 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.23 10:55:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Mon Sep 23 10:47:34 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1051UL:~[?1034h[hchada@CGDCSSL1051UL ~]$ ps -ef | grep tomcat
+tomadmin  1735     1  0 Aug18 ?        00:27:12 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt02/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9100 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt02 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt02/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1741     1  0 Aug18 ?        00:27:07 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt12/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9107 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt12 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt12/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1742     1  0 Aug18 ?        00:27:50 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt08/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9105 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt08 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt08/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1745     1  0 Aug18 ?        00:27:51 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt03/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9101 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt03 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt03/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1747     1  0 Aug18 ?        00:28:36 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt06/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9103 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt06 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt06/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1752     1  0 Aug18 ?        00:28:40 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt04/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9102 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt04 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt04/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1758     1  0 Aug18 ?        00:27:56 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt11/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9106 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt11 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt11/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1759     1  0 Aug18 ?        00:27:58 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt07/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9104 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt07 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt07/temp org.apache.catalina.startup.Bootstrap start
+tomadmin  1765     1  0 Aug18 ?        00:27:40 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/[01;31m[Ktomcat[m[K8/syt01/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9099 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/base/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/base/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8/syt01 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8/base -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/syt01/temp org.apache.catalina.startup.Bootstrap start
+hchada   10949 10925  0 10:55 pts/1    00:00:00 grep --color=auto [01;31m[Ktomcat[m[K
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ ps -ef | grep syt07
+tomadmin  1759     1  0 Aug18 ?        00:27:58 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/tomcat8/[01;31m[Ksyt07[m[K/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms256m -Xmx512m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9104 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -classpath /forms/tomcat8/base/bin/bootstrap.jar:/forms/tomcat8/base/bin/tomcat-juli.jar -Dcatalina.base=/forms/tomcat8/[01;31m[Ksyt07[m[K -Dcatalina.home=/forms/tomcat8/base -Djava.io.tmpdir=/forms/tomcat8/[01;31m[Ksyt07[m[K/temp org.apache.catalina.startup.Bootstrap start
+hchada   10984 10925  0 10:56 pts/1    00:00:00 grep --color=auto [01;31m[Ksyt07[m[K
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ sydo [K[K[K[Kudo systemctl status tomcat-syt07
+[sudo] password for hchada: 
+[sudo] password for hchada: 
+Sorry, try again.
+[sudo] password for hchada: 
+Unit tomcat-syt07.service could not be found.
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ cd /[K[K[K[Kls /etc/systemd/system
+[0m[01;34mbasic.target.wants[0m                           [01;34mgetty.target.wants[0m           [01;34msysinit.target.wants[0m        tomcatsyt03.service  tomcatsyt11.service
+[01;36mdbus-org.freedesktop.NetworkManager.service[0m  [01;34mlocal-fs.target.wants[0m        [01;34msystem-update.target.wants[0m  tomcatsyt04.service  tomcatsyt12.service
+[01;36mdbus-org.freedesktop.nm-dispatcher.service[0m   [01;34mmulti-user.target.wants[0m      tomcat.service              tomcatsyt06.service  [01;34mvmtoolsd.service.requires[0m
+[01;36mdefault.target[0m                               [01;34mnetwork-online.target.wants[0m  tomcatsyt01.service         tomcatsyt07.service
+[01;34mdefault.target.wants[0m                         [01;34msockets.target.wants[0m         tomcatsyt02.service         tomcatsyt08.service
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ ls /etc/systemd/systemsudo systemctl status tomcat-syt07[1Psyt07
+[1;32m●[0m tomcatsyt07.service - Apache Tomcat Web Application Container
+   Loaded: loaded (/etc/systemd/system/tomcatsyt07.service; enabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Sun 2019-08-18 10:40:16 PDT; 1 months 5 days ago
+  Process: 1666 ExecStart=/forms/tomcat8/syt07/bin/catalina.sh start (code=exited, status=0/SUCCESS)
+ Main PID: 1759 (java)
+   CGroup: /system.slice/tomcatsyt07.service
+           └─1759 /forms/java/jdk1.8.0_181/bin/java -Djava.util.logging.config.file=/forms/tomcat8/syt07/conf/logging.properties -Djava.util.logging.m...
+
+Aug 18 10:40:16 CGDCSSL1051UL.calcloud.local systemd[1]: Starting Apache Tomcat Web Application Container...
+Aug 18 10:40:16 CGDCSSL1051UL.calcloud.local systemd[1]: Started Apache Tomcat Web Application Container.
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ sudo systemctl status tomcatsyt07[1P tomcatsyt07[1P tomcatsyt07[1P tomcatsyt07r tomcatsyt07t tomcatsyt07[1P tomcatsyt07[1P tomcatsyt07[1P tomcatsyt07o tomcatsyt07p tomcatsyt07^C
+]0;hchada@CGDCSSL1051UL:~[hchada@CGDCSSL1051UL ~]$ c d /f[K[K[K[K[Kd /forms/tomcat8/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlost+found[0m  [01;34msyt01[0m  [01;34msyt02[0m  [01;34msyt03[0m  [01;34msyt04[0m  [01;34msyt06[0m  [01;34msyt07[0m  [01;34msyt08[0m  [01;34msyt11[0m  [01;34msyt12[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ cd syt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ cd logs
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2019-02-07.log             localhost_access_log.2019-02-25.txt  localhost_access_log.2019-06-19.txt
+catalina.2019-01-07.log      localhost.2019-02-08.log             localhost_access_log.2019-02-26.txt  localhost_access_log.2019-06-21.txt
+catalina.2019-01-23.log      localhost.2019-02-20.log             localhost_access_log.2019-02-27.txt  localhost_access_log.2019-06-25.txt
+catalina.2019-02-07.log      localhost.2019-02-27.log             localhost_access_log.2019-02-28.txt  localhost_access_log.2019-06-27.txt
+catalina.2019-02-08.log      localhost.2019-02-28.log             localhost_access_log.2019-03-01.txt  localhost_access_log.2019-07-01.txt
+catalina.2019-02-20.log      localhost.2019-03-01.log             localhost_access_log.2019-03-04.txt  localhost_access_log.2019-07-02.txt
+catalina.2019-02-27.log      localhost.2019-03-05.log             localhost_access_log.2019-03-05.txt  localhost_access_log.2019-07-03.txt
+catalina.2019-02-28.log      localhost.2019-03-15.log             localhost_access_log.2019-03-06.txt  localhost_access_log.2019-07-09.txt
+catalina.2019-03-05.log      localhost.2019-03-20.log             localhost_access_log.2019-03-07.txt  localhost_access_log.2019-07-15.txt
+catalina.2019-03-15.log      localhost.2019-04-02.log             localhost_access_log.2019-03-08.txt  localhost_access_log.2019-07-17.txt
+catalina.2019-03-20.log      localhost.2019-04-29.log             localhost_access_log.2019-03-11.txt  localhost_access_log.2019-07-19.txt
+catalina.2019-04-02.log      localhost.2019-05-02.log             localhost_access_log.2019-03-15.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-04-29.log      localhost.2019-05-22.log             localhost_access_log.2019-03-20.txt  localhost_access_log.2019-07-25.txt
+catalina.2019-05-02.log      localhost.2019-06-13.log             localhost_access_log.2019-03-22.txt  localhost_access_log.2019-07-29.txt
+catalina.2019-05-22.log      localhost.2019-06-27.log             localhost_access_log.2019-04-02.txt  localhost_access_log.2019-08-15.txt
+catalina.2019-06-13.log      localhost.2019-07-01.log             localhost_access_log.2019-04-08.txt  localhost_access_log.2019-08-18.txt
+catalina.2019-06-27.log      localhost.2019-07-09.log             localhost_access_log.2019-04-16.txt  localhost_access_log.2019-08-19.txt
+catalina.2019-07-01.log      localhost.2019-08-18.log             localhost_access_log.2019-04-24.txt  localhost_access_log.2019-08-23.txt
+catalina.2019-07-09.log      localhost.2019-08-19.log             localhost_access_log.2019-04-29.txt  localhost_access_log.2019-09-13.txt
+catalina.2019-08-18.log      localhost.2019-09-16.log             localhost_access_log.2019-05-01.txt  localhost_access_log.2019-09-16.txt
+catalina.2019-09-16.log      localhost.2019-09-20.log             localhost_access_log.2019-05-02.txt  localhost_access_log.2019-09-17.txt
+catalina.2019-09-20.log      localhost_access_log.2019-01-07.txt  localhost_access_log.2019-05-03.txt  localhost_access_log.2019-09-20.txt
+catalina.out                 localhost_access_log.2019-01-08.txt  localhost_access_log.2019-05-04.txt  localhost_access_log.2019-09-23.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-02-06.txt  localhost_access_log.2019-05-06.txt  manager.2019-01-07.log
+host-manager.2019-02-06.log  localhost_access_log.2019-02-07.txt  localhost_access_log.2019-05-14.txt  manager.2019-02-06.log
+host-manager.2019-02-27.log  localhost_access_log.2019-02-08.txt  localhost_access_log.2019-05-22.txt  manager.2019-02-27.log
+host-manager.2019-03-05.log  localhost_access_log.2019-02-11.txt  localhost_access_log.2019-05-28.txt  manager.2019-03-05.log
+host-manager.2019-03-15.log  localhost_access_log.2019-02-14.txt  localhost_access_log.2019-05-30.txt  manager.2019-03-15.log
+host-manager.2019-04-29.log  localhost_access_log.2019-02-19.txt  localhost_access_log.2019-06-03.txt  manager.2019-04-29.log
+host-manager.2019-08-18.log  localhost_access_log.2019-02-20.txt  localhost_access_log.2019-06-05.txt  manager.2019-08-18.log
+localhost.2019-01-07.log     localhost_access_log.2019-02-21.txt  localhost_access_log.2019-06-11.txt  SystemOut.log
+localhost.2019-01-23.log     localhost_access_log.2019-02-22.txt  localhost_access_log.2019-06-13.txt  tomcat.pid
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ ls -lagrt
+total 972
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-06.log
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 manager.2019-01-07.log
+-rw-r-----. 1 tomadmin   7378 Mar  4  2019 localhost_access_log.2019-03-01.txt
+-rw-r-----. 1 tomadmin   2457 Mar  4  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----. 1 tomadmin   7494 Mar  4  2019 localhost_access_log.2019-02-26.txt
+-rw-r-----. 1 tomadmin   1453 Mar  4  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----. 1 tomadmin    214 Mar  4  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----. 1 tomadmin  10750 Mar  4  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----. 1 tomadmin    160 Mar  4  2019 localhost.2019-03-01.log
+-rw-r-----. 1 tomadmin   3800 Mar  4  2019 localhost.2019-02-08.log
+-rw-rw----. 1 tomadmin   1653 Mar  4  2019 localhost.2019-01-07.log
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-01-07.log
+-rw-r-----. 1 tomadmin    920 Mar  4  2019 catalina.2019-02-20.log
+-rw-r-----. 1 tomadmin   5502 Mar  4  2019 catalina.2019-02-08.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-27.log
+-rw-r-----. 1 tomadmin   3252 Mar  4  2019 localhost_access_log.2019-03-04.txt
+-rw-r-----. 1 tomadmin   6620 Mar  4  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----. 1 tomadmin   3472 Mar  4  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----. 1 tomadmin   4318 Mar  4  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----. 1 tomadmin    764 Mar  4  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----. 1 tomadmin   8857 Mar  4  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----. 1 tomadmin     76 Mar  4  2019 localhost_access_log.2019-01-08.txt
+-rw-rw----. 1 tomadmin    301 Mar  4  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----. 1 tomadmin   3952 Mar  4  2019 localhost.2019-02-28.log
+-rw-r-----. 1 tomadmin   6902 Mar  4  2019 localhost.2019-02-27.log
+-rw-r-----. 1 tomadmin   1300 Mar  4  2019 localhost.2019-02-07.log
+-rw-r-----. 1 tomadmin   7689 Mar  4  2019 localhost.2019-01-23.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-27.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-06.log
+-rw-r-----. 1 tomadmin  16317 Mar  4  2019 catalina.2019-02-27.log
+-rw-r-----. 1 tomadmin  59601 Mar  4  2019 catalina.2019-01-23.log
+-rw-rw----. 1 tomadmin  22432 Mar  4  2019 catalina.2019-01-07.log
+-rw-r-----. 1 tomadmin   7411 Mar  4  2019 localhost_access_log.2019-02-28.txt
+-rw-r-----. 1 tomadmin    868 Mar  4  2019 localhost_access_log.2019-02-21.txt
+-rw-r-----. 1 tomadmin    652 Mar  4  2019 localhost.2019-02-20.log
+-rw-r-----. 1 tomadmin   6251 Mar  4  2019 catalina.2019-02-28.log
+-rw-r-----. 1 tomadmin   1834 Mar  4  2019 catalina.2019-02-07.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 manager.2019-03-05.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 host-manager.2019-03-05.log
+-rw-r-----. 1 tomadmin  32517 Mar  5  2019 catalina.2019-03-05.log
+-rw-r-----. 1 tomadmin   3315 Mar  5  2019 localhost.2019-03-05.log
+-rw-r-----. 1 tomadmin    702 Mar  5  2019 localhost_access_log.2019-03-05.txt
+-rw-r-----. 1 tomadmin   3329 Mar  6  2019 localhost_access_log.2019-03-06.txt
+-rw-r-----. 1 tomadmin    301 Mar  7  2019 localhost_access_log.2019-03-07.txt
+-rw-r-----. 1 tomadmin    108 Mar  8  2019 localhost_access_log.2019-03-08.txt
+-rw-r-----. 1 tomadmin     82 Mar 11  2019 localhost_access_log.2019-03-11.txt
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 manager.2019-03-15.log
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 host-manager.2019-03-15.log
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 localhost_access_log.2019-03-15.txt
+-rw-r-----. 1 tomadmin   1349 Mar 15  2019 localhost.2019-03-15.log
+-rw-r-----. 1 tomadmin   9119 Mar 15  2019 catalina.2019-03-15.log
+drwxrwxr-x. 8 tomadmin   4096 Mar 20  2019 [0m[01;34m..[0m
+-rw-r-----. 1 tomadmin   1319 Mar 20  2019 catalina.2019-03-20.log
+-rw-r-----. 1 tomadmin    650 Mar 20  2019 localhost.2019-03-20.log
+-rw-r-----. 1 tomadmin    868 Mar 20  2019 localhost_access_log.2019-03-20.txt
+-rw-r-----. 1 tomadmin    220 Mar 22  2019 localhost_access_log.2019-03-22.txt
+-rw-r-----. 1 tomadmin    929 Apr  2 11:59 catalina.2019-04-02.log
+-rw-r-----. 1 tomadmin    840 Apr  2 12:03 localhost.2019-04-02.log
+-rw-r-----. 1 tomadmin   2170 Apr  2 13:42 localhost_access_log.2019-04-02.txt
+-rw-r-----. 1 tomadmin   4180 Apr  8 12:00 localhost_access_log.2019-04-08.txt
+-rw-r-----. 1 tomadmin    868 Apr 16 11:55 localhost_access_log.2019-04-16.txt
+-rw-r-----. 1 tomadmin    868 Apr 24 12:24 localhost_access_log.2019-04-24.txt
+-rw-r-----. 1 tomadmin      0 Apr 29 17:50 manager.2019-04-29.log
+-rw-r-----. 1 tomadmin      0 Apr 29 17:50 host-manager.2019-04-29.log
+-rw-r-----. 1 tomadmin  19142 Apr 29 18:07 catalina.2019-04-29.log
+-rw-r-----. 1 tomadmin   2243 Apr 29 18:07 localhost.2019-04-29.log
+-rw-r-----. 1 tomadmin    854 Apr 29 18:08 localhost_access_log.2019-04-29.txt
+-rw-r-----. 1 tomadmin    868 May  1 22:16 localhost_access_log.2019-05-01.txt
+-rw-r-----. 1 tomadmin    929 May  2 12:42 catalina.2019-05-02.log
+-rw-r-----. 1 tomadmin    840 May  2 12:45 localhost.2019-05-02.log
+-rw-r-----. 1 tomadmin    868 May  2 12:51 localhost_access_log.2019-05-02.txt
+-rw-r-----. 1 tomadmin    217 May  3 08:17 localhost_access_log.2019-05-03.txt
+-rw-r-----. 1 tomadmin    651 May  4 10:41 localhost_access_log.2019-05-04.txt
+-rw-r-----. 1 tomadmin    868 May  6 13:20 localhost_access_log.2019-05-06.txt
+-rw-r-----. 1 tomadmin    651 May 14 14:03 localhost_access_log.2019-05-14.txt
+-rw-r-----. 1 tomadmin    929 May 22 13:49 catalina.2019-05-22.log
+-rw-r-----. 1 tomadmin    840 May 22 14:56 localhost.2019-05-22.log
+-rw-r-----. 1 tomadmin    651 May 22 15:01 localhost_access_log.2019-05-22.txt
+-rw-r-----. 1 tomadmin    651 May 28 12:06 localhost_access_log.2019-05-28.txt
+-rw-r-----. 1 tomadmin   1302 May 30 12:39 localhost_access_log.2019-05-30.txt
+-rw-r-----. 1 tomadmin   1248 Jun  3 12:17 localhost_access_log.2019-06-03.txt
+-rw-r-----. 1 tomadmin    217 Jun  5 17:11 localhost_access_log.2019-06-05.txt
+-rw-r-----. 1 tomadmin    868 Jun 11 11:33 localhost_access_log.2019-06-11.txt
+-rw-r-----. 1 tomadmin    929 Jun 13 11:37 catalina.2019-06-13.log
+-rw-r-----. 1 tomadmin    840 Jun 13 13:06 localhost.2019-06-13.log
+-rw-r-----. 1 tomadmin    868 Jun 13 13:12 localhost_access_log.2019-06-13.txt
+-rw-r-----. 1 tomadmin    868 Jun 19 12:12 localhost_access_log.2019-06-19.txt
+-rw-r-----. 1 tomadmin   1812 Jun 21 17:19 localhost_access_log.2019-06-21.txt
+-rw-r-----. 1 tomadmin    868 Jun 25 13:04 localhost_access_log.2019-06-25.txt
+-rw-r-----. 1 tomadmin    929 Jun 27 12:36 catalina.2019-06-27.log
+-rw-r-----. 1 tomadmin    840 Jun 27 12:43 localhost.2019-06-27.log
+-rw-r-----. 1 tomadmin    651 Jun 27 12:54 localhost_access_log.2019-06-27.txt
+-rw-r-----. 1 tomadmin    929 Jul  1 12:55 catalina.2019-07-01.log
+-rw-r-----. 1 tomadmin    840 Jul  1 12:57 localhost.2019-07-01.log
+-rw-r-----. 1 tomadmin   1302 Jul  1 12:59 localhost_access_log.2019-07-01.txt
+-rw-r-----. 1 tomadmin    104 Jul  2 17:15 localhost_access_log.2019-07-02.txt
+-rw-r-----. 1 tomadmin    208 Jul  3 08:49 localhost_access_log.2019-07-03.txt
+-rw-r-----. 1 tomadmin    929 Jul  9 11:33 catalina.2019-07-09.log
+-rw-r-----. 1 tomadmin    840 Jul  9 12:46 localhost.2019-07-09.log
+-rw-r-----. 1 tomadmin    868 Jul  9 12:54 localhost_access_log.2019-07-09.txt
+-rw-r-----. 1 tomadmin    972 Jul 15 14:35 localhost_access_log.2019-07-15.txt
+-rw-r-----. 1 tomadmin    868 Jul 17 11:34 localhost_access_log.2019-07-17.txt
+-rw-r-----. 1 tomadmin    868 Jul 19 11:30 localhost_access_log.2019-07-19.txt
+-rw-r-----. 1 tomadmin    868 Jul 23 11:44 localhost_access_log.2019-07-23.txt
+-rw-r-----. 1 tomadmin    868 Jul 25 11:41 localhost_access_log.2019-07-25.txt
+-rw-r-----. 1 tomadmin    868 Jul 29 12:49 localhost_access_log.2019-07-29.txt
+-rw-r-----. 1 tomadmin    651 Aug 15 14:45 localhost_access_log.2019-08-15.txt
+-rw-r-----. 1 tomadmin      5 Aug 18 10:40 tomcat.pid
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 host-manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----. 1 tomadmin   1348 Aug 18 10:41 localhost.2019-08-18.log
+-rw-r-----. 1 tomadmin   9560 Aug 18 10:41 catalina.2019-08-18.log
+-rw-r-----. 1 tomadmin    159 Aug 19 15:00 localhost.2019-08-19.log
+-rw-r-----. 1 tomadmin    868 Aug 19 15:02 localhost_access_log.2019-08-19.txt
+-rw-r-----. 1 tomadmin    868 Aug 23 17:20 localhost_access_log.2019-08-23.txt
+-rw-r-----. 1 tomadmin   2323 Sep 13 10:40 localhost_access_log.2019-09-13.txt
+-rw-r-----. 1 tomadmin    929 Sep 16 13:49 catalina.2019-09-16.log
+-rw-r-----. 1 tomadmin    840 Sep 16 16:53 localhost.2019-09-16.log
+-rw-r-----. 1 tomadmin   3746 Sep 16 17:01 localhost_access_log.2019-09-16.txt
+-rw-r-----. 1 tomadmin    651 Sep 17 09:33 localhost_access_log.2019-09-17.txt
+drwxr-x---. 2 tomadmin   4096 Sep 20 12:37 [01;34marchive[0m
+-rw-r-----. 1 tomadmin  19308 Sep 20 12:37 SystemOut.log
+-rw-rw----. 1 tomadmin 293740 Sep 20 12:37 catalina.out
+-rw-r-----. 1 tomadmin    929 Sep 20 12:37 catalina.2019-09-20.log
+-rw-r-----. 1 tomadmin    840 Sep 20 12:42 localhost.2019-09-20.log
+-rw-r-----. 1 tomadmin   3557 Sep 20 13:02 localhost_access_log.2019-09-20.txt
+drwxrwxr-x. 3 tomadmin  12288 Sep 23 10:41 [01;34m.[0m
+-rw-r-----. 1 tomadmin    111 Sep 23 10:41 localhost_access_log.2019-09-23.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ tail catalina.out
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.6.RELEASE)
+
+20-Sep-2019 12:37:09.564 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/forms/tomcat8/syt01/webapps/efs-syt01.war] has finished in [4,412] ms
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2019-02-07.log             localhost_access_log.2019-02-25.txt  localhost_access_log.2019-06-19.txt
+catalina.2019-01-07.log      localhost.2019-02-08.log             localhost_access_log.2019-02-26.txt  localhost_access_log.2019-06-21.txt
+catalina.2019-01-23.log      localhost.2019-02-20.log             localhost_access_log.2019-02-27.txt  localhost_access_log.2019-06-25.txt
+catalina.2019-02-07.log      localhost.2019-02-27.log             localhost_access_log.2019-02-28.txt  localhost_access_log.2019-06-27.txt
+catalina.2019-02-08.log      localhost.2019-02-28.log             localhost_access_log.2019-03-01.txt  localhost_access_log.2019-07-01.txt
+catalina.2019-02-20.log      localhost.2019-03-01.log             localhost_access_log.2019-03-04.txt  localhost_access_log.2019-07-02.txt
+catalina.2019-02-27.log      localhost.2019-03-05.log             localhost_access_log.2019-03-05.txt  localhost_access_log.2019-07-03.txt
+catalina.2019-02-28.log      localhost.2019-03-15.log             localhost_access_log.2019-03-06.txt  localhost_access_log.2019-07-09.txt
+catalina.2019-03-05.log      localhost.2019-03-20.log             localhost_access_log.2019-03-07.txt  localhost_access_log.2019-07-15.txt
+catalina.2019-03-15.log      localhost.2019-04-02.log             localhost_access_log.2019-03-08.txt  localhost_access_log.2019-07-17.txt
+catalina.2019-03-20.log      localhost.2019-04-29.log             localhost_access_log.2019-03-11.txt  localhost_access_log.2019-07-19.txt
+catalina.2019-04-02.log      localhost.2019-05-02.log             localhost_access_log.2019-03-15.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-04-29.log      localhost.2019-05-22.log             localhost_access_log.2019-03-20.txt  localhost_access_log.2019-07-25.txt
+catalina.2019-05-02.log      localhost.2019-06-13.log             localhost_access_log.2019-03-22.txt  localhost_access_log.2019-07-29.txt
+catalina.2019-05-22.log      localhost.2019-06-27.log             localhost_access_log.2019-04-02.txt  localhost_access_log.2019-08-15.txt
+catalina.2019-06-13.log      localhost.2019-07-01.log             localhost_access_log.2019-04-08.txt  localhost_access_log.2019-08-18.txt
+catalina.2019-06-27.log      localhost.2019-07-09.log             localhost_access_log.2019-04-16.txt  localhost_access_log.2019-08-19.txt
+catalina.2019-07-01.log      localhost.2019-08-18.log             localhost_access_log.2019-04-24.txt  localhost_access_log.2019-08-23.txt
+catalina.2019-07-09.log      localhost.2019-08-19.log             localhost_access_log.2019-04-29.txt  localhost_access_log.2019-09-13.txt
+catalina.2019-08-18.log      localhost.2019-09-16.log             localhost_access_log.2019-05-01.txt  localhost_access_log.2019-09-16.txt
+catalina.2019-09-16.log      localhost.2019-09-20.log             localhost_access_log.2019-05-02.txt  localhost_access_log.2019-09-17.txt
+catalina.2019-09-20.log      localhost_access_log.2019-01-07.txt  localhost_access_log.2019-05-03.txt  localhost_access_log.2019-09-20.txt
+catalina.out                 localhost_access_log.2019-01-08.txt  localhost_access_log.2019-05-04.txt  localhost_access_log.2019-09-23.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-02-06.txt  localhost_access_log.2019-05-06.txt  manager.2019-01-07.log
+host-manager.2019-02-06.log  localhost_access_log.2019-02-07.txt  localhost_access_log.2019-05-14.txt  manager.2019-02-06.log
+host-manager.2019-02-27.log  localhost_access_log.2019-02-08.txt  localhost_access_log.2019-05-22.txt  manager.2019-02-27.log
+host-manager.2019-03-05.log  localhost_access_log.2019-02-11.txt  localhost_access_log.2019-05-28.txt  manager.2019-03-05.log
+host-manager.2019-03-15.log  localhost_access_log.2019-02-14.txt  localhost_access_log.2019-05-30.txt  manager.2019-03-15.log
+host-manager.2019-04-29.log  localhost_access_log.2019-02-19.txt  localhost_access_log.2019-06-03.txt  manager.2019-04-29.log
+host-manager.2019-08-18.log  localhost_access_log.2019-02-20.txt  localhost_access_log.2019-06-05.txt  manager.2019-08-18.log
+localhost.2019-01-07.log     localhost_access_log.2019-02-21.txt  localhost_access_log.2019-06-11.txt  SystemOut.log
+localhost.2019-01-23.log     localhost_access_log.2019-02-22.txt  localhost_access_log.2019-06-13.txt  tomcat.pid
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ ls -lagrt
+total 972
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-06.log
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 manager.2019-01-07.log
+-rw-r-----. 1 tomadmin   7378 Mar  4  2019 localhost_access_log.2019-03-01.txt
+-rw-r-----. 1 tomadmin   2457 Mar  4  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----. 1 tomadmin   7494 Mar  4  2019 localhost_access_log.2019-02-26.txt
+-rw-r-----. 1 tomadmin   1453 Mar  4  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----. 1 tomadmin    214 Mar  4  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----. 1 tomadmin  10750 Mar  4  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----. 1 tomadmin    160 Mar  4  2019 localhost.2019-03-01.log
+-rw-r-----. 1 tomadmin   3800 Mar  4  2019 localhost.2019-02-08.log
+-rw-rw----. 1 tomadmin   1653 Mar  4  2019 localhost.2019-01-07.log
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-01-07.log
+-rw-r-----. 1 tomadmin    920 Mar  4  2019 catalina.2019-02-20.log
+-rw-r-----. 1 tomadmin   5502 Mar  4  2019 catalina.2019-02-08.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-27.log
+-rw-r-----. 1 tomadmin   3252 Mar  4  2019 localhost_access_log.2019-03-04.txt
+-rw-r-----. 1 tomadmin   6620 Mar  4  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----. 1 tomadmin   3472 Mar  4  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----. 1 tomadmin   4318 Mar  4  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----. 1 tomadmin    764 Mar  4  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----. 1 tomadmin   8857 Mar  4  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----. 1 tomadmin     76 Mar  4  2019 localhost_access_log.2019-01-08.txt
+-rw-rw----. 1 tomadmin    301 Mar  4  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----. 1 tomadmin   3952 Mar  4  2019 localhost.2019-02-28.log
+-rw-r-----. 1 tomadmin   6902 Mar  4  2019 localhost.2019-02-27.log
+-rw-r-----. 1 tomadmin   1300 Mar  4  2019 localhost.2019-02-07.log
+-rw-r-----. 1 tomadmin   7689 Mar  4  2019 localhost.2019-01-23.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-27.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-06.log
+-rw-r-----. 1 tomadmin  16317 Mar  4  2019 catalina.2019-02-27.log
+-rw-r-----. 1 tomadmin  59601 Mar  4  2019 catalina.2019-01-23.log
+-rw-rw----. 1 tomadmin  22432 Mar  4  2019 catalina.2019-01-07.log
+-rw-r-----. 1 tomadmin   7411 Mar  4  2019 localhost_access_log.2019-02-28.txt
+-rw-r-----. 1 tomadmin    868 Mar  4  2019 localhost_access_log.2019-02-21.txt
+-rw-r-----. 1 tomadmin    652 Mar  4  2019 localhost.2019-02-20.log
+-rw-r-----. 1 tomadmin   6251 Mar  4  2019 catalina.2019-02-28.log
+-rw-r-----. 1 tomadmin   1834 Mar  4  2019 catalina.2019-02-07.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 manager.2019-03-05.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 host-manager.2019-03-05.log
+-rw-r-----. 1 tomadmin  32517 Mar  5  2019 catalina.2019-03-05.log
+-rw-r-----. 1 tomadmin   3315 Mar  5  2019 localhost.2019-03-05.log
+-rw-r-----. 1 tomadmin    702 Mar  5  2019 localhost_access_log.2019-03-05.txt
+-rw-r-----. 1 tomadmin   3329 Mar  6  2019 localhost_access_log.2019-03-06.txt
+-rw-r-----. 1 tomadmin    301 Mar  7  2019 localhost_access_log.2019-03-07.txt
+-rw-r-----. 1 tomadmin    108 Mar  8  2019 localhost_access_log.2019-03-08.txt
+-rw-r-----. 1 tomadmin     82 Mar 11  2019 localhost_access_log.2019-03-11.txt
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 manager.2019-03-15.log
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 host-manager.2019-03-15.log
+-rw-r-----. 1 tomadmin      0 Mar 15  2019 localhost_access_log.2019-03-15.txt
+-rw-r-----. 1 tomadmin   1349 Mar 15  2019 localhost.2019-03-15.log
+-rw-r-----. 1 tomadmin   9119 Mar 15  2019 catalina.2019-03-15.log
+drwxrwxr-x. 8 tomadmin   4096 Mar 20  2019 [0m[01;34m..[0m
+-rw-r-----. 1 tomadmin   1319 Mar 20  2019 catalina.2019-03-20.log
+-rw-r-----. 1 tomadmin    650 Mar 20  2019 localhost.2019-03-20.log
+-rw-r-----. 1 tomadmin    868 Mar 20  2019 localhost_access_log.2019-03-20.txt
+-rw-r-----. 1 tomadmin    220 Mar 22  2019 localhost_access_log.2019-03-22.txt
+-rw-r-----. 1 tomadmin    929 Apr  2 11:59 catalina.2019-04-02.log
+-rw-r-----. 1 tomadmin    840 Apr  2 12:03 localhost.2019-04-02.log
+-rw-r-----. 1 tomadmin   2170 Apr  2 13:42 localhost_access_log.2019-04-02.txt
+-rw-r-----. 1 tomadmin   4180 Apr  8 12:00 localhost_access_log.2019-04-08.txt
+-rw-r-----. 1 tomadmin    868 Apr 16 11:55 localhost_access_log.2019-04-16.txt
+-rw-r-----. 1 tomadmin    868 Apr 24 12:24 localhost_access_log.2019-04-24.txt
+-rw-r-----. 1 tomadmin      0 Apr 29 17:50 manager.2019-04-29.log
+-rw-r-----. 1 tomadmin      0 Apr 29 17:50 host-manager.2019-04-29.log
+-rw-r-----. 1 tomadmin  19142 Apr 29 18:07 catalina.2019-04-29.log
+-rw-r-----. 1 tomadmin   2243 Apr 29 18:07 localhost.2019-04-29.log
+-rw-r-----. 1 tomadmin    854 Apr 29 18:08 localhost_access_log.2019-04-29.txt
+-rw-r-----. 1 tomadmin    868 May  1 22:16 localhost_access_log.2019-05-01.txt
+-rw-r-----. 1 tomadmin    929 May  2 12:42 catalina.2019-05-02.log
+-rw-r-----. 1 tomadmin    840 May  2 12:45 localhost.2019-05-02.log
+-rw-r-----. 1 tomadmin    868 May  2 12:51 localhost_access_log.2019-05-02.txt
+-rw-r-----. 1 tomadmin    217 May  3 08:17 localhost_access_log.2019-05-03.txt
+-rw-r-----. 1 tomadmin    651 May  4 10:41 localhost_access_log.2019-05-04.txt
+-rw-r-----. 1 tomadmin    868 May  6 13:20 localhost_access_log.2019-05-06.txt
+-rw-r-----. 1 tomadmin    651 May 14 14:03 localhost_access_log.2019-05-14.txt
+-rw-r-----. 1 tomadmin    929 May 22 13:49 catalina.2019-05-22.log
+-rw-r-----. 1 tomadmin    840 May 22 14:56 localhost.2019-05-22.log
+-rw-r-----. 1 tomadmin    651 May 22 15:01 localhost_access_log.2019-05-22.txt
+-rw-r-----. 1 tomadmin    651 May 28 12:06 localhost_access_log.2019-05-28.txt
+-rw-r-----. 1 tomadmin   1302 May 30 12:39 localhost_access_log.2019-05-30.txt
+-rw-r-----. 1 tomadmin   1248 Jun  3 12:17 localhost_access_log.2019-06-03.txt
+-rw-r-----. 1 tomadmin    217 Jun  5 17:11 localhost_access_log.2019-06-05.txt
+-rw-r-----. 1 tomadmin    868 Jun 11 11:33 localhost_access_log.2019-06-11.txt
+-rw-r-----. 1 tomadmin    929 Jun 13 11:37 catalina.2019-06-13.log
+-rw-r-----. 1 tomadmin    840 Jun 13 13:06 localhost.2019-06-13.log
+-rw-r-----. 1 tomadmin    868 Jun 13 13:12 localhost_access_log.2019-06-13.txt
+-rw-r-----. 1 tomadmin    868 Jun 19 12:12 localhost_access_log.2019-06-19.txt
+-rw-r-----. 1 tomadmin   1812 Jun 21 17:19 localhost_access_log.2019-06-21.txt
+-rw-r-----. 1 tomadmin    868 Jun 25 13:04 localhost_access_log.2019-06-25.txt
+-rw-r-----. 1 tomadmin    929 Jun 27 12:36 catalina.2019-06-27.log
+-rw-r-----. 1 tomadmin    840 Jun 27 12:43 localhost.2019-06-27.log
+-rw-r-----. 1 tomadmin    651 Jun 27 12:54 localhost_access_log.2019-06-27.txt
+-rw-r-----. 1 tomadmin    929 Jul  1 12:55 catalina.2019-07-01.log
+-rw-r-----. 1 tomadmin    840 Jul  1 12:57 localhost.2019-07-01.log
+-rw-r-----. 1 tomadmin   1302 Jul  1 12:59 localhost_access_log.2019-07-01.txt
+-rw-r-----. 1 tomadmin    104 Jul  2 17:15 localhost_access_log.2019-07-02.txt
+-rw-r-----. 1 tomadmin    208 Jul  3 08:49 localhost_access_log.2019-07-03.txt
+-rw-r-----. 1 tomadmin    929 Jul  9 11:33 catalina.2019-07-09.log
+-rw-r-----. 1 tomadmin    840 Jul  9 12:46 localhost.2019-07-09.log
+-rw-r-----. 1 tomadmin    868 Jul  9 12:54 localhost_access_log.2019-07-09.txt
+-rw-r-----. 1 tomadmin    972 Jul 15 14:35 localhost_access_log.2019-07-15.txt
+-rw-r-----. 1 tomadmin    868 Jul 17 11:34 localhost_access_log.2019-07-17.txt
+-rw-r-----. 1 tomadmin    868 Jul 19 11:30 localhost_access_log.2019-07-19.txt
+-rw-r-----. 1 tomadmin    868 Jul 23 11:44 localhost_access_log.2019-07-23.txt
+-rw-r-----. 1 tomadmin    868 Jul 25 11:41 localhost_access_log.2019-07-25.txt
+-rw-r-----. 1 tomadmin    868 Jul 29 12:49 localhost_access_log.2019-07-29.txt
+-rw-r-----. 1 tomadmin    651 Aug 15 14:45 localhost_access_log.2019-08-15.txt
+-rw-r-----. 1 tomadmin      5 Aug 18 10:40 tomcat.pid
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 host-manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----. 1 tomadmin   1348 Aug 18 10:41 localhost.2019-08-18.log
+-rw-r-----. 1 tomadmin   9560 Aug 18 10:41 catalina.2019-08-18.log
+-rw-r-----. 1 tomadmin    159 Aug 19 15:00 localhost.2019-08-19.log
+-rw-r-----. 1 tomadmin    868 Aug 19 15:02 localhost_access_log.2019-08-19.txt
+-rw-r-----. 1 tomadmin    868 Aug 23 17:20 localhost_access_log.2019-08-23.txt
+-rw-r-----. 1 tomadmin   2323 Sep 13 10:40 localhost_access_log.2019-09-13.txt
+-rw-r-----. 1 tomadmin    929 Sep 16 13:49 catalina.2019-09-16.log
+-rw-r-----. 1 tomadmin    840 Sep 16 16:53 localhost.2019-09-16.log
+-rw-r-----. 1 tomadmin   3746 Sep 16 17:01 localhost_access_log.2019-09-16.txt
+-rw-r-----. 1 tomadmin    651 Sep 17 09:33 localhost_access_log.2019-09-17.txt
+drwxr-x---. 2 tomadmin   4096 Sep 20 12:37 [01;34marchive[0m
+-rw-r-----. 1 tomadmin  19308 Sep 20 12:37 SystemOut.log
+-rw-rw----. 1 tomadmin 293740 Sep 20 12:37 catalina.out
+-rw-r-----. 1 tomadmin    929 Sep 20 12:37 catalina.2019-09-20.log
+-rw-r-----. 1 tomadmin    840 Sep 20 12:42 localhost.2019-09-20.log
+-rw-r-----. 1 tomadmin   3557 Sep 20 13:02 localhost_access_log.2019-09-20.txt
+drwxrwxr-x. 3 tomadmin  12288 Sep 23 10:41 [01;34m.[0m
+-rw-r-----. 1 tomadmin    111 Sep 23 10:41 localhost_access_log.2019-09-23.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ vi SystemOut.log
+[?1049h[?1h=[1;33r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[33;1H"SystemOut.log" [readonly] 47L, 19308C[1;1H2019-09-20 12:37:07 [localhost-startStop-3] INFO  g.c.d.e.ServletInitializer - Starting ServletInitializer vv2.0.3 on CGDCSSL1051UL.calcloud.local with PP[2;1HID 1765 (/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes started by tomadmin in /)
+2019-09-20 12:37:07 [localhost-startStop-3] INFO  g.c.d.e.ServletInitializer - The following profiles are active: syt
+2019-09-20 12:37:07 [localhost-startStop-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.wee[5;1Hb.servlet.context.AnnotationConfigServletWebServerApplicationContext@40712867: startup date [Fri Sep 20 12:37:07 PDT 2019]; root of context hierarchy
+2019-09-20 12:37:07 [localhost-startStop-3] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas..[7;1Hconfig.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$dd7a428c] is not eligible for gettii[8;1Hng processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-20 12:37:08 [localhost-startStop-3] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-09-20 12:37:08 [localhost-startStop-3] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-20 12:37:08 [localhost-startStop-3] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'errorPageFilter' to: [/*]
+2019-09-20 12:37:08 [localhost-startStop-3] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [publii[13;1Hc org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumee[14;1Hntation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.see[16;1Hrvlet.context.AnnotationConfigServletWebServerApplicationContext@40712867: startup date [Fri Sep 20 12:37:07 PDT 2019]; root of context hierarchy
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[GET],produces=[application/hal+json  [18;1H|| application/json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework..[19;1Hdata.rest.webmvc.RepositoryController.listRepositories()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+jj[21;1Hson || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositt[22;1Hories()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+jsonn[24;1H || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositorr[25;1Hies()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[GET],produces=[application/hh[27;1Hal+json || application/json]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCoo[28;1HllectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springfrr[29;1Hamework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFF[30;1HoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}],methods=[GET],produces=[application/xx[32;1H-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityC[31;1H[1m[34m@                                                                                                                                                        [32;1H@                                                                                                                                                        [1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[app[2;1Hplication/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchControll[3;1Hler.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[HEAD],produces=[applii[5;1Hcation/hal+json || application/json]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchControllerr[6;1H.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search],methods=[GET],produces=[applicc[8;1Hation/hal+json || application/json]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.Ree[9;1HpositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped "{[/{repository}/search/{search}],methods=[GET],producee[11;1Hs=[application/hal+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositorySearr[12;1HchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lann[13;1Hg.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rr[14;1Hest.webmvc.PersistentEntityResourceAssembler,org.springframework.http.HttpHeaders)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springff[16;1Hramework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile],methods=[GET]}" onto org.springframework.htt[18;1Htp.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[app[20;1Hplication/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[GET],produces=[applicc[22;1Hation/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.dataa[23;1H.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped "{[/profile/{repository}],methods=[GET],produces=[applicc[25;1Hation/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest..[26;1Hwebmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-09-20 12:37:09 [localhost-startStop-3] INFO  g.c.d.e.ServletInitializer - Started ServletInitializer in 2.824 seconds (JVM running for 2858212.443)[?12l[?25h[31;1H[30;1H[29;1H
+
+[30;1H[29;1H[28;1H[27;1H[24;1H[?25l[33;1H:[?12l[?25h/ERROT\[?25l[33;8H[K[33;8H[?12l[?25h[?25l[33;7H[K[33;7H[?12l[?25hR[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: ERROR[m[33;31H[K[24;1H[?12l[?25h[?25l[33;1H[K[33;1H:[?12l[?25hq![?25l[33;1H[K[33;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/logs[hchada@CGDCSSL1051UL logs]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ ls
+[0m[01;34mbin[0m  [01;34mconf[0m  [01;34mlogs[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ cd webapps/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ ls
+[0m[01;34mdocs[0m  [01;34mefs-syt01[0m  [01;32mefs-syt01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mROOT[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ cd efs-syt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ cd WEB-INF/classes/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ more application-syt.properties
+# Define a custom port instead of the default 8080
+server.port=18080
+
+#DocuSign Specific Configuation
+docuSign.base.url=https://account-d.docusign.com
+docuSign.oAuthBasePath=account-d.docusign.com
+docuSign.privatekey.path=/forms/tomcat8/DocuSign/DocuSignKeys/PrivateKey.txt
+docuSign.publickey.path= /forms/tomcat8/DocuSign/DocuSignKeys/PublicKey.txt
+docuSign.clientId=b7978d7d-023e-49cc-b123-0bd04fa3e7f0
+docuSign.userId=fcb5ed48-1699-4b55-8678-649351e13fb4
+#3300 second = 55 minutes
+docuSign.oAuthToken.expire=3300
+docuSign.oAuthToken.propertyFile.Location=/forms/tomcat8/DocuSign/DocuSignToken/
+docuSign.connection.timeout= 15000
+docuSign.read.timeout=40000
+
+docuSign.url=https://demo.docusign.net
+docuSign.account=b9d87eba-fa7d-4ef8-accd-b4f3ab14dbba
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF[hchada@CGDCSSL1051UL WEB-INF]$ ls
+[0m[01;34mclasses[0m  [01;34mlib[0m  [01;34mlib-provided[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF[hchada@CGDCSSL1051UL WEB-INF]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ ls
+[0m[01;34mdocs[0m  [01;34mefs-syt01[0m  [01;32mefs-syt01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mROOT[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ cd efs-syt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ cd WEB-INF/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF[hchada@CGDCSSL1051UL WEB-INF]$ ls
+[0m[01;34mclasses[0m  [01;34mlib[0m  [01;34mlib-provided[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF[hchada@CGDCSSL1051UL WEB-INF]$ cd classes/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ more build.properties
+#Build Information
+build.version=v2.0.3
+build.date=2019_09_19
+build.name=efs
+build.host=BUILD14
+build.user.name=cruisecontrol
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ cd /forms/tomcat8/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlost+found[0m  [01;34msyt01[0m  [01;34msyt02[0m  [01;34msyt03[0m  [01;34msyt04[0m  [01;34msyt06[0m  [01;34msyt07[0m  [01;34msyt08[0m  [01;34msyt11[0m  [01;34msyt12[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ pwd
+/forms/tomcat8
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ cd by[K[Ksyt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ ls
+[0m[01;34mbin[0m  [01;34mconf[0m  [01;34mlogs[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01[hchada@CGDCSSL1051UL syt01]$ we[K[Kcd webapps
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ ls
+[0m[01;34mdocs[0m  [01;34mefs-syt01[0m  [01;32mefs-syt01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mROOT[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ pwd
+/forms/tomcat8/syt01/webapps
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ ls
+[0m[01;34mdocs[0m  [01;34mefs-syt01[0m  [01;32mefs-syt01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mROOT[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps[hchada@CGDCSSL1051UL webapps]$ cd efs-syt01
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ s[Kls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01[hchada@CGDCSSL1051UL efs-syt01]$ cd WEB-INF/classes/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ v i[K[K[Kmre [K[K[K[Km[Kcatg application-syt.properties^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ cat application-syt.properties
+# Define a custom port instead of the default 8080
+server.port=18080
+
+#DocuSign Specific Configuation
+docuSign.base.url=https://account-d.docusign.com
+docuSign.oAuthBasePath=account-d.docusign.com
+docuSign.privatekey.path=/forms/tomcat8/DocuSign/DocuSignKeys/PrivateKey.txt
+docuSign.publickey.path= /forms/tomcat8/DocuSign/DocuSignKeys/PublicKey.txt
+docuSign.clientId=b7978d7d-023e-49cc-b123-0bd04fa3e7f0
+docuSign.userId=fcb5ed48-1699-4b55-8678-649351e13fb4
+#3300 second = 55 minutes
+docuSign.oAuthToken.expire=3300
+docuSign.oAuthToken.propertyFile.Location=/forms/tomcat8/DocuSign/DocuSignToken/
+docuSign.connection.timeout= 15000
+docuSign.read.timeout=40000
+
+docuSign.url=https://demo.docusign.net
+docuSign.account=b9d87eba-fa7d-4ef8-accd-b4f3ab14dbba
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  build.properties  logback-spring.xml
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  [0m[01;34mgov[0m               [01;34mstatic[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ cat ^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ vi logback-spring.xml
+[?1049h[?1h=[1;33r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[33;1H"logback-spring.xml" [readonly][noeol][dos] 259L, 8575C[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+<contextListener class="gov.ca.dcss.efs.LoggerStartupListener"/>[6;9H<springProfile name="local">[7;17H<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">[8;25H<encoder>[9;33H<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{15} - %msg%n</Pattern>[10;25H</encoder>[11;17H</appender>[13;17H<logger name="root" level="warn" additivity="false">[14;25H<appender-ref ref="CONSOLE" />[15;17H</logger>[16;17H<logger name="org.springframework.web" level="error"[17;25Hadditivity="false">[18;25H<appender-ref ref="CONSOLE" />[19;17H</logger>[20;17H<logger name="org.springframework.security" level="debug"[21;25Hadditivity="false">[22;25H<appender-ref ref="CONSOLE" />[23;17H</logger>[24;17H<logger name="gov.ca.dcss.efs" level="trace" additivity="false">[25;25H<appender-ref ref="CONSOLE" />[26;17H</logger>[27;17H<root level="INFO">[28;25H<appender-ref ref="CONSOLE" />[29;17H</root>[30;9H</springProfile>[32;9H<springProfile name="dev">[1;1H[?12l[?25h[?25l[33;1H[K[33;1H:[?12l[?25h/syt[?25l[27m[m[H[2J[1;25H<appender-ref ref="FILE" />[2;17H</logger>[3;17H<logger name="org.springframework.security" level="debug"[4;25Hadditivity="false">[5;25H<appender-ref ref="FILE" />[6;17H</logger>[7;17H<logger name="gov.ca.dcss.efs" level="info" additivity="false">[8;25H<appender-ref ref="FILE" />[9;17H</logger>[11;17H<root level="INFO">[12;25H<appender-ref ref="FILE" />[13;17H</root>[14;9H</springProfile>[16;9H<springProfile name="syt">[17;17H<appender name="FILE"[18;25Hclass="ch.qos.logback.core.rolling.RollingFileAppender">[19;25H<File>${LOG_FILE}/SystemOut.log</File>[20;25H<encoder>[21;33H<pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{15} - %msg%n</pattern>[22;25H</encoder>[23;25H<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">[24;33H<!-- rollover daily -->[25;33H<fileNamePattern>${LOG_ARCHIVE}/SystemOut.log.%d{yyyy-MM-dd}.%i.log[26;33H</fileNamePattern>[27;33H<timeBasedFileNamingAndTriggeringPolicy[28;41Hclass="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">[29;41H<maxFileSize>10MB</maxFileSize>[30;33H</timeBasedFileNamingAndTriggeringPolicy>[31;25H</rollingPolicy>[32;17H</appender>[16;9H[?12l[?25h[17;16H[18;16H[19;16H[20;16H[21;16H[22;16H[23;16H[24;16H[25;16H[26;16H[27;16H[28;16H[29;16H[30;16H[31;16H[32;16H[31;16H[30;16H[29;16H[28;16H[27;16H[26;16H[25;16H[24;16H[23;16H[22;16H[21;16H[20;16H[19;16H[18;16H[17;16H[16;9H<springProfile name="sy[17;32H[18;32H[19;32H[20;32H[21;32H[22;32H[23;32H[24;32H[25;32H[26;32H[27;32H[28;32H[29;32H[30;32H[31;32H[32;27H[?25l[1;32r[32;1H
+[1;33r[32;1H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H<logger name="root" level="warn" additivity="false">[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25H<appender-ref ref="FILE" />[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H</logger>[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H<logger name="org.springframework.web" level="error"[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25Hadditivity="false">[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25H<appender-ref ref="FILE" />[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H</logger>[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H<logger name="org.springframework.security" level="debug"[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25Hadditivity="false">[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25H<appender-ref ref="FILE" />[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H</logger>[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H<logger name="gov.ca.dcss.efs" level="info" additivity="false">[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;25H<appender-ref ref="FILE" />[32;32H[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;17H</logger>[?12l[?25h[?25l[1;32r[32;1H
+[1;33r[32;1H[?12l[?25h[31;25H[30;32H[29;32H[28;25H[27;32H[26;32H[25;32H[24;25H[23;32H[22;32H[21;32H[20;25H[19;32H[18;32H[19;32H[18;32Hoot" leveevel="w"l="www[?25l[33;1H:[?12l[?25hq![?25l[33;1H[K[33;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ pwd
+/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt01/webapps/efs-syt01/WEB-INF/classes[hchada@CGDCSSL1051UL classes]$ [K[hchada@CGDCSSL1051UL classes]$ [K[hchada@CGDCSSL1051UL classes]$ [K[hchada@CGDCSSL1051UL classes]$ 

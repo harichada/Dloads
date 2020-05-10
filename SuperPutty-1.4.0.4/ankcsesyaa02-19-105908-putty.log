@@ -1,0 +1,574 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 10:59:08 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+2 unsuccessful login attempts since last login.
+Last unsuccessful login: Tue Nov 19 10:58:56 PST 2019 on ssh from 169.2.108.102
+Last login: Fri Nov 15 15:45:47 PST 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsesyaa02[/home/hchada]$ clear
+[H[2Jankcsesyaa02[/home/hchada]$ ls
+AB976-Doc  jython     ssldebug   workspace
+ankcsesyaa02[/home/hchada]$ cd /se  cse/stage
+ankcsesyaa02[/cse/stage]$ ls
+built                      prod.passwords.properties  promoted
+ankcsesyaa02[/cse/stage]$ cd built
+ankcsesyaa02[/cse/stage/built]$ ls
+2019_11_18.0_CR31421.9431.ArchForms.ear        2019_11_18.0_CR31421.9431.FormsGeneration.ear  2019_11_18.0_CR31421.9431.SelfService.ear
+2019_11_18.0_CR31421.9431.ArchImaging.ear      2019_11_18.0_CR31421.9431.HyperionReports.zip  2019_11_18.0_CR31421.9431.TWSSchedule.zip
+2019_11_18.0_CR31421.9431.Batch.ear            2019_11_18.0_CR31421.9431.Integration.ear      2019_11_18.0_CR31421.9431.VIOLAForms.zip
+2019_11_18.0_CR31421.9431.ECSSIVR.ear          2019_11_18.0_CR31421.9431.Online.ear
+ankcsesyaa02[/cse/stage/built]$ ls -lagrt
+total 674248
+drwxrwsr-x    4 cseadmnp        256 Mar 24 2014  ..
+-rw-rw-r--    1 cseadmin    2696588 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchForms.ear
+-rw-rw-r--    1 cseadmin    1312288 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchImaging.ear
+-rw-rw-r--    1 cseadmin   45404986 Nov 18 18:12 2019_11_18.0_CR31421.9431.Batch.ear
+-rw-rw-r--    1 cseadmin   91607540 Nov 18 18:12 2019_11_18.0_CR31421.9431.ECSSIVR.ear
+-rw-rw-r--    1 cseadmin   37449303 Nov 18 18:12 2019_11_18.0_CR31421.9431.FormsGeneration.ear
+-rw-rw-r--    1 cseadmin    8403049 Nov 18 18:12 2019_11_18.0_CR31421.9431.HyperionReports.zip
+-rw-rw-r--    1 cseadmin   39775573 Nov 18 18:12 2019_11_18.0_CR31421.9431.Integration.ear
+-rw-rw-r--    1 cseadmin   72698307 Nov 18 18:12 2019_11_18.0_CR31421.9431.Online.ear
+-rw-rw-r--    1 cseadmin   45557868 Nov 18 18:12 2019_11_18.0_CR31421.9431.SelfService.ear
+-rw-rw-r--    1 cseadmin      67846 Nov 18 18:12 2019_11_18.0_CR31421.9431.TWSSchedule.zip
+drwxrwxrwx    2 cseadmin       4096 Nov 18 18:12 .
+-rw-rw-r--    1 cseadmin     193782 Nov 18 18:12 2019_11_18.0_CR31421.9431.VIOLAForms.zip
+ankcsesyaa02[/cse/stage/built]$ cd ..
+ankcsesyaa02[/cse/stage]$ ls
+built                      prod.passwords.properties  promoted
+ankcsesyaa02[/cse/stage]$ cd buuilt/
+ankcsesyaa02[/cse/stage/built]$ ls
+2019_11_18.0_CR31421.9431.ArchForms.ear        2019_11_18.0_CR31421.9431.FormsGeneration.ear  2019_11_18.0_CR31421.9431.SelfService.ear
+2019_11_18.0_CR31421.9431.ArchImaging.ear      2019_11_18.0_CR31421.9431.HyperionReports.zip  2019_11_18.0_CR31421.9431.TWSSchedule.zip
+2019_11_18.0_CR31421.9431.Batch.ear            2019_11_18.0_CR31421.9431.Integration.ear      2019_11_18.0_CR31421.9431.VIOLAForms.zip
+2019_11_18.0_CR31421.9431.ECSSIVR.ear          2019_11_18.0_CR31421.9431.Online.ear
+ankcsesyaa02[/cse/stage/built]$ ls
+2019_11_18.0_CR31421.9431.ArchForms.ear        2019_11_18.0_CR31421.9431.FormsGeneration.ear  2019_11_18.0_CR31421.9431.SelfService.ear
+2019_11_18.0_CR31421.9431.ArchImaging.ear      2019_11_18.0_CR31421.9431.HyperionReports.zip  2019_11_18.0_CR31421.9431.TWSSchedule.zip
+2019_11_18.0_CR31421.9431.Batch.ear            2019_11_18.0_CR31421.9431.Integration.ear      2019_11_18.0_CR31421.9431.VIOLAForms.zip
+2019_11_18.0_CR31421.9431.ECSSIVR.ear          2019_11_18.0_CR31421.9431.Online.ear
+ankcsesyaa02[/cse/stage/built]$ ls -lagrt
+total 674248
+drwxrwsr-x    4 cseadmnp        256 Mar 24 2014  ..
+-rw-rw-r--    1 cseadmin    2696588 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchForms.ear
+-rw-rw-r--    1 cseadmin    1312288 Nov 18 18:12 2019_11_18.0_CR31421.9431.ArchImaging.ear
+-rw-rw-r--    1 cseadmin   45404986 Nov 18 18:12 2019_11_18.0_CR31421.9431.Batch.ear
+-rw-rw-r--    1 cseadmin   91607540 Nov 18 18:12 2019_11_18.0_CR31421.9431.ECSSIVR.ear
+-rw-rw-r--    1 cseadmin   37449303 Nov 18 18:12 2019_11_18.0_CR31421.9431.FormsGeneration.ear
+-rw-rw-r--    1 cseadmin    8403049 Nov 18 18:12 2019_11_18.0_CR31421.9431.HyperionReports.zip
+-rw-rw-r--    1 cseadmin   39775573 Nov 18 18:12 2019_11_18.0_CR31421.9431.Integration.ear
+-rw-rw-r--    1 cseadmin   72698307 Nov 18 18:12 2019_11_18.0_CR31421.9431.Online.ear
+-rw-rw-r--    1 cseadmin   45557868 Nov 18 18:12 2019_11_18.0_CR31421.9431.SelfService.ear
+-rw-rw-r--    1 cseadmin      67846 Nov 18 18:12 2019_11_18.0_CR31421.9431.TWSSchedule.zip
+drwxrwxrwx    2 cseadmin       4096 Nov 18 18:12 .
+-rw-rw-r--    1 cseadmin     193782 Nov 18 18:12 2019_11_18.0_CR31421.9431.VIOLAForms.zip
+ankcsesyaa02[/cse/stage/built]$ grep syaa02 /etc/hosts
+134.187.144.3   ankcsesyaa02 ankcsesyaa02.dts.ca.gov cg1p02a cg1p02a.dts.ca.gov csehws003 csehds002.cse.ca.gov
+ankcsesyaa02[/cse/stage/built]$ ls
+2019_11_18.0_CR31421.9431.ArchForms.ear        2019_11_18.0_CR31421.9431.FormsGeneration.ear  2019_11_18.0_CR31421.9431.SelfService.ear
+2019_11_18.0_CR31421.9431.ArchImaging.ear      2019_11_18.0_CR31421.9431.HyperionReports.zip  2019_11_18.0_CR31421.9431.TWSSchedule.zip
+2019_11_18.0_CR31421.9431.Batch.ear            2019_11_18.0_CR31421.9431.Integration.ear      2019_11_18.0_CR31421.9431.VIOLAForms.zip
+2019_11_18.0_CR31421.9431.ECSSIVR.ear          2019_11_18.0_CR31421.9431.Online.ear
+ankcsesyaa02[/cse/stage/built]$ cd ..
+ankcsesyaa02[/cse/stage]$ ls
+built                      prod.passwords.properties  promoted
+ankcsesyaa02[/cse/stage]$ cd proo
+-ksh93: cd: pro: [A file or directory in the path name does not exist.]
+ankcsesyaa02[/cse/stage]$ cd promooted/
+ankcsesyaa02[/cse/stage/promoted]$ ls
+2019_06_14-v1.0-CSEFormTemplates.Forms.zip     2019_11_18.0_CR31421.9431.ECSSIVR.ear          2019_11_18.0_CR31421.9431.SelfService.ear
+2019_10_02-v1.1.0.CSEFormTemplates.zip         2019_11_18.0_CR31421.9431.FormsGeneration.ear  2019_11_18.0_CR31421.9431.TWSSchedule.zip
+2019_11_18.0_CR31421.9431.ArchForms.ear        2019_11_18.0_CR31421.9431.HyperionReports.zip  2019_11_18.0_CR31421.9431.VIOLAForms.zip
+2019_11_18.0_CR31421.9431.ArchImaging.ear      2019_11_18.0_CR31421.9431.Integration.ear
+2019_11_18.0_CR31421.9431.Batch.ear            2019_11_18.0_CR31421.9431.Online.ear
+ankcsesyaa02[/cse/stage/promoted]$ ls -lagrt
+total 706024
+drwxrwsr-x    4 cseadmnp        256 Mar 24 2014  ..
+-rw-r-----    1 cseadmnp    8127799 Jul 16 15:17 2019_06_14-v1.0-CSEFormTemplates.Forms.zip
+-rw-rw-r--    1 cseadmnp    2696588 Nov 18 18:24 2019_11_18.0_CR31421.9431.ArchForms.ear
+-rw-rw-r--    1 cseadmnp    1312288 Nov 18 18:24 2019_11_18.0_CR31421.9431.ArchImaging.ear
+-rw-rw-r--    1 cseadmnp   45404986 Nov 18 18:24 2019_11_18.0_CR31421.9431.Batch.ear
+-rw-rw-r--    1 cseadmnp   91607540 Nov 18 18:24 2019_11_18.0_CR31421.9431.ECSSIVR.ear
+-rw-rw-r--    1 cseadmnp   37449303 Nov 18 18:24 2019_11_18.0_CR31421.9431.FormsGeneration.ear
+-rw-rw-r--    1 cseadmnp    8403049 Nov 18 18:24 2019_11_18.0_CR31421.9431.HyperionReports.zip
+-rw-rw-r--    1 cseadmnp   39775573 Nov 18 18:24 2019_11_18.0_CR31421.9431.Integration.ear
+-rw-rw-r--    1 cseadmnp   72698307 Nov 18 18:24 2019_11_18.0_CR31421.9431.Online.ear
+-rw-rw-r--    1 cseadmnp   45557868 Nov 18 18:25 2019_11_18.0_CR31421.9431.SelfService.ear
+-rw-rw-r--    1 cseadmnp      67846 Nov 18 18:25 2019_11_18.0_CR31421.9431.TWSSchedule.zip
+-rw-rw-r--    1 cseadmnp     193782 Nov 18 18:25 2019_11_18.0_CR31421.9431.VIOLAForms.zip
+drwxrwsr-x    2 cseadmnp       4096 Nov 18 18:29 .
+-rw-r-----    1 cseadmnp    8141482 Nov 18 18:29 2019_10_02-v1.1.0.CSEFormTemplates.zip
+ankcsesyaa02[/cse/stage/promoted]$ cd ..
+ankcsesyaa02[/cse/stage]$ ls
+built                      prod.passwords.properties  promoted
+ankcsesyaa02[/cse/stage]$ cd ..
+ankcsesyaa02[/cse]$ ls
+DeploymentManager      bin                    forms                  introscopeAgent95      log                    ps                     sudo_scripts
+HyperionAutoPublisher  centralprint_daemon    forms_incorrect        introscopeAgent971     lost+found             ps_secure              testbak
+admin                  centralpro_daemon      gnupg                  jenkins                online                 reporting              testbak_20131125
+admin_bak              epm                    introscope8            jenkins_java           osgi_config            selfservice            utilities
+batch                  finalist               introscopeAgent        lib                    properties             stage                  was_tmp
+ankcsesyaa02[/cse]$ cd forms
+ankcsesyaa02[/cse/forms]$ ls
+batchprint          certna              edelivery           elienprint          formserver          lost+found
+centralpro          cpos_daemon.tar.gz  efileprint          fonts               images              transient_items
+ankcsesyaa02[/cse/forms]$ cd ..
+ankcsesyaa02[/cse]$ ls
+DeploymentManager      bin                    forms                  introscopeAgent95      log                    ps                     sudo_scripts
+HyperionAutoPublisher  centralprint_daemon    forms_incorrect        introscopeAgent971     lost+found             ps_secure              testbak
+admin                  centralpro_daemon      gnupg                  jenkins                online                 reporting              testbak_20131125
+admin_bak              epm                    introscope8            jenkins_java           osgi_config            selfservice            utilities
+batch                  finalist               introscopeAgent        lib                    properties             stage                  was_tmp
+ankcsesyaa02[/cse]$ cd utilities
+ankcsesyaa02[/cse/utilities]$ s
+-ksh93: s: not found
+ankcsesyaa02[/cse/utilities]$ ls
+applications
+ankcsesyaa02[/cse/utilities]$ cd appplications/
+ankcsesyaa02[/cse/utilities/applications]$ ls
+CMPurger
+ankcsesyaa02[/cse/utilities/applications]$ cd 
+ankcsesyaa02[/home/hchada]$ ls
+AB976-Doc  jython     ssldebug   workspace
+ankcsesyaa02[/home/hchada]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2621440    889784   67%    24401    20% /
+/dev/hd2        16777216   2138232   88%    87926    26% /usr
+/dev/hd9var      4194304   1027568   76%    12901    10% /var
+/dev/hd3         7995392   2008920   75%     5134     3% /tmp
+/dev/hd1         6750208   2638608   61%    25751     8% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local     524288    451568   14%      650     2% /usr/local
+/dev/hd10opt    10485760   4332896   59%    16971     4% /opt
+/dev/home_hw      524288    401152   24%     2134     5% /home/hw
+/dev/mksysb     27262976   2215880   92%       53     1% /mksysb
+/dev/scratchlv    8388608   7665928    9%       52     1% /scratch
+/dev/savevg       524288    518608    2%       49     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/websphere   41943040  15120864   64%   115954     6% /usr/WebSphere
+/dev/ihs         3145728   1181240   63%     4711     4% /usr/IHS
+/dev/ihs7_ps     4194304   2896944   31%     4629     2% /usr/IHS7_PS
+/dev/introscope    9437184   2940920   69%    12256     4% /introscope
+/dev/introscopedata   20971520   9006552   58%    12448     2% /introscope/data
+/dev/auditlv     2097152   2067752    2%        5     1% /opt/auditout
+/dev/poldir_lv_1     131072    115808   12%       95     1% /opt/PolicyDirector
+/dev/ap103hf_lv     262144    255936    3%       79     1% /ap103_hotfolders
+/dev/ap116hf_lv     262144    255832    3%       79     1% /ap116_hotfolders
+/dev/insthomelv    3670016   3311408   10%      241     1% /insthome
+/dev/cse_lv      8912896   1951216   79%    13030     4% /cse
+/dev/logslv      1048576   1032328    2%       24     1% /var/adm/logs
+/dev/CommVaultlv    2949120   1867048   37%     1194     1% /CommVault
+/dev/livedump     262144    261448    1%        4     1% /var/adm/ras/livedump
+/dev/hd11admin     262144    261384    1%       11     1% /admin
+/dev/ihslv      18874368  16806368   11%     4240     1% /usr/HTTPServer
+/dev/httplogslv    6291456   6265248    1%        6     1% /usr/HTTPLogs
+/dev/apache24lv   10485760  10385840    1%     1320     1% /usr/apache24
+/dev/tomcat8lv   31457280  29766944    6%     2546     1% /usr/tomcat8
+/dev/itmlv       6291456   5172320   18%     4462     1% /opt/IBM/ITM
+ankcsesyad01:/finalist    12058624   5517888   55%      331     1% /finalist
+ankcsesyad01:/ds003_forms     4194304   3236608   23%     9294     3% /ds003_forms
+ankcsesyad01:/ds003_pdf2afp    10485760   9746296    8%     5389     1% /ds003_pdf2afp
+ankcsesyad01:/ds003_cpos_daemon1     9830400   9821664    1%       17     1% /ds003_cpos_daemon1
+ankcsesyaa05:/cse/lib/Jar_Repository     2097152    955664   55%      684     1% /cse/lib/Jar_Repository
+ankcsepf1d02:/swstage   283115520  21846880   93%    85041     3% /swstage
+ankcsesyad01:/ds003_admin    16252928   2061920   88%   156677    37% /ds004_admin
+/dev/httplogslv_cf    6291456   6265168    1%        6     1% /usr/HTTPLogs_cf
+ankcsesyaa02[/home/hchada]$ cd /dss004
+1) ds004_admin/
+ankcsesyaa02[/home/hchada]$ cd /ds004
+1) ds004_admin/
+ankcsesyaa02[/home/hchada]$ cd /ds004
+1) ds004_admin/
+ankcsesyaa02[/home/hchada]$ cd /ds0044 _ _admin/
+ankcsesyaa02[/ds004_admin]$ ls
+HyperionAutoPublisher    bin                      jacl                     java                     pft_transient_reports    templates
+WAS                      config                   jaclHelpers              ksh                      queues                   verify_hostmibdlog.sh
+admin_WAS61.tar.gz       db2Upgrade               jacl_backup              lost+found               tempSya_transient_items  xml
+ankcsesyaa02[/ds004_admin]$ cd    ls -lagrt
+total 20184
+drwxrwx---    2 system          256 Nov 17 2005  lost+found
+drwxrwx---    2 cseadmnp        256 Nov 21 2005  templates
+drwxrwxr-x    4 cseadmnp        256 Apr 24 2008  java
+drwxrwxrwx    5 cseadmnp        256 Jan 12 2009  tempSya_transient_items
+drwxrwxr-x    3 dbsadmdv        256 Jan 20 2009  WAS
+drwxrwxrwx    5 cseadmnp        256 Jan 22 2009  db2Upgrade
+drwxrwxr-x    5 cseadmnp       4096 May 14 2010  ksh
+drwxrwxrwx    2 staff          4096 Jul 02 2010  pft_transient_reports
+drwxrwx---    4 mqm            4096 Aug 11 2010  queues
+drwxrwxr-x    3 cseadmnp       4096 Aug 20 2010  jaclHelpers
+drwxrwxr-x    9 cseadmnp       4096 Oct 18 2011  HyperionAutoPublisher
+-rw-rw-r--    1 staff      10276461 Jun 19 2012  admin_WAS61.tar.gz
+drwxrwxr-x    9 cseadmin       4096 Jul 12 2017  config
+drwxrwxr-x    3 staff          4096 Jul 12 2017  jacl_backup
+drwxr-xr-x    2 cseadmin       4096 Jul 20 2017  xml
+-rwxr-xr-x    1 staff            78 Oct 23 2017  verify_hostmibdlog.sh
+drwxrwxr-x   18 cseadmin       4096 Jan 19 2018  .
+drwxrwxr-x    3 900            4096 Feb 02 2018  jacl
+drwxrwxr-x   15 cseadmin       8192 Apr 26 2019  bin
+drwxr-xr-x   43 system         4096 Jul 18 09:27 ..
+ankcsesyaa02[/ds004_admin]$ cd config
+ankcsesyaa02[/ds004_admin/config]$ ls
+addWebContainerCustomProperties.ksh  configureTransactionService.ksh      listenerPortStateManagement.xml      updateWebSessionManagement.ksh
+all                                  configureTransactionService.xml      online                               updateWebSessionManagement.xml
+batch                                cse_ant.bat                          orbThreadUpdate.ksh                  updateWebSphereVariables.ksh
+bpm_ant.ksh                          cse_ant.ksh.default                  removeHeapDumpConfig.ksh             updateWebSphereVariables.xml
+bpmconfig.xml                        cse_ant51.ksh                        selfservice                          viola
+chmodfile.dat                        cse_ant70.ksh                        serverTasks.ksh                      wbiadmin.sh
+config.xml                           deleteDataSources.xml                serverTasks.xml                      ws_ant.sh
+configureDiagTrace.ksh               deleteMessagingConfigurations.ksh    smartdiff.pl                         wsadmin.sh
+configureDiagTrace.xml               deleteMessagingConfigurations.xml    toggleListenerPortState.ksh          wsadmin.sh.modified
+configureHeapDump.ksh                dumpServer.pl                        updateJvmProp.ksh                    wsadmin.sh.orig
+configureHeapDump.xml                fixReportError.ksh                   updateJvmProp.xml                    wsadmin51.sh
+configureHeapDumpBatchMode.ksh       fixReportError.xml                   updateLdapServer.ksh                 wsadmin61.sh
+configurePerformanceServer.ksh       imaging                              updateLdapServer.xml
+configurePerformanceServer.xml       integration                          updateServerLogging.ksh
+ankcsesyaa02[/ds004_admin/config]$ cd logs
+-ksh93: cd: logs: [A file or directory in the path name does not exist.]
+ankcsesyaa02[/ds004_admin/config]$ cd inteegration/
+ankcsesyaa02[/ds004_admin/config/integration]$ cd deepployApplicationV2.xml 
+-ksh93: cd: deployApplicationV2.xml: [A parameter must be a directory.]
+ankcsesyaa02[/ds004_admin/config/integration]$ grep         d java depployApplicationV2.xml 
+ankcsesyaa02[/ds004_admin/config/integration]$ vi    cd ..
+ankcsesyaa02[/ds004_admin/config]$ cd xmll       
+-ksh93: cd: xml: [A file or directory in the path name does not exist.]
+ankcsesyaa02[/ds004_admin/config]$ ls
+addWebContainerCustomProperties.ksh  configureTransactionService.ksh      listenerPortStateManagement.xml      updateWebSessionManagement.ksh
+all                                  configureTransactionService.xml      online                               updateWebSessionManagement.xml
+batch                                cse_ant.bat                          orbThreadUpdate.ksh                  updateWebSphereVariables.ksh
+bpm_ant.ksh                          cse_ant.ksh.default                  removeHeapDumpConfig.ksh             updateWebSphereVariables.xml
+bpmconfig.xml                        cse_ant51.ksh                        selfservice                          viola
+chmodfile.dat                        cse_ant70.ksh                        serverTasks.ksh                      wbiadmin.sh
+config.xml                           deleteDataSources.xml                serverTasks.xml                      ws_ant.sh
+configureDiagTrace.ksh               deleteMessagingConfigurations.ksh    smartdiff.pl                         wsadmin.sh
+configureDiagTrace.xml               deleteMessagingConfigurations.xml    toggleListenerPortState.ksh          wsadmin.sh.modified
+configureHeapDump.ksh                dumpServer.pl                        updateJvmProp.ksh                    wsadmin.sh.orig
+configureHeapDump.xml                fixReportError.ksh                   updateJvmProp.xml                    wsadmin51.sh
+configureHeapDumpBatchMode.ksh       fixReportError.xml                   updateLdapServer.ksh                 wsadmin61.sh
+configurePerformanceServer.ksh       imaging                              updateLdapServer.xml
+configurePerformanceServer.xml       integration                          updateServerLogging.ksh
+ankcsesyaa02[/ds004_admin/config]$ cd ../xml
+ankcsesyaa02[/ds004_admin/xml]$ ls
+applicationDeployment.xml           applications.xml                    configurePerformanceServer.xml      jdbc.xml                            server.xml
+applicationDeploymentRLC.xml        bpmApplicationDeployment.xml        configureReportingServer.xml        jvmProp.xml                         sharedLib.xml
+applicationDeploymentV2.xml         bpmApplicationDeploymentV2.xml      heapdump.xml                        monitoringPolicy.xml                updateServerEntries.xml
+applicationDeploymentV2.xml.bak     clearCache.xml                      indirectLookup.xml                  queues.xml                          urls.xml
+applicationDeploymentV2.xml_backup  configureDevServerJvm.xml           indirectLookup_ant.xml              resources.xml                       wtest.xml
+ankcsesyaa02[/ds004_admin/xml]$ grep java appplicationDeeploymentV22.xml
+ankcsesyaa02[/ds004_admin/xml]$ grep Java appliicationDeeploymentVV2.xml
+ankcsesyaa02[/ds004_admin/xml]$ vi appplicationDeeploymentVV2.xml
+[?1049h[56;1H[?12;25h[?1h="applicationDeploymentV2.xml" 616 lines, 44232 characters [H[2J<?xml version="1.0"?>[H
+
+<project name="ApplicationDeployment" default="deployApplication">[5;5H<taskdef name="wsadmin" classname="com.ibm.websphere.ant.tasks.WsAdmin"/>[7;5H<!-- ================================================================== -->
+    <!-- This task will perform the necessary tasks to deploy and start an  -->
+    <!-- application on a WebSphere server.  The following arguments are    -->
+    <!-- provided and are grouped as optional and required. All optional    -->
+    <!-- arguments have default values and do not have to be provided.[6C-->
+    <!--[68C-->
+    <!-- Required:[58C-->
+    <!--  serverNodeName - The node on which this server is located. This   -->
+    <!--[19Callows for the same server name to be used more  -->
+    <!--[19Cthan once in a cell.[29C-->
+    <!--  serverName     - The name of the server on which all modules[6C-->
+    <!--[19Cwithin the application will be deployed.[9C-->
+    <!--  applicationName - The name of the application name within[9C-->
+    <!--[20CWebSphere. This name must be unique.[12C-->
+    <!--  earFileName - The fully qualified path/name of the earfile which  -->
+    <!--[16Cis to be deployed.[34C-->
+    <!--[68C-->
+    <!--[68C-->
+    <!-- Optional:[58C-->
+    <!--  secondsToWaitForApplicationDeployment - Allow for a pause, after  -->
+    <!--[16Capplication deployment to allow deployment manager  -->
+    <!--[16Cto sync the application with affected node(s).[6C-->
+    <!--[16CDefault is 60.[38C-->
+    <!--  secondsToWaitForApplicationToStart - The number of seconds to wait-->
+    <!--[16Cfor the server to completely start before verifying -->
+    <!--[16Cthat the application is running. Default value is 0 -->
+    <!--[16Cwhich will wait for a maximum of 10 minutes but will-->
+    <!--[16Cbe checked frequently.[30C-->
+    <!--  installationDirectory - The file system directory to which the    -->
+    <!--[16Cearfile will be expanded. The default is to[9C-->
+    <!--[15Clet WebSphere manage the location.[19C-->
+    <!--[68C-->
+    <!--[68C-->
+    <!-- ================================================================== -->[41;6H<target name="deployApplication" description="Deploy an application ear file.">
+[9C<fail unless="deploymentManagerName" message="Property deploymentManagerName not defined."/>
+[9C<fail unless="deploymentManagerPort" message="Property deploymentManagerPort not defined."/>
+[9C<fail unless="deploymentManagerConnectionType" message="Property deploymentManagerConnectionType not defined."/>[46;9H<echo message="" />
+[8C<echo message="************************************************" />
+[8C<echo message="Starting application deployment of ear ${earFileName}."/>
+[8C<echo message="deploymentManagerName:  ${deploymentManagerName}."/>
+[8C<echo message="************************************************" />
+[8C<echo message="" />[53;9H<wsadmin Script="${jaclPath}deployApplication_antV2.jacl" properties="${propertyFile}" user="${userid}" password="${password}" host="${deploymentManagerName}" port="${deploy
+mentManagerPort}" conntype="${deploymentManagerConnectionType}" failonerror="true">[55;13H<arg value="taskName=fullInstall"/>[H[55B"applicationDeploymentV2.xml" 616 lines, 44232 characters[H[55B[K:15[15;5H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7C
+
+
+[K
+[55;13H<arg value="jaclPath=${jaclPath}"/>    
+
+[55;13H<arg value="wasVersion=${wasVersion}"/>    
+
+[55;13H<arg value="webServerMapping=${webServerMapping}"/>    
+
+[55;13H<arg value="serverNodeName=${serverNodeName}"/>    
+
+[55;13H<arg value="serverName=${serverName}"/>    
+
+[55;13H<arg value="applicationName=${applicationName}"/>    
+
+[55;13H<arg value="earFilePath=${earFilePath}"/>    
+
+[55;13H<arg value="earFileName=${earFileName}"/>    
+
+[55;13H<arg value="secondsToWaitForApplicationDeployment=${secondsToWaitForApplicationDeployment}"/>    
+
+[55;13H<arg value="secondsToWaitForApplicationToStart=${secondsToWaitForApplicationToStart}"/>    
+
+[55;13H<arg value="installationDirectory=${installationDirectory}"/>    
+
+[55;13H<arg value="clusterName=${clusterName}" />    
+
+[55;13H<arg value="applicationWeight=${applicationWeight}" />    
+
+[A
+
+[A
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping1}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping2}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping3}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping4}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping5}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping6}"/>    
+
+[55;13H<arg value="moduleToVirtualHostMapping#${moduleToVirtualHostMapping7}"/>    [?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/ds004_admin/xml]$ cd ../config/inttegration/
+ankcsesyaa02[/ds004_admin/config/integration]$ vi depployApplicationV2.xml 
+[?1049h[56;1H[?12;25h[?1h="deployApplicationV2.xml" [Read only] 175 lines, 9966 characters [H[2J<?xml version="1.0"?>[H
+<!-- ***********************************************************  -->
+<!--[62C-->
+<!-- This XML file deploys an application to an existing server.  -->
+<!--[62C-->
+<!-- Parameters:[50C-->
+<!--   -DconnectionProperties - Directory which contains the props-->
+<!--   -Dparameters.dir - replacable_parms.properties directory.  -->
+<!--   -DapplicationDeploymentProperties[26C-->
+<!--   -DapplicationSecurityProperties - Optional security mappings -->
+<!--   -DearFileName[46C-->
+<!--   -Duserid[51C-->
+<!--   -Dpassword[49C-->
+<!--[62C-->
+<!-- ***********************************************************  -->
+<project name="CSE Application Deployment." basedir="." default="default">
+
+  <import file="../../xml/applicationDeploymentV2.xml"/>
+  <import file="../config.xml"/>[21;5H<target name="default">
+[8C<!-- ***********************************************************  -->
+[8C<!-- The first step is to configure the environment by creating   -->
+[8C<!-- a customized replaceable_parameters.properties file.[9C-->
+[8C<!-- ***********************************************************  -->
+[8C<antcall target="config" inheritAll="false">[27;13H<param name="parameters.dir" value="${parameters.dir}"/>
+[8C</antcall>[30;9H<!-- ***********************************************************  -->
+[8C<!-- Connect to WebSphere and deploy the EAR file.[16C-->
+[8C<!-- ***********************************************************  -->
+[8C<fail unless="connectionProperties" message="You must set -DconnectionProperties=CX0534L.properties."/>
+[8C<fail unless="earFileName" message="You must set -DearFileName=earFileName"/>
+[8C<fail unless="applicationDeploymentProperties" message="You must set -DapplicationDeploymentProperties=qualified  file name"/>[37;9H<antcall target="deployApplication" inheritAll="false">[38;13H<param file="${connectionProperties}"/>[39;13H<param name="propertyFile" value="${parameters.dir}/replaceable_parms.properties"/>[40;13H<param name="earFileName" value="${earFileName}"/>[41;13H<param name="earFilePath" value="${earFilePath}"/>[42;13H<param file="${applicationDeploymentProperties}"/>[43;13H<param file="${applicationSecurityProperties}"/>[44;13H<param file="applicationDeployment/allApplication.properties"/>
+[7C</antcall>[47;5H</target>[49;5H<target name="uninstallApplication">
+[8C<!-- ***********************************************************  -->
+[8C<!-- The first step is to configure the environment by creating   -->
+[8C<!-- a customized replaceable_parameters.properties file.[9C-->
+[8C<!-- ***********************************************************  -->
+[8C<antcall target="config" inheritAll="false">[55;13H<param name="parameters.dir" value="${parameters.dir}"/>[H[55B"deployApplicationV2.xml" [Read only] 175 lines, 9966 characters[H[55B[K:/applicationDeploymentV[18;3H[38B[K/[18;27H[38B[K/[18;27H
+
+ 
+[25C
+
+
+
+
+
+
+[9D
+   
+[23C
+
+
+
+
+
+
+[26C
+
+
+
+
+
+
+
+[10D
+[6C
+[6C
+   
+[23C
+
+
+
+
+
+
+[K
+[55;9H</antcall>
+
+[55;4H
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<!-- Connect to WebSphere and deploy the EAR file.[16C-->[26C
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<fail unless="connectionProperties" message="You must set -DconnectionProperties=CX0534L.properties."/>[26C[A[A[A[51;4H[50;18H[49;27H[A[A[A
+
+
+
+[9D
+   
+[23C
+
+
+
+
+[55;9H<fail unless="earFileName" message="You must set -DearFileName=earFileName"/>[26C
+
+[55;9H<fail unless="applicationDeploymentProperties" message="You must set -DapplicationDeploymentProperties=qualified  file name"/>[26C
+
+[A
+
+[55;9H<antcall target="uninstall" inheritAll="false">[26C
+
+[55;13H<param file="${connectionProperties}"/>[25D
+
+[55;13H<param name="propertyFile" value="${parameters.dir}/replaceable_parms.properties"/>[26C
+
+[55;13H<param name="earFileName" value="${earFileName}"/>[26C
+
+[55;13H<param file="${applicationDeploymentProperties}"/>[26C
+
+[55;13H<param file="${applicationSecurityProperties}"/>[26C
+
+[55;13H<param file="applicationDeployment/allApplication.properties"/>[26C
+
+[55;8H</antcall>
+
+[55;8H
+
+[A</target>
+
+[55;4H
+
+[A <target name="installApplication">[12D
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<!-- The first step is to configure the environment by creating   -->[26C
+
+[55;9H<!-- a customized replaceable_parameters.properties file.[9C-->[26C
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<antcall target="config" inheritAll="false">[26D
+
+[55;13H<param name="parameters.dir" value="${parameters.dir}"/>[26C
+
+[55;9H</antcall>
+
+[55;4H
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<!-- Connect to WebSphere and deploy the EAR file.[16C-->[26C
+
+[55;9H<!-- ***********************************************************  -->[26C
+
+[55;9H<fail unless="connectionProperties" message="You must set -DconnectionProperties=CX0534L.properties."/>[26C
+
+[55;9H<fail unless="earFileName" message="You must set -DearFileName=earFileName"/>[26C
+
+[55;9H<fail unless="applicationDeploymentProperties" message="You must set -DapplicationDeploymentProperties=qualified  file name"/>[26C
+
+[A
+
+[55;9H<antcall target="install" inheritAll="false">[26C
+
+[55;13H<param file="${connectionProperties}"/>[25D
+
+[55;13H<param name="propertyFile" value="${parameters.dir}/replaceable_parms.properties"/>[26C
+
+[55;13H<param name="earFileName" value="${earFileName}"/>[26C
+
+[55;13H<param file="${applicationDeploymentProperties}"/>[26C
+
+[55;13H<param file="${applicationSecurityProperties}"/>[26C
+
+[55;13H<param file="applicationDeployment/allApplication.properties"/>[26C
+
+[55;8H</antcall>[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/ds004_admin/config/integration]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/ds004_admin/config/integration]$ -ksh93: timed out waiting for input
+

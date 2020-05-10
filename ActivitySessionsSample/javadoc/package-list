@@ -1,0 +1,7 @@
+com.ibm.websphere.samples.activitysessionEJB
+com.ibm.websphere.samples.activitysessionWAR
+com.ibm.websphere.samples.activitysessions.ASBeanManagedEJB
+com.ibm.websphere.samples.activitysessions.ASBeanSampleClient
+com.ibm.websphere.samples.activitysessions.ASContainerManagedEJB
+com.ibm.websphere.samples.activitysessions.ASContainerManagedEJB2
+com.ibm.websphere.samples.activitysessions.ASContainerSampleClient

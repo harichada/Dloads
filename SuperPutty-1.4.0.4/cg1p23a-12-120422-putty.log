@@ -1,0 +1,59 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.12 12:04:22 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Tue Apr 30 09:35:34 PDT 2019 on ssh from 134.187.144.199
+Last login: Tue Nov 12 12:01:40 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf1a04[/home/cseadmin]$ cd /cse/online/logs
+ankcsepf1a04[/cse/online/logs]$ ls
+ContentManagerAPILog_dklog.log  PFT09_SelfService_AP046_01      PFT09_Viola_g23_01
+ankcsepf1a04[/cse/online/logs]$ cd 
+ankcsepf1a04[/home/cseadmin]$ cd PFT09 _SelfService _AP046 _01
+ksh: PFT09_SelfService_AP046_01:  not found.
+ankcsepf1a04[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                       errpt_mail.sh                          memory_paging_check.sh                 nfs_selfcheck_output.201806151707.dat  run_on_NonProd.sh
+ALL_ACCOUNTS_sorted.txt                find_LUN_CuLDev.sh                     memory_paging_check.sh.orig            nfs_selfcheck_output.dat               showerrpt.pl
+LIVE_ACCOUNTS.txt                      find_LUN_CuLDev_cv.sh                  memory_paging_check_20150817.sh        nfs_server.dat                         tempfile
+NFS_mounts_verify.sh                   find_LUN_CuLDev_print.sh               memory_paging_check_20150818.sh        nfscheck.080520151503.txt              tmp
+NFS_mounts_verify_20180723.sh          find_LUN_sizes.sh                      memory_paging_output                   nfscheck.080520152403.txt              utils
+NFS_mounts_verify_P8.sh                find_wwn.sh                            memory_paging_output_bak               nfscheck.txt                           verifyPFT1Mount_paul.sh
+NFS_mounts_verify_paul.sh              logs                                   memory_paging_vmstat_NON_PROD.sh       nfscheck_080420151705                  verifyPFT1Mount_paul_init.sh
+NFS_selfcheck.sh                       memory_paging_COPY.sh                  memory_virtual_check.sh                nfscheck_080520150319                  verifyProdMount.sh
+NFS_selfcheck.sh_20180723.sh           memory_paging_NON_PROD_mail.sh         memory_virtual_check_20150817          nfscheckerror.080520151503.txt         verifyProdMount_erwin.sh
+NFS_selfcheck_output.dat               memory_paging_PFT1.sh                  nfs_check.sh                           nfscheckerror.txt                      verifyProdMount_original.sh
+OLD_ACCOUNTS.txt                       memory_paging_PFT1_test.sh             nfs_check_orig.sh                      p8_hostnames.txt                       verifyProdMount_paul.sh
+OLD_ACCOUNTS_sorted.txt                memory_paging_PFT2.sh                  nfs_df.dat                             p8_hostnames_reverse.txt               verifyProdMount_paul.sh.20150805
+OTech_Performance_Test.pdf             memory_paging_PFT2_test.sh             nfs_diff.dat                           p8_hostnames_reverse_sorted.txt        verifyProdMount_paul_init.sh
+Utilities.jar                          memory_paging_PROD.sh                  nfs_lsnfsmnt.dat                       paging_check.sh                        verifyProdMount_paul_test.sh
+WAS8.5_init_scripts                    memory_paging_PROD_test.sh             nfs_selfcheck.sh                       pft1_p8_hostnames.txt                  vmstat_mail.sh
+copyToNonProd.sh                       memory_paging_RUN.sh                   nfs_selfcheck.sh.20150805              portscan_hostTarget_root.ksh
+copy_to_nonprod.sh                     memory_paging_SELECT.sh                nfs_selfcheck.sh.20150806              portscan_root.ksh
+copy_to_prod.sh                        memory_paging_SELECT_test.sh           nfs_selfcheck.sh.orig                  resetUser.ksh
+ankcsepf1a04[/home/cseadmin]$ cd logs/PFT09 _SelfService _AP046 _01
+ksh: logs/PFT09_SelfService_AP046_01:  not found.
+ankcsepf1a04[/home/cseadmin]$ cd logs
+ankcsepf1a04[/home/cseadmin/logs]$ ls  cd /cse/onloine    ine./lo    /logs
+ankcsepf1a04[/cse/online/logs]$ ls
+ContentManagerAPILog_dklog.log  PFT09_SelfService_AP046_01      PFT09_Viola_g23_01
+ankcsepf1a04[/cse/online/logs]$ cd PFT09 _SelfService _AP046 _01
+ankcsepf1a04[/cse/online/logs/PFT09_SelfService_AP046_01]$ ls
+SystemErr.log                    SystemErr_14.02.12_11.35.17.log  SystemErr_19.02.05_22.13.38.log  SystemOut_19.05.23_12.51.39.log  SystemOut_19.06.14_10.29.20.log  native_stdout.log
+SystemErr.log.owner              SystemErr_14.02.12_12.11.56.log  SystemOut.log                    SystemOut_19.05.29_09.07.24.log  SystemOut_19.10.28_16.22.00.log
+SystemErr_14.02.12_10.36.39.log  SystemErr_16.12.09_16.11.15.log  SystemOut.log.owner              SystemOut_19.05.29_15.19.57.log  native_stderr.log
+ankcsepf1a04[/cse/online/logs/PFT09_SelfService_AP046_01]$ grep google *
+SystemOut.log:[11/7/19 9:11:54:229 PST] 0000019f WSX509TrustMa E   CWPKI0022E: SSL HANDSHAKE FAILURE:  A signer with SubjectDN "CN=www.google.com, O=Google LLC, L=Mountain View, ST=California, C=US" was sent from target host:port "www.google.com:443".  The signer may need to be added to local trust store "/usr/WebSphere/AppServer_85/profiles/AppServer/config/cells/ch1p22aCell01/trust.p12" located in SSL configuration alias "NodeDefaultSSLSettings" loaded from SSL configuration file "security.xml".  The extended error message from the SSL handshake exception is: "No trusted certificate found".
+SystemOut.log:[11/7/19 9:11:54:250 PST] 0000019f SystemOut     O CWPKI0022E: SSL HANDSHAKE FAILURE:  A signer with SubjectDN "CN=www.google.com, O=Google LLC, L=Mountain View, ST=California, C=US" was sent from target host:port "www.google.com:443".  The signer may need to be added to local trust store "/usr/WebSphere/AppServer_85/profiles/AppServer/config/cells/ch1p22aCell01/trust.p12" located in SSL configuration alias "NodeDefaultSSLSettings" loaded from SSL configuration file "security.xml".  The extended error message from the SSL handshake exception is: "No trusted certificate found".
+SystemOut.log:[11/7/19 9:11:54:250 PST] 0000019f SystemOut     O CWPKI0428I: The signer might need to be added to the local trust store. You can use the Retrieve from port option in the administrative console to retrieve the certificate and resolve the problem. If you determine that the request is trusted, complete the following steps: 1. Log into the administrative console.  2. Expand Security and click SSL certificate and key management. Under Configuration settings, click Manage endpoint security configurations. 3. Select the appropriate outbound configuration to get to the (cell):ch1p22aCell01 management scope. 4. Under Related Items, click Key stores and certificates and click the CellDefaultTrustStore key store. 5. Under Additional Properties, click Signer certificates and  Retrieve From Port.  6. In the Host field, enter www.google.com in the host name field, enter 443 in the Port field, and www.google.com_cert in the Alias field. 7. Click Retrieve Signer Information.  8. Verify that the certificate information is for a certificate that you can trust. 9. Click Apply and Save.
+ankcsepf1a04[/cse/online/logs/PFT09_SelfService_AP046_01]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

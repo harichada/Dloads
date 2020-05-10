@@ -1,0 +1,426 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 09:45:12 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Sun Nov 17 06:45:16 PST 2019 on ssh from 169.2.108.102
+Last login: Sun Nov 17 06:58:09 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda03[/home/hchada]$ cd /cse/online/logs
+ankcseprda03[/cse/online/logs]$ ls
+ContentManagerAPILog_dklog.log        FinalistVolAssessment.log.2019-04-25  FinalistVolAssessment.log.2019-07-01  FinalistVolAssessment.log.2019-09-14
+ContentManagerAPILog_dklog.log.sav1   FinalistVolAssessment.log.2019-04-26  FinalistVolAssessment.log.2019-07-02  FinalistVolAssessment.log.2019-09-16
+FinalistVolAssessment.log             FinalistVolAssessment.log.2019-04-27  FinalistVolAssessment.log.2019-07-03  FinalistVolAssessment.log.2019-09-17
+FinalistVolAssessment.log.2019-02-26  FinalistVolAssessment.log.2019-04-29  FinalistVolAssessment.log.2019-07-04  FinalistVolAssessment.log.2019-09-18
+FinalistVolAssessment.log.2019-02-27  FinalistVolAssessment.log.2019-04-30  FinalistVolAssessment.log.2019-07-05  FinalistVolAssessment.log.2019-09-19
+FinalistVolAssessment.log.2019-02-28  FinalistVolAssessment.log.2019-05-01  FinalistVolAssessment.log.2019-07-06  FinalistVolAssessment.log.2019-09-20
+FinalistVolAssessment.log.2019-03-01  FinalistVolAssessment.log.2019-05-02  FinalistVolAssessment.log.2019-07-07  FinalistVolAssessment.log.2019-09-21
+FinalistVolAssessment.log.2019-03-02  FinalistVolAssessment.log.2019-05-03  FinalistVolAssessment.log.2019-07-08  FinalistVolAssessment.log.2019-09-23
+FinalistVolAssessment.log.2019-03-03  FinalistVolAssessment.log.2019-05-04  FinalistVolAssessment.log.2019-07-09  FinalistVolAssessment.log.2019-09-24
+FinalistVolAssessment.log.2019-03-04  FinalistVolAssessment.log.2019-05-06  FinalistVolAssessment.log.2019-07-10  FinalistVolAssessment.log.2019-09-25
+FinalistVolAssessment.log.2019-03-05  FinalistVolAssessment.log.2019-05-07  FinalistVolAssessment.log.2019-07-11  FinalistVolAssessment.log.2019-09-26
+FinalistVolAssessment.log.2019-03-06  FinalistVolAssessment.log.2019-05-08  FinalistVolAssessment.log.2019-07-12  FinalistVolAssessment.log.2019-09-27
+FinalistVolAssessment.log.2019-03-07  FinalistVolAssessment.log.2019-05-09  FinalistVolAssessment.log.2019-07-13  FinalistVolAssessment.log.2019-09-28
+FinalistVolAssessment.log.2019-03-08  FinalistVolAssessment.log.2019-05-10  FinalistVolAssessment.log.2019-07-15  FinalistVolAssessment.log.2019-09-29
+FinalistVolAssessment.log.2019-03-09  FinalistVolAssessment.log.2019-05-11  FinalistVolAssessment.log.2019-07-16  FinalistVolAssessment.log.2019-09-30
+FinalistVolAssessment.log.2019-03-10  FinalistVolAssessment.log.2019-05-14  FinalistVolAssessment.log.2019-07-17  FinalistVolAssessment.log.2019-10-01
+FinalistVolAssessment.log.2019-03-11  FinalistVolAssessment.log.2019-05-15  FinalistVolAssessment.log.2019-07-18  FinalistVolAssessment.log.2019-10-02
+FinalistVolAssessment.log.2019-03-12  FinalistVolAssessment.log.2019-05-16  FinalistVolAssessment.log.2019-07-19  FinalistVolAssessment.log.2019-10-03
+FinalistVolAssessment.log.2019-03-13  FinalistVolAssessment.log.2019-05-17  FinalistVolAssessment.log.2019-07-20  FinalistVolAssessment.log.2019-10-04
+FinalistVolAssessment.log.2019-03-14  FinalistVolAssessment.log.2019-05-18  FinalistVolAssessment.log.2019-07-21  FinalistVolAssessment.log.2019-10-05
+FinalistVolAssessment.log.2019-03-15  FinalistVolAssessment.log.2019-05-20  FinalistVolAssessment.log.2019-07-22  FinalistVolAssessment.log.2019-10-06
+FinalistVolAssessment.log.2019-03-16  FinalistVolAssessment.log.2019-05-21  FinalistVolAssessment.log.2019-07-23  FinalistVolAssessment.log.2019-10-07
+FinalistVolAssessment.log.2019-03-18  FinalistVolAssessment.log.2019-05-22  FinalistVolAssessment.log.2019-07-24  FinalistVolAssessment.log.2019-10-08
+FinalistVolAssessment.log.2019-03-19  FinalistVolAssessment.log.2019-05-23  FinalistVolAssessment.log.2019-07-25  FinalistVolAssessment.log.2019-10-09
+FinalistVolAssessment.log.2019-03-20  FinalistVolAssessment.log.2019-05-24  FinalistVolAssessment.log.2019-07-26  FinalistVolAssessment.log.2019-10-10
+FinalistVolAssessment.log.2019-03-21  FinalistVolAssessment.log.2019-05-25  FinalistVolAssessment.log.2019-07-27  FinalistVolAssessment.log.2019-10-11
+FinalistVolAssessment.log.2019-03-22  FinalistVolAssessment.log.2019-05-26  FinalistVolAssessment.log.2019-07-28  FinalistVolAssessment.log.2019-10-12
+FinalistVolAssessment.log.2019-03-23  FinalistVolAssessment.log.2019-05-27  FinalistVolAssessment.log.2019-07-29  FinalistVolAssessment.log.2019-10-14
+FinalistVolAssessment.log.2019-03-24  FinalistVolAssessment.log.2019-05-28  FinalistVolAssessment.log.2019-07-30  FinalistVolAssessment.log.2019-10-15
+FinalistVolAssessment.log.2019-03-25  FinalistVolAssessment.log.2019-05-29  FinalistVolAssessment.log.2019-07-31  FinalistVolAssessment.log.2019-10-21
+FinalistVolAssessment.log.2019-03-26  FinalistVolAssessment.log.2019-05-30  FinalistVolAssessment.log.2019-08-01  FinalistVolAssessment.log.2019-10-22
+FinalistVolAssessment.log.2019-03-27  FinalistVolAssessment.log.2019-05-31  FinalistVolAssessment.log.2019-08-02  FinalistVolAssessment.log.2019-10-23
+FinalistVolAssessment.log.2019-03-28  FinalistVolAssessment.log.2019-06-01  FinalistVolAssessment.log.2019-08-03  FinalistVolAssessment.log.2019-10-24
+FinalistVolAssessment.log.2019-03-29  FinalistVolAssessment.log.2019-06-02  FinalistVolAssessment.log.2019-08-16  FinalistVolAssessment.log.2019-10-25
+FinalistVolAssessment.log.2019-03-30  FinalistVolAssessment.log.2019-06-03  FinalistVolAssessment.log.2019-08-17  FinalistVolAssessment.log.2019-10-26
+FinalistVolAssessment.log.2019-03-31  FinalistVolAssessment.log.2019-06-04  FinalistVolAssessment.log.2019-08-18  FinalistVolAssessment.log.2019-10-27
+FinalistVolAssessment.log.2019-04-01  FinalistVolAssessment.log.2019-06-05  FinalistVolAssessment.log.2019-08-19  FinalistVolAssessment.log.2019-10-28
+FinalistVolAssessment.log.2019-04-02  FinalistVolAssessment.log.2019-06-06  FinalistVolAssessment.log.2019-08-20  FinalistVolAssessment.log.2019-10-29
+FinalistVolAssessment.log.2019-04-03  FinalistVolAssessment.log.2019-06-07  FinalistVolAssessment.log.2019-08-21  FinalistVolAssessment.log.2019-10-30
+FinalistVolAssessment.log.2019-04-04  FinalistVolAssessment.log.2019-06-08  FinalistVolAssessment.log.2019-08-22  FinalistVolAssessment.log.2019-10-31
+FinalistVolAssessment.log.2019-04-05  FinalistVolAssessment.log.2019-06-09  FinalistVolAssessment.log.2019-08-23  FinalistVolAssessment.log.2019-11-01
+FinalistVolAssessment.log.2019-04-06  FinalistVolAssessment.log.2019-06-10  FinalistVolAssessment.log.2019-08-24  FinalistVolAssessment.log.2019-11-02
+FinalistVolAssessment.log.2019-04-07  FinalistVolAssessment.log.2019-06-11  FinalistVolAssessment.log.2019-08-26  FinalistVolAssessment.log.2019-11-03
+FinalistVolAssessment.log.2019-04-08  FinalistVolAssessment.log.2019-06-12  FinalistVolAssessment.log.2019-08-27  FinalistVolAssessment.log.2019-11-04
+FinalistVolAssessment.log.2019-04-09  FinalistVolAssessment.log.2019-06-13  FinalistVolAssessment.log.2019-08-28  FinalistVolAssessment.log.2019-11-05
+FinalistVolAssessment.log.2019-04-10  FinalistVolAssessment.log.2019-06-14  FinalistVolAssessment.log.2019-08-29  FinalistVolAssessment.log.2019-11-06
+FinalistVolAssessment.log.2019-04-11  FinalistVolAssessment.log.2019-06-15  FinalistVolAssessment.log.2019-08-30  FinalistVolAssessment.log.2019-11-07
+FinalistVolAssessment.log.2019-04-12  FinalistVolAssessment.log.2019-06-17  FinalistVolAssessment.log.2019-08-31  FinalistVolAssessment.log.2019-11-08
+FinalistVolAssessment.log.2019-04-13  FinalistVolAssessment.log.2019-06-18  FinalistVolAssessment.log.2019-09-01  FinalistVolAssessment.log.2019-11-09
+FinalistVolAssessment.log.2019-04-14  FinalistVolAssessment.log.2019-06-19  FinalistVolAssessment.log.2019-09-02  FinalistVolAssessment.log.2019-11-18
+FinalistVolAssessment.log.2019-04-15  FinalistVolAssessment.log.2019-06-20  FinalistVolAssessment.log.2019-09-03  PROD01_Batch_AP034_01
+FinalistVolAssessment.log.2019-04-16  FinalistVolAssessment.log.2019-06-21  FinalistVolAssessment.log.2019-09-04  PROD01_Batch_AP034_02
+FinalistVolAssessment.log.2019-04-17  FinalistVolAssessment.log.2019-06-22  FinalistVolAssessment.log.2019-09-05  PROD01_IF_AP034_01
+FinalistVolAssessment.log.2019-04-18  FinalistVolAssessment.log.2019-06-23  FinalistVolAssessment.log.2019-09-06  PROD01_IF_Online_AP034_01
+FinalistVolAssessment.log.2019-04-19  FinalistVolAssessment.log.2019-06-24  FinalistVolAssessment.log.2019-09-07  PROD01_Online_AP034_01
+FinalistVolAssessment.log.2019-04-20  FinalistVolAssessment.log.2019-06-25  FinalistVolAssessment.log.2019-09-09  PROD01_Online_AP034_02
+FinalistVolAssessment.log.2019-04-21  FinalistVolAssessment.log.2019-06-26  FinalistVolAssessment.log.2019-09-10  PROD01_Online_AP034_03
+FinalistVolAssessment.log.2019-04-22  FinalistVolAssessment.log.2019-06-27  FinalistVolAssessment.log.2019-09-11  arch500.log
+FinalistVolAssessment.log.2019-04-23  FinalistVolAssessment.log.2019-06-28  FinalistVolAssessment.log.2019-09-12  archive
+FinalistVolAssessment.log.2019-04-24  FinalistVolAssessment.log.2019-06-29  FinalistVolAssessment.log.2019-09-13  threadID.log
+ankcseprda03[/cse/online/logs]$ ls -lagrt
+total 44648
+drwxr-sr-x    2 cseadmin        512 May 09 2010  PROD01_Batch_AP034_01
+drwxr-sr-x    2 cseadmin        512 May 09 2010  PROD01_Batch_AP034_02
+-rw-rw-r--    1 cseadmin          0 Mar 11 2012  arch500.log
+-rw-rw-r--    1 cseadmin          0 Sep 18 2016  threadID.log
+drwxr-sr-x    4 cseadmin        512 Sep 16 2018  ..
+-rw-rw-r--    1 cseadmin   20974577 Oct 25 2018  ContentManagerAPILog_dklog.log.sav1
+-rw-rw-r--    1 cseadmin        111 Feb 27 2019  FinalistVolAssessment.log.2019-02-26
+-rw-rw-r--    1 cseadmin        111 Feb 28 2019  FinalistVolAssessment.log.2019-02-27
+-rw-rw-r--    1 cseadmin        111 Mar 01 2019  FinalistVolAssessment.log.2019-02-28
+-rw-rw-r--    1 cseadmin        111 Mar 02 2019  FinalistVolAssessment.log.2019-03-01
+-rw-rw-r--    1 cseadmin        115 Mar 02 2019  FinalistVolAssessment.log.2019-03-02
+-rw-rw-r--    1 cseadmin        114 Mar 03 2019  FinalistVolAssessment.log.2019-03-03
+-rw-rw-r--    1 cseadmin        115 Mar 04 2019  FinalistVolAssessment.log.2019-03-04
+-rw-rw-r--    1 cseadmin        333 Mar 05 2019  FinalistVolAssessment.log.2019-03-05
+-rw-rw-r--    1 cseadmin        221 Mar 07 2019  FinalistVolAssessment.log.2019-03-07
+-rw-rw-r--    1 cseadmin        109 Mar 08 2019  FinalistVolAssessment.log.2019-03-06
+-rw-rw-r--    1 cseadmin        109 Mar 09 2019  FinalistVolAssessment.log.2019-03-08
+-rw-rw-r--    1 cseadmin        108 Mar 10 2019  FinalistVolAssessment.log.2019-03-10
+-rw-rw-r--    1 cseadmin        108 Mar 11 2019  FinalistVolAssessment.log.2019-03-09
+-rw-rw-r--    1 cseadmin        111 Mar 12 2019  FinalistVolAssessment.log.2019-03-11
+-rw-rw-r--    1 cseadmin        115 Mar 13 2019  FinalistVolAssessment.log.2019-03-12
+-rw-rw-r--    1 cseadmin        115 Mar 14 2019  FinalistVolAssessment.log.2019-03-13
+-rw-rw-r--    1 cseadmin        222 Mar 15 2019  FinalistVolAssessment.log.2019-03-14
+-rw-rw-r--    1 cseadmin        113 Mar 16 2019  FinalistVolAssessment.log.2019-03-15
+-rw-rw-r--    1 cseadmin        109 Mar 19 2019  FinalistVolAssessment.log.2019-03-16
+-rw-rw-r--    1 cseadmin        109 Mar 19 2019  FinalistVolAssessment.log.2019-03-18
+-rw-rw-r--    1 cseadmin        110 Mar 20 2019  FinalistVolAssessment.log.2019-03-19
+-rw-rw-r--    1 cseadmin        111 Mar 21 2019  FinalistVolAssessment.log.2019-03-20
+-rw-rw-r--    1 cseadmin        112 Mar 22 2019  FinalistVolAssessment.log.2019-03-21
+-rw-rw-r--    1 cseadmin        110 Mar 23 2019  FinalistVolAssessment.log.2019-03-23
+-rw-rw-r--    1 cseadmin        113 Mar 24 2019  FinalistVolAssessment.log.2019-03-24
+-rw-rw-r--    1 cseadmin        113 Mar 25 2019  FinalistVolAssessment.log.2019-03-25
+-rw-rw-r--    1 cseadmin        109 Mar 26 2019  FinalistVolAssessment.log.2019-03-22
+-rw-rw-r--    1 cseadmin        109 Mar 27 2019  FinalistVolAssessment.log.2019-03-26
+-rw-rw-r--    1 cseadmin        110 Mar 28 2019  FinalistVolAssessment.log.2019-03-27
+-rw-rw-r--    1 cseadmin        111 Mar 29 2019  FinalistVolAssessment.log.2019-03-28
+-rw-rw-r--    1 cseadmin        110 Mar 30 2019  FinalistVolAssessment.log.2019-03-29
+-rw-rw-r--    1 cseadmin        106 Mar 31 2019  FinalistVolAssessment.log.2019-03-31
+-rw-rw-r--    1 cseadmin        107 Apr 01 2019  FinalistVolAssessment.log.2019-03-30
+-rw-rw-r--    1 cseadmin        109 Apr 02 2019  FinalistVolAssessment.log.2019-04-01
+-rw-rw-r--    1 cseadmin        115 Apr 03 2019  FinalistVolAssessment.log.2019-04-02
+-rw-rw-r--    1 cseadmin        223 Apr 04 2019  FinalistVolAssessment.log.2019-04-03
+-rw-rw-r--    1 cseadmin        115 Apr 05 2019  FinalistVolAssessment.log.2019-04-04
+-rw-rw-r--    1 cseadmin        114 Apr 06 2019  FinalistVolAssessment.log.2019-04-05
+-rw-rw-r--    1 cseadmin        109 Apr 07 2019  FinalistVolAssessment.log.2019-04-07
+-rw-rw-r--    1 cseadmin        108 Apr 08 2019  FinalistVolAssessment.log.2019-04-06
+-rw-rw-r--    1 cseadmin        114 Apr 09 2019  FinalistVolAssessment.log.2019-04-08
+-rw-rw-r--    1 cseadmin        115 Apr 10 2019  FinalistVolAssessment.log.2019-04-09
+-rw-rw-r--    1 cseadmin        225 Apr 11 2019  FinalistVolAssessment.log.2019-04-10
+-rw-rw-r--    1 cseadmin        115 Apr 12 2019  FinalistVolAssessment.log.2019-04-11
+-rw-rw-r--    1 cseadmin        115 Apr 13 2019  FinalistVolAssessment.log.2019-04-12
+-rw-rw-r--    1 cseadmin        109 Apr 14 2019  FinalistVolAssessment.log.2019-04-14
+-rw-rw-r--    1 cseadmin        108 Apr 15 2019  FinalistVolAssessment.log.2019-04-13
+-rw-rw-r--    1 cseadmin        111 Apr 16 2019  FinalistVolAssessment.log.2019-04-15
+-rw-rw-r--    1 cseadmin        112 Apr 17 2019  FinalistVolAssessment.log.2019-04-16
+-rw-rw-r--    1 cseadmin        222 Apr 18 2019  FinalistVolAssessment.log.2019-04-17
+-rw-rw-r--    1 cseadmin        114 Apr 19 2019  FinalistVolAssessment.log.2019-04-18
+-rw-rw-r--    1 cseadmin        115 Apr 20 2019  FinalistVolAssessment.log.2019-04-19
+-rw-rw-r--    1 cseadmin        106 Apr 22 2019  FinalistVolAssessment.log.2019-04-21
+-rw-rw-r--    1 cseadmin        112 Apr 23 2019  FinalistVolAssessment.log.2019-04-22
+-rw-rw-r--    1 cseadmin        109 Apr 23 2019  FinalistVolAssessment.log.2019-04-20
+-rw-rw-r--    1 cseadmin        109 Apr 24 2019  FinalistVolAssessment.log.2019-04-23
+-rw-rw-r--    1 cseadmin        114 Apr 25 2019  FinalistVolAssessment.log.2019-04-24
+-rw-rw-r--    1 cseadmin        111 Apr 26 2019  FinalistVolAssessment.log.2019-04-25
+-rw-rw-r--    1 cseadmin        109 Apr 26 2019  FinalistVolAssessment.log.2019-04-26
+-rw-rw-r--    1 cseadmin        223 Apr 29 2019  FinalistVolAssessment.log.2019-04-29
+-rw-rw-r--    1 cseadmin        109 Apr 30 2019  FinalistVolAssessment.log.2019-04-27
+-rw-rw-r--    1 cseadmin        109 May 01 2019  FinalistVolAssessment.log.2019-04-30
+-rw-rw-r--    1 cseadmin        111 May 02 2019  FinalistVolAssessment.log.2019-05-01
+-rw-rw-r--    1 cseadmin        109 May 03 2019  FinalistVolAssessment.log.2019-05-02
+-rw-rw-r--    1 cseadmin        109 May 04 2019  FinalistVolAssessment.log.2019-05-03
+-rw-rw-r--    1 cseadmin        110 May 04 2019  FinalistVolAssessment.log.2019-05-04
+-rw-rw-r--    1 cseadmin        226 May 06 2019  FinalistVolAssessment.log.2019-05-06
+-rw-rw-r--    1 cseadmin        114 May 07 2019  FinalistVolAssessment.log.2019-05-07
+-rw-rw-r--    1 cseadmin        225 May 08 2019  FinalistVolAssessment.log.2019-05-08
+-rw-rw-r--    1 cseadmin        113 May 09 2019  FinalistVolAssessment.log.2019-05-09
+-rw-rw-r--    1 cseadmin        445 May 10 2019  FinalistVolAssessment.log.2019-05-10
+-rw-rw-r--    1 cseadmin        109 May 14 2019  FinalistVolAssessment.log.2019-05-11
+-rw-rw-r--    1 cseadmin        109 May 15 2019  FinalistVolAssessment.log.2019-05-14
+-rw-rw-r--    1 cseadmin        109 May 16 2019  FinalistVolAssessment.log.2019-05-15
+-rw-rw-r--    1 cseadmin        109 May 17 2019  FinalistVolAssessment.log.2019-05-16
+-rw-rw-r--    1 cseadmin        109 May 18 2019  FinalistVolAssessment.log.2019-05-17
+-rw-rw-r--    1 cseadmin        110 May 20 2019  FinalistVolAssessment.log.2019-05-20
+-rw-rw-r--    1 cseadmin        109 May 21 2019  FinalistVolAssessment.log.2019-05-18
+-rw-rw-r--    1 cseadmin        109 May 22 2019  FinalistVolAssessment.log.2019-05-21
+-rw-rw-r--    1 cseadmin        110 May 23 2019  FinalistVolAssessment.log.2019-05-22
+-rw-rw-r--    1 cseadmin        111 May 24 07:12 FinalistVolAssessment.log.2019-05-23
+-rw-rw-r--    1 cseadmin        111 May 25 07:02 FinalistVolAssessment.log.2019-05-24
+-rw-rw-r--    1 cseadmin        109 May 25 08:13 FinalistVolAssessment.log.2019-05-25
+-rw-rw-r--    1 cseadmin        113 May 26 21:08 FinalistVolAssessment.log.2019-05-26
+-rw-rw-r--    1 cseadmin        113 May 27 14:00 FinalistVolAssessment.log.2019-05-27
+-rw-rw-r--    1 cseadmin        111 May 28 18:23 FinalistVolAssessment.log.2019-05-28
+-rw-rw-r--    1 cseadmin        112 May 29 04:56 FinalistVolAssessment.log.2019-05-29
+-rw-rw-r--    1 cseadmin        441 May 30 05:09 FinalistVolAssessment.log.2019-05-30
+-rw-rw-r--    1 cseadmin        114 May 31 04:57 FinalistVolAssessment.log.2019-05-31
+-rw-rw-r--    1 cseadmin        113 Jun 01 00:29 FinalistVolAssessment.log.2019-06-01
+-rw-rw-r--    1 cseadmin        116 Jun 02 11:30 FinalistVolAssessment.log.2019-06-02
+-rw-rw-r--    1 cseadmin        114 Jun 03 11:30 FinalistVolAssessment.log.2019-06-03
+-rw-rw-r--    1 cseadmin        114 Jun 04 05:04 FinalistVolAssessment.log.2019-06-04
+-rw-rw-r--    1 cseadmin        115 Jun 05 04:56 FinalistVolAssessment.log.2019-06-05
+-rw-rw-r--    1 cseadmin        445 Jun 06 05:08 FinalistVolAssessment.log.2019-06-06
+-rw-rw-r--    1 cseadmin        115 Jun 07 04:56 FinalistVolAssessment.log.2019-06-07
+-rw-rw-r--    1 cseadmin        116 Jun 08 04:56 FinalistVolAssessment.log.2019-06-08
+-rw-rw-r--    1 cseadmin        115 Jun 09 21:13 FinalistVolAssessment.log.2019-06-09
+-rw-rw-r--    1 cseadmin        112 Jun 10 14:31 FinalistVolAssessment.log.2019-06-10
+-rw-rw-r--    1 cseadmin        113 Jun 11 04:56 FinalistVolAssessment.log.2019-06-11
+-rw-rw-r--    1 cseadmin        115 Jun 12 04:57 FinalistVolAssessment.log.2019-06-12
+-rw-rw-r--    1 cseadmin        339 Jun 13 04:56 FinalistVolAssessment.log.2019-06-13
+-rw-rw-r--    1 cseadmin        114 Jun 14 04:56 FinalistVolAssessment.log.2019-06-14
+-rw-rw-r--    1 cseadmin        112 Jun 18 04:56 FinalistVolAssessment.log.2019-06-17
+-rw-rw-r--    1 cseadmin        110 Jun 18 06:35 FinalistVolAssessment.log.2019-06-15
+-rw-rw-r--    1 cseadmin        109 Jun 19 06:57 FinalistVolAssessment.log.2019-06-18
+-rw-rw-r--    1 cseadmin        109 Jun 20 07:05 FinalistVolAssessment.log.2019-06-19
+-rw-rw-r--    1 cseadmin        109 Jun 21 06:51 FinalistVolAssessment.log.2019-06-20
+-rw-rw-r--    1 cseadmin        111 Jun 22 09:17 FinalistVolAssessment.log.2019-06-21
+-rw-rw-r--    1 cseadmin        111 Jun 23 21:05 FinalistVolAssessment.log.2019-06-23
+-rw-rw-r--    1 cseadmin        109 Jun 25 07:02 FinalistVolAssessment.log.2019-06-24
+-rw-rw-r--    1 cseadmin        113 Jun 25 07:02 FinalistVolAssessment.log.2019-06-22
+-rw-rw-r--    1 cseadmin        109 Jun 26 07:02 FinalistVolAssessment.log.2019-06-25
+-rw-rw-r--    1 cseadmin        109 Jun 27 07:02 FinalistVolAssessment.log.2019-06-26
+-rw-rw-r--    1 cseadmin        110 Jun 28 07:04 FinalistVolAssessment.log.2019-06-27
+-rw-rw-r--    1 cseadmin        114 Jun 29 04:56 FinalistVolAssessment.log.2019-06-28
+-rw-rw-r--    1 cseadmin        110 Jun 29 07:10 FinalistVolAssessment.log.2019-06-29
+-rw-rw-r--    1 cseadmin        225 Jul 01 21:08 FinalistVolAssessment.log.2019-07-01
+-rw-rw-r--    1 cseadmin        113 Jul 02 05:01 FinalistVolAssessment.log.2019-07-02
+-rw-rw-r--    1 cseadmin        116 Jul 03 04:56 FinalistVolAssessment.log.2019-07-03
+-rw-rw-r--    1 cseadmin        115 Jul 04 04:56 FinalistVolAssessment.log.2019-07-04
+-rw-rw-r--    1 cseadmin        115 Jul 05 07:45 FinalistVolAssessment.log.2019-07-05
+-rw-rw-r--    1 cseadmin        114 Jul 06 05:07 FinalistVolAssessment.log.2019-07-06
+-rw-rw-r--    1 cseadmin        115 Jul 07 18:01 FinalistVolAssessment.log.2019-07-07
+-rw-rw-r--    1 cseadmin        114 Jul 08 14:01 FinalistVolAssessment.log.2019-07-08
+-rw-rw-r--    1 cseadmin        114 Jul 09 04:57 FinalistVolAssessment.log.2019-07-09
+-rw-rw-r--    1 cseadmin        115 Jul 10 04:56 FinalistVolAssessment.log.2019-07-10
+-rw-rw-r--    1 cseadmin        115 Jul 11 06:22 FinalistVolAssessment.log.2019-07-11
+-rw-rw-r--    1 cseadmin        116 Jul 12 04:56 FinalistVolAssessment.log.2019-07-12
+-rw-rw-r--    1 cseadmin        115 Jul 13 04:56 FinalistVolAssessment.log.2019-07-13
+-rw-rw-r--    1 cseadmin        226 Jul 15 14:31 FinalistVolAssessment.log.2019-07-15
+-rw-rw-r--    1 cseadmin        113 Jul 16 07:01 FinalistVolAssessment.log.2019-07-16
+-rw-rw-r--    1 cseadmin        449 Jul 17 04:56 FinalistVolAssessment.log.2019-07-17
+-rw-rw-r--    1 cseadmin        115 Jul 18 05:11 FinalistVolAssessment.log.2019-07-18
+-rw-rw-r--    1 cseadmin        115 Jul 19 04:57 FinalistVolAssessment.log.2019-07-19
+-rw-rw-r--    1 cseadmin        106 Jul 22 07:12 FinalistVolAssessment.log.2019-07-21
+-rw-rw-r--    1 cseadmin        109 Jul 23 06:38 FinalistVolAssessment.log.2019-07-20
+-rw-rw-r--    1 cseadmin        109 Jul 23 06:42 FinalistVolAssessment.log.2019-07-22
+-rw-rw-r--    1 cseadmin        110 Jul 24 06:40 FinalistVolAssessment.log.2019-07-23
+-rw-rw-r--    1 cseadmin        109 Jul 25 07:00 FinalistVolAssessment.log.2019-07-24
+-rw-rw-r--    1 cseadmin        112 Jul 26 05:03 FinalistVolAssessment.log.2019-07-26
+-rw-rw-r--    1 cseadmin        109 Jul 27 07:30 FinalistVolAssessment.log.2019-07-25
+-rw-rw-r--    1 cseadmin        114 Jul 28 18:01 FinalistVolAssessment.log.2019-07-27
+-rw-rw-r--    1 cseadmin        107 Jul 29 06:17 FinalistVolAssessment.log.2019-07-28
+-rw-rw-r--    1 cseadmin        440 Jul 30 04:56 FinalistVolAssessment.log.2019-07-29
+-rw-rw-r--    1 cseadmin        332 Jul 31 04:56 FinalistVolAssessment.log.2019-07-30
+-rw-rw-r--    1 cseadmin        109 Jul 31 06:09 FinalistVolAssessment.log.2019-07-31
+-rw-rw-r--    1 cseadmin        107 Aug 01 07:04 FinalistVolAssessment.log.2019-08-01
+-rw-rw-r--    1 cseadmin        109 Aug 02 07:12 FinalistVolAssessment.log.2019-08-02
+-rw-rw-r--    1 cseadmin        113 Aug 16 04:56 FinalistVolAssessment.log.2019-08-16
+-rw-rw-r--    1 cseadmin        109 Aug 17 09:28 FinalistVolAssessment.log.2019-08-03
+-rw-rw-r--    1 cseadmin        109 Aug 17 09:30 FinalistVolAssessment.log.2019-08-17
+-rw-rw-r--    1 cseadmin        114 Aug 18 18:00 FinalistVolAssessment.log.2019-08-18
+-rw-rw-r--    1 cseadmin        111 Aug 19 18:20 FinalistVolAssessment.log.2019-08-19
+-rw-rw-r--    1 cseadmin        438 Aug 20 04:56 FinalistVolAssessment.log.2019-08-20
+-rw-rw-r--    1 cseadmin        114 Aug 21 06:26 FinalistVolAssessment.log.2019-08-21
+-rw-rw-r--    1 cseadmin        114 Aug 22 04:57 FinalistVolAssessment.log.2019-08-22
+-rw-rw-r--    1 cseadmin        223 Aug 23 05:08 FinalistVolAssessment.log.2019-08-23
+-rw-rw-r--    1 cseadmin        109 Aug 27 06:59 FinalistVolAssessment.log.2019-08-24
+-rw-rw-r--    1 cseadmin        109 Aug 27 07:02 FinalistVolAssessment.log.2019-08-26
+-rw-rw-r--    1 cseadmin        114 Aug 28 06:22 FinalistVolAssessment.log.2019-08-27
+-rw-rw-r--    1 cseadmin        109 Aug 29 07:03 FinalistVolAssessment.log.2019-08-28
+-rw-rw-r--    1 cseadmin        111 Aug 30 07:06 FinalistVolAssessment.log.2019-08-29
+-rw-rw-r--    1 cseadmin        111 Aug 31 12:22 FinalistVolAssessment.log.2019-08-30
+-rw-rw-r--    1 cseadmin        111 Aug 31 13:11 FinalistVolAssessment.log.2019-08-31
+-rw-rw-r--    1 cseadmin        113 Sep 01 00:22 FinalistVolAssessment.log.2019-09-01
+-rw-rw-r--    1 cseadmin        115 Sep 02 18:37 FinalistVolAssessment.log.2019-09-02
+-rw-rw-r--    1 cseadmin        115 Sep 03 14:30 FinalistVolAssessment.log.2019-09-03
+-rw-rw-r--    1 cseadmin        883 Sep 04 05:07 FinalistVolAssessment.log.2019-09-04
+-rw-rw-r--    1 cseadmin        115 Sep 05 04:56 FinalistVolAssessment.log.2019-09-05
+-rw-rw-r--    1 cseadmin        115 Sep 06 04:57 FinalistVolAssessment.log.2019-09-06
+-rw-rw-r--    1 cseadmin        115 Sep 07 05:06 FinalistVolAssessment.log.2019-09-07
+-rw-rw-r--    1 cseadmin        226 Sep 09 07:45 FinalistVolAssessment.log.2019-09-09
+-rw-rw-r--    1 cseadmin        115 Sep 10 00:00 FinalistVolAssessment.log.2019-09-10
+-rw-rw-r--    1 cseadmin        115 Sep 11 04:56 FinalistVolAssessment.log.2019-09-11
+-rw-rw-r--    1 cseadmin        115 Sep 12 04:56 FinalistVolAssessment.log.2019-09-12
+-rw-rw-r--    1 cseadmin        115 Sep 13 04:56 FinalistVolAssessment.log.2019-09-13
+-rw-rw-r--    1 cseadmin        114 Sep 14 06:32 FinalistVolAssessment.log.2019-09-14
+-rw-rw-r--    1 cseadmin        226 Sep 16 21:07 FinalistVolAssessment.log.2019-09-16
+-rw-rw-r--    1 cseadmin        114 Sep 17 05:03 FinalistVolAssessment.log.2019-09-17
+-rw-rw-r--    1 cseadmin        115 Sep 18 04:57 FinalistVolAssessment.log.2019-09-18
+-rw-rw-r--    1 cseadmin        335 Sep 19 04:56 FinalistVolAssessment.log.2019-09-19
+-rw-rw-r--    1 cseadmin        335 Sep 20 04:56 FinalistVolAssessment.log.2019-09-20
+-rw-rw-r--    1 cseadmin        109 Sep 24 06:14 FinalistVolAssessment.log.2019-09-21
+-rw-rw-r--    1 cseadmin        109 Sep 24 07:03 FinalistVolAssessment.log.2019-09-23
+-rw-rw-r--    1 cseadmin        109 Sep 25 07:02 FinalistVolAssessment.log.2019-09-24
+-rw-rw-r--    1 cseadmin        109 Sep 26 07:07 FinalistVolAssessment.log.2019-09-25
+-rw-rw-r--    1 cseadmin        109 Sep 27 07:09 FinalistVolAssessment.log.2019-09-26
+-rw-rw-r--    1 cseadmin        109 Sep 28 07:33 FinalistVolAssessment.log.2019-09-27
+-rw-rw-r--    1 cseadmin        111 Sep 28 09:13 FinalistVolAssessment.log.2019-09-28
+-rw-rw-r--    1 cseadmin        114 Sep 29 21:12 FinalistVolAssessment.log.2019-09-29
+-rw-rw-r--    1 cseadmin        111 Sep 30 18:27 FinalistVolAssessment.log.2019-09-30
+-rw-rw-r--    1 cseadmin        113 Oct 01 04:57 FinalistVolAssessment.log.2019-10-01
+-rw-rw-r--    1 cseadmin        116 Oct 02 04:56 FinalistVolAssessment.log.2019-10-02
+-rw-rw-r--    1 cseadmin        116 Oct 03 04:56 FinalistVolAssessment.log.2019-10-03
+-rw-rw-r--    1 cseadmin        116 Oct 04 04:57 FinalistVolAssessment.log.2019-10-04
+-rw-rw-r--    1 cseadmin        338 Oct 05 04:56 FinalistVolAssessment.log.2019-10-05
+-rw-rw-r--    1 cseadmin        116 Oct 06 18:01 FinalistVolAssessment.log.2019-10-06
+-rw-rw-r--    1 cseadmin        114 Oct 07 14:32 FinalistVolAssessment.log.2019-10-07
+-rw-rw-r--    1 cseadmin        113 Oct 08 01:11 FinalistVolAssessment.log.2019-10-08
+-rw-rw-r--    1 cseadmin        115 Oct 09 05:11 FinalistVolAssessment.log.2019-10-09
+-rw-rw-r--    1 cseadmin        115 Oct 10 00:48 FinalistVolAssessment.log.2019-10-10
+-rw-rw-r--    1 cseadmin        115 Oct 11 00:00 FinalistVolAssessment.log.2019-10-11
+-rw-rw-r--    1 cseadmin        116 Oct 12 00:00 FinalistVolAssessment.log.2019-10-12
+-rw-rw-r--    1 cseadmin        225 Oct 14 21:06 FinalistVolAssessment.log.2019-10-14
+-rw-rw-r--    1 cseadmin        112 Oct 22 04:56 FinalistVolAssessment.log.2019-10-21
+-rw-rw-r--    1 cseadmin        109 Oct 22 06:54 FinalistVolAssessment.log.2019-10-15
+-rw-rw-r--    1 cseadmin        110 Oct 23 06:39 FinalistVolAssessment.log.2019-10-22
+-rw-rw-r--    1 cseadmin        109 Oct 24 07:10 FinalistVolAssessment.log.2019-10-23
+-rw-rw-r--    1 cseadmin        109 Oct 25 06:28 FinalistVolAssessment.log.2019-10-24
+-rw-rw-r--    1 cseadmin        110 Oct 26 07:14 FinalistVolAssessment.log.2019-10-25
+-rw-rw-r--    1 cseadmin        111 Oct 26 09:54 FinalistVolAssessment.log.2019-10-26
+-rw-rw-r--    1 cseadmin        114 Oct 27 21:06 FinalistVolAssessment.log.2019-10-27
+-rw-rw-r--    1 cseadmin        114 Oct 28 14:31 FinalistVolAssessment.log.2019-10-28
+-rw-rw-r--    1 cseadmin        113 Oct 29 04:56 FinalistVolAssessment.log.2019-10-29
+-rw-rw-r--    1 cseadmin        114 Oct 30 07:45 FinalistVolAssessment.log.2019-10-30
+-rw-rw-r--    1 cseadmin        113 Oct 31 04:56 FinalistVolAssessment.log.2019-10-31
+-rw-rw-r--    1 cseadmin        114 Nov 01 00:17 FinalistVolAssessment.log.2019-11-01
+-rw-rw-r--    1 cseadmin        115 Nov 02 04:56 FinalistVolAssessment.log.2019-11-02
+-rw-rw-r--    1 cseadmin        115 Nov 03 11:30 FinalistVolAssessment.log.2019-11-03
+-rw-rw-r--    1 cseadmin        113 Nov 04 07:45 FinalistVolAssessment.log.2019-11-04
+-rw-rw-r--    1 cseadmin        114 Nov 05 04:56 FinalistVolAssessment.log.2019-11-05
+-rw-rw-r--    1 cseadmin        225 Nov 06 04:56 FinalistVolAssessment.log.2019-11-06
+-rw-rw-r--    1 cseadmin        115 Nov 07 04:56 FinalistVolAssessment.log.2019-11-07
+-rw-rw-r--    1 cseadmin        115 Nov 08 05:06 FinalistVolAssessment.log.2019-11-08
+drwxr-sr-x    3 cseadmin       1024 Nov 12 12:40 PROD01_Online_AP034_02
+drwxr-sr-x    3 cseadmin       1024 Nov 15 19:11 PROD01_IF_AP034_01
+drwxr-sr-x    3 cseadmin       1024 Nov 16 11:26 PROD01_IF_Online_AP034_01
+-rw-rw-r--    1 cseadmin     838618 Nov 17 13:41 ContentManagerAPILog_dklog.log
+drwxr-sr-x    3 cseadmin       1024 Nov 18 08:01 PROD01_Online_AP034_01
+-rw-rw-r--    1 cseadmin        110 Nov 18 18:17 FinalistVolAssessment.log.2019-11-18
+drwxr-sr-x    2 cseadmin      64512 Nov 19 00:01 archive
+-rw-rw-r--    1 cseadmin        109 Nov 19 06:11 FinalistVolAssessment.log.2019-11-09
+drwxr-sr-x   10 cseadmin      12288 Nov 19 06:52 .
+-rw-rw-r--    1 cseadmin        109 Nov 19 06:52 FinalistVolAssessment.log
+drwxr-sr-x    3 cseadmin       1024 Nov 19 08:45 PROD01_Online_AP034_03
+ankcseprda03[/cse/online/logs]$ ps -ef | grep java
+wasadmin  5177468        1   0   Jun 23      - 612:52 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=32962 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.cacheLocalHost=true -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 nodeagent
+    root  7929904  7864472   0   Jun 23      - 25:30 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=xZANBC7_pezES8uD -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7864472 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+   opnet  8061134  5964008   0   Jun 23      - 258:36 ../jre/bin/java -DDAName=DA-AixOS -cp ../lib/GenericCmdDA.jar:../lib/awdasdk.jar:../lib/xerces.jar:../lib/log4j.jar:../lib/classes12.zip com.altaworks.da.cmd.GenericCmdDA
+wasadmin 15007856  5177468   9   Nov 17      - 83:09 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63477 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_Online_AP034_02/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_Online_AP034_02
+wasadmin 42795090  5177468   3   Nov 17      - 51:55 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63473 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_IF_Online_AP034_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms256m -Xmx614m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_IF_Online.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_IF_Online_AP034_01
+wasadmin 44302590  5177468   6   Nov 17      - 137:45 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63481 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_Online_AP034_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_Online_AP034_01
+wasadmin 47907004  5177468   0   Nov 17      - 16:08 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63470 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_IF_AP034_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms256m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_IF.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_IF_AP034_01
+wasadmin 50331726  5177468  22   Nov 17      - 115:24 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63466 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_Batch_AP034_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -verbose:gc -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Batch.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PDOR -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PDOR -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PDOR -Dlogging.folder=/cse/batch/PROD01_Batch_AP034_01/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11PDOR/logging.xml -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_Batch_AP034_01
+wasadmin 55312624  5177468  14   Nov 17      - 76:58 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=63478 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_Online_AP034_03/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms512m -Xmx1536m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Online.profile -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p28aNode01 PROD01_Online_AP034_03
+ankcseprda03[/cse/online/logs]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*
+ankcseprda03[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls
+PROD01.CSEArchitecture.properties              PROD01.SECUREInterface.properties              PROD01_Integration_DS016_02.log4j.properties
+PROD01.ConsortiaInitialLoadToggle.properties   PROD01.ShippingInterfaces.properties           cmbicmsrvs.ini
+PROD01.ConsortiaUpdateQueuePublish.properties  PROD01.log4j.properties                        cmbpool.ini
+PROD01.EnterpriseFormService.properties        PROD01.reporting.properties                    cmgmt
+PROD01.FontLocation.properties                 PROD01.tracing.properties                      cse_version.properties
+PROD01.FormsArchitecture.properties            PROD01.tracing_IF.properties                   donotremove
+PROD01.FormsIFOnlineArchitecture.properties    PROD01.tracing_IF_Online.properties            ppr.properties
+PROD01.ImagingArchitecture.properties          PROD01_Integration_DS014_01.log4j.properties   securityAdministration.properties
+PROD01.PrintingArchitecture.properties         PROD01_Integration_DS014_02.log4j.properties
+PROD01.RemoteFormsGenExclusions.properties     PROD01_Integration_DS016_01.log4j.properties
+ankcseprda03[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ vi PROD01.CSEArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="PROD01.CSEArchitecture.properties" [Read only] 78 lines, 3683 characters [H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineProductionTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=true
+
+IdListPartitioningEnabled=true
+
+#---------- Self Service URL -----------------
+selfservice.Url=https://www.cse.ca.gov
+
+##################################################################
+# Properties for SDU Hyperlink Configuration
+# sdu.encryption.key Used to encryp/decrypt the session
+#[20Cbetween SDU and CSE
+# sdu.ePayment.url   Used to indicate the Hyperlink at SDU for
+#[20CePayment
+##################################################################
+sdu.encryption.key=zg%R#y,o+jyy-NEV
+sdu.ePayment.url=https://www.cawebprod.com/navigation/lcsa/?pre_auth_token=
+
+
+##################################################################
+# HyperionSSO Properties[41C#
+##################################################################
+# SSO Encryption Key (the key has to be 16 characters, and has to be the same key in the HyperionSSO.properties included in the jar that is delopyed onto Hyperion Server)
+# and Hyperion Single Sign On Url
+#
+# sso.hyperion11.switchflag is for the purpose of rollback only when v4.18.0 is release.  sso.hyperion11.switchflag is defaulted to "true"
+# if sso.hyperion11.switchflag is true, value of sso.hyperion.url points to URL for Hyperion 11.
+# if sso.hyperion11.switchflag is false, value of sso.hyperion.url points to URL for Hyperion 8.5.
+##################################################################
+
+sso.encryption.key=hyp#Inter@act!ve
+sso.hyperion.url=http://ankcseprda13.dts.ca.gov/workspace/index.jsp
+sso.hyperion11.switchflag=true
+
+##################################################################
+# CSE Web-Service REST API Configuration Properties[14C#
+##################################################################[H[55B"PROD01.CSEArchitecture.properties" [Read only] 78 lines, 3683 characters[H[55B[K:/time[5;1H[51B[K/[5;7H[51B[K/[K
+[A#REST API Request Retry Key
+
+[Arest.request.retry=3
+
+[A#REST API RequestConfig Socket timeout Key[11D
+/[K
+[Arest.requestconfig.socketTimeout=15000
+
+[A#REST API RequestConfig Connection timeout Key[11D
+
+[Arest.requestconfig.connectTimeout=15000
+
+[A#REST API RequestConfig EFS Socket timeout Key[11D
+
+[Arest.requestconfig.efs.socketTimeout=45000[8D
+
+[A
+
+[A
+
+[A##################################################################[32D[A[A[52;35Hut=4[A
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+
+
+
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcseprda03[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ exit

@@ -1,0 +1,1508 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 12:24:46 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Access denied
+hchada@ch1p22a's password: 
+Access denied
+hchada@ch1p22a's password: 
+2 unsuccessful login attempts since last login.
+Last unsuccessful login: Wed Nov 13 12:24:53 2019 on ssh from 169.2.108.102
+Last login: Wed Nov 13 10:18:24 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsepf1a08[/home/hchada]$ ps -ef | grep SelfService
+wasadmin 22675624        1   0 12:10:01      -  0:42 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PFT09_SelfService_AP045_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx768m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_SelfService.profile -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config ch1p22aCell01 ch1p22aNode01 PFT09_SelfService_AP045_01
+ankcsepf1a08[/home/hchada]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/                 Dep*/config/cseP*
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls
+PFT09.AllowedCustOriginsWhiteList.properties  PFT09.FormsArchitecture.properties            PFT09.ecssivr.properties                      cmbpool.ini
+PFT09.CSEArchitecture.properties              PFT09.ImagingArchitecture.properties          PFT09.iVRInterface.properties                 cmgmt
+PFT09.CSEArchitecture.properties.10292018     PFT09.PrintingArchitecture.properties         PFT09.log4j.properties                        securityAdministration.properties
+PFT09.DocumentStorageService.properties       PFT09.RemoteFormsGenExclusions.properties     PFT09.tracing.properties
+PFT09.EnterpriseFormService.properties        PFT09.ViolaApplicationFilePath.properties     PFT09.violaFormGeneration.properties
+PFT09.FontLocation.properties                 PFT09.VirusScanUtility.properties             cmbicmsrvs.ini
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ sudo su - wasadmin
+Password:
+Sorry, try again.
+Password:
+[YOU HAVE NEW MAIL]
+ankcsepf1a08[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config/cseProperties
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls
+PFT09.AllowedCustOriginsWhiteList.properties  PFT09.FormsArchitecture.properties            PFT09.ecssivr.properties                      cmbpool.ini
+PFT09.CSEArchitecture.properties              PFT09.ImagingArchitecture.properties          PFT09.iVRInterface.properties                 cmgmt
+PFT09.CSEArchitecture.properties.10292018     PFT09.PrintingArchitecture.properties         PFT09.log4j.properties                        securityAdministration.properties
+PFT09.DocumentStorageService.properties       PFT09.RemoteFormsGenExclusions.properties     PFT09.tracing.properties
+PFT09.EnterpriseFormService.properties        PFT09.ViolaApplicationFilePath.properties     PFT09.violaFormGeneration.properties
+PFT09.FontLocation.properties                 PFT09.VirusScanUtility.properties             cmbicmsrvs.ini
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ vi PFT09.CSEArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="PFT09.CSEArchitecture.properties" 82 lines, 5906 characters [H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineTestingTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=true
+
+IdListPartitioningEnabled=true
+MinimumRowsPerPartition=5
+
+#---------- Self Service URL -----------------
+#selfservice.Url=https://ankcsepf1a09.dts.ca.gov
+selfservice.Url=https://sspft1.cse.ca.gov
+
+# Self Service Health Check Dummy Participant properties
+SS.Health.Check.PartId=1009638527410
+SS.Health.Check.CMID=A1001001A14E06B35741D35312
+
+
+#######################################################################################################################
+# Properties for Non Production Email Service
+#is.nonprod.env=true means it is a non-production environment.
+#invalid.domain.default.email=DCSSeDocDev@dcss.ca.gov means all the email from this environment sent to this email box.
+#nonprod.default.email.subject=Test Email from - This is default subject text appended in non-production environment.
+#env.instance=TEAM04 means non production environment instance.
+#######################################################################################################################
+is.nonprod.env=true
+invalid.domain.default.email=performanceselfservice@dcss.ca.gov
+nonprod.default.email.subject=Test Email from
+env.instance=PFT09
+
+# Mobile User Agent Detection String
+#Original Entry:
+primary.useragent.match.string=(?i).*((android|bb\\d+|meego).+mobile|android|avantgo|bada\\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od|ad)|iris|kindle|silk|lge |maemo|midp|mmp|netf
+ront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino).*
+
+#Changed entry:
+#primary.useragent.match.string=(?i).*((android|bb\d+|meego).+mobile|android|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od|ad)|iris|kindle|silk|lge |maemo|midp|mmp|netfr
+ont|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone|nt)|xda|xiino).*
+
+@[H[55B"PFT09.CSEArchitecture.properties" 82 lines, 5906 characters[H[H[2J#VIOLA login URL[H
+viola.login.url=https://violapft01.dcss.ca.gov
+
+# End point URL for VIOLA WebService############
+common.ws.producer.endpoint.url=http://ankcsepf1a09.dts.ca.gov/CommonWSProvider/CommonWebServices
+
+##################################################################
+# EFS  Web-Service REST API Configuration Properties[13C#
+##################################################################
+# These properties define the files to use for form and form set definitions.
+# Separate file names with commas.
+form-set-definitions-files=FormSetDefinitions.xml
+form-definitions-files=FormDefinitions.xml
+#EFS Form Set Definition Url
+efs.formsetdefinition.url=https://100.95.20.94/efs-pft09/efs/getFormSetDefinitions
+#EFS Form Definition Url
+efs.formdefinition.url=https://100.95.20.94/efs-pft09/efs/getFormDefinitions
+#Source of form configuration cache source - CSE or EFS (For CSE value is cse, for EFS value is efs)
+form.config.cache.source=cse
+
+#----------------------------------------------------------------#
+#   Customer Connect - google recaptcha[9Cadded 2019-10-31 #
+#----------------------------------------------------------------#
+#called from corsfliter to check if recaptcha has to be validated or not
+customerconnect.validate.recaptcha=false
+customerconnect.recaptcha.secretKey=6Lf7g8AUAAAAAEEtJNTytdZbd0NliuZ_MJzrvkWJ
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[27;1H[A[A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[31B:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls -la
+total 224
+drwxr-xr-x    3 wasadmin wasadmin       4096 Apr 19 2019  .
+drwxr-xr-x   11 wasadmin wasadmin       4096 Jun 19 2018  ..
+-rw-r--r--    1 wasadmin wasadmin        156 Apr  8 2019  PFT09.AllowedCustOriginsWhiteList.properties
+-rwxr-xr-x    1 wasadmin wasadmin       5906 Nov 13 12:03 PFT09.CSEArchitecture.properties
+-rwxr-x---    1 wasadmin wasadmin       4717 Oct 29 2018  PFT09.CSEArchitecture.properties.10292018
+-rwxr-xr-x    1 wasadmin wasadmin         42 Jun 28 2018  PFT09.DocumentStorageService.properties
+-rw-r-----    1 wasadmin wasadmin         73 Apr 22 2019  PFT09.EnterpriseFormService.properties
+-rwxr-xr-x    1 wasadmin wasadmin        533 Jun 28 2018  PFT09.FontLocation.properties
+-rwxr-xr-x    1 wasadmin wasadmin       1923 Jun 28 2018  PFT09.FormsArchitecture.properties
+-rwxr-xr-x    1 wasadmin wasadmin       6598 Jun 28 2018  PFT09.ImagingArchitecture.properties
+-rwxr-xr-x    1 wasadmin wasadmin       3502 Jun 28 2018  PFT09.PrintingArchitecture.properties
+-rwxr-xr-x    1 wasadmin wasadmin        226 Jun 28 2018  PFT09.RemoteFormsGenExclusions.properties
+-rwxr-xr-x    1 wasadmin wasadmin         94 Jun 28 2018  PFT09.ViolaApplicationFilePath.properties
+-rwxr-xr-x    1 wasadmin wasadmin        424 Jun 28 2018  PFT09.VirusScanUtility.properties
+-rwxr-xr-x    1 wasadmin wasadmin       1654 Jun 28 2018  PFT09.ecssivr.properties
+-rwxr-xr-x    1 wasadmin wasadmin        322 Oct  7 13:36 PFT09.iVRInterface.properties
+-rwxr-xr-x    1 wasadmin wasadmin       6303 Jun 28 2018  PFT09.log4j.properties
+-rwxr-xr-x    1 wasadmin wasadmin       9025 Nov 12 13:50 PFT09.tracing.properties
+-rwxr-xr-x    1 wasadmin wasadmin         61 Jun 28 2018  PFT09.violaFormGeneration.properties
+-rwxr-xr-x    1 wasadmin wasadmin        276 Jun 28 2018  cmbicmsrvs.ini
+-rwxr-xr-x    1 wasadmin wasadmin         36 Jun 28 2018  cmbpool.ini
+drwxr-xr-x    3 wasadmin wasadmin        256 Jun 19 2018  cmgmt
+-rwxr-xr-x    1 wasadmin wasadmin       1458 Jun 28 2018  securityAdministration.properties
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ history
+989     ls
+990     tail PFT09.CSEArchitecture.properties
+991     clear
+992     cd /cse/online/logs
+993     ls
+994     cd *Self*
+995     tail -f SystemOut.log
+996     grep google SystemOut.log
+997     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+998     ls
+999     vi PFT09.CSEArchitecture.properties
+1000    cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+1001    ls
+1002    vi PFT09.CSEArchitecture.properties
+1003    ls -la
+1004    history
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ history -1
+1004    history
+1005    history -1
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ history 1
+7       ls -la
+8       cd bin
+9       ls -la
+10      ./startNode.sh
+11      cd /usr
+12      ls -la
+13      cd WebSphere
+14      ls -la
+15      cd A*
+16      ls -la
+17      cd profiles
+18      ls -la
+19      cd D*
+20      cd bin
+21      ls -la
+22      ./startManager.sh
+23      db2set -all
+24      cd /usr/HTTPServer/IHS_85_IVR/conf
+25      ls -lrt
+26      cp -p httpd.conf httpd.conf.bkp11072018
+27      cd ..
+28      ls -lrt
+29      id
+30      exit
+31      xauth add ankcsepf1a08/unix:10  MIT-MAGIC-COOKIE-1  6f741f2b498e322780fc616e0baaf013
+32      export DISPLAY=localhost:10.0
+33      cd /usr
+34      ls
+35      cd HTTPServer
+36      ls
+37      cd bin
+38      ls
+39      cd IHS_85_IVR
+40      ls
+41      cd ssl
+42      ls -lrt
+43      mkdir ssl
+44      id
+45      chmod 755 ssl
+46      cd ssl
+47      ls
+48      cd ..
+49      cd bin
+50      ls
+51      ./ikeyman
+52      cd ..
+53      cd conf
+54      ls -lrt
+55      vi httpd.conf
+56      more httpd.conf
+57      cd /usr
+58      ls
+59      df -g
+60      exit
+61      sudo -l
+62      exit
+63      sudo -l
+64      cd /usr
+65      cd HTTPServer
+66      ls -lrt
+67      cd IHS_85_IVR
+68      ls -lrt
+69      cd conf
+70      ls -lrt
+71      vi httpd.conf
+72      cd ..
+73      exit
+74      cd /usr/HTTPServer/IHS_85_IVR/conf
+75      ls
+76      vi httpd.conf
+77      diff httpd.conf httpd.conf.bkp11072018
+78      ls /usr/WebSphere/Plugins_85_IVR/bin/32bits/mod_was_ap22_http.so
+79      ls /usr/WebSphere/Plugins_85_IVR/config/webserverivr/plugin-cfg.xml
+80      ls /usr/WebSphere/Plugins_85_IVR/config/webserverivr2/plugin-cfg.xml
+81      vi httpd.conf
+82      id
+83      exit
+84      cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+85      ls -lrt
+86      vi PFT09.iVRInterface.properties
+87      ls -lrt
+88      chmod 765 PFT09.iVRInterface.properties
+89      ls -lrt
+90      chmod 755 PFT09.iVRInterface.properties
+91      ls -lrt
+92      cd /cse
+93      ls
+94      cd online
+95      cd logs
+96      ls
+97      cd PFT09_SelfService_AP045_01
+98      ls
+99      cd /usr
+100     cd WebSphere
+101     ls
+102     cd AppServer_85
+103     ls
+104     cd profiles
+105     ls
+106     cd AppServer
+107     ls
+108     cd config
+109     ls
+110     cd cseProperties
+111     ls
+112     ls -lrt
+113     cd ..
+114     cd ..
+115     cd ..
+116     ls
+117     cd DeploymentManager
+118     ls
+119     cd config
+120     ls
+121     cd cseProperties
+122     ls -lrt
+123     ls -lrt
+124     more PFT09.iVRInterface.properties
+125     cd ..
+126     cd ..
+127     cd ..
+128     ls
+129     cd AppServer
+130     ls
+131     cd config
+132     ls
+133     cseProperties
+134     cd cseProperties
+135     ls -lrt
+136     ls -lrt
+137     ls -lrt
+138     cd /cse
+139     cd online
+140     ls
+141     cd logs
+142     ls
+143     cd PFT09_SelfService_AP045_01
+144     ls -lr
+145     tail -600f SystemOut.log
+146     cd /cse
+147     cd online
+148     ls
+149     cd applications
+150     ls
+151     ls -lrt
+152     cd PFT09_SelfService.ear
+153     ls
+154     ls -lrt
+155     cd SSWEB.war
+156     ls
+157     cd WEB-INF
+158     ls
+159     cd lib
+160     ls
+161     cd lib
+162     ls
+163     ls -lrt
+164     exit
+165     cd scripts
+166     ls
+167     ls -lrt
+168     cd scripts
+169     id
+170     mkdir scripts
+171     cd scripts
+172     mkdir logs
+173     mkdir properties
+174     cd properties
+175     ls
+176     id
+177     exit
+178     cd /tmp
+179     ls
+180     id
+181     ls -lrt
+182     cd
+183     cd scripts
+184     cp /tmp/ihs85Klogmaint.sh .
+185     cd properties
+186     cp /tmp/ihs85k.props .
+187     cd /tmp
+188     ls
+189     ls -lrt
+190     rm ihs85k.props
+191     exit
+192     cd scripts
+193     ls
+194     more ihs85Klogmaint.sh
+195     cd properties
+196     ls
+197     more ihs85k.props
+198     exit
+199     df -g /usr/HTTPLogs_IVR
+200     cd /usr
+201     ls -lrt
+202     cd /usr
+203     cd HTTPServer
+204     ls
+205     cd IHS_85_IVR
+206     ls
+207     cd conf
+208     ls -lrt
+209     vi httpd.conf
+210     diff httpd.conf httpd.conf.bkp11072018
+211     exit
+212     pwd
+213     ls -lrt
+214     id
+215     cd /usr
+216     ls
+217     cd HTTPServer
+218     ps -efa | grep httpd
+219     cd conf
+220     ls -lrt
+221     cd IHS_85_IVR
+222     ls -lrt
+223     cd conf
+224     ls
+225     ls -lrt
+226     cp -p httpd.conf httpd.conf.bkp01172019
+227     vi httpd.conf
+228     sudo -l
+229     exit
+230     cd /usr
+231     ls
+232     cd HTTPLogs_IVR
+233     ls -lrt
+234     mkdir archive
+235     ls -lrt
+236     exit
+237     cd scripts
+238     ls
+239     cd properties
+240     ls
+241     mv ihs85k.props ihs85IVR.props
+242     id
+243     ls -lrt
+244     vi ihs85IVR.props
+245     ls -lrt /usr/WebSphere/Plugins_85_IVR/logs/
+246     cd webserverivr2
+247     cd /usr/WebSphere/Plugins_85_IVR/logs/
+248     ls
+249     cd /usr/WebSphere/Plugins_85_IVR/
+250     ls
+251     cd logs
+252     ls
+253     cd webserverivr2
+254     ls -lrt
+255     cd ..
+256     ls -lrt
+257     cd webserverivr2
+258     ls -lrt
+259     cd ..
+260     ls
+261     cd ..
+262     s
+263     cd
+264     ls
+265     cd scripts
+266     ls
+267     ls -lrt
+268     mv ihs85Klogmaint.sh ihs85IVRlogmaint.sh
+269     ls -lrt
+270     more ihs85IVRlogmaint.sh
+271     cd properties
+272     ls
+273     more ihs85IVR.props
+274     cd ..
+275     ls
+276     vi ihs85IVRlogmaint.sh
+277     more ihs85IVRlogmaint.sh
+278     cd properties
+279     ls
+280     cd ..
+281     ks
+282     ls
+283     vi ihs85IVRlogmaint.sh
+284     vi ihs85IVRlogmaint.sh
+285     cd properties
+286     ls
+287     more ihs*
+288     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+289     cd ..
+290     cd logs
+291     ls
+292     ls -lrt
+293     more ihs85IVRlogmaint_zip.out
+294     cd ..
+295     ls -lrt
+296     chmod 774 ihs85IVRlogmaint.sh
+297     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+298     cd logs
+299     ls
+300     ls -lrt
+301     more ihs85IVRlogmaint_zip.out
+302     cd ..
+303     ls
+304     ls -lrt
+305     more ihs85IVRlogmaint.sh
+306     id
+307     ls
+308     cd logs
+309     ls
+310     ihs85IVRlogmaint_zip.out
+311     more ihs85IVRlogmaint_zip.out
+312     wich ksh
+313     whereis ksh
+314     cd ..
+315     ls
+316     vi ihs85IVRlogmaint.sh
+317     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+318     cd logs
+319     ls
+320     ls -lrt
+321     more ihs85IVRlogmaint_zip.out
+322     cd ..
+323     ls
+324     more ihs85IVRlogmaint.sh
+325     vi ihs85IVRlogmaint.sh
+326     ls -lrt
+327     cd ..
+328     ls
+329     ls -lrt
+330     ls -lrt *.sh
+331     more stopallappServers.sh
+332     ksh
+333     cd scripts
+334     ls
+335     cd logs
+336     ls -lrt
+337     cd ..
+338     ls
+339     vi test.sh
+340     chmod 774 test.sh
+341     ls -lrt
+342     ./test.sh
+343     rm test.sh
+344     cd logs
+345     ls
+346     rm ihs85IVRlogmaint_zip.out
+347     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+348     ls -lrt
+349     more ihs85IVRlogmaint_zip.out
+350     ls -lrt /home/wasadmin/scripts/ihs85IVRlogmaint.sh
+351     ls -lrt /home/wasadmin/scripts/properties/ihs85IVR.props
+352     more /home/wasadmin/scripts/properties/ihs85IVR.props
+353     cd ..
+354     ls -lrt
+355     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+356     cd logs
+357     ls -lrt
+358     more ihs85IVRlogmaint_zip.out
+359     cd ..
+360     ls
+361     more ihs85IVRlogmaint.sh
+362     cd logs
+363     ls
+364     more ihs85IVRlogmaint_zip.out
+365     ls -lrt /home/wasadmin/scripts/properties/ihs85IVR.props
+366     more /home/wasadmin/scripts/properties/ihs85IVR.props
+367     cd ..
+368     ls
+369     more ihs85IVRlogmaint.sh
+370     vi ihs85IVRlogmaint.sh
+371     1 0 * * * /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+372     cd logs
+373     ls -lr
+374     ls -lrt
+375     more ihs85IVRlogmaint_zip.out
+376     cd ..
+377     ls
+378     cp ihs85IVRlogmaint.sh test.sh
+379     ls
+380     ls -lrt
+381     vi test.sh
+382     ./test.sh
+383     cd properties
+384     ls
+385     ls -lrt
+386     more ihs85IVR.props
+387     ls -lrt /usr/HTTPLogs_IVR
+388     cd ..
+389     ls
+390     cd
+391     cd scripts
+392     ls -lrt
+393     cd properties
+394     ls
+395     cd ..
+396     ./test.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+397     cd logs
+398     ls
+399     more ihs85IVRlogmaint_zip.out
+400     cd ..
+401     ls -lrt
+402     ls -lrt /home/wasadmin/scripts/ihs85IVRlogmaint.sh
+403     history
+404     ls
+405     ./ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+406     cd logs
+407     ls -lrt
+408     more ihs85IVRlogmaint_zip.out
+409     more ihs85IVRlogmaint_zip.out
+410     /home/wasadmin/scripts/ihs85IVRlogmaint.sh -f /home/wasadmin/scripts/properties/ihs85IVR.props -sg > /home/wasadmin/scripts/logs/ihs85IVRlogmaint_zip.out 2>&1
+411     ps -efa | grep
+412     ps
+413     clear
+414     cd ..
+415     ls
+416     cd logs
+417     ls
+418     ls -lrt
+419     more ihs85IVRlogmaint_zip.out
+420     pwd
+421     more ihs85IVRlogmaint_zip.out
+422     id
+423     crontab -l
+424     crontab -e
+425     crontab -l
+426     cd ..
+427     ls
+428     cd /usr/HTTPLogs_IVR
+429     ls -lrt
+430     id
+431     cd ..
+432     cd /usr/HTTPLogs_IVR
+433     ls -lrt
+434     id
+435     chmod 0755 archive
+436     ls -lr
+437     ls -lrt
+438     cd archive
+439     ls
+440     cd ..
+441     ls
+442     cd access_log
+443     more access_log
+444     tail -300f access_log
+445     exit
+446     ps -ef |grep java
+447     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+448     ./stopMananger.sh
+449     ./stopManager.sh
+450     clear
+451     ps -ef |grep java
+452     cd /usr/WebSphere
+453     ls -al
+454     cd I*r
+455     ls -la
+456     cd eclipse
+457     ls -al
+458     exit
+459     cd /usr/WebSphere
+460     ls -la
+461     cd AppServer_85
+462     cd profiles
+463     cd D*
+464     cd bin
+465     ./startManager.sh
+466     ps -ef |grep java
+467     cd ../..
+468     cd A*
+469     cd bin
+470     ./startNode.sh
+471     cd /usr/WebSphere/AppServer_85/bin
+472     ./versionInfo.sh
+473     cd /usr/HTTPServer
+474     cd IH*
+475     cd bin
+476     ./versionInfo.sh
+477     cd /usr/WebSphere/Plugins_85_IVR/bin
+478     ./versionInfo.sh
+479     exit
+480     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+481     vi PFT09.CSEArchitecture.properties
+482     exit
+483     /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts.20190214
+484     cp /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts.20190214
+485     chmod 777 /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts
+486     exit
+487     clear
+488     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/
+489     ls -ltr
+490     cp cacerts.20190214 cacerts
+491     clear
+492     cp -p /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts.20190220
+493     ls -ltr /tmp/*crt
+494     cp /tmp/pft*.crt .
+495     ls -ltr
+496     /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/bin/keytool -import -file /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/pft1ws1.crt -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1ws1-20190220
+497     /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/bin/keytool -import -file /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/pft1ws2.crt -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1ws2-20190220
+498     logs
+499     exit
+500     clear
+501     pwd
+502     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+503     clear
+504     ls
+505     grep 100 *CSEArch*
+506     cd /usr
+507     cd HTTPServer
+508     ls
+509     cd IHS_85_IVR
+510     cd conf
+511     ls
+512     ls -lrt
+513     cp -p httpd.conf httpd.conf.bkp03012019
+514     ls -lrt
+515     vi httpd.conf
+516     diff httpd.conf httpd.conf.bkp03012019
+517     exit
+518     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+519     ./stopManager.sh
+520     ps -ef |grep java
+521     cd /usr/WebSphere/I*r
+522     cd eclipse
+523     ./IBMIM
+524     exit
+525     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+526     id
+527     ./startManager.sh
+528     view /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr
+529     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+530     ls -la
+531     mv US_export_policy.jar US_export_policy.jar.FP14
+532     mv local_policy.jar.FP14
+533     mv local_policy.jar local_policy.jar.FP14
+534     cd /usr/WebSphere/AppServer_85/java/jre/lib/security/
+535     ls -la
+536     id
+537     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+538     ./startManager.sh
+539     cd /usr/WebSphere
+540     ls -la
+541     cd jlib
+542     ls -la
+543     chmod 755 *.jar
+544     ls -la
+545     ls -l
+546     cd /swstage
+547     ls -al
+548     cd unrestrictedpolicyfiles
+549     ls -la
+550     cp -p copy_jars.sh /usr/WebSphere/jlib
+551     ls -al
+552     cd /usr/WebSphere/jlib
+553     ls -al
+554     ls -l
+555     ./copy_jars.sh
+556     id
+557     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/
+558     ls -la
+559     cd /usr/WebSphere/AppServer_85/java/jre/lib/security/
+560     ls -la
+561     cd /usr/WebSphere/AppServer_85/
+562     cd profiles
+563     cd D*
+564     cd bin
+565     id
+566     ./startManager.sh
+567     ps -ef |grep java
+568     cd ..
+569     cd ..
+570     cd A(
+571     cd A*
+572     cd bin
+573     ./startNode.sh
+574     cd /swstage
+575     cd un*
+576     ls -la
+577     view copy_jars.sh
+578     cat
+579     cd /usr/WebSphere/AppServer_85/profiles/AppServer/bin
+580     ./versionInfo.sh
+581     cat
+582     cd ../..
+583     cd D*/bin
+584     id
+585     ./stopManager.sh
+586     ps -ef |grep java
+587     ./startManager.sh
+588     cd ../../A*/bin
+589     ./startNode.sh
+590     exit
+591     clear
+592     cd /usr/WebSphere/AppServer_85/profiles/AppS*/cofig/cseProperties
+593     cd /usr/WebSphere/AppServer_85/profiles/
+594     ls App*
+595     ls -lad App*(
+596     clear
+597     ls -lad App*
+598     cd AppServer/config/cseProperties
+599     ls
+600     vi PFT09.log4j.properties
+601     cd /usr
+602     cd HTTPServer
+603     cd IHS*
+604     cd conf
+605     ls
+606     ls -lrt
+607     diff httpd.conf httpd.conf.bkp03012019
+608     vi httpd.conf
+609     diff httpd.conf httpd.conf.bkp03012019
+610     id
+611     exit
+612     clear
+613     cd hchacda
+614     ls
+615     clear
+616     md hchada
+617     mkdir hchada
+618     cd hch
+619     cd hchada
+620     clear
+621     ls
+622     scp cg1p10a:/tmp/*.py .
+623     scp hchada@cg1p10a:/tmp/*.py .
+624     ls
+625     bash
+626     exit
+627     cd hch
+628     bash
+629     cd /usr/WebSphere
+630     ls
+631     cd App*
+632     ls
+633     cd profiles
+634     ls
+635     cd App*
+636     ls
+637     cd logs
+638     ls
+639     cd PFT09_SelfService_AP045_01
+640     ls
+641     ls -latr
+642     ln -s SystemOut.log /cse/online/logs/PFT09_SelfService_AP045_01//SystemOut.log
+643     ls -latr
+644     touch SystemOut.log
+645     ln -s SystemOut.log /cse/online/logs/PFT09_SelfService_AP045_01//SystemOut.log
+646     ls
+647     rm SystemOut.log
+648     ls -latr /cse/online/logs/PFT09_SelfService_AP045_01/SystemOut.log
+649     ln -s SystemOut.log /cse/online/logs/PFT09_SelfService_AP045_01/SystemOut.log
+650     touch SystemOut.log
+651     ln -s SystemOut.log /cse/online/logs/PFT09_SelfService_AP045_01/SystemOut.log
+652     ls -latr
+653     rm -r SystemOut.log
+654     ln -s SystemOut.log /cse/online/logs/PFT09_SelfService_AP045_01/SystemOut.log
+655     ln -s /cse/online/logs/PFT09_SelfService_AP045_01/SystemOut.log SystemOut.log
+656     ls -latr
+657     hostname;ls -latr SystemOut.log
+658     cd /usr/WebSphere
+659     ls
+660     cd App*
+661     ls
+662     cd profiles
+663     ls
+664     cd Deployment
+665     cd Deploy*
+666     ls
+667     cd bin
+668     ls
+669     id
+670     ./stopManager.sh
+671     id
+672     ./startManager.sh
+673     cd ..
+674     cd ..
+675     ls
+676     cd App*
+677     ls
+678     cd bin
+679     ls
+680     ./startNode.sh
+681     cd /usr/WebSphere/App*
+682     ls
+683     cd profiles
+684     ls
+685     cd Dep*
+686     cd bin
+687     ls
+688     id
+689     ./stopManager.sh
+690     cd ..
+691     cd .logs
+692     cd logs
+693     ls
+694     cd dmgr
+695     ls
+696     ls -latr
+697     cd ..
+698     cd ..
+699     cd bin
+700     ls
+701     ./startManager.sh
+702     cd ../..
+703     cd App*
+704     ls
+705     cd logs
+706     ls
+707     cd nodeagent
+708     ls
+709     ls -latr
+710     cd ..
+711     cd ..
+712     cd bin
+713     ls
+714     ./startNode.sh
+715     exit
+716     cd /usr
+717     ls -la
+718     cd WebSphere
+719     ls -la
+720     cd A*
+721     ls -la
+722     cd profiles
+723     ls -la
+724     cd D*
+725     cd bin
+726     ls -la
+727     ./startManager.sh
+728     ssh cg1p23a
+729     ssh ch1p22a
+730     cd /usr/WebSphere/AppServer_85/profiles/AppServer/bin
+731     ls -la
+732     ./startNode.sh
+733     ssh ankcsepf1a02
+734     cd usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/
+735     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties/
+736     cp /home/ryoung/jython/custconn/PFT09.AllowedcustOriginsWhiteList.properties PFT09.AllowedCustOriginsWhiteList.properties
+737     cd ../../..
+738     cd D*/bin
+739     wsadmin.sh -lang jython -f /home/ryoung/jython/custconn/createCellURL.py /home/ryoung/jython/custconn/pft09url.properties
+740     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+741     ls
+742     ls -lrt
+743     history
+744     cp -p /home/ryoung/jython/custconn/PFT09.AllowedCustOriginsWhiteList.properties /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+745     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+746     wsadmin.sh -lang jython -f /home/ryoung/jython/custconn/createCellURL.py /home/ryoung/jython/custconn/pft09url.properties
+747     exit
+748     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin
+749     wsadmin.sh -f /home/ryoung/jython/custconn/createCellURL.py /home/ryoung/jython/custconn/pft09url.properties
+750     history
+751     cd ../../
+752     ls
+753     cd AppServer
+754     ls
+755     cd config/cseP*
+756     ls -lrt
+757     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config
+758     cd ../bin
+759     bash
+760     openssl s_client -connect ch1p22a:21001
+761     cd /cse
+762     cd online
+763     cd logs
+764     ls -al
+765     cd PFT09_SelfService_AP045_01
+766     ls -al
+767     more SystemOut.log
+768     cd ..
+769     ls
+770     cd PFT09_Viola_h22_01
+771     ls -al
+772     more SystemOut.log
+773     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+774     vi PFT09.EnterpriseFormService.properties
+775     cd ..
+776     cd ..
+777     cd ..
+778     ls
+779     cd DeploymentManager
+780     ls
+781     cd config/cseP*
+782     ls
+783     vi PFT09.EnterpriseFormService.properties
+784     tail PFT09.CSEArchitecture.properties
+785     cd /cse/online/logs
+786     ls
+787     cd PFT09_SelfService_AP045_01
+788     vi SystemOut.log
+789     tail -f SystemOut.log
+790     vi SystemOut.log
+791     tail SystemOut.log
+792     bash
+793     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+794     vi PFT09.AllowedCustOriginsWhiteList.properties
+795     vi PFT09.CSEArchitecture.properties
+796     exit
+797     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+798     cp /tmp/pft1efs.crt .
+799      cp -p cacerts cacerts.20190603
+800     ../../bin/keytool -import -file /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/pft1efs.crt -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1efs
+801     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+802     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft
+803     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1ws1-20190220
+804     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1ws2-20190220
+805     exit
+806     clear
+807     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/
+808     clear
+809     ls -lagrt
+810     clear
+811     ls
+812     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft
+813     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1efs
+814     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft
+815     cp /tmp/pft1efs.crt .
+816     ../../bin/keytool -import -file /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/pft1efs.crt -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1efs
+817     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft
+818     clear
+819     ls
+820     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+821     clear
+822     cp /tmp/pft1*.crt .
+823     clear
+824     ls pft1*new*
+825     clear
+826     cp -p cacerts cacerts-07102019
+827     ../../bin//usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -alias pft1efs
+828     ../../bin/keytool -list -v -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1efs
+829     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1ws1
+830     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1efs
+831     ../../bin/keytool -import -file /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/pft1efs-new.crt -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1efs
+832     clear
+833     pwd
+834     clear
+835     ls cacerts*
+836     ls -la certs*
+837     clear
+838     ls -lagrt cacerts
+839     ls -lagrt cacerts*
+840     ls cacerts*
+841     cp cacerts.20190603 cacerts
+842     clear
+843     ../../bin/keytool -list -v -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit -alias pft1efs
+844     ../../bin/keytool -list -v -keystore /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security/cacerts -storepass changeit | grep pft
+845     ls -la pft1*
+846     cdcsep
+847     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+848     ls
+849     vi PFT09.CSEArchitecture.properties
+850     exit
+851     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+852     clear
+853     ls
+854     cp cacerts cacerts-08282019
+855     clear
+856     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft1ws1
+857     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft
+858     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1ws1-20190220
+859     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1ws1-20190220
+860     clear
+861     clear
+862     ls
+863     ls pft1*
+864     ../../bin/keytool -import -file pft1efs-new.crt -keystore cacerts -storepass changeit -alias pft1efs
+865     CLEAR
+866     clear
+867     cd /cse/online/logs
+868     ls
+869     cd PFT*Online*1
+870     clear
+871     tail -f SystemOut.log
+872     ls
+873     cd PFT09_SelfService_AP045_01
+874     ls
+875     tail -f SystemOut.log
+876     clear
+877     whoami
+878     exit
+879     clear
+880     whoami
+881     cd /usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+882     clear
+883     ls
+884     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep pft1
+885     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias pft1efs
+886     clear
+887     whoami
+888     cp /tmp/efspft1-.crt .
+889     clear
+890     ls efspft1*
+891     ../../bin/keytool -import -file efspft1-.crt -keystore cacerts -storepass changeit -alias efspft1-08282019
+892     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep efspft1
+893     clear
+894     whoami
+895     ls -la /tmp/efs*
+896     clear
+897     whoami
+898     ../../bin/keytool -list -v -keystore cacerts -storepass changeit | grep efspft1-08282019
+899     cp /tmp/efspft1-.crt .
+900     ../../bin/keytool -delete -keystore cacerts -storepass changeit -alias efspft1-08282019
+901     ../../bin/keytool -import -file efspft1-.crt -keystore cacerts -storepass changeit -alias efspft1-08282019
+902     cd /cse/online/logs
+903     ls
+904     cd PFT09_SelfService_AP045_01
+905     ls
+906     tail -f SystemOut.log
+907     tail SystemOut.log | grep e-business
+908     pwd
+909     ls -lrt
+910     df -g .
+911     cd /usr
+912     cd WebSphere
+913     ls
+914     cd App*
+915     cd profiles
+916     cd Depl*
+917     ls -lrt
+918     cd config
+919     cd csePro*
+920     ls
+921     ls -lrt
+922     ls -lrt *iVR*
+923     vi PFT09.iVRInterface.properties
+924     cd ..
+925     cd ..
+926     cd ..
+927     cd AppServer
+928     ls
+929     ls -lrt
+930     df -g .
+931     rm core.20180703.132820.20054180.0001.dmp
+932     rm Snap.20180703.132820.20054180.0003.trc
+933     rm jitdump.20180703.132820.20054180.0004.dmp
+934     pwd
+935     ls
+936     cd cse
+937     cd config
+938     cd csePro*
+939     ls -lrt
+940     more PFT09.iVRInterface.properties
+941     cd /usr/WebSphere/AppServer_85_CF_SS/profiles/A*
+942     cd bin
+943     ./startNode.sh
+944     ps -ef |grep CF
+945     cat
+946     exit
+947     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+948     vi PFT09.CSEArchitecture.properties
+949     cd /usr/WebSphere/AppServer_85/profiles/D*/config/cseP*
+950     ls
+951     vi PFT09.tracing.properties
+952     cd /usr/WebSphere/AppServer_85/profiles/A*/config/cseP*
+953     ls -lrt
+954     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+955     vi PFT09.CSEArchitecture.properties
+956     vi PFT09.tracing.properties
+957     cd /cse/online/logs
+958     ls
+959     more PFT09_SelfService_AP045_01
+960     cd PFT09_SelfService_AP045_01
+961     ls
+962     more SystemOut.log
+963     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+964     ls
+965     vi PFT09.CSEArchitecture.properties
+966     cd ../../bin
+967     ls
+968     ls -lrt
+969     cd /cse/online/logs
+970     ls
+971     cd PFT09_SelfService_AP045_01
+972     tail -f SystemOut.log
+973     exit
+974     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+975     vi PFT09.CSEArchitecture.properties
+976     cd /cse/online/logs
+977     cd PFT09_SelfService_AP045_01
+978     tail -f SystemOut.log
+979     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+980     vi PFT09.CSEArchitecture.properties
+981     cd ..
+982     cd ..
+983     cd ..
+984     cd D*
+985     cd config/cseP*
+986     ls
+987     vi PFT09.CSEArchitecture.properties
+988     cd /usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties
+989     ls
+990     tail PFT09.CSEArchitecture.properties
+991     clear
+992     cd /cse/online/logs
+993     ls
+994     cd *Self*
+995     tail -f SystemOut.log
+996     grep google SystemOut.log
+997     cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+998     ls
+999     vi PFT09.CSEArchitecture.properties
+1000    cd /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties
+1001    ls
+1002    vi PFT09.CSEArchitecture.properties
+1003    ls -la
+1004    history
+1005    history -1
+1006    history 1
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ wget
+ksh: wget:  not found
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl s _client -connect www.google.com:443 2>&1 < /dev/null | sed -n '/-----BEGIN/,/-----END/p'
+-----BEGIN CERTIFICATE-----
+MIIFiDCCBHCgAwIBAgIQHWTdhzFVEBIIAAAAAB2KUTANBgkqhkiG9w0BAQsFADBC
+MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTE5MTEwNTA3NDY0NVoXDTIwMDEyODA3NDY0
+NVowaDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxFzAVBgNVBAMTDnd3
+dy5nb29nbGUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnJgX
+W1TpXnWy5HhkHTeNO8ZZWDMk8D5M3OKoTkFeBluUuZViRJjjQmQRXGS23ExON7Hx
+DBcVFfHBVsVww44fbJ54H1gZUdRjOKoeIsXvNZmGzypmcgFzjUZKdO54oIm2HrdF
+57ylP/52FwTe5C5+vRc4sZU88HDkwlCci16PWaZc3AxLcgXh4+Ug7gJpsA693YwN
+6Sprbj7CIZkbnER1cx6eJqQMQS+WZqxGO+EZ9/gzoEk43iXvc0h3ym1lxrhzvpll
+CJTHy7goxIqYWrmDC8CvkHJNIXT+Ef7+E0ELX5a1D2o6v9m5tJ+8+C25jflCY5Tn
+p4y0ATD0rCL4eMB5VQIDAQABo4ICUjCCAk4wDgYDVR0PAQH/BAQDAgWgMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFI8IoqGI/gNo
+gk9+UyaxH5fN4FNVMB8GA1UdIwQYMBaAFJjR+G4Q68+b7GCfGJAboOt9Cf0rMGQG
+CCsGAQUFBwEBBFgwVjAnBggrBgEFBQcwAYYbaHR0cDovL29jc3AucGtpLmdvb2cv
+Z3RzMW8xMCsGCCsGAQUFBzAChh9odHRwOi8vcGtpLmdvb2cvZ3NyMi9HVFMxTzEu
+Y3J0MBkGA1UdEQQSMBCCDnd3dy5nb29nbGUuY29tMCEGA1UdIAQaMBgwCAYGZ4EM
+AQICMAwGCisGAQQB1nkCBQMwLwYDVR0fBCgwJjAkoCKgIIYeaHR0cDovL2NybC5w
+a2kuZ29vZy9HVFMxTzEuY3JsMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUAsh4F
+zIuizYogTodm+Su5iiUgZ2va+nDnsklTLe+LkF4AAAFuOr6u3QAABAMARjBEAiBx
+ztOai+sfSxUPAuXCzC2IDuAeMFn1BpVAAM9vZRBObgIgB1PmlBlsep00sBT18N62
+LQ9vBuV9pyxmgWoSGUH6JLMAdQBep3P531bA57U2SH3QSeAyepGaDIShEhKEGHWW
+gXFFWAAAAW46vq8IAAAEAwBGMEQCIHcaUVwgKTqCc0bikByfg+QScRJXNb/L+kk4
+fmQ5fF2RAiBTAssrlAWJNnMy/juCtre7ljiEMJQxKnMqfzccxajqVDANBgkqhkiG
+9w0BAQsFAAOCAQEAEwVE6p1dClHueci6zi3b89GDXJpqdF/iLCXNEaatoHG/dWs8
+m8tSLBA+RUgp+6U6O6Lh3ulOkvqmt4GJ4Rv3E5piQtMxZUWqkz6QQFbehhlMKxlq
+b9NcF8CnnB/l7yWkmTUstHeA7q5dplz/iufFIEDabAHiIicNBKA6bGckLiyexNSO
+pRNm4WKxoCyQOabtB7/ZRt1MCIY93Q6GIWPeNg7TwluC4Ly4sghZT4impLimtTuA
+4LwAcxaDGYplz99dMbgGSvzJTpwFPia7uEO8WPOZ5nQ9Q6Zqn2AxhMGHCiTZDKhg
+YhOLrlr5cGF/5E7Dg90s2uEV+2RF7yiVjBvlKQ==
+-----END CERTIFICATE-----
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl s _client -connect www.google.com:443 2>&1 < /dev/null | sed -n '/-----BEGIN/,/-----END/p'openssl s _client -connect www.google.com:443 2>&1 < /dev/null |sed -n '/-----BEGIN/,/-----END/p' ed -n '/-----BEGIN/,/-----END/p' d -n '/-----BEGIN/,/-----END/p'  -n '/-----BEGIN/,/-----END/p' -n '/-----BEGIN/,/-----END/p' n '/-----BEGIN/,/-----END/p'  '/-----BEGIN/,/-----END/p' '/-----BEGIN/,/-----END/p' /-----BEGIN/,/-----END/p' -----BEGIN/,/-----END/p' ----BEGIN/,/-----END/p' ---BEGIN/,/-----END/p' --BEGIN/,/-----END/p' -BEGIN/,/-----END/p' BEGIN/,/-----END/p' EGIN/,/-----END/p' GIN/,/-----END/p' IN/,/-----END/p' N/,/-----END/p' /,/-----END/p' ,/-----END/p' /-----END/p' -----END/p' ----END/p' ---END/p' --END/p' -END/p' END/p' ND/p' D/p' /p' p' '  | grep 'Distribution'
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl s _client -connect www.google.com:443 2>&1 < /dev/null | grep 'Distribution'openssl s _client 
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl x509 -noout -text -in www.    
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl s _client -connect www.google.com:443 2>&1 < /dev/null | grep 'Distribution'openssl s _client -connect www.google.com:443 2>&1 < /dev/null | sed -n '/-----BEGIN/,/-----END/p'openssl s _client -connect www.google.com:443 2>&1 < /dev/null | sed -n '/-----BEGIN/,/-----END/p' > google.pem
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl x509 -noout -text -in google.pem | grep 'Distribution'
+            X509v3 CRL Distribution Points: 
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ openssl x509 -noout -text -in google.pem | grep 'Distribution'openssl x509 -noout -text -in google.pem | grep 'istribution' stribution' tribution' ribution' ibution' bution' ution' tion' ion' on' n' '          
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            1d:64:dd:87:31:55:10:12:08:00:00:00:00:1d:8a:51
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Google Trust Services, CN=GTS CA 1O1
+        Validity
+            Not Before: Nov  5 07:46:45 2019 GMT
+            Not After : Jan 28 07:46:45 2020 GMT
+        Subject: C=US, ST=California, L=Mountain View, O=Google LLC, CN=www.google.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:9c:98:17:5b:54:e9:5e:75:b2:e4:78:64:1d:37:
+                    8d:3b:c6:59:58:33:24:f0:3e:4c:dc:e2:a8:4e:41:
+                    5e:06:5b:94:b9:95:62:44:98:e3:42:64:11:5c:64:
+                    b6:dc:4c:4e:37:b1:f1:0c:17:15:15:f1:c1:56:c5:
+                    70:c3:8e:1f:6c:9e:78:1f:58:19:51:d4:63:38:aa:
+                    1e:22:c5:ef:35:99:86:cf:2a:66:72:01:73:8d:46:
+                    4a:74:ee:78:a0:89:b6:1e:b7:45:e7:bc:a5:3f:fe:
+                    76:17:04:de:e4:2e:7e:bd:17:38:b1:95:3c:f0:70:
+                    e4:c2:50:9c:8b:5e:8f:59:a6:5c:dc:0c:4b:72:05:
+                    e1:e3:e5:20:ee:02:69:b0:0e:bd:dd:8c:0d:e9:2a:
+                    6b:6e:3e:c2:21:99:1b:9c:44:75:73:1e:9e:26:a4:
+                    0c:41:2f:96:66:ac:46:3b:e1:19:f7:f8:33:a0:49:
+                    38:de:25:ef:73:48:77:ca:6d:65:c6:b8:73:be:99:
+                    65:08:94:c7:cb:b8:28:c4:8a:98:5a:b9:83:0b:c0:
+                    af:90:72:4d:21:74:fe:11:fe:fe:13:41:0b:5f:96:
+                    b5:0f:6a:3a:bf:d9:b9:b4:9f:bc:f8:2d:b9:8d:f9:
+                    42:63:94:e7:a7:8c:b4:01:30:f4:ac:22:f8:78:c0:
+                    79:55
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                8F:08:A2:A1:88:FE:03:68:82:4F:7E:53:26:B1:1F:97:CD:E0:53:55
+            X509v3 Authority Key Identifier: 
+                keyid:98:D1:F8:6E:10:EB:CF:9B:EC:60:9F:18:90:1B:A0:EB:7D:09:FD:2B
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.pki.goog/gts1o1
+                CA Issuers - URI:http://pki.goog/gsr2/GTS1O1.crt
+
+            X509v3 Subject Alternative Name: 
+                DNS:www.google.com
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.2
+                Policy: 1.3.6.1.4.1.11129.2.5.3
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.pki.goog/GTS1O1.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : B2:1E:05:CC:8B:A2:CD:8A:20:4E:87:66:F9:2B:B9:8A:
+                                25:20:67:6B:DA:FA:70:E7:B2:49:53:2D:EF:8B:90:5E
+                    Timestamp : Nov  5 08:46:45.469 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:71:CE:D3:9A:8B:EB:1F:4B:15:0F:02:E5:
+                                C2:CC:2D:88:0E:E0:1E:30:59:F5:06:95:40:00:CF:6F:
+                                65:10:4E:6E:02:20:07:53:E6:94:19:6C:7A:9D:34:B0:
+                                14:F5:F0:DE:B6:2D:0F:6F:06:E5:7D:A7:2C:66:81:6A:
+                                12:19:41:FA:24:B3
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : 5E:A7:73:F9:DF:56:C0:E7:B5:36:48:7D:D0:49:E0:32:
+                                7A:91:9A:0C:84:A1:12:12:84:18:75:96:81:71:45:58
+                    Timestamp : Nov  5 08:46:45.512 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:77:1A:51:5C:20:29:3A:82:73:46:E2:90:
+                                1C:9F:83:E4:12:71:12:57:35:BF:CB:FA:49:38:7E:64:
+                                39:7C:5D:91:02:20:53:02:CB:2B:94:05:89:36:73:32:
+                                FE:3B:82:B6:B7:BB:96:38:84:30:94:31:2A:73:2A:7F:
+                                37:1C:C5:A8:EA:54
+    Signature Algorithm: sha256WithRSAEncryption
+         13:05:44:ea:9d:5d:0a:51:ee:79:c8:ba:ce:2d:db:f3:d1:83:
+         5c:9a:6a:74:5f:e2:2c:25:cd:11:a6:ad:a0:71:bf:75:6b:3c:
+         9b:cb:52:2c:10:3e:45:48:29:fb:a5:3a:3b:a2:e1:de:e9:4e:
+         92:fa:a6:b7:81:89:e1:1b:f7:13:9a:62:42:d3:31:65:45:aa:
+         93:3e:90:40:56:de:86:19:4c:2b:19:6a:6f:d3:5c:17:c0:a7:
+         9c:1f:e5:ef:25:a4:99:35:2c:b4:77:80:ee:ae:5d:a6:5c:ff:
+         8a:e7:c5:20:40:da:6c:01:e2:22:27:0d:04:a0:3a:6c:67:24:
+         2e:2c:9e:c4:d4:8e:a5:13:66:e1:62:b1:a0:2c:90:39:a6:ed:
+         07:bf:d9:46:dd:4c:08:86:3d:dd:0e:86:21:63:de:36:0e:d3:
+         c2:5b:82:e0:bc:b8:b2:08:59:4f:88:a6:a4:b8:a6:b5:3b:80:
+         e0:bc:00:73:16:83:19:8a:65:cf:df:5d:31:b8:06:4a:fc:c9:
+         4e:9c:05:3e:26:bb:b8:43:bc:58:f3:99:e6:74:3d:43:a6:6a:
+         9f:60:31:84:c1:87:0a:24:d9:0c:a8:60:62:13:8b:ae:5a:f9:
+         70:61:7f:e4:4e:c3:83:dd:2c:da:e1:15:fb:64:45:ef:28:95:
+         8c:1b:e5:29
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet http://crl.pki.goog/GTS1O1.crl 80                                   c r l . p k i . g o o g   8 0 
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+
+
+telnet> quit
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET /GTS1O1.crl
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1571
+Date: Wed, 13 Nov 2019 20:43:39 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/GTS1O1.crl</code> was not found on this server.  <ins>That’s all we know.</ins>
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET /GTS1O1.crl HTTP/1.0
+
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1571
+Date: Wed, 13 Nov 2019 20:44:17 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/GTS1O1.crl</code> was not found on this server.  <ins>That’s all we know.</ins>
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET GTS1O1.crl HTTP/1.0
+
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1561
+Date: Wed, 13 Nov 2019 20:46:12 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/</code> was not found on this server.  <ins>That’s all we know.</ins>
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET /GTS1O1.crl HTTP/1.0
+
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1571
+Date: Wed, 13 Nov 2019 20:46:22 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/GTS1O1.crl</code> was not found on this server.  <ins>That’s all we know.</ins>
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ps -ef | grep dmgr
+wasadmin 11600108        1   0   Apr 19      - 834:51 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=55392 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config ch1p22aCell01 ch1p22aCellManager01 dmgr
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ps -ef | grep dmgrtelnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET GTS1O1.crl HTTP/1.0
+
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1561
+Date: Wed, 13 Nov 2019 20:54:04 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/</code> was not found on this server.  <ins>That’s all we know.</ins>
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET /GTS1O1.crl HTTP/1.1
+
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1571
+Date: Wed, 13 Nov 2019 20:57:02 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That’s an error.</ins>
+  <p>The requested URL <code>/GTS1O1.crl</code> was not found on this server.  <ins>That’s all we know.</ins>
+
+
+
+Connection closed.
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ 
+shell will time out in 60 seconds
+ksh: timed out waiting for input
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ 
+ankcsepf1a08[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ 
+shell will time out in 60 seconds
+ksh: timed out waiting for input

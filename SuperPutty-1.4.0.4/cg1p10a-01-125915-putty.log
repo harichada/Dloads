@@ -1,0 +1,118 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.01 12:59:15 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-328 Your password will expire: Mon Oct 14 15:14:12 PDT 2019
+Last unsuccessful login: Mon Sep 16 12:36:06 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct  1 12:11:44 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyta01[/home/hchada]$ id |   raji
+3004-820 User not found in /etc/passwd file
+ankcsesyta01[/home/hchada]$ id  more /etc/passwd
+[?1049h[95;1H[Kroot:!:0:0::/home/root:/usr/bin/ksh
+tmroot:!:0:1::/home/hw/tech/tmroot:/usr/bin/ksh
+wasroot:!:0:1::/home/hw/tech/wasroot:/usr/bin/ksh
+daemon:!:1:1:daemon, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/etc:
+bin:!:2:2:bin, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/bin:
+sys:!:3:3:sys, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/usr/sys:
+adm:!:4:4:adm, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/var/adm:
+uucp:!:5:5:uucp, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/usr/lib/uucp:
+nobody:!:-2:-2:nobody, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/:
+lpd:!:9:-2:lpd, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/:
+nuucp:!:6:5:nuucp, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/var/spool/uucppublic:/usr/sbin/uucp/uucico
+uidadmin:!:251:666:uidadmin, 897/I/784891//Pannell IV,  William M. (Mitch), , , CD=20100318, RI=XBDA4E3Y:/home/uidadmin:/usr/
+bin/ksh
+wasadmin:!:5465:360:WASADMIN,897/E/C-3k5p//TD=20100804,RI=XBDA4JBP,WASADMIN:/home/wasadmin:/usr/bin/ksh
+db2cinst:!:5422:368:db2cinst, 897/I/892534//VanHooker,  Peter L., , , , :/insthome/db2cinst:/usr/bin/ksh
+kpoland:!:103829:900:kpoland, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Kyle Poland, #CUST#, CSEH, Kyle.poland@ftb.ca.gov, F,
+ #cust#, , , :/home/kpoland:/usr/bin/ksh
+spforbes:!:102625:900:spforbes, 897/I/037255//Forbes,  Susan P., , , , :/home/spforbes:/usr/bin/ksh
+maestro:!:5538:370:maestro, 897/I/798609//Gong,  Vincent, , , , :/maestro:/usr/bin/ksh
+ivmgr:!:271:218:ivmgr, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Customer ID , DO NOT DELETE, #cust#, , , :/opt/PolicyDirecto
+r:/usr/bin/ksh
+tivoli:!:241:1:tivoli, 897/I/5A4555//Ray,  Bryan C., , , , :/home/tivoli:/usr/bin/ksh
+syt01:!:103968:1:syt01, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canapa@ftb.ca.gov, F, #cust
+#, , , :/home/syt01:/usr/bin/ksh
+syt02:!:103969:1:syt02, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt02:/usr/bin/ksh
+syt04:!:13971:1:syt04, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust#
+, , , :/home/syt04:/usr/bin/ksh
+syt06:!:103973:1:syt06, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt06:/usr/bin/ksh
+syt07:!:103974:1:syt07, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt07:/usr/bin/ksh
+syt08:!:103975:1:syt08, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt08:/usr/bin/ksh
+syt11:!:103979:1:syt11, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt11:/usr/bin/ksh
+syt12:!:103951:1:syt12, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, #CUST#, CSEH, john.canepa@ftb.ca.gov, F, #cust
+#, , , :/home/syt12:/usr/bin/ksh
+deploy1:!:50614:1:deploy1, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Kyle Poland, CSEH ID, na, kyle.poland@ftb.ca.gov, F, #cu
+st#, , , :/home/deploy1:/usr/bin/ksh
+peigster:!:103923:1:peigster, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Penni Eigster, Ser#Cust#, cseh, 916.290.8860, penni.e
+igster@ftb.ca.gov, #cust#, , , :/home/peigster:/usr/bin/ksh
+lhazelwo:!:103920:1:lhazelwo, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Lee Hazelwood, Ser#Cust#, cseh, 916.290.8890, lee.haz
+elwood@ftb.ca.gov, #cust#, , , :/home/lhazelwo:/usr/bin/ksh
+lsee:!:104298:1:lsee, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Linda See, #CUST#, CSEH, nophone, Linda.See@ftb.ca.gov, F, #c
+ust#, , , :/home/lsee:/usr/bin/ksh
+cseadmin:!:103956:900:cseadmin, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ John Canepa, CSEH ID, na, john.canepa@ftb.ca.gov, F
+, #cust#, , , :/home/cseadmin:/usr/bin/ksh
+airby:!:104341:900:airby, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Adriana Irby, #CUST#, CSEH, F, #cust#, , , :/home/airby:/
+usr/bin/ksh
+sdhillon:!:105560:1:sdhillon, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ SUKHDEV DHILLON, #CUST#, CSEH, 916-290-8773, sukhdev.
+dhillon@ftb.ca.gov, F, #cust#, , , :/home/sdhillon:/usr/bin/ksh
+djoshi:!:51963:1:djoshi, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ DINESH JOSHI, #CUST#, CSEH, 961-290-8955, dinesh.joshi@ftb
+.ca.gov, F, #cust#, , , :/home/djoshi:/usr/bin/ksh
+tpascual:!:104870:1:tpascual, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Treb Pascual, CSEH ID, 916-290-8769, treb.pascual@ftb
+.ca.gov, F, #cust#, , , :/home/tpascual:/usr/bin/ksh
+eenrique:!:104134:1:eenrique, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Erwin Enriquez, CSEH ID, 916-290-8790, erwin.enriquez
+@ftb.ca.gov, F, #cust#, , , :/home/eenrique:/usr/bin/ksh
+ale:!:104167:1:ale, 897/F/*CSEHXX/TD=20090128, <cseh>/#CUST#/ Andrew Le, cseh id, 916 868 0549, andrew.le@dcss.ca.gov, F, #cu
+st#, , , :/home/ale:/usr/bin/ksh
+mnatu:!:105466:1:mnatu, CSEH/Natu.Madhuri, CD=20080320, CR=20080320,/#CUST#/ madhuri.natu@dcss.ca.gov 897/F/*CSEHXX//, , , CD
+=20080320,:/home/mnatu:/usr/bin/ksh
+dcomstoc:!:105791:1:dcomstoc, CSEH/COMSTOCK.DAVE, CD=20080722, CR=cse00286239, dave.comstock@dcss.ca.gov, F 897/F/*CSEHXX//, 
+, , CD=20080722, :/home/dcomstoc:/usr/bin/ksh
+amayer:!:103318:1:Alan Mayer,/#CUST#/,alan.mayer.dcss.ca.gov,(916)464-0517:/home/amayer:/usr/bin/ksh
+timagent:!:53011:1:timagent, 897/I/0A9754//Wonnacott,  Thomas R. (Tom), , , CD=20081112, RI=XBDA3UPD:/home/timagent:/usr/bin/
+ksh
+lp:*:11:11:lp, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/var/spool/lp:/bin/false
+invscout:*:7:13:invscout, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/var/adm/invscout:/usr/bin/ksh
+snapp:*:420:12:snapp, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/usr/sbin/snapp:/usr/sbin/snappd
+ipsec:*:421:202:ipsec, 897/I/713164//Schmidt,  James M., #syst#, , CD=20091130, :/etc/ipsec:/usr/bin/ksh
+hw:!:2557:444:hw, 897/I/4A6458//Wang,  Henry, , , CD=20090407, :/home/hw:/usr/bin/ksh
+aoddba:!:53433:1:aoddba, MAIER.JOHN, 897/F/*CSEHXX//#SYST#, CD=20090722, RI=XBDA43YE, JMAIER, #syst#, , CD=20090722, RI=XBDA4
+3YE:/home/aoddba:/usr/bin/ksh
+sverghes:!:106276:1:sverghes, VARGHESE.SUNIL, 897/F/*CSEHXX//#CUST#CD=20090804, RI=XBDA452C, db2 udb dba, VERGHESE, #cust#, ,
+ CD=20090804, RI=XBDA452C:/home/sverghes:/usr/bin/ksh
+pft09dw:!:53712:1:pft09dw, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100415, RI=XBDA4FHY, dpe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100415, RI=XBDA4FHY:/home/pft09dw:/usr/bin/ksh
+pft01dw:!:53713:1:pft01dw, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100415, RI=XBDA4FHX, dpe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100415, RI=XBDA4FHX:/home/pft01dw:/usr/bin/ksh
+pft01int:!:53714:1:pft01int, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100415, RI=XBDA4FHV, dpe, Treb Pascual, BUTTIG, #cust#
+, , CD=20100415, RI=XBDA4FHV:/home/pft01int:/usr/bin/ksh
+pft01bat:!:53715:1:pft01bat, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100415, RI=XBDA4FHZ, dpe, Treb Pascual, BUTTIG, #cust#
+, , CD=20100415, RI=XBDA4FHZ:/home/pft01bat:/usr/bin/ksh
+pft09ss:!:53717:1:pft09ss, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100416, RI=XBDA4FKK, dpe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100416, RI=XBDA4FKK:/home/pft09ss:/usr/bin/ksh
+pft09omt:!:53719:1:pft09omt, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100416, RI=XBDA4FKL, dpe, Treb Pascual, BUTTIG, #cust#
+, , CD=20100416, RI=XBDA4FKL:/home/pft09omt:/usr/bin/ksh
+pft09ol:!:53720:1:pft09ol, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100416, RI=XBDA4FKN, dpe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100416, RI=XBDA4FKN:/home/pft09ol:/usr/bin/ksh
+pft01cm:!:53723:1:pft01cm, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100416, RI=XBDA4FKA, doe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100416, RI=XBDA4FKA:/home/pft01cm:/usr/bin/ksh
+pft01oc:!:53725:1:pft01oc, Pascual.Treb, 897/F/*CSEHXX//#CUST#, CD=20100416, RI=XBDA4FKE, dpe, Treb Pascual, BUTTIG, #cust#, 
+, CD=20100416, RI=XBDA4FKE:/home/pft01oc:/usr/bin/ksh
+[95;1H[K[7mpasswd (37%)[27m[95;1H[K[?1049l[?1l>ankcsesyta01[/home/hchada]$ cat /etc        grep -i raji /etc/passwd
+rkrishna:!:105459:1:Raji Krishnaji,/#CUST#,raji.krishnaji@dcss.ca.gov,(916)464-6796:/home/rkrishna:/usr/bin/ksh
+ankcsesyta01[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

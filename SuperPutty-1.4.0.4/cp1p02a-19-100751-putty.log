@@ -1,0 +1,1367 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.19 10:07:51 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Fri Jun 14 14:07:28 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 19 10:01:32 PDT 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/cseadmin/.Xauthority
+ankcsepf2a02[/home/cseadmin]$ cd / se/b    cse    cse/batgch
+ksh: /cse/batgch:  not found.
+ankcsepf2a02[/home/cseadmin]$ cd /cas  se/batch
+ankcsepf2a02[/cse/batch]$ ls
+PFT02_Batch_Cluster  PFT02_Batch_p02a_01  PFT02_Batch_p02a_02
+ankcsepf2a02[/cse/batch]$ cd PFT02 _Batch _p02a _01
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01]$ ls
+BatchRpt.txt  log           log.txt       logs          work
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01]$ cd logs
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01/logs]$ ls
+SystemErr.log                    SystemErr_16.10.26_09.02.42.log  SystemOut_19.08.26_21.02.49.log
+SystemErr.log.owner              SystemOut.log                    SystemOut_19.09.06_00.48.49.log
+SystemErr_16.10.26_08.21.39.log  SystemOut.log.owner              activity.log
+SystemErr_16.10.26_08.33.58.log  SystemOut_19.07.11_11.03.39.log  native_stderr.log
+SystemErr_16.10.26_08.46.15.log  SystemOut_19.08.05_18.30.01.log  native_stdout.log
+SystemErr_16.10.26_08.56.20.log  SystemOut_19.08.19_09.15.30.log
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01/logs]$ ls -lagrt
+total 238680
+drwxrwxrwx    5 cseadmin        256 Oct 27 2014  ..
+-rw-rw-r--    1 csebatch   10485699 Oct 26 2016  SystemErr_16.10.26_08.21.39.log
+-rw-rw-r--    1 csebatch   10485623 Oct 26 2016  SystemErr_16.10.26_08.33.58.log
+-rw-rw-r--    1 csebatch   10485696 Oct 26 2016  SystemErr_16.10.26_08.46.15.log
+-rw-rw-r--    1 csebatch   10485634 Oct 26 2016  SystemErr_16.10.26_08.56.20.log
+-rw-rw-r--    1 csebatch   10485644 Oct 26 2016  SystemErr_16.10.26_09.02.42.log
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemOut.log.owner
+-rw-rw-r--    1 csebatch         55 Oct 31 2018  SystemErr.log.owner
+-rw-rw-r--    1 csebatch   10485562 Jul 11 11:03 SystemOut_19.07.11_11.03.39.log
+-rw-rw-r--    1 csebatch   10485344 Aug 05 18:30 SystemOut_19.08.05_18.30.01.log
+-rw-rw-r--    1 csebatch   10480639 Aug 19 09:15 SystemOut_19.08.19_09.15.30.log
+-rw-rw-r--    1 csebatch   10485701 Aug 26 21:02 SystemOut_19.08.26_21.02.49.log
+-rw-rw-r--    1 csebatch   10485712 Sep 06 00:48 SystemOut_19.09.06_00.48.49.log
+-rw-rw-r--    1 csebatch    5357571 Sep 17 08:48 SystemErr.log
+-rwxrwxrwx    1 cseadmin    2097152 Sep 19 00:00 activity.log
+drwxrwxrwx    2 cseadmin       4096 Sep 19 00:00 .
+-rwxrwxrwx    1 cseadmin          0 Sep 19 00:00 native_stdout.log
+-rw-rw-r--    1 csebatch    9456711 Sep 19 00:00 SystemOut.log
+-rwxrwxrwx    1 cseadmin     332773 Sep 19 10:07 native_stderr.log
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01/logs]$ grep "Response Code" SystemOut.log
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01/logs]$ vi SystemOut.log
+[?1049h[95;1H[?12;25h[?1h="SystemOut.log" [Read only] 69193 lines, 9456711 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name cp2p01aOnlin
+eCell\cp1p02aOnlineNode\PFT02_Batch_p02a_01 and process id 48365794
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name
+= IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSp
+here/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppSer
+ver_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdepl
+oy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/A
+ppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/We
+bSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/
+itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.j
+ar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_
+CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/
+jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.ja
+r:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/
+default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr
+/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/App
+Server_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/
+:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[9/6/19 0:48:49:866 PDT] 0000022c SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(18) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:49:905 PDT] 0000022c JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:50:862 PDT] 000004f7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(20) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:50:869 PDT] 000004f7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:52:890 PDT] 00000512 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(22) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:52:898 PDT] 00000512 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:53:923 PDT] 0000022c SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(24) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:53:930 PDT] 0000022c JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:55:007 PDT] 00000512 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(26) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:55:088 PDT] 00000512 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:56:032 PDT] 0000022c SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(28) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:56:079 PDT] 0000022c JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:57:105 PDT] 0000050d SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(30) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:57:113 PDT] 0000050d JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:48:59:047 PDT] 00000518 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(32) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:48:59:059 PDT] 00000518 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:49:00:081 PDT] 000004f7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(34) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:49:00:098 PDT] 000004f7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:49:01:199 PDT] 00000518 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(36) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:49:01:209 PDT] 00000518 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:49:02:231 PDT] 00000515 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(38) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:49:02:249 PDT] 00000515 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:49:03:431 PDT] 0000022c SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(40) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:49:04:937 PDT] 0000022c JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44]
+[9/6/19 0:49:05:398 PDT] 000004f6 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateIn
+putSource - PFT02XA#PRM-611-DAILY#PRM-611-DS13#20190513_000000(42) - Retrieved IdListPartition with 1001 keys.
+[9/6/19 0:49:05:421 PDT] 000004f6 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgno
+ringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+SQLERRMC=null, DRIVER=3.72.44][H[94B"SystemOut.log" [Read only] 69193 lines, 9456711 characters[H[H[2J[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)[2;9Hat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+.
+[9/19/19 0:00:06:956 PDT] 000000c3 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1
+ not enabled or not supported
+[8Cat com.ibm.jsse2.bb.B(bb.java:525)
+[8Cat com.ibm.jsse2.oc.b(oc.java:394)
+[8Cat com.ibm.jsse2.oc.c(oc.java:146)
+[8Cat com.ibm.jsse2.oc.wrap(oc.java:316)
+[8Cat javax.net.ssl.SSLEngine.wrap(SSLEngine.java:39)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:811)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:617)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1 not enabled or not supported
+[8Cat com.ibm.jsse2.k.a(k.java:5)
+[8Cat com.ibm.jsse2.oc.a(oc.java:375)
+[8Cat com.ibm.jsse2.bb.a(bb.java:560)
+[8Cat com.ibm.jsse2.bb.a(bb.java:280)
+[8Cat com.ibm.jsse2.db.a(db.java:64)
+[8Cat com.ibm.jsse2.db.a(db.java:467)
+[8Cat com.ibm.jsse2.bb.t(bb.java:170)
+[8Cat com.ibm.jsse2.bb$1.a(bb$1.java:4)
+[8Cat com.ibm.jsse2.bb$1.run(bb$1.java:2)
+[8Cat java.security.AccessController.doPrivileged(AccessController.java:488)
+[8Cat com.ibm.jsse2.bb$c_.run(bb$c_.java:11)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:898)
+[8C... 12 more
+.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[47;1H[H[2J[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[2;9Hat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+
+[9/17/19 8:52:46:222 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:52:46:234 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:867 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:895 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:910 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/18/19 0:00:06:831 PDT] 000000b9 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLException: Unrecognized SSL message, plaintext conn
+ection?
+ at com.ibm.jsse2.c.a(c.java:63)
+[8Cat com.ibm.jsse2.oc.a(oc.java:552)
+[8Cat com.ibm.jsse2.oc.unwrap(oc.java:198)
+[8Cat javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:3)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:586)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+.
+[9/18/19 0:00:06:896 PDT] 000000c7 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1
+ not enabled or not supported
+[8Cat com.ibm.jsse2.bb.B(bb.java:525)
+[8Cat com.ibm.jsse2.oc.b(oc.java:394)
+[8Cat com.ibm.jsse2.oc.c(oc.java:146)
+[8Cat com.ibm.jsse2.oc.wrap(oc.java:316)
+[8Cat javax.net.ssl.SSLEngine.wrap(SSLEngine.java:39)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:811)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:617)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1 not enabled or not supported
+[8Cat com.ibm.jsse2.k.a(k.java:5)
+[8Cat com.ibm.jsse2.oc.a(oc.java:375)
+[8Cat com.ibm.jsse2.bb.a(bb.java:560)
+[8Cat com.ibm.jsse2.bb.a(bb.java:280)
+[8Cat com.ibm.jsse2.db.a(db.java:64)
+[8Cat com.ibm.jsse2.db.a(db.java:467)
+[8Cat com.ibm.jsse2.bb.t(bb.java:170)
+[8Cat com.ibm.jsse2.bb$1.a(bb$1.java:4)
+[8Cat com.ibm.jsse2.bb$1.run(bb$1.java:2)
+[8Cat java.security.AccessController.doPrivileged(AccessController.java:488)
+[8Cat com.ibm.jsse2.bb$c_.run(bb$c_.java:11)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:898)
+[8C... 12 more
+.
+[9/19/19 0:00:06:892 PDT] 000000b9 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLException: Unrecognized SSL message, plaintext conn
+ection?
+ at com.ibm.jsse2.c.a(c.java:63)
+[8Cat com.ibm.jsse2.oc.a(oc.java:552)
+[8Cat com.ibm.jsse2.oc.unwrap(oc.java:198)
+[8Cat javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:3)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:586)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)[8C[H[2J[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[H
+
+[9/17/19 8:48:46:357 PDT] 000001e1 SystemOut     O ERROR gov.ca.dcss.arch.persistence.hibernate.HibernateHelper - Hibernate E
+xception: No row with the given identifier exists: [gov.ca.dcss.cse.programmonitoring.federalreporting.cs1257.business.Partic
+ipant1257BO#2012632805]org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [gov.ca.dcss.cse.progr
+ammonitoring.federalreporting.cs1257.business.Participant1257BO#2012632805]
+[8Cat org.hibernate.ObjectNotFoundException.throwIfNull(ObjectNotFoundException.java:27)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.load(DefaultLoadEventListener.java:118)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:167)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:79)
+[8Cat org.hibernate.impl.SessionImpl.internalLoad(SessionImpl.java:655)
+[8Cat org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:261)
+[8Cat org.hibernate.type.EntityType.resolve(EntityType.java:286)
+[8Cat org.hibernate.engine.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:105)
+[8Cat org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:523)
+[8Cat org.hibernate.loader.Loader.doQuery(Loader.java:429)
+[8Cat org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:211)
+[8Cat org.hibernate.loader.Loader.doList(Loader.java:1588)
+[8Cat org.hibernate.loader.Loader.list(Loader.java:1571)
+[8Cat org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:395)
+[8Cat org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:271)
+[8Cat org.hibernate.impl.SessionImpl.list(SessionImpl.java:844)
+[8Cat org.hibernate.impl.QueryImpl.list(QueryImpl.java:74)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:2615)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1226)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.persistence.CSECS1257ReportDAOHibernateImpl.searchForActiveSupp
+ortOrdersByCaseId(CSECS1257ReportDAOHibernateImpl.java:448)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.getActiveAndHistoricSupport
+Orders(AbstractInstructionHandler.java:159)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.EstablishmentInstructionHandler.process(EstablishmentI
+nstructionHandler.java:64)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:120)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.CSECS1257InstructionActivityImpl.executeInstruction(CS
+ECS1257InstructionActivityImpl.java:139)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.cs1257.batch.CS1257LoadReportingSchemaAttributesTaskStep.execut
+e(CS1257LoadReportingSchemaAttributesTaskStep.java:60)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.execute(TaskControllerImpl.java:284)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.executeLUW(NormalProcessMode.java:157)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.execute(NormalProcessMode.java:70)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.doWhile(TaskControllerImpl.java:1122)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.start(TaskControllerImpl.java:458)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:73)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[8C[H[2J[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[2;9Hat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+
+[9/17/19 8:52:46:222 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:52:46:234 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:867 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:895 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:56:24:910 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/18/19 0:00:06:831 PDT] 000000b9 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLException: Unrecognized SSL message, plaintext conn
+ection?
+ at com.ibm.jsse2.c.a(c.java:63)
+[8Cat com.ibm.jsse2.oc.a(oc.java:552)
+[8Cat com.ibm.jsse2.oc.unwrap(oc.java:198)
+[8Cat javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:3)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:586)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+.
+[9/18/19 0:00:06:896 PDT] 000000c7 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1
+ not enabled or not supported
+[8Cat com.ibm.jsse2.bb.B(bb.java:525)
+[8Cat com.ibm.jsse2.oc.b(oc.java:394)
+[8Cat com.ibm.jsse2.oc.c(oc.java:146)
+[8Cat com.ibm.jsse2.oc.wrap(oc.java:316)
+[8Cat javax.net.ssl.SSLEngine.wrap(SSLEngine.java:39)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:811)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:617)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+[8Cat com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+[8Cat com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+[8Cat com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+[8Cat com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+[8Cat com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+[8Cat com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: javax.net.ssl.SSLHandshakeException: Client requested protocol TLSv1 not enabled or not supported
+[8Cat com.ibm.jsse2.k.a(k.java:5)
+[8Cat com.ibm.jsse2.oc.a(oc.java:375)
+[8Cat com.ibm.jsse2.bb.a(bb.java:560)
+[8Cat com.ibm.jsse2.bb.a(bb.java:280)
+[8Cat com.ibm.jsse2.db.a(db.java:64)
+[8Cat com.ibm.jsse2.db.a(db.java:467)
+[8Cat com.ibm.jsse2.bb.t(bb.java:170)
+[8Cat com.ibm.jsse2.bb$1.a(bb$1.java:4)
+[8Cat com.ibm.jsse2.bb$1.run(bb$1.java:2)
+[8Cat java.security.AccessController.doPrivileged(AccessController.java:488)
+[8Cat com.ibm.jsse2.bb$c_.run(bb$c_.java:11)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:898)
+[8C... 12 more
+.
+[9/19/19 0:00:06:892 PDT] 000000b9 SSLHandshakeE E   SSLC0008E: Unable to initialize SSL connection.  Unauthorized access was
+ denied or security settings have expired.  Exception is javax.net.ssl.SSLException: Unrecognized SSL message, plaintext conn
+ection?
+ at com.ibm.jsse2.c.a(c.java:63)
+[8Cat com.ibm.jsse2.oc.a(oc.java:552)
+[8Cat com.ibm.jsse2.oc.unwrap(oc.java:198)
+[8Cat javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:3)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyInbound(SSLConnectionLink.java:586)
+[8Cat com.ibm.ws.ssl.channel.impl.SSLConnectionLink.ready(SSLConnectionLink.java:346)
+[8Cat com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback
+.java:214)
+at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+[8Cat com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)[1;9H[H[2J[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[H
+
+[9/17/19 8:48:46:357 PDT] 000001e1 SystemOut     O ERROR gov.ca.dcss.arch.persistence.hibernate.HibernateHelper - Hibernate E
+xception: No row with the given identifier exists: [gov.ca.dcss.cse.programmonitoring.federalreporting.cs1257.business.Partic
+ipant1257BO#2012632805]org.hibernate.ObjectNotFoundException: No row with the given identifier exists: [gov.ca.dcss.cse.progr
+ammonitoring.federalreporting.cs1257.business.Participant1257BO#2012632805]
+[8Cat org.hibernate.ObjectNotFoundException.throwIfNull(ObjectNotFoundException.java:27)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.load(DefaultLoadEventListener.java:118)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:167)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:79)
+[8Cat org.hibernate.impl.SessionImpl.internalLoad(SessionImpl.java:655)
+[8Cat org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:261)
+[8Cat org.hibernate.type.EntityType.resolve(EntityType.java:286)
+[8Cat org.hibernate.engine.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:105)
+[8Cat org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:523)
+[8Cat org.hibernate.loader.Loader.doQuery(Loader.java:429)
+[8Cat org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:211)
+[8Cat org.hibernate.loader.Loader.doList(Loader.java:1588)
+[8Cat org.hibernate.loader.Loader.list(Loader.java:1571)
+[8Cat org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:395)
+[8Cat org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:271)
+[8Cat org.hibernate.impl.SessionImpl.list(SessionImpl.java:844)
+[8Cat org.hibernate.impl.QueryImpl.list(QueryImpl.java:74)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:2615)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1226)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.persistence.CSECS1257ReportDAOHibernateImpl.searchForActiveSupp
+ortOrdersByCaseId(CSECS1257ReportDAOHibernateImpl.java:448)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.getActiveAndHistoricSupport
+Orders(AbstractInstructionHandler.java:159)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.EstablishmentInstructionHandler.process(EstablishmentI
+nstructionHandler.java:64)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:120)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.CSECS1257InstructionActivityImpl.executeInstruction(CS
+ECS1257InstructionActivityImpl.java:139)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.cs1257.batch.CS1257LoadReportingSchemaAttributesTaskStep.execut
+e(CS1257LoadReportingSchemaAttributesTaskStep.java:60)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.execute(TaskControllerImpl.java:284)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.executeLUW(NormalProcessMode.java:157)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.execute(NormalProcessMode.java:70)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.doWhile(TaskControllerImpl.java:1122)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.start(TaskControllerImpl.java:458)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:73)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[8C[H[2J[8Cat org.hibernate.ObjectNotFoundException.throwIfNull(ObjectNotFoundException.java:27)[2;9Hat org.hibernate.event.def.DefaultLoadEventListener.load(DefaultLoadEventListener.java:118)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:167)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:79)
+[8Cat org.hibernate.impl.SessionImpl.internalLoad(SessionImpl.java:655)
+[8Cat org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:261)
+[8Cat org.hibernate.type.EntityType.resolve(EntityType.java:286)
+[8Cat org.hibernate.engine.TwoPhaseLoad.initializeEntity(TwoPhaseLoad.java:105)
+[8Cat org.hibernate.loader.Loader.initializeEntitiesAndCollections(Loader.java:523)
+[8Cat org.hibernate.loader.Loader.doQuery(Loader.java:429)
+[8Cat org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:211)
+[8Cat org.hibernate.loader.Loader.doList(Loader.java:1588)
+[8Cat org.hibernate.loader.Loader.list(Loader.java:1571)
+[8Cat org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:395)
+[8Cat org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:271)
+[8Cat org.hibernate.impl.SessionImpl.list(SessionImpl.java:844)
+[8Cat org.hibernate.impl.QueryImpl.list(QueryImpl.java:74)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:2615)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1226)
+[8Cat gov.ca.dcss.arch.persistence.hibernate.BaseHibernateDAO.executeQuery(BaseHibernateDAO.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.persistence.CSECS1257ReportDAOHibernateImpl.searchForActiveSupp
+ortOrdersByCaseId(CSECS1257ReportDAOHibernateImpl.java:448)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.getActiveAndHistoricSupport
+Orders(AbstractInstructionHandler.java:159)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.EstablishmentInstructionHandler.process(EstablishmentI
+nstructionHandler.java:64)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:120)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.forward(AbstractInstruction
+Handler.java:1175)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.AbstractInstructionHandler.handleInstruction(AbstractI
+nstructionHandler.java:107)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.activity.CSECS1257InstructionActivityImpl.executeInstruction(CS
+ECS1257InstructionActivityImpl.java:139)
+[8Cat gov.ca.dcss.cse.programmonitoring.federalreporting.cs1257.batch.CS1257LoadReportingSchemaAttributesTaskStep.execut
+e(CS1257LoadReportingSchemaAttributesTaskStep.java:60)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.execute(TaskControllerImpl.java:284)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.executeLUW(NormalProcessMode.java:157)
+[8Cat gov.ca.dcss.arch.batch.job.NormalProcessMode.execute(NormalProcessMode.java:70)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.doWhile(TaskControllerImpl.java:1122)
+[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.start(TaskControllerImpl.java:458)
+[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:73)
+[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)
+[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+[H[2J[9/17/19 8:45:40:495 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:57:537 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(468) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:45:57:545 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:03:584 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(470) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:03:595 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:16:643 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(472) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:16:651 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:36:720 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(474) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:36:731 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:41:755 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(476) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:41:763 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:49:792 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(478) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:49:800 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:46:54:815 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(480) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:46:54:824 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:15:927 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(482) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:15:936 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:17:956 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(484) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:17:966 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:25:037 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(486) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:25:046 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:33:072 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(488) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:33:080 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:50:130 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(490) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:50:139 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:53:159 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(492) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:53:167 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:47:57:207 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(494) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:47:57:216 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:48:06:262 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(496) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:48:06:280 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:48:22:315 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(498) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:48:22:324 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:48:26:447 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(500) - Retrieved IdListPartition with 1544 keys.
+[9/17/19 8:48:26:456 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:48:46:344 PDT] 000001e1 DefaultLoadEv I org.hibernate.event.def.DefaultLoadEventListener onLoad Error performing l
+oad command
+[22Corg.hibernate.ObjectNotFoundException: No row with the given identifier exists: [gov.ca.dcss
+.cse.programmonitoring.federalreporting.cs1257.business.Participant1257BO#2012632805]
+[8Cat org.hibernate.ObjectNotFoundException.throwIfNull(ObjectNotFoundException.java:27)
+[8Cat org.hibernate.event.def.DefaultLoadEventListener.load(DefaultLoadEventListener.java:118)[8C[H[2J[9/17/19 8:42:38:548 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(432) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:38:557 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:40:572 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(434) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:40:581 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:43:617 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(436) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:43:626 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:08:720 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(438) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:08:729 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:12:731 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(440) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:12:741 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:17:790 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(442) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:17:799 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:19:808 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(444) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:19:818 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:24:857 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(446) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:24:866 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:48:952 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(448) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:48:961 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:53:984 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(450) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:53:993 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:43:55:004 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(452) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:43:55:012 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:44:34:194 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(454) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:44:34:204 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:44:37:182 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(456) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:44:37:191 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:44:43:228 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(458) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:44:43:237 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:07:296 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(460) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:45:07:304 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:19:361 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(462) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:45:19:370 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:24:417 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(464) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:45:24:426 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:40:485 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(466) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:45:40:495 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:45:57:537 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(468) - Retrieved IdListPartition with 1118 keys.
+@
+@[3A[H[2J[9/17/19 8:39:53:500 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:17:514 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(398) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:40:17:527 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:27:542 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(400) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:40:27:551 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:29:584 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(402) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:40:29:593 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:33:637 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(404) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:40:33:645 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:37:667 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(406) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:40:37:676 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:08:813 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(408) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:08:833 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:12:807 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(410) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:12:816 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:14:866 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(412) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:14:875 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:17:894 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(414) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:17:902 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:23:941 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(416) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:23:950 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:49:051 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(418) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:49:060 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:54:089 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(420) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:54:097 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:41:56:103 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(422) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:41:56:111 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:01:169 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(424) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:01:177 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:03:351 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(426) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:03:361 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:27:457 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(428) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:27:466 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:33:537 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(430) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:33:546 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:42:38:548 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(432) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:42:38:557 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+@[3A[H[2J[9/17/19 8:37:36:605 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(362) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:36:614 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:38:645 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(364) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:38:655 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:43:691 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(366) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:43:700 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:09:783 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(368) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:09:791 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:14:830 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(370) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:14:856 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:19:887 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(372) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:19:897 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:21:912 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(374) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:21:920 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:28:954 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(376) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:28:963 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:53:048 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(378) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:53:057 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:38:58:082 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(380) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:38:58:090 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:01:139 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(382) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:01:148 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:06:273 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(384) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:06:295 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:10:251 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(386) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:10:259 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:33:312 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(388) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:33:322 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:42:364 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(390) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:42:372 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:44:411 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(392) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:44:419 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:49:431 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(394) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:49:442 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:39:53:465 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(396) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:39:53:500 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:40:17:514 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(398) - Retrieved IdListPartition with 1118 keys.
+@
+@[3A[H[2J[9/17/19 8:34:45:787 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:11:855 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(328) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:11:863 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:21:913 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(330) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:21:924 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:23:947 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(332) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:23:956 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:29:047 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(334) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:29:055 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:31:079 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(336) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:31:087 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:55:160 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(338) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:35:55:168 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:07:198 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(340) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:07:206 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:11:227 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(342) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:11:239 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:13:245 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(344) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:13:254 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:17:275 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(346) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:17:284 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:40:342 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(348) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:40:350 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:50:400 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(350) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:50:408 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:55:425 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(352) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:55:433 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:36:57:468 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(354) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:36:57:478 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:01:476 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(356) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:01:486 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:25:527 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(358) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:25:537 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:32:566 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(360) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:32:575 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:37:36:605 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(362) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:37:36:614 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+@[3A[H[2J[9/17/19 8:32:23:986 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(292) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:32:23:995 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:32:28:040 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(294) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:32:28:049 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:32:33:078 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(296) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:32:33:089 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:32:57:158 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(298) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:32:57:166 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:02:223 PDT] 000001e9 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(300) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:02:260 PDT] 000001e9 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:12:254 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(302) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:12:263 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:15:292 PDT] 00000216 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(304) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:15:338 PDT] 00000216 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:17:375 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(306) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:17:383 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:42:395 PDT] 00000215 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(308) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:42:404 PDT] 00000215 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:52:437 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(310) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:52:446 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:55:464 PDT] 00000217 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(312) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:55:472 PDT] 00000217 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:33:59:513 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(314) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:33:59:521 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:01:539 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(316) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:01:547 PDT] 000001e1 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:28:661 PDT] 000001d5 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(318) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:28:670 PDT] 000001d5 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:36:693 PDT] 000001e7 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(320) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:36:701 PDT] 000001e7 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:38:720 PDT] 000001e0 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(322) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:38:728 PDT] 000001e0 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:43:746 PDT] 000001e2 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(324) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:43:755 PDT] 000001e2 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:34:45:778 PDT] 000001cd SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(326) - Retrieved IdListPartition with 1118 keys.
+[9/17/19 8:34:45:787 PDT] 000001cd JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgn
+oringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000,
+ SQLERRMC=null, DRIVER=3.72.44]
+[9/17/19 8:35:11:855 PDT] 000001e1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateI
+nputSource - PFT02XA#PRM-613-DAILY#PRM-613-DS01#20190513_000000(328) - Retrieved IdListPartition with 1118 keys.
+@
+@[3A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+
+
+
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01/logs]$ cd ..
+ankcsepf2a02[/cse/batch/PFT02_Batch_p02a_01]$ cd ../*Cluster
+ankcsepf2a02[/cse/batch/PFT02_Batch_Cluster]$ ls
+PFT02_Batch_Cluster.ear  jobExecution             job_data                 temp
+ankcsepf2a02[/cse/batch/PFT02_Batch_Cluster]$ cd *ear
+ankcsepf2a02[/cse/batch/PFT02_Batch_Cluster/PFT02_Batch_Cluster.ear]$ ls
+ArchActivity.jar                  CSEFormsCommon.jar                PrgmMonitoringCommon.jar
+ArchBatch.jar                     CSEInterfaces.jar                 PrgmMonitoringPersistence.jar
+ArchBatchServices.jar             CSEResources.jar                  batchFileArchiver.ksh
+ArchBatchTest.jar                 CaseActivity.jar                  captureFileStats.ksh
+ArchBusiness.jar                  CaseBatch.jar                     config
+ArchCommon.jar                    CaseBusiness.jar                  jobControl.ksh
+ArchIntegration.jar               CaseCommon.jar                    jobControl.template.ksh
+ArchPersistence.jar               CasePersistence.jar               jobControl_DB.ksh
+ArchServices.jar                  FinancialActivity.jar             jobControl_DB.template.ksh
+ArchServicesCommon.jar            FinancialBatch.jar                resources
+ArchServicesLocal.jar             FinancialBusiness.jar             runSmokeTest.ksh
+BusinessUtilitiesActivity.jar     FinancialCommon.jar               setBatchRoot.ksh
+BusinessUtilitiesBatch.jar        FinancialPersistence.jar          setBatchTemp.ksh
+BusinessUtilitiesBusiness.jar     LegacyDataArchiveActivity.jar     setEnv.ksh
+BusinessUtilitiesCommon.jar       LegacyDataArchiveBusiness.jar     setEnv.template.ksh
+BusinessUtilitiesPersistence.jar  LegacyDataArchiveCommon.jar       setJobId.ksh
+CSEBatchAntJobRunnerClient.jar    LegacyDataArchivePersistence.jar  setScheduleDate.ksh
+CSEBatchClient.jar                META-INF                          submitRT-Collections.ksh
+CSEBatchResources.jar             PrgmMonitoringActivity.jar        submitRT-Disbursements.ksh
+CSEBatchServices.jar              PrgmMonitoringBatch.jar           submitRT-Obligations.ksh
+CSECommon.jar                     PrgmMonitoringBusiness.jar        submitStream.ksh
+ankcsepf2a02[/cse/batch/PFT02_Batch_Cluster/PFT02_Batch_Cluster.ear]$ ls -lagrt
+total 115544
+-rw-r--r--    1 wasadmin       1760 Oct 01 2009  submitRT-Obligations.ksh
+-rw-r--r--    1 wasadmin       2165 Oct 01 2009  submitRT-Disbursements.ksh
+-rw-r--r--    1 wasadmin       2557 Oct 01 2009  .jobmanrc.template
+-rw-r--r--    1 wasadmin        122 Oct 01 2009  .j2ee
+-rw-r--r--    1 wasadmin         62 Oct 01 2009  .compatibility
+-rw-r--r--    1 wasadmin       4162 Oct 15 2009  submitStream.ksh
+-rw-r--r--    1 wasadmin        614 Oct 15 2009  setScheduleDate.ksh
+-rw-r--r--    1 wasadmin        606 Oct 15 2009  setJobId.ksh
+-rw-r--r--    1 wasadmin        576 Oct 15 2009  setBatchTemp.ksh
+-rw-r--r--    1 wasadmin        569 Oct 15 2009  setBatchRoot.ksh
+-rw-r--r--    1 wasadmin       1596 Oct 15 2009  runSmokeTest.ksh
+-rw-r--r--    1 wasadmin       2592 Oct 15 2009  jobControl_DB.template.ksh
+-rw-r--r--    1 wasadmin       9423 Oct 15 2009  captureFileStats.ksh
+-rw-r--r--    1 wasadmin       6122 Oct 15 2009  batchFileArchiver.ksh
+-rw-r--r--    1 wasadmin       2364 May 24 2012  submitRT-Collections.ksh
+-rw-r--r--    1 wasadmin      12443 Oct 08 2012  jobControl.template.ksh
+-rw-r--r--    1 wasadmin        136 Jul 26 2016  .server
+-rw-r--r--    1 wasadmin         77 Jul 26 2016  .runtime
+-rw-r--r--    1 wasadmin       7332 Nov 20 2018  setEnv.template.ksh
+-rw-r--r--    1 wasadmin       7334 Aug 30 11:24 setEnv.ksh
+-rw-r--r--    1 wasadmin       2582 Aug 30 11:24 jobControl_DB.ksh
+-rw-r--r--    1 wasadmin      12426 Aug 30 11:24 jobControl.ksh
+-rw-r--r--    1 wasadmin    1677931 Aug 30 11:43 ArchCommon.jar
+-rw-r--r--    1 wasadmin     181799 Aug 30 11:43 ArchBusiness.jar
+-rw-r--r--    1 wasadmin     324647 Aug 30 11:43 ArchActivity.jar
+-rw-r--r--    1 wasadmin    5851757 Aug 30 11:43 CaseActivity.jar
+-rw-r--r--    1 wasadmin    1641839 Aug 30 11:43 BusinessUtilitiesPersistence.jar
+-rw-r--r--    1 wasadmin     647514 Aug 30 11:43 BusinessUtilitiesCommon.jar
+-rw-r--r--    1 wasadmin     249246 Aug 30 11:43 BusinessUtilitiesBusiness.jar
+-rw-r--r--    1 wasadmin     107856 Aug 30 11:43 BusinessUtilitiesBatch.jar
+-rw-r--r--    1 wasadmin    1379132 Aug 30 11:43 BusinessUtilitiesActivity.jar
+-rw-r--r--    1 wasadmin      48920 Aug 30 11:43 ArchServicesLocal.jar
+-rw-r--r--    1 wasadmin     527591 Aug 30 11:43 ArchPersistence.jar
+-rw-r--r--    1 wasadmin      96116 Aug 30 11:43 ArchIntegration.jar
+-rw-r--r--    1 wasadmin     997639 Aug 30 11:43 ArchBatch.jar
+-rw-r--r--    1 wasadmin    4668116 Aug 30 11:43 CaseBatch.jar
+-rw-r--r--    1 wasadmin    1778641 Aug 30 11:43 FinancialActivity.jar
+-rw-r--r--    1 wasadmin    1664321 Aug 30 11:43 CasePersistence.jar
+-rw-r--r--    1 wasadmin    2709779 Aug 30 11:43 CaseCommon.jar
+-rw-r--r--    1 wasadmin    1923231 Aug 30 11:43 CaseBusiness.jar
+-rw-r--r--    1 wasadmin     604408 Aug 30 11:43 FinancialPersistence.jar
+-rw-r--r--    1 wasadmin    1177244 Aug 30 11:43 FinancialCommon.jar
+-rw-r--r--    1 wasadmin     645667 Aug 30 11:43 FinancialBusiness.jar
+-rw-r--r--    1 wasadmin     778283 Aug 30 11:43 FinancialBatch.jar
+-rw-r--r--    1 wasadmin     654797 Aug 30 11:43 CSEResources.jar
+-rw-r--r--    1 wasadmin   22217135 Aug 30 11:43 CSECommon.jar
+-rw-r--r--    1 wasadmin     110856 Aug 30 11:43 CSEBatchResources.jar
+-rw-r--r--    1 wasadmin    2101146 Aug 30 11:43 PrgmMonitoringBatch.jar
+-rw-r--r--    1 wasadmin     349794 Aug 30 11:43 PrgmMonitoringActivity.jar
+-rw-r--r--    1 wasadmin    1127191 Aug 30 11:43 ArchBatchTest.jar
+-rw-r--r--    1 wasadmin     193371 Aug 30 11:43 PrgmMonitoringPersistence.jar
+-rw-r--r--    1 wasadmin     343983 Aug 30 11:43 PrgmMonitoringCommon.jar
+-rw-r--r--    1 wasadmin     529369 Aug 30 11:43 PrgmMonitoringBusiness.jar
+-rw-r--r--    1 wasadmin      44933 Aug 30 11:43 LegacyDataArchivePersistence.jar
+-rw-r--r--    1 wasadmin     102078 Aug 30 11:43 LegacyDataArchiveCommon.jar
+-rw-r--r--    1 wasadmin      99245 Aug 30 11:43 LegacyDataArchiveBusiness.jar
+-rw-r--r--    1 wasadmin      14559 Aug 30 11:43 LegacyDataArchiveActivity.jar
+-rw-r--r--    1 wasadmin     463589 Aug 30 11:43 CSEInterfaces.jar
+-rw-r--r--    1 wasadmin     287731 Aug 30 11:43 CSEFormsCommon.jar
+-rw-r--r--    1 wasadmin      15408 Aug 30 11:43 ArchServicesCommon.jar
+-rw-r--r--    1 wasadmin      42595 Sep 12 10:38 CSEBatchServices.jar
+-rw-r--r--    1 wasadmin      64997 Sep 12 10:38 CSEBatchClient.jar
+-rw-r--r--    1 wasadmin        937 Sep 12 10:38 CSEBatchAntJobRunnerClient.jar
+-rw-r--r--    1 wasadmin     357410 Sep 12 10:38 ArchServices.jar
+-rw-r--r--    1 wasadmin      65251 Sep 12 10:38 ArchBatchServices.jar
+drwxrwxrwx    3 cseadmin        256 Sep 12 10:39 ..
+drwxr-xr-x    2 wasadmin        256 Sep 12 10:39 META-INF
+drwxr-xr-x    2 wasadmin       4096 Sep 12 10:39 config
+drwxr-xr-x    2 wasadmin      12288 Sep 12 10:39 resources
+drwxr-xr-x    5 wasadmin       4096 Sep 12 10:39 .
+ankcsepf2a02[/cse/batch/PFT02_Batch_Cluster/PFT02_Batch_Cluster.ear]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

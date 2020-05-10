@@ -1,0 +1,128 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.29 08:07:28 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Mon Oct 28 08:35:32 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  dead.letter  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd pyscripts/
+]0;hchada@CGDCSSL1047UL:~/pyscripts[hchada@CGDCSSL1047UL pyscripts]$ ls
+main.py
+]0;hchada@CGDCSSL1047UL:~/pyscripts[hchada@CGDCSSL1047UL pyscripts]$ more main.py 
+#Function goguess()
+def goguess ():
+    import random
+    a = -1
+    guesses = 1
+    number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    number = random.choice(number_list)
+    print ('I have a number between 1 and 20 inclusive.')
+    guess = input ('Guess:')
+    while a != 0:
+        if int (guess) > number:
+            print (guess, ' is too high.')
+            guesses += 1
+            guess = input ('Guess:')
+        elif int (guess) < number:
+            print (guess, ' is too low.')
+            guesses += 1
+            guess = input ('Guess:')
+        elif guess == number:  
+            print('Right! My number is', number, 'You guessed in', guesses, 'guesses')
+            exit()
+            
+#Start function goguess()
+goguess ()
+]0;hchada@CGDCSSL1047UL:~/pyscripts[hchada@CGDCSSL1047UL pyscripts]$ ls
+main.py
+]0;hchada@CGDCSSL1047UL:~/pyscripts[hchada@CGDCSSL1047UL pyscripts]$ cd ..
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  dead.letter  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ more runansible.py 
+#!/usr/bin/env python
+
+import os
+import sys
+import getopt
+from collections import namedtuple
+
+from ansible.parsing.dataloader import DataLoader
+from ansible.vars.manager import VariableManager
+from ansible.inventory.manager import InventoryManager
+from ansible.executor.playbook_executor import PlaybookExecutor
+
+ymlfile = str(sys.argv[1])
+
+loader = DataLoader()
+
+inventory = InventoryManager(loader=loader, sources='inventory')
+variable_manager = VariableManager(loader=loader, inventory=inventory)
+#playbook_path = '../tomcat/tomcatStatus.yml'
+playbook_path = ymlfile
+
+if not os.path.exists(playbook_path):
+    print ('[INFO] The playbook does not exist')
+    sys.exit()
+
+Options = namedtuple('Options', ['listtags', 'listtasks', 'listhosts', 'syntax', 'connection','module_path', 'forks', 'remote_user', 'private_key_file', 'ssh_common_args', 's
+sh_extra_args', 'sftp_extra_args', 'scp_extra_args', 'become', 'become_method', 'become_user', 'verbosity', 'check','diff'])
+options = Options(listtags=False, listtasks=False, listhosts=False, syntax=False, connection='ssh', module_path=None, forks=100, remote_user='hchada', private_key_file=None, 
+ssh_common_args=None, ssh_extra_args=None, sftp_extra_args=None, scp_extra_args=None, become=False, become_method='sudo', become_user='root', verbosity=None, check=False, dif
+f=False)
+
+variable_manager.extra_vars = {} # This can accomodate various other command line arguments.`
+
+passwords = {'conn_pass': '', 'become_pass': 'King@345'}
+
+pbex = PlaybookExecutor(playbooks=[playbook_path], inventory=inventory, variable_manager=variable_manager, loader=loader, options=options, passwords=passwords)
+
+results = pbex.run()
+print results
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  dead.letter  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd flask
+]0;hchada@CGDCSSL1047UL:~/flask[hchada@CGDCSSL1047UL flask]$ ks;[K[K[Kls
+[0m[01;34mflaskenv[0m  [01;34moreilly-intro-to-flask-video[0m
+]0;hchada@CGDCSSL1047UL:~/flask[hchada@CGDCSSL1047UL flask]$ cd oreilly-intro-to-flask-video/
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video[hchada@CGDCSSL1047UL oreilly-intro-to-flask-video]$ ls
+[0m[01;34m1a[0m  [01;34m1b[0m  [01;34m2a[0m  [01;34m2b[0m  [01;34m2c[0m  [01;34m2d[0m  [01;34m2e[0m  [01;34m2f[0m  [01;34m2g[0m  [01;34m2h[0m  [01;34m3a[0m  [01;34m3b[0m  [01;34m3c[0m  [01;34m3d[0m  [01;34m4a[0m  [01;34m4b[0m  [01;34m4c[0m  [01;34m5a[0m  [01;34m6a[0m  [01;34m6b[0m  [01;34m7a[0m  [01;34m8a[0m  [01;34m8b[0m  [01;34m8c[0m  [01;34m9a[0m  [01;34m9b[0m  [01;34m9c[0m  LICENSE  README.md  requirements.txt
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video[hchada@CGDCSSL1047UL oreilly-intro-to-flask-video]$ cd 2b
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video/2b[hchada@CGDCSSL1047UL 2b]$ ls
+[0m[01;34mtemplates[0m  weather.py
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video/2b[hchada@CGDCSSL1047UL 2b]$ python weather.py 
+Traceback (most recent call last):
+  File "weather.py", line 1, in <module>
+    from flask import Flask, render_template
+ImportError: No module named flask
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video/2b[hchada@CGDCSSL1047UL 2b]$ flask
+-bash: flask: command not found
+]0;hchada@CGDCSSL1047UL:~/flask/oreilly-intro-to-flask-video/2b[hchada@CGDCSSL1047UL 2b]$ cd
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  dead.letter  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ex[K[Kcd 1[K[K[K[Kjmroe[K[K[K[K[Kmoer[K[Kre 1000 
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ exit
+logout

@@ -1,0 +1,33 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.02 16:18:54 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Mon Nov 18 13:48:04 PST 2019 on ssh from 169.2.108.102
+Last login: Mon Dec  2 16:18:54 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ telnet cg1p02a 9082ping cg1p02a       telnet cg1p02a 9082telnet ankcsesyaa05.dts.ca.gov 9085
+Trying...
+
+ankcsesyaw01[/home/cseadmin]$ telnet ankcsesyaa05.dts.ca.gov 9085telnet cg1p02a 9082                ping cg1p02a       telnet cg1p02a 9082telnet ankcsesyaa05.dts.ca.gov 9085telnet ankcsesyaa05.dts.ca.gov 9082
+Trying...
+ankcsesyaw01[/home/cseadmin]$ telnet ankcsesyaa05.dts.ca.gov 9082telnet ankcsesyaa05.dts.ca.gov 9085telnet cg1p02a 9082                ping cg1p02a       telnet cg1p02a 9082telnet ankcsesyaa05.dts.ca.gov 9085telnet ankcsesyaa05.dts.ca.gov 9082telnet ankcsesyaa05.dts.ca.gov 9315telnet ankcsesyaa05.dts.ca.gov 9085telnet ankcsesyaa05.dts.ca.gov 9315
+Trying...
+Connected to ankcsesyaa05.
+Escape character is '^]'.
+
+
+
+telnet> quit
+Connection closed.
+ankcsesyaw01[/home/cseadmin]$ 
+Shell will time out in 60 seconds.

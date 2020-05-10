@@ -1,0 +1,180 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.16 08:03:08 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Sat Nov 16 08:02:49 PST 2019 on ssh from 169.2.108.102
+Last login: Sat Nov 16 08:00:04 PST 2019 on ssh from ankcseprda10
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda01[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2490368   2102760   16%     7378     4% /
+/dev/hd2        11534336   2652248   78%    74011    20% /usr
+/dev/hd9var      4325376   1063304   76%     6091     5% /var
+/dev/hd3         4325376   4053448    7%      125     1% /tmp
+/dev/hd1         3670016    888760   76%    13192    12% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    875960   17%      607     1% /usr/local
+/dev/hd10opt     4587520   2190680   53%     7736     4% /opt
+/dev/lv00         131072    111568   15%      127     1% /var/adm/perfmgr
+/dev/logslv       262144    193984   27%       25     1% /var/adm/logs
+/dev/usr_mqm_lv    2097152    444744   79%     3645     2% /usr/mqm
+/dev/var_mqm_lv    1048576   1014536    4%       74     1% /var/mqm
+/dev/mqm_log_lv    1048576   1015560    4%       17     1% /var/mqm/log
+/dev/cse_lv      7340032    713648   91%     9640     2% /cse
+/dev/insthome_lv    1310720   1196232    9%      263     1% /insthome
+/dev/hids_lv     1179648   1164624    2%       54     1% /usr/symantec
+/dev/db2cmv8     7208960   6302136   13%     3651     1% /opt/IBM/db2cmv8
+/dev/ibmd2lv     3670016     37472   99%    10741    28% /opt/IBM/db2
+/dev/mksysb     27262976   9577848   65%       55     1% /mksysb
+/dev/scratch     5242880   4377184   17%     8466     2% /scratch
+/dev/savevg       524288    518928    2%       46     1% /savevg
+/dev/home_hw      524288    512416    3%      355     1% /home/hw
+/dev/csmdata     1048576   1039536    1%        6     1% /home/csmdata
+/dev/dumpcopy    2097152   2079792    1%        4     1% /var/adm/ras/dumpcopy
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7lv   16777216  11637320   31%    30243     3% /usr/WebSphere7
+/dev/appdumps    8388608   5492736   35%       33     1% /dumpsfs
+/dev/auditlv     4194304   4128912    2%        6     1% /opt/auditout
+/dev/websphere7CMlv   16252928  12022616   27%    22634     2% /usr/WebSphere7CM
+/dev/CommVaultlv   12058624   7102400   42%     3084     1% /CommVault
+/dev/webspherelv   50331648  36503048   28%    84240     3% /usr/WebSphere
+/dev/tomcat8lv   41943040  41772160    1%        4     1% /usr/tomcat8
+/dev/itmlv       6291456   5139376   19%     4644     1% /opt/IBM/ITM
+ankcseprda06.dts.ca.gov:/var/pd/hotfolders    20185088  20172344    1%      211     1% /ap103_hotfolders
+ankcseprda18.dts.ca.gov:/var/pd/hotfolders    20185088  20177904    1%      106     1% /ap116_hotfolders
+ankcseprdd01.dts.ca.gov:/cpos_daemon1    10485760  10480800    1%       23     1% /ds013_cpos_daemon1
+ankcseprdd01.dts.ca.gov:/cpos_daemon2    10485760  10479568    1%       57     1% /ds013_cpos_daemon2
+ankcseprdd01.dts.ca.gov:/forms    41943040   6805608   84%    30418     4% /ds013_forms
+ankcseprdd01.dts.ca.gov:/ds013_pdf2afp   524288000 195785088   63%   394925     2% /ds013_pdf2afp
+ankcseprdd01.dts.ca.gov:/ds013_selfservice      393216    248664   37%      247     1% /ds013_selfservice
+ankcseprdd01.dts.ca.gov:/finalist    12288000   5854776   53%      361     1% /finalist
+ankcseprdd02.dts.ca.gov:/swstage    31457280   8775280   73%     6242     1% /swstage
+ankcseprdd01.dts.ca.gov:/cm/archivelt013   837812224  29480232   97%  1387951    30% /cm/archivelt013
+ankcseprdd01.dts.ca.gov:/cm/archivelt014   837812224  26920408   97%  1403440    32% /cm/archivelt014
+ankcseprdd01.dts.ca.gov:/cm/archivelt015   418381824  14741936   97%   582403    24% /cm/archivelt015
+ankcseprdd01.dts.ca.gov:/cse/lib/Jar_Repository     2031616   1098776   46%      595     1% /cse/lib/Jar_Repository
+ankcseprdd01.dts.ca.gov:/batchjobexecution_cluster_1       32768     31912    3%       25     1% /cse/batch/PROD01_Batch_Cluster_1/jobExecution
+ankcseprdd01.dts.ca.gov:/cm/staging       32768     32096    3%        5     1% /cm/staging
+ankcseprdd01.dts.ca.gov:/cm/archive/001  1104674816 742674352   33%   784088     1% /cm/archive/001
+ankcseprdd01.dts.ca.gov:/cm/drArchive/001   555220992 239211048   57%   322453     2% /cm/drArchive/001
+ankcseprdd01.dts.ca.gov:/cm/active/001   124747776 110995232   12%    69758     1% /cm/active/001
+ankcseprdd01.dts.ca.gov:/cm/lbosdata1     2031616   2027448    1%      119     1% /cm/lbosdata1
+ankcseprdd01.dts.ca.gov:/ds013_cpos_daemon3     5242880   5240344    1%      170     1% /ds013_cpos_daemon3
+ankcseprdd01.dts.ca.gov:/ds013_cpos_daemon4     5242880   5239216    1%      234     1% /ds013_cpos_daemon4
+ankcseprdd01.dts.ca.gov:/cm/archivelt006   840171520  28324200   97%  1417852    32% /cm/archivelt006
+ankcseprdd01.dts.ca.gov:/ds013_hyperion_transient     2064384   2063408    1%        4     1% /cse/reporting/transient_items
+ankcseprdd01.dts.ca.gov:/cm/archivelt007   840171520  29856160   97%  1356521    30% /cm/archivelt007
+ankcseprdd01.dts.ca.gov:/cm/archivelt008   840171520  33323016   97%  1364429    27% /cm/archivelt008
+ankcseprdd01.dts.ca.gov:/cm/archivelt009   840171520  22173848   98%  1453934    38% /cm/archivelt009
+ankcseprdd01.dts.ca.gov:/cm/archivelt010   840171520  33347024   97%  1373081    28% /cm/archivelt010
+ankcseprdd01.dts.ca.gov:/cm/archivelt011   819200000  22600984   98%  1477382    38% /cm/archivelt011
+ankcseprdd01.dts.ca.gov:/cm/archivelt012  1041498112  41185768   97%  1806097    29% /cm/archivelt012
+ankcseprdd01.dts.ca.gov:/cm/archivelt016   859832320  31601384   97%  1446013    30% /cm/archivelt016
+ankcseprdd01.dts.ca.gov:/cm/archivelt017   859832320  17119480   99%  1405042    43% /cm/archivelt017
+ankcseprdd01.dts.ca.gov:/cm/archivelt018   859832320  19024752   98%  1453008    41% /cm/archivelt018
+ankcseprdd01.dts.ca.gov:/cm/archivelt019   859832320  33664608   97%  1431641    28% /cm/archivelt019
+ankcseprdd01.dts.ca.gov:/cm/archivelt020   860094464  34384560   97%  1496750    29% /cm/archivelt020
+ankcseprdd01.dts.ca.gov:/cm/archivelt021   860094464  33835880   97%  1499196    29% /cm/archivelt021
+ankcseprdd01.dts.ca.gov:/cm/archivelt022   860094464  33083416   97%  1498094    29% /cm/archivelt022
+ankcseprdd01.dts.ca.gov:/cm/archivelt023   860094464  31825920   97%  1497035    30% /cm/archivelt023
+ankcseprdd01.dts.ca.gov:/cm/archivelt024   860094464  35066584   96%  1468615    28% /cm/archivelt024
+ankcseprdd01.dts.ca.gov:/cm/archivelt025   840171520  33552816   97%  1369323    27% /cm/archivelt025
+ankcseprdd01.dts.ca.gov:/cm/archivelt026   840171520  15450904   99%  1400412    45% /cm/archivelt026
+ankcseprdd01.dts.ca.gov:/cm/archivelt027   840171520  15548648   99%  1404070    45% /cm/archivelt027
+ankcseprdd01.dts.ca.gov:/cm/archivelt028   840171520  21254072   98%  1232952    35% /cm/archivelt028
+ankcseprdd01.dts.ca.gov:/cm/archivelt029   840171520  25185464   98%  1235820    31% /cm/archivelt029
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt001   840171520  21445928   98%  1792302    43% /cm/drarchivelt001
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt002   860094464  25277200   98%  2504981    48% /cm/drarchivelt002
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt003   879755264  22381360   98%  2654983    52% /cm/drarchivelt003
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive001   839647232  20957328   98%  1929781    46% /cm/cnvarchive001
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive002   838860800  18013272   98%  1830542    48% /cm/cnvarchive002
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive003   837812224  24049952   98%  1306236    33% /cm/cnvarchive003
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive004   838860800  12854456   99%  1676719    54% /cm/cnvarchive004
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive005   838860800  25921368   97%  1593953    36% /cm/cnvarchive005
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive006   838860800  33471280   97%  1762266    33% /cm/cnvarchive006
+ankcseprdd01.dts.ca.gov:/cm/cnvarchive007   566231040  27456544   96%  1251421    30% /cm/cnvarchive007
+ankcseprdd01.dts.ca.gov:/cm/archivelt005   921698304  34229880   97%  1411706    28% /cm/archivelt005
+ankcseprdd01.dts.ca.gov:/cm/archivelt004   837812224  32049336   97%  3777562    45% /cm/archivelt004
+ankcseprdd01.dts.ca.gov:/cm/archivelt003   837812224  34295200   96%  4674062    55% /cm/archivelt003
+ankcseprdd01.dts.ca.gov:/cm/archivelt002   836763648  33045304   97%  5746786    61% /cm/archivelt002
+ankcseprdd01.dts.ca.gov:/cm/archivelt001   835715072  27420672   97%  4415544    60% /cm/archivelt001
+ankcseprdd01.dts.ca.gov:/batchjobdata_cluster_1   650117120 289128376   56%    30010     1% /cse/batch/PROD01_Batch_Cluster_1/job_data
+ankcseprdd01.dts.ca.gov:/cm/archivelt030   881328128  16715248   99%  1529487    46% /cm/archivelt030
+ankcseprdd01.dts.ca.gov:/cm/archivelt031   881328128  16836104   99%  1540866    46% /cm/archivelt031
+ankcseprdd01.dts.ca.gov:/cm/archivelt032   881328128  16751360   99%  1528362    46% /cm/archivelt032
+ankcseprdd01.dts.ca.gov:/cm/archivelt033   838860800  18469752   98%  1621159    45% /cm/archivelt033
+ankcseprdd01.dts.ca.gov:/cm/archivelt034   879755264  18091992   98%  1601069    45% /cm/archivelt034
+ankcseprdd01.dts.ca.gov:/cm/archivelt035   879493120  18238624   98%  1613070    45% /cm/archivelt035
+ankcseprdd01.dts.ca.gov:/cm/archivelt036   880803840  18475616   98%  1594250    44% /cm/archivelt036
+ankcseprdd01.dts.ca.gov:/cm/archivelt037   880803840  18738824   98%  1591984    44% /cm/archivelt037
+ankcseprdd01.dts.ca.gov:/cm/archivelt038   876609536  18654224   98%  1588974    44% /cm/archivelt038
+ankcseprdd01.dts.ca.gov:/cm/archivelt039   880279552    439064  100%  1493152    97% /cm/archivelt039
+ankcseprdd01.dts.ca.gov:/cm/archivelt040   880279552    426416  100%  1494248    97% /cm/archivelt040
+ankcseprdd01.dts.ca.gov:/cm/archivelt041   880279552    467344  100%  1493698    97% /cm/archivelt041
+ankcseprdd01.dts.ca.gov:/cm/archivelt042   879230976    385216  100%  1444761    98% /cm/archivelt042
+ankcseprdd01.dts.ca.gov:/cm/archivelt043   879230976    461544  100%  1450857    97% /cm/archivelt043
+ankcseprdd01.dts.ca.gov:/cm/archivelt044   879230976    468288  100%  1446169    97% /cm/archivelt044
+ankcseprdd01.dts.ca.gov:/cm/archivelt045   878968832    505584  100%  1354604    96% /cm/archivelt045
+ankcseprdd01.dts.ca.gov:/cm/archivelt046   878968832    566152  100%  1351463    96% /cm/archivelt046
+ankcseprdd01.dts.ca.gov:/cm/archivelt047   878968832    467544  100%  1348969    97% /cm/archivelt047
+ankcseprdd01.dts.ca.gov:/cm/eDocs   310378496 102482136   67%  1022582     9% /cm/eDocs
+ankcseprdd01.dts.ca.gov:/cm/archivelt048   880803840  13463472   99%  1582925    52% /cm/archivelt048
+ankcseprdd01.dts.ca.gov:/cm/archivelt049   880803840   8449312  100%  1731476    65% /cm/archivelt049
+ankcseprdd01.dts.ca.gov:/cm/archivelt050   880803840  16418720   99%  1993766    53% /cm/archivelt050
+ankcseprdd01.dts.ca.gov:/cm/archivelt051   880803840  16113776   99%  2327043    57% /cm/archivelt051
+ankcseprdd01.dts.ca.gov:/cm/archivelt052   880803840  17466872   99%  2312178    55% /cm/archivelt052
+ankcseprdd01.dts.ca.gov:/cm/archivelt053   880803840  15796504   99%  2325889    57% /cm/archivelt053
+ankcseprdd01.dts.ca.gov:/cm/archivelt054  1048576000  18916336   99%  2662785    56% /cm/archivelt054
+ankcseprdd01.dts.ca.gov:/cm/archivelt055  1048576000  19226640   99%  2655538    56% /cm/archivelt055
+ankcseprdd01.dts.ca.gov:/cm/archivelt056  1048576000  19625776   99%  2666479    56% /cm/archivelt056
+ankcseprdd01.dts.ca.gov:/cm/archivelt057  1048576000  20067368   99%  2664868    55% /cm/archivelt057
+ankcseprdd01.dts.ca.gov:/cm/archivelt058  1048576000  19554984   99%  2664990    56% /cm/archivelt058
+ankcseprdd01.dts.ca.gov:/cm/archivelt059  1048576000  19211216   99%  2649135    56% /cm/archivelt059
+ankcseprdd01.dts.ca.gov:/cm/archivelt060  1048576000   5099488  100%  2713558    83% /cm/archivelt060
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt004   955252736  15752688   99%   927109    35% /cm/drarchivelt004
+ankcseprdd01.dts.ca.gov:/docstorage   209518592  61380240   71%   196038     3% /docstorage
+ankcseprdd01.dts.ca.gov:/cm/archivelt062  1047527424  16631896   99%  2868259    61% /cm/archivelt062
+ankcseprdd01.dts.ca.gov:/cm/archivelt061  1048576000  13106664   99%  2882548    67% /cm/archivelt061
+ankcseprdd01.dts.ca.gov:/cm/archivelt063  1048576000   8363496  100%  3005591    77% /cm/archivelt063
+ankcseprdd01.dts.ca.gov:/cm/archivelt064  1048576000    385024  100%  2957813    99% /cm/archivelt064
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt005   629145600   9980120   99%   556237    34% /cm/drarchivelt005
+ankcseprdd01.dts.ca.gov:/cm/archivelt065  1048576000  17606016   99%  2980173    61% /cm/archivelt065
+ankcseprdd01.dts.ca.gov:/cm/archivelt066  1048576000  16016200   99%  2979911    63% /cm/archivelt066
+ankcseprdd01.dts.ca.gov:/cm/archivelt067  1048576000  18428176   99%  2972307    60% /cm/archivelt067
+ankcseprdd01.dts.ca.gov:/cm/drarchivelt006   629145600  12571752   99%   727903    35% /cm/drarchivelt006
+ankcseprdd01:/cm/archivelt069  1256194048    509736  100%  3295192    99% /cm/archivelt069
+ankcseprdd01:/cm/archivelt068  1048576000  17814288   99%  2685069    58% /cm/archivelt068
+ankcseprdd01:/cm/drarchivelt007   629145600   9311096   99%   722304    42% /cm/drarchivelt007
+ankcseprdd01.dts.ca.gov:/cm/archivelt070  1046478848  18203368   99%  2813025    59% /cm/archivelt070
+ankcseprdd01.dts.ca.gov:/cm/archivelt071  1046478848  16514792   99%  2829423    61% /cm/archivelt071
+ankcseprdd01.dts.ca.gov:/cm/archivelt072  1046478848  18774520   99%  2811213    58% /cm/archivelt072
+ankcseprdd01:/cm/drarchivelt008   629145600  11667368   99%   708442    36% /cm/drarchivelt008
+ankcseprdd01:/cm/archivelt073  1048576000  17860736   99%  2741657    59% /cm/archivelt073
+ankcseprdd01:/cm/archivelt074  1048576000  20514800   99%  2754396    55% /cm/archivelt074
+ankcseprdd01:/cm/drarchivelt009   639631360 112803488   83%   571116     5% /cm/drarchivelt009
+ankcseprdd01:/cm/archivelt075  1048576000  59400752   95%  2532655    28% /cm/archivelt075
+ankcseprdd01:/cm/archivelt076  1048576000  58402544   95%  2556144    29% /cm/archivelt076
+ankcseprdd01:/cm/drarchivelt010   628621312 340516368   46%   303893     1% /cm/drarchivelt010
+ankcseprdd01:/cm/archivelt078  1048576000 849980368   19%   515320     1% /cm/archivelt078
+ankcseprdd01:/cm/archivelt077  1048576000 847963056   20%   520639     1% /cm/archivelt077
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcseprdd04:/cf1  2097152000 2094783408    1%        4     1% /cf1
+ankcseprdd04:/cf2  2097152000 2094783408    1%        4     1% /cf2
+ankcseprdd04:/cf3  2097152000 2094783408    1%        4     1% /cf3
+ankcseprdd04:/cf4  2097152000 2094783408    1%        4     1% /cf4
+ankcseprdd04:/cf5  2097152000 2094783408    1%        4     1% /cf5
+ankcseprda01[/home/cseadmin]$ 
+ankcseprda01[/home/cseadmin]$ df /cse
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/cse_lv      7340032    713272   91%     9640     2% /cse
+ankcseprda01[/home/cseadmin]$ 

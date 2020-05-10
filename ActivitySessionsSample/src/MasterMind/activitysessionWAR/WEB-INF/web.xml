@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<!-- 
+  COPYRIGHT LICENSE: This information contains sample code provided in source 
+  code form. You may copy, modify, and distribute these sample programs in any
+  form without payment to IBM for the purposes of developing, using, marketing
+  or distributing application programs conforming to the application programming
+  interface for the operating platform for which the sample code is written. 
+  Notwithstanding anything to the contrary, IBM PROVIDES THE SAMPLE SOURCE CODE
+  ON AN "AS IS" BASIS AND IBM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+  INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF
+  MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+  AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM SHALL NOT BE LIABLE FOR
+  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT
+  OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE. IBM HAS NO OBLIGATION TO
+  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE
+  SAMPLE SOURCE CODE.
+-->
+
+   <web-app id="WebApp_ID">
+      <display-name>MasterMind Game</display-name>
+      <servlet id="Servlet_1">
+         <servlet-name>MasterMindGameServlet</servlet-name>
+         <display-name>MasterMind Game Servlet</display-name>
+         <servlet-class>com.ibm.websphere.samples.activitysessionWAR.MasterMind</servlet-class>
+         <load-on-startup></load-on-startup>
+      </servlet>
+      <servlet-mapping id="ServletMapping_1">
+         <servlet-name>MasterMindGameServlet</servlet-name>
+         <url-pattern>MasterMind</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping id="ServletMapping_2">
+         <servlet-name>MasterMindGameServlet</servlet-name>
+         <url-pattern>Game</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping id="ServletMapping_3">
+         <servlet-name>MasterMindGameServlet</servlet-name>
+         <url-pattern>MasterMindGame</url-pattern>
+      </servlet-mapping>
+      <ejb-ref id="EjbRef_1">
+         <ejb-ref-name>MasterMindGame</ejb-ref-name>
+         <ejb-ref-type>Session</ejb-ref-type>
+         <home>com.ibm.websphere.samples.activitysessionEJB.MasterMindGameHome</home>
+         <remote>com.ibm.websphere.samples.activitysessionEJB.MasterMindGame</remote>
+         <ejb-link>MasterMindGame</ejb-link>
+      </ejb-ref>
+   </web-app>

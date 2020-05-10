@@ -1,0 +1,22 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.18 07:37:38 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Fri Oct 18 07:37:22 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Oct 18 07:36:22 PDT 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva01[/home/cseadmin]$ cat /home/cseadmin/safe/safe.properties
+CIV:/home/cseadmin/.ssh/id_rsa_safe_civ_tb:dcss-fx-civ-test-batch
+ankcsedeva01[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

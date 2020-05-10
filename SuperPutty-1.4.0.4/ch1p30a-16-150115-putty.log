@@ -1,0 +1,41 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.16 15:01:16 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Mon Oct 14 09:15:20 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct 15 08:50:00 PDT 2019 on ssh from ankcseprdd01
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm
+Xlib: connection to "localhost:10.0" refused by server
+Xlib: PuTTY X11 proxy: unable to connect to forwarded X server: Network error: Connection refused
+
+Exception in thread "main" java.awt.AWTError: Can't connect to X11 window server using 'localhost:10.0' as the value of the DISPLAY variable.
+        at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+        at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:79)
+        at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:140)
+        at java.security.AccessController.doPrivileged(AccessController.java:594)
+        at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:88)
+        at java.lang.Class.forNameImpl(Native Method)
+        at java.lang.Class.forName(Class.java:273)
+        at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:114)
+        at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:93)
+        at sun.awt.X11.XToolkit.<clinit>(XToolkit.java:138)
+        at java.lang.Class.forNameImpl(Native Method)
+        at java.lang.Class.forName(Class.java:273)
+        at java.awt.Toolkit$2.run(Toolkit.java:871)
+        at java.awt.Toolkit$2.run(Toolkit.java:866)
+        at java.security.AccessController.doPrivileged(AccessController.java:594)
+        at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:865)
+        at com.ibm.ipc.image.XSplash.<init>(XSplash.java:85)
+        at com.ibm.ipc.image.XSplash.showSplash(XSplash.java:56)
+        at ipo.main(ipo.java:703)
+ankcseprda18[/ipm/south] 

@@ -1,0 +1,235 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 13:36:33 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Nov 15 13:33:49 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd EFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    cpyhttpd.yml           fetchhostname.yml     script.yml
+[0m[01;34mapache[0m                         CreatePartition.yml    [01;34mfinal[0m                 [01;34mselfsignedcerts[0m
+CCServers.yml                  CreatePartsDevOps.yml  gitcommands.txt       servers.yml
+[01;34mcis-rhel-ansible-audit-master[0m  CreateUser.retry       inventory             [01;32mserver.xml[0m
+[01;32mcontext.xml[0m                    CreateUsers.yml        inventorycc           stopFW.yml
+copy                           CreateUser.yml         [01;31mmaster-cisreport.zip[0m  [01;34mtomcat[0m
+copyBinaries.yml               [01;34mCustomerConnect[0m        passwd                users.yml
+copyKeys.retry                 delApctl.yml           passwd.txt            [01;32mweb.xml[0m
+copyKeys.yml                   deploy1.yml            ping.yml              yumPackages.yml
+copyKey.yml                    [01;31mdevel.zip[0m              [01;34mpyscritps[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd selfsignedcerts/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts.retry  [0m[01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m
+CreateCerts-pft1.yml    CreateCerts.yml    [01;34mpyOpenSSL-19.0.0[0m
+CreateCerts-pft.retry   getIP.yml          [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft.yml     insPyOSSL.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ vi CreateCerts-pft.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".CreateCerts-pft.yml.swp"
+[10Cowned by: hchada   dated: Thu Mar 21 10:43:09 2019
+[9Cfile name: ~hchada/EFS/ansible/selfsignedcerts/CreateCerts-pft.yml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 8479
+While opening file "CreateCerts-pft.yml"
+[13Cdated: Thu Mar 21 12:05:05 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r CreateCerts-pft.yml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".CreateCerts-pft.yml.swp"
+    to avoid this message.
+
+[55;1H"CreateCerts-pft.yml" 35L, 1409C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[6;7Hfile:[7;8Hpath: /forms/apache24/ssl[8;8Hstate: directory
+    - name: Delete old Key files[10;7Hfile:[11;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.key[12;9Hstate: absent
+    - name: Generate an OpenSSL private key.[14;7Hopenssl_privatekey:[15;10Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.key[16;10Hsize: 2048[17;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[19;7Hopenssl_csr:[20;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.csr[21;9Hprivatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key[22;9Hcountry_name: US[23;9Horganization_name: DCSS[24;9Horganizational_unit_name: Env[25;9Hemail_address: dcsstsenvironmentsunit@dcss.ca.gov[26;9Hcommon_name: "100.95.20.99"[27;9Hsubject_alt_name: "DNS:efs{{ inventory_hostname[0:3] }}.cse.ca.gov, DNS:{{ ansible_default_ii[28;1Hpv4.address }}"
+    - name: Generate a Self Signed OpenSSL certificate.[30;7Hopenssl_certificate:[31;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.crt[32;9Hprivatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key[33;9Hcsr_path: /forms/apache24/ssl/{{ inventory_hostname }}.csr[34;9Hsignature_algorithms: sha256WithRSAEncryption[35;9Hprovider: selfsigned[36;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                   [38;1H~                                                                                                   [39;1H~                                                                                                   [40;1H~                                                                                                   [41;1H~                                                                                                   [42;1H~                                                                                                   [43;1H~                                                                                                   [44;1H~                                                                                                   [45;1H~                                                                                                   [46;1H~                                                                                                   [47;1H~                                                                                                   [48;1H~                                                                                                   [49;1H~                                                                                                   [50;1H~                                                                                                   [51;1H~                                                                                                   [52;1H~                                                                                                   [53;1H~                                                                                                   [54;1H~                                                                                                   [55;1H~                                                                                                   [m[56;1H[K[1;1H[?12l[?25h[?25l[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ cat CreateCerts-pft1.yml 
+- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.
+      file:
+       path: /etc/httpd/ssl 
+       state: directory
+    - name: Delete old Key files
+      file:
+        path: /etc/httpd/ssl/efspft1-.key
+        state: absent
+    - name: Generate an OpenSSL private key.
+      openssl_privatekey:
+         path: /etc/httpd/ssl/efspft1-.key
+         size: 1024
+         state: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.
+      openssl_csr:
+        path: /etc/httpd/ssl/efspft1-.csr
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        country_name: US
+        organization_name: DCSS
+        organizational_unit_name: Env
+        emailAddress: dcsstsenvironmensunit@dcss.ca.gov
+        common_name: "100.95.20.94"
+        subject_alt_name: "DNS:efspft1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"
+        state: "{{ statte }}"
+
+    - name: Generate a Self Signed OpenSSL certificate.
+      openssl_certificate:
+        path: /etc/httpd/ssl/efspft1-.crt
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        csr_path: /etc/httpd/ssl/efspft1-.csr
+        signature_algorithms: sha256WithRSAEncryption
+        provider: selfsigned
+        state: "{{ statte }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ rm *.retry
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.yml  CreateCerts.yml  insPyOSSL.yml                      [0m[01;34mpyOpenSSL-19.0.0[0m
+CreateCerts-pft.yml   getIP.yml        [01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m  [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ lsrm *.retrycat CreateCerts-pft1.yml 
+- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.
+      file:
+       path: /etc/httpd/ssl 
+       state: directory
+    - name: Delete old Key files
+      file:
+        path: /etc/httpd/ssl/efspft1-.key
+        state: absent
+    - name: Generate an OpenSSL private key.
+      openssl_privatekey:
+         path: /etc/httpd/ssl/efspft1-.key
+         size: 1024
+         state: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.
+      openssl_csr:
+        path: /etc/httpd/ssl/efspft1-.csr
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        country_name: US
+        organization_name: DCSS
+        organizational_unit_name: Env
+        emailAddress: dcsstsenvironmensunit@dcss.ca.gov
+        common_name: "100.95.20.94"
+        subject_alt_name: "DNS:efspft1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"
+        state: "{{ statte }}"
+
+    - name: Generate a Self Signed OpenSSL certificate.
+      openssl_certificate:
+        path: /etc/httpd/ssl/efspft1-.crt
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        csr_path: /etc/httpd/ssl/efspft1-.csr
+        signature_algorithms: sha256WithRSAEncryption
+        provider: selfsigned
+        state: "{{ statte }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ vi CreateCerts.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".CreateCerts.yml.swp"
+[10Cowned by: hchada   dated: Wed May  8 09:40:23 2019
+[9Cfile name: ~hchada/EFS/ansible/selfsignedcerts/CreateCerts.yml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 17886
+While opening file "CreateCerts.yml"
+[13Cdated: Wed Oct 30 07:56:56 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r CreateCerts.yml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".CreateCerts.yml.swp"
+    to avoid this message.
+
+[55;1H"CreateCerts.yml" 39L, 1342C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[7;7Hfile:[8;8Hpath: /etc/httpd/ssl[9;8Hstate: directory
+    - name: Delete old Key files[11;7Hfile:[12;9Hpath: /etc/httpd/ssl/pft2efs-new.key[13;9Hstate: absent
+    - name: Generate an OpenSSL private key.[15;7Hopenssl_privatekey:[16;10Hpath: /etc/httpd/ssl/pft2efs-new.key[17;10Hsize: 1024[18;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[20;7Hopenssl_csr:[21;9Hpath: /etc/httpd/ssl/pft2efs-new.csr[22;9Hprivatekey_path: /etc/httpd/ssl/pft2efs-new.key[23;9Hcountry_name: US[24;9Horganization_name: DCSS[25;9Horganizational_unit_name: Env[26;9HemailAddress: dcsstsenvironmensunit@dcss.ca.gov[27;9Hcommon_name: "100.95.20.93"[28;9Hsubject_alt_name: "DNS:efspft2.cse.ca.gov, DNS:100.95.20.93, IP:100.95.20.93"[29;9Hstate: "{{ statte }}"[30;7Hwhen: "'pft2' in inventory_hostname"[32;5H- name: Generate a Self Signed OpenSSL certificate.[33;7Hopenssl_certificate:[34;9Hpath: /etc/httpd/ssl/pft2efs-new.crt[35;9Hprivatekey_path: /etc/httpd/ssl/pft2efs-new.key[36;9Hcsr_path: /etc/httpd/ssl/pft2efs-new.csr[37;9Hsignature_algorithms: sha256WithRSAEncryption[38;9Hprovider: selfsigned[39;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                   [41;1H~                                                                                                   [42;1H~                                                                                                   [43;1H~                                                                                                   [44;1H~                                                                                                   [45;1H~                                                                                                   [46;1H~                                                                                                   [47;1H~                                                                                                   [48;1H~                                                                                                   [49;1H~                                                                                                   [50;1H~                                                                                                   [51;1H~                                                                                                   [52;1H~                                                                                                   [53;1H~                                                                                                   [54;1H~                                                                                                   [55;1H~                                                                                                   [m[56;1H[K[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        subject_alt_name: "DN[?25l[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ vi CreateCerts-pft1.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"CreateCerts-pft1.yml" 38L, 1294C[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[7;7Hfile:[8;8Hpath: /etc/httpd/ssl[9;8Hstate: directory
+    - name: Delete old Key files[11;7Hfile:[12;9Hpath: /etc/httpd/ssl/efspft1-.key[13;9Hstate: absent
+    - name: Generate an OpenSSL private key.[15;7Hopenssl_privatekey:[16;10Hpath: /etc/httpd/ssl/efspft1-.key[17;10Hsize: 1024[18;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[20;7Hopenssl_csr:[21;9Hpath: /etc/httpd/ssl/efspft1-.csr[22;9Hprivatekey_path: /etc/httpd/ssl/efspft1-.key[23;9Hcountry_name: US[24;9Horganization_name: DCSS[25;9Horganizational_unit_name: Env[26;9HemailAddress: dcsstsenvironmensunit@dcss.ca.gov[27;9Hcommon_name: "100.95.20.94"[28;9Hsubject_alt_name: "DNS:efspft1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.944[29;1H"[30;9Hstate: "{{ statte }}"[32;5H- name: Generate a Self Signed OpenSSL certificate.[33;7Hopenssl_certificate:[34;9Hpath: /etc/httpd/ssl/efspft1-.crt[35;9Hprivatekey_path: /etc/httpd/ssl/efspft1-.key[36;9Hcsr_path: /etc/httpd/ssl/efspft1-.csr[37;9Hsignature_algorithms: sha256WithRSAEncryption[38;9Hprovider: selfsigned[39;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                   [41;1H~                                                                                                   [42;1H~                                                                                                   [43;1H~                                                                                                   [44;1H~                                                                                                   [45;1H~                                                                                                   [46;1H~                                                                                                   [47;1H~                                                                                                   [48;1H~                                                                                                   [49;1H~                                                                                                   [50;1H~                                                                                                   [51;1H~                                                                                                   [52;1H~                                                                                                   [53;1H~                                                                                                   [54;1H~                                                                                                   [55;1H~                                                                                                   [1;1H[?12l[?25h
+
+[2;1H[1;1H[?25l[m[56;1H[K[56;1H:[?12l[?25h%s/pft1-/pft[?25l[56;13H[K[56;13H[?12l[?25h[?25l[56;12H[K[56;12H[?12l[?25hrp[?25l[56;13H[K[56;13H[?12l[?25hod-new/g[?25l7 substitutions on 7 lines[12;34Hrod-new.key[16;35Hrod-new.key[21;34Hrod-new.csr[22;45Hrod-new.key[34;34Hrod-new.crt[35;45Hrod-new.key[36;38Hrod-new.csr[36;9H[?12l[?25h[35;9H[34;9H[33;9H[32;9H[31;1H[30;9H[28;9H[27;9H[28;9Hsubject_alt_name: "DNS:efsp[?25l[28;55r[55;1H
+[1;56r[28;1H [7Csubject_alt_name: "DNS:efspt1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"[55;1H[1m[34m~                                                                                                   [m[56;1H[K[28;36H[?12l[?25h[?25l1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"[28;100H[K[28;36H[?12l[?25h[?25l.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"[28;99H[K[28;36H[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;36H[?12l[?25h[?25l[mr.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"[28;37H[?12l[?25h[?25lo.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"[28;38H[?12l[?25h[?25l[29;55r[29;1H[L[1;56r[28;38Hd.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.944[29;1H"[28;39H[?12l[?25h[56;1H[K[28;38H[?25l[?12l[?25hd.cse.ca.gov, IP:100.95.20.6[?25l0[33C44[29;1H"[28;66H[?12l[?25h0, IP:100.95.20.[?25l1[17C44[29;1H"[28;82H[?12l[?25h1[?25l5[16C44[29;1H"[28;83H[?12l[?25h5, IP:100.95.20.[?25l[28;55r[55;1H
+[1;56r[28;1H [7Csubject_alt_name: "DNS:efsprod.cse.ca.gov, IP:100.95.20.60, IP:100.95.20.15, IP:100.95.20.4"[55;1H[1m[34m~                                                                                                   [28;99H[?12l[?25h[?25l[m"[28;100H[K[28;99H[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;99H[?12l[?25h[?25l[m`"[28;100H[?12l[?25h[?25l[29;55r[29;1H[L[1;56r[28;100H66[29;1H"[?12l[?25h[?25l[28;55r[55;1H
+[1;56r[28;1H [7Csubject_alt_name: "DNS:efsprod.cse.ca.gov, IP:100.95.20.60, IP:100.95.20.15, IP:100.95.20.`"[55;1H[1m[34m~                                                                                                   [28;100H[?12l[?25h[?25l[m"[28;100H[K[28;99H[?12l[?25h[?25l1"[28;100H[?12l[?25h[?25l[29;55r[29;1H[L[1;56r[28;100H66[29;1H"[?12l[?25h[56;1H[K[28;100H[?25l[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;55r[m[55;1H
+[1;56r[28;1H [7Csubject_alt_name: "DNS:efsprod.cse.ca.gov, IP:100.95.20.60, IP:100.95.20.15, IP:100.95.20.6"[55;1H[1m[34m~                                                                                                   [28;99H[?12l[?25h[?25l[29;55r[m[29;1H[L[1;56r[28;99H166[29;1H"[28;100H[?12l[?25h[?25lpp[29;1H6"[?12l[?25h

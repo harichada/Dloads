@@ -1,0 +1,38 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 10:07:48 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Sep 17 13:11:17 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Sep 20 09:48:04 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm
+[1] + Stopped (SIGTSTP)        /usr/lpp/pd/bin/ipguiadvadm
+ankcseprda18[/ipm/south] pdq -U -rv -p 4901pl01
+ankcseprda18[/ipm/south] pdq -U -rv -p 4901pl01r
+ankcseprda18[/ipm/south] pdls -r verbose -c printer 4901pa03
+Destination  Realization  State               Server      Locations  Enabled  Queue     
+-----------  -----------  ------------------  ----------  ---------  -------  --------  
+4901pa03     actual       needs key operator  cse16suv01  Sonoma     false    4901pq01  
+ankcseprda18[/ipm/south] pdenable 4901pa03
+ankcseprda18[/ipm/south] pdenable 4901pa03pdls -r verbose -c printer 4901pa03
+Destination  Realization  State  Server      Locations  Enabled  Queue     
+-----------  -----------  -----  ----------  ---------  -------  --------  
+4901pa03     actual       idle   cse16suv01  Sonoma     true     4901pq01  
+ankcseprda18[/ipm/south] pdls -r verbose -c printer 4901pa03pdls -r verbose -c printer 4901pa04
+pdls: 5010-065 Cannot find the object 4901pa04.
+ankcseprda18[/ipm/south] pdls -r verbose -c printer 4901pa04pdls -r verbose -c printer 4901pa04x  07
+Destination  Realization  State  Server      Locations  Enabled  Queue     
+-----------  -----------  -----  ----------  ---------  -------  --------  
+4901pa07     actual       idle   cse16suv01  Sonoma     true     4901pq01  
+ankcseprda18[/ipm/south] fg
+/usr/lpp/pd/bin/ipguiadvadm
+ankcseprda18[/ipm/south] exit

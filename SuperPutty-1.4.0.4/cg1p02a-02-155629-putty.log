@@ -1,0 +1,283 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.02 15:56:29 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/cseadmin]$ 1kkkvi SYA01.ImagingArchitecture.propertiesping ankcsesyaa05                      vi SYA01.ImagingArchitecture.propertiesvi SYA01.CSEArchitecture.properties    ls                                 cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config/cse*
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls
+SYA01.CSEArchitecture.properties                     SYA01.log4j.properties
+SYA01.CSEArchitecture.properties.orig                SYA01.log4j.properties.20181115
+SYA01.ConsortiaInitialLoadToggle.properties          SYA01.log4j.properties.HIB
+SYA01.ConsortiaUpdateQueuePublish.properties         SYA01.log4j.properties.bak
+SYA01.EnterpriseFormService.properties               SYA01.reporting.properties
+SYA01.FontLocation.properties                        SYA01.reporting.properties.bak
+SYA01.FormsArchitecture.properties                   SYA01.tracing.properties
+SYA01.FormsArchitecture.properties.ADOBEAEM          SYA01.tracing.properties.orig
+SYA01.FormsArchitecture.properties.bak               SYA01_Integration.log4j.properties
+SYA01.FormsArchitecture.properties.orig              cmbicmenv.ini
+SYA01.IFOnlineFormsArchitecture.properties           cmbicmsrvs.ini
+SYA01.IFOnlineFormsArchitecture.properties.AdobeAEM  cmbicmsrvs.ini.bak
+SYA01.IFOnlineFormsArchitecture.properties.orig      cmblogconfig.properties
+SYA01.ImagingArchitecture.properties                 cmbpool.ini
+SYA01.ImagingArchitecture.properties.20191125        donotremove
+SYA01.ImagingArchitecture.properties.bak             ibmcmconfig.properties
+SYA01.PrintingArchitecture.properties                ibmcmconfig.properties.bak
+SYA01.RemoteFormsGenExclusions.properties            jaas.conf.WSI
+SYA01.SECUREInterface.properties                     securityAdministration.properties
+SYA01.ShippingInterfaces.properties
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ cat SYA01.ImagingArchitecture.properties
+# Description:
+#    This file contains configuration data for the Imaging Architecture in 
+#    specific the Document Management Service.  
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and 
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both 
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of 
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following 
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#       a) Be sure that the cmbcmenv.properties file in CSEResources specifies 
+#          a valid directory containing the rest of the cmb*.ini and 
+#          cmb*.properties files.
+#       b) Be sure you have a DB2 connection configured to the Content Manager
+#          Library Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#       c) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#       a) Try to connect to Content Manager with the eClient and retrieve 
+#          a document to ensure that the server is up and accessable.
+#          DEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#          TEST: ??
+#          PROD: ??
+#       b) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer         - Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes 
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=CONTMAN
+CM_USERID=sya01
+CM_PASSWORD=beer4y0u
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource 
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in 
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of 
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+# 
+# For example, given these values:
+# TAME_URL_SEARCH=csehap019.cse.gov.ca:9080
+# TAME_URL_REPLACE=CSEHAP019:9080
+# 
+# The URL from Content Manager would look something like this:
+# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "csehap019.cse.gov.ca" with "CSEHAP019":
+# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+# 
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the 
+# FormsArchitecture.properties file, which is externalized as a URL resource in 
+# WAS for all eBHC environments. If it does not find that URL resource, 
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+#TAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315
+#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm
+#TAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm
+
+TAME_URL_SEARCH=ankcsesyaa05.dts.ca.gov:9085/
+TAME_URL_REPLACE=ankcsesya05.dts.ca.gov:9085/
+FN_PDF_URL=https://ankcsesyaw01.dts.ca.gov
+
+
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# New 8.4
+#ICMSERVERREPTYPE=DB2CON
+#IBMCMWorkingDirectory=/usr/WebSphere/AppServer/config/cseProperties
+
+# The max number of scanned items returned by the getScannedDocuments() method.  
+# The caller can specify a maximum number of items, but if the values greater 
+# than this value are not allowed.  If the caller passes in 0, the this number 
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what 
+# is required to connect to DB2 Content Manager.
+#
+#    1) DB2 connection to Library Server
+#
+#    The APIs require a DB2 connection to the library server.  Ensure that 
+#    the system accessing Content Manager has a DB2 connection configured.
+#      SANDBOX:         ankcsesyaa05
+#      DEV:             CSEHAP019
+#      TEST:
+#      PROD:
+#
+#    2) DB2 and Content Manager JAR files in classpath
+#    cmb81.jar                  - II4C/EIP Beans (CMB*)
+#    cmbicm81.jar       - Content Manager Connector Classes (DK*)
+#    cmbicmc81.jar      - 'Client' version of cmbicm81.jar (DK*)
+#    cmbsdk81.jar       - Content Manager Connector Classes (DK*)
+#    db2java.zip                - DB2 JDBC interface
+#
+#    3) Content Manager .ini and .properties files that ARE required 
+#       for the Document Management Service.
+#
+#      cmbicmenv.ini            - Specifies location of other cmb* files.
+#      cmbicmsrvs.ini           - Specifies the names of the Content Manager
+#                                 servers available to the APIs.
+#      cmblogconfig.properties  - Specifies the name/location of Content 
+#                                 Manager log file.  Default is dklog.log.
+#      cmbpool.ini                              - Used to configure WAS db2 connection pooling
+#
+#    See chapter 34 of the following file for more information on the 
+#    .properties and .ini files used by Content Manager.
+#
+#    Q:\TECHNOLOGY ARCHITECTURE\DEVELOPMENT\
+#               PIF\Reference\CM Documentation\CM82 Plan and Install Guide.pdf
+#
+#    4) FYI: Other Standard II4C Files Not Required for CSE Project:
+#      cmbclient.ini            - RMI Configuration
+#      cmbsvclient.ini                  - RMI Configuration
+#      cmbsvcs.ini                              - RMI Configuration
+#      cmbcs.ini                                - Specifies local/remote for each server type
+#      cmbds.ini                                - Federated search values
+#      cmbfedenv.ini                    - Federated search server encryption string
+#      cmbjdbcsrvs.ini                  - Name of db2 datasources for II4C JDBC sources
+#      cmbrm.ini                                - Resource Manager timeout values
+#      cmbuserexit.ini                  - User exits for LDAP integration
+#
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ 
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ more SYA01.ImagingArchitecture.properties
+[?1049h[36;1H[K# Description:
+#    This file contains configuration data for the Imaging Architecture in 
+#    specific the Document Management Service.  
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and 
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both 
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of 
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following 
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#       a) Be sure that the cmbcmenv.properties file in CSEResources specifies 
+#          a valid directory containing the rest of the cmb*.ini and 
+#          cmb*.properties files.
+#       b) Be sure you have a DB2 connection configured to the Content Manager
+#          Library Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#       c) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#       a) Try to connect to Content Manager with the eClient and retrieve 
+#          a document to ensure that the server is up and accessable.
+#          DEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#          TEST: ??
+#          PROD: ??
+#       b) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer         - Initial creation
+#
+[36;1H[K[7mSYA01.ImagingArchitecture.properties (24%)[27m[36;1H[36;1H[K
+#
+# Content Manager connection information.  Values between @ signes 
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=CONTMAN
+CM_USERID=sya01
+CM_PASSWORD=beer4y0u
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource 
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in 
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of 
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+# 
+# For example, given these values:
+# TAME_URL_SEARCH=csehap019.cse.gov.ca:9080
+# TAME_URL_REPLACE=CSEHAP019:9080
+# 
+# The URL from Content Manager would look something like this:
+# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&
+libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "csehap019.cse.gov.ca" with "CSEHAP019":
+# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICM
+NLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+# 
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the 
+[36;1H[K[7mSYA01.ImagingArchitecture.properties (47%)[27m[36;1H[36;1H[K# FormsArchitecture.properties file, which is externalized as a URL resource in 
+# WAS for all eBHC environments. If it does not find that URL resource, 
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+#TAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315
+#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm
+#TAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm
+
+TAME_URL_SEARCH=ankcsesyaa05.dts.ca.gov:9085/
+TAME_URL_REPLACE=ankcsesya05.dts.ca.gov:9085/
+FN_PDF_URL=https://ankcsesyaw01.dts.ca.gov
+
+
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# New 8.4
+#ICMSERVERREPTYPE=DB2CON
+#IBMCMWorkingDirectory=/usr/WebSphere/AppServer/config/cseProperties
+
+# The max number of scanned items returned by the getScannedDocuments() method.  
+# The caller can specify a maximum number of items, but if the values greater 
+# than this value are not allowed.  If the caller passes in 0, the this number 
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+[36;1H[K[7mSYA01.ImagingArchitecture.properties (67%)[27m

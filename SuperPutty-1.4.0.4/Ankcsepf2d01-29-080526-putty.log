@@ -1,0 +1,21 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.29 08:05:26 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Apr 29 10:50:42 PDT 2019 on ssh from 134.187.119.107
+Last login: Tue Oct 29 08:00:27 PDT 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2d01[/home/cseadmin]$ cd cm/
+ksh: cm/:  not found.
+ankcsepf2d01[/home/cseadmin]$ cd /cm
+ankcsepf2d01[/cm]$ ls
+active        archive       archivelt001  drArchive     eDocs         lost+found
+ankcsepf2d01[/cm]$ exit

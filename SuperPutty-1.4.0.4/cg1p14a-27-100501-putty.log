@@ -1,0 +1,651 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.27 10:05:01 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Thu Sep 26 13:57:21 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 26 15:39:49 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyta05[/home/hchada]$ ps -ef | grep java
+    root  4522176  7995394   0   Aug 13      -  8:33 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=2iY4MiygFxdMrfPu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7995394 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin  5111838        1   0   Aug 13      - 218:59 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=32897 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 nodeagent
+wasadmin  9371688  5111838   0   Sep 17      - 46:02 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=61254 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT01_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT02_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT01_Batch
+wasadmin  9437412  5111838   0   Aug 23      - 130:14 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=61764 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT08_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT08_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT08_Batch
+    root  9896168        1   1   Aug 13      - 339:34 /maestro/eWAS/java/bin/java -Declipse.security -Dwas.status.socket=33809 -Dosgi.install.area=/maestro/eWAS -Dosgi.configuration.area=/maestro/eWAS/profiles/TIPProfile/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/maestro/eWAS/java/jre/lib/ext/ibmorb.jar:/maestro/eWAS/java/jre/lib/ext/ibmext.jar -classpath /maestro/eWAS/profiles/TIPProfile/properties:/maestro/eWAS/properties:/maestro/eWAS/lib/startup.jar:/maestro/eWAS/lib/bootstrap.jar:/maestro/eWAS/lib/jsf-nls.jar:/maestro/eWAS/lib/lmproxy.jar:/maestro/eWAS/lib/urlprotocols.jar:/maestro/eWAS/deploytool/itp/batchboot.jar:/maestro/eWAS/deploytool/itp/batch2.jar:/maestro/eWAS/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx1024m -Xcompressedrefs -Dws.ext.dirs=/maestro/eWAS/java/lib:/maestro/eWAS/profiles/TIPProfile/classes:/maestro/eWAS/classes:/maestro/eWAS/lib:/maestro/eWAS/installedChannels:/maestro/eWAS/lib/ext:/maestro/eWAS/web/help:/maestro/eWAS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/maestro/eWAS/derby -Dcom.ibm.itp.location=/maestro/eWAS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/maestro/eWAS/profiles/TIPProfile -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/maestro/eWAS -Dpython.cachedir=/maestro/eWAS/profiles/TIPProfile/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/maestro/eWAS/profiles/TIPProfile -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.net.preferIPv6Addresses=false -Djava.net.preferIPv4Stack=false -Dcom.ibm.CORBA.enableClientCallbacks=true -Djava.awt.headless=true -Djava.security.auth.login.config=/maestro/eWAS/profiles/TIPProfile/properties/wsjaas.conf -Djava.security.policy=/maestro/eWAS/profiles/TIPProfile/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /maestro/eWAS/profiles/TIPProfile/config TIPCell TIPNode server1
+wasadmin 15139024        1   0 15:27:06      -  3:28 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT02_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT02_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT02_Batch
+wasadmin 23658584  5111838   0   Sep 25      -  7:42 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=54657 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT12_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx672m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT12_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT12_Batch
+wasadmin 35979276        1   1   Sep 25      -  8:17 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT06_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT06_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT06_Batch
+wasadmin 38338704  5111838   0   Sep 12      - 55:16 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=45567 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT04_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT04_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT04_Batch
+wasadmin 41877624  5111838   0   Sep 24      - 23:09 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=59892 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT03_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT03_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT03_Batch
+ankcsesyta05[/home/hchada]$ /usr/WebSphere/AppServer _85/java _1.7.1 _32
+ankcsesyta05[/home/hchada]$ cd java _1.7.1 _3
+ksh: java_1.7.1_3:  not found.
+ankcsesyta05[/home/hchada]$ cd /usr/WebSphere/AppServer _85/java _1.7.1 _32
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32]$ cd java                       ls
+bin          docs         jre          notices.txt  release
+copyright    include      lib          readme.txt   src.zip
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32]$ cd jre/lib/security
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ls
+US_export_policy.jar                 cacerts.20181005                     local_policy.jar_20190226155140
+US_export_policy.jar.old             cacerts.20190220                     local_policy_56bit.jar
+US_export_policy.jar_20190226155139  java.policy                          policy
+US_export_policy_56bit.jar           java.security                        secureuat.cer
+blacklist                            javaws.policy                        sytefs-new.crt
+cacerts                              local_policy.jar                     sytws.crt
+cacerts-09162019                     local_policy.jar.old                 trusted.libraries
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ls -lagrt
+total 984
+-rwxr-xr-x    1 wasadmin      10560 Mar 24 2014  java.security
+-rwxr-xr-x    1 wasadmin       2532 Mar 24 2014  java.policy
+-rwxr-xr-x    1 wasadmin       2640 Jun 26 2017  local_policy.jar.old
+-rwxr-xr-x    1 wasadmin       2175 Jun 26 2017  US_export_policy.jar.old
+-rwxr-xr-x    1 wasadmin          0 Dec 19 2017  trusted.libraries
+-rwxr-xr-x    1 wasadmin       2304 Dec 19 2017  local_policy_56bit.jar
+-rwxr-xr-x    1 wasadmin       2640 Dec 19 2017  local_policy.jar_20190226155140
+-rwxr-xr-x    1 wasadmin         98 Dec 19 2017  javaws.policy
+-rwxr-xr-x    1 wasadmin       4054 Dec 19 2017  blacklist
+-rwxr-xr-x    1 wasadmin       1834 Dec 19 2017  US_export_policy_56bit.jar
+-rwxr-xr-x    1 wasadmin       2175 Dec 19 2017  US_export_policy.jar_20190226155139
+-rwxr-xr-x    1 wasadmin       2253 Oct 02 2018  local_policy.jar
+-rwxr-xr-x    1 wasadmin       2240 Oct 02 2018  US_export_policy.jar
+-rwxr-xr-x    1 wasadmin       1624 Oct 05 2018  secureuat.cer
+-rwxr-xr-x    1 wasadmin     103822 Oct 05 2018  cacerts.20181005
+-rwxr-xr-x    1 wasadmin     105476 Feb 20 2019  cacerts.20190220
+-rwxr-xr-x    1 wasadmin        932 Feb 20 2019  sytws.crt
+drwxr-xr-x    4 wasadmin        256 Feb 26 2019  policy
+drwxr-xr-x   15 wasadmin       4096 Feb 26 2019  ..
+-rwxr-x---    1 wasadmin     106162 Sep 16 12:38 cacerts-09162019
+drwxr-xr-x    3 wasadmin       4096 Sep 16 12:38 .
+-rwxr-x---    1 wasadmin        956 Sep 16 12:38 sytefs-new.crt
+-rwxr-xr-x    1 wasadmin     106179 Sep 16 16:50 cacerts
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ history
+271     ls
+272     ps -ef | grep java
+273     cd /usr/WebSphere/AppServer_85/profiles/App*/config/cseP*
+274     ls
+275     ls SYT02*
+276     vi SYT02.tracing.properties
+277     cp SYT02.tracing.properties SYT02.tracing.properties-org
+278     sudo su - wasadmin
+279     ps -ef | grep java
+280     cd java_1.7.1_3
+281     cd /usr/WebSphere/AppServer_85/java_1.7.1_32
+282     ls
+283     cd jre/lib/security
+284     ls
+285     ls -lagrt
+286     history
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ history 1 | grep keytool
+287     history 1 | grep keytool
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st-v -keystore cacerts -sto                       <repass changeit | grep orepass changeit | grep e                       fspft1-08282019                secure
+Sep 27, 2019 10:06:43 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Alias name: equifaxsecureebusinessca2
+Alias name: equifaxsecureebusinessca1
+Alias name: equifaxsecureca
+Owner: CN=*.uat.secure-recording.com, OU=Domain Control Validated
+[DNSName: *.uat.secure-recording.com, DNSName: uat.secure-recording.com]]
+Alias name: equifaxsecureglobalebusinessca1
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ secureuat.cer
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ls
+US_export_policy.jar                 cacerts.20181005                     local_policy.jar_20190226155140
+US_export_policy.jar.old             cacerts.20190220                     local_policy_56bit.jar
+US_export_policy.jar_20190226155139  java.policy                          policy
+US_export_policy_56bit.jar           java.security                        secureuat.cer
+blacklist                            javaws.policy                        sytefs-new.crt
+cacerts                              local_policy.jar                     sytws.crt
+cacerts-09162019                     local_policy.jar.old                 trusted.libraries
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st-v -keystore cacerts -sto                       <repass changeit | grep orepass changeit | grep e                       fspft1-08282019                uat
+Owner: CN=*.uat.secure-recording.com, OU=Domain Control Validated
+[DNSName: *.uat.secure-recording.com, DNSName: uat.secure-recording.com]]
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st>epass changeit | grep uat                       <tx xxx       SECURE
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st>ss changeit | grep SECURE                       <Ex               > secure
+The file access permissions do not allow the specified action.
+ksh: secure: 0403-005 Cannot create the specified file.
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st>.orepass changeit > secure                       <e       /tm;/  / p/secure
+\ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ 
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ vi /tmp/secure
+[?1049h[95;1H[?12;25h[?1h="/tmp/secure" 4609 lines, 132784 characters [H[2J
+Keystore type: jks
+Keystore provider: IBMJCE
+
+Your keystore contains 99 entries
+
+Alias name: digicertassuredidrootca
+Creation date: Jun 20, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Issuer: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Serial number: ce7e0e517d846fe8fe560fc1bf03039
+Valid from: 11/9/06 4:00 PM until: 11/9/31 4:00 PM
+Certificate fingerprints:
+[9CMD5:  87:CE:0B:7B:2A:0E:49:00:E1:58:71:9B:37:A8:93:72
+[9CSHA1: 05:63:B8:63:0D:62:D7:5A:BB:C8:AB:1E:4B:DF:B5:A8:99:B2:4D:43
+[9CSHA256: 3E:90:99:B5:01:5E:8F:48:6C:00:BC:EA:9D:11:1E:E7:21:FA:BA:35:5A:89:BC:F1:DF:69:56:1E:3D:C6:32:5C
+[9CSignature algorithm name: SHA1withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 45 eb a2 af f4 92 cb 82  31 2d 51 8b a7 a7 21 9d  E.......1.Q.....
+0010: f3 6d c8 0f[40C.m..
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 45 eb a2 af f4 92 cb 82  31 2d 51 8b a7 a7 21 9d  E.......1.Q.....
+0010: f3 6d c8 0f[40C.m..
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: trustcenterclass2caii
+Creation date: Jun 20, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+Issuer: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+Serial number: 2e6a000100021fd752212c115c3b
+Valid from: 1/12/06 6:38 AM until: 12/31/25 2:59 PM
+Certificate fingerprints:
+[9CMD5:  CE:78:33:5C:59:78:01:6E:18:EA:B9:36:A0:B9:2E:23
+[9CSHA1: AE:50:83:ED:7C:F4:5C:BC:8F:61:C6:21:FE:68:5D:79:42:21:15:6E
+[9CSHA256: E6:B8:F8:76:64:85:F8:07:AE:7F:8D:AC:16:70:46:1F:07:C0:A1:3E:EF:3A:1F:F7:17:53:8D:7A:BA:D3:91:B4
+[9CSignature algorithm name: SHA1withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [^M
+1 CRL Distribution Points:^M
+
+Distribution Point: [^M
+[8CDistribution Point Name: [URIName: http://www.trustcenter.de/crl/v2/tc_class_2_ca_II.crl, URIName: ldap://www.trustce
+nter.de/CN=TC%20TrustCenter%20Class%202%20CA%20II,O=TC%20TrustCenter%20GmbH,OU=rootcerts,DC=trustcenter,DC=de?certificateRevo
+cationList?base?]^M
+[8CReason Flags: null^M
+[8CIssuer: null
+]^M
+]^M[H[94B"/tmp/secure" 4609 lines, 132784 characters[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[94B[K:/secure[H[2JAuthorityKeyIdentifier [[H
+KeyIdentifier [
+0000: 17 a0 cd c1 e4 41 b6 3a  5b 3b cb 45 9d bd 1c c2  .....A.....E....
+0010: 98 fa 86 58[40C...X
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [^M
+[^M
+PolicyInformation: [^M
+[8CCertPolicyId: 2.16.756.1.89.1.3.1.1^M
+[8CPolicyQualifiers: [PolicyQualifierInfo: [^M
+CPSuri: [^M
+object identifier: 1.3.6.1.5.5.7.2.1^M
+[8Curi: http://repository.swisssign.com/]^M
+]^M
+]]^M
+]]^M
+
+#4: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#5: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 17 a0 cd c1 e4 41 b6 3a  5b 3b cb 45 9d bd 1c c2  .....A.....E....
+0010: 98 fa 86 58[40C...X
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureebusinessca2
+Creation date: Jul 18, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US
+Issuer: OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US
+Serial number: 3770cfb5
+Valid from: 6/23/99 5:14 AM until: 6/23/19 5:14 AM
+Certificate fingerprints:
+[9CMD5:  AA:BF:BF:64:97:DA:98:1D:6F:C6:08:3A:95:70:33:CA
+[9CSHA1: 39:4F:F6:85:0B:06:BE:52:E5:18:56:CC:10:E1:80:E8:82:B3:85:CC
+[9CSHA256: 2F:27:4E:48:AB:A4:AC:7B:76:59:33:10:17:75:50:6D:C3:0E:E3:8E:F6:AC:D5:C0:49:32:CF:E0:41:23:42:20
+[9CSignature algorithm name: SHA1withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+0000: 30 0b 1b 05 56 33 2e 30  63 03 02 06 c0[11C0...V3.0c....
+
+
+#2: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 50 9e 0b ea af 5e b9 20  48 a6 50 6a cb fd d8 20  P.......H.Pj....
+0010: 7a a7 82 76[40Cz..v
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [^M
+1 CRL Distribution Points:^M
+
+Distribution Point: [^M
+[8CDistribution Point Name: [CN=CRL1, OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US]^M
+[8CReason Flags: null^M
+[8CIssuer: null
+]^M
+]^M
+
+#5: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [[47;1H[48B/[47;20H[48B[K/[H[2J
+#7: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 50 9e 0b ea af 5e b9 20  48 a6 50 6a cb fd d8 20  P.......H.Pj....
+0010: 7a a7 82 76[40Cz..v
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawteserverca
+Creation date: Feb 12, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=server-certs@thawte.com, CN=Thawte Server CA, OU=Certification Services Division, O=Thawte Consulting cc,
+ L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=server-certs@thawte.com, CN=Thawte Server CA, OU=Certification Services Division, O=Thawte Consulting cc
+, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 1
+Valid from: 7/31/96 5:00 PM until: 12/31/20 3:59 PM
+Certificate fingerprints:
+[9CMD5:  C5:70:C4:A2:ED:53:78:0C:C8:10:53:81:64:CB:D0:1D
+[9CSHA1: 23:E5:94:94:51:95:F2:41:48:03:B4:D5:64:D2:A3:A3:F5:D8:8B:8C
+[9CSHA256: B4:41:0B:73:E2:E6:EA:CA:47:FB:C4:2F:8F:A4:01:8A:F4:38:1D:C5:4C:FA:A8:44:50:46:1E:ED:09:45:4D:E9
+[9CSignature algorithm name: MD5withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureebusinessca1
+Creation date: Jul 18, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+Issuer: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+Serial number: 4
+Valid from: 6/20/99 9:00 PM until: 6/20/20 9:00 PM
+Certificate fingerprints:
+[9CMD5:  64:9C:EF:2E:44:FC:C6:8F:52:07:D0:51:73:8F:CB:3D
+[9CSHA1: DA:40:18:8B:91:89:A3:ED:EE:AE:DA:97:FE:2F:9D:F5:B7:D1:8A:41
+[9CSHA256: CF:56:FF:46:A4:A1:86:10:9D:D9:65:84:B5:EE:B5:8A:51:0C:42:75:B0:E5:F9:4F:40:BB:AE:86:5E:19:F6:73
+[9CSignature algorithm name: MD5withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 4a 78 32 52 11 db 59 16  36 5e df c1 14 36 40 6a  Jx2R..Y.6....6.j
+0010: 47 7c 4c a1[40CG.L.
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#3: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4a 78 32 52 11 db 59 16  36 5e df c1 14 36 40 6a  Jx2R..Y.6....6.j
+0010: 47 7c 4c a1[40CG.L.
+]
+]
+
+
+
+*******************************************[47;20H[48B/[H[2J*******************************************[H
+
+
+Alias name: godaddyclass2g2ca
+Creation date: Sep 1, 2013
+Entry type: trustedCertEntry
+
+Owner: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Issuer: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Serial number: 0
+Valid from: 8/31/09 5:00 PM until: 12/31/37 3:59 PM
+Certificate fingerprints:
+[9CMD5:  80:3A:BC:22:C1:E6:FB:8D:9B:3B:27:4A:32:1B:9A:01
+[9CSHA1: 47:BE:AB:C9:22:EA:E8:0E:78:78:34:62:A7:9F:45:C2:54:FD:E6:8B
+[9CSHA256: 45:14:0B:32:47:EB:9C:C8:C5:B4:F0:D7:B5:30:91:F7:32:92:08:9E:6E:5A:63:E2:74:9D:D3:AC:A9:19:8E:DA
+[9CSignature algorithm name: SHA256withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 3a 9a 85 07 10 67 28 b6  ef f6 bd 05 41 6e 20 c1  .....g......An..
+0010: 94 da 0f de[40C....
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureca
+Creation date: Jul 18, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+Issuer: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+Serial number: 35def4cf
+Valid from: 8/22/98 9:41 AM until: 8/22/18 9:41 AM
+Certificate fingerprints:
+[9CMD5:  67:CB:9D:C0:13:24:8A:82:9B:B2:17:1E:D1:1B:EC:D4
+[9CSHA1: D2:32:09:AD:23:D3:14:23:21:74:E4:0D:7F:9D:62:13:97:86:63:3A
+[9CSHA256: 08:29:7A:40:47:DB:A2:36:80:C7:31:DB:6E:31:76:53:CA:78:48:E1:BE:BD:3A:0B:01:79:A7:07:F9:2C:F1:78
+[9CSignature algorithm name: SHA1withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+0000: 30 0b 1b 05 56 33 2e 30  63 03 02 06 c0[11C0...V3.0c....
+
+
+#2: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 48 e6 68 f9 2b d2 b2 95  d7 47 d8 23 20 10 4f 33  H.h......G....O3
+0010: 98 90 9f d4[40C....
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [^M
+1 CRL Distribution Points:^M
+
+Distribution Point: [^M
+[8CDistribution Point Name: [CN=CRL1, OU=Equifax Secure Certificate Authority, O=Equifax, C=US]^M
+[8CReason Flags: null^M
+[8CIssuer: null
+]^M
+]^M
+
+#5: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [[47;20H[48B/[H[2J[9CSHA256: 85:A0:DD:7D:D7:20:AD:B7:FF:05:F8:3D:54:2B:20:9D:C7:FF:45:28:F7:D6:77:B1:83:89:FE:A5:E5:C4:9E:86[2;10HSignature algorithm name: SHA1withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 1a 84 62 bc 48 4c 33 25  04 d4 ee d0 f6 03 c4 19  ..b.HL3.........
+0010: 46 d1 94 6b[40CF..k
+]
+[CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM]
+SerialNumber: [1289]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:true
+PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1a 84 62 bc 48 4c 33 25  04 d4 ee d0 f6 03 c4 19  ..b.HL3.........
+0010: 46 d1 94 6b[40CF..k
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: mykey
+Creation date: Oct 5, 2018
+Entry type: trustedCertEntry
+
+Owner: CN=*.uat.secure-recording.com, OU=Domain Control Validated
+Issuer: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scot
+tsdale, ST=Arizona, C=US
+Serial number: a4ac0e248ea8adea
+Valid from: 11/14/16 1:25 PM until: 2/12/20 1:25 PM
+Certificate fingerprints:
+[9CMD5:  BC:BA:7A:AF:90:EE:D9:5F:57:FE:97:33:52:CA:11:50
+[9CSHA1: 39:55:F6:9C:FD:ED:EF:44:0B:79:60:38:44:B2:3E:63:E5:A5:81:CC
+[9CSHA256: 82:88:37:FF:E6:9B:C2:D6:A8:BA:10:FB:88:6E:AA:D8:64:2A:0C:63:33:F5:7B:A8:14:ED:78:82:25:4C:B0:14
+[9CSignature algorithm name: SHA256withRSA
+[9CVersion: 3
+
+Extensions:
+
+#1: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [^M
+[accessMethod: ocsp
+accessLocation: URIName: http://ocsp.godaddy.com/
+, accessMethod: caIssuers
+accessLocation: URIName: http://certificates.godaddy.com/repository/gdig2.crt
+]]^M
+
+#2: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 40 c2 bd 27 8e cc 34 83  30 a2 33 d7 fb 6c b3 f0  ......4.0.3..l..
+0010: b4 2c 80 ce[40C....
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+CA:false
+PathLen: undefined
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [^M
+1 CRL Distribution Points:^M
+
+Distribution Point: [^M
+[8CDistribution Point Name: [URIName: http://crl.godaddy.com/gdig2s1-344.crl]^M
+[8CReason Flags: null^M
+[8CIssuer: null
+]^M
+]^M
+
+#5: ObjectId: 2.5.29.32 Criticality=false[47;17H[48B/[K
+[ACertificatePolicies [^M
+
+[A[^M
+
+[APolicyInformation: [^M
+
+[94;9HCertPolicyId: 2.16.840.1.114413.1.7.23.1^M
+
+[94;9HPolicyQualifiers: [PolicyQualifierInfo: [^M
+
+[ACPSuri: [^M
+
+[Aobject identifier: 1.3.6.1.5.5.7.2.1^M
+
+[94;9Huri: http://certificates.godaddy.com/repository/]^M
+
+[A]^M
+
+[A]]^M
+
+[A, ^M
+
+[APolicyInformation: [^M
+
+[94;9HCertPolicyId: 2.23.140.1.2.1^M
+
+[94;9HPolicyQualifiers: null]^M
+
+[A]]^M
+
+[A
+
+[A#6: ObjectId: 2.5.29.37 Criticality=false
+
+[AExtKeyUsage [^M
+
+[94;9H1.3.6.1.5.5.7.3.1[7C1.3.6.1.5.5.7.3.2]^M
+
+[A
+
+[A#7: ObjectId: 2.5.29.15 Criticality=true
+
+[AKeyUsage [
+
+[A  DigitalSignature
+
+[A  Key_Encipherment
+
+[A]
+
+[A
+
+[A#8: ObjectId: 2.5.29.17 Criticality=false
+
+[ASubjectAlternativeName [
+
+[A[DNSName: *.uat.secure-recording.com, DNSName: uat.secure-recording.com]][16C[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:/secure-arecording[18;1H[77B[K/[18;17H[77B[K/[94;17H
+[K/[94;52H
+[K/[18;17H[77B[K/[94;17H
+[K/[94;52H
+[K/[18;17H[77B[K/[94;17H
+[K/[94;52H
+[K/[18;17H[77B[K/[94;17H
+[K/[94;52H
+[K/[18;17H[77B[K/[94;17H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+[K:/mykey[14;1H[81B[K/[14;13H[81B[K/[14;13H[81B[K/[14;13H[81B[K/[14;13H[81B[K/[14;13H[81B[K/[14;13H[81B[K/[14;13H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[81B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ ../../bin/keytool -list -v -keystore cacerts -st-v -keystore cacerts -sto                       <repass changeit | grep orepass changeit | grep s                       ecure-recording
+Owner: CN=*.uat.secure-recording.com, OU=Domain Control Validated
+[DNSName: *.uat.secure-recording.com, DNSName: uat.secure-recording.com]]
+ankcsesyta05[/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

@@ -1,0 +1,385 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.19 07:39:53 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Aug 28 13:36:18 PDT 2019 on ssh
+Last login: Thu Sep  5 11:12:04 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a05[/home/hchada]$ cd /cse/batch
+ankcsepf1a05[/cse/batch]$ ls
+PFT09_Batch_Cluster     archive                 dumps                   fmsproperties_template  sftpfiles.dat
+PFT09_Batch_DS010_01    deploy.log              fmsproperties_PFT09     gpgproperties_PFT09
+ankcsepf1a05[/cse/batch]$ cd PFT09 _Batch _Cluster
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ ls
+@EFILE_PRINT_ROOT_DIRECTORY@                      log
+GPGDecrypt.ksh                                    logs
+GPGEncrypt.ksh                                    obl.ksh~
+PFT09_Batch_Cluster.ear                           pageOnFail.ksh
+VIO-001-DS01_DeleteDocument.sh                    pageOnFail.ksh~
+VIO-001-DS01_DeleteDocument.template.sh           pageOnFail_FINAL.ksh
+VIO-002-DS01_ValidateDocumentStorage.sh           remoteCaseCaptureColdStart.ksh
+VIO-002-DS01_ValidateDocumentStorage.template.sh  remoteCaseCaptureColdStart.template.ksh
+batchFileArchiver.ksh                             remoteCaseCaptureStart.ksh
+captureFileStats.ksh                              remoteCaseCaptureStart.template.ksh
+cdxCaseFileCopy.ksh~                              remoteCaseCaptureStop.ksh
+cdxMassFileMover.ksh~                             remoteCaseCaptureStop.template.ksh
+checkBatchVersion.ksh                             remoteFinCaptureColdStart.ksh
+checkForJobsToSchedule.ksh                        remoteFinCaptureColdStart.template.ksh
+checkForJobsToSchedule.template.ksh               remoteFinCaptureStart.ksh
+cli_scripts                                       remoteFinCaptureStart.template.ksh
+clmd_scripts                                      remoteFinCaptureStop.ksh
+cs1257FileArchiver.ksh                            remoteFinCaptureStop.template.ksh
+doneIndicatorRemover.ksh                          repo
+doneIndicatorRemover.template.ksh                 resources
+dwcfmsinbound.ksh                                 runDatasourceVerificationTest.ksh
+enf760ds02~                                       runSmokeTest.ksh
+enfEIWOFileRename.ksh                             runSmokeTestPIF.ksh
+enfFASTLevyFileRename.ksh                         sduDoneIndicatorRemover.ksh
+fmsproperties                                     sduDoneIndicatorRemover.template.ksh
+jms_scripts                                       setBatchRoot.ksh
+jobControl.ksh                                    setBatchTemp.ksh
+jobControl.template.ksh                           setEnv.ksh
+jobControl_DB.ksh                                 setEnv.template.ksh
+jobControl_DB.template.ksh                        setEnv61.ksh
+jobExecution                                      setEnv61.template.ksh
+job_data                                          setJobId.ksh
+kill_job.ksh                                      setScheduleDate.ksh
+kill_job.template.ksh                             stopOnRequestScanner.ksh
+launchClient.sh                                   stopRunningJobs.ksh
+launchClient.template.sh                          submitStream.ksh
+launchClient61.sh                                 temp
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ cd jobExecution/SECURE
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ ls
+PFT09.SECURE_User.properties
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more p PF       
+PF: A file or directory in the path name does not exist.
+[?1049h[95;1H[K[?1049l[?1l>ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more PF*
+[?1049h[95;1H[K#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K[?1049l[?1l>ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ cd ..
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ cd ..
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ ls
+@EFILE_PRINT_ROOT_DIRECTORY@                      log
+GPGDecrypt.ksh                                    logs
+GPGEncrypt.ksh                                    obl.ksh~
+PFT09_Batch_Cluster.ear                           pageOnFail.ksh
+VIO-001-DS01_DeleteDocument.sh                    pageOnFail.ksh~
+VIO-001-DS01_DeleteDocument.template.sh           pageOnFail_FINAL.ksh
+VIO-002-DS01_ValidateDocumentStorage.sh           remoteCaseCaptureColdStart.ksh
+VIO-002-DS01_ValidateDocumentStorage.template.sh  remoteCaseCaptureColdStart.template.ksh
+batchFileArchiver.ksh                             remoteCaseCaptureStart.ksh
+captureFileStats.ksh                              remoteCaseCaptureStart.template.ksh
+cdxCaseFileCopy.ksh~                              remoteCaseCaptureStop.ksh
+cdxMassFileMover.ksh~                             remoteCaseCaptureStop.template.ksh
+checkBatchVersion.ksh                             remoteFinCaptureColdStart.ksh
+checkForJobsToSchedule.ksh                        remoteFinCaptureColdStart.template.ksh
+checkForJobsToSchedule.template.ksh               remoteFinCaptureStart.ksh
+cli_scripts                                       remoteFinCaptureStart.template.ksh
+clmd_scripts                                      remoteFinCaptureStop.ksh
+cs1257FileArchiver.ksh                            remoteFinCaptureStop.template.ksh
+doneIndicatorRemover.ksh                          repo
+doneIndicatorRemover.template.ksh                 resources
+dwcfmsinbound.ksh                                 runDatasourceVerificationTest.ksh
+enf760ds02~                                       runSmokeTest.ksh
+enfEIWOFileRename.ksh                             runSmokeTestPIF.ksh
+enfFASTLevyFileRename.ksh                         sduDoneIndicatorRemover.ksh
+fmsproperties                                     sduDoneIndicatorRemover.template.ksh
+jms_scripts                                       setBatchRoot.ksh
+jobControl.ksh                                    setBatchTemp.ksh
+jobControl.template.ksh                           setEnv.ksh
+jobControl_DB.ksh                                 setEnv.template.ksh
+jobControl_DB.template.ksh                        setEnv61.ksh
+jobExecution                                      setEnv61.template.ksh
+job_data                                          setJobId.ksh
+kill_job.ksh                                      setScheduleDate.ksh
+kill_job.template.ksh                             stopOnRequestScanner.ksh
+launchClient.sh                                   stopRunningJobs.ksh
+launchClient.template.sh                          submitStream.ksh
+launchClient61.sh                                 temp
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ cd logs
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/logs]$ ls
+DB2ExportMessageLog-FIU-005-DS01.txt  VIO1PT01_AIX_File_Need_Delete.txt     VIO1PT01_Sql.txt
+DB2ExportMessageLog-FIU-006-DS01.txt  VIO1PT01_AIX_Validation.txt           VIO1PT01_Validation_Differences.txt
+DB2LoadMessageLog-FIU-005-DS01.txt    VIO1PT01_DB_Validation.txt            tmp_aix.txt
+DB2LoadMessageLog-FIU-006-DS01.txt    VIO1PT01_DelDocument.log              tmp_aix1.txt
+DB2LoadMessageLog-PRM-610-DS03.txt    VIO1PT01_DelDocument_CurErr.bkup      tmp_db.txt
+DB2LoadMessageLog-PRM-610-DS11.txt    VIO1PT01_DelDocument_CurErr.log       tmp_db1.txt
+DB2LoadMessageLog-PRM-610-DS12.txt    VIO1PT01_DelDocument_Err.log          tmp_db_aix.txt
+DB2LoadMessageLog-PRM-610-DS14.txt    VIO1PT01_DocStorage_Validation.log    tmp_db_aix1.txt
+PSLO_job_statistics.csv               VIO1PT01_Mismatch_File.bkup
+VIO1PT01_AIX_File_Need_Delete.bkup    VIO1PT01_Mismatch_File.txt
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/logs]$ cd ../..
+ankcsepf1a05[/cse/batch]$ l;s
+ksh: l:  not found.
+ksh: s:  not found.
+ankcsepf1a05[/cse/batch]$ cd l   logs
+ksh: logs:  not found.
+ankcsepf1a05[/cse/batch]$ ls
+PFT09_Batch_Cluster     archive                 dumps                   fmsproperties_template  sftpfiles.dat
+PFT09_Batch_DS010_01    deploy.log              fmsproperties_PFT09     gpgproperties_PFT09
+ankcsepf1a05[/cse/batch]$ cd PFT09 _Batch _Cluster
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ ls
+@EFILE_PRINT_ROOT_DIRECTORY@                      log
+GPGDecrypt.ksh                                    logs
+GPGEncrypt.ksh                                    obl.ksh~
+PFT09_Batch_Cluster.ear                           pageOnFail.ksh
+VIO-001-DS01_DeleteDocument.sh                    pageOnFail.ksh~
+VIO-001-DS01_DeleteDocument.template.sh           pageOnFail_FINAL.ksh
+VIO-002-DS01_ValidateDocumentStorage.sh           remoteCaseCaptureColdStart.ksh
+VIO-002-DS01_ValidateDocumentStorage.template.sh  remoteCaseCaptureColdStart.template.ksh
+batchFileArchiver.ksh                             remoteCaseCaptureStart.ksh
+captureFileStats.ksh                              remoteCaseCaptureStart.template.ksh
+cdxCaseFileCopy.ksh~                              remoteCaseCaptureStop.ksh
+cdxMassFileMover.ksh~                             remoteCaseCaptureStop.template.ksh
+checkBatchVersion.ksh                             remoteFinCaptureColdStart.ksh
+checkForJobsToSchedule.ksh                        remoteFinCaptureColdStart.template.ksh
+checkForJobsToSchedule.template.ksh               remoteFinCaptureStart.ksh
+cli_scripts                                       remoteFinCaptureStart.template.ksh
+clmd_scripts                                      remoteFinCaptureStop.ksh
+cs1257FileArchiver.ksh                            remoteFinCaptureStop.template.ksh
+doneIndicatorRemover.ksh                          repo
+doneIndicatorRemover.template.ksh                 resources
+dwcfmsinbound.ksh                                 runDatasourceVerificationTest.ksh
+enf760ds02~                                       runSmokeTest.ksh
+enfEIWOFileRename.ksh                             runSmokeTestPIF.ksh
+enfFASTLevyFileRename.ksh                         sduDoneIndicatorRemover.ksh
+fmsproperties                                     sduDoneIndicatorRemover.template.ksh
+jms_scripts                                       setBatchRoot.ksh
+jobControl.ksh                                    setBatchTemp.ksh
+jobControl.template.ksh                           setEnv.ksh
+jobControl_DB.ksh                                 setEnv.template.ksh
+jobControl_DB.template.ksh                        setEnv61.ksh
+jobExecution                                      setEnv61.template.ksh
+job_data                                          setJobId.ksh
+kill_job.ksh                                      setScheduleDate.ksh
+kill_job.template.ksh                             stopOnRequestScanner.ksh
+launchClient.sh                                   stopRunningJobs.ksh
+launchClient.template.sh                          submitStream.ksh
+launchClient61.sh                                 temp
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster]$ cd logs
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/logs]$ ls
+DB2ExportMessageLog-FIU-005-DS01.txt  VIO1PT01_AIX_File_Need_Delete.txt     VIO1PT01_Sql.txt
+DB2ExportMessageLog-FIU-006-DS01.txt  VIO1PT01_AIX_Validation.txt           VIO1PT01_Validation_Differences.txt
+DB2LoadMessageLog-FIU-005-DS01.txt    VIO1PT01_DB_Validation.txt            tmp_aix.txt
+DB2LoadMessageLog-FIU-006-DS01.txt    VIO1PT01_DelDocument.log              tmp_aix1.txt
+DB2LoadMessageLog-PRM-610-DS03.txt    VIO1PT01_DelDocument_CurErr.bkup      tmp_db.txt
+DB2LoadMessageLog-PRM-610-DS11.txt    VIO1PT01_DelDocument_CurErr.log       tmp_db1.txt
+DB2LoadMessageLog-PRM-610-DS12.txt    VIO1PT01_DelDocument_Err.log          tmp_db_aix.txt
+DB2LoadMessageLog-PRM-610-DS14.txt    VIO1PT01_DocStorage_Validation.log    tmp_db_aix1.txt
+PSLO_job_statistics.csv               VIO1PT01_Mismatch_File.bkup
+VIO1PT01_AIX_File_Need_Delete.bkup    VIO1PT01_Mismatch_File.txt
+ankcsepf1a05[/cse/batch/PFT09_Batch_Cluster/logs]$ cd ./..   ./..
+ankcsepf1a05[/cse/batch]$ ls
+PFT09_Batch_Cluster     archive                 dumps                   fmsproperties_template  sftpfiles.dat
+PFT09_Batch_DS010_01    deploy.log              fmsproperties_PFT09     gpgproperties_PFT09
+ankcsepf1a05[/cse/batch]$ cd PFT09 _Batch _DS010 _01
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ cd logs
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01/logs]$ ls
+SystemErr.log                    SystemErr_15.12.31_09.52.09.log  SystemOut_19.01.16_09.01.17.log
+SystemErr.log.owner              SystemOut.log                    SystemOut_19.06.17_12.11.26.log
+SystemErr_15.12.31_08.49.15.log  SystemOut.log.owner              native_stderr.log
+SystemErr_15.12.31_09.15.46.log  SystemOut_17.10.10_14.54.36.log  native_stdout.log
+SystemErr_15.12.31_09.27.46.log  SystemOut_18.04.11_14.58.06.log  trace.log
+SystemErr_15.12.31_09.45.25.log  SystemOut_18.06.21_14.31.55.log
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01/logs]$ vi SystemOut.log
+[?1049h[95;1H[?12;25h[?1h="SystemOut.log" 78550 lines, 10265320 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name ch1p20aCell0
+1\cg1p24aNode01\PFT09_Batch_DS010_01 and process id 1048872
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name
+= IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSp
+here/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppSer
+ver_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdepl
+oy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/A
+ppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/We
+bSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/
+itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.j
+ar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_
+CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/
+jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.ja
+r:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/
+default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr
+/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/App
+Server_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/insthome/db2cinst/sqllib/l
+ib:/insthome/db2cinst/sqllib/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+************* End Display Current Environment *************
+[6/17/19 12:11:26:191 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding RemoteFormsGenExclusions as url/RemoteFormsGenExclus
+ions
+[6/17/19 12:11:26:223 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding brio as url/brio
+[6/17/19 12:11:26:225 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding CSESECUREInterfaceProperties as url/CSESECUREInterfa
+ceProperties
+[6/17/19 12:11:26:228 PDT] 0000006a MbuRmmAdapter I   DCSV1032I: DCS Stack BatchCoreGroup at Member ch1p20aCell01\cg1p24aNode
+01\PFT09_Batch_DS010_01: Connected a defined member ch1p20aCell01\cg1p21aNode01\PFT09_IF_AP023_01.
+[6/17/19 12:11:26:338 PDT] 0000006a MbuRmmAdapter I   DCSV1032I: DCS Stack BatchCoreGroup at Member ch1p20aCell01\cg1p24aNode
+01\PFT09_Batch_DS010_01: Connected a defined member ch1p20aCell01\ch1p20aNode01\PFT09_IF_AP021_01.
+[6/17/19 12:11:26:417 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding CSE_ReadOnly_DS as jdbc/CSE_ReadOnly
+[6/17/19 12:11:26:424 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding CS_1257_DS as jdbc/CS1257
+[6/17/19 12:11:26:429 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding CSE_1257_DS as jdbc/CSE1257
+[6/17/19 12:11:26:445 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding CONTMAN as jdbc/CONTMAN
+[6/17/19 12:11:26:449 PDT] 00000001 ConnectorRunt W   J2CA0112W: Factory or provider name for jdbc/LDA was null. The ObjectNa
+mes factory : <null> provider : WebSphere:name=DB2 Universal JDBC Driver Provider (XA),process=PFT09_Batch_DS010_01,platform=
+dynamicproxy,node=cg1p24aNode01,j2eeType=JDBCResource,J2EEServer=PFT09_Batch_DS010_01,Server=PFT09_Batch_DS010_01,version=8.5
+.5.14,type=JDBCProvider,mbeanIdentifier=cells/ch1p20aCell01/resources.xml#JDBCProvider_1528997344315,cell=ch1p20aCell01,spec=
+1.0 cannot be used by PMI to link the PMI statistics with the MBeans.
+[6/17/19 12:11:26:483 PDT] 00000001 ConnectorRunt W   J2CA0112W: Factory or provider name for jdbc/DefaultEJBTimerDataSource
+was null. The ObjectNames factory : <null> provider : WebSphere:name=Derby JDBC Provider (XA),process=PFT09_Batch_DS010_01,pl
+atform=dynamicproxy,node=cg1p24aNode01,j2eeType=JDBCResource,J2EEServer=PFT09_Batch_DS010_01,Server=PFT09_Batch_DS010_01,vers
+ion=8.5.5.14,type=JDBCProvider,mbeanIdentifier=cells/ch1p20aCell01/clusters/PFT09_Batch_Cluster/resources.xml#builtin_jdbcpro
+vider,cell=ch1p20aCell01,spec=1.0 cannot be used by PMI to link the PMI statistics with the MBeans.
+[6/17/19 12:11:26:493 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding DefaultEJBTimerDataSource as jdbc/DefaultEJBTimerDat
+aSource
+[6/17/19 12:11:26:655 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding JMSQueueConnectionFactory as jms/JMSQueueConnectionF
+actory
+[6/17/19 12:11:26:667 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding JMSSecondaryQueueConnectionFactory as jms/JMSSeconda
+ryQueueConnectionFactory
+[6/17/19 12:11:26:675 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding ReadableJMSQueueConnectionFactory as jms/ReadableJMS
+QueueConnectionFactory
+[6/17/19 12:11:26:681 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding EFS as url/EFS
+[6/17/19 12:11:26:689 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding archdb2 as jdbc/archdb2
+[6/17/19 12:11:26:693 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding lda as jdbc/LDA
+[6/17/19 12:11:26:701 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding DefaultWorkManager as wm/default
+[6/17/19 12:11:26:711 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding AsyncRequestDispatcherWorkManager as wm/ard
+[6/17/19 12:11:26:719 PDT] 00000001 ResourceMgrIm I   WSVR0049I: Binding DefaultTimerManager as tm/default
+[6/17/19 12:11:26:803 PDT] 00000001 WorkAreaServi A   ACWA0002I: WorkArea service not enabled on PFT09_Batch_DS010_01.
+[6/17/19 12:11:26:829 PDT] 00000001 SOAPAcceptorC I   WSSC1019I: The SOAP Acceptor Channel has been configured.
+[6/17/19 12:11:26:885 PDT] 00000001 CacheServiceI I   DYNA1054I: Dynamic Cache (core cache) initialized successfully.
+[6/17/19 12:11:26:920 PDT] 00000001 ObjectCacheSe I   DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[6/17/19 12:11:27:073 PDT] 00000001 WebContainer  I com.ibm.ws.webcontainer.internal.WebContainer addExtensionFactory SRVE023
+9I: Extension Factory [class com.ibm.ws.websvcs.extension.WASAxis2ExtensionFactory] was registered successfully.
+[6/17/19 12:11:27:074 PDT] 00000001 WebContainer  I com.ibm.ws.webcontainer.internal.WebContainer addExtensionFactory SRVE024
+0I: Extension Factory [class com.ibm.ws.websvcs.extension.WASAxis2ExtensionFactory] has been associated with patterns [""].
+[6/17/19 12:11:27:077 PDT] 00000001 WebContainer  I com.ibm.ws.webcontainer.internal.WebContainer addExtensionFactory SRVE023
+9I: Extension Factory [class com.ibm.ws.websvcs.extension.AsyncServletExtensionFactory] was registered successfully.
+[6/17/19 12:11:27:078 PDT] 00000001 WebContainer  I com.ibm.ws.webcontainer.internal.WebContainer addExtensionFactory SRVE024
+0I: Extension Factory [class com.ibm.ws.websvcs.extension.AsyncServletExtensionFactory] has been associated with patterns [""
+].
+[6/17/19 12:11:27:120 PDT] 00000001 WASAxis2Compo I   WSWS7001I: The Axis2 service has been started.
+[6/17/19 12:11:27:246 PDT] 00000001 SchedulerServ I   SCHD0031I: The Scheduler Service is starting.
+[6/17/19 12:11:27:250 PDT] 00000001 SchedulerServ I   SCHD0001I: The Scheduler Service has started.
+[6/17/19 12:11:27:252 PDT] 00000001 JPAComponentI I   CWWJP0028I: The Java Persistence API (JPA) component is starting.
+[6/17/19 12:11:27:287 PDT] 00000001 JPAComponentI I   CWWJP0017I: The Java Persistence API (JPA) component has started.
+[6/17/19 12:11:27:298 PDT] 0000006a MbuRmmAdapter I   DCSV1032I: DCS Stack BatchCoreGroup at Member ch1p20aCell01\cg1p24aNode
+01\PFT09_Batch_DS010_01: Connected a defined member ch1p20aCell01\cg1p21aNode01\PFT09_Batch_AP023_02.
+[6/17/19 12:11:27:383 PDT] 0000006a MbuRmmAdapter I   DCSV1032I: DCS Stack BatchCoreGroup at Member ch1p20aCell01\cg1p24aNode
+01\PFT09_Batch_DS010_01: Connected a defined member ch1p20aCell01\cg1p21aNode01\PFT09_Batch_AP023_01.
+[6/17/19 12:11:27:386 PDT] 00000001 ServerCache   I   DYNA1001I: WebSphere Dynamic Cache instance named ws/com.ibm.ws.wssecur
+ity.sctClientCacheMap initialized successfully.
+[6/17/19 12:11:27:387 PDT] 00000001 ServerCache   I   DYNA1071I: The cache provider "default" is being used.
+[6/17/19 12:11:27:397 PDT] 00000001 ServerCache   I   DYNA1001I: WebSphere Dynamic Cache instance named ws/com.ibm.ws.wssecur
+ity.sctServiceCacheMap initialized successfully.
+[6/17/19 12:11:27:399 PDT] 00000001 ServerCache   I   DYNA1071I: The cache provider "default" is being used.[H[94B"SystemOut.log" 78550 lines, 10265320 characters[H[H[2J[9/18/19 14:17:34:707 PDT] 0000007a JMSProxyRunti I   XJMS0005I: XD JMS message pacing controller successfully stopped.[H
+[9/18/19 14:17:34:742 PDT] 0000007a ApplicationMg A   WSVR0217I: Stopping application: PFT09_Batch_Cluster
+[9/18/19 14:17:34:875 PDT] 0000007a SharedEJBRunt I   WSVR0041I: Stopping EJB jar: CSEBatchServices.jar
+[9/18/19 14:17:34:906 PDT] 0000007a SharedEJBRunt I   WSVR0059I: EJB jar stopped: CSEBatchServices.jar
+[9/18/19 14:17:34:981 PDT] 0000007a SharedEJBRunt I   WSVR0041I: Stopping EJB jar: ArchBatchServices.jar
+[9/18/19 14:17:34:988 PDT] 0000007a SharedEJBRunt I   WSVR0059I: EJB jar stopped: ArchBatchServices.jar
+[9/18/19 14:17:35:011 PDT] 0000007a SharedEJBRunt I   WSVR0041I: Stopping EJB jar: ArchServices.jar
+[9/18/19 14:17:35:060 PDT] 0000007a SharedEJBRunt I   WSVR0059I: EJB jar stopped: ArchServices.jar
+[9/18/19 14:17:35:482 PDT] 0000007a ApplicationMg A   WSVR0220I: Application stopped: PFT09_Batch_Cluster
+[9/18/19 14:17:35:484 PDT] 0000007a ApplicationMg A   WSVR0217I: Stopping application: ibmasyncrsp
+[9/18/19 14:17:35:503 PDT] 0000007a ServletWrappe I com.ibm.ws.webcontainer.servlet.ServletWrapper doDestroy SRVE0253I: [ibma
+syncrsp] [/IBM_WS_SYS_RESPONSESERVLET] [rspservlet]: Destroy successful.
+[9/18/19 14:17:35:570 PDT] 0000007a ApplicationMg A   WSVR0220I: Application stopped: ibmasyncrsp
+[9/18/19 14:17:35:580 PDT] 0000007a SchedulerServ I   SCHD0040I: The Scheduler Service is stopping.
+[9/18/19 14:17:35:582 PDT] 0000007a SchedulerServ I   SCHD0002I: The Scheduler Service has stopped.
+[9/18/19 14:17:35:590 PDT] 0000007a AppProfileCom I   ACIN0009I: The application profiling service is stopping.
+[9/18/19 14:17:35:592 PDT] 0000007a ActivitySessi I   WACS0049I: The ActivitySession service is stopping.
+[9/18/19 14:17:35:603 PDT] 0000007a ObjectPoolSer I   OBPL0011I: The Object Pool service is stopping.
+[9/18/19 14:17:35:606 PDT] 0000007a distSecurityC I   securityServiceStarted is false
+[9/18/19 14:17:35:630 PDT] 0000007a CGBridgeSubsc I   CWRCB0104I: The core group bridge service has stopped the subscription
+router.
+[9/18/19 14:17:35:632 PDT] 0000007a CGBridgeServi I   CWRCB0103I: The core group bridge service has stopped.
+[9/18/19 14:17:35:634 PDT] 0000007a DragDropDeplo I   CWLDD0004I: Stopping monitored directory application deployment service
+...
+[9/18/19 14:17:35:635 PDT] 0000007a DragDropDeplo I   CWLDD0005I: Monitored directory application deployment service is stopp
+ed.
+[9/18/19 14:17:35:644 PDT] 0000007a DCSStackImpl  I   DCSV8011I: DCS Stack BatchCoreGroup at Member ch1p20aCell01\cg1p24aNode
+01\PFT09_Batch_DS010_01: Member received a request for shutdown.
+[9/18/19 14:17:35:824 PDT] 0000007a CfwTCPListene I   ODCF8525I: The unstructured overlay is stopping its inbound TCP channel
+.
+[9/18/19 14:17:35:826 PDT] 0000007a Peer[10CI   ODCF8526I: The unstructured overlay is stopping its outbound TCP channe
+l.
+[9/18/19 14:17:35:832 PDT] 0000007a Peer[10CI   ODCF8550I: The current TCP protocol statistics for the unstructured ove
+rlay member {134.187.144.203  udp_port=11047  tcp_port=11058} are {connOpened=48, connClosed=30, read={buffAloc=492, byteAloc
+=1871232, buffReld=474, byteReld=1871088}, write={buffAloc=611, byteAloc=2360320, buffReld=611, byteReld=2360320} }.
+[9/18/19 14:17:35:836 PDT] 0000007f Peer[10CI   ODCF8527I: The unstructured overlay UDP Channel UDP_0 has stopped liste
+ning on host 134.187.144.203 port 11047.
+[9/18/19 14:17:35:867 PDT] 0000007a TCPChannel    I   TCPC0002I: TCP Channel TCPInboundChannel_ipcc.Default_IPC_Connector_Nam
+e has stopped listening on host localhost  (IPv4: 127.0.0.1) port 38949.
+[9/18/19 14:17:36:015 PDT] 0000007a FailureScopeC A   WTRN0105I: The transaction service has shutdown successfully with no tr
+ansactions requiring recovery.
+[9/18/19 14:17:36:054 PDT] 0000007a TCPChannel    I   TCPC0002I: TCP Channel TCP_5 has stopped listening on host *  (IPv6) po
+rt 21065.
+[9/18/19 14:17:36:064 PDT] 0000007a TCPChannel    I   TCPC0002I: TCP Channel sonIncomingTcpConnectorInboundChannel_SonIncomin
+gTCPSubsystem_0_11058 has stopped listening on host ankcsepf1a05  (IPv4: 134.187.144.203) port 11058.
+[9/18/19 14:17:36:100 PDT] 0000007a ServerCollabo A   WSVR0024I: Server PFT09_Batch_DS010_01 stopped
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[46;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[49B:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01/logs]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

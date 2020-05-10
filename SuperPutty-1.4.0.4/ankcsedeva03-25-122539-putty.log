@@ -1,0 +1,171 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.25 12:25:39 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed May 29 18:33:25 PDT 2019 on ssh from 158.96.152.172
+Last login: Fri Oct 25 12:22:01 PDT 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva03[/home/cseadmin]$ java
+ksh: java:  not found.
+ankcsedeva03[/home/cseadmin]$ /us                 sudo su - wasadmin
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+sudo: 3 incorrect password attempts
+ankcsedeva03[/home/cseadmin]$ 
+ankcsedeva03[/home/cseadmin]$ cse   sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 1
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsedeva03[/home/cseadmin]$ ssh hchada@ankcsedeva03
+hchada@ankcsedeva03's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Wed Oct 23 13:40:13 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Jul  1 15:45:39 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+ankcsedeva03[/home/hchada]$ sudo su - wasadmin
+Password:
+[YOU HAVE NEW MAIL]
+ankcsedeva03[/home/wasadmin]$ which java
+/usr/WebSphere/AppServer_85A/java_1.7.1_64/bin/java
+ankcsedeva03[/home/wasadmin]$ java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+
+ankcsedeva03[/home/wasadmin]$ which java
+/usr/WebSphere/AppServer_85A/java_1.7.1_64/bin/java
+ankcsedeva03[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85A/java _1.7.1 _64/bin/javaA        /jre/bin
+ankcsedeva03[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/bin]$ ls
+ControlPanel   ikeycmd        j9vm           java_vm        javaw          jcontrol       jextract       kinit          ktab           policytool     rmiregistry    unpack200
+classic        ikeyman        java           javad.options  javaws         jdmpview       keytool        klist          pack200        rmid           tnameserv
+ankcsedeva03[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/bin]$ ./java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+
+ankcsedeva03[/usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/bin]$ exit
+ankcsedeva03[/home/hchada]$ exit
+Connection to ankcsedeva03 closed.
+ankcsedeva03[/home/cseadmin]$ clear
+[H[2Jankcsedeva03[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                   NFS_mounts_verify_paul.sh          cpos_daemon1                       memory_paging_NON_PROD_mail.sh     p8_hostnames_reverse_sorted.txt
+ALL_ACCOUNTS_sorted.txt            NFS_selfcheck.sh                   errpt_mail.sh                      memory_paging_RUN.sh               pdf_daemon1
+IPM                                NFS_selfcheck.sh_20180723.sh       find_LUN_CuLDev.sh                 memory_paging_SELECT.sh            resetUser.ksh
+IPM_checks.sh                      NFS_selfcheck_output.dat           find_LUN_CuLDev_cv.sh              memory_paging_SELECT_test.sh       run_on_NonProd.sh
+IRS_user_home_updated.sh           OLD_ACCOUNTS.txt                   find_LUN_CuLDev_print.sh           memory_paging_check.sh             showerrpt.pl
+LIVE_ACCOUNTS.txt                  OLD_ACCOUNTS_sorted.txt            find_LUN_sizes.sh                  memory_paging_output               tempfile
+Mail                               OTech_Performance_Test.pdf         find_wwn.sh                        memory_paging_vmstat_NON_PROD.sh   test_2169089038_01012004_0000.pdf
+NFS_mounts_verify.sh               WAS8.5_init_scripts                logs                               nfs_selfcheck.sh                   utils
+NFS_mounts_verify_20180723.sh      authorized_keys                    mbox                               p8_hostnames.txt                   vmstat_mail.sh
+NFS_mounts_verify_P8.sh            copyToNonProd.sh                   memory_paging_COPY.sh              p8_hostnames_reverse.txt
+ankcsedeva03[/home/cseadmin]$ exit

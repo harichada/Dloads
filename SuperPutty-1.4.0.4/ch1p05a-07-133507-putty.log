@@ -1,0 +1,101 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 13:35:07 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Mar 26 11:31:27 PDT 2018 on ssh from csehws002
+Last login: Thu Nov  7 13:29:09 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva07[/home/cseadmin]$ cd /cse/online/applications
+ankcsedeva07[/cse/online/applications]$ ls
+DEV02_IF_Forms.ear                    TEAM06_IF_Online_FormsGeneration.ear  UIT04_Online_Forms.ear                cse_TEAM04_Online.ear                 cse_TRN04_Online.ear
+TEAM04_Online_Forms.ear               TEAM06_IF_Online_Imaging.ear          UIT04_Online_Imaging.ear              cse_TEAM06_Integration.ear            cse_UIT04_Integration.ear
+TEAM04_Online_Imaging.ear             TRN04_Online_Forms.ear                cse_TEAM02_Online.ear                 cse_TEAM06_Online.ear                 cse_UIT04_Online.ear
+TEAM06_IF_Online_Forms.ear            TRN04_Online_Imaging.ear              cse_TEAM04_Integration.ear            cse_TRN04_Integration.ear
+ankcsedeva07[/cse/online/applications]$ cd cse _TEAM06 _Online.ear
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear]$ ls
+ArchActivity.jar                  BatchManagementWeb.war            CSEFormsCommon.jar                CaseServices.jar                  LegacyDataArchiveBusiness.jar     PrgmMonitoringPersistence.jar
+ArchBusiness.jar                  BootstrapWeb.war                  CSEInterfaces.jar                 CommonWSProvider.war              LegacyDataArchiveCommon.jar       PrgmMonitoringServices.jar
+ArchCommon.jar                    BusinessUtilitiesActivity.jar     CSEResources.jar                  FinancialActivity.jar             LegacyDataArchivePersistence.jar  QuickCA.war
+ArchPersistence.jar               BusinessUtilitiesBusiness.jar     CSEWEB.war                        FinancialBusiness.jar             LegacyDataArchiveServices.jar     config
+ArchServices.jar                  BusinessUtilitiesCommon.jar       CaseActivity.jar                  FinancialCommon.jar               META-INF
+ArchServicesCommon.jar            BusinessUtilitiesPersistence.jar  CaseBusiness.jar                  FinancialPersistence.jar          PrgmMonitoringActivity.jar
+ArchServicesLocal.jar             BusinessUtilitiesServices.jar     CaseCommon.jar                    FinancialServices.jar             PrgmMonitoringBusiness.jar
+ArchWeb.war                       CSECommon.jar                     CasePersistence.jar               LegacyDataArchiveActivity.jar     PrgmMonitoringCommon.jar
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear]$ ls -lagrt
+total 109528
+-rw-r--r--    1 cseadmin        122 Oct 01 2009  .j2ee
+-rw-r--r--    1 cseadmin         57 Oct 01 2009  .compatibility
+-rw-r--r--    1 cseadmin        137 Sep 11 17:25 .server
+-rw-r--r--    1 cseadmin         78 Sep 11 17:25 .runtime
+-rw-r--r--    1 cseadmin    5851816 Nov 06 11:27 CaseActivity.jar
+-rw-r--r--    1 cseadmin      48924 Nov 06 11:27 ArchServicesLocal.jar
+-rw-r--r--    1 cseadmin     527606 Nov 06 11:27 ArchPersistence.jar
+-rw-r--r--    1 cseadmin    1680156 Nov 06 11:27 ArchCommon.jar
+-rw-r--r--    1 cseadmin     181807 Nov 06 11:27 ArchBusiness.jar
+-rw-r--r--    1 cseadmin     324654 Nov 06 11:27 ArchActivity.jar
+-rw-r--r--    1 cseadmin    1665532 Nov 06 11:27 CasePersistence.jar
+-rw-r--r--    1 cseadmin    2712393 Nov 06 11:27 CaseCommon.jar
+-rw-r--r--    1 cseadmin    1924742 Nov 06 11:27 CaseBusiness.jar
+-rw-r--r--    1 cseadmin      44934 Nov 06 11:28 LegacyDataArchivePersistence.jar
+-rw-r--r--    1 cseadmin     102096 Nov 06 11:28 LegacyDataArchiveCommon.jar
+-rw-r--r--    1 cseadmin      99269 Nov 06 11:28 LegacyDataArchiveBusiness.jar
+-rw-r--r--    1 cseadmin      14556 Nov 06 11:28 LegacyDataArchiveActivity.jar
+-rw-r--r--    1 cseadmin     604568 Nov 06 11:28 FinancialPersistence.jar
+-rw-r--r--    1 cseadmin    1177595 Nov 06 11:28 FinancialCommon.jar
+-rw-r--r--    1 cseadmin     647489 Nov 06 11:28 FinancialBusiness.jar
+-rw-r--r--    1 cseadmin    1778723 Nov 06 11:28 FinancialActivity.jar
+-rw-r--r--    1 cseadmin     654829 Nov 06 11:28 CSEResources.jar
+-rw-r--r--    1 cseadmin   22217957 Nov 06 11:28 CSECommon.jar
+-rw-r--r--    1 cseadmin    1642110 Nov 06 11:28 BusinessUtilitiesPersistence.jar
+-rw-r--r--    1 cseadmin     647574 Nov 06 11:28 BusinessUtilitiesCommon.jar
+-rw-r--r--    1 cseadmin     249258 Nov 06 11:28 BusinessUtilitiesBusiness.jar
+-rw-r--r--    1 cseadmin    1379111 Nov 06 11:28 BusinessUtilitiesActivity.jar
+-rw-r--r--    1 cseadmin     193379 Nov 06 11:28 PrgmMonitoringPersistence.jar
+-rw-r--r--    1 cseadmin     343986 Nov 06 11:28 PrgmMonitoringCommon.jar
+-rw-r--r--    1 cseadmin     529406 Nov 06 11:28 PrgmMonitoringBusiness.jar
+-rw-r--r--    1 cseadmin     349806 Nov 06 11:28 PrgmMonitoringActivity.jar
+-rw-r--r--    1 cseadmin     463599 Nov 06 11:28 CSEInterfaces.jar
+-rw-r--r--    1 cseadmin     287741 Nov 06 11:28 CSEFormsCommon.jar
+-rw-r--r--    1 cseadmin      15410 Nov 06 11:28 ArchServicesCommon.jar
+-rw-r--r--    1 cseadmin     111906 Nov 07 12:09 LegacyDataArchiveServices.jar
+-rw-r--r--    1 cseadmin    4169599 Nov 07 12:09 CaseServices.jar
+-rw-r--r--    1 cseadmin     357647 Nov 07 12:09 ArchServices.jar
+-rw-r--r--    1 cseadmin     453610 Nov 07 12:09 PrgmMonitoringServices.jar
+-rw-r--r--    1 cseadmin    1383298 Nov 07 12:09 FinancialServices.jar
+-rw-r--r--    1 cseadmin    1010698 Nov 07 12:09 BusinessUtilitiesServices.jar
+drwxrwsr-x   21 cseadmin       1024 Nov 07 12:10 ..
+drwxr-sr-x    4 cseadmin        512 Nov 07 12:10 BootstrapWeb.war
+drwxr-sr-x    7 cseadmin        512 Nov 07 12:10 ArchWeb.war
+drwxr-sr-x    8 cseadmin        512 Nov 07 12:10 CSEWEB.war
+drwxr-sr-x   12 cseadmin        512 Nov 07 12:10 BatchManagementWeb.war
+drwxr-sr-x    4 cseadmin        512 Nov 07 12:10 QuickCA.war
+drwxr-sr-x    4 cseadmin        512 Nov 07 12:10 CommonWSProvider.war
+drwxr-sr-x    2 cseadmin        512 Nov 07 12:10 META-INF
+drwxr-sr-x   10 cseadmin       1536 Nov 07 12:10 .
+drwxr-sr-x    2 cseadmin        512 Nov 07 12:10 config
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear]$ cd CSEWEB.war
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear/CSEWEB.war]$ ls
+META-INF             audio.lnk            css                  httpSessionView.txt  index.jsp            wsdl
+WEB-INF              blank.jsp            hibernateStats.txt   image                script
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear/CSEWEB.war]$ find . -name PrepareFrm   FormSet*
+./WEB-INF/classes/gov/ca/dcss/cse/cases/establishment/paternity/web/PrepareFormSetSearchCriteriaForPaternityDeclaration.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetForESignatureEFileAction.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetListAction.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetListFromExternalPageAction.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetParametersAction.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetParametersFromExternalPageAction.class
+./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetSearchAction.class
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear/CSEWEB.war]$ ls -la ./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetForESignatureEFileAction.class
+-rw-r--r--    1 wasadmin cseadmin       6699 Nov 06 11:24 ./WEB-INF/classes/gov/ca/dcss/cse/utilities/forms/web/PrepareFormSetForESignatureEFileAction.class
+ankcsedeva07[/cse/online/applications/cse_TEAM06_Online.ear/CSEWEB.war]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

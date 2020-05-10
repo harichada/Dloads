@@ -1,0 +1,237 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.10 13:20:41 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Thu Sep 26 13:57:21 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Oct  7 11:34:12 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyta05[/home/hchada]$ cd c /cse/batch
+lsankcsesyta05[/cse/batch]$ ls
+SYT01_Batch             SYT11_Batch             fmsproperties_syt04     gpgproperties_syt01     gpgproperties_syt11
+SYT02_Batch             SYT12_Batch             fmsproperties_syt06     gpgproperties_syt02     gpgproperties_syt12
+SYT03_Batch             batchscripts            fmsproperties_syt07     gpgproperties_syt03     runCheckTWSlogs.ksh
+SYT04_Batch             dumps                   fmsproperties_syt08     gpgproperties_syt04     test.ksh
+SYT06_Batch             fmsproperties_syt01     fmsproperties_syt11     gpgproperties_syt06
+SYT07_Batch             fmsproperties_syt02     fmsproperties_syt12     gpgproperties_syt07
+SYT08_Batch             fmsproperties_syt03     fmsproperties_template  gpgproperties_syt08
+ankcsesyta05[/cse/batch]$ cd SYT02 _Batch
+ankcsesyta05[/cse/batch/SYT02_Batch]$ ls
+cBatchRpt.txt                                      logs
+EST-516-DS01                                      pageOnFail.ksh
+GPGDecrypt.ksh                                    pageOnFail_FINAL.ksh
+GPGEncrypt.ksh                                    remoteCaseCaptureColdStart.ksh
+SYT02_Batch.ear                                   remoteCaseCaptureColdStart.template.ksh
+VIO-001-DS01_DeleteDocument.sh                    remoteCaseCaptureStart.ksh
+VIO-001-DS01_DeleteDocument.template.sh           remoteCaseCaptureStart.template.ksh
+VIO-002-DS01_ValidateDocumentStorage.sh           remoteCaseCaptureStop.ksh
+VIO-002-DS01_ValidateDocumentStorage.template.sh  remoteCaseCaptureStop.template.ksh
+batchFileArchiver.ksh                             remoteFinCaptureColdStart.ksh
+captureFileStats.ksh                              remoteFinCaptureColdStart.template.ksh
+checkBatchVersion.ksh                             remoteFinCaptureStart.ksh
+checkForJobsToSchedule.ksh                        remoteFinCaptureStart.template.ksh
+checkForJobsToSchedule.template.ksh               remoteFinCaptureStop.ksh
+cs1257FileArchiver.ksh                            remoteFinCaptureStop.template.ksh
+doneIndicatorRemover.ksh                          repo
+doneIndicatorRemover.template.ksh                 resources
+dwcfmsinbound.ksh                                 runDatasourceVerificationTest.ksh
+enfEIWOFileRename.ksh                             runSmokeTest.ksh
+enfFASTLevyFileRename.ksh                         runSmokeTestPIF.ksh
+fmsproperties                                     sduDoneIndicatorRemover.ksh
+jobControl.ksh                                    sduDoneIndicatorRemover.template.ksh
+jobControl.template.ksh                           setBatchRoot.ksh
+jobControl_DB.ksh                                 setBatchTemp.ksh
+jobControl_DB.template.ksh                        setEnv.ksh
+jobExecution                                      setEnv.template.ksh
+job_data                                          setEnv61.ksh
+kill_job.ksh                                      setEnv61.template.ksh
+kill_job.template.ksh                             setJobId.ksh
+launchClient.sh                                   setScheduleDate.ksh
+launchClient.template.sh                          stopOnRequestScanner.ksh
+launchClient61.sh                                 stopRunningJobs.ksh
+log                                               submitStream.ksh
+log.txt                                           temp
+ankcsesyta05[/cse/batch/SYT02_Batch]$ c cd logs
+ls
+ankcsesyta05[/cse/batch/SYT02_Batch/logs]$ ls
+DB2ExportMessageLog-FIU-005-DS01.txt  DB2LoadMessageLog-PRM-524-DS02.txt    SystemOut_18.01.17_08.51.09.log
+DB2ExportMessageLog-FIU-006-DS01.txt  PSLO_job_statistics.csv               SystemOut_18.01.17_08.52.39.log
+DB2ExportMessageLog-PRM-524-DS02.txt  SystemErr.log                         SystemOut_18.01.22_08.12.06.log
+DB2LoadMessageLog-FIU-005-DS01.txt    SystemErr.log.owner                   SystemOut_18.08.24_17.00.35.log
+DB2LoadMessageLog-FIU-006-DS01.txt    SystemOut.log                         native_stdout.log
+DB2LoadMessageLog-PRM-519-DS01.txt    SystemOut.log.owner
+DB2LoadMessageLog-PRM-519-DS01.txt1   SystemOut_18.01.17_08.49.55.log
+ankcsesyta05[/cse/batch/SYT02_Batch/logs]$ ls -lagrt
+total 138992
+-rw-rw-rw-    1 csebatch       9153 May 05 2014  DB2LoadMessageLog-PRM-519-DS01.txt1
+-rw-rw-rw-    1 csebatch         74 Oct 23 2014  DB2LoadMessageLog-PRM-524-DS02.txt
+-rw-rw-rw-    1 csebatch         74 Oct 23 2014  DB2LoadMessageLog-FIU-005-DS01.txt
+-rw-rw-rw-    1 csebatch         74 Oct 23 2014  DB2LoadMessageLog-FIU-006-DS01.txt
+-rw-rw-rw-    1 csebatch       2141 Jun 21 2016  DB2ExportMessageLog-PRM-524-DS02.txt
+-rw-rw-rw-    1 csebatch      19692 Oct 14 2016  DB2LoadMessageLog-PRM-519-DS01.txt
+-rw-rw-rw-    1 csebatch       2856 Oct 17 2016  DB2ExportMessageLog-FIU-005-DS01.txt
+-rw-rw-rw-    1 csebatch       2140 Oct 17 2016  DB2ExportMessageLog-FIU-006-DS01.txt
+-rw-rw-r--    1 csebatch   10485584 Jan 17 2018  SystemOut_18.01.17_08.49.55.log
+-rw-rw-r--    1 csebatch   10485738 Jan 17 2018  SystemOut_18.01.17_08.51.09.log
+-rw-rw-r--    1 csebatch   10485691 Jan 17 2018  SystemOut_18.01.17_08.52.39.log
+-rw-rw-r--    1 csebatch   10485611 Jan 22 2018  SystemOut_18.01.22_08.12.06.log
+-rw-rw-r--    1 csebatch   10485655 Aug 24 2018  SystemOut_18.08.24_17.00.35.log
+-rw-rw-r--    1 csebatch         39 Oct 04 2018  SystemOut.log.owner
+drwxrwsrwx    2 csebatch       8192 Oct 04 2018  .
+-rw-rw-r--    1 csebatch         39 Oct 04 2018  SystemErr.log.owner
+drwxrwsr-x   10 csebatch       4096 Aug 05 09:32 ..
+-rwxrwxrwx    1 csebatch    1414221 Aug 15 15:42 PSLO_job_statistics.csv
+-rwxr-xr--    1 csebatch    1598422 Sep 26 15:27 native_stdout.log
+-rw-rw-r--    1 csebatch    5773020 Sep 26 15:34 SystemErr.log
+-rw-rw-r--    1 csebatch    9810125 Oct 10 12:33 SystemOut.log
+ankcsesyta05[/cse/batch/SYT02_Batch/logs]$ tail -f SystemOut.log
+[10/7/19 11:52:41:937 PDT] 00000064 NGUtil$Server I   ASND0003I: Detected server SYT06_Integration stopped on node cg1p10aNode01
+[10/7/19 11:55:20:116 PDT] 0000008d P2PGroup      I   ODCF8040I: Detected process cg1p10aCell01\cg1p10aNode01\SYT06_Integration started.
+[10/7/19 11:55:58:271 PDT] 00000065 NGUtil$Server I   ASND0002I: Detected server SYT06_Integration started on node cg1p10aNode01
+[10/7/19 12:05:27:263 PDT] 0000008d P2PGroup      I   ODCF8040I: Detected process cg1p10aCell01\cg1p10aNode01\SYT06_Online started.
+[10/7/19 12:06:15:459 PDT] 00000064 NGUtil$Server I   ASND0002I: Detected server SYT06_Online started on node cg1p10aNode01
+[10/10/19 12:24:35:795 PDT] 00000c06 LdapRegistryI A   SECJ0419I: The user registry is currently connected to the LDAP server ldap://csehds008.cse.ca.gov:389.
+[10/10/19 12:31:31:653 PDT] 0000008d P2PGroup      I   ODCF8041I: Detected process cg1p10aCell01\cg1p10aNode01\SYT01_Online stopped.
+[10/10/19 12:31:31:656 PDT] 00000064 NGUtil$Server I   ASND0003I: Detected server SYT01_Online stopped on node cg1p10aNode01
+[10/10/19 12:31:45:611 PDT] 0000008d P2PGroup      I   ODCF8040I: Detected process cg1p10aCell01\cg1p10aNode01\SYT01_Online started.
+[10/10/19 12:32:55:293 PDT] 00000064 NGUtil$Server I   ASND0002I: Detected server SYT01_Online started on node cg1p10aNode01
+
+
+
+[10/10/19 13:27:32:139 PDT] 000000a8 FFDCJanitor   I com.ibm.ws.ffdc.impl.FFDCJanitor doCleanupIfNeeded FFDC0004I: FFDC log file management removed 14 of 14 files that have reached their configured maximum age
+[10/10/19 13:27:32:185 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.1407291733745497124515.txt com.ibm.ws.rsadapter.jdbc.WSJccPreparedStatement.closeWrapper 310
+[10/10/19 13:27:32:204 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.1917825332046441113487.txt com.ibm.ws.rsadapter.jdbc.WSJdbcObject.closeChildWrappers 554
+[10/10/19 13:27:32:204 PDT] 000000a8 WSJccConnecti W   DSRA8650W: Error closing a JDBC child wrapper, com.ibm.ws.rsadapter.jdbc.WSJccPreparedStatement@32ae11a3
+com.ibm.db2.jcc.am.SqlException: [jcc][10120][10943][3.72.44] Invalid operation: statement is closed. ERRORCODE=-4470, SQLSTATE=null
+        at com.ibm.db2.jcc.am.b1.a(b1.java:797)
+        at com.ibm.db2.jcc.am.b1.a(b1.java:66)
+        at com.ibm.db2.jcc.am.b1.a(b1.java:116)
+        at com.ibm.db2.jcc.am.kj.aA(kj.java:4450)
+        at com.ibm.db2.jcc.am.kj.b(kj.java:1766)
+        at com.ibm.db2.jcc.am.kj.getMoreResults(kj.java:1156)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.closeWrapper(WSJdbcPreparedStatement.java:489)
+        at com.ibm.ws.rsadapter.jdbc.WSJccPreparedStatement.closeWrapper(WSJccPreparedStatement.java:296)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcObject.close(WSJdbcObject.java:242)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcObject.close(WSJdbcObject.java:195)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcObject.closeChildWrappers(WSJdbcObject.java:297)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcObject.close(WSJdbcObject.java:240)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcObject.close(WSJdbcObject.java:195)
+        at com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl.closeHandles(WSRdbManagedConnectionImpl.java:5039)
+        at com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl.processConnectionErrorOccurredEvent(WSRdbManagedConnectionImpl.java:2523)
+        at com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl.processConnectionErrorOccurredEvent(WSRdbManagedConnectionImpl.java:2416)
+        at com.ibm.ws.rsadapter.spi.WSRdbManagedConnectionImpl.connectionErrorOccurred(WSRdbManagedConnectionImpl.java:991)
+        at com.ibm.db2.jcc.DB2PooledConnection.trashConnection(DB2PooledConnection.java:670)
+        at com.ibm.db2.jcc.t4.a.a(a.java:581)
+        at com.ibm.db2.jcc.t4.a.a(a.java:555)
+        at com.ibm.db2.jcc.t4.a.a(a.java:550)
+        at com.ibm.db2.jcc.t4.a.b(a.java:1665)
+        at com.ibm.db2.jcc.t4.a.a(a.java:1685)
+        at com.ibm.db2.jcc.t4.a.h(a.java:489)
+        at com.ibm.db2.jcc.t4.a.flush_(a.java:413)
+        at com.ibm.db2.jcc.am.Agent.flow(Agent.java:245)
+        at com.ibm.db2.jcc.am.kk.a(kk.java:4420)
+        at com.ibm.db2.jcc.am.kk.b(kk.java:4040)
+        at com.ibm.db2.jcc.am.kk.a9(kk.java:750)
+        at com.ibm.db2.jcc.am.kk.executeQuery(kk.java:719)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.pmiExecuteQuery(WSJdbcPreparedStatement.java:1220)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery(WSJdbcPreparedStatement.java:738)
+        at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:535)
+        at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:476)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:528)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:561)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:579)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:589)
+        at gov.ca.dcss.arch.batch.job.restart.RestartServiceDAO.getRestartState(RestartServiceDAO.java:181)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:323)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+
+[10/10/19 13:27:32:225 PDT] 000000a8 ConnectionEve W   J2CA0206W: A connection error occurred.  To help determine the problem, enable the Diagnose Connection Usage option on the Connection Factory or Data Source. This is the multithreaded access detection option. Alternatively check that the Database or MessageProvider is available.
+[10/10/19 13:27:32:230 PDT] 000000a8 ConnectionEve A   J2CA0056I: The Connection Manager received a fatal connection error from the Resource Adapter for resource jdbc/archdb2. The exception is: com.ibm.db2.jcc.am.DisconnectNonTransientConnectionException: [jcc][t4][2030][11211][3.72.44] A communication error occurred during operations on the connection's underlying socket, socket input stream, 
+or socket output stream.  Error location: Reply.fill() - socketInputStream.read (-1).  Message: A system call received a parameter that is not valid. (Write failed). ERRORCODE=-4499, SQLSTATE=08001:java.net.SocketException: A system call received a parameter that is not valid. (Write failed)
+[10/10/19 13:27:32:247 PDT] 000000a8 SystemOut     O WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error running Partition[1]
+gov.ca.dcss.arch.batch.exception.CriticalException: Restart recover error
+        at gov.ca.dcss.arch.batch.job.restart.RestartServiceDAO.getRestartState(RestartServiceDAO.java:199)
+        at gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:323)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)
+        at gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)
+        at gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)
+        at gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETaskPartitionService_1cadaa70.java:32)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:167)
+        at gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.java:106)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+        at com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+        at com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+        at com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+        at com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+        at com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+        at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+        at com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+        at com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+        at com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+        at com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [SELECT A.BATCH_DATA FROM BATCH_RESTART A, JOB_INSTANCE B WHERE A.JOB_INSTANCE_ID = B.JOB_INSTANCE_ID AND  B.JOB_ID = ? AND A.PARTITION_ID = ? for fetch only]; SQL state [08001]; error code [-4499]; [jcc][t4][2030][11211][3.72.44] A communication error occurred during operations on the connection's underlying socket, socket input stream, 
+or socket output stream.  Error location: Reply.fill() - socketInputStream.read (-1).  Message: A system call received a parameter that is not valid. (Write failed). ERRORCODE=-4499, SQLSTATE=08001; nested exception is com.ibm.websphere.ce.cm.StaleConnectionException: [jcc][t4][2030][11211][3.72.44] A communication error occurred during operations on the connection's underlying socket, socket input stream, 
+or socket output stream.  Error location: Reply.fill() - socketInputStream.read (-1).  Message: A system call received a parameter that is not valid. (Write failed). ERRORCODE=-4499, SQLSTATE=08001
+        at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.translate(SQLStateSQLExceptionTranslator.java:97)
+        at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.translate(SQLErrorCodeSQLExceptionTranslator.java:258)
+        at gov.ca.dcss.arch.persistence.jdbc.CSESQLErrorCodeSQLExceptionTranslator.translate(CSESQLErrorCodeSQLExceptionTranslator.java:46)
+        at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:493)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:528)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:561)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:579)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:589)
+        at gov.ca.dcss.arch.batch.job.restart.RestartServiceDAO.getRestartState(RestartServiceDAO.java:181)
+        ... 19 more
+Caused by: 
+com.ibm.websphere.ce.cm.StaleConnectionException: [jcc][t4][2030][11211][3.72.44] A communication error occurred during operations on the connection's underlying socket, socket input stream, 
+or socket output stream.  Error location: Reply.fill() - socketInputStream.read (-1).  Message: A system call received a parameter that is not valid. (Write failed). ERRORCODE=-4499, SQLSTATE=08001
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:86)
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:58)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:542)
+        at com.ibm.websphere.rsadapter.GenericDataStoreHelper.mapExceptionHelper(GenericDataStoreHelper.java:627)
+        at com.ibm.websphere.rsadapter.GenericDataStoreHelper.mapException(GenericDataStoreHelper.java:686)
+        at com.ibm.ws.rsadapter.AdapterUtil.mapException(AdapterUtil.java:2267)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcUtil.mapException(WSJdbcUtil.java:1219)
+        at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.executeQuery(WSJdbcPreparedStatement.java:753)
+        at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:535)
+        at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:476)
+        ... 24 more
+[10/10/19 13:27:32:260 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.253615712135379167111.txt com.ibm.ws.rsadapter.spi.WSRdbXaResourceImpl.end 438
+[10/10/19 13:27:32:302 PDT] 000000a8 WSRdbXaResour E   DSRA0304E:  XAException occurred. XAException contents and details are: 
+The DB2 Error message is : [jcc][t4][10335][11391][3.72.44] Invalid operation: Connection is closed. ERRORCODE=-4470, SQLSTATE=08003
+The DB2 Error code is    : -4470
+The DB2 SQLState is      : 08003
+.
+[10/10/19 13:27:32:307 PDT] 000000a8 WSRdbXaResour E   DSRA0302E:  XAException occurred.  Error code is: XAER_RMFAIL (-7).  Exception is: [jcc][t4][10401][12066][3.72.44] XA exception: XAER_RMFAIL : [jcc][t4][10335][11391][3.72.44] Invalid operation: Connection is closed. ERRORCODE=-4470, SQLSTATE=08003 ERRORCODE=-4228, SQLSTATE=null
+[10/10/19 13:27:32:374 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.3109019102270180557275.txt com.ibm.ejs.j2c.XATransactionWrapper.end 417
+[10/10/19 13:27:32:459 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.376159807876617140045.txt com.ibm.ws.tx.jta.JTAXAResourceImpl.end 307
+[10/10/19 13:27:32:499 PDT] 000000a8 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/SYT02_Batch_96f46c06_19.10.10_13.27.32.4592684850089722978621.txt com.ibm.tx.jta.impl.RegisteredResources.sendEnd 1157
+[10/10/19 15:39:22:831 PDT] 0000008d P2PGroup      I   ODCF8041I: Detected process cg1p10aCell01\cg1p14aNode01\SYT04_Batch stopped.
+[10/10/19 15:39:22:831 PDT] 00000065 NGUtil$Server I   ASND0003I: Detected server SYT04_Batch stopped on node cg1p14aNode01

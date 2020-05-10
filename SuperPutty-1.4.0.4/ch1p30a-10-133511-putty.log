@@ -1,0 +1,24 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.10 13:35:11 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct 10 12:52:17 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm &cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01porttest 169.2.167.173                              cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01cp /ipm/south/olbt02.pdf /var/pd/hotfolders/401pl01 01pl01 1pl01 pl01 4pl019pl010pl011pl01
+ankcseprda18[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/4901pl01
+ankcseprda18[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/4901pl01/usr/lpp/pd/bin/ipguiadvadm &                       cp /ipm/south/olbt02.pdf /var/pd/hotfolders/4901pl01/usr/lpp/pd/bin/ipguiadvadm &                       
+[1]     34799706
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

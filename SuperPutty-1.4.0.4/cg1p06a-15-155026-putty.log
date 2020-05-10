@@ -1,0 +1,148 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 15:50:26 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed May 29 18:33:23 PDT 2019 on ssh from 158.96.152.172
+Last login: Fri Nov 15 15:48:23 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva02[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*
+ankcsedeva02[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls
+CSEArchitecture.properties                     TEAM09.FormsArchitecture.properties
+DEV01.FontLocation.properties                  TEAM09.ImagingArchitecture.properties
+DEV01.FormsArchitecture.properties             TEAM09.PrintingArchitecture.properties
+DEV01.PrintingArchitecture.properties          TEAM09.SECUREInterface.properties
+DEV01.log4j.properties                         TEAM09.ShippingInterfaces.properties
+DEV01.tracing.properties                       TEAM09.iSupportInterface.properties
+DEV02.FormsArchitecture.properties             TEAM09.log4j.properties
+DEV02.PrintingArchitecture.properties          TEAM09.reporting.properties
+DEV02.log4j.properties                         TEAM09.tracing.properties
+DEV02.tracing.properties                       TRN03.CSEArchitecture.properties
+JSPDocs_CSEOnline.properties                   TRN03.ConsortiaInitialLoadToggle.properties
+ShippingInterfaceSYT.properties                TRN03.ConsortiaUpdateQueuePublish.properties
+TEAM02.CSEArchitecture.properties              TRN03.EnterpriseFormService.properties
+TEAM02.FormsArchitecture.properties            TRN03.FontLocation.properties
+TEAM02.PrintingArchitecture.properties         TRN03.FormsArchitecture.properties
+TEAM02.SECUREInterface.properties              TRN03.ImagingArchitecture.properties
+TEAM02.ShippingInterfaces.properties           TRN03.PrintingArchitecture.properties
+TEAM02.log4j.properties                        TRN03.SECUREInterface.properties
+TEAM02.tracing.properties                      TRN03.ShippingInterfaces.properties
+TEAM04.CSEArchitecture.properties              TRN03.iSupportInterface.properties
+TEAM04.ConsortiaInitialLoadToggle.properties   TRN03.log4j.properties
+TEAM04.ConsortiaUpdateQueuePublish.properties  TRN03.reporting.properties
+TEAM04.EnterpriseFormService.properties        TRN03.tracing.properties
+TEAM04.FontLocation.properties                 TRN04.CSEArchitecture.properties
+TEAM04.FormsArchitecture.properties            TRN04.ConsortiaInitialLoadToggle.properties
+TEAM04.ImagingArchitecture.properties          TRN04.ConsortiaUpdateQueuePublish.properties
+TEAM04.PrintingArchitecture.properties         TRN04.EnterpriseFormService.properties
+TEAM04.SECUREInterface.properties              TRN04.FontLocation.properties
+TEAM04.ShippingInterfaces.properties           TRN04.FormsArchitecture.properties
+TEAM04.iSupportInterface.properties            TRN04.ImagingArchitecture.properties
+TEAM04.log4j.properties                        TRN04.PrintingArchitecture.properties
+TEAM04.reporting.properties                    TRN04.SECUREInterface.properties
+TEAM04.tracing.properties                      TRN04.ShippingInterfaces.properties
+TEAM04_Batch.tracing.properties                TRN04.iSupportInterface.properties
+TEAM05.CSEArchitecture.properties              TRN04.log4j.properties
+TEAM05.ConsortiaInitialLoadToggle.properties   TRN04.reporting.properties
+TEAM05.ConsortiaUpdateQueuePublish.properties  TRN04.tracing.properties
+TEAM05.EnterpriseFormService.properties        UIT04.CSEArchitecture.properties
+TEAM05.FontLocation.properties                 UIT04.ConsortiaInitialLoadToggle.properties
+TEAM05.FormsArchitecture.properties            UIT04.ConsortiaUpdateQueuePublish.properties
+TEAM05.IFOnlineFormsArchitecture.properties    UIT04.EnterpriseFormService.properties
+TEAM05.ImagingArchitecture.properties          UIT04.FontLocation.properties
+TEAM05.PrintingArchitecture.properties         UIT04.FormsArchitecture.properties
+TEAM05.RemoteFormsGenExclusions.properties     UIT04.ImagingArchitecture.properties
+TEAM05.SECUREInterface.properties              UIT04.PrintingArchitecture.properties
+TEAM05.ShippingInterfaces.properties           UIT04.SECUREInterface.properties
+TEAM05.iSupportInterface.properties            UIT04.ShippingInterfaces.properties
+TEAM05.log4j.properties                        UIT04.iSupportInterface.properties
+TEAM05.reporting.properties                    UIT04.log4j.properties
+TEAM05.tracing.properties                      UIT04.reporting.properties
+TEAM05_Batch.tracing.properties                UIT04.tracing.properties
+TEAM06.CSEArchitecture.properties              UIT05.CSEArchitecture.properties
+TEAM06.ConsortiaInitialLoadToggle.properties   UIT05.ConsortiaInitialLoadToggle.properties
+TEAM06.ConsortiaUpdateQueuePublish.properties  UIT05.ConsortiaUpdateQueuePublish.properties
+TEAM06.EnterpriseFormService.properties        UIT05.EnterpriseFormService.properties
+TEAM06.FontLocation.properties                 UIT05.FontLocation.properties
+TEAM06.FormsArchitecture.properties            UIT05.FormsArchitecture.properties
+TEAM06.IFOnlineFormsArchitecture.properties    UIT05.IFOnlineFormsArchitecture.properties
+TEAM06.ImagingArchitecture.properties          UIT05.ImagingArchitecture.properties
+TEAM06.PrintingArchitecture.properties         UIT05.PrintingArchitecture.properties
+TEAM06.RemoteFormsGenExclusions.properties     UIT05.RemoteFormsGenExclusions.properties
+TEAM06.SECUREInterface.properties              UIT05.SECUREInterface.properties
+TEAM06.ShippingInterfaces.properties           UIT05.ShippingInterfaces.properties
+TEAM06.iSupportInterface.properties            UIT05.iSupportInterface.properties
+TEAM06.log4j.properties                        UIT05.log4j.properties
+TEAM06.reporting.properties                    UIT05.reporting.properties
+TEAM06.tracing.properties                      UIT05.tracing.properties
+TEAM09.CSEArchitecture.properties              cmbicmsrvs.ini
+TEAM09.ConsortiaInitialLoadToggle.properties   cmbpool.ini
+TEAM09.ConsortiaUpdateQueuePublish.properties  cmgmt
+TEAM09.EnterpriseFormService.properties        donotremove
+TEAM09.FontLocation.properties                 securityAdministration.properties
+ankcsedeva02[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ grep SELF *
+ankcsedeva02[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ vi TEAM04.ImagingArImagingArc         <hitecturehitecture.         propertieproperties         
+[?1049h[56;1H[?12;25h[?1h="TEAM04.ImagingArchitecture.properties" [Read only] 139 lines, 6300 characters [H[2J# Description:[H
+#    This file contains configuration data for the Imaging Architecture in
+#    specific the Document Management Service.
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#[7Ca) Be sure that the cmbcmenv.properties file in CSEResources specifies
+#[10Ca valid directory containing the rest of the cmb*.ini and
+#[10Ccmb*.properties files.
+#[7Cb) Be sure you have a DB2 connection configured to the Content Manager
+#[10CLibrary Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#[7Cc) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#[7Ca) Try to connect to Content Manager with the eClient and retrieve
+#[10Ca document to ensure that the server is up and accessable.
+#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#[10CTEST: ??
+#[10CPROD: ??
+#[7Cb) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer[9C- Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=ICMLS19
+CM_USERID=team04
+CM_PASSWORD=d8uWum!p
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+#[H[55B"TEAM04.ImagingArchitecture.properties" [Read only] 139 lines, 6300 characters[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:/SELF[K[7mex: 0602-007 The pattern does not exist.[27m[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsedeva02[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ sl    

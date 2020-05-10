@@ -1,0 +1,225 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 12:52:05 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcseprda10[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcseprda10[/home/cseadmin]$ ssh hchada@ankcseprda10
+hchada@ankcseprda10's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Wed Sep 25 12:51:49 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu May 30 09:39:59 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+3004-600 The password entry does not match, please try again.
+hchada's New password: 
+Enter the new password again:
+ankcseprda10[/home/hchada]$ clear
+[H[2Jankcseprda10[/home/hchada]$ ls
+jdk-8u181-linux-x64.tar.gz
+ankcseprda10[/home/hchada]$ ls
+jdk-8u181-linux-x64.tar.gz
+ankcseprda10[/home/hchada]$ sudo su - waws  sadmin
+Password:
+ankcseprda10[/home/wasadmin]$ ls
+AIX_51_memory_leak.sh                       install_was511_cf11.out
+Mail                                        killwasproc
+Scripts                                     killwasproc.log
+StoppedWASAppServers.out                    listrunningappservers
+StoppedWASAppServers.out.sav                mbox
+StoppedWASAppServers2.out                   mountafter.list
+WAS_HC_scp.sh                               mounts.list
+WBI                                         nohup.out
+archivenativeBatchLogs.out                  rc.WAS61
+archivenativeLogs.out                       rc.WASNODE
+backup                                      rc.WASNODE-inst2
+batchRestart                                rc.WBINODE
+batchRestart.log                            rc.wilyagent
+bin                                         responsefile.txt
+cg1p35a                                     responsefile2.txt
+check4appserverRestarts.out                 run_mem_leak_sh
+checkLP.sh                                  runpbsample772
+checkwasadmin                               runpbsample78
+cleanupFFDClogs.out                         salida.txt
+clear_dumpsfs.sh                            scpfindb
+copydumps                                   serverindex.xml
+createKernCountyDirectories.sh              setFin78perms
+createLosAngelesCountyDirectories.sh        setWAS2perms
+createMercedCountyDirectories.sh            setWAS61perms
+createNapaCountyDirectories.sh              setWASperms
+createSLOCountyDirectories.sh               setWBIperms
+createSanJoaquinCountyDirectories.sh        splitlong.sh
+createSantaClaraCountyDirectories.sh        startstoppedappServers.sh
+createSantaCruzCountyDirectories.sh         startstoppedappServers2.sh
+createsymlinksb                             stopallWASServers.sh
+csehap030sslkey                             stopallWASServers2.sh
+csehap035sslkeys                            stopallappServers.sh
+csehap104sslkeys                            stopallappServers2.sh
+csehap111sslkeys                            testscript1
+csehap117sslkeys                            topas.error
+csehds016.epagent.log.gz                    updilogs
+csehws015Default                            validateFormsDirectories.ksh
+dumpfileMaint.out                           verifyKernCountyDirectories.sh
+eWAS                                        verifyLosAngelesCountyDirectories.sh
+editpbfn.sh                                 verifyMercedCountyDirectories.sh
+getports.py                                 verifyNapaCountyDirectories.sh
+healthcheck_reports                         verifyOrangeCountyDirectories.sh
+healthcheck_scripts_WAS                     verifySLOCountyDirectories.sh
+install-inst2                               verifySanJoaquinDirectories.sh
+installWBIfixes.out                         verifySantaClaraCountyDirectories.sh
+install_Scripts                             verifySantaCruzCountyDirectories.sh
+install_scripts                             vpd.properties
+install_was511_SR11_jdk_aix.out             webseal.compressed.log.D10022007-csehws017
+install_was511_SR3_jdk_aix.out              webseal.compressed.log.D10022007-csehws018
+install_was511_SR6_jdk_aix-inst2.out        websphere6scripts
+install_was511_SR6_jdk_aix.out
+ankcseprda10[/home/wasadmin]$ ls    ls | grep port
+getports.py
+healthcheck_reports
+ankcseprda10[/home/wasadmin]$ ls | grep portls | grep  port- porti port  port
+getports.py
+healthcheck_reports
+ankcseprda10[/home/wasadmin]$ ls
+AIX_51_memory_leak.sh                       install_was511_cf11.out
+Mail                                        killwasproc
+Scripts                                     killwasproc.log
+StoppedWASAppServers.out                    listrunningappservers
+StoppedWASAppServers.out.sav                mbox
+StoppedWASAppServers2.out                   mountafter.list
+WAS_HC_scp.sh                               mounts.list
+WBI                                         nohup.out
+archivenativeBatchLogs.out                  rc.WAS61
+archivenativeLogs.out                       rc.WASNODE
+backup                                      rc.WASNODE-inst2
+batchRestart                                rc.WBINODE
+batchRestart.log                            rc.wilyagent
+bin                                         responsefile.txt
+cg1p35a                                     responsefile2.txt
+check4appserverRestarts.out                 run_mem_leak_sh
+checkLP.sh                                  runpbsample772
+checkwasadmin                               runpbsample78
+cleanupFFDClogs.out                         salida.txt
+clear_dumpsfs.sh                            scpfindb
+copydumps                                   serverindex.xml
+createKernCountyDirectories.sh              setFin78perms
+createLosAngelesCountyDirectories.sh        setWAS2perms
+createMercedCountyDirectories.sh            setWAS61perms
+createNapaCountyDirectories.sh              setWASperms
+createSLOCountyDirectories.sh               setWBIperms
+createSanJoaquinCountyDirectories.sh        splitlong.sh
+createSantaClaraCountyDirectories.sh        startstoppedappServers.sh
+createSantaCruzCountyDirectories.sh         startstoppedappServers2.sh
+createsymlinksb                             stopallWASServers.sh
+csehap030sslkey                             stopallWASServers2.sh
+csehap035sslkeys                            stopallappServers.sh
+csehap104sslkeys                            stopallappServers2.sh
+csehap111sslkeys                            testscript1
+csehap117sslkeys                            topas.error
+csehds016.epagent.log.gz                    updilogs
+csehws015Default                            validateFormsDirectories.ksh
+dumpfileMaint.out                           verifyKernCountyDirectories.sh
+eWAS                                        verifyLosAngelesCountyDirectories.sh
+editpbfn.sh                                 verifyMercedCountyDirectories.sh
+getports.py                                 verifyNapaCountyDirectories.sh
+healthcheck_reports                         verifyOrangeCountyDirectories.sh
+healthcheck_scripts_WAS                     verifySLOCountyDirectories.sh
+install-inst2                               verifySanJoaquinDirectories.sh
+installWBIfixes.out                         verifySantaClaraCountyDirectories.sh
+install_Scripts                             verifySantaCruzCountyDirectories.sh
+install_scripts                             vpd.properties
+install_was511_SR11_jdk_aix.out             webseal.compressed.log.D10022007-csehws017
+install_was511_SR3_jdk_aix.out              webseal.compressed.log.D10022007-csehws018
+install_was511_SR6_jdk_aix-inst2.out        websphere6scripts
+install_was511_SR6_jdk_aix.out
+ankcseprda10[/home/wasadmin]$ cd Scrits  pts
+ankcseprda10[/home/wasadmin/Scripts]$ ls
+archiveBatchnativeLogs.sh        check4appserverRestarts.sh       dumpfileMaint.sh.old
+archiveBatchnativeLogs_was61.sh  cleanupFFDClogs.sh               notifywhenjavacore.ksh
+archiveBatchnativeLogs_was85.sh  cleanupFFDClogs.sh_was51         showPIDs.sh
+archivenativeLogs.sh             createsymlinks.sh                stopBatch.sh
+archivenativeLogs_was61.sh       createsymlinksWBI.sh
+archivenativeLogs_was85.sh       dumpfileMaint.sh
+ankcseprda10[/home/wasadmin/Scripts]$ cd ..
+ankcseprda10[/home/wasadmin]$ ls
+AIX_51_memory_leak.sh                       install_was511_cf11.out
+Mail                                        killwasproc
+Scripts                                     killwasproc.log
+StoppedWASAppServers.out                    listrunningappservers
+StoppedWASAppServers.out.sav                mbox
+StoppedWASAppServers2.out                   mountafter.list
+WAS_HC_scp.sh                               mounts.list
+WBI                                         nohup.out
+archivenativeBatchLogs.out                  rc.WAS61
+archivenativeLogs.out                       rc.WASNODE
+backup                                      rc.WASNODE-inst2
+batchRestart                                rc.WBINODE
+batchRestart.log                            rc.wilyagent
+bin                                         responsefile.txt
+cg1p35a                                     responsefile2.txt
+check4appserverRestarts.out                 run_mem_leak_sh
+checkLP.sh                                  runpbsample772
+checkwasadmin                               runpbsample78
+cleanupFFDClogs.out                         salida.txt
+clear_dumpsfs.sh                            scpfindb
+copydumps                                   serverindex.xml
+createKernCountyDirectories.sh              setFin78perms
+createLosAngelesCountyDirectories.sh        setWAS2perms
+createMercedCountyDirectories.sh            setWAS61perms
+createNapaCountyDirectories.sh              setWASperms
+createSLOCountyDirectories.sh               setWBIperms
+createSanJoaquinCountyDirectories.sh        splitlong.sh
+createSantaClaraCountyDirectories.sh        startstoppedappServers.sh
+createSantaCruzCountyDirectories.sh         startstoppedappServers2.sh
+createsymlinksb                             stopallWASServers.sh
+csehap030sslkey                             stopallWASServers2.sh
+csehap035sslkeys                            stopallappServers.sh
+csehap104sslkeys                            stopallappServers2.sh
+csehap111sslkeys                            testscript1
+csehap117sslkeys                            topas.error
+csehds016.epagent.log.gz                    updilogs
+csehws015Default                            validateFormsDirectories.ksh
+dumpfileMaint.out                           verifyKernCountyDirectories.sh
+eWAS                                        verifyLosAngelesCountyDirectories.sh
+editpbfn.sh                                 verifyMercedCountyDirectories.sh
+getports.py                                 verifyNapaCountyDirectories.sh
+healthcheck_reports                         verifyOrangeCountyDirectories.sh
+healthcheck_scripts_WAS                     verifySLOCountyDirectories.sh
+install-inst2                               verifySanJoaquinDirectories.sh
+installWBIfixes.out                         verifySantaClaraCountyDirectories.sh
+install_Scripts                             verifySantaCruzCountyDirectories.sh
+install_scripts                             vpd.properties
+install_was511_SR11_jdk_aix.out             webseal.compressed.log.D10022007-csehws017
+install_was511_SR3_jdk_aix.out              webseal.compressed.log.D10022007-csehws018
+install_was511_SR6_jdk_aix-inst2.out        websphere6scripts
+install_was511_SR6_jdk_aix.out
+ankcseprda10[/home/wasadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+ankcseprda10[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcseprda10 closed.
+ankcseprda10[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

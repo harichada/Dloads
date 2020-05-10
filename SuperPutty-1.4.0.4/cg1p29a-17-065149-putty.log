@@ -1,0 +1,226 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.17 06:51:49 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Sun Nov 17 06:31:36 PST 2019 on ssh from 169.2.108.102
+Last login: Thu May 30 09:39:58 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda04[/home/hchada]$ 
+ankcseprda04[/home/hchada]$ clear
+[H[2Jankcseprda04[/home/hhada]$ clear
+[H[2Jankcsepda04[/home/hchada]$ ls /tmptmp/   <efsefs*   
+/tmp/efsprod-new.crt
+ankcsepda04[/home/hchada]$ ps -ef ef     <| g| gr   ep ep j   ava
+wasadmin  3407954        1   0   Jun 23      - 646:08 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dwas.status.socket=35347 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/DeploymentManager/config cg1p29aCell01 cg1p29aCellManager01 dmgr
+   opnet  3801240  7340244   0   Jun 23      - 245:28 ../jre/bin/java -DDAName=DA-AixOS -cp ../lib/GenericCmdDA.jar:../lib/awdasdk.jar:../lib/xerces.jar:../lib/log4j.jar:../lib/classes12.zip com.altaworks.da.cmd.GenericCmdDA
+    root  8061180  4849698   0   Jun 23      - 24:55 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=ZUHtZWzbZm5uXqUe -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4849698 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin 15204566        1   0   Jun 23      - 496:29 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=35418 -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85K/profiles/AppServer/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/AppServer/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/AppServer/config cg1p29aCell01 cg1p29aNode01 nodeagent
+wasadmin 16253104        1   0   Jun 23      - 609:04 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=32963 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.cacheLocalHost=true -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p37aCell01 cg1p29aNode01 nodeagent
+ankcsepda04[/home/hchada]$ cd /usrusr/   <WebWebS   phepher   e
+ankcseprd04[/usr/WebSphere]$ ls
+AppServer_85
+AppServer_85K
+IMShared
+InstallationManager
+WSMigration
+WSMigration2
+jlib
+lost+found
+ankcseprd04[/usr/WebSphere]$ cd ..
+ankcseprda04[/usr]$ ls
+HTTPServer   local
+Tivoli       lost+found
+WebSphere    lpd
+WebSphere7   lpp
+WebSphere7K  man
+X11R6        ml
+X11R7        mozilla
+adde         mqm
+adm          netiq
+aix          netscape
+aixnre       openssh
+artic960     openssl
+bin          opt
+ccs          perfagent
+dict         pmapi
+doc          pub
+dt           samples
+ecc          sbin
+emgrdata     share
+etc          sni
+hfi          spool
+icu4c        src
+include      suma
+info         swlag
+java131      symantec
+java14       sys
+java5        sysv
+java6        tivoli
+java71_64    tmp
+java7_64     tomcat8
+lbin         ucb
+lib          usg
+libexec      websm
+linux
+ankcseprda04[/usr]$ ls
+HTTPServer   local
+Tivoli       lost+found
+WebSphere    lpd
+WebSphere7   lpp
+WebSphere7K  man
+X11R6        ml
+X11R7        mozilla
+adde         mqm
+adm          netiq
+aix          netscape
+aixnre       openssh
+artic960     openssl
+bin          opt
+ccs          perfagent
+dict         pmapi
+doc          pub
+dt           samples
+ecc          sbin
+emgrdata     share
+etc          sni
+hfi          spool
+icu4c        src
+include      suma
+info         swlag
+java131      symantec
+java14       sys
+java5        sysv
+java6        tivoli
+java71_64    tmp
+java7_64     tomcat8
+lbin         ucb
+lib          usg
+libexec      websm
+linux
+ankcseprda04[/usr]$ ls -ladlad    <WebWebS   phepher   e*
+drwxr-sr-x   10 wasadmin wasadmin        512 Oct 20 2018  WebSphere
+drwxr-xr-x    5 wasadmin wasadmin        256 Oct 19 2018  WebSphere7
+drwxr-xr-x    4 wasadmin wasadmin        256 Jan 11 2017  WebSphere7K
+ankcseprda04[/usr]$ cd WebSebSp   <herhere   
+ankcseprd04[/usr/WebSphere]$ ls
+AppServer_85
+AppServer_85K
+IMShared
+InstallationManager
+WSMigration
+WSMigration2
+jlib
+lost+found
+ankcseprd04[/usr/WebSphere]$ cd AppSppSe   <rverver    _85
+ankcseprda04[/usr/WebShere/AppServer_85]$ ls
+Scheduler
+UDDIReg
+bin
+configuration
+deploytool
+derby
+dev
+endorsed_apis
+etc
+features
+firststeps
+installableApps
+installedConnectors
+installedFilters
+instutils
+java
+java_1.7.1_32
+lafiles
+lib
+links
+logs
+optionalLibraries
+plugins
+profileTemplates
+profiles
+properties
+runtimes
+sar2war_tool
+scriptLibraries
+systemApps
+temp
+tivoli
+uninstall
+universalDriver
+util
+web
+ankcseprda04[/usr/WebShere/AppServer_85]$ ls -ladlad    <javjava   *
+drwxr-xr-x    7 wasadmin wasadmin        512 Apr 27 2019  java
+drwxr-xr-x    7 wasadmin wasadmin        512 Apr 27 2019  java_1.7.1_32
+ankcseprda04[/usr/WebShere/AppServer_85]$ cd javaava _   <*
+ankcseprda04[/usr/WebSphere/AppServe_85/java_1.7.1_32]$ clear
+[H[2Jankcseprda04[/usr/WebSphere/AppServe_85/java_1.7.1_32]$ cd jre/re/l   <ib/ib/s   ecuecur   ity
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ls caceacer   <ts
+cacerts
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ls -la la c   <aceacer   ts
+-rwxr-xr-x    1 wasadmin wasadmin     104526 Mar 17 2019  cacerts
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ pwd
+/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/security
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ sudo su su    <- w- wa   sadsadm   in
+Password:
+[YOU HAVE NEW MAIL]
+ankcseprd04[/home/wasadmin]$ Shru@34@345   <
+ksh: Shru@345:  not found.
+ankcseprd04[/home/wasadmin]$ clear
+[H[2Jankcseprd04[/home/wasadmin]$ cd /usrusr/   <WebWebS   phepher   e/Ae/Ap   pSepSer   verver _   85/85/j   avaava _   1.71.7.   1 _31 _32   /jr/jre   /li/lib   /se/sec   uriurit   y
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ cp caceacer   <ts ts c   aceacer   ts-ts-2   0190191   117
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ../../b./bi   <n/kn/ke   ytoytoo   l -l -l   istist    -v -v -   keykeys   tortore    ca cac   erterts    -s -st   oreorep   assass    chachan   geigeit    |  | g   reprep    efs
+Alias name: prodefs
+[DNSName: efsprod.cse.ca.gov, DNSName: 100.95.20.15, DNSName: 100.95.20.16]]
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ../../b./bi   <n/kn/ke   ytoytoo   l -l -d   eleelet   e -e -k   eyseyst   oreore    caccace   rtsrts    -st-sto   reprepa   ss ss c   hanhang   eiteit    -al-ali   as as p   rodrode   fs
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ../../b./bi   <n/kn/ke   ytoytoo   l -l -l   istist    -v -v -   keykeys   tortore    ca cac   erterts    -s -st   oreorep   assass    chachan   geigeit    |  | g   reprep    efs
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ cp /tmptmp/   <efsefsp   rodrod-   newnew.   crtcrt    .
+cp: /tmp/efsprod-new.crt: The file access permissions do not allow the specified action.
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ exit
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ chmod 7d 77   <7 /7 /t   mp/mp/e   fspfspr   od*
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ sudo su su    <- w- wa   sadsadm   in
+[YOU HAVE NEW MAIL]
+ankcseprd04[/home/wasadmin]$ cd /usrusr/   <WebWebS   phepher   e/Ae/Ap   pSepSer   verver _   85/85/j   avaava _   1.71.7.   1 _31 _32   /jr/jre   /li/lib   /se/sec   uriurit   y
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ clear
+[H[2Jankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ls efspfspr   <od*
+ls: 0653-341 The file efsprod* does not exist.
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ cp /tmptmp/   <efsefsp   rodrod-   newnew.   crtcrt    .
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ls efspfspr   <od*
+efsprod-new.crt
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ../../b./bi   <n/kn/ke   ytoytoo   l -l -i   mpompor   t -t -f   ileile    efsefsp   rodrod-   newnew.   crtcrt    -ke-key   stostor   e ce ca   cercert   s -s -s   tortore   paspass    ch cha   ngengei   t -t -a   lialias    ef efs   proprod   
+Owner: EMAILADDRESS=dcsstsenvironmensunit@dcss.ca.gov, CN=100.95.20.60, OU=Env, O=DCSS, C=US
+Issuer: EMAILADDRESS=dcsstsenvironmensunit@dcss.ca.gov, CN=100.95.20.60, OU=Env, O=DCSS, C=US
+Serial number: 731d
+Valid from: 11/17/19 6:23 AM until: 11/14/29 6:23 AM
+Certificate fingerprints:
+         MD5:  57:D6:D5:89:B5:C6:DB:CC:3B:89:7E:A4:12:99:92:53
+         SHA1: 8B:09:2F:E9:D0:13:1C:CF:63:DF:A6:88:B4:26:84:70:E8:69:85:78
+         SHA256: EC:9E:DE:5F:C7:D5:DF:71:AF:2C:B1:C9:90:CD:CF:8D:26:28:E9:51:7E:7D:F5:39:4E:CD:3C:AB:25:E8:B9:81
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+[DNSName: efsprod.cse.ca.gov, IPAddress: 100.95.20.60, IPAddress: 100.95.20.15, IPAddress: 100.95.20.16]]
+
+Trust this certificate? [no]:  y
+Certificate was added to keystore
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ ../../b./bi   <n/kn/ke   ytoytoo   l -l -l   istist    -v -v -   keykeys   tortore    ca cac   erterts    -s -st   oreorep   assass    chachan   geigeit    |  | g   reprep    efs
+Alias name: efsprod
+[DNSName: efsprod.cse.ca.gov, IPAddress: 100.95.20.60, IPAddress: 100.95.20.15, IPAddress: 100.95.20.16]]
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+ankcseprda04[/usr/WebSphere/AppServer_85/java_1.7.1_3/jre/lib/security]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

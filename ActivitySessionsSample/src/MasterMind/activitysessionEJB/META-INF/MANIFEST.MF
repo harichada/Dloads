@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGameBean.ja
+ va
+SHA-Digest: CgbjOMP3mSdnDNslceSK0vFmZi4=
+Digest-Algorithms: SHA MD5
+MD5-Digest: 6VKEfoAGL+PAsHGhXluInw==
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGameHome.ja
+ va
+MD5-Digest: uMqggPULoTqLAxA/0UdCbg==
+SHA-Digest: zfrhcNtfrhqc6ikmWsMXyuX/PM4=
+Digest-Algorithms: SHA MD5
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGame.class
+Digest-Algorithms: SHA MD5
+SHA-Digest: eWal4iKnG+qK6vEc22QBR5gp3NA=
+MD5-Digest: tJZOq9C3UVfEYrTXxVVaag==
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGameBean.cl
+ ass
+MD5-Digest: 2ALGihQGWHr2oNJrdOfrrw==
+SHA-Digest: va/z3mEwpgmWtcu8OLRD8D2VUqo=
+Digest-Algorithms: SHA MD5
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGame.java
+MD5-Digest: I9mPuwv8t7diBxuCWsmOng==
+SHA-Digest: M04pV4ErhM0oet8zMOHFWqYlCLU=
+Digest-Algorithms: SHA MD5
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGameHome.cl
+ ass
+MD5-Digest: qlQ8IqBBInkg9MMfNYXx4Q==
+SHA-Digest: WhUGg5B3qrJNpG/IlHubg70NHqc=
+Digest-Algorithms: SHA MD5
+
+Name: com/ibm/websphere/samples/activitysessions/MasterMindGame.ser
+MD5-Digest: xC+bfpR/WZDfXkh3u+hrjw==
+SHA-Digest: k7UE9qti0Q73zCmdQZIofNUacgg=
+Digest-Algorithms: SHA MD5
+Enterprise-Bean: true
+

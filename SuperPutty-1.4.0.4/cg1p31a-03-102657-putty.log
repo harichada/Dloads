@@ -1,0 +1,490 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 10:26:57 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct  3 09:24:14 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct  3 09:44:23 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] pdq -U -rv -p 2801pq01      xxx      5401pq01
+pdq: 5010-065 Cannot find the object 5401pq01.
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pq01pdq -U -rv -p 5401pq0l
+pdq: 5010-065 Cannot find the object 5401pq0l.
+ankcseprda06[/ipm/south] cp /ipm/south/olbt06.pdf /var/pd/hotfolders/5401pl01
+cp: /ipm/south/olbt06.pdf: A file or directory in the path name does not exist.
+ankcseprda06[/ipm/south] ls -lagrt
+total 4448
+drwxrwx---    7 printq          256 Sep 27 2005  attrib
+-rwxrwx---    1 printq         1700 Oct 06 2005  skeleton
+-rwxrwx---    1 printq         3647 Oct 07 2005  bytect
+-rwxrwx---    1 printq         3103 Oct 07 2005  cleanup
+-rwxrwx---    1 printq         1056 Oct 07 2005  chprdom
+-rwxrwx---    1 printq          865 Oct 07 2005  chport
+-rwxrwx---    1 printq         5542 Oct 07 2005  chkprt
+-rwxrwx---    1 printq          103 Oct 07 2005  checkpio
+-rwxrwx---    1 printq          728 Oct 07 2005  findpdpr
+-rwxrwx---    1 printq          591 Oct 07 2005  findheld
+-rwxrwx---    1 printq         1319 Oct 07 2005  e2ecleanup
+-rwxrwx---    1 printq          475 Oct 07 2005  dumpdestcomms
+-rwxrwx---    1 printq         1881 Oct 07 2005  dprt
+-rwxrwx---    1 printq         1222 Oct 07 2005  delown.pl
+-rwxrwx---    1 printq          395 Oct 07 2005  fst.users
+-rwxrwx---    1 printq          841 Oct 07 2005  fixusers
+-rwxrwx---    1 printq         1285 Oct 07 2005  fixprt
+-rwxrwx---    1 printq         1084 Oct 07 2005  findrdd
+-rwxrwx---    1 printq         1289 Oct 07 2005  findpdpr.new
+-rwxrwx---    1 printq          259 Oct 07 2005  jobstate
+-rwxrwx---    1 printq         1019 Oct 07 2005  jimresuball
+-rwxrwx---    1 printq          911 Oct 07 2005  jimloc
+-rwxrwx---    1 printq         4578 Oct 07 2005  itmenu.sh
+-rwxrwx---    1 printq         4578 Oct 07 2005  itlogin.sh
+-rwxrwx---    1 printq          250 Oct 07 2005  ipmthreads
+-rwxrwx---    1 printq         1839 Oct 07 2005  moveprinter.old
+-rwxrwx---    1 printq          332 Oct 07 2005  mkfstusers
+-rwxrwx---    1 printq         3361 Oct 07 2005  micro
+-rwxrwx---    1 printq          168 Oct 07 2005  notpro
+-rwxrwx---    1 printq          471 Oct 07 2005  notifyme
+-rwxrwx---    1 printq          141 Oct 07 2005  nonotif
+-rwxrwx---    1 printq          416 Oct 07 2005  mysubmit
+-rwxrwx---    1 printq          396 Oct 07 2005  fixclock
+-rwxrwx---    1 printq          459 Oct 07 2005  offpend
+-rwxrwx---    1 printq          475 Oct 07 2005  offhold
+-rwxrwx---    1 printq          136 Oct 07 2005  findbad
+-rwxrwx---    1 printq         1293 Oct 07 2005  pdgroup
+-rwxrwx---    1 printq         3017 Oct 07 2005  pdfindbigjob
+-rwxrwx---    1 printq          554 Oct 07 2005  pddisablelp
+-rwxrwx---    1 printq          319 Oct 07 2005  pdcleanvarpsm
+-rwxrwx---    1 printq         1398 Oct 07 2005  pdchangedomain
+-rwxrwx---    1 printq          284 Oct 07 2005  pdallresub
+-rwxrwx---    1 printq          309 Oct 07 2005  pdqlist
+-rwxrwx---    1 printq         2928 Oct 07 2005  pdpingprt
+-rwxrwx---    1 printq         1628 Oct 07 2005  pdlastprint
+-rwxrwx---    1 printq         6451 Oct 07 2005  pdipmcore
+-rwxrwx---    1 printq          306 Oct 07 2005  pdhelpungroup
+-rwxrwx---    1 printq         2933 Oct 07 2005  pdhelpgroup
+-rwxrwx---    1 printq         1531 Oct 07 2005  pingchk
+-rwxrwx---    1 printq         1269 Oct 07 2005  pdrmjob
+-rwxrwx---    1 printq         2241 Oct 07 2005  pdresuball
+-rwxrwx---    1 printq          191 Oct 07 2005  pdrestartlog
+-rwxrwx---    1 printq          118 Oct 07 2005  recphys
+-rwxrwx---    1 printq          584 Oct 07 2005  prstate
+-rwxrwx---    1 printq         4287 Oct 07 2005  printeracc
+-rwxrwx---    1 printq          938 Oct 07 2005  preup
+-rwxrwx---    1 printq         1344 Oct 07 2005  spoolchk
+-rwxrwx---    1 printq          285 Oct 07 2005  spool-culprit
+-rwxrwx---    1 printq          912 Oct 07 2005  resetprt
+-rwxrwx---    1 printq          365 Oct 07 2005  reset4308.bak
+-rwxrwx---    1 printq          624 Oct 07 2005  topcpu
+-rwxrwx---    1 printq         3043 Oct 10 2005  panel
+-rwxrwx---    1 printq         9085 Oct 10 2005  maw.ps
+-rwxrwx---    1 printq          788 Oct 10 2005  melon.ps
+-rwxrwx---    1 printq         2353 Oct 10 2005  star.ps
+-rwxrwx---    1 printq         9591 Oct 10 2005  hcraform.list3820
+-rwxrwx---    1 printq         1498 Oct 10 2005  psmqprint
+-rwxrwx---    1 printq         1302 Oct 10 2005  shortpanel
+-rwxrwx---    1 printq         1424 Oct 13 2005  perqueue
+-rwx------    1 printq           68 Oct 21 2005  .profile
+-rwx------    1 printq          539 Oct 21 2005  .kshrc
+-rwxrwx---    1 printq         1112 Nov 03 2005  reset4308
+-rw--w----    1 printq       114446 Oct 30 2006  melon.afp
+-rw-rw-r--    1 printq         3301 May 02 2007  sample.pdf
+-rw-rw-r--    1 printq         3301 May 03 2007  sample2.pdf
+-rwx-w----    1 printq          285 Jul 17 2007  clearcounty
+-rwxrwxr-x    1 printq         1244 Aug 22 2007  porttest.backup_20180126
+-rw--w----    1 printq        55465 Aug 24 2007  star.afp
+-rwxrwx---    1 printq          344 Sep 12 2007  servjobs
+drwx-w----    2 printq         4096 Sep 24 2007  acct
+-rwx-w----    1 printq          829 Sep 25 2007  blah
+-rwx-w----    1 printq         3127 Sep 26 2007  jimtest.bak
+-rw-rw-r--    1 printq         3301 Oct 19 2007  jim.pdf
+-rwxrwx---    1 printq         8496 Nov 06 2007  newcreate
+-rwxrwx---    1 printq          552 Nov 06 2007  changeip
+-rwxrwx---    1 printq         1719 Jan 19 2008  pdrmresub
+-rwxrwx---    1 printq         8668 Feb 06 2008  newtest
+-rwx-w----    1 printq          849 Apr 08 2008  chkallprinters.save
+-rwxrwx---    1 printq          144 Apr 08 2008  sshtest
+-rwxrwxr-x    1 printq          269 Nov 17 2008  showptia
+-rwxrwxr-x    1 printq         1935 May 20 2009  maillogs.06142019
+-rwxrwxr-x    1 printq          442 Oct 07 2009  sendfile
+-rw--w----    1 printq        11135 Oct 27 2009  sample.afp
+-rw-rw-r--    1 printq         1166 Oct 27 2009  jobid.out
+-rwx-w----    1 printq         1311 Nov 04 2010  doacct
+-rwx------    1 printq         1794 Apr 12 2011  mkxcel.ebhc
+-rw-rw-r--    1 printq        11003 Apr 19 2011  olbt01.pdf
+-rw-rw-r--    1 printq        11003 Apr 19 2011  olbtS1CG1P31A.pdf
+-rwxrwxrwx    1 printq          617 Apr 19 2011  mkxcel33
+-rw-rw----    1 printq        20992 Apr 22 2011  cg1p31a_ports.xls
+-rw-rw-r--    1 printq        11003 May 03 2011  olbt02.pdf
+-rw-rw-r--    1 printq        11003 May 03 2011  olbt03.pdf
+-rw-rw-r--    1 printq        11003 May 04 2011  olbt04.pdf
+-rwxrwxrwx    1 printq          554 May 05 2011  mkxcel2
+-rwxr-x---    1 printq         1871 Jan 15 2013  mkxcel20120115
+drwxrwxrwx    2 printq         4096 Mar 01 2013  reprints
+-rwx------    1 cseadmin       1897 Jul 29 2013  mkxcel20130729
+-rwxr-x---    1 staff          1899 Oct 16 2013  mkxcel.bak
+-rwxrwxrwx    1 printq        48995 Oct 02 2014  SD.txt
+-rwxrwxrwx    1 printq       113447 Oct 06 2014  San.txt
+-rw-r-----    1 printq        10252 Feb 18 2015  0402.txt
+-rw-r-----    1 printq            0 Feb 18 2015  0402b.txt
+-rwxr-x---    1 printq         2721 Apr 30 2015  mkxcel.back_jay
+-rw-r-----    1 printq         2862 Aug 07 2015  4201.txt
+-rw-r-----    1 printq            0 Aug 07 2015  4201b.txt
+-rw-r-----    1 printq       208038 Aug 11 2015  1905z.txt
+-rw-r-----    1 printq         1714 Aug 11 2015  1905zz.txt
+-rw-r-----    1 printq            0 Oct 06 2015  0601.txt
+-rw-r-----    1 printq            0 Oct 06 2015  0601b.txt
+-rw-r-----    1 printq        39932 Nov 17 2015  4701.txt
+-rw-r-----    1 printq       181054 Nov 23 2015  1101.txt
+-rw-r-----    1 printq       208832 Nov 24 2015  1101a.txt
+-rw-r-----    1 printq         4630 Nov 24 2015  1101b.txt
+-rw-r-----    1 printq         2953 Dec 08 2015  0903.txt
+-rw-r-----    1 printq       119307 Jan 12 2016  1910.txt
+-rw-r-----    1 printq         6330 Jan 12 2016  1910b.txt
+drwxrwxr-x   15 printq         4096 Jan 17 2016  ..
+-rw-r-----    1 printq        14576 Feb 01 2016  timex.out
+-rwxrwxr-x    1 printq         2876 Feb 19 2016  testspool.sh
+-rwxr-xr-x    1 printq         3270 Feb 19 2016  checkqueues
+-rw-r-----    1 printq           38 Feb 19 2016  OUTFILE
+-rwxr-x---    1 printq         3515 Feb 25 2016  checkqueues.sh.2old
+-rwxr-x---    1 printq         4170 Mar 11 2016  checkqueues.test.sh
+drwxr-x---    2 printq        24576 Mar 23 2016  tularefiles
+-rw-r-----    1 printq         2832 Apr 07 2016  mkxcelbackup04072016
+-rwxr-x---    1 printq           77 Apr 18 2016  queuemaillist.full
+-rwxrwxr-x    1 printq           53 Apr 18 2016  queuemaillist
+-rwxr-x---    1 printq         4162 Apr 18 2016  checkqueues.sh.error
+-rwxr-x---    1 printq         3211 Apr 18 2016  checkqueues.sh.bak
+-rwxrwxr-x    1 printq         4087 Apr 18 2016  checkqueues.sh.old
+-rwxrwxr-x    1 printq         4101 Apr 19 2016  checkqueues.sh
+-rw-r-----    1 printq           54 May 03 2016  queuelist1.txt
+-rw-r-----    1 printq          777 May 03 2016  queuelist.txt
+-rw-r-----    1 printq            0 Jun 29 2016  5101b.txt
+-rw-r-----    1 printq         2124 Nov 23 2016  3401.txt
+-rw-r-----    1 printq        11003 Nov 30 2016  olbt05.pdf
+-rw-r-----    1 printq        45372 Dec 14 2016  salida.txt
+-rw-r-----    1 printq            0 Jul 24 2017  3006b.txt
+-rw-rw-r--    1 printq       155683 Jan 03 2018  FS-ENF-028_0970056784-01_b0d1ee34.pdf
+-rw-rw-r--    1 printq       155694 Jan 03 2018  FS-ENF-028_0134511640-01_25c7ac25.pdf
+-rw-r-----    1 printq            0 Feb 28 2018  1801b.txt
+-rwxr-x---    1 printq         2726 Apr 25 2018  mkxcel.4252018
+-rwxrwx---    1 printq         2614 Apr 25 2018  mkxcel.07052019
+-rw-r-----    1 printq            0 Jul 31 2018  jobid_4901.txt
+drwxrwxr-x    2 cseadmin       4096 Aug 01 2018  4901
+-rwxrwxr-x    1 printq         2024 May 30 09:19 maillogstest
+-rwxrwxr-x    1 printq         1244 Jun 06 09:08 porttest2
+-rwxrwxr-x    1 printq         2024 Jun 14 16:09 maillogs
+-rwxrwx---    1 printq         2614 Jul 05 16:45 mkxcel
+-rwxrwxr-x    1 printq         1451 Jul 05 16:51 porttest
+-rw-r-----    1 printq        28328 Sep 17 11:27 2901.txt
+drwxrwxr-x    7 printq        12288 Sep 17 11:27 .
+-rw-r-----    1 printq          213 Sep 17 11:27 2901b.txt
+ankcseprda06[/ipm/south] ls *.pdf
+FS-ENF-028_0134511640-01_25c7ac25.pdf  olbt02.pdf                             olbtS1CG1P31A.pdf
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  olbt03.pdf                             sample.pdf
+jim.pdf                                olbt04.pdf                             sample2.pdf
+olbt01.pdf                             olbt05.pdf
+ankcseprda06[/ipm/south] ls *.pdfls -lagrtcp /ipm/south/olbt06.pdf /var/pd/hotfolders/5401pl01cp /ipm/south/olbt05
+ankcseprda06[/ipm/south] pdls -r verbose -c printer 5401pl01
+                                                 Destinations                     
+Destination  Realization  Server      Locations  Associated    Enabled  Queue     
+-----------  -----------  ----------  ---------  ------------  -------  --------  
+5401pl01     logical      cse03spl01  Tulare     5401pa01      true     5401pq01  
+                                                 5401pa02                         
+ankcseprda06[/ipm/south] o s histoay    ry1  1| grep pdq
+9       pdq -U -rv -p 3501pl01
+14      pdq -U -rv -p 3501pl01
+15      pdq -U -rv -p 3501pl01
+19      pdq -U -rv -p 3501pl01
+24      pdq -U -rv -p 3501pl01
+25      pdq -U -rv -p 3501pl01
+40      pdq -U -rv -p 1601pl01
+48      pdq -U -rv -p 4301pl01
+49      pdq -U -rv -p 4301pl01
+69      pdq -U -rv -p 1601pl01
+92      pdq -U -rv -p 4301pa02
+93      pdq -U -rv -p 4301pa02
+94      pdq -U -rv -p 4301pa02
+95      pdq -U -rv -p 4301pa02
+96      pdq -U -rv -p 4301pa02
+97      pdq -U -rv -p 4301pa02
+98      pdq -U -rv -p 4301pa02
+99      pdq -U -rv -p 4301pa02
+100     pdq -U -rv -p 4301pa02
+101     pdq -U -rv -p 4301pa02
+102     pdq -U -rv -p 4301pa02
+103     pdq -U -rv -p 4301pa02
+117     pdq -U -rv -p 4301pa01
+118      pdq -U -rv -p 4301pa01
+119     pdq -U -rv -p 4301pa01
+121     pdq -U -rv -p 4301pa02
+152     pdq -U -rv -p 1601pl01
+165     pdq -U -rv -p 1601pl01
+173     pdq -U -rv -p 1601pl01
+175     pdq -U -rv -p 1601pl01
+196     pdq -U -rv -p  5701pa02
+197     pdq -U -rv -p  5701pl02
+198     pdq -U -rv -p  5701pq01
+199     pdq -U -rv -p  701pq01
+200     pdq -U -rv -p 5701pq01
+201     pdq -U -rv -p 5701pl02
+203     pdq -U -rv -p 5701pl01
+210     pdq -U -rv -p 2801pq01
+214     pdq -U -rv -p 2801pl01
+221     pdq -U -rv -p 2801pl01
+223     pdq -U -rv -p 2801pl01
+232     pdq -U -rv -p 4201pl01
+250     pdq -U -rv -p 4201pl01
+252     pdq -U -rv -p 4201pl01
+253     pdq -U -rv -p 4201pl01
+254     pdq -U -rv -p 4201pl01
+259     pdq -U -rv -p 4201pl01
+261     pdq -U -rv -p 4201pl01
+263     pdq -U -rv -p 4201pl01
+271     pdq -U -rv -p 0901pl01
+272     pdq -U -rv -p 0901pl01
+275     pdq -U -rv -p 0901pl01
+276     pdq -U -rv -p 0901pl01
+277     pdq -U -rv -p 0901pl01
+287     pdq -U -rv -p 0901pl01
+290     pdq -U -rv -p 4201pl01
+322     pdq -U -rv -p 4001pl01
+333     pdq -U -rv -p 4501pl01
+351     pdq -U -rv -p 4501pl01
+352     pdq -U -rv -p 4501pl01
+353     pdq -U -rv -p 4501pl01
+354     pdq -U -rv -p 4501pl01
+355     pdq -U -rv -p 4501pl01
+356     pdq -U -rv -p 4501pl01
+357     pdq -U -rv -p 4501pl01
+358     pdq -U -rv -p 4501pl01
+359     pdq -U -rv -p 4501pl01
+360     pdq -U -rv -p 4501pl01
+369     pdq -U -rv -p 4501pl01
+370     pdq -U -rv -p 4501pl01
+371     pdq -U -rv -p 4501pl01
+372     pdq -U -rv -p 4501pl01
+373     pdq -U -rv -p 4501pl01
+374     pdq -U -rv -p 4501pl01
+376     pdq -U -rv -p 4501pl01
+377     pdq -U -rv -p 4501pl01
+378     pdq -U -rv -p 4501pl01
+379     pdq -U -rv -p 4501pl01
+380     pdq -U -rv -p 4501pl01
+381     pdq -U -rv -p 4501pl01
+382     pdq -U -rv -p 4501pl01
+383     pdq -U -rv -p 4501pl01
+384     pdq -U -rv -p 4501pl01
+385     pdq -U -rv -p 4501pl01
+386     pdq -U -rv -p 4501pl01
+387     pdq -U -rv -p 4501pl01
+388     pdq -U -rv -p 4501pl01
+389     pdq -U -rv -p 4501pl01
+390     pdq -U -rv -p 4501pl01
+391     pdq -U -rv -p 4501pl01
+392     pdq -U -rv -p 4501pl01
+393     pdq -U -rv -p 4501pl01
+398     pdq -U -rv -p 4501pl01
+399     pdq -U -rv -p 4501pl01
+400     pdq -U -rv -p 4501pl01
+401     pdq -U -rv -p 4501pl01
+402     pdq -U -rv -p 4501pl01
+403     pdq -U -rv -p 4501pl01
+404     pdq -U -rv -p 4501pl01
+405     pdq -U -rv -p 4501pl01
+406     pdq -U -rv -p 4501pl01
+407     pdq -U -rv -p 4501pl01
+408     pdq -U -rv -p 4501pl01
+409     pdq -U -rv -p 4501pl01
+410     pdq -U -rv -p 4501pl01
+411     pdq -U -rv -p 4501pl01
+412     pdq -U -rv -p 4501pl01
+413     pdq -U -rv -p 4501pl01
+414     pdq -U -rv -p 4501pl01
+415     pdq -U -rv -p 4501pl01
+416     pdq -U -rv -p 4501pl01
+419     pdq -U -rv -p 4501pl01
+423     pdq -U -rv -p 4501pl01
+431     history 1 | grep pdq
+432     pdq -U -rv -p 3702pl01
+436     pdq -U -rv -p 3702pl01
+437     pdq -U -rv -p 3702pl01
+438     pdq -U -rv -p 3702pl01
+439     pdq -U -rv -p 3702pl01
+440     pdq -U -rv -p 3702pl01
+441     pdq -U -rv -p 3702pl01
+442     pdq -U -rv -p 3702pl01
+446     pdq -U -rv -p 3702pl01
+447     pdq -U -rv -p 3702pl01
+448     pdq -U -rv -p 3702pl01
+449     pdq -U -rv -p 3702pl01
+450     pdq -U -rv -p 3702pl01
+451     pdq -U -rv -p 3702pl01
+452     pdq -U -rv -p 3702pl01
+453     pdq -U -rv -p 3702pl01
+454     pdq -U -rv -p 3702pl01
+455     pdq -U -rv -p 3702pl01
+456     pdq -U -rv -p 3702pl01
+457     pdq -U -rv -p 3702pl01
+458     pdq -U -rv -p 3702pl01
+459     pdq -U -rv -p 3702pl01
+460     pdq -U -rv -p 3702pl01
+461     pdq -U -rv -p 3702pl01
+462     pdq -U -rv -p 3702pl01
+463     pdq -U -rv -p 3702pl01
+464     pdq -U -rv -p 3702pl01
+465     pdq -U -rv -p 3702pl01
+466     pdq -U -rv -p 3702pl01
+467     pdq -U -rv -p 3702pl01
+468     pdq -U -rv -p 3702pl01
+469     pdq -U -rv -p 3702pl01
+470     pdq -U -rv -p 3702pl01
+471     pdq -U -rv -p 3702pl01
+475     pdq -U -rv -p 3702pl01
+476     pdq -U -rv -p 3702pl01
+478     pdq -U -rv -p 3702pl01
+485     pdq -U -rv -p 3702pl01
+486     pdq -U -rv -p 3702pl01
+487     pdq -U -rv -p 3702pl01
+488     pdq -U -rv -p 3702pl01
+489     pdq -U -rv -p 3702pl01
+491     pdq -U -rv -p 3702pl01
+495     pdq -U -rv -p 3702pl01
+496     pdq -U -rv -p 3702pl01
+497     pdq -U -rv -p 3702pl01
+504     pdq -U -rv -p 3702pl01
+505     pdq -U -rv -p 3702pl01
+506     pdq -U -rv -p 3702pl01
+507     pdq -U -rv -p 3702pl01
+508     pdq -U -rv -p 3702pl01
+611     history 1 | grep pdq
+612      pdq -U -rv -p 4901pl01
+660     pdq -U -rv -p  5601pl01
+664     pdq -U -rv -p  5601pl01
+665     pdq -U -rv -p  5601pl01
+670     pdq -U -rv -p  1502pl01
+671      pdq -U -rv -p  1502pl01
+675     pdq -U -rv -p  1502pl01
+676     pdq -U -rv -p  1502pl01
+677     pdq -U -rv -p  1502pl01
+678     pdq -U -rv -p  1502pl01
+679     pdq -U -rv -p  1502pl01
+680     pdq -U -rv -p  1502pl01
+681     pdq -U -rv -p  1502pl01
+682     pdq -U -rv -p  1502pl01
+683     pdq -U -rv -p  1502pl01
+684     pdq -U -rv -p  1502pl01
+685     pdq -U -rv -p  1502pl01
+686     pdq -U -rv -p  1502pl01
+690     pdq -U -rv -p 3702pl01
+694     pdq -U -rv -p 3702pl01
+705     pdq -U -rv -p 3702pl01
+706     pdq -U -rv -p 3702pl01
+707     pdq -U -rv -p 3702pl01
+708     pdq -U -rv -p 3702pl01
+709     pdq -U -rv -p 3702pl01
+710     pdq -U -rv -p 3702pl01
+711     pdq -U -rv -p 3702pl01
+722     pdq -U -rv -p 3702pl01
+773     pdq -U -rv -p 3702pl01
+774     pdq -U -rv -p 3702pl01
+775     pdq -U -rv -p 3702pl01
+776     pdq -U -rv -p 3702pl01
+777     pdq -U -rv -p 3702pl01
+805     pdq -U -rv -p 3702pl01
+874     pdq -U -rv -p 3702pl01
+876     pdq -U -rv -p 3702pl01
+877     pdq -U -rv -p 3702pl01
+878     pdq -U -rv -p 3702pl01
+879     pdq -U -rv -p 3702pl01
+882     pdq -U -rv -p 3702pl01
+884     pdq -U -rv -p 3702pl01
+886     pdq -U -rv -p 3702pl01
+888     pdq -U -rv -p 3702pl01
+889     pdq -U -rv -p 3702pl01
+890     pdq -U -rv -p 3702pl01
+891     pdq -U -rv -p 3702pl01
+892     pdq -U -rv -p 3702pl01
+893     pdq -U -rv -p 3702pl01
+894     pdq -U -rv -p 3702pl01
+895     pdq -U -rv -p 3702pl01
+896     pdq -U -rv -p 3702pl01
+897     pdq -U -rv -p 3702pl01
+898     pdq -U -rv -p 3702pl01
+899     pdq -U -rv -p 3702pl01
+900     pdq -U -rv -p 3702pl01
+901     pdq -U -rv -p 3702pl01
+902     pdq -U -rv -p 3702pl01
+903     pdq -U -rv -p 3702pl01
+904     pdq -U -rv -p 3702pl01
+937     pdq -U -rv -p 1903pa02
+938     pdq -U -rv -p 1903pa02
+939     pdq -U -rv -p 1903pa02
+940     pdq -U -rv -p 1903pa02
+941     pdq -U -rv -p 1903pa02
+943     pdq -U -rv -p 1903pa02
+944     pdq -U -rv -p 1903pa02
+945     pdq -U -rv -p 1903pa02
+946     pdq -U -rv -p 1903pa02
+947     pdq -U -rv -p 1903pa02
+948     pdq -U -rv -p 1903pa02
+949      pdq -U -rv -p 1903pa02
+952     pdq -U -rv -p 1903pa02
+953     pdq -U -rv -p 1903pa02
+955     pdq -U -rv -p 1903pa02
+956     pdq -U -rv -p 1903pa02
+957     pdq -U -rv -p 1903pa02
+958     pdq -U -rv -p 1903pa02
+959     pdq -U -rv -p 1903pa02
+960     pdq -U -rv -p 1903pa02
+961     pdq -U -rv -p 1903pa02
+962     pdq -U -rv -p 1903pa02
+964     pdq -U -rv -p 1903pa02
+969     pdq -U -rv -p 1903pa02
+970     pdq -U -rv -p 1903pa02
+971     pdq -U -rv -p 1903pa02
+973     pdq -U -rv -p 1903pa01
+975     pdq -U -rv -p 1903pa02
+1000    pdq -U -rv -p 5401pq01
+1001    pdq -U -rv -p 5401pq0l
+1007    history 1| grep pdq
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 5401pa01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+70   cse03spl01:3695728196  /var/pd/hotfolders/5401pl01/olbt05.pdf  ripping           0            5401pl01     5401pa01      11003   @csehap103  
+ankcseprda06[/ipm/south] porttest 162 9.2.167.178 4
+NO,YES,NO,NOankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

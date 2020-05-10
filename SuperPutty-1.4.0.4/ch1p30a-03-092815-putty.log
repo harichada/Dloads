@@ -1,0 +1,218 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 09:28:15 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct  3 09:24:53 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+
+ankcseprda18[/ipm/south] tail salida.txt
+salida.txt: A file or directory in the path name does not exist.
+ankcseprda18[/ipm/south] t ls
+0601b.txt
+0701.txt
+0701b.txt
+10_23_18.txt
+1201a.txt
+1201b.txt
+2301.txt
+2701b.txt
+2901.txt
+2901b.txt
+3101b.txt
+3401.txt
+5801
+6_1_17.txt
+Alameda.pdf
+Defect 354304 Central Print 2 syt11.pdf.filepart
+FS-ENF-028_0134511640-01_25c7ac25.pdf
+FS-ENF-028_0970056784-01_b0d1ee34.pdf
+Glenn.pdf
+Kings.pdf
+Nevada.pdf
+Ridge.txt
+Trinity.pdf
+Yolo.pdf
+acct
+admhelp
+attrib
+bytect
+ch1p30a_ports.xls
+changeip
+checkpio
+checkqueues.sh
+checkscratch.sh
+chkallprinters
+chkallprinters.original
+chkprt
+chport
+chprcom
+chprdom
+cleanup
+cse16suv01,3801pa02]
+delown.pl
+destinations.txt
+doacct
+dprt
+dumpdestcomms
+e2ecleanup
+ebhc
+error1127.log
+findbad
+findheld
+findpdpr
+findpdpr.new
+findrdd
+fixclock
+fixprt
+fixusers
+fst.users
+getprinted.sh
+hcraform.list3820
+ipmthreads
+itlogin.sh
+itmenu.sh
+itmenu.tar
+jimloc
+jimresuball
+jimtime
+jobid.out
+jobid.txt
+jobstate
+killtransprocs
+maillogs
+maillogs.06142019
+maillogstest
+mailtestipm
+mailtestjw
+mailtestjw20130729
+maw.ps
+melon.ps
+micro
+mkfstusers
+mktest
+mkxcel
+mkxcel.06282019
+mkxcel.07052019
+mkxcel.4252018
+mkxcel.bak20131016
+mkxcel04072016
+mkxcel2
+mkxcel20121106
+mkxcel20121217
+mkxcel20130729
+mkxcel20131016
+mkxcel20140212
+mkxcel2a
+mkxcel2b
+mkxcel2c
+mkxcel3
+mkxcel33
+mkxcel_5001
+mkxcel_jay.back
+mkxcel_new
+mkxcelcp
+moveprinter.old
+mysubmit
+newcreate
+newtest
+nonotif
+notifyme
+notpro
+offhold
+offpend
+olbt01.pdf
+olbt02.pdf
+olbt03.pdf
+olbt04.pdf
+olbt05.pdf
+olbt06.pdf
+olbtS2CH1P30A.pdf
+panel
+pdallresub
+pdchangedomain
+pdcleanvarpsm
+pddisablelp
+pdfindbigjob
+pdgroup
+pdhelpgroup
+pdhelpungroup
+pdipmcore
+pdlastprint
+pdpingprt
+pdqlist
+pdrestartlog
+pdresuball
+pdrmjob
+pdrmresub
+perqueue
+pingchk
+poo
+porttest
+porttest.07052019
+porttest2
+porttest_LEX
+preup
+printeracc
+printers.log
+printout.sh
+prints
+prstate
+psmqprint
+queuelist.txt
+queuelist1.txt
+queuemaillist
+queuemaillist.bak
+recphys
+reprint
+reset4308
+reset4308.bak
+resetprt
+sample.afp
+sample.pdf
+sanber
+sendfile
+servjobs
+shortpanel
+showptia
+skeleton
+spool-culprit
+spoolchk
+star.afp
+star.ps
+temp
+testspool.ksh
+timex.out
+topcpu
+ankcseprda18[/ipm/south] ls *.txt
+0601b.txt         1201a.txt         2901.txt          6_1_17.txt        queuelist.txt
+0701.txt          1201b.txt         2901b.txt         Ridge.txt         queuelist1.txt
+0701b.txt         2301.txt          3101b.txt         destinations.txt
+10_23_18.txt      2701b.txt         3401.txt          jobid.txt
+ankcseprda18[/ipm/south] tail -f 2901.txt
+/var/pd/cse16suv01/error.log:D 09/17/19 10:45:23 [0xEA02 cse16suv01,2901pa02] 5010-418 The request for job /var/pd/hotfolders/2901pl01/FS-ENF-028_0572001927-01_9c30ed66.pdf (4451642526) returned from the PSF backend with the return code 0.
+/var/pd/cse16suv01/error.log:A 09/17/19 10:45:23 [0xEA02 cse16suv01,2901pa02] 5010-280 Finished processing job /var/pd/hotfolders/2901pl01/FS-ENF-028_0572001927-01_9c30ed66.pdf (4451642526).
+/var/pd/cse16suv01/error.log:D 09/17/19 10:45:23 [0xE60A cse16suv01,2901pa02] 5010-339 Starting the create request for job 11 in server cse16suv01.
+/var/pd/cse16suv01/error.log:A 09/17/19 10:45:23 [0xE70B cse16suv01,2901pa02] 5010-279 Started processing job /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf (4451641973).
+/var/pd/cse16suv01/error.log:A 09/17/19 10:45:23 [0xE60A cse16suv01,2901pa02] 5010-341 Job 11 (cse16suv01:4451641973, /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf) is created.
+/var/pd/cse16suv01/error.log:D 09/17/19 10:45:23 [0xE70B cse16suv01,2901pa02] 5010-417 The result-set of job /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf (4451641973) is submitted to the PSF backend.
+/var/pd/cse16suv01/error.log:D 09/17/19 10:45:25 [0xE80C cse16suv01] 0423-481 Input Manager is processing file /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf with job script /var/pd/cse16suv01/4451641973.1.js.
+/var/pd/cse16suv01/error.log:D 09/17/19 10:45:25 [0xE80C cse16suv01] 0423-483 Input Manager processing for file  /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf is complete.
+/var/pd/cse16suv01/error.log:D 09/17/19 10:46:07 [0xE70B cse16suv01,2901pa02] 5010-418 The request for job /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf (4451641973) returned from the PSF backend with the return code 0.
+/var/pd/cse16suv01/error.log:A 09/17/19 10:46:07 [0xE70B cse16suv01,2901pa02] 5010-280 Finished processing job /var/pd/hotfolders/2901pl01/FS-EST-008_200000001741975_batchuser_ef285754.pdf (4451641973).
+
+
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

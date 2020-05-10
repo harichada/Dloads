@@ -1,0 +1,1835 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 11:33:48 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Nov 19 11:32:28 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd /forms/tomcat8/webapps/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd efs-sya01
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ cd WEB-INF/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ ls
+[0m[01;34mclasses[0m  [01;34mlib[0m  [01;34mlib-provided[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ cd classes/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  [0m[01;34mgov[0m                 [01;34mstatic[0m
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  logback-spring.xml
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ps -ef | grp[Kep tomcat
+tomadmin  1709     1  0 Nov17 ?        00:01:47 /forms/java/jdk1.8.0_181/bin/java -Dnop -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -DLOG_FILE= -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xms512M -Xmx1024M -server -XX:+UseParallelGC -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8 -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/temp org.apache.catalina.startup.Bootstrap start
+hchada    4794  4752  0 11:34 pts/0    00:00:00 grep --color=auto [01;31m[Ktomcat[m[K
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ curl localhost:18080
+curl: (7) Failed connect to localhost:18080; Connection refused
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ netstat -an
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:48000           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:48001           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:41477           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:48007           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:48008           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:48009           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN     
+tcp        0      0 100.95.21.96:22         169.2.108.102:62047     ESTABLISHED
+tcp        0      0 100.95.21.96:41477      100.95.21.96:56994      ESTABLISHED
+tcp        0      0 100.95.21.96:39268      100.95.22.81:6514       ESTABLISHED
+tcp        0     64 100.95.21.96:22         169.2.108.102:64827     ESTABLISHED
+tcp6       0      0 127.0.0.1:37182         :::*                    LISTEN     
+tcp6       0      0 127.0.0.1:8005          :::*                    LISTEN     
+tcp6       0      0 :::18443                :::*                    LISTEN     
+tcp6       0      0 :::42991                :::*                    LISTEN     
+tcp6       0      0 :::4502                 :::*                    LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+tcp6       0      0 ::1:25                  :::*                    LISTEN     
+tcp6       0      0 100.95.21.96:4502       169.2.108.102:17145     TIME_WAIT  
+tcp6      32      0 100.95.21.96:38564      52.200.227.178:443      CLOSE_WAIT 
+tcp6      32      0 100.95.21.96:58488      23.1.245.237:443        CLOSE_WAIT 
+tcp6       0      0 100.95.21.96:4502       169.2.108.102:32288     ESTABLISHED
+tcp6       0      0 100.95.21.96:45696      134.187.144.9:389       ESTABLISHED
+tcp6      32      0 100.95.21.96:39774      184.51.50.49:443        CLOSE_WAIT 
+tcp6       0      0 100.95.21.96:56994      100.95.21.96:41477      ESTABLISHED
+tcp6       1      0 100.95.21.96:55928      100.95.21.96:4502       CLOSE_WAIT 
+tcp6       0      0 100.95.21.96:52592      134.187.144.9:389       ESTABLISHED
+tcp6       0      0 100.95.21.96:45352      184.51.50.49:80         ESTABLISHED
+udp        0      0 0.0.0.0:48000           0.0.0.0:*                          
+udp        0      0 100.95.21.96:123        0.0.0.0:*                          
+udp        0      0 127.0.0.1:123           0.0.0.0:*                          
+udp        0      0 0.0.0.0:123             0.0.0.0:*                          
+udp6       0      0 fe80::250:56ff:feb5:123 :::*                               
+udp6       0      0 ::1:123                 :::*                               
+udp6       0      0 :::123                  :::*                               
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     247348   /tmp/.java_pid15029.tmp
+unix  2      [ ACC ]     STREAM     LISTENING     16141    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     21497    public/pickup
+unix  2      [ ACC ]     STREAM     LISTENING     564      /run/systemd/private
+unix  3      [ ]         DGRAM                    9012     /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     21501    public/cleanup
+unix  2      [ ACC ]     STREAM     LISTENING     21504    public/qmgr
+unix  2      [ ]         DGRAM                    9014     /run/systemd/cgroups-agent
+unix  2      [ ACC ]     STREAM     LISTENING     24580    private/tlsmgr
+unix  2      [ ACC ]     STREAM     LISTENING     24583    private/rewrite
+unix  2      [ ACC ]     STREAM     LISTENING     24586    private/bounce
+unix  2      [ ACC ]     STREAM     LISTENING     24589    private/defer
+unix  2      [ ACC ]     STREAM     LISTENING     24592    private/trace
+unix  2      [ ACC ]     STREAM     LISTENING     24595    private/verify
+unix  2      [ ACC ]     STREAM     LISTENING     24598    public/flush
+unix  2      [ ACC ]     STREAM     LISTENING     24601    private/proxymap
+unix  2      [ ACC ]     STREAM     LISTENING     24604    private/proxywrite
+unix  2      [ ACC ]     STREAM     LISTENING     9022     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     24607    private/smtp
+unix  2      [ ACC ]     STREAM     LISTENING     24610    private/relay
+unix  5      [ ]         DGRAM                    9025     /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     24613    public/showq
+unix  2      [ ACC ]     STREAM     LISTENING     24616    private/error
+unix  2      [ ACC ]     SEQPACKET  LISTENING     11843    /run/udev/control
+unix  14     [ ]         DGRAM                    9027     /dev/log
+unix  2      [ ACC ]     STREAM     LISTENING     24619    private/retry
+unix  2      [ ACC ]     STREAM     LISTENING     24622    private/discard
+unix  2      [ ACC ]     STREAM     LISTENING     24625    private/local
+unix  2      [ ACC ]     STREAM     LISTENING     24628    private/virtual
+unix  2      [ ACC ]     STREAM     LISTENING     24631    private/lmtp
+unix  2      [ ACC ]     STREAM     LISTENING     24634    private/anvil
+unix  2      [ ACC ]     STREAM     LISTENING     24637    private/scache
+unix  2      [ ACC ]     STREAM     LISTENING     621      /run/lvm/lvmpolld.socket
+unix  2      [ ]         DGRAM                    631      /run/systemd/shutdownd
+unix  2      [ ACC ]     STREAM     LISTENING     646      /run/lvm/lvmetad.socket
+unix  2      [ ]         DGRAM                    21464    
+unix  2      [ ]         DGRAM                    666      
+unix  3      [ ]         STREAM     CONNECTED     20487    
+unix  3      [ ]         STREAM     CONNECTED     18843    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    24649    
+unix  2      [ ]         STREAM     CONNECTED     23200    
+unix  2      [ ]         DGRAM                    16383    
+unix  3      [ ]         STREAM     CONNECTED     21495    
+unix  3      [ ]         STREAM     CONNECTED     21499    
+unix  3      [ ]         STREAM     CONNECTED     17918    /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     24796    
+unix  3      [ ]         STREAM     CONNECTED     20488    
+unix  2      [ ]         DGRAM                    11894    
+unix  3      [ ]         STREAM     CONNECTED     18842    
+unix  2      [ ]         DGRAM                    19825    
+unix  3      [ ]         STREAM     CONNECTED     21496    
+unix  2      [ ]         DGRAM                    537990   
+unix  3      [ ]         STREAM     CONNECTED     19394    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    19822    
+unix  3      [ ]         STREAM     CONNECTED     537994   
+unix  2      [ ]         STREAM     CONNECTED     252188   
+unix  3      [ ]         STREAM     CONNECTED     21498    
+unix  3      [ ]         STREAM     CONNECTED     19726    
+unix  3      [ ]         STREAM     CONNECTED     18835    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    515776   
+unix  3      [ ]         STREAM     CONNECTED     19797    
+unix  3      [ ]         STREAM     CONNECTED     537993   
+unix  3      [ ]         STREAM     CONNECTED     19393    
+unix  3      [ ]         STREAM     CONNECTED     24609    
+unix  3      [ ]         STREAM     CONNECTED     24633    
+unix  3      [ ]         STREAM     CONNECTED     24632    
+unix  3      [ ]         DGRAM                    13323    
+unix  3      [ ]         STREAM     CONNECTED     19655    
+unix  3      [ ]         STREAM     CONNECTED     24608    
+unix  3      [ ]         STREAM     CONNECTED     21503    
+unix  3      [ ]         STREAM     CONNECTED     24630    
+unix  2      [ ]         DGRAM                    20574    
+unix  3      [ ]         STREAM     CONNECTED     24614    
+unix  3      [ ]         STREAM     CONNECTED     24636    
+unix  3      [ ]         STREAM     CONNECTED     19666    
+unix  3      [ ]         STREAM     CONNECTED     24611    
+unix  3      [ ]         STREAM     CONNECTED     24635    
+unix  3      [ ]         STREAM     CONNECTED     21502    
+unix  3      [ ]         STREAM     CONNECTED     24612    
+unix  3      [ ]         STREAM     CONNECTED     13258    /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     252191   
+unix  3      [ ]         STREAM     CONNECTED     18155    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     24582    
+unix  2      [ ]         DGRAM                    19203    
+unix  3      [ ]         STREAM     CONNECTED     24602    
+unix  3      [ ]         STREAM     CONNECTED     16372    
+unix  3      [ ]         STREAM     CONNECTED     11029    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24599    
+unix  3      [ ]         STREAM     CONNECTED     20040    
+unix  3      [ ]         STREAM     CONNECTED     24639    
+unix  3      [ ]         STREAM     CONNECTED     24600    
+unix  3      [ ]         STREAM     CONNECTED     24638    
+unix  3      [ ]         STREAM     CONNECTED     19848    
+unix  3      [ ]         STREAM     CONNECTED     24605    
+unix  3      [ ]         STREAM     CONNECTED     18702    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13311    
+unix  3      [ ]         STREAM     CONNECTED     24606    
+unix  3      [ ]         DGRAM                    13324    
+unix  3      [ ]         STREAM     CONNECTED     24603    
+unix  3      [ ]         STREAM     CONNECTED     10962    
+unix  3      [ ]         STREAM     CONNECTED     16373    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11038    
+unix  2      [ ]         DGRAM                    19656    
+unix  3      [ ]         STREAM     CONNECTED     534240   
+unix  3      [ ]         STREAM     CONNECTED     17839    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20309    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24577    
+unix  3      [ ]         STREAM     CONNECTED     18413    
+unix  3      [ ]         STREAM     CONNECTED     20490    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    17315    
+unix  3      [ ]         STREAM     CONNECTED     17317    
+unix  3      [ ]         STREAM     CONNECTED     17316    
+unix  3      [ ]         STREAM     CONNECTED     24578    
+unix  2      [ ]         DGRAM                    534237   
+unix  3      [ ]         STREAM     CONNECTED     534241   
+unix  3      [ ]         STREAM     CONNECTED     19515    
+unix  3      [ ]         STREAM     CONNECTED     24581    
+unix  3      [ ]         STREAM     CONNECTED     24617    
+unix  3      [ ]         STREAM     CONNECTED     16318    
+unix  3      [ ]         STREAM     CONNECTED     24596    
+unix  3      [ ]         STREAM     CONNECTED     24597    
+unix  3      [ ]         STREAM     CONNECTED     19023    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     24615    
+unix  3      [ ]         STREAM     CONNECTED     24621    
+unix  3      [ ]         STREAM     CONNECTED     24591    
+unix  3      [ ]         STREAM     CONNECTED     17894    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24620    
+unix  3      [ ]         STREAM     CONNECTED     24593    
+unix  3      [ ]         STREAM     CONNECTED     24618    
+unix  3      [ ]         STREAM     CONNECTED     24594    
+unix  3      [ ]         STREAM     CONNECTED     24587    
+unix  3      [ ]         STREAM     CONNECTED     24624    
+unix  3      [ ]         STREAM     CONNECTED     24588    
+unix  3      [ ]         STREAM     CONNECTED     24623    
+unix  3      [ ]         STREAM     CONNECTED     17893    
+unix  3      [ ]         STREAM     CONNECTED     24590    
+unix  3      [ ]         STREAM     CONNECTED     20367    
+unix  3      [ ]         STREAM     CONNECTED     20489    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     24629    
+unix  3      [ ]         STREAM     CONNECTED     24584    
+unix  3      [ ]         STREAM     CONNECTED     24627    
+unix  3      [ ]         STREAM     CONNECTED     24585    
+unix  3      [ ]         STREAM     CONNECTED     18414    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24626    
+unix  2      [ ]         DGRAM                    20607    
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ netstat -an | grep 8080
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ps -ef | grep tomcat
+tomadmin  1709     1  0 Nov17 ?        00:01:47 /forms/java/jdk1.8.0_181/bin/java -Dnop -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -DLOG_FILE= -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xms512M -Xmx1024M -server -XX:+UseParallelGC -Dignore.endorsed.dirs= -classpath /forms/[01;31m[Ktomcat[m[K8/bin/bootstrap.jar:/forms/[01;31m[Ktomcat[m[K8/bin/[01;31m[Ktomcat[m[K-juli.jar -Dcatalina.base=/forms/[01;31m[Ktomcat[m[K8 -Dcatalina.home=/forms/[01;31m[Ktomcat[m[K8 -Djava.io.tmpdir=/forms/[01;31m[Ktomcat[m[K8/temp org.apache.catalina.startup.Bootstrap start
+hchada    4890  4752  0 11:35 pts/0    00:00:00 grep --color=auto [01;31m[Ktomcat[m[K
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd ../conf
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ ls
+[0m[01;34mCatalina[0m         [01;32mcatalina.properties[0m  [01;32mjaspic-providers.xml[0m  [01;32mserver.xml[0m      [01;32mtomcat-users.xml[0m  [01;32mweb.xml[0m
+[01;32mcatalina.policy[0m  [01;32mcontext.xml[0m          [01;32mjaspic-providers.xsd[0m  [01;32mserver.xml.bak[0m  [01;32mtomcat-users.xsd[0m  [01;32mweb.xml.bak[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ g[Kcat [K[K[K[Kmore server.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- Note:  A "Server" is not itself a "Container", so you may not
+     define subcomponents such as "Valves" at this level.
+     Documentation at /docs/config/server.html
+ -->
+<Server port="8005" shutdown="abcd">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <!-- Global JNDI resources
+       Documentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by
+         UserDatabaseRealm to authenticate users
+    -->
+    <Resource name="UserDatabase" auth="Container"
+              type="org.apache.catalina.UserDatabase"
+              description="User database that can be updated and saved"
+              factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+              pathname="conf/tomcat-users.xml" />
+ <Environment name="active.env" value="sya" type="java.lang.String" override="false"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share
+       a single "Container" Note:  A "Service" is not itself a "Container",
+       so you may not define subcomponents such as "Valves" at this level.
+       Documentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">
+
+[7m--More--(34%)[27m    <!--The connectors can use a shared executor, you can define one or more named thread pools-->
+    <!--
+    <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
+        maxThreads="150" minSpareThreads="4"/>
+    -->
+
+
+    <!-- A "Connector" represents an endpoint by which requests are received
+         and responses are returned. Documentation at :
+         Java HTTP Connector: /docs/config/http.html
+         Java AJP  Connector: /docs/config/ajp.html
+         APR (HTTP/AJP) Connector: /docs/apr.html
+         Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
+    -->
+    <Connector port="18080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="18443" 
+		/>
+    <!-- A "Connector" using the shared thread pool-->
+    <!--
+    <Connector executor="tomcatThreadPool"
+               port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+    -->
+    <!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443
+         This connector uses the NIO implementation. The default
+         SSLImplementation will depend on the presence of the APR/native
+         library and the useOpenSSL attribute of the
+         AprLifecycleListener.
+         Either JSSE or OpenSSL style configuration may be used regardless of
+         the SSLImplementation selected. JSSE style configuration is used below.
+    -->
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxThreads="150" SSLEnabled="true">
+        <SSLHostConfig>
+            <Certificate certificateKeystoreFile="conf/localhost-rsa.jks"
+                         type="RSA" />
+        </SSLHostConfig>
+    </Connector>
+    -->
+	<Connector SSLEnabled="true" acceptCount="100" clientAuth="false" disableUploadTimeout="true" enableLookups="false" maxThreads="25" port="18443" keystoreFile="/forms/tomcat8
+/ssl/efsapp.p12" keyAlias="tomcat"  keystorePass="changeit" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />
+
+    <!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443 with HTTP/2
+         This connector uses the APR/native implementation which always uses
+         OpenSSL for TLS.
+         Either JSSE or OpenSSL style configuration may be used. OpenSSL style
+         configuration is used below.
+    -->
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11AprProtocol"
+               maxThreads="150" SSLEnabled="true" >
+        <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
+[7m--More--(66%)[27m[K]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ netsat [K[K[Ktat -an | grep 18080
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ netstat -an | grep 18080[K[K[K442[K3
+tcp6       0      0 :::[01;31m[K18443[m[K                :::*                    LISTEN     
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ netstat -an | grep 18443080[9Pmore server.xmlls[Kcd ../confps -ef | grep tomcatls[Knetstat -an | grep 8080[K[K[K[K18443[Kcurl localhost:18080ps -ef | grep tomcatcurl localhost:18080[K[K[K443
+Bad Request
+This combination of host and port requires TLS.
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ f[Kse[K[Ksystemctl [K[K[K[K[K[K[K[K[K[Ksudo systemctl restart tomcat
+[sudo] password for hchada: 
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ sudo systemctl restart tomcat[9Pcurl localhost:18443netstat -an | grep 18443080
+tcp6       0      0 :::[01;31m[K18080[m[K                :::*                    LISTEN     
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ curl localhost:8080[K[K[K[K18080
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Apache Tomcat/8.5.32</title>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="tomcat.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="curved container">
+                <span id="nav-home"><a href="http://tomcat.apache.org/">Home</a></span>
+                <span id="nav-hosts"><a href="/docs/">Documentation</a></span>
+                <span id="nav-config"><a href="/docs/config/">Configuration</a></span>
+                <span id="nav-examples"><a href="/examples/">Examples</a></span>
+                <span id="nav-wiki"><a href="http://wiki.apache.org/tomcat/FrontPage">Wiki</a></span>
+                <span id="nav-lists"><a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></span>
+                <span id="nav-help"><a href="http://tomcat.apache.org/findhelp.html">Find Help</a></span>
+                <br class="separator" />
+            </div>
+            <div id="asf-box">
+                <h1>Apache Tomcat/8.5.32</h1>
+            </div>
+            <div id="upper" class="curved container">
+                <div id="congrats" class="curved container">
+                    <h2>If you're seeing this, you've successfully installed Tomcat. Congratulations!</h2>
+                </div>
+                <div id="notice">
+                    <img src="tomcat.png" alt="[tomcat logo]" />
+                    <div id="tasks">
+                        <h3>Recommended Reading:</h3>
+                        <h4><a href="/docs/security-howto.html">Security Considerations HOW-TO</a></h4>
+                        <h4><a href="/docs/manager-howto.html">Manager Application HOW-TO</a></h4>
+                        <h4><a href="/docs/cluster-howto.html">Clustering/Session Replication HOW-TO</a></h4>
+                    </div>
+                </div>
+                <div id="actions">
+                    <div class="button">
+                        <a class="container shadow" href="/manager/status"><span>Server Status</span></a>
+                    </div>
+                    <div class="button">
+                        <a class="container shadow" href="/manager/html"><span>Manager App</span></a>
+                    </div>
+                    <div class="button">
+                        <a class="container shadow" href="/host-manager/html"><span>Host Manager</span></a>
+                    </div>
+                </div>
+                <!--
+                <br class="separator" />
+                -->
+                <br class="separator" />
+            </div>
+            <div id="middle" class="curved container">
+                <h3>Developer Quick Start</h3>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/docs/setup.html">Tomcat Setup</a></p>
+                        <p><a href="/docs/appdev/">First Web Application</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/docs/realm-howto.html">Realms &amp; AAA</a></p>
+                        <p><a href="/docs/jndi-datasource-examples-howto.html">JDBC DataSources</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="/examples/">Examples</a></p>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="container">
+                        <p><a href="http://wiki.apache.org/tomcat/Specifications">Servlet Specifications</a></p>
+                        <p><a href="http://wiki.apache.org/tomcat/TomcatVersions">Tomcat Versions</a></p>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <div id="lower">
+                <div id="low-manage" class="">
+                    <div class="curved container">
+                        <h3>Managing Tomcat</h3>
+                        <p>For security, access to the <a href="/manager/html">manager webapp</a> is restricted.
+                        Users are defined in:</p>
+                        <pre>$CATALINA_HOME/conf/tomcat-users.xml</pre>
+                        <p>In Tomcat 8.5 access to the manager application is split between
+                           different users. &nbsp; <a href="/docs/manager-howto.html">Read more...</a></p>
+                        <br />
+                        <h4><a href="/docs/RELEASE-NOTES.txt">Release Notes</a></h4>
+                        <h4><a href="/docs/changelog.html">Changelog</a></h4>
+                        <h4><a href="http://tomcat.apache.org/migration.html">Migration Guide</a></h4>
+                        <h4><a href="http://tomcat.apache.org/security.html">Security Notices</a></h4>
+                    </div>
+                </div>
+                <div id="low-docs" class="">
+                    <div class="curved container">
+                        <h3>Documentation</h3>
+                        <h4><a href="/docs/">Tomcat 8.5 Documentation</a></h4>
+                        <h4><a href="/docs/config/">Tomcat 8.5 Configuration</a></h4>
+                        <h4><a href="http://wiki.apache.org/tomcat/FrontPage">Tomcat Wiki</a></h4>
+                        <p>Find additional important configuration information in:</p>
+                        <pre>$CATALINA_HOME/RUNNING.txt</pre>
+                        <p>Developers may be interested in:</p>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/bugreport.html">Tomcat 8.5 Bug Database</a></li>
+                            <li><a href="/docs/api/index.html">Tomcat 8.5 JavaDocs</a></li>
+                            <li><a href="http://svn.apache.org/repos/asf/tomcat/tc8.5.x/">Tomcat 8.5 SVN Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="low-help" class="">
+                    <div class="curved container">
+                        <h3>Getting Help</h3>
+                        <h4><a href="http://tomcat.apache.org/faq/">FAQ</a> and <a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></h4>
+                        <p>The following mailing lists are available:</p>
+                        <ul>
+                            <li id="list-announce"><strong><a href="http://tomcat.apache.org/lists.html#tomcat-announce">tomcat-announce</a><br />
+                                Important announcements, releases, security vulnerability notifications. (Low volume).</strong>
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#tomcat-users">tomcat-users</a><br />
+                                User support and discussion
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#taglibs-user">taglibs-user</a><br />
+                                User support and discussion for <a href="http://tomcat.apache.org/taglibs/">Apache Taglibs</a>
+                            </li>
+                            <li><a href="http://tomcat.apache.org/lists.html#tomcat-dev">tomcat-dev</a><br />
+                                Development mailing list, including commit messages
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <div id="footer" class="curved container">
+                <div class="col20">
+                    <div class="container">
+                        <h4>Other Downloads</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/download-connectors.cgi">Tomcat Connectors</a></li>
+                            <li><a href="http://tomcat.apache.org/download-native.cgi">Tomcat Native</a></li>
+                            <li><a href="http://tomcat.apache.org/taglibs/">Taglibs</a></li>
+                            <li><a href="/docs/deployer-howto.html">Deployer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Other Documentation</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/connectors-doc/">Tomcat Connectors</a></li>
+                            <li><a href="http://tomcat.apache.org/connectors-doc/">mod_jk Documentation</a></li>
+                            <li><a href="http://tomcat.apache.org/native-doc/">Tomcat Native</a></li>
+                            <li><a href="/docs/deployer-howto.html">Deployer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Get Involved</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/getinvolved.html">Overview</a></li>
+                            <li><a href="http://tomcat.apache.org/svn.html">SVN Repositories</a></li>
+                            <li><a href="http://tomcat.apache.org/lists.html">Mailing Lists</a></li>
+                            <li><a href="http://wiki.apache.org/tomcat/FrontPage">Wiki</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Miscellaneous</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/contact.html">Contact</a></li>
+                            <li><a href="http://tomcat.apache.org/legal.html">Legal</a></li>
+                            <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                            <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="container">
+                        <h4>Apache Software Foundation</h4>
+                        <ul>
+                            <li><a href="http://tomcat.apache.org/whoweare.html">Who We Are</a></li>
+                            <li><a href="http://tomcat.apache.org/heritage.html">Heritage</a></li>
+                            <li><a href="http://www.apache.org">Apache Home</a></li>
+                            <li><a href="http://tomcat.apache.org/resources.html">Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <br class="separator" />
+            </div>
+            <p class="copyright">Copyright &copy;1999-2019 Apache Software Foundation.  All Rights Reserved</p>
+        </div>
+    </body>
+
+</html>
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ cd ..w/e
+-bash: cd: ..w/e: No such file or directory
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ cd ../webapps/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd efs-sya01[K[K[K[K[K[K[K[K[K[K[K[Kls -lagrt
+total 36712
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9  2019 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9  2019 [01;34mhost-manager[0m
+-rw-r--r--.  1 tomadmin 37549262 Oct 21 11:14 [01;31mefs-sya01.war[0m
+drwxrwxr-x. 10 tomadmin     4096 Oct 21 11:15 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Oct 21 11:15 [01;34mefs-sya01[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd efssy
+-bash: cd: efssy: No such file or directory
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd efs-sya01
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ g[Kfind . -name getFormDefinitions.xml
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ cd WEB-INF/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ ls
+[0m[01;34mclasses[0m  [01;34mlib[0m  [01;34mlib-provided[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ cd classes/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ ls
+application-dev.properties    application-perf.properties  application.properties      application-sya.properties  [0m[01;34mgov[0m                 [01;34mstatic[0m
+application-local.properties  application-prod.properties  application-sqt.properties  application-syt.properties  logback-spring.xml
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ cd gov/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes/gov[hchada@CGDCSSL1047UL gov]$ ls
+[0m[01;34mca[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes/gov[hchada@CGDCSSL1047UL gov]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF/classes[hchada@CGDCSSL1047UL classes]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01/WEB-INF[hchada@CGDCSSL1047UL WEB-INF]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ ls
+[0m[01;34mMETA-INF[0m  [01;34morg[0m  [01;34mWEB-INF[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ find . -name *.xml
+./WEB-INF/classes/logback-spring.xml
+./WEB-INF/classes/static/FormDefinitions.xml
+./WEB-INF/classes/static/FormSetDefinitions.xml
+./META-INF/maven/gov.ca/efs/pom.xml
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ [K[hchada@CGDCSSL1047UL efs-sya01]$ [K[hchada@CGDCSSL1047UL efs-sya01]$ ls
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps/efs-sya01[hchada@CGDCSSL1047UL efs-sya01]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd ../conf
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ ls
+[0m[01;34mCatalina[0m         [01;32mcatalina.properties[0m  [01;32mjaspic-providers.xml[0m  [01;32mserver.xml[0m      [01;32mtomcat-users.xml[0m  [01;32mweb.xml[0m
+[01;32mcatalina.policy[0m  [01;32mcontext.xml[0m          [01;32mjaspic-providers.xsd[0m  [01;32mserver.xml.bak[0m  [01;32mtomcat-users.xsd[0m  [01;32mweb.xml.bak[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ cat context.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
+
+    <!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.                                   -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+<ResourceLink name="efsActiveEnv" global="active.env" type="java.lang.String"/> 
+</Context>
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ vi web.xml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"web.xml" 4706L, 169607C[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at[10;7Hhttp://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee[21;23Hhttp://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1">
+
+  <!-- ======================== Introduction ============================== -->
+  <!-- This document defines default values for *all* web applications      -->
+  <!-- loaded into this instance of Tomcat.  As each application is[9C-->
+  <!-- deployed, this file is processed, followed by the[20C-->
+  <!-- "/WEB-INF/web.xml" deployment descriptor from your own[15C-->
+  <!-- applications.[56C-->
+  <!--[70C-->
+  <!-- WARNING:  Do not configure application-specific resources here!      -->
+  <!-- They should go in the "/WEB-INF/web.xml" file in your application.   -->[35;3H<!-- ================== Built In Servlet Definitions ==================== -->[38;3H<!-- The default servlet for all web applications, that serves static     -->
+  <!-- resources.  It processes all requests that are not mapped to other   -->
+  <!-- servlets with servlet mappings (defined either here or in your own   -->
+  <!-- web.xml file).  This servlet supports the following initialization   -->
+  <!-- parameters (default values are in square brackets):[18C-->
+  <!--[70C-->
+  <!--   debug[15CDebugging detail level for messages logged     -->
+  <!--[23Cby this servlet. Useful values are 0, 1, and   -->
+  <!--[23C11 where higher values mean more detail. [0]   -->
+  <!--[70C-->
+  <!--   fileEncoding[8CEncoding to be used to read static resources   -->
+  <!--[23C[platform default][29C-->
+  <!--[70C-->
+  <!--   input[15CInput buffer size (in bytes) when reading      -->
+  <!--[23Cresources to be served.  [2048][16C-->
+  <!--[70C-->
+  <!--   listings[12CShould directory listings be produced if there -->
+  <!--[23Cis no welcome file in this directory?  [false] -->[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;3H<!--   listings[12CShould directory listings be produced if there -->
+  <!--[23Cis no welcome file in this directory?  [false] -->
+  <!--[23CWARNING: Listings for directories with many    -->
+  <!--[23Centries can be slow and may consume[12C-->
+  <!--[23Csignificant proportions of server resources.   -->
+  <!--[70C-->
+  <!--   output[14COutput buffer size (in bytes) when writing     -->
+  <!--[23Cresources to be served.  [2048][16C-->
+  <!--[70C-->
+  <!--   readonly[12CIs this context "read only", so HTTP[11C-->
+  <!--[23Ccommands like PUT and DELETE are[15C-->
+  <!--[23Crejected?  [true][30C-->
+  <!--[70C-->
+  <!--   readmeFile[10CFile to display together with the directory    -->
+  <!--[23Ccontents. [null][31C-->
+  <!--[70C-->
+  <!--   sendfileSize[8CIf the connector used supports sendfile, this  -->
+  <!--[23Crepresents the minimal file size in KB for     -->
+  <!--[23Cwhich sendfile will be used. Use a negative    -->
+  <!--[23Cvalue to always disable sendfile.  [48][8C-->
+  <!--[70C-->
+  <!--   useAcceptRanges     Should the Accept-Ranges header be included    -->
+  <!--[23Cin responses where appropriate? [true][9C-->
+  <!--[70C-->
+  <!--  For directory listing customization. Checks localXsltFile, then     -->
+  <!--  globalXsltFile, then defaults to original behavior.[17C-->
+  <!--[70C-->
+  <!--   localXsltFile[7CMake directory listings an XML doc and[9C-->
+  <!--[23Cpass the result to this style sheet residing   -->
+  <!--[23Cin that directory. This overrides[14C-->
+  <!--[23CcontextXsltFile and globalXsltFile[null][7C-->
+  <!--[70C-->
+  <!--   contextXsltFile     Make directory listings an XML doc and[9C-->
+  <!--[23Cpass the result to this style sheet which is   -->
+  <!--[23Crelative to the context root. This overrides   -->
+  <!--[23CglobalXsltFile[null][27C-->
+  <!--[70C-->
+  <!--   globalXsltFile      Site wide configuration version of[13C-->
+  <!--[23ClocalXsltFile. This argument must either be an -->
+  <!--[23Cabsolute or relative (to either[16C-->
+  <!--[23C$CATALINA_BASE/conf or $CATALINA_HOME/conf)    -->
+  <!--[23Cpath that points to a location below either    -->
+  <!--[23C$CATALINA_BASE/conf (checked first) or[9C-->
+  <!--[23C$CATALINA_HOME/conf (checked second).[null]    -->
+  <!--[70C-->
+  <!--   showServerInfo      Should server information be presented in the  -->
+  <!--[23Cresponse sent to clients when directory[8C-->
+  <!--[23Clistings is enabled? [true][20C-->[50;5H<servlet>[51;9H<servlet-name>default</servlet-name>[52;9H<servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>[53;9H<init-param>[54;13H<param-name>debug</param-name>[55;13H<param-value>0</param-value>[1;3H[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;3H<!--[70C-->  [?12l[?25h[?25l[56;1H[1m-- INSERT --[1;55r[m[1;1H[L[1;56r[1;1Hw[?12l[?25h[?25l[27m[m[H[2J[1;9H<servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>[2;9H<init-param>[3;13H<param-name>debug</param-name>[4;13H<param-value>0</param-value>[5;9H</init-param>[6;9H<init-param>[7;13H<param-name>listings</param-name>[8;13H<param-value>false</param-value>[9;9H</init-param>[10;9H<load-on-startup>1</load-on-startup>
+    </servlet>[14;3H<!-- The JSP page compiler and execution servlet, which is the mechanism  -->
+  <!-- used by Tomcat to support JSP pages.  Traditionally, this servlet    -->
+  <!-- is mapped to the URL pattern "*.jsp".  This servlet supports the     -->
+  <!-- following initialization parameters (default values are in square    -->
+  <!-- brackets):[59C-->
+  <!--[70C-->
+  <!--   checkInterval[7CIf development is false and checkInterval is   -->
+  <!--[23Cgreater than zero, background compilations are -->
+  <!--[23Cenabled. checkInterval is the time in seconds  -->
+  <!--[23Cbetween checks to see if a JSP page (and its   -->
+  <!--[23Cdependent files) needs to  be recompiled. [0]  -->
+  <!--[70C-->
+  <!--   classdebuginfo      Should the class file be compiled with[9C-->
+  <!--[23Cdebugging information?  [true][17C-->
+  <!--[70C-->
+  <!--   classpath[11CWhat class path should I use while compiling   -->
+  <!--[23Cgenerated servlets?  [Created dynamically      -->
+  <!--[23Cbased on the current web application][10C-->
+  <!--[70C-->
+  <!--   compiler[12CWhich compiler Ant should use to compile JSP   -->
+  <!--[23Cpages.  See the jasper documentation for more  -->
+  <!--[23Cinformation.[35C-->
+  <!--[70C-->
+  <!--   compilerSourceVM    Compiler source VM. [1.7][22C-->
+  <!--[70C-->
+  <!--   compilerTargetVM    Compiler target VM. [1.7][22C-->
+  <!--[70C-->
+  <!--   development[9CIs Jasper used in development mode? If true,   -->
+  <!--[23Cthe frequency at which JSPs are checked for    -->
+  <!--[23Cmodification may be specified via the[10C-->
+  <!--[23CmodificationTestInterval parameter. [true]     -->
+  <!--[70C-->
+  <!--   displaySourceFragment[46C-->
+  <!--[23CShould a source fragment be included in[8C-->
+  <!--[23Cexception messages? [true][21C-->
+  <!--[70C-->
+  <!--   dumpSmap[12CShould the SMAP info for JSR45 debugging be    -->
+  <!--[23Cdumped to a file? [false][22C-->
+  <!--[23CFalse if suppressSmap is true[18C-->
+  <!--[70C-->
+  <!--   enablePooling[7CDetermines whether tag handler pooling is      -->
+  <!--[23Cenabled. This is a compilation option. It will -->
+[1m-- INSERT --[1;9H[?12l[?25h[?25l[27m[m[H[2J[1;3H<!--   enablePooling[7CDetermines whether tag handler pooling is      -->
+  <!--[23Cenabled. This is a compilation option. It will -->
+  <!--[23Cnot alter the behaviour of JSPs that have      -->
+  <!--[23Calready been compiled. [true][18C-->
+  <!--[70C-->
+  <!--   engineOptionsClass  Allows specifying the Options class used to    -->
+  <!--[23Cconfigure Jasper. If not present, the default  -->
+  <!--[23CEmbeddedServletOptions will be used.[11C-->
+  <!--[23CThis option is ignored when running under a    -->
+  <!--[23CSecurityManager.[31C-->
+  <!--[70C-->
+  <!--   errorOnUseBeanInvalidClassAttribute[32C-->
+  <!--[23CShould Jasper issue an error when the value of -->
+  <!--[23Cthe class attribute in an useBean action is    -->
+  <!--[23Cnot a valid bean class?  [true][16C-->
+  <!--[70C-->
+  <!--   fork[16CTell Ant to fork compiles of JSP pages so that -->
+  <!--[23Ca separate JVM is used for JSP page compiles   -->
+  <!--[23Cfrom the one Tomcat is running in. [true]      -->
+  <!--[70C-->
+  <!--   genStringAsCharArray[47C-->
+  <!--[23CShould text strings be generated as char[7C-->
+  <!--[23Carrays, to improve performance in some cases?  -->
+  <!--[23C[false][40C-->
+  <!--[70C-->
+  <!--   ieClassId[11CThe class-id value to be sent to Internet      -->
+  <!--[23CExplorer when using <jsp:plugin> tags.[9C-->
+  <!--[23C[clsid:8AD9C840-044E-11D1-B3E9-00805F499D93]   -->
+  <!--[70C-->
+  <!--   javaEncoding[8CJava file encoding to use for generating java  -->
+  <!--[23Csource files. [UTF8][27C-->
+  <!--[70C-->
+  <!--   keepgenerated[7CShould we keep the generated Java source code  -->
+  <!--[23Cfor each page instead of deleting it? [true]   -->
+  <!--[70C-->
+  <!--   mappedfile[10CShould we generate static content with one     -->
+  <!--[23Cprint statement per input line, to ease[8C-->
+  <!--[23Cdebugging?  [true][29C-->
+  <!--[70C-->
+  <!--   maxLoadedJsps[7CThe maximum number of JSPs that will be loaded -->
+  <!--[23Cfor a web application. If more than this[7C-->
+  <!--[23Cnumber of JSPs are loaded, the least recently  -->
+  <!--[23Cused JSPs will be unloaded so that the number  -->
+  <!--[23Cof JSPs loaded at any one time does not exceed -->
+  <!--[23Cthis limit. A value of zero or less indicates  -->
+  <!--[23Cno limit. [-1][33C-->
+  <!--[70C-->
+  <!--   jspIdleTimeout      The amount of time in seconds a JSP can be     -->
+  <!--[23Cidle before it is unloaded. A value of zero    -->
+  <!--[23Cor less indicates never unload. [-1][11C-->
+  <!--[70C-->
+  <!--   modificationTestInterval[43C-->
+  <!--[23CCauses a JSP (and its dependent files) to not  -->
+  <!--[23Cbe checked for modification during the[9C-->
+  <!--[23Cspecified time interval (in seconds) from the  -->
+[1m-- INSERT --[1;3H[?12l[?25h[?25l[27m[m[H[2J[1;3H<!--[23Cbe checked for modification during the[9C-->
+  <!--[23Cspecified time interval (in seconds) from the  -->
+  <!--[23Clast time the JSP was checked for[14C-->
+  <!--[23Cmodification. A value of 0 will cause the JSP  -->
+  <!--[23Cto be checked on every access.[17C-->
+  <!--[23CUsed in development mode only. [4][13C-->
+  <!--[70C-->
+  <!--   recompileOnFail     If a JSP compilation fails should the[10C-->
+  <!--[23CmodificationTestInterval be ignored and the    -->
+  <!--[23Cnext access trigger a re-compilation attempt?  -->
+  <!--[23CUsed in development mode only and is disabled  -->
+  <!--[23Cby default as compilation may be expensive and -->
+  <!--[23Ccould lead to excessive resource usage.[8C-->
+  <!--[23C[false][40C-->
+  <!--[70C-->
+  <!--   scratchdir[10CWhat scratch directory should we use when      -->
+  <!--[23Ccompiling JSP pages?  [default work directory  -->
+  <!--[23Cfor the current web application][15C-->
+  <!--[23CThis option is ignored when running under a    -->
+  <!--[23CSecurityManager.[31C-->
+  <!--[70C-->
+  <!--   suppressSmap[8CShould the generation of SMAP info for JSR45   -->
+  <!--[23Cdebugging be suppressed?  [false][14C-->
+  <!--[70C-->
+  <!--   trimSpaces[10CShould template text that consists entirely of -->
+  <!--[23Cwhitespace be removed from the output? [false] -->
+  <!--[70C-->
+  <!--   xpoweredBy[10CDetermines whether X-Powered-By response[7C-->
+  <!--[23Cheader is added by generated servlet.  [false] -->
+  <!--[70C-->
+  <!--   strictQuoteEscaping When scriptlet expressions are used for[8C-->
+  <!--[23Cattribute values, should the rules in JSP.1.6  -->
+  <!--[23Cfor the escaping of quote characters be[8C-->
+  <!--[23Cstrictly applied? [true][23C-->
+  <!--[70C-->
+  <!--   quoteAttributeEL    When EL is used in an attribute value on a     -->
+  <!--[23CJSP page should the rules for quoting of[7C-->
+  <!--[23Cattributes described in JSP.1.6 be applied to  -->
+  <!--[23Cthe expression? [true][25C-->[41;5H<servlet>[42;9H<servlet-name>jsp</servlet-name>[43;9H<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>[44;9H<init-param>[45;13H<param-name>fork</param-name>[46;13H<param-value>false</param-value>[47;9H</init-param>[48;9H<init-param>[49;13H<param-name>xpoweredBy</param-name>[50;13H<param-value>false</param-value>[51;9H</init-param>[52;9H<load-on-startup>3</load-on-startup>
+    </servlet>
+
+
+[1m-- INSERT --[1;3H[?12l[?25h[?25l[27m[m[H[2J[3;3H<!-- NOTE: An SSI Filter is also available as an alternative SSI[10C-->
+  <!-- implementation. Use either the Servlet or the Filter but NOT both.   -->
+  <!--[70C-->
+  <!-- Server Side Includes processing servlet, which processes SSI[9C-->
+  <!-- directives in HTML pages consistent with similar support in web      -->
+  <!-- servers like Apache.  Traditionally, this servlet is mapped to the   -->
+  <!-- URL pattern "*.shtml".  This servlet supports the following[10C-->
+  <!-- initialization parameters (default values are in square brackets):   -->
+  <!--[70C-->
+  <!--   buffered[12CShould output from this servlet be buffered?   -->
+  <!--[23C(0=false, 1=true)  [0][25C-->
+  <!--[70C-->
+  <!--   debug[15CDebugging detail level for messages logged     -->
+  <!--[23Cby this servlet.  [0][26C-->
+  <!--[70C-->
+  <!--   expires[13CThe number of seconds before a page with SSI   -->
+  <!--[23Cdirectives will expire.  [No default][10C-->
+  <!--[70C-->
+  <!--   isVirtualWebappRelative[44C-->
+  <!--[23CShould "virtual" paths be interpreted as[7C-->
+  <!--[23Crelative to the context root, instead of[7C-->
+  <!--[23Cthe server root? [false][23C-->
+  <!--[70C-->
+  <!--   inputEncoding[7CThe encoding to assume for SSI resources if    -->
+  <!--[23Cone is not available from the resource.[8C-->
+  <!--[23C[Platform default][29C-->
+  <!--[70C-->
+  <!--   outputEncoding      The encoding to use for the page that results  -->
+  <!--[23Cfrom the SSI processing. [UTF-8][15C-->
+  <!--[70C-->
+  <!--   allowExec[11CIs use of the exec command enabled? [false]    -->
+
+<!--
+    <servlet>[37;9H<servlet-name>ssi</servlet-name>[38;9H<servlet-class>[39;11Horg.apache.catalina.ssi.SSIServlet[40;9H</servlet-class>[41;9H<init-param>[42;11H<param-name>buffered</param-name>[43;11H<param-value>1</param-value>[44;9H</init-param>[45;9H<init-param>[46;11H<param-name>debug</param-name>[47;11H<param-value>0</param-value>[48;9H</init-param>[49;9H<init-param>[50;11H<param-name>expires</param-name>[51;11H<param-value>666</param-value>[52;9H</init-param>[53;9H<init-param>[54;11H<param-name>isVirtualWebappRelative</param-name>[55;11H<param-value>false</param-value>
+[1m-- INSERT --[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[27m[m[H[2J[1;11H<param-name>isVirtualWebappRelative</param-name>[2;11H<param-value>false</param-value>[3;9H</init-param>[4;9H<load-on-startup>4</load-on-startup>
+    </servlet>
+-->[9;3H<!-- Common Gateway Includes (CGI) processing servlet, which supports     -->
+  <!-- execution of external applications that conform to the CGI spec      -->
+  <!-- requirements.  Typically, this servlet is mapped to the URL pattern  -->
+  <!-- "/cgi-bin/*", which means that any CGI applications that are[9C-->
+  <!-- executed must be present within the web application.  This servlet   -->
+  <!-- supports the following initialization parameters (default values     -->
+  <!-- are in square brackets):[45C-->
+  <!--[70C-->
+  <!--   cgiPathPrefix[8CThe CGI search path will start at[13C-->
+  <!--[24CwebAppRootDir + File.separator + this prefix. -->
+  <!--[24CIf not set, then webAppRootDir is used.[7C-->
+  <!--[24CRecommended value: WEB-INF/cgi[16C-->
+  <!--[70C-->
+  <!--   enableCmdLineArguments[45C-->
+  <!--[24CAre command line parameters generated from    -->
+  <!--[24Cthe query string as per section 4.4 of 3875   -->
+  <!--[24CRFC? [true][35C-->
+  <!--[70C-->
+  <!--   executable[11CName of the executable used to run the[8C-->
+  <!--[24Cscript. [perl][32C-->
+  <!--[70C-->
+  <!--   envHttpHeaders[7CA regular expression used to select the HTTP  -->
+  <!--[24Cheaders passed to the CGI process as[10C-->
+  <!--[24Cenvironment variables. Note that headers are  -->
+  <!--[24Cconverted to upper case before matching and   -->
+  <!--[24Cthat the entire header name must match the    -->
+  <!--[24Cpattern.[38C-->
+  <!--[24C[ACCEPT[-0-9A-Z]*|CACHE-CONTROL|COOKIE|HOST|  -->
+  <!--[25CIF-[-0-9A-Z]*|REFERER|USER-AGENT][12C-->
+  <!--[70C-->
+  <!--  environment-variable- An environment to be set for the execution    -->
+  <!--[24Cenvironment of the CGI script. The name of    -->
+  <!--[24Cvariable is taken from the parameter name.    -->
+  <!--[24CTo configure an environment variable named    -->
+  <!--[24CFOO, configure a parameter named[14C-->
+  <!--[24Cenvironment-variable-FOO. The parameter value -->
+  <!--[24Cis used as the environment variable value.    -->
+  <!--[24CThe default is no environment variables.      -->
+  <!--[70C-->
+  <!--   parameterEncoding    Name of parameter encoding to be used with    -->
+  <!--[24CCGI servlet.[34C-->
+  <!--[24C[System.getProperty("file.encoding","UTF-8")] -->
+  <!--[70C-->
+  <!--   passShellEnvironment Should the shell environment variables (if    -->
+  <!--[24Cany) be passed to the CGI script? [false]     -->
+  <!--[70C-->
+  <!--   stderrTimeout[8CThe time (in milliseconds) to wait for the    -->
+[1m-- INSERT --[1;11H[?12l[?25h[?25l[27m[m[H[2J[1;3H<!--[70C-->
+  <!--   stderrTimeout[8CThe time (in milliseconds) to wait for the    -->
+  <!--[24Creading of stderr to complete before[10C-->
+  <!--[24Cterminating the CGI process. [2000][11C-->
+
+<!--
+    <servlet>[8;9H<servlet-name>cgi</servlet-name>[9;9H<servlet-class>org.apache.catalina.servlets.CGIServlet</servlet-class>[10;9H<init-param>[11;11H<param-name>cgiPathPrefix</param-name>[12;11H<param-value>WEB-INF/cgi</param-value>[13;9H</init-param>[14;9H<load-on-startup>5</load-on-startup>
+    </servlet>
+-->[19;3H<!-- ================ Built In Servlet Mappings ========================= -->[22;3H<!-- The servlet mappings for the built in servlets defined above.  Note  -->
+  <!-- that, by default, the CGI and SSI servlets are *not* mapped.  You    -->
+  <!-- must uncomment these mappings (or add them to your application's own -->
+  <!-- web.xml deployment descriptor) to enable these services[14C-->[27;5H<!-- The mapping for the default servlet -->
+    <servlet-mapping>[29;9H<servlet-name>default</servlet-name>[30;9H<url-pattern>/</url-pattern>
+    </servlet-mapping>[33;5H<!-- The mappings for the JSP servlet -->
+    <servlet-mapping>[35;9H<servlet-name>jsp</servlet-name>[36;9H<url-pattern>*.jsp</url-pattern>[37;9H<url-pattern>*.jspx</url-pattern>
+    </servlet-mapping>[40;5H<!-- The mapping for the SSI servlet -->
+<!--
+    <servlet-mapping>[43;9H<servlet-name>ssi</servlet-name>[44;9H<url-pattern>*.shtml</url-pattern>
+    </servlet-mapping>
+-->[48;5H<!-- The mapping for the CGI Gateway servlet -->
+
+<!--
+    <servlet-mapping>[52;9H<servlet-name>cgi</servlet-name>[53;9H<url-pattern>/cgi-bin/*</url-pattern>
+    </servlet-mapping>
+-->
+[1m-- INSERT --[1;3H[?12l[?25h[?25l[27m[m[H[2J[1;5H</servlet-mapping>
+-->[5;3H<!-- ================== Built In Filter Definitions ===================== -->
+
+  <!-- A filter that sets various security related HTTP Response headers.   -->
+  <!-- This filter supports the following initialization parameters[9C-->
+  <!-- (default values are in square brackets):[29C-->
+  <!--[70C-->
+  <!--   hstsEnabled[9CShould the HTTP Strict Transport Security      -->
+  <!--[23C(HSTS) header be added to the response? See    -->
+  <!--[23CRFC 6797 for more information on HSTS. [true]  -->
+  <!--[70C-->
+  <!--   hstsMaxAgeSeconds   The max age value that should be used in the   -->
+  <!--[23CHSTS header. Negative values will be treated   -->
+  <!--[23Cas zero. [0][35C-->
+  <!--[70C-->
+  <!--   hstsIncludeSubDomains[46C-->
+  <!--[23CShould the includeSubDomains parameter be      -->
+  <!--[23Cincluded in the HSTS header.[19C-->
+  <!--[70C-->
+  <!--   antiClickJackingEnabled[44C-->
+  <!--[23CShould the anti click-jacking header[11C-->
+  <!--[23CX-Frame-Options be added to every response?    -->
+  <!--[23C[true][41C-->
+  <!--[70C-->
+  <!--   antiClickJackingOption[45C-->
+  <!--[23CWhat value should be used for the header. Must -->
+  <!--[23Cbe one of DENY, SAMEORIGIN, ALLOW-FROM[9C-->
+  <!--[23C(case-insensitive). [DENY][21C-->
+  <!--[70C-->
+  <!--   antiClickJackingUri IF ALLOW-FROM is used, what URI should be      -->
+  <!--[23Callowed? [][36C-->
+  <!--[70C-->
+  <!--   blockContentTypeSniffingEnabled[36C-->
+  <!--[23CShould the header that blocks content type     -->
+  <!--[23Csniffing be added to every response? [true]    -->
+<!--
+    <filter>[41;9H<filter-name>httpHeaderSecurity</filter-name>[42;9H<filter-class>org.apache.catalina.filters.HttpHeaderSecurityFilter</filter-class>[43;9H<async-supported>true</async-supported>
+    </filter>
+-->
+
+  <!-- A filter that sets character encoding that is used to decode -->
+  <!-- parameters in a POST request -->
+<!--
+    <filter>[51;9H<filter-name>setCharacterEncodingFilter</filter-name>[52;9H<filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>[53;9H<init-param>[54;13H<param-name>encoding</param-name>[55;13H<param-value>UTF-8</param-value>
+[1m-- INSERT --[1;5H[?12l[?25h[?25l[27m[m[H[2J[1;13H<param-name>encoding</param-name>[2;13H<param-value>UTF-8</param-value>[3;9H</init-param>[4;9H<async-supported>true</async-supported>
+    </filter>
+-->
+
+  <!-- A filter that triggers request parameters parsing and rejects the    -->
+  <!-- request if some parameters were skipped because of parsing errors or -->
+  <!-- request size limitations.[44C-->
+<!--
+    <filter>[13;9H<filter-name>failedRequestFilter</filter-name>[14;9H<filter-class>[15;11Horg.apache.catalina.filters.FailedRequestFilter[16;9H</filter-class>[17;9H<async-supported>true</async-supported>
+    </filter>
+-->[22;3H<!-- NOTE: An SSI Servlet is also available as an alternative SSI[9C-->
+  <!-- implementation. Use either the Servlet or the Filter but NOT both.   -->
+  <!--[70C-->
+  <!-- Server Side Includes processing filter, which processes SSI[10C-->
+  <!-- directives in HTML pages consistent with similar support in web      -->
+  <!-- servers like Apache.  Traditionally, this filter is mapped to the    -->
+  <!-- URL pattern "*.shtml", though it can be mapped to "*" as it will     -->
+  <!-- selectively enable/disable SSI processing based on mime types. For   -->
+  <!-- this to work you will need to uncomment the .shtml mime type[9C-->
+  <!-- definition towards the bottom of this file.[26C-->
+  <!-- The contentType init param allows you to apply SSI processing to JSP -->
+  <!-- pages, javascript, or any other content you wish.  This filter[7C-->
+  <!-- supports the following initialization parameters (default values are -->
+  <!-- in square brackets):[49C-->
+  <!--[70C-->
+  <!--   contentType[9CA regex pattern that must be matched before    -->
+  <!--[23CSSI processing is applied.[21C-->
+  <!--[23C[text/x-server-parsed-html(;.*)?][14C-->
+  <!--[70C-->
+  <!--   debug[15CDebugging detail level for messages logged     -->
+  <!--[23Cby this servlet.  [0][26C-->
+  <!--[70C-->
+  <!--   expires[13CThe number of seconds before a page with SSI   -->
+  <!--[23Cdirectives will expire.  [No default][10C-->
+  <!--[70C-->
+  <!--   isVirtualWebappRelative[44C-->
+  <!--[23CShould "virtual" paths be interpreted as[7C-->
+  <!--[23Crelative to the context root, instead of[7C-->
+  <!--[23Cthe server root? [false][23C-->
+  <!--[70C-->
+  <!--   allowExec[11CIs use of the exec command enabled? [false]    -->
+
+<!--
+    <filter>
+[1m-- INSERT --[1;13H[?12l[?25h[m[56;1H[K[1;12H[?25l[?12l[?25h[?25l[56;1H:[?12l[?25h/efs[?25l[27m[m[H[2J[1;9H<mime-type>application/x-zmachine</mime-type>
+    </mime-mapping>
+    <mime-mapping>[4;9H<extension>z8</extension>[5;9H<mime-type>application/x-zmachine</mime-type>
+    </mime-mapping>
+    <mime-mapping>[8;9H<extension>zaz</extension>[9;9H<mime-type>application/vnd.zzazz.deck+xml</mime-type>
+    </mime-mapping>
+    <mime-mapping>[12;9H<extension>zip</extension>[13;9H<mime-type>application/zip</mime-type>
+    </mime-mapping>
+    <mime-mapping>[16;9H<extension>zir</extension>[17;9H<mime-type>application/vnd.zul</mime-type>
+    </mime-mapping>
+    <mime-mapping>[20;9H<extension>zirz</extension>[21;9H<mime-type>application/vnd.zul</mime-type>
+    </mime-mapping>
+    <mime-mapping>[24;9H<extension>zmm</extension>[25;9H<mime-type>application/vnd.handheld-entertainment+xml</mime-type>
+    </mime-mapping>
+
+  <!-- ==================== Default Welcome File List ===================== -->
+  <!-- When a request URI refers to a directory, the default servlet looks  -->
+  <!-- for a "welcome file" within that directory and, if present, to the   -->
+  <!-- corresponding resource URI for display.[30C-->
+  <!-- If no welcome files are present, the default servlet either serves a -->
+  <!-- directory listing (see default servlet configuration on how to[7C-->
+  <!-- customize) or returns a 404 status, depending on the value of the    -->
+  <!-- listings setting.[52C-->
+  <!--[70C-->
+  <!-- If you define welcome files in your own application's web.xml[8C-->
+  <!-- deployment descriptor, that list *replaces* the list configured      -->
+  <!-- here, so be sure to include any of the default values that you wish  -->
+  <!-- to use within your application.[39C-->[42;5H<welcome-file-list>[43;9H<welcome-file>index.html</welcome-file>[44;9H<welcome-file>index.htm</welcome-file>[45;9H<welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+<resource-env-ref>[48;9H<resource-env-ref-name>efsActiveEnv</resource-env-ref-name>[49;9H<resource-env-ref-type>java.lang.String</resource-env-ref-type>
+</resource-env-ref>[51;9H</web-app>[52;9H<error-page>[53;17H<exception-type>java.lang.Throwable</exception-type>[54;17H<location>/error.jsp</location>[55;9H</error-page>[48;9H[?12l[?25h[?25l[56;1H/efs[48;32H[?12l[?25h[?25l[56;1H[31msearch hit BOTTOM, continuing at TOP[48;32H[?12l[?25h[49;32H[50;19H[51;18H[52;20H[53;32H[54;32H[55;21H[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ vi server.xml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".server.xml.swp"
+[10Cowned by: tomadmin   dated: Thu Mar 14 15:54:45 2019
+[9Cfile name: /forms/tomcat8/conf/server.xml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 27753
+While opening file "server.xml"
+[13Cdated: Fri Oct  4 09:12:24 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r server.xml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".server.xml.swp"
+    to avoid this message.
+
+[55;1H"server.xml" 171L, 7940C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at[10;7Hhttp://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- Note:  A "Server" is not itself a "Container", so you may not[19;6Hdefine subcomponents such as "Valves" at this level.[20;6HDocumentation at /docs/config/server.html
+ -->
+<Server port="8005" shutdown="abcd">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <!-- Global JNDI resources[35;8HDocumentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by[39;10HUserDatabaseRealm to authenticate users
+    -->
+    <Resource name="UserDatabase" auth="Container"[42;15Htype="org.apache.catalina.UserDatabase"[43;15Hdescription="User database that can be updated and saved"[44;15Hfactory="org.apache.catalina.users.MemoryUserDatabaseFactory"[45;15Hpathname="conf/tomcat-users.xml" />
+ <Environment name="active.env" value="sya" type="java.lang.String" override="false"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share[50;8Ha single "Container" Note:  A "Service" is not itself a "Container",[51;8Hso you may not define subcomponents such as "Valves" at this level.[52;8HDocumentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">[56;1H[K[1;1H[?12l[?25h
+[?25l[56;1H:[?12l[?25h/base[?25l[38;5H[?12l[?25h[?25l[56;1H/base[56;6H[K[56;1H[38;28H[?12l[?25h[?25l[56;1H[39;18H[?12l[?25h[?25l[56;1H[41;29H[?12l[?25h[?25l[56;1H[42;49H[?12l[?25h[?25l[56;1H[43;37H[?12l[?25h[?25l[56;1H[44;64H[?12l[?25h[?25l[56;1H[27m[m[H[2J[1;5H-->[3;5H<!-- Define an AJP 1.3 Connector on port 8009 -->
+    <Connector port="18009" protocol="AJP/1.3" redirectPort="18443" />[7;5H<!-- An Engine represents the entry point (within Catalina) that processes[8;10Hevery request.  The Engine implementation for Tomcat stand alone[9;10Hanalyzes the HTTP headers included with the request, and passes them[10;10Hon to the appropriate Host (virtual host).[11;10HDocumentation at /docs/config/engine.html -->[13;5H<!-- You should set jvmRoute to support load-balancing via AJP ie :
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="jvm1">
+    -->
+    <Engine name="Catalina" defaultHost="localhost">[18;7H<!--For clustering, please take a look at documentation at:[19;11H/docs/cluster-howto.html  (simple how to)[20;11H/docs/config/cluster.html (reference documentation) -->[21;7H<!--[22;7H<Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>[23;7H-->[25;7H<!-- Use the LockOutRealm to prevent attempts to guess user passwords[26;12Hvia a brute-force attack -->[27;7H<Realm className="org.apache.catalina.realm.LockOutRealm">[28;9H<!-- This Realm uses the UserDatabase configured in the global JNDI[29;14Hresources under the key "UserDatabase".  Any edits[30;14Hthat are performed against this UserDatabase are immediately[31;14Havailable for use by the Realm.  -->[32;9H<Realm className="org.apache.catalina.realm.UserDatabaseRealm"[33;16HresourceName="UserDatabase"/>[34;7H</Realm>[36;7H<Host name="localhost"  appBase="webapps"[37;13HunpackWARs="true" autoDeploy="true">[39;9H<!-- SingleSignOn valve, share authentication between web applications[40;14HDocumentation at: /docs/config/valve.html -->[41;9H<!--[42;9H<Valve className="org.apache.catalina.authenticator.SingleSignOn" />[43;9H-->[45;9H<!-- Access log processes all example.[46;14HDocumentation at: /docs/config/valve.html[47;14HNote: The pattern used is equivalent to using pattern="common" -->[48;9H<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"[49;16Hprefix="localhost_access_log" suffix=".txt"[50;16Hpattern="%h %l %u %t &quot;%r&quot; %s %b" />[52;7H</Host>
+    </Engine>
+  </Service>
+</Server>[28;42H[?12l[?25h[?25l[56;1H/base[29;47H[?12l[?25h[?25l[56;1H[30;54H[?12l[?25h[?25l[56;1H[32;61H[?12l[?25h[?25l[56;1H[33;38H[?12l[?25h[?25l[56;1H[31msearch hit BOTTOM, continuing at TOP[27m[m[H[2J[2;3HUnless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- Note:  A "Server" is not itself a "Container", so you may not[9;6Hdefine subcomponents such as "Valves" at this level.[10;6HDocumentation at /docs/config/server.html
+ -->
+<Server port="8005" shutdown="abcd">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <!-- Global JNDI resources[25;8HDocumentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by[29;10HUserDatabaseRealm to authenticate users
+    -->
+    <Resource name="UserDatabase" auth="Container"[32;15Htype="org.apache.catalina.UserDatabase"[33;15Hdescription="User database that can be updated and saved"[34;15Hfactory="org.apache.catalina.users.MemoryUserDatabaseFactory"[35;15Hpathname="conf/tomcat-users.xml" />
+ <Environment name="active.env" value="sya" type="java.lang.String" override="false"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share[40;8Ha single "Container" Note:  A "Service" is not itself a "Container",[41;8Hso you may not define subcomponents such as "Valves" at this level.[42;8HDocumentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">[46;5H<!--The connectors can use a shared executor, you can define one or more named thread pools-->
+    <!--
+    <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"[49;9HmaxThreads="150" minSpareThreads="4"/>
+    -->[53;5H<!-- A "Connector" represents an endpoint by which requests are received[54;10Hand responses are returned. Documentation at :[55;10HJava HTTP Connector: /docs/config/http.html
+[31msearch hit BOTTOM, continuing at TOP[28;28H[?12l[?25h[?25l[m[56;1H/base[56;6H[K[56;1H[29;18H[?12l[?25h[?25l[56;1H[31;29H[?12l[?25h[32;29H[33;29H[34;29H[35;29H[?25l[56;1H[K[56;1H:[?12l[?25h/codebase[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: codebase[m[56;34H[K[35;29H[?12l[?25h[?25l[56;1H[K[56;1H/[?12l[?25hbase[?25l[27m[m[H[2J[1;5H-->[3;5H<!-- Define an AJP 1.3 Connector on port 8009 -->
+    <Connector port="18009" protocol="AJP/1.3" redirectPort="18443" />[7;5H<!-- An Engine represents the entry point (within Catalina) that processes[8;10Hevery request.  The Engine implementation for Tomcat stand alone[9;10Hanalyzes the HTTP headers included with the request, and passes them[10;10Hon to the appropriate Host (virtual host).[11;10HDocumentation at /docs/config/engine.html -->[13;5H<!-- You should set jvmRoute to support load-balancing via AJP ie :
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="jvm1">
+    -->
+    <Engine name="Catalina" defaultHost="localhost">[18;7H<!--For clustering, please take a look at documentation at:[19;11H/docs/cluster-howto.html  (simple how to)[20;11H/docs/config/cluster.html (reference documentation) -->[21;7H<!--[22;7H<Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>[23;7H-->[25;7H<!-- Use the LockOutRealm to prevent attempts to guess user passwords[26;12Hvia a brute-force attack -->[27;7H<Realm className="org.apache.catalina.realm.LockOutRealm">[28;9H<!-- This Realm uses the UserDatabase configured in the global JNDI[29;14Hresources under the key "UserDatabase".  Any edits[30;14Hthat are performed against this UserDatabase are immediately[31;14Havailable for use by the Realm.  -->[32;9H<Realm className="org.apache.catalina.realm.UserDatabaseRealm"[33;16HresourceName="UserDatabase"/>[34;7H</Realm>[36;7H<Host name="localhost"  appBase="webapps"[37;13HunpackWARs="true" autoDeploy="true">[39;9H<!-- SingleSignOn valve, share authentication between web applications[40;14HDocumentation at: /docs/config/valve.html -->[41;9H<!--[42;9H<Valve className="org.apache.catalina.authenticator.SingleSignOn" />[43;9H-->[45;9H<!-- Access log processes all example.[46;14HDocumentation at: /docs/config/valve.html[47;14HNote: The pattern used is equivalent to using pattern="common" -->[48;9H<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"[49;16Hprefix="localhost_access_log" suffix=".txt"[50;16Hpattern="%h %l %u %t &quot;%r&quot; %s %b" />[52;7H</Host>
+    </Engine>
+  </Service>
+</Server>[28;42H[?12l[?25h[?25l[56;1H/base[29;47H[?12l[?25h[?25l[56;1H[30;54H[?12l[?25h[?25l[56;1H[32;61H[?12l[?25h[?25l[56;1H[33;38H[?12l[?25h[?25l[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ cd ..
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8[hchada@CGDCSSL1047UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mbin[0m  [01;34mconf[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlib[0m  [01;32mLICENSE[0m  [01;34mlogs[0m  [01;32mNOTICE[0m  [01;32mRELEASE-NOTES[0m  [01;32mRUNNING.txt[0m  [01;34mssl[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8[hchada@CGDCSSL1047UL tomcat8]$ cd webs[Kapps
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd web
+-bash: cd: web: No such file or directory
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd ..c/ofn[K[K[K[K[K/conf/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ vi server.xml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".server.xml.swp"
+[10Cowned by: tomadmin   dated: Thu Mar 14 15:54:45 2019
+[9Cfile name: /forms/tomcat8/conf/server.xml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 27753
+While opening file "server.xml"
+[13Cdated: Fri Oct  4 09:12:24 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r server.xml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".server.xml.swp"
+    to avoid this message.
+
+[55;1H"server.xml" 171L, 7940C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at[10;7Hhttp://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- Note:  A "Server" is not itself a "Container", so you may not[19;6Hdefine subcomponents such as "Valves" at this level.[20;6HDocumentation at /docs/config/server.html
+ -->
+<Server port="8005" shutdown="abcd">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <!-- Global JNDI resources[35;8HDocumentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by[39;10HUserDatabaseRealm to authenticate users
+    -->
+    <Resource name="UserDatabase" auth="Container"[42;15Htype="org.apache.catalina.UserDatabase"[43;15Hdescription="User database that can be updated and saved"[44;15Hfactory="org.apache.catalina.users.MemoryUserDatabaseFactory"[45;15Hpathname="conf/tomcat-users.xml" />
+ <Environment name="active.env" value="sya" type="java.lang.String" override="false"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share[50;8Ha single "Container" Note:  A "Service" is not itself a "Container",[51;8Hso you may not define subcomponents such as "Valves" at this level.[52;8HDocumentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">[56;1H[K[1;1H[?12l[?25h[?25l[56;1H:[?12l[?25h/webapps[?25l[27m[m[H[2J[1;5H-->[3;5H<!-- Define an AJP 1.3 Connector on port 8009 -->
+    <Connector port="18009" protocol="AJP/1.3" redirectPort="18443" />[7;5H<!-- An Engine represents the entry point (within Catalina) that processes[8;10Hevery request.  The Engine implementation for Tomcat stand alone[9;10Hanalyzes the HTTP headers included with the request, and passes them[10;10Hon to the appropriate Host (virtual host).[11;10HDocumentation at /docs/config/engine.html -->[13;5H<!-- You should set jvmRoute to support load-balancing via AJP ie :
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="jvm1">
+    -->
+    <Engine name="Catalina" defaultHost="localhost">[18;7H<!--For clustering, please take a look at documentation at:[19;11H/docs/cluster-howto.html  (simple how to)[20;11H/docs/config/cluster.html (reference documentation) -->[21;7H<!--[22;7H<Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>[23;7H-->[25;7H<!-- Use the LockOutRealm to prevent attempts to guess user passwords[26;12Hvia a brute-force attack -->[27;7H<Realm className="org.apache.catalina.realm.LockOutRealm">[28;9H<!-- This Realm uses the UserDatabase configured in the global JNDI[29;14Hresources under the key "UserDatabase".  Any edits[30;14Hthat are performed against this UserDatabase are immediately[31;14Havailable for use by the Realm.  -->[32;9H<Realm className="org.apache.catalina.realm.UserDatabaseRealm"[33;16HresourceName="UserDatabase"/>[34;7H</Realm>[36;7H<Host name="localhost"  appBase="webapps"[37;13HunpackWARs="true" autoDeploy="true">[39;9H<!-- SingleSignOn valve, share authentication between web applications[40;14HDocumentation at: /docs/config/valve.html -->[41;9H<!--[42;9H<Valve className="org.apache.catalina.authenticator.SingleSignOn" />[43;9H-->[45;9H<!-- Access log processes all example.[46;14HDocumentation at: /docs/config/valve.html[47;14HNote: The pattern used is equivalent to using pattern="common" -->[48;9H<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"[49;16Hprefix="localhost_access_log" suffix=".txt"[50;16Hpattern="%h %l %u %t &quot;%r&quot; %s %b" />[52;7H</Host>
+    </Engine>
+  </Service>
+</Server>[36;7H[?12l[?25h[?25l[27m[m[H[2J[1;10HJava HTTP Connector: /docs/config/http.html[2;10HJava AJP  Connector: /docs/config/ajp.html[3;10HAPR (HTTP/AJP) Connector: /docs/apr.html[4;10HDefine a non-SSL/TLS HTTP/1.1 Connector on port 8080
+    -->
+    <Connector port="18080" protocol="HTTP/1.1"[7;16HconnectionTimeout="20000"[8;16HredirectPort="18443"[9;17H/>
+    <!-- A "Connector" using the shared thread pool-->
+    <!--
+    <Connector executor="tomcatThreadPool"[13;16Hport="8080" protocol="HTTP/1.1"[14;16HconnectionTimeout="20000"[15;16HredirectPort="8443" />
+    -->
+    <!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443[18;10HThis connector uses the NIO implementation. The default[19;10HSSLImplementation will depend on the presence of the APR/native[20;10Hlibrary and the useOpenSSL attribute of the[21;10HAprLifecycleListener.[22;10HEither JSSE or OpenSSL style configuration may be used regardless of[23;10Hthe SSLImplementation selected. JSSE style configuration is used below.
+    -->
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"[27;16HmaxThreads="150" SSLEnabled="true">[28;9H<SSLHostConfig>[29;13H<Certificate certificateKeystoreFile="conf/localhost-rsa.jks"[30;26Htype="RSA" />[31;9H</SSLHostConfig>
+    </Connector>
+    -->[34;9H<Connector SSLEnabled="true" acceptCount="100" clientAuth="false" disableUploadTimeout="true" enableLookups="false" maxThreads="25" port="18443" keystoreFile="/forms/tomcat88[35;1H/ssl/efsapp.p12" keyAlias="tomcat"  keystorePass="changeit" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />[37;5H<!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443 with HTTP/2[38;10HThis connector uses the APR/native implementation which always uses[39;10HOpenSSL for TLS.[40;10HEither JSSE or OpenSSL style configuration may be used. OpenSSL style[41;10Hconfiguration is used below.
+    -->
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11AprProtocol"[45;16HmaxThreads="150" SSLEnabled="true" >[46;9H<UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />[47;9H<SSLHostConfig>[48;13H<Certificate certificateKeyFile="conf/localhost-rsa-key.pem"[49;26HcertificateFile="conf/localhost-rsa-cert.pem"[50;26HcertificateChainFile="conf/localhost-rsa-chain.pem"[51;26Htype="RSA" />[52;9H</SSLHostConfig>
+    </Connector>
+    -->
+[?12l[?25h[?25l[27m[m[H[2J[1;3HUnless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- Note:  A "Server" is not itself a "Container", so you may not[8;6Hdefine subcomponents such as "Valves" at this level.[9;6HDocumentation at /docs/config/server.html
+ -->
+<Server port="8005" shutdown="abcd">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <!-- Global JNDI resources[24;8HDocumentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by[28;10HUserDatabaseRealm to authenticate users
+    -->
+    <Resource name="UserDatabase" auth="Container"[31;15Htype="org.apache.catalina.UserDatabase"[32;15Hdescription="User database that can be updated and saved"[33;15Hfactory="org.apache.catalina.users.MemoryUserDatabaseFactory"[34;15Hpathname="conf/tomcat-users.xml" />
+ <Environment name="active.env" value="sya" type="java.lang.String" override="false"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share[39;8Ha single "Container" Note:  A "Service" is not itself a "Container",[40;8Hso you may not define subcomponents such as "Valves" at this level.[41;8HDocumentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">[45;5H<!--The connectors can use a shared executor, you can define one or more named thread pools-->
+    <!--
+    <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"[48;9HmaxThreads="150" minSpareThreads="4"/>
+    -->[52;5H<!-- A "Connector" represents an endpoint by which requests are received[53;10Hand responses are returned. Documentation at :[54;10HJava HTTP Connector: /docs/config/http.html[55;10HJava AJP  Connector: /docs/config/ajp.html[55;10H[?12l[?25h[?25l[1;55r[1;1H[11L[1;56r[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at[10;7Hhttp://www.apache.org/licenses/LICENSE-2.0[13;3H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+  
+  
+  
+--
+<!
+  
+  
+ -
+<S
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ <
+  
+
+  
+  
+  
+  
+  
+  
+[?25l[1;55r[55;1H
+[1;56r[55;5H<!--The connectors can use a shared executor, you can define one or more named thread pools-->  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!--  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<Executor name="tomcatThreadPool" namePrefix="catalina-exec-"  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;9HmaxThreads="150" minSpareThreads="4"/>  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H-->  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!-- A "Connector" represents an endpoint by which requests are received  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10Hand responses are returned. Documentation at :  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HJava HTTP Connector: /docs/config/http.html  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HJava AJP  Connector: /docs/config/ajp.html  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HAPR (HTTP/AJP) Connector: /docs/apr.html  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HDefine a non-SSL/TLS HTTP/1.1 Connector on port 8080  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H-->  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<Connector port="18080" protocol="HTTP/1.1"  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;16HconnectionTimeout="20000"  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;16HredirectPort="18443"  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;17H/>[55;8H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!-- A "Connector" using the shared thread pool-->  [?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!--  [?12l[?25h[?25l
+:[?12l[?25h/shutdown[?25l[31msearch hit BOTTOM, continuing at TOP[2;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[m[56;1H[K[56;1H:[?12l[?25h/8080[?25l[48;10H[?12l[?25h[?25l[56;1H/8080[56;6H[K[56;1H[48;58H[?12l[?25h[?25l[56;1H[50;23H[?12l[?25h[51;23H[52;23H[53;18H[54;23H[55;8H[?25l[1;55r[55;1H
+[1;56r[55;5H<Connector executor="tomcatThreadPool"[56;1H[K[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;16Hport="8080" protocol="HTTP/1.1"[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;16HconnectionTimeout="20000"[55;23H[?12l[?25h[54;23H[53;23H[54;23H[55;23H[?25l[1;55r[55;1H
+[1;56r[55;16HredirectPort="8443" />[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H-->[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HThis connector uses the NIO implementation. The default[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HSSLImplementation will depend on the presence of the APR/native[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10Hlibrary and the useOpenSSL attribute of the[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HAprLifecycleListener.[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10HEither JSSE or OpenSSL style configuration may be used regardless of[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;10Hthe SSLImplementation selected. JSSE style configuration is used below.[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H-->[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<!--[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;16HmaxThreads="150" SSLEnabled="true">[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;9H<SSLHostConfig>[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;13H<Certificate certificateKeystoreFile="conf/localhost-rsa.jks"[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;26Htype="RSA" />[55;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;9H</SSLHostConfig>[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H</Connector>[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;5H-->[?12l[?25h[?25l[1;55r[1;1H[2M[1;56r[54;9H<Connector SSLEnabled="true" acceptCount="100" clientAuth="false" disableUploadTimeout="true" enableLookups="false" maxThreads="25" port="18443" keystoreFile="/forms/tomcat88[55;1H/ssl/efsapp.p12" keyAlias="tomcat"  keystorePass="changeit" protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />[54;23H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l
+:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ vi context.xml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"context.xml" 31L, 1419C[1;1H<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at[10;7Hhttp://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- The contents of this file will be loaded for each web application -->
+<Context>[21;5H<!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.[35C-->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>[26;5H<!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+<ResourceLink name="efsActiveEnv" global="active.env" type="java.lang.String"/>
+</Context>
+[1m[34m~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:/forms/tomcat8/conf[hchada@CGDCSSL1047UL conf]$ [K[hchada@CGDCSSL1047UL conf]$ cd
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd EFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    CreateUsers.yml       ping.yml
+[0m[01;34mapache[0m                         CreateUser.yml        [01;34mpyscritps[0m
+CCServers.yml                  [01;34mCustomerConnect[0m       [01;34mroles[0m
+[01;34mcis-rhel-ansible-audit-master[0m  delApctl.yml          script.yml
+[01;32mcontext.xml[0m                    deploy1.yml           [01;34mselfsignedcerts[0m
+copy                           [01;31mdevel.zip[0m             servers.yml
+copyBinaries.yml               fetchhostname.yml     [01;32mserver.xml[0m
+copyKeys.retry                 [01;34mfinal[0m                 stopFW.yml
+copyKeys.yml                   gitcommands.txt       [01;34mtomcat[0m
+copyKey.yml                    inventory             users.yml
+cpyhttpd.yml                   inventorycc           [01;32mweb.xml[0m
+CreatePartition.yml            [01;31mmaster-cisreport.zip[0m  yumPackages.yml
+CreatePartsDevOps.yml          passwd
+CreateUser.retry               passwd.txt
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cat copyKy[Key
+copyKeys.retry  copyKeys.yml    copyKey.yml     
+[hchada@CGDCSSL1047UL ansible]$ cat copyKey
+copyKeys.retry  copyKeys.yml    copyKey.yml     
+[hchada@CGDCSSL1047UL ansible]$ cat copyKey.yml 
+- hosts:
+      - localhost
+  vars_files:
+      - CCServers.yml
+  tasks: 
+      - name: Copy ssh key to all servers
+        #command: "ssh-copy-id -i ~/.ssh/id_rsa.pub {{ item.server }}  "
+        command: "sshpass -f passwd.txt ssh-copy-id -i ~/.ssh/id_rsa.pub -o StrictHostKeyChecking=no {{ item.server }}"
+        register: result
+        with_items: "{{ command }}"
+      - debug: var=result.stdout_lines
+     
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep shell *
+[35m[Kansible.cfg[m[K[36m[K:[m[K# use this [01;31m[Kshell[m[K for commands executed under sudo
+[35m[Kansible.cfg[m[K[36m[K:[m[K# (as of 1.8), Ansible can optionally warn when usage of the [01;31m[Kshell[m[K and
+[35m[Kansible.cfg[m[K[36m[K:[m[K# instead of [01;31m[Kshell[m[King out to the git command.
+grep: apache: Is a directory
+grep: cis-rhel-ansible-audit-master: Is a directory
+[35m[Kcpyhttpd.yml[m[K[36m[K:[m[K         [01;31m[Kshell[m[K: "chmod 644 /etc/systemd/system/httpd.service"
+[35m[Kcpyhttpd.yml[m[K[36m[K:[m[K         register: [01;31m[Kshell[m[K_result
+[35m[Kcpyhttpd.yml[m[K[36m[K:[m[K       - debug: var=[01;31m[Kshell[m[K_result.stdout_lines
+grep: CustomerConnect: Is a directory
+grep: final: Is a directory
+[35m[Kping.yml[m[K[36m[K:[m[K        - [01;31m[Kshell[m[K: "df -H | grep datavg"
+[35m[Kping.yml[m[K[36m[K:[m[K          register: [01;31m[Kshell[m[K_result
+[35m[Kping.yml[m[K[36m[K:[m[K        - debug: var=[01;31m[Kshell[m[K_result.stdout_lines 
+grep: pyscritps: Is a directory
+grep: roles: Is a directory
+grep: selfsignedcerts: Is a directory
+grep: tomcat: Is a directory
+[35m[Kweb.xml[m[K[36m[K:[m[K  <!--   passShellEnvironment Should the [01;31m[Kshell[m[K environment variables (if    -->
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cat ping.yml
+- hosts:
+        - "{{ var_host | default('devws') }}"
+  become: true
+  tasks:
+        - shell: "df -H | grep datavg"
+          register: shell_result
+
+        - debug: var=shell_result.stdout_lines 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more crea[K[K[K[KCreatePartti[K[Kition.yml 
+- hosts:
+      - "{{ var_host | default('devws') }}"
+  become: true
+  tasks:
+     - name: Create LVM Partition # Creating Physical Volume and Volume Group
+       parted:
+            device: /dev/sdb
+            number: 1
+            flags: [ lvm ]
+            state: present
+     - name: Create Physical Volume (PV)
+       lvg: 
+         vg: datavg
+         pvs: /dev/sdb1
+         state: present
+     - name: Create Logical Volumes appsVM
+       lvol:
+           vg: datavg
+           lv: appsVM
+           size: 10G
+           state: present
+     - name: Create LV sharedVM
+       lvol:
+          vg: datavg
+          lv: sharedVM
+          size: 20G
+          state: present
+     - name: Create LV logsVM
+       lvol:
+          vg: datavg
+          lv: logsVM
+          size: 10G
+          state: present
+     - name: Create LV apacheVM
+       lvol: 
+          vg: datavg
+          lv: apacheVM
+          size: 5G
+          state: present
+       when: "'ws' in inventory_hostname"
+     - name: Create LV tomcatVM
+       lvol:
+          vg: datavg
+          lv: tomcatVM
+          size: 5G
+          state: present
+       when: "'as' in inventory_hostname"
+     - name: Format LV appsVM   # Format Logical Volumes ext4
+       filesystem:
+               fstype: ext4
+               dev: /dev/datavg/appsVM
+               force: no
+     - name: Format LV sharedVM
+       filesystem:
+               fstype: ext4
+[7m--More--(41%)[27m[K]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep wint[K[Kth *.yml
+[35m[KcopyKey.yml[m[K[36m[K:[m[K        [01;31m[Kwith[m[K_items: "{{ command }}"
+[35m[KCreateUsers.yml[m[K[36m[K:[m[K#            [01;31m[Kwith[m[K_items: "{{ users }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ vi CreateUsers.yml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"CreateUsers.yml" 25L, 935C[1;1H- hosts:[2;8H- "{{ var_host }}"
+  become: true
+#  vars_files:
+#[10C- deploy1.yml
+  tasks:[7;11H- user:[8;23Hname: "deploy1"[9;23Hstate: present
+#[22Ccomment: "{{ item.comment }}"
+#[22Cpassword: "3OAZQNIJ0LuZ2"
+#[22Cpassword: "y1UN34FOJ6Zm2"  # EFS@345[13;23Hpassword: "5qCrvpidVubTg"[14;23Hupdate_password: always
+#[21Cgroups: "{{ item.groups }}"
+#[22Cappend: yes
+#[12Cwith_items: "{{ users }}"
+#[12Cwhen: "'as' in inventory_hostname"
+#[22Cname: "tomadmin"
+#[22Cstate: present
+#[22Ccomment: "Tomcat Administration Account"
+#[22Cpassword: "6dHzCv2v5sTf2"
+#[22Cgroups: "staff"
+#[22Cappend: yes
+#[12Cwhen: "'as' in inventory_hostname"
+[1m[34m~                                                                                        [27;1H~                                                                                        [28;1H~                                                                                        [29;1H~                                                                                        [30;1H~                                                                                        [31;1H~                                                                                        [32;1H~                                                                                        [33;1H~                                                                                        [34;1H~                                                                                        [35;1H~                                                                                        [36;1H~                                                                                        [37;1H~                                                                                        [38;1H~                                                                                        [39;1H~                                                                                        [40;1H~                                                                                        [41;1H~                                                                                        [42;1H~                                                                                        [43;1H~                                                                                        [44;1H~                                                                                        [45;1H~                                                                                        [46;1H~                                                                                        [47;1H~                                                                                        [48;1H~                                                                                        [49;1H~                                                                                        [50;1H~                                                                                        [51;1H~                                                                                        [52;1H~                                                                                        [53;1H~                                                                                        [54;1H~                                                                                        [55;1H~                                                                                        [1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H
+[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more deploy1.yml 
+users:
+        - name: deploy1
+          comment: 'Config Management Team'
+          groups: staff,wheel 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more deploy1.yml vi CreateUsers.yml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"CreateUsers.yml" 25L, 935C[1;1H- hosts:[2;8H- "{{ var_host }}"
+  become: true
+#  vars_files:
+#[10C- deploy1.yml
+  tasks:[7;11H- user:[8;23Hname: "deploy1"[9;23Hstate: present
+#[22Ccomment: "{{ item.comment }}"
+#[22Cpassword: "3OAZQNIJ0LuZ2"
+#[22Cpassword: "y1UN34FOJ6Zm2"  # EFS@345[13;23Hpassword: "5qCrvpidVubTg"[14;23Hupdate_password: always
+#[21Cgroups: "{{ item.groups }}"
+#[22Cappend: yes
+#[12Cwith_items: "{{ users }}"
+#[12Cwhen: "'as' in inventory_hostname"
+#[22Cname: "tomadmin"
+#[22Cstate: present
+#[22Ccomment: "Tomcat Administration Account"
+#[22Cpassword: "6dHzCv2v5sTf2"
+#[22Cgroups: "staff"
+#[22Cappend: yes
+#[12Cwhen: "'as' in inventory_hostname"
+[1m[34m~                                                                                        [27;1H~                                                                                        [28;1H~                                                                                        [29;1H~                                                                                        [30;1H~                                                                                        [31;1H~                                                                                        [32;1H~                                                                                        [33;1H~                                                                                        [34;1H~                                                                                        [35;1H~                                                                                        [36;1H~                                                                                        [37;1H~                                                                                        [38;1H~                                                                                        [39;1H~                                                                                        [40;1H~                                                                                        [41;1H~                                                                                        [42;1H~                                                                                        [43;1H~                                                                                        [44;1H~                                                                                        [45;1H~                                                                                        [46;1H~                                                                                        [47;1H~                                                                                        [48;1H~                                                                                        [49;1H~                                                                                        [50;1H~                                                                                        [51;1H~                                                                                        [52;1H~                                                                                        [53;1H~                                                                                        [54;1H~                                                                                        [55;1H~                                                                                        [1;1H[?12l[?25h[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ vi CreateUsers.yml[1Pmore deploy1.yml 
+users:
+        - name: deploy1
+          comment: 'Config Management Team'
+          groups: staff,wheel 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cat copyKey.yml 
+- hosts:
+      - localhost
+  vars_files:
+      - CCServers.yml
+  tasks: 
+      - name: Copy ssh key to all servers
+        #command: "ssh-copy-id -i ~/.ssh/id_rsa.pub {{ item.server }}  "
+        command: "sshpass -f passwd.txt ssh-copy-id -i ~/.ssh/id_rsa.pub -o StrictHostKeyChecking=no {{ item.server }}"
+        register: result
+        with_items: "{{ command }}"
+      - debug: var=result.stdout_lines
+     
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more CCServers.yml 
+command:
+     - server:  sqtwscc
+     - server:  sytwscc
+     - server:  sytascc
+     - server:  pft1ws2cc
+     - server:  sqtascc
+     - server:  pft1ws1cc
+     - server:  pft1as1cc
+     - server:  pft2ws1cc
+     - server:  pft2as2cc
+     - server:  pft1as2cc
+     - server:  pft2as1cc
+     - server:  pft2ws2cc
+     - server:  prodws1cc
+     - server:  prodas1cc
+     - server:  prodws2cc
+     - server:  prodas2cc
+     - server:  devwscc
+     - server:  devascc
+     - server:  syaascc
+     - server:  syawscc
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copy              cpyhttpd.yml           CreateUser.yml   fetchhostname.yml  [0m[01;31mmaster-cisreport.zip[0m  [01;34mroles[0m            stopFW.yml
+[01;34mapache[0m                         copyBinaries.yml  CreatePartition.yml    [01;34mCustomerConnect[0m  [01;34mfinal[0m              passwd                script.yml       [01;34mtomcat[0m
+CCServers.yml                  copyKeys.retry    CreatePartsDevOps.yml  delApctl.yml     gitcommands.txt    passwd.txt            [01;34mselfsignedcerts[0m  users.yml
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.yml      CreateUser.retry       deploy1.yml      inventory          ping.yml              servers.yml      [01;32mweb.xml[0m
+[01;32mcontext.xml[0m                    copyKey.yml       CreateUsers.yml        [01;31mdevel.zip[0m        inventorycc        [01;34mpyscritps[0m             [01;32mserver.xml[0m       yumPackages.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd roles/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ ls
+1exroles.yml  exrole2.yml  exroles.yml  [0m[01;34mr1[0m  [01;34mr2[0m  [01;34mroles[0m  [01;31mroles.tar.gz[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ vi exroles.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"exroles.yml" 8L, 203C[1;1H- hosts:
+    - localhost
+  roles:
+    - /home/hchada/EFS/ansible/roles/roles/one
+- hosts:
+    - "{{ hostvars['localhost']['result']['stdout'] }}"
+  roles:
+    - /home/hchada/EFS/ansible/roles/roles/two
+[1m[34m~                                                                                                                                                                                    [10;1H~                                                                                                                                                                                    [11;1H~                                                                                                                                                                                    [12;1H~                                                                                                                                                                                    [13;1H~                                                                                                                                                                                    [14;1H~                                                                                                                                                                                    [15;1H~                                                                                                                                                                                    [16;1H~                                                                                                                                                                                    [17;1H~                                                                                                                                                                                    [18;1H~                                                                                                                                                                                    [19;1H~                                                                                                                                                                                    [20;1H~                                                                                                                                                                                    [21;1H~                                                                                                                                                                                    [22;1H~                                                                                                                                                                                    [23;1H~                                                                                                                                                                                    [24;1H~                                                                                                                                                                                    [25;1H~                                                                                                                                                                                    [26;1H~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h[27m[m[H[2J[?25l[1;1H- hosts:[?12l[?25h[?25l[27m[m[H[2J[1;5H- /home/h[1;5H[?12l[?25h[27m[m[H[2J[?25l[1;5H- /home/hchada/EFS/ansible/roles/roles/two
+[1m[34m~                                                                                                                                                                                    [3;1H~                                                                                                                                                                                    [4;1H~                                                                                                                                                                                    [5;1H~                                                                                                                                                                                    [6;1H~                                                                                                                                                                                    [7;1H~                                                                                                                                                                                    [8;1H~                                                                                                                                                                                    [9;1H~                                                                                                                                                                                    [10;1H~                                                                                                                                                                                    [11;1H~                                                                                                                                                                                    [12;1H~                                                                                                                                                                                    [13;1H~                                                                                                                                                                                    [14;1H~                                                                                                                                                                                    [15;1H~                                                                                                                                                                                    [16;1H~                                                                                                                                                                                    [17;1H~                                                                                                                                                                                    [18;1H~                                                                                                                                                                                    [19;1H~                                                                                                                                                                                    [20;1H~                                                                                                                                                                                    [21;1H~                                                                                                                                                                                    [22;1H~                                                                                                                                                                                    [23;1H~                                                                                                                                                                                    [24;1H~                                                                                                                                                                                    [25;1H~                                                                                                                                                                                    [26;1H~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;5H[?12l[?25h[?25l[56;1H[m:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ vi exroles.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"exroles.yml" 8L, 203C[1;1H- hosts:
+    - localhost
+  roles:
+    - /home/hchada/EFS/ansible/roles/roles/one
+- hosts:
+    - "{{ hostvars['localhost']['result']['stdout'] }}"
+  roles:
+    - /home/hchada/EFS/ansible/roles/roles/two
+[1m[34m~                                                                                                                                                                                    [10;1H~                                                                                                                                                                                    [11;1H~                                                                                                                                                                                    [12;1H~                                                                                                                                                                                    [13;1H~                                                                                                                                                                                    [14;1H~                                                                                                                                                                                    [15;1H~                                                                                                                                                                                    [16;1H~                                                                                                                                                                                    [17;1H~                                                                                                                                                                                    [18;1H~                                                                                                                                                                                    [19;1H~                                                                                                                                                                                    [20;1H~                                                                                                                                                                                    [21;1H~                                                                                                                                                                                    [22;1H~                                                                                                                                                                                    [23;1H~                                                                                                                                                                                    [24;1H~                                                                                                                                                                                    [25;1H~                                                                                                                                                                                    [26;1H~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ ls
+1exroles.yml  exrole2.yml  exroles.yml  [0m[01;34mr1[0m  [01;34mr2[0m  [01;34mroles[0m  [01;31mroles.tar.gz[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ vi r1/tasks/main.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"r1/tasks/main.yml" 3L, 62C[1;1H- name: save precious value
+  set_fact:[3;7Hpantsu: shiroi
+[1m[34m~                                                                                                                                                                                    [5;1H~                                                                                                                                                                                    [6;1H~                                                                                                                                                                                    [7;1H~                                                                                                                                                                                    [8;1H~                                                                                                                                                                                    [9;1H~                                                                                                                                                                                    [10;1H~                                                                                                                                                                                    [11;1H~                                                                                                                                                                                    [12;1H~                                                                                                                                                                                    [13;1H~                                                                                                                                                                                    [14;1H~                                                                                                                                                                                    [15;1H~                                                                                                                                                                                    [16;1H~                                                                                                                                                                                    [17;1H~                                                                                                                                                                                    [18;1H~                                                                                                                                                                                    [19;1H~                                                                                                                                                                                    [20;1H~                                                                                                                                                                                    [21;1H~                                                                                                                                                                                    [22;1H~                                                                                                                                                                                    [23;1H~                                                                                                                                                                                    [24;1H~                                                                                                                                                                                    [25;1H~                                                                                                                                                                                    [26;1H~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h[?25l[m[56;1H[K[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/roles[hchada@CGDCSSL1047UL roles]$ vi roles/one/tasks/main.yml 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"roles/one/tasks/main.yml" 7L, 130C[1;1H---
+- name: first role
+  shell: "id -un"
+  register: result
+- debug: var=result.stdout
+- set_fact:[7;6Hvhost:{{ result.stdout }}
+[1m[34m~                                                                                                                                                                                    [9;1H~                                                                                                                                                                                    [10;1H~                                                                                                                                                                                    [11;1H~                                                                                                                                                                                    [12;1H~                                                                                                                                                                                    [13;1H~                                                                                                                                                                                    [14;1H~                                                                                                                                                                                    [15;1H~                                                                                                                                                                                    [16;1H~                                                                                                                                                                                    [17;1H~                                                                                                                                                                                    [18;1H~                                                                                                                                                                                    [19;1H~                                                                                                                                                                                    [20;1H~                                                                                                                                                                                    [21;1H~                                                                                                                                                                                    [22;1H~                                                                                                                                                                                    [23;1H~                                                                                                                                                                                    [24;1H~                                                                                                                                                                                    [25;1H~                                                                                                                                                                                    [26;1H~                                                                                                                                                                                    [27;1H~                                                                                                                                                                                    [28;1H~                                                                                                                                                                                    [29;1H~                                                                                                                                                                                    [30;1H~                                                                                                                                                                                    [31;1H~                                                                                                                                                                                    [32;1H~                                                                                                                                                                                    [33;1H~                                                                                                                                                                                    [34;1H~                                                                                                                                                                                    [35;1H~                                                                                                                                                                                    [36;1H~                                                                                                                                                                                    [37;1H~                                                                                                                                                                                    [38;1H~                                                                                                                                                                                    [39;1H~                                                                                                                                                                                    [40;1H~                                                                                                                                                                                    [41;1H~                                                                                                                                                                                    [42;1H~                                                                                                                                                                                    [43;1H~                                                                                                                                                                                    [44;1H~                                                                                                                                                                                    [45;1H~                                                                                                                                                                                    [46;1H~                                                                                                                                                                                    [47;1H~                                                                                                                                                                                    [48;1H~                                                                                                                                                                                    [49;1H~                                                                                                                                                                                    [50;1H~                                                                                                                                                                                    [51;1H~                                                                                                                                                                                    [52;1H~                                                                                                                                                                                    [53;1H~                                                                                                                                                                                    [54;1H~                                                                                                                                                                                    [55;1H~                                                                                                                                                                                    [1;1H[?12l[?25h

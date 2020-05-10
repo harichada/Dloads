@@ -1,0 +1,49 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 11:09:03 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep 24 18:42:50 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Sep 24 18:42:54 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a05[/home/hchada]$ cd /cse/batch
+ankcsepf1a05[/cse/batch]$ ls
+PFT09_Batch_Cluster     archive                 dumps                   fmsproperties_template  sftpfiles.dat
+PFT09_Batch_DS010_01    deploy.log              fmsproperties_PFT09     gpgproperties_PFT09
+ankcsepf1a05[/cse/batch]$ cd PFT09 _Batch _DS010 _01
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ ls
+BatchRpt.txt                 logs                         record_validation_rule.del   transaction_type.del
+hibernateStatistics.log      mqjms.log                    record_validation_value.del  transformation.del
+list_of_value.del            mqjms.log.lck                record_xref.del
+log                          record.del                   refData.sql
+log.txt                      record_layout.del            transaction.del
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01]$ cd logs
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01/logs]$ ls -lagrt
+total 231544
+-rwxrwxrwx    1 cseadmin      34937 Jan 29 2010  trace.log
+-rwxrwxrwx    1 cseadmin   10485444 Dec 31 2015  SystemErr_15.12.31_08.49.15.log
+-rw-rw-r--    1 cseadmin   10483573 Dec 31 2015  SystemErr_15.12.31_09.15.46.log
+-rw-rw-r--    1 cseadmin   10483990 Dec 31 2015  SystemErr_15.12.31_09.27.46.log
+-rw-rw-r--    1 cseadmin   10484696 Dec 31 2015  SystemErr_15.12.31_09.45.25.log
+-rw-rw-r--    1 cseadmin   10484231 Dec 31 2015  SystemErr_15.12.31_09.52.09.log
+-rw-rw-r--    1 cseadmin   10485705 Oct 10 2017  SystemOut_17.10.10_14.54.36.log
+-rw-rw-r--    1 cseadmin         48 Mar 30 2018  SystemOut.log.owner
+-rw-rw-r--    1 cseadmin         48 Mar 30 2018  SystemErr.log.owner
+-rw-rw-r--    1 cseadmin   10482521 Apr 11 2018  SystemOut_18.04.11_14.58.06.log
+drwxrwsrwx    4 cseadmin       4096 Apr 12 2018  ..
+-rw-rw-r--    1 cseadmin   10485568 Jun 21 2018  SystemOut_18.06.21_14.31.55.log
+-rw-rw-r--    1 cseadmin   10485608 Jan 16 2019  SystemOut_19.01.16_09.01.17.log
+-rw-rw-r--    1 cseadmin   10485755 Jun 17 12:11 SystemOut_19.06.17_12.11.26.log
+drwxrwsrwx    2 cseadmin       4096 Jun 17 12:11 .
+-rw-rw-r--    1 cseadmin    3214415 Sep 03 14:01 SystemErr.log
+-rw-rw-r--    1 cseadmin   10383033 Sep 22 22:39 SystemOut.log
+-rwxrwxrwx    1 cseadmin          0 Sep 25 00:00 native_stderr.log
+-rwxrwxrwx    1 cseadmin          0 Sep 25 00:00 native_stdout.log
+ankcsepf1a05[/cse/batch/PFT09_Batch_DS010_01/logs]$ exit

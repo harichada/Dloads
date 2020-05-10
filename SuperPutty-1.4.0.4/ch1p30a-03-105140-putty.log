@@ -1,0 +1,325 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 10:51:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct  3 10:27:06 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] tail -f 2901.txtls *.txt        ls      tail salida.txtfg             /usr/lpp/pd/bin/ipguiadvadmcp /ipm/south/olbt02.pdf /var/pd/hotfolders/1301pl01cp /ipm/south/olbt02.pdf /var/pd/hotfolders/301pl01 01pl01 1pl01 pl01 l01 01 1  /5401pl02
+cp: /var/pd/hotfolders/5401pl02: The file access permissions do not allow the specified action.
+ankcseprda18[/ipm/south] whoami
+ipmcomm
+ankcseprda18[/ipm/south] whoamiwhcp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl02cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl0   pl01
+ankcseprda18[/ipm/south] pdshutdown -c p 5401pa01
+ankcseprda18[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01
+ankcseprda18[/ipm/south] history `1 |    1 | grep pdq
+110     pdq -U -rv -p 4301pa02
+147     pdq -U -rv -p 2001pl01
+148     pdq -U -rv -p 2001pl01
+149     pdq -U -rv -p 2001pl01
+151     pdq -U -rv -p 2001pl01
+152     pdq -U -rv -p 2001pl01
+154     pdq -U -rv -p 2001pl01
+158     pdq -U -rv -p 2001pl01
+159     pdq -U -rv -p 2001pl01
+160     pdq -U -rv -p 2001pl01
+161     pdq -U -rv -p 2001pl01
+162     pdq -U -rv -p 2001pl01
+170     pdq -U -rv -p 1601pl01
+192     pdq -U -rv -p 1601pl01
+244     pdq -U -rv -p  5701pl02
+245     pdq -U -rv -p 5701pl02
+246     pdq -U -rv -p 5701pl02
+247     pdq -U -rv -p 5701pl02
+248     history | grep pdq
+249     history 1 | grep pdq
+250     pdq -U -rv -p 3901pl01
+251     pdq -U -rv -p 5701pl02
+255     pdq -U -rv -p 5701pl01
+263     pdq -U -rv -p 5701pl01
+264     pdq -U -rv -p 5701pl01
+265     pdq -U -rv -p 5701pl01
+266     pdq -U -rv -p 5701pl01
+267     pdq -U -rv -p 5701pl01
+269     pdq -U -rv -p 5701pl01
+270     pdq -U -rv -p 5701pl01
+271     pdq -U -rv -p 5701pl01
+272     pdq -U -rv -p 5701pl01
+273     pdq -U -rv -p 5701pl01
+274     pdq -U -rv -p 5701pl01
+275     pdq -U -rv -p 5701pl01
+276     pdq -U -rv -p 5701pl01
+277     pdq -U -rv -p 5701pl01
+279     pdq -U -rv -p 5701pl01
+356     pdq -U -rv -p 4202pl01
+369     pdq -U -rv -p 4202pl01
+370     pdq -U -rv -p 4202pl01
+371     pdq -U -rv -p 4202pl01
+374     pdq -U -rv -p 4202pl01
+375     pdq -U -rv -p 4202pl01
+376     pdq -U -rv -p 4202pl01
+377     pdq -U -rv -p 4202pl01
+378     pdq -U -rv -p 4202pl01
+379     pdq -U -rv -p 4202pl01
+380     pdq -U -rv -p 4202pl01
+381     pdq -U -rv -p 4202pl01
+382     pdq -U -rv -p 4202pl01
+383     pdq -U -rv -p 4202pl01
+384     pdq -U -rv -p 4202pl01
+385     pdq -U -rv -p 4202pl01
+386     pdq -U -rv -p 4202pl01
+418     pdq -U -rv -p  3901pl01
+419     pdq -U -rv -p  3901pl01
+432     pdq -U -rv -p  3901pl01
+433     pdq -U -rv -p  3901pl01
+434     pdq -U -rv -p  3901pl01
+435     pdq -U -rv -p  3901pl01
+436     pdq -U -rv -p  3901pl01
+437     pdq -U -rv -p  3901pl01
+438     pdq -U -rv -p  3901pl01
+439     pdq -U -rv -p  3901pl01
+444     pdq -U -rv -p  3901pl01
+445     pdq -U -rv -p  3901pl01
+446     pdq -U -rv -p  3901pl01
+447     pdq -U -rv -p  3901pl01
+448     pdq -U -rv -p  3901pl01
+449     pdq -U -rv -p  3901pl01
+450     pdq -U -rv -p  3901pl01
+460     pdq -U -rv -p  3901pl01
+461     pdq -U -rv -p  3901pl01
+462     pdq -U -rv -p  3901pl01
+463     pdq -U -rv -p  3901pl01
+464     pdq -U -rv -p  3901pl01
+479     pdq -U -rv -p 4001pl01
+486     pdq -U -rv -p 4001pl01
+487     pdq -U -rv -p 4001pl01
+488     pdq -U -rv -p 4001pl01
+489     pdq -U -rv -p 4001pl01
+490     pdq -U -rv -p 4001pl01
+491     pdq -U -rv -p 4001pl01
+496     pdq -U -rv -p 4001pl01
+497     pdq -U -rv -p 4001pl01
+498     pdq -U -rv -p 4001pl01
+499     pdq -U -rv -p 4001pl01
+500     pdq -U -rv -p 4001pl01
+501     pdq -U -rv -p 4001pl01
+502     pdq -U -rv -p 4001pl01
+503     pdq -U -rv -p 4001pl01
+504     pdq -U -rv -p 4001pl01
+505     pdq -U -rv -p 4001pl01
+506     pdq -U -rv -p 4001pl01
+507     pdq -U -rv -p 4001pl01
+508     pdq -U -rv -p 4001pl01
+511     pdq -U -rv -p 4001pl01
+512     pdq -U -rv -p 4001pl01
+513     pdq -U -rv -p 4001pl01
+514     pdq -U -rv -p 4001pl01
+538     pdq -U -rv -p 3702pl01
+622     pdq -U -rv -p 2701pa01
+647     pdq -U -rv -p 2701pa01
+648     pdq -U -rv -p 2701pa01
+652     pdq -U -rv -p 2701pa02
+653     pdq -U -rv -p 2701pa
+654     pdq -U -rv -p 2701pa02
+655     pdq -U -rv -p 2701pa02
+656     pdq -U -rv -p 2701pa02
+675     pdq -U -rv -p 4901pl01
+685     pdq -U -rv -p 1506pl01
+688     pdq -U -rv -p 1506pl01
+690     pdq -U -rv -p 1506pl01
+691     pdq -U -rv -p 1506pl01
+692     pdq -U -rv -p 1506pl01
+693     pdq -U -rv -p 1506pl01
+694     pdq -U -rv -p 1506pl01
+695     pdq -U -rv -p 1506pl01
+696     pdq -U -rv -p 1506pl01
+697     pdq -U -rv -p 1506pl01
+698     pdq -U -rv -p 1506pl01
+699     pdq -U -rv -p 1506pl01
+700     pdq -U -rv -p 1506pl01
+704     pdq -U -rv -p 1506pl01
+705     pdq -U -rv -p 1506pl01
+706     pdq -U -rv -p 1506pl01
+707     pdq -U -rv -p 1506pl01
+708     pdq -U -rv -p 1506pl01
+709     pdq -U -rv -p 1506pl01
+710     pdq -U -rv -p 1506pl01
+711     pdq -U -rv -p 1506pl01
+712     pdq -U -rv -p 1506pl01
+715     pdq -U -rv -p 1506pl01
+729     pdq -U -rv -p 0701pl01
+747     pdq -U -rv -p 0701pl01
+748     pdq -U -rv -p 0701pl01
+749     pdq -U -rv -p 0701pl01
+750     pdq -U -rv -p 0701pl01
+751     pdq -U -rv -p 0701pl01
+752     pdq -U -rv -p 0701pl01
+753     pdq -U -rv -p 0701pl01
+754     pdq -U -rv -p 0701pl01
+756     pdq -U -rv -p 0701pl01
+757     pdq -U -rv -p 0701pl01
+758     pdq -U -rv -p 0701pl01
+760     pdq -U -rv -p 0701pl01
+764     pdq -U -rv -p 0701pl01
+765     pdq -U -rv -p 0701pl01
+766     pdq -U -rv -p 0701pl01
+767     pdq -U -rv -p 0701pl01
+768     pdq -U -rv -p 0701pl01
+769     pdq -U -rv -p 0701pl01
+770     pdq -U -rv -p 0701pl01
+771     pdq -U -rv -p 0701pl01
+772     pdq -U -rv -p 0701pl01
+773     pdq -U -rv -p 0701pl01
+774     pdq -U -rv -p 0701pl01
+777     pdq -U -rv -p 0701pl01
+778     pdq -U -rv -p 0701pl01
+779     pdq -U -rv -p 0701pl01
+796     pdq -U -rv -p 4001pl01
+797     pdq -U -rv -p 4001pl01
+798     pdq -U -rv -p 4001pl01
+799     pdq -U -rv -p 4001pl01
+800     pdq -U -rv -p 4001pl01
+801     pdq -U -rv -p 4001pl01
+802     pdq -U -rv -p 4001pl01
+803     pdq -U -rv -p 4001pl01
+804     pdq -U -rv -p 4001pl01
+805     pdq -U -rv -p 4001pl01
+806     pdq -U -rv -p 4001pl01
+807     pdq -U -rv -p 4001pl01
+808     pdq -U -rv -p 4001pl01
+810     pdq -U -rv -p 4001pl01
+812     pdq -U -rv -p 4001pl01
+813     pdq -U -rv -p 4001pl01
+814     pdq -U -rv -p 4001pl01
+815     pdq -U -rv -p 4001pl01
+816     pdq -U -rv -p 4001pl01
+817     pdq -U -rv -p 4001pl01
+836     pdq -U -rv -p 4001pa02
+837     pdq -U -rv -p
+838     pdq -U -rv -p 4001pa02
+839     pdq -U -rv -p 4001pa02
+840     pdq -U -rv -p 4001pa02
+841     pdq -U -rv -p 4001pa02
+842     pdq -U -rv -p 4001pa02
+843     pdq -U -rv -p 4001pa02
+844      pdq -U -rv -p 4001pa02
+845      pdq -U -rv -p 4001pa02
+846      pdq -U -rv -p 4001pa02
+847     pdq -U -rv -p 4001pa02
+848     pdq -U -rv -p 4001pa02
+849     pdq -U -rv -p 4001pa02
+854     pdq -U -rv -p  1502pl01
+873     pdq -U -rv -p  5601pl01
+880     pdq -U -rv -p  1502pl01
+881     pdq -U -rv -p  1502pl01
+882      pdq -U -rv -p  1502pl01
+884     pdq -U -rv -p  1502pl01
+885     pdq -U -rv -p  1502pl01
+886     pdq -U -rv -p  1502pl01
+887     pdq -U -rv -p  1502pl01
+888     pdq -U -rv -p  1502pl01
+889     pdq -U -rv -p  1502pl01
+890     pdq -U -rv -p  1502pl01
+891     pdq -U -rv -p  1502pl01
+892     pdq -U -rv -p  1502pl01
+972     pdq -U -rv -p 1301pl01
+1004    history 1 | grep pdq
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+16   cse16spl01:4451650978  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa02      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01history 1 | grep pdq  cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01
+ankcseprda18[/ipm/south] kkcp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01pdq -U -rv -p 5401pl01                              
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  ripping           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01pdq -U -rv -p 5401pl01                              cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01
+ankcseprda18[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5401pl01pdq -U -rv -p 5401pl01                              
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] pdq -U -rv -p 5401pl01
+                                                                    Current              Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State       Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  ----------  -------  -----------  -----------  ------------  ------  ----------  
+17   cse16spl01:4451650979  /var/pd/hotfolders/5401pl01/olbt02.pdf  processing           0            5401pl01     5401pa01      11050   @csehap116  
+18   cse16spl01:4451650980  /var/pd/hotfolders/5401pl01/olbt02.pdf  pending              1            5401pl01                   11050   @csehap116  
+ankcseprda18[/ipm/south] portet  test 1692 .2.167.173
+NO,YES,NO,NOankcseprda18[/ipm/south] porttest 169.2.167.173porttest 169.2.167.174
+NO,YES,NO,NOankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

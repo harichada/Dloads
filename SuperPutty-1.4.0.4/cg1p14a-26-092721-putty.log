@@ -1,0 +1,716 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.26 09:27:21 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Aug 26 16:02:41 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 26 09:23:17 PDT 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsesyta05[/home/cseamin]$ 
+ankcsesyta05[/home/cseadmin]$ 
+ankcsesyta05[/home/cseadmin]$ 
+ankcsesyta05[/home/cseadmin]$ 
+ankcsesyta05[/home/cseadmin]$ clear
+[H[2Jankcsesyta05[/home/cseadmin]$ ls
+060000000.LRS.201710171001054.0007.txt               find_LUN_CuLDev_cv.sh
+060000000.RSE.000000000000000.0000TEST.txt           find_LUN_CuLDev_print.sh
+ALL_ACCOUNTS.txt                                     find_LUN_sizes.sh
+ALL_ACCOUNTS_sorted.txt                              find_wwn.sh
+BOEfile                                              get
+EFL_019_BF_SISK_COURTHOUSETEST_20161115.zip          ibmcmconfig.properties
+EFL_019_BF_SISK_COURTHOUSETEST_20161115.zip.done     logs
+EFL_083_SANTA_MARIA_CIVIL_DIVISIONTEST_20180601.zip  makeIntegrationStage.ksh
+EFiling                                              mbox
+IRS_user_home_updated.sh                             memory_paging_COPY.sh
+LIVE_ACCOUNTS.txt                                    memory_paging_NON_PROD_mail.sh
+NFS_mounts_verify.sh                                 memory_paging_RUN.sh
+NFS_mounts_verify_20180723.sh                        memory_paging_SELECT.sh
+NFS_mounts_verify_P8.sh                              memory_paging_SELECT_test.sh
+NFS_mounts_verify_paul.sh                            memory_paging_check.sh
+NFS_selfcheck.sh                                     memory_paging_output
+NFS_selfcheck.sh_20180723.sh                         memory_paging_vmstat_NON_PROD.sh
+NFS_selfcheck_output.dat                             nfs_selfcheck.sh
+OLD_ACCOUNTS.txt                                     non_prod.csr
+OLD_ACCOUNTS_sorted.txt                              p8_hostnames.txt
+OMS_SYT_QUICK                                        p8_hostnames_reverse.txt
+SCRIPTS                                              p8_hostnames_reverse_sorted.txt
+SCRPTS                                               resetUser.ksh
+TylerEFilingWork                                     runBatchStream.ksh
+WAS8.5_init_scripts                                  run_on_NonProd.sh
+batch                                                showerrpt.pl
+checkUser.ksh                                        smit.log
+cmbcmenv.properties                                  smit.script
+cmbicmsrvs.ini                                       smit.transaction
+cmblogconfig.properties                              tempfile
+copyToNonProd.sh                                     test
+createOrangeCountyDirectories.sh                     utils
+cse.gpg                                              verifyOrangeCountyDirectories.sh
+do_not_email                                         vitaliys_scripts
+errpt_mail.sh                                        vmstat_mail.sh
+find_LUN_CuLDev.sh                                   workspace
+ankcsesyta05[/home/cseadmin]$ ps -ef | grep java
+    root  4522176  7995394   0   Aug 13      -  8:21 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=2iY4MiygFxdMrfPu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7995394 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin  5111838        1   1   Aug 13      - 213:52 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=32897 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 nodeagent
+wasadmin  9371688  5111838   0   Sep 17      - 41:47 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=61254 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT01_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT02_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT01_Batch
+wasadmin  9437412  5111838   0   Aug 23      - 126:02 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=61764 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT08_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT08_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT08_Batch
+    root  9896168        1   1   Aug 13      - 331:09 /maestro/eWAS/java/bin/java -Declipse.security -Dwas.status.socket=33809 -Dosgi.install.area=/maestro/eWAS -Dosgi.configuration.area=/maestro/eWAS/profiles/TIPProfile/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/maestro/eWAS/java/jre/lib/ext/ibmorb.jar:/maestro/eWAS/java/jre/lib/ext/ibmext.jar -classpath /maestro/eWAS/profiles/TIPProfile/properties:/maestro/eWAS/properties:/maestro/eWAS/lib/startup.jar:/maestro/eWAS/lib/bootstrap.jar:/maestro/eWAS/lib/jsf-nls.jar:/maestro/eWAS/lib/lmproxy.jar:/maestro/eWAS/lib/urlprotocols.jar:/maestro/eWAS/deploytool/itp/batchboot.jar:/maestro/eWAS/deploytool/itp/batch2.jar:/maestro/eWAS/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx1024m -Xcompressedrefs -Dws.ext.dirs=/maestro/eWAS/java/lib:/maestro/eWAS/profiles/TIPProfile/classes:/maestro/eWAS/classes:/maestro/eWAS/lib:/maestro/eWAS/installedChannels:/maestro/eWAS/lib/ext:/maestro/eWAS/web/help:/maestro/eWAS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/maestro/eWAS/derby -Dcom.ibm.itp.location=/maestro/eWAS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/maestro/eWAS/profiles/TIPProfile -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/maestro/eWAS -Dpython.cachedir=/maestro/eWAS/profiles/TIPProfile/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/maestro/eWAS/profiles/TIPProfile -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.net.preferIPv6Addresses=false -Djava.net.preferIPv4Stack=false -Dcom.ibm.CORBA.enableClientCallbacks=true -Djava.awt.headless=true -Djava.security.auth.login.config=/maestro/eWAS/profiles/TIPProfile/properties/wsjaas.conf -Djava.security.policy=/maestro/eWAS/profiles/TIPProfile/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /maestro/eWAS/profiles/TIPProfile/config TIPCell TIPNode server1
+wasadmin 19726442  5111838   0   Aug 23      - 126:33 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=61761 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT02_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT02_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT02_Batch
+wasadmin 21168294  5111838   1   Sep 19      - 25:49 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=34184 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT11_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT11_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT11_Batch
+wasadmin 23658584  5111838   0 13:02:03      -  3:52 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=54657 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT12_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx672m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT12_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT12_Batch
+wasadmin 35979276        1   0   Sep 25      -  4:26 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT06_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT06_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT06_Batch
+wasadmin 38338704  5111838   0   Sep 12      - 51:31 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=45567 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT04_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT04_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT04_Batch
+wasadmin 41877624  5111838   1   Sep 24      - 18:26 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=59892 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYT03_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms64m -Xmx416m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT -Dlogging.folder=/cse/batch/SYT03_Batch/logs -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYT/logging.xml -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p10aCell01 cg1p14aNode01 SYT03_Batch
+ankcsesyta05[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiels/    les/App*
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer]$ ls
+bin                  expandedBundles      installedConnectors  servers              wstemp
+config               firststeps           installedFilters     temp                 xd_discovery
+configuration        installableApps      logs                 tranlog
+etc                  installedApps        properties           workspace
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer]$ cd logs
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs]$ ls
+AboutThisProfile.txt  SYT04_Batch           SYT11_Batch           ffdc                  wsadmin.valout
+SYT01_Batch           SYT06_Batch           SYT12_Batch           nodeagent             wsadminListener.out
+SYT02_Batch           SYT07_Batch           activity.log          syncNode.log
+SYT03_Batch           SYT08_Batch           backupConfig.log      wsadmin.traceout
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs]$ cd SYT02 _Batch
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ ls
+SYT02_Batch.pid    btrace.1           native_stderr.log  objects            trace.log          trace.log.owner
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ tail trace.log
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>
+
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURELienActivityImpl.java:873)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivityImpl.java:274)
+        at gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELienActivityImpl.java:970)
+        ... 22 more
+
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ vi trace.log
+[?1049h[95;1H[?12;25h[?1h="trace.log" 468 lines, 44212 characters [H[2J************ Start Display Current Environment ************[H
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name cg1p10aCell0
+1\cg1p14aNode01\SYT02_Batch and process id 19726442
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name
+= IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSp
+here/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppSer
+ver_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdepl
+oy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/A
+ppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/We
+bSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/
+itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.j
+ar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_
+CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/
+jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/
+default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr
+/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/App
+Server_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/
+:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+Current trace specification = *=info:com.ibm.ws.webservices.engine.*=all
+************* End Display Current Environment *************
+************ Start Display Current Environment ************
+WebSphere Platform 8.5.5.14 [ND 8.5.5.14 cf141830.01] [IBMJAVA71 7.1.4.15 cf131751.02] running with process name cg1p10aCell0
+1\cg1p14aNode01\SYT02_Batch and process id 19726442
+Host Operating System is AIX, version 7.1
+Java version = 1.7.0, Java Runtime Version = pap3270_27sr4fp15-20171116_01 (SR4 FP15), Java Compiler = j9jit27, Java VM name
+= IBM J9 VM
+was.install.root = /usr/WebSphere/AppServer_85
+user.install.root = /usr/WebSphere/AppServer_85/profiles/AppServer
+Java Home = /usr/WebSphere/AppServer_85/java_1.7.1_32/jre
+ws.ext.dirs = /usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSp
+here/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppSer
+ver_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdepl
+oy/runtime
+Classpath = /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/A
+ppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/We
+bSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/
+itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.j
+ar:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_CONFIG/default-domain.cfg:/cse/lib/Jar_Repository/TECHARCH_REPORTING/BRIO_
+CONFIG/ionaprop.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/
+jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar
+Java Library path = /usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/
+default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr
+/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/App
+Server_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/
+:/cse/lib/:
+Orb Version = IBM Java ORB build orb727-20170411.00
+Max file descriptor count = --
+Current trace specification = *=info:com.ibm.ws.webservices.engine.*=all
+************* End Display Current Environment *************
+[9/25/19 15:26:05:954 PDT] 0000192d ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:c
+om.ibm.ws.webservices.engine.*=all:com.ibm.ws.websvcs.trace.*=all.
+[9/25/19 15:26:05:995 PDT] 0000192d ManagerAdmin  I   TRAS0018I: The trace state has changed. The new trace state is *=info:c
+om.ibm.ws.webservices.engine.*=all:com.ibm.ws.websvcs.trace.*=all.
+[9/25/19 15:34:40:330 PDT] 000000b8 SystemOut     O   DEBUG: JavaMail version 1.4.2
+[9/25/19 15:34:40:333 PDT] 000000b8 SystemOut     O   DEBUG: successfully loaded resource: /META-INF/javamail.default.provide
+rs
+[9/25/19 15:34:40:333 PDT] 000000b8 SystemOut     O   DEBUG: Tables of loaded providers
+[9/25/19 15:34:40:333 PDT] 000000b8 SystemOut     O   DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransp
+ort=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTran
+sport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLSto
+re=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=java
+x.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Pro
+vider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,po
+p3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+[9/25/19 15:34:40:333 PDT] 000000b8 SystemOut     O   DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,i
+maps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,S
+un Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], p
+op3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,
+com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTranspor
+t,Sun Microsystems, Inc]}
+[9/25/19 15:34:40:333 PDT] 000000b8 SystemOut     O   DEBUG: successfully loaded resource: /META-INF/javamail.default.address
+.map
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O   *** In SessionFactory.setPasswordAuthentication, TRANSPORT PasswordAuth
+entication is based on:
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     url=smtp://erwin.enriquez@relay.mail.ca.gov
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     user=erwin.enriquez
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     password=********************
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O   *** In SessionFactory.setPasswordAuthentication, TRANSPORT PasswordAuth
+entication is based on:
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     url(Port=-1)=smtp://erwin.enriquez@relay.mail.ca.gov
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     user=erwin.enriquez
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O     password=********************
+[9/25/19 15:34:40:336 PDT] 000000b8 SystemOut     O   *** In SessionFactory.getObjectInstance, session properties:
+[9/25/19 15:34:40:337 PDT] 000000b8 SystemOut     O     mail.store.protocol=pop3
+[9/25/19 15:34:40:337 PDT] 000000b8 SystemOut     O     mail.transport.protocol=smtp[H[94B"trace.log" 468 lines, 44212 characters[H[H[2J[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)
+[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)
+[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)
+[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)
+[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)
+[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)
+[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)
+[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)
+[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)
+[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)
+[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)
+[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUR
+EBatchesTaskStep.java:153)
+[8C... 21 more
+Caused by:
+gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M
+<BODY><h2>Service Unavailable</h2>^M
+<hr><p>HTTP Error 503. The service is unavailable.</p>^M
+</BODY></HTML>^M
+
+[8Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)
+[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)
+[7Dat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[46;1H[45;8H[2A[2A[2A[A[A[A[A[A[A[2A[A[29;8H[2A[2A[A[A[A[A[A[A[3A[A[14;8H[A[A[A[A[A[A[A[A[A[A[A[2A[H[2L[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)[93B[K[1;8H[H[2L[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)[93B[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)[95;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)[95;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)[95;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)[95;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)[95;1H[K[1;8H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)[95;1H[K[1;8H[H[2L[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUR
+EBatchesTaskStep.java:160)[93B[K[1;8H[H[1Lgov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[95;1H[K[H[2L[9/25/19 16:23:00:651 PDT] 000000b8 SystemOut     O   WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error runnin
+g Partition[1][93B[K[H[1L[94B[K[H[1L[9/25/19 16:23:00:650 PDT] 000000b8 SystemOut     O   221 2.0.0 Bye^M[95;1H[K[H[1L[94B[K[H[1L[9/25/19 16:23:00:649 PDT] 000000b8 SystemOut     O   QUIT^M[95;1H[K[H[1L[94B[K[H[1L[9/25/19 16:23:00:649 PDT] 000000b8 SystemOut     O   250 2.0.0 Ok: queued as 9BB3B857B^M[95;1H[K[H[1L[94B[K[H[1L.^M[95;1H[K[H[1L</BODY></HTML>^M[95;1H[K[H[1L<hr><p>HTTP Error 503. The service is unavailable.</p>^M[95;1H[K[H[1L<BODY><h2>Service Unavailable</h2>^M[95;1H[K[H[1L<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M[95;1H[K[H[1L<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M[95;1H[K[H[4LAttempt to Login failed for dcsssapisvc_uat_SYT02. gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Except
+ion occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Co
+de while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""h
+ttp://www.w3.org/TR/html4/strict.dtd">^M[91B[K[H[1L^M[95;1H[K[H^[H[1LContent-Transfer-Encoding: 7bit^M[95;1H[K[H[1LContent-Type: text/html; charset=us-ascii^M[95;1H[K[H[1LMIME-Version: 1.0^M[95;1H[K[H[1L DCSSSECUREeRecordingBatchFailedNotification@dcss.ca.gov^M[95;1H[K[H[1LSubject: SECURE Attempt to Login failed - Test Email from SYT02 for^M[95;1H[K[H[1LMessage-ID: <-833435867.4.1569453780593.JavaMail.wasadmin@ankcsesyta05>^M[95;1H[K[H[1LTo: DCSSeDocSYS@dcss.ca.gov^M[95;1H[K[H[1LReply-To: no-reply@dcss.ca.gov^M[95;1H[K[H[1LFrom: California Department of Child Support Services <no-reply@dcss.ca.gov>^M[95;1H[K[H[1L[9/25/19 16:23:00:640 PDT] 000000b8 SystemOut     O   Date: Wed, 25 Sep 2019 16:23:00 -0700 (PDT)^M[95;1H[K[H[1L[94B[K[H[1L[9/25/19 16:23:00:640 PDT] 000000b8 SystemOut     O   354 End data with <CR><LF>.<CR><LF>^M[95;1H[K[H[1L[94B[K[H[1L[9/25/19 16:23:00:639 PDT] 000000b8 SystemOut     O   DATA^M[95;1H[K[H[1L[9/25/19 16:23:00:638 PDT] 000000b8 SystemOut     O   DEBUG SMTP:   DCSSeDocSYS@dcss.ca.gov[95;1H[K[H[1L[9/25/19 16:23:00:638 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Verified Addresses[H[H[2J[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)
+[8C... 22 more
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[1;9H[H[2J[8C... 22 more[H
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[1;9H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[H[2L[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:970)[93B[K[1;9H[H[2L[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.authenticate(CSESECURELienActivit
+yImpl.java:274)[93B[K[1;9H[H[2L[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.isSecurePasswordExpired(CSESECURE
+LienActivityImpl.java:873)[93B[K[1;9H[H[1L[94B[K[H[1L</BODY></HTML>^M[95;1H[K[1;9H[H[1L<hr><p>HTTP Error 503. The service is unavailable.</p>^M[95;1H[K[1;9H[H[1L<BODY><h2>Service Unavailable</h2>^M[95;1H[K[1;9H[H[1L<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M[95;1H[K[1;9H[H[1L<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M[95;1H[K[1;9H[H[2Lgov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Re
+ceived: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M[93B[K[1;9H[H[1LCaused by:[95;1H[K[1;9H[H[1L[8C... 21 more[95;1H[K[1;9H[H[2L[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUR
+EBatchesTaskStep.java:153)[93B[K[1;9H[H[2L[8Cat gov.ca.dcss.cse.cases.enforcement.lien.SECURE.activity.CSESECURELienActivityImpl.createSesionTokenId(CSESECURELien
+ActivityImpl.java:974)[93B[K[1;9H[H[1L[94B[K[H[1L</BODY></HTML>^M[95;1H[K[1;9H[H[1L<hr><p>HTTP Error 503. The service is unavailable.</p>^M[95;1H[K[1;9H[H[1L<BODY><h2>Service Unavailable</h2>^M[95;1H[K[1;9H[H[1L<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M[95;1H[K[1;9H[H[1L<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M[95;1H[K[1;9H[H[3Lgov.ca.dcss.arch.common.exception.EnvironmentException: Environment Exception occured while creating session token id:-gov.ca
+.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Code while invoking Login API, Response Code Received
+: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">^M[92B[K[1;9H[H[1LCaused by:[95;1H[K[1;9H[H[1L[8Cat com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)[95;1H[K[1;9H[H[1L[8Cat com.ibm.ws.giop.threadpool.PooledThread.run(PooledThread.java:102)[95;1H[K[1;9H[H[1L[8Cat com.ibm.ws.giop.threadpool.PooledThread.handleRequest(PooledThread.java:81)[95;1H[K[1;9H[H[1L[8Cat com.ibm.ws.giop.filter.GiopFilterChain.processMessage(GiopFilterChain.java:203)[95;1H[K[1;9H[H[1L[8Cat com.ibm.ws.giop.threadpool.WorkQueueElement.dispatch(WorkQueueElement.java:174)[95;1H[K[1;9H[H[1L[8Cat com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:64)[95;1H[K[1;9H[H[1L[8Cat com.ibm.rmi.iiop.Connection.doWork(Connection.java:3030)[95;1H[K[1;9H[H[1L[8Cat com.ibm.rmi.iiop.Connection.doRequestWork(Connection.java:3166)[95;1H[K[1;9H[H[1L[8Cat com.ibm.CORBA.iiop.ORB.process(ORB.java:1583)[95;1H[K[1;9H[H[1L[8Cat com.ibm.rmi.iiop.ORB.process(ORB.java:607)[95;1H[K[1;9H[H[1L[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatch(ServerDelegate.java:510)[95;1H[K[1;9H[H[1L[8Cat com.ibm.CORBA.iiop.ServerDelegate.dispatchInvokeHandler(ServerDelegate.java:628)[95;1H[K[1;9H[H[2L[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie._invoke(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:106)[93B[K[1;9H[H[2L[8Cat gov.ca.dcss.arch.services.batch._EJSRemoteStatelessCSETaskPartitionService_1cadaa70_Tie.execute(_EJSRemoteStateles
+sCSETaskPartitionService_1cadaa70_Tie.java:167)[93B[K[1;9H[H[2L[8Cat gov.ca.dcss.arch.services.batch.EJSRemoteStatelessCSETaskPartitionService_1cadaa70.execute(EJSRemoteStatelessCSETa
+skPartitionService_1cadaa70.java:32)[93B[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.services.batch.TaskPartitionServiceBean.execute(TaskPartitionServiceBean.java:103)[95;1H[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.execute(TaskPartitionLocal.java:67)[95;1H[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.batch.job.partition.TaskPartitionLocal.init(TaskPartitionLocal.java:180)[95;1H[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.init(TaskControllerImpl.java:311)[95;1H[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskControllerImpl.loadTaskStep(TaskControllerImpl.java:1311)[95;1H[K[1;9H[H[1L[8Cat gov.ca.dcss.arch.batch.job.TaskStep.baseInit(TaskStep.java:717)[95;1H[K[1;9H[H[2L[8Cat gov.ca.dcss.cse.interfaces.lien.SECURE.inbound.batch.CheckCompletedSECUREBatchesTaskStep.setup(CheckCompletedSECUR
+EBatchesTaskStep.java:160)[93B[K[1;9H[H[1Lgov.ca.dcss.arch.batch.exception.CriticalException: Cannot get SESSION TOKEN ID.  Login error. Stack Trace Follows :::[95;1H[K[1;9H[H[2L[9/25/19 16:23:00:651 PDT] 000000b8 SystemOut     O   WARN  gov.ca.dcss.arch.batch.job.partition.TaskPartition - Error runnin
+g Partition[1][93B[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:650 PDT] 000000b8 SystemOut     O   221 2.0.0 Bye^M[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:649 PDT] 000000b8 SystemOut     O   QUIT^M[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:649 PDT] 000000b8 SystemOut     O   250 2.0.0 Ok: queued as 9BB3B857B^M[95;1H[K[1;9H[H[1L[94B[K[H[1L.^M[95;1H[K[H.^[H[1L</BODY></HTML>^M[95;1H[K[1;9H[H[1L<hr><p>HTTP Error 503. The service is unavailable.</p>^M[95;1H[K[1;9H[H[1L<BODY><h2>Service Unavailable</h2>^M[95;1H[K[1;9H[H[1L<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>^M[95;1H[K[1;9H[H[1L<HTML><HEAD><TITLE>Service Unavailable</TITLE>^M[95;1H[K[1;9H[H[4LAttempt to Login failed for dcsssapisvc_uat_SYT02. gov.ca.dcss.arch.common.exception.EnvironmentException: Environment Except
+ion occured while creating session token id:-gov.ca.dcss.arch.common.exception.EnvironmentException: Invalid HTTP Response Co
+de while invoking Login API, Response Code Received: 503, Response Error: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""h
+ttp://www.w3.org/TR/html4/strict.dtd">^M[91B[K[1;9H[H[1L^M[95;1H[K[H^[H[1LContent-Transfer-Encoding: 7bit^M[95;1H[K[1;9H[H[1LContent-Type: text/html; charset=us-ascii^M[95;1H[K[1;9H[H[1LMIME-Version: 1.0^M[95;1H[K[1;9H[H[1L DCSSSECUREeRecordingBatchFailedNotification@dcss.ca.gov^M[95;1H[K[1;9H[H[1LSubject: SECURE Attempt to Login failed - Test Email from SYT02 for^M[95;1H[K[1;9H[H[1LMessage-ID: <-833435867.4.1569453780593.JavaMail.wasadmin@ankcsesyta05>^M[95;1H[K[1;9H[H[1LTo: DCSSeDocSYS@dcss.ca.gov^M[95;1H[K[1;9H[H[1LReply-To: no-reply@dcss.ca.gov^M[95;1H[K[1;9H[H[1LFrom: California Department of Child Support Services <no-reply@dcss.ca.gov>^M[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:640 PDT] 000000b8 SystemOut     O   Date: Wed, 25 Sep 2019 16:23:00 -0700 (PDT)^M[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:640 PDT] 000000b8 SystemOut     O   354 End data with <CR><LF>.<CR><LF>^M[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:639 PDT] 000000b8 SystemOut     O   DATA^M[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:638 PDT] 000000b8 SystemOut     O   DEBUG SMTP:   DCSSeDocSYS@dcss.ca.gov[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:638 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Verified Addresses[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:638 PDT] 000000b8 SystemOut     O   250 2.1.5 Ok^M[95;1H[K[A@[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:595 PDT] 000000b8 SystemOut     O   RCPT TO:<DCSSeDocSYS@dcss.ca.gov>^M[95;1H[K[A@[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:595 PDT] 000000b8 SystemOut     O   250 2.1.0 Ok^M[95;1H[K[A@[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:593 PDT] 000000b8 SystemOut     O   MAIL FROM:<no-reply@dcss.ca.gov>^M[1;9H[H[1L[9/25/19 16:23:00:593 PDT] 000000b8 SystemOut     O   DEBUG SMTP: use8bit false[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "DSN", arg ""[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "8BITMIME", arg ""[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "STARTTLS", arg ""[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "ETRN", arg ""[95;1H[K[A@[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "SIZE", arg "104857600"[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   DEBUG SMTP: Found extension "PIPELINING", arg ""[95;1H[K[1;9H[H[1L[94B[K[H[1L250 DSN^M[95;1H[K[A@[K[1;9H[H[1L250-8BITMIME^M[95;1H[K[1;9H[H[1L250-ENHANCEDSTATUSCODES^M[95;1H[K[A@[K[1;9H[H[1L250-STARTTLS^M[95;1H[K[1;9H[H[1L250-ETRN^M[H[1L250-SIZE 104857600^M[95;1H[K[1;9H[H[1L250-PIPELINING^M[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:591 PDT] 000000b8 SystemOut     O   250-smtprelgc02.mail.ca.gov^M[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:590 PDT] 000000b8 SystemOut     O   EHLO ankcsesyta05^M[95;1H[K[1;9H[H[1L[94B[K[2A@[K
+@[K[H[1L[9/25/19 16:23:00:589 PDT] 000000b8 SystemOut     O   DEBUG SMTP: connected to host "relay.mail.ca.gov", port: 25[95;1H[K[1;9H[H[1L[94B[K[H[1L[9/25/19 16:23:00:589 PDT] 000000b8 SystemOut     O   220 ESMTP IMSVA^M[95;1H[K[1;9H[H[2L[9/25/19 16:23:00:585 PDT] 000000b8 SystemOut     O   DEBUG SMTP: trying to connect to host "relay.mail.ca.gov", port 25, isS
+SL false[93B[K[1;9H[H[1L[9/25/19 16:23:00:585 PDT] 000000b8 SystemOut     O   DEBUG SMTP: useEhlo true, useAuth false[95;1H[K[1;9H[H[2L[9/25/19 16:23:00:585 PDT] 000000b8 SystemOut     O   DEBUG: mail.smtp.class property exists and points to com.sun.mail.smtp.
+SMTPTransport[93B[K[1;9H[H[1L[9/25/19 16:23:00:581 PDT] 000000b8 SystemOut     O     mail.mime.address.strict=true[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.pop3.class=com.sun.mail.pop3.POP3Store[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.smtp.user=erwin.enriquez[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.imap.class=com.sun.mail.imap.IMAPStore[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.smtps.class=com.sun.mail.smtp.SMTPSSLTransport[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.smtp.class=com.sun.mail.smtp.SMTPTransport[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.pop3s.class=com.sun.mail.pop3.POP3SSLStore[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.debug=true[95;1H[K[A@[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.smtp.host=relay.mail.ca.gov[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.imaps.class=com.sun.mail.imap.IMAPSSLStore[95;1H[K[A@[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.transport.protocol=smtp[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:580 PDT] 000000b8 SystemOut     O     mail.store.protocol=pop3[95;1H[K[A@[K[1;9H[H[1L[9/25/19 16:23:00:579 PDT] 000000b8 SystemOut     O   *** In SessionFactory.getObjectInstance, session properties:[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:579 PDT] 000000b8 SystemOut     O     password=********************[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:579 PDT] 000000b8 SystemOut     O     user=erwin.enriquez[95;1H[K[1;9H[H[1L[9/25/19 16:23:00:579 PDT] 000000b8 SystemOut     O     url(Port=-1)=smtp://erwin.enriquez@relay.mail.ca.gov[95;1H[K[1;9H
+
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[91B:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ ls tracing*
+ls: 0653-341 The file tracing* does not exist.
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ ls * tracin       tracing*
+ls: 0653-341 The file *tracing* does not exist.
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ ls *tra*
+btrace.1         trace.log        trace.log.owner
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/logs/SYT02_Batch]$ ls  cd ./ ./../config
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config]$ cd cseP*
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls  cd cseP*cd ../../configls *tra*       
+SYT01.tracing.properties           SYT06.tracing.properties           SYT11.tracing.properties
+SYT02.tracing.properties           SYT07.tracing.properties           SYT12.tracing.properties
+SYT03.tracing.properties           SYT08.tracing.properties           securityAdministration.properties
+SYT04.tracing.properties           SYT09.tracing.properties
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ cat SYT02.tracing.properties
+#*******************************************************************************
+#* 
+#* Tracing Levels:
+#*   To control messages logged using the ArchTracer or Tracer methods, you
+#*   specify one of the following message levels.
+#* 
+#*   OFF,ERROR,WARN,INFO,DEBUG - TRACE_SCOPE,TRACE_HIGH,TRACE_MEDIUM,TRACE_LOW 
+#* 
+#*   You use the same pattern as used in the log4j.properties file for
+#*   OFF-DEBUG but use the TraceLevel format as shown below when specifying
+#*   the TRACE_* levels.
+#*
+#* Examples:
+#*   1. TRACE_LOW - all of the above levels will write to the appender.
+#*   2. TRACE_SCOPE - TRACE_SCOPE, DEBUG, INFO, WARN and ERROR.
+#*   3. INFO - INFO, WARN and ERROR. 
+#*   4. OFF - Turn off all trace messages. 
+#*
+#*   One thing to note is that DEBUG and TRACE_SCOPE are equivalent trace levels. 
+#*   The difference between the two is you must specify
+#*   gov.ca.dcss.arch.common.trace.TraceLevel for TRACE_SCOPE.
+#*
+#* The gov.ca.dcss.arch.common.trace.TraceLevel Format:
+#*   If you are going to specify one of our custom TRACE_* values, the TraceLevel
+#*   translates our custom level to a log4j level which is an integer value. 
+#*
+#*   This example enables TRACE_SCOPE but disables all other TRACE_* levels:
+#*     log4j.logger.gov.ca.dcss.arch.batch.job.EJBContainerTransactionServiceImpl=TRACE_SCOPE#gov.ca.dcss.arch.common.trace.TraceLevel
+#*
+#* The log4j Format:
+#*   If you are going to use one of the base values from log4j (DEBUG,INFO,WARN or ERROR), 
+#*   do not add the "#gov.ca.dcss.arch.common.trace.TraceLevel" qualifier at the
+#*   end of the definition.
+#*
+#*   This example turns off all TRACE_* messages:
+#*     log4j.logger.gov.ca.dcss.arch.batch.job.EJBContainerTransactionServiceImpl=INFO 
+#*
+#* Optimizing trace messages during development:
+#*
+#*   This examples turns off gov* which pretty much turns everything in the CSE app off.
+#*   By adding a specific trace level to the specific area I am interested in,
+#*   you can limit trace messages to the area of interest.
+#*
+#*     log4j.rootLogger=TRACE_HIGH#gov.ca.dcss.arch.common.trace.TraceLevel,console
+#*     log4j.logger.gov=OFF
+#*     log4j.logger.gov.ca.dcss.cse.financial=TRACE_LOW#gov.ca.dcss.arch.common.trace.TraceLevel
+#*
+#* tracing.properties vs log4j.properties
+#*   The values specified in the tracing.properties file ONLY apply to method
+#*   invocations on the ArchTracer and Tracer classes. To control method invocations
+#*   using the log4j Logger class, use the log4j.properties file.
+#*    
+#* Example tracing.properties Tracer invocation: 
+#*    
+#*   private void test( ) 
+#*   {
+#*      Tracer.medium("This is a medium message."); 
+#*   } 
+#*    
+#* Example log4j.properties Logger invocation:
+#*   Example using the log4j Logger class: 
+#*    
+#*   private void test( ) 
+#*   {
+#*      LOGGER.warn("This is a warning"); 
+#*   } 
+#*
+#*   private static final Logger LOGGER = Logger.getLogger( BatchBootstrap.class );
+#*
+#* Common Problems:
+#*   Problem: No TRACE_* messages are being written to the log
+#*   Solution: Make sure that the log4j.rootLogger is enabled appropriately as shown.
+#*             Note that you can specify any of the TRACE_* or log4j trace levels
+#*             as a default. The value at the end MUST be present as it routes all
+#*             trace messages to the console appender by default.
+#*
+#*   Example:
+#*     log4j.rootLogger=TRACE_LOW#gov.ca.dcss.arch.common.trace.TraceLevel,console
+#* 
+#*******************************************************************************
+
+#*******************************************************************************
+#* enable.scope - Set the property to true to enable scope message logging. 
+#*                Even with scope enabled you can still override scope for 
+#*                specific packages and/or classes by adding an entry. See 
+#*                the log4j.logger.gov.ca.dcss.arch specified below.
+#* 
+#* enable.scope.indenting - true to indent scope messages
+#* 
+#* enable.scope.results - true to enable exit scope result message logging
+#* 
+#* mdb.tracing.enabled - true to enable MDB tracing.
+#*******************************************************************************
+enable.scope=false
+enable.scope.indenting=false
+enable.scope.results=false
+mdb.tracing.enabled=true
+
+#*******************************************************************************
+#* Overrides:
+#*   Overrides the value specified for the log4j.rootLogger, for all
+#*   classes which match the specified pattern. The following overrides are 
+#*   provided to limit the amount of trace information generated by the
+#*   architecture. You can place your tracing overrides here as well.
+#*******************************************************************************
+log4j.logger.gov.ca.dcss.arch=WARN
+log4j.logger.gov.ca.dcss.cse.validation.ValidationFilter=WARN
+log4j.logger.org.grnds.structural.icstruts=WARN
+
+#*******************************************************************************
+#* set rootLogger to either TRACE_LOW, TRACE_MEDIUM, TRACE_HIGH, TRACE_SCOPE for filtering
+#* set rootLogger appender to console or file for output preference.
+#*
+#* Examples:
+#*   log4j.rootLogger=TRACE_LOW#gov.ca.dcss.arch.common.trace.TraceLevel,console
+#*   log4j.rootLogger=INFO,console
+#*******************************************************************************
+log4j.rootLogger=OFF
+#log4j.rootLogger=TRACE_HIGH#gov.ca.dcss.arch.common.trace.TraceLevel,console
+
+#*******************************************************************************
+#* This defines how the messages will be formatted when written to the console.
+#* Do not change these values!
+#*******************************************************************************
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%d{ISO8601} %-12p %c: %m%n
+
+#*******************************************************************************
+#* If you would like to send all tracing messages to a file, update the root logger
+#* to "log4j.rootLogger=TRACE_HIGH#gov.ca.dcss.arch.common.trace.TraceLevel,file" and
+#* replace the /logs/trace.log below to an appropriate location.
+#*******************************************************************************
+log4j.appender.file=org.apache.log4j.FileAppender
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d{ISO8601} %-12p %c: %m%n
+log4j.appender.file.File=C:/logs/trace.log
+
+#*******************************************************************************
+#* set property to comma-delimited list of MDB "TracingName" values to enable trace
+#* of each MDB (if mdb.tracing.enabled); "TracingName" is set in ejb-jar.xml.
+#*
+#* For example, here are all the MDBs in the CSE system by project:
+#* (ArchServices) general-purpose AsyncActivity MDBs:
+#*    mdb.tracing.beans=AsynchronousCallHandlerMDB,AsynchronousCallHandlerFormMDB
+#* (ArchServicesReporting) Reporting-related MDBs:
+#*    ReportRequestRoutingMessageHandler,ReportRequestFastMessageHandler,ReportRequestSlowMessageHandler,ReportRequestDWFastMessageHandler,ReportRequestDWSlowMessageHandler,ReportRequestBalRegenMessageHandler
+#* (BusinessUtilitiesServices) MDBs:
+#*    EmailHandler,CentralScanStoreImageMessageHandler
+#* (Case (CDM) Services) MDBs:
+#*    FCRCaseRecordMessageHandler,FCRParticipantRecordMessageHandler,UpdateAddressEmployerSynchronizeMesssageHandler,LocateResponseMessageHandler,FCRConsortiaResponseMessageHandler,CSENetLocateRequestMessageHandler,ConsortiaUpdateEventMessageHandler,UpdateAddressEmployerSynchronizeMesssageHandler,PublicAssistanceMessageHandler
+#* (ArchIntegrationServices) Routing MDBs:
+#*    ARSCASESInbound,SDUInbound,DCSSInbound,CPLSInbound,CSeNetInbound,EDDInbound,FCRInbound,CDXConsortiaUpdate,LOCFCRLocateRequest,CDXConsortiaUpdate2,DMVInbound,FTBInbound
+#* (ArchBPMServices) Architecture BPM MDBs:
+#*    BPMEventConsumerHandler
+#*******************************************************************************
+mdb.tracing.beans=AsynchronousCallHandlerMDB,AsynchronousCallHandlerFormMDB,ReportRequestRoutingMessageHandler,ReportRequestFastMessageHandler,ReportRequestSlowMessageHandler,ReportRequestDWFastMessageHandler,ReportRequestDWSlowMessageHandler,ReportRequestBalRegenMessageHandler,FCRCaseRecordMessageHandler,FCRParticipantRecordMessageHandler,UpdateAddressEmployerSynchronizeMesssageHandler,LocateResponseMessageHandler,FCRConsortiaResponseMessageHandler,CSENetLocateRequestMessageHandler,ConsortiaUpdateEventMessageHandler,UpdateAddressEmployerSynchronizeMesssageHandler,PublicAssistanceMessageHandler,ARSCASESInbound,SDUInbound,DCSSInbound,CPLSInbound,CSeNetInbound,EDDInbound,FCRInbound,CDXConsortiaUpdate,LOCFCRLocateRequest,CDXConsortiaUpdate2,DMVInbound,FTBInbound,EmailHandler,CentralScanStoreImageMessageHandler
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ cp SYT02.tracing.properties /t,[  mp
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ chmdo 777        od 777 /tmp/SYT02.tracing.properties
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ whoami
+cseadmin
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ cse   sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 8
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ssh ankcsesyta05               
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ssh hchada@ankcsesyta05a 
+hchada@ankcsesyta05's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Thu Sep 26 13:57:21 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 26 13:57:26 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+3004-600 The password entry does not match, please try again.
+hchada's New password: 
+Enter the new password again:
+ankcsesyta05[/home/hchada]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcsesyta05 closed.
+ankcsesyta05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

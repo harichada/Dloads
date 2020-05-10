@@ -1,0 +1,491 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 09:25:12 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Tue Oct 29 10:29:27 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Nov 13 08:00:19 PST 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf1a02[/home/cseadmin]$ ps-ef | gr         -ef | gre  p CF
+cseadmin  9764940 21037340   0 09:25:19  pts/0  0:00 grep CF
+wasadmin 25690204        1   0   Oct 23      - 94:25 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=56524 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config ankcsepf1a02CFCell01 ankcsepf1a02CFCellManager01 dmgr
+wasadmin 17826164 39911864   0   Oct 23      - 85:51 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=59797 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/PFT01_CF_a02_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf1a02CFCell01 ankcsepf1a02CFNode01 PFT01_CF_a02_01
+wasadmin 39911864        1   0   Oct 23      - 78:00 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Xmaxt0.5 -Dwas.status.socket=57179 -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/nodeagent/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf1a02CFCell01 ankcsepf1a02CFNode01 nodeagent
+ankcsepf1a02[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85 _CF/profiles/DeploymentManager/config
+ksh: /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config: Permission denied.
+ankcsepf1a02[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                  NFS_selfcheck.sh_20180723.sh      find_LUN_CuLDev_cv.sh             memory_paging_SELECT.sh           nfs_selfcheck_output.dat          run_on_NonProd.sh
+ALL_ACCOUNTS_sorted.txt           NFS_selfcheck_output.dat          find_LUN_CuLDev_print.sh          memory_paging_SELECT_test.sh      nfs_server.dat                    showerrpt.pl
+Finalist900.jar                   OLD_ACCOUNTS.txt                  find_LUN_sizes.sh                 memory_paging_check.sh            p8_hostnames.txt                  tempfile
+LIVE_ACCOUNTS.txt                 OLD_ACCOUNTS_sorted.txt           find_wwn.sh                       memory_paging_output              p8_hostnames_reverse.txt          utils
+NFS_mounts_verify.sh              WAS8.5_init_scripts               logs                              memory_paging_vmstat_NON_PROD.sh  p8_hostnames_reverse_sorted.txt   vmstat_mail.sh
+NFS_mounts_verify_20180723.sh     copyToNonProd.sh                  mbox                              nfs_df.dat                        paging_check.sh                   workspace
+NFS_mounts_verify_P8.sh           cseisupport                       memory_paging_COPY.sh             nfs_diff.dat                      portscan_hostTarget_root.ksh
+NFS_mounts_verify_paul.sh         errpt_mail.sh                     memory_paging_NON_PROD_mail.sh    nfs_lsnfsmnt.dat                  portscan_root.ksh
+NFS_selfcheck.sh                  find_LUN_CuLDev.sh                memory_paging_RUN.sh              nfs_selfcheck.sh                  resetUser.ksh
+ankcsepf1a02[/home/cseadmin]$ netstat -an | grep L IS   isTE    ISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp        0      0  *.111                  *.*                    LISTEN
+tcp        0      0  *.199                  *.*                    LISTEN
+tcp        0      0  *.657                  *.*                    LISTEN
+tcp4       0      0  *.702                  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11002  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11004  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11006  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11007  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11010  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11012  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11035  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11037  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11042  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11047  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11049  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11050  *.*                    LISTEN
+tcp        0      0  134.187.144.197.11094  *.*                    LISTEN
+tcp4       0      0  *.1920                 *.*                    LISTEN
+tcp6       0      0  *.1920                 *.*                    LISTEN
+tcp        0      0  *.2049                 *.*                    LISTEN
+tcp6       0      0  *.51775                *.*                    LISTEN
+tcp4       0      0  *.51776                *.*                    LISTEN
+tcp6       0      0  *.51777                *.*                    LISTEN
+tcp4       0      0  *.51778                *.*                    LISTEN
+tcp        0      0  *.2809                 *.*                    LISTEN
+tcp        0      0  *.2810                 *.*                    LISTEN
+tcp        0      0  *.2811                 *.*                    LISTEN
+tcp        0      0  *.2812                 *.*                    LISTEN
+tcp        0      0  *.2813                 *.*                    LISTEN
+tcp        0      0  *.2814                 *.*                    LISTEN
+tcp        0      0  127.0.0.1.48066        *.*                    LISTEN
+tcp4       0      0  *.3661                 *.*                    LISTEN
+tcp6       0      0  *.3661                 *.*                    LISTEN
+tcp        0      0  *.4000                 *.*                    LISTEN
+tcp        0      0  *.4006                 *.*                    LISTEN
+tcp        0      0  127.0.0.1.49163        *.*                    LISTEN
+tcp        0      0  *.29044                *.*                    LISTEN
+tcp        0      0  *.29046                *.*                    LISTEN
+tcp        0      0  *.29047                *.*                    LISTEN
+tcp        0      0  *.29049                *.*                    LISTEN
+tcp        0      0  *.29050                *.*                    LISTEN
+tcp        0      0  *.29052                *.*                    LISTEN
+tcp        0      0  *.29090                *.*                    LISTEN
+tcp        0      0  *.29093                *.*                    LISTEN
+tcp        0      0  *.5335                 *.*                    LISTEN
+tcp        0      0  *.5336                 *.*                    LISTEN
+tcp4       0      0  *.54597                *.*                    LISTEN
+tcp        0      0  *.54598                *.*                    LISTEN
+tcp4       0      0  *.54658                *.*                    LISTEN
+tcp6       0      0  ::1.6010                                      *.*                    LISTEN
+tcp4       0      0  *.6014                 *.*                    LISTEN
+tcp        0      0  127.0.0.1.27174        *.*                    LISTEN
+tcp4       0      0  127.0.0.1.51779        *.*                    LISTEN
+tcp        0      0  *.6987                 *.*                    LISTEN
+tcp        0      0  *.7060                 *.*                    LISTEN
+tcp        0      0  *.7061                 *.*                    LISTEN
+tcp        0      0  *.7272                 *.*                    LISTEN
+tcp        0      0  *.7273                 *.*                    LISTEN
+tcp        0      0  *.7274                 *.*                    LISTEN
+tcp        0      0  *.7275                 *.*                    LISTEN
+tcp        0      0  *.7277                 *.*                    LISTEN
+tcp        0      0  *.7279                 *.*                    LISTEN
+tcp        0      0  *.7280                 *.*                    LISTEN
+tcp4       0      0  *.56878                *.*                    LISTEN
+tcp        0      0  *.32768                *.*                    LISTEN
+tcp        0      0  *.32770                *.*                    LISTEN
+tcp        0      0  *.32791                *.*                    LISTEN
+tcp4       0      0  *.32818                *.*                    LISTEN
+tcp4       0      0  *.8400                 *.*                    LISTEN
+tcp4       0      0  *.8403                 *.*                    LISTEN
+tcp        0      0  127.0.0.1.29015        *.*                    LISTEN
+tcp        0      0  *.32962                *.*                    LISTEN
+tcp        0      0  *.32977                *.*                    LISTEN
+tcp4       0      0  *.8500                 *.*                    LISTEN
+tcp        0      0  *.33000                *.*                    LISTEN
+tcp        0      0  127.0.0.1.4673         *.*                    LISTEN
+tcp        0      0  127.0.0.1.29314        *.*                    LISTEN
+tcp        0      0  *.8878                 *.*                    LISTEN
+tcp        0      0  *.8879                 *.*                    LISTEN
+tcp        0      0  *.8880                 *.*                    LISTEN
+tcp        0      0  *.8881                 *.*                    LISTEN
+tcp        0      0  *.8882                 *.*                    LISTEN
+tcp        0      0  *.8883                 *.*                    LISTEN
+tcp        0      0  *.8884                 *.*                    LISTEN
+tcp        0      0  *.8885                 *.*                    LISTEN
+tcp        0      0  *.8886                 *.*                    LISTEN
+tcp        0      0  *.8887                 *.*                    LISTEN
+tcp        0      0  *.8888                 *.*                    LISTEN
+tcp        0      0  *.8889                 *.*                    LISTEN
+tcp        0      0  *.8891                 *.*                    LISTEN
+tcp        0      0  *.8895                 *.*                    LISTEN
+tcp        0      0  *.8896                 *.*                    LISTEN
+tcp        0      0  *.9043                 *.*                    LISTEN
+tcp        0      0  *.9055                 *.*                    LISTEN
+tcp        0      0  *.9061                 *.*                    LISTEN
+tcp        0      0  *.9063                 *.*                    LISTEN
+tcp        0      0  *.9065                 *.*                    LISTEN
+tcp        0      0  *.9066                 *.*                    LISTEN
+tcp        0      0  *.9067                 *.*                    LISTEN
+tcp        0      0  *.9069                 *.*                    LISTEN
+tcp        0      0  *.9071                 *.*                    LISTEN
+tcp        0      0  *.9072                 *.*                    LISTEN
+tcp        0      0  *.9090                 *.*                    LISTEN
+tcp        0      0  *.9100                 *.*                    LISTEN
+tcp        0      0  *.9101                 *.*                    LISTEN
+tcp        0      0  *.9102                 *.*                    LISTEN
+tcp        0      0  *.9103                 *.*                    LISTEN
+tcp        0      0  *.9104                 *.*                    LISTEN
+tcp        0      0  *.9105                 *.*                    LISTEN
+tcp        0      0  *.9201                 *.*                    LISTEN
+tcp        0      0  *.9202                 *.*                    LISTEN
+tcp        0      0  *.9203                 *.*                    LISTEN
+tcp        0      0  *.9204                 *.*                    LISTEN
+tcp        0      0  *.9205                 *.*                    LISTEN
+tcp        0      0  *.9206                 *.*                    LISTEN
+tcp        0      0  *.9207                 *.*                    LISTEN
+tcp        0      0  *.9208                 *.*                    LISTEN
+tcp        0      0  *.9352                 *.*                    LISTEN
+tcp        0      0  *.9353                 *.*                    LISTEN
+tcp        0      0  *.9354                 *.*                    LISTEN
+tcp        0      0  *.9355                 *.*                    LISTEN
+tcp        0      0  *.9356                 *.*                    LISTEN
+tcp        0      0  *.9357                 *.*                    LISTEN
+tcp        0      0  *.9358                 *.*                    LISTEN
+tcp        0      0  *.9359                 *.*                    LISTEN
+tcp        0      0  *.9360                 *.*                    LISTEN
+tcp        0      0  *.9402                 *.*                    LISTEN
+tcp        0      0  *.9403                 *.*                    LISTEN
+tcp        0      0  *.9404                 *.*                    LISTEN
+tcp        0      0  *.9405                 *.*                    LISTEN
+tcp        0      0  *.9406                 *.*                    LISTEN
+tcp        0      0  *.9407                 *.*                    LISTEN
+tcp        0      0  *.9408                 *.*                    LISTEN
+tcp        0      0  *.9410                 *.*                    LISTEN
+tcp        0      0  *.9411                 *.*                    LISTEN
+tcp        0      0  *.9412                 *.*                    LISTEN
+tcp        0      0  *.9443                 *.*                    LISTEN
+tcp        0      0  *.9510                 *.*                    LISTEN
+tcp4       0      0  127.0.0.1.54606        *.*                    LISTEN
+tcp4       0      0  127.0.0.1.54634        *.*                    LISTEN
+tcp        0      0  127.0.0.1.54755        *.*                    LISTEN
+tcp4       0      0  *.58710                *.*                    LISTEN
+tcp        0      0  *.9802                 *.*                    LISTEN
+tcp        0      0  *.9809                 *.*                    LISTEN
+tcp        0      0  *.9810                 *.*                    LISTEN
+tcp        0      0  *.9811                 *.*                    LISTEN
+tcp        0      0  *.9813                 *.*                    LISTEN
+tcp        0      0  *.9821                 *.*                    LISTEN
+tcp        0      0  *.9822                 *.*                    LISTEN
+tcp        0      0  *.9825                 *.*                    LISTEN
+tcp        0      0  *.9830                 *.*                    LISTEN
+tcp        0      0  *.9840                 *.*                    LISTEN
+tcp        0      0  *.58861                *.*                    LISTEN
+tcp        0      0  *.9900                 *.*                    LISTEN
+tcp        0      0  *.9902                 *.*                    LISTEN
+tcp4       0      0  127.0.0.1.6010         *.*                    LISTEN
+tcp        0      0  127.0.0.1.55430        *.*                    LISTEN
+tcp        0      0  *.59500                *.*                    LISTEN
+tcp        0      0  *.59501                *.*                    LISTEN
+tcp        0      0  *.59502                *.*                    LISTEN
+tcp        0      0  *.59505                *.*                    LISTEN
+tcp        0      0  *.59506                *.*                    LISTEN
+tcp        0      0  *.59867                *.*                    LISTEN
+tcp        0      0  *.59891                *.*                    LISTEN
+tcp4       0      0  127.0.0.1.32000        *.*                    LISTEN
+tcp4       0      0  127.0.0.1.9514         *.*                    LISTEN
+tcp4       0      0  127.0.0.1.9515         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9626         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9629         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9632         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9633         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9634         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9635         *.*                    LISTEN
+tcp        0      0  127.0.0.1.9636         *.*                    LISTEN
+tcp        0      0  192.168.1.217.4673     *.*                    LISTEN
+tcp        0      0  *.14248                *.*                    LISTEN
+tcp        0      0  *.40103                *.*                    LISTEN
+tcp        0      0  *.40105                *.*                    LISTEN
+tcp        0      0  127.0.0.1.14004        *.*                    LISTEN
+tcp        0      0  134.187.144.197.4673   *.*                    LISTEN
+tcp        0      0  *.21003                *.*                    LISTEN
+tcp        0      0  *.21018                *.*                    LISTEN
+tcp        0      0  *.21019                *.*                    LISTEN
+tcp        0      0  *.21024                *.*                    LISTEN
+tcp        0      0  *.21025                *.*                    LISTEN
+tcp        0      0  *.21027                *.*                    LISTEN
+tcp        0      0  *.21028                *.*                    LISTEN
+tcp        0      0  *.21029                *.*                    LISTEN
+tcp        0      0  *.21030                *.*                    LISTEN
+tcp        0      0  *.21031                *.*                    LISTEN
+tcp        0      0  *.21034                *.*                    LISTEN
+tcp        0      0  *.21035                *.*                    LISTEN
+tcp        0      0  *.21042                *.*                    LISTEN
+tcp        0      0  *.21043                *.*                    LISTEN
+tcp        0      0  *.21045                *.*                    LISTEN
+tcp        0      0  *.21062                *.*                    LISTEN
+tcp        0      0  *.21063                *.*                    LISTEN
+tcp        0      0  *.21064                *.*                    LISTEN
+tcp        0      0  *.21065                *.*                    LISTEN
+tcp        0      0  *.21066                *.*                    LISTEN
+tcp        0      0  *.21077                *.*                    LISTEN
+tcp        0      0  *.21078                *.*                    LISTEN
+tcp        0      0  *.21079                *.*                    LISTEN
+tcp        0      0  *.21080                *.*                    LISTEN
+tcp        0      0  *.21081                *.*                    LISTEN
+tcp        0      0  *.21089                *.*                    LISTEN
+tcp        0      0  *.21090                *.*                    LISTEN
+tcp        0      0  *.21091                *.*                    LISTEN
+tcp        0      0  *.21093                *.*                    LISTEN
+tcp        0      0  *.21113                *.*                    LISTEN
+tcp        0      0  *.21114                *.*                    LISTEN
+tcp        0      0  *.21115                *.*                    LISTEN
+tcp        0      0  *.21116                *.*                    LISTEN
+tcp        0      0  *.21117                *.*                    LISTEN
+tcp        0      0  134.187.144.197.7062   *.*                    LISTEN
+tcp        0      0  134.187.144.197.7063   *.*                    LISTEN
+tcp        0      0  134.187.144.197.7091   *.*                    LISTEN
+tcp        0      0  10.32.2.84.4673        *.*                    LISTEN
+tcp        0      0  134.187.144.197.9420   *.*                    LISTEN
+tcp        0      0  134.187.144.197.9421   *.*                    LISTEN
+tcp        0      0  134.187.144.197.9627   *.*                    LISTEN
+ankcsepf1a02[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85 _CF/profiles/DeploymentManager/config
+ksh: /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config: Permission denied.
+ankcsepf1a02[/home/cseadmin]$ sud   ssh hchada@ankcsepf1a02
+hchada@ankcsepf1a02's password: 
+Permission denied, please try again.
+hchada@ankcsepf1a02's password: 
+Permission denied, please try again.
+hchada@ankcsepf1a02's password: 
+Permission denied (publickey,password,keyboard-interactive).
+ankcsepf1a02[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsepf1a02[/home/cseadmin]$ sudo cseresetuser hchadassh hchada@ankcsepf1a02 
+hchada@ankcsepf1a02's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Wed Nov 13 09:26:53 PST 2019 on ssh
+Last login: Thu Oct 31 09:13:20 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+ankcsepf1a02[/home/hchada]$ sudo su =- wasa       - wasadmin
+Password:
+Sorry, try again.
+Password:
+[YOU HAVE NEW MAIL]
+ankcsepf1a02[/home/wasadmin]$ clear
+[H[2Jankcsepf1a02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85 _CF/profiles/DeploymentManager/config
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config]$ ls
+backup       bundlecache  cells        temp         templates    waspolicies  xforms
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config]$ cd cells
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells]$ ls
+ankcsepf1a02CFCell01  plugin-cfg.xml
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells]$ cd ank    
+ksh: ank:  not found.
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells]$ cd ank*
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01]$ ls
+PolicySets                        audit.xml                         elasticityclasses                 middlewaredescriptors             repository                        trust.p12
+PolicyTypes                       autonomicrequestflowmanager.xml   fileRegistry.xml                  multibroker.xml                   resources-cei.xml                 variables.xml
+WSSCCache.xml                     bindings                          filter.policy                     namestore.xml                     resources-pme.xml                 virtualhosts.xml
+WSSDistributedCache.xml           blas                              gridclassification                naming-authz.xml                  resources-pme502.xml              wim
+admin-authz.xml                   cell.xml                          gridjobclasses                    nodegroups                        resources.xml                     ws-security.xml
+amwas.amjacc.template.properties  centralizedinstall.xml            gridscheduler.xml                 nodes                             rsatoken-key.p12                  xdcatalognodes.config
+amwas.pdjlog.template.properties  clusters                          healthcontroller.xml              overlaynodes.config               rsatoken-trust.p12
+apcservice.xml                    coregroupbridge.xml               jvms.xml                          pmirm.xml                         security.xml
+applications                      coregroups                        key.p12                           product-info.xml                  serviceclasses
+audit-authz.xml                   cus                               ltpa.jceks                        ras.rawtracelist.properties       sts
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01]$ ls server*
+ls: 0653-341 The file server* does not exist.
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01]$ cd servers
+ksh: servers:  not found.
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01]$ cd nodes
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes]$ ls
+ankcsepf1a02CFCellManager01   ankcsepf1a02CFNode01          ankcsepf1a06CFNode01          ankcsepf1a09.dts.ca.gov-node
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes]$ cd ank*CE  Mana*
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ ls
+app.policy                installed-channels.xml    node-metadata.properties  resources.xml             serverindex.xml           systemapps.xml
+default-signers.p12       library.policy            node.xml                  root-key.p12              servers                   variables.xml
+deleted.p12               namestore.xml             resources-cei.xml         rsatoken-root-key.p12     spi.policy
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ more serverindex.xml
+[?1049h[56;1H[K<?xml version="1.0" encoding="UTF-8"?>
+<serverindex:ServerIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:serverindex="http://www.ibm.com/websphere/appserver/schemas/5.0/serverindex.xmi" xmi:id="ServerIndex_1" hostName="ankcse
+pf1a02" endPointRefs="NamedEndPoint_1 NamedEndPoint_2">
+  <serverEntries xmi:id="ServerEntry_1" serverDisplayName="dmgr" serverName="dmgr" serverType="DEPLOYMENT_MANAGER">
+    <deployedApplications>WebSphereWSDM.ear/deployments/WebSphereWSDM</deployedApplications>
+    <deployedApplications>isclite.ear/deployments/isclite</deployedApplications>
+    <deployedApplications>OTiS.ear/deployments/OTiS</deployedApplications>
+    <specialEndpoints xmi:id="NamedEndPoint_1" endPointName="CELL_DISCOVERY_ADDRESS">
+      <endPoint xmi:id="EndPoint_1" host="ankcsepf1a02" port="7279"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_2" endPointName="BOOTSTRAP_ADDRESS">
+      <endPoint xmi:id="EndPoint_2" host="ankcsepf1a02" port="9811"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_4" endPointName="SOAP_CONNECTOR_ADDRESS">
+      <endPoint xmi:id="EndPoint_4" host="ankcsepf1a02" port="8885"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_5" endPointName="ORB_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_5" host="ankcsepf1a02" port="9102"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_6" endPointName="SAS_SSL_SERVERAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_6" host="ankcsepf1a02" port="9409"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_7" endPointName="CSIV2_SSL_MUTUALAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_7" host="ankcsepf1a02" port="9410"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_8" endPointName="CSIV2_SSL_SERVERAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_8" host="ankcsepf1a02" port="9407"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_9" endPointName="WC_adminhost">
+      <endPoint xmi:id="EndPoint_9" host="*" port="9072"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_10" endPointName="DCS_UNICAST_ADDRESS">
+      <endPoint xmi:id="EndPoint_10" host="*" port="9358"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_11" endPointName="WC_adminhost_secure">
+      <endPoint xmi:id="EndPoint_11" host="*" port="29093"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_12" endPointName="IPC_CONNECTOR_ADDRESS">
+      <endPoint xmi:id="EndPoint_12" host="${LOCALHOST_NAME}" port="9634"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_13" endPointName="OVERLAY_UDP_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_13" host="*" port="11009"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_14" endPointName="OVERLAY_TCP_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_14" host="*" port="11010"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_15" endPointName="XDAGENT_PORT">
+      <endPoint xmi:id="EndPoint_15" host="*" port="7061"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_DPMGR1" endPointName="DataPowerMgr_inbound_secure">
+      <endPoint xmi:id="EndPoint_DPMGR1" host="*" port="5556"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_1120677327537" endPointName="STATUS_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_1120677327537" host="ankcsepf1a02" port="9421"/>
+    </specialEndpoints>
+[56;1H[K[7mserverindex.xml (98%)[27m[56;1H[56;1H[K  </serverEntries>
+</serverindex:ServerIndex>
+[56;1H[K[7mserverindex.xml: END[27m[56;1H[56;1H[K[?1049l[?1l>ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ vi ser        *xml
+[?1049h[56;1H[?12;25h[?1h="serverindex.xml" 56 lines, 3594 characters [H[2J<?xml version="1.0" encoding="UTF-8"?>[H
+<serverindex:ServerIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:serverindex="http://www.ibm.com/websphere/appserver/schemas/5.0/serverindex.xmi" xmi:id="ServerIndex_1" hostName="ankcse
+pf1a02" endPointRefs="NamedEndPoint_1 NamedEndPoint_2">
+  <serverEntries xmi:id="ServerEntry_1" serverDisplayName="dmgr" serverName="dmgr" serverType="DEPLOYMENT_MANAGER">
+    <deployedApplications>WebSphereWSDM.ear/deployments/WebSphereWSDM</deployedApplications>
+    <deployedApplications>isclite.ear/deployments/isclite</deployedApplications>
+    <deployedApplications>OTiS.ear/deployments/OTiS</deployedApplications>
+    <specialEndpoints xmi:id="NamedEndPoint_1" endPointName="CELL_DISCOVERY_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_1" host="ankcsepf1a02" port="7279"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_2" endPointName="BOOTSTRAP_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_2" host="ankcsepf1a02" port="9811"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_4" endPointName="SOAP_CONNECTOR_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_4" host="ankcsepf1a02" port="8885"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_5" endPointName="ORB_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_5" host="ankcsepf1a02" port="9102"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_6" endPointName="SAS_SSL_SERVERAUTH_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_6" host="ankcsepf1a02" port="9409"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_7" endPointName="CSIV2_SSL_MUTUALAUTH_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_7" host="ankcsepf1a02" port="9410"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_8" endPointName="CSIV2_SSL_SERVERAUTH_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_8" host="ankcsepf1a02" port="9407"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_9" endPointName="WC_adminhost">
+[6C<endPoint xmi:id="EndPoint_9" host="*" port="9072"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_10" endPointName="DCS_UNICAST_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_10" host="*" port="9358"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_11" endPointName="WC_adminhost_secure">
+[6C<endPoint xmi:id="EndPoint_11" host="*" port="29093"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_12" endPointName="IPC_CONNECTOR_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_12" host="${LOCALHOST_NAME}" port="9634"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_13" endPointName="OVERLAY_UDP_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_13" host="*" port="11009"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_14" endPointName="OVERLAY_TCP_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_14" host="*" port="11010"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_15" endPointName="XDAGENT_PORT">
+[6C<endPoint xmi:id="EndPoint_15" host="*" port="7061"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_DPMGR1" endPointName="DataPowerMgr_inbound_secure">
+[6C<endPoint xmi:id="EndPoint_DPMGR1" host="*" port="5556"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_1120677327537" endPointName="STATUS_LISTENER_ADDRESS">
+[6C<endPoint xmi:id="EndPoint_1120677327537" host="ankcsepf1a02" port="9421"/>
+    </specialEndpoints>[H[55B"serverindex.xml" 56 lines, 3594 characters[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[27B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ ps -ef | grep CF
+wasadmin  7864370 22217144   0 09:31:08  pts/1  0:00 grep CF
+wasadmin 25690204        1   0   Oct 23      - 94:28 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=56524 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config ankcsepf1a02CFCell01 ankcsepf1a02CFCellManager01 dmgr
+wasadmin 17826164 39911864   0   Oct 23      - 85:52 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dwas.status.socket=59797 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/PFT01_CF_a02_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf1a02CFCell01 ankcsepf1a02CFNode01 PFT01_CF_a02_01
+wasadmin 39911864        1   0   Oct 23      - 78:00 /usr/WebSphere/AppServer_85_CF/java_1.7.1_64/bin/java -Xmaxt0.5 -Dwas.status.socket=57179 -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/servers/nodeagent/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF/properties:/usr/WebSphere/AppServer_85_CF/lib/startup.jar:/usr/WebSphere/AppServer_85_CF/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF/classes:/usr/WebSphere/AppServer_85_CF/lib:/usr/WebSphere/AppServer_85_CF/installedChannels:/usr/WebSphere/AppServer_85_CF/lib/ext:/usr/WebSphere/AppServer_85_CF/web/help:/usr/WebSphere/AppServer_85_CF/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF/tivoli/tam:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF/bin:/usr/lib:/lib:/insthome/db2cinst/sqllib/lib:/insthome/db2cinst/sqllib/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF/endorsed_apis:/usr/WebSphere/AppServer_85_CF/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF/profiles/AppServer/config ankcsepf1a02CFCell01 ankcsepf1a02CFNode01 nodeagent
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ 
+Shell will time out in 60 seconds.
+
+ankcsepf1a02[/usr/WebSphere/AppServer_85_CF/profiles/DeploymentManager/config/cells/ankcsepf1a02CFCell01/nodes/ankcsepf1a02CFCellManager01]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+ankcsepf1a02[/home/hchada]$ 

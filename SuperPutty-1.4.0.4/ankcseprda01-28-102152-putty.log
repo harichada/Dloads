@@ -1,0 +1,84 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.28 10:21:52 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Mar 21 15:25:53 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Oct 28 10:02:06 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcseprda01[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                         OLD_ACCOUNTS_sorted.txt                  lpars                                    p8_hostnames.txt
+ALL_ACCOUNTS_sorted.txt                  Tivoli_check_status.sh                   lsnfsmnt.out                             p8_hostnames_reverse.txt
+BaseActivity.pbd                         WAS8.5_init_scripts                      maxage.sh                                p8_hostnames_reverse_sorted.txt
+CSE.SECURE_User.properties               copyToProd.sh                            maxage0_userslist.txt                    resetUser.ksh
+IntroscopeAgent_Online.profile.20070905  dat                                      maxage8_users.txt                        run_on_Prod.sh
+LIVE_ACCOUNTS.txt                        errpt_mail.sh                            memory_paging_COPY.sh                    scripts
+LOGFILE                                  errpt_mail_paul.sh                       memory_paging_PROD_mail.sh               showerrpt.pl
+NFS_mounts_verify.sh                     find_LUN_sizes.sh                        memory_paging_RUN.sh                     smit.log
+NFS_mounts_verify_P8.sh                  find_wwn.sh                              memory_paging_SELECT.sh                  smit.script
+NFS_mounts_verify_nomail.sh              gecos.sh                                 memory_paging_SELECT_test.sh             smit.transaction
+NFS_selfcheck.sh                         gecos_users.txt                          memory_paging_check.sh                   smoketest_08am_Mar_2am.log
+NFS_selfcheck_output.dat                 logs                                     memory_paging_output                     utils
+OLD_ACCOUNTS.txt                         lpar1                                    memory_virtual_check.sh
+ankcseprda01[/home/cseadmin]$ cd /cse/batch/PROD*01
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01]$ ls
+BatchRpt.txt  jobExecution  log           log.txt       logs
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01]$ cd logs
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ ls
+SystemErr.log                    SystemErr_17.03.19_18.51.19.log  SystemErr_18.05.12_11.53.50.log  SystemOut_19.10.14_07.57.35.log  SystemOut_19.10.24_19.05.33.log  native_stderr.log
+SystemErr.log.owner              SystemErr_17.03.19_18.51.43.log  SystemOut.log                    SystemOut_19.10.14_11.18.24.log  SystemOut_19.10.27_02.15.23.log  native_stdout.log
+SystemErr_17.03.19_18.50.57.log  SystemErr_17.03.19_18.52.12.log  SystemOut.log.owner              SystemOut_19.10.19_07.32.53.log  archive
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ ls -lagrt
+total 1406832
+drwx--S---    2 csebatch        512 Oct 14 2011  archive
+-rw-rw-r--    1 csebatch   10485251 Mar 19 2017  SystemErr_17.03.19_18.50.57.log
+-rw-rw-r--    1 csebatch   10485251 Mar 19 2017  SystemErr_17.03.19_18.51.19.log
+-rw-rw-r--    1 csebatch   10483548 Mar 19 2017  SystemErr_17.03.19_18.51.43.log
+-rw-rw-r--    1 csebatch   10481583 Mar 19 2017  SystemErr_17.03.19_18.52.12.log
+-rw-rw-r--    1 csebatch   10485706 May 12 2018  SystemErr_18.05.12_11.53.50.log
+-rw-rw-r--    1 csebatch         49 Oct 20 2018  SystemOut.log.owner
+-rw-rw-r--    1 csebatch         49 Oct 20 2018  SystemErr.log.owner
+drwxr-sr-x    4 csebatch       4096 Mar 16 2019  ..
+-rw-rw-r--    1 csebatch   10485528 Oct 14 07:57 SystemOut_19.10.14_07.57.35.log
+-rw-rw-r--    1 csebatch   10485496 Oct 14 11:17 SystemOut_19.10.14_11.18.24.log
+-rw-rw-r--    1 csebatch   10485693 Oct 19 07:32 SystemOut_19.10.19_07.32.53.log
+-rw-rw-r--    1 csebatch    1753554 Oct 24 01:39 SystemErr.log
+-rw-rw-r--    1 csebatch   10485662 Oct 24 19:05 SystemOut_19.10.24_19.05.33.log
+-rw-rw-r--    1 csebatch   10485476 Oct 27 02:15 SystemOut_19.10.27_02.15.23.log
+drwxr-sr-x    3 csebatch       1024 Oct 27 02:15 .
+-rw-rw-r--    1 wasadmin          0 Oct 27 22:00 native_stdout.log
+-rw-rw-r--    1 csebatch    1315507 Oct 28 10:21 SystemOut.log
+-rw-rw-r--    1 wasadmin  612345907 Oct 28 10:22 native_stderr.log
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ 
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ 
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ ls -la
+total 221728
+drwxr-sr-x    3 wasadmin csebatch       1024 Oct 27 02:15 .
+drwxr-sr-x    4 wasadmin csebatch       4096 Mar 16 2019  ..
+-rw-rw-r--    1 wasadmin csebatch    1753554 Oct 24 01:39 SystemErr.log
+-rw-rw-r--    1 wasadmin csebatch         49 Oct 20 2018  SystemErr.log.owner
+-rw-rw-r--    1 wasadmin csebatch   10485251 Mar 19 2017  SystemErr_17.03.19_18.50.57.log
+-rw-rw-r--    1 wasadmin csebatch   10485251 Mar 19 2017  SystemErr_17.03.19_18.51.19.log
+-rw-rw-r--    1 wasadmin csebatch   10483548 Mar 19 2017  SystemErr_17.03.19_18.51.43.log
+-rw-rw-r--    1 wasadmin csebatch   10481583 Mar 19 2017  SystemErr_17.03.19_18.52.12.log
+-rw-rw-r--    1 wasadmin csebatch   10485706 May 12 2018  SystemErr_18.05.12_11.53.50.log
+-rw-rw-r--    1 wasadmin csebatch    1324920 Oct 28 10:32 SystemOut.log
+-rw-rw-r--    1 wasadmin csebatch         49 Oct 20 2018  SystemOut.log.owner
+-rw-rw-r--    1 wasadmin csebatch   10485528 Oct 14 07:57 SystemOut_19.10.14_07.57.35.log
+-rw-rw-r--    1 wasadmin csebatch   10485496 Oct 14 11:17 SystemOut_19.10.14_11.18.24.log
+-rw-rw-r--    1 wasadmin csebatch   10485693 Oct 19 07:32 SystemOut_19.10.19_07.32.53.log
+-rw-rw-r--    1 wasadmin csebatch   10485662 Oct 24 19:05 SystemOut_19.10.24_19.05.33.log
+-rw-rw-r--    1 wasadmin csebatch   10485476 Oct 27 02:15 SystemOut_19.10.27_02.15.23.log
+drwx--S---    2 wasadmin csebatch        512 Oct 14 2011  archive
+-rw-rw-r--    1 wasadmin wasadmin    5562712 Oct 28 10:32 native_stderr.log
+-rw-rw-r--    1 wasadmin wasadmin          0 Oct 27 22:00 native_stdout.log
+ankcseprda01[/cse/batch/PROD01_Batch_AP031_01/logs]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

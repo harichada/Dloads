@@ -1,0 +1,113 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 08:52:22 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Oct 30 08:04:57 2019 from cgdcssl1047ul.calcloud.local
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1058UL:~[?1034h[hchada@CGDCSSL1058UL ~]$ sudo su [K[K[K[K[K[K[K[Kls -la /etc/httpds/s[K[K[K/ssl
+total 40
+drwxr-xr-x. 2 root root 4096 Oct 30 08:04 [0m[01;34m.[0m
+drwxr-xr-x. 7 root root 4096 Aug 18 10:32 [01;34m..[0m
+-rw-r--r--. 1 root root 1452 Apr 19  2019 efspft2.crt
+-rw-------. 1 root root 1708 Apr 19  2019 efspft2.key
+-rw-r--r--. 1 root root  952 Oct 30 08:04 pft2efs-new.crt
+-rw-r--r--. 1 root root  757 Oct 30 08:04 pft2efs-new.csr
+-rw-------. 1 root root  916 Oct 30 08:04 pft2efs-new.key
+-rw-r--r--. 1 root root  948 Apr 19  2019 pft2ws1.crt
+-rw-r--r--. 1 root root  753 Apr 19  2019 pft2ws1.csr
+-rw-------. 1 root root  916 Apr 19  2019 pft2ws1.key
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ scp /etc/httpd/ssl/pft2*new* pft2ws2:/tmp
+The authenticity of host 'pft2ws2 (100.95.20.68)' can't be established.
+ECDSA key fingerprint is SHA256:xvcdqm/75dIGZghMwNrEageLGh3ZmDTbDR5eFj28RM4.
+ECDSA key fingerprint is MD5:18:f6:16:a1:f4:c8:27:8f:bc:80:04:db:d7:52:66:bf.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'pft2ws2,100.95.20.68' (ECDSA) to the list of known hosts.
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+hchada@pft2ws2's password: 
+pft2efs-new.crt                                     0%    0     0.0KB/s   --:-- ETApft2efs-new.crt                                   100%  952     3.1MB/s   00:00    
+pft2efs-new.csr                                     0%    0     0.0KB/s   --:-- ETApft2efs-new.csr                                   100%  757     3.5MB/s   00:00    
+/etc/httpd/ssl/pft2efs-new.key: Permission denied
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ scp /etc/httpd/ssl/pft2*new* pft2ws2:/tmp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pls -la /etc/httpd/ssl
+total 40
+drwxr-xr-x. 2 root root 4096 Oct 30 08:04 [0m[01;34m.[0m
+drwxr-xr-x. 7 root root 4096 Aug 18 10:32 [01;34m..[0m
+-rw-r--r--. 1 root root 1452 Apr 19  2019 efspft2.crt
+-rw-------. 1 root root 1708 Apr 19  2019 efspft2.key
+-rw-r--r--. 1 root root  952 Oct 30 08:04 pft2efs-new.crt
+-rw-r--r--. 1 root root  757 Oct 30 08:04 pft2efs-new.csr
+-rw-------. 1 root root  916 Oct 30 08:04 pft2efs-new.key
+-rw-r--r--. 1 root root  948 Apr 19  2019 pft2ws1.crt
+-rw-r--r--. 1 root root  753 Apr 19  2019 pft2ws1.csr
+-rw-------. 1 root root  916 Apr 19  2019 pft2ws1.key
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ sudo su - wasa[K[K[K[K
+[sudo] password for hchada: 
+Last login: Wed Oct 30 07:52:04 PDT 2019 on pts/0
+]0;root@CGDCSSL1058UL:~[?1034h[root@CGDCSSL1058UL ~]# scp /etc/httpd/pft2*new.* pft2ws2:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+root@pft2ws2's password: 
+]0;root@CGDCSSL1058UL:~[root@CGDCSSL1058UL ~]# cp /etc/httpd/ssl/pft2
+pft2efs-new.crt  pft2efs-new.key  pft2ws1.csr      
+pft2efs-new.csr  pft2ws1.crt      pft2ws1.key      
+[root@CGDCSSL1058UL ~]# cp /etc/httpd/ssl/pft2
+pft2efs-new.crt  pft2efs-new.key  pft2ws1.csr      
+pft2efs-new.csr  pft2ws1.crt      pft2ws1.key      
+[root@CGDCSSL1058UL ~]# cp /etc/httpd/ssl/pft2efs-new.key /tmp
+]0;root@CGDCSSL1058UL:~[root@CGDCSSL1058UL ~]# chmod 777 /tmp/pft2efs-new.key 
+]0;root@CGDCSSL1058UL:~[root@CGDCSSL1058UL ~]# exit
+logout
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ scp /tmp/pft2efs-new.key pft2ws2:/tmp
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+hchada@pft2ws2's password: 
+pft2efs-new.key                                     0%    0     0.0KB/s   --:-- ETApft2efs-new.key                                   100%  916     2.4MB/s   00:00    
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ sudo systemctl restart tomcat
+[sudo] password for hchada: 
+Failed to restart tomcat.service: Unit not found.
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ ps -ef | grep tomcat
+hchada   23615 22762  0 09:07 pts/0    00:00:00 grep --color=auto [01;31m[Ktomcat[m[K
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ sudo systemctl restart httpd
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ ps -ef | grep httpd
+root     23641     1  1 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23642 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23643 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23644 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23645 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23646 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+apache   23647 23641  0 09:08 ?        00:00:00 /usr/sbin/[01;31m[Khttpd[m[K -DFOREGROUND
+hchada   23652 22762  0 09:08 pts/0    00:00:00 grep --color=auto [01;31m[Khttpd[m[K
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ ^C
+]0;hchada@CGDCSSL1058UL:~[hchada@CGDCSSL1058UL ~]$ exit
+logout

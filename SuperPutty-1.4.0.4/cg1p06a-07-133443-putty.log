@@ -1,0 +1,28 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 13:34:43 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed May 29 18:33:23 PDT 2019 on ssh from 158.96.152.172
+Last login: Thu Nov  7 13:29:09 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsedeva02[/home/cseadmin]$ cd /cse/on  online/applications
+ankcsedeva02[/cse/online/applications]$ ls
+DEV01_IF_Forms.ear                    TEAM09_Online_Imaging.ear             UIT05_IF_Online_Imaging.ear           cse_TEAM09_Online.ear_backup          temp
+TEAM05_IF_Online_Forms.ear            TRN03_Online_Forms.ear                cse_TEAM05_Integration.ear            cse_TRN03_Integration.ear
+TEAM05_IF_Online_FormsGeneration.ear  TRN03_Online_Imaging.ear              cse_TEAM05_Online.ear                 cse_TRN03_Online.ear
+TEAM05_IF_Online_Imaging.ear          UIT05_IF_Online_Forms.ear             cse_TEAM09_Integration.ear            cse_UIT05_Integration.ear
+TEAM09_Online_Forms.ear               UIT05_IF_Online_FormsGeneration.ear   cse_TEAM09_Online.ear                 cse_UIT05_Online.ear
+ankcsedeva02[/cse/online/applications]$ cd *Online.ear
+ksh: cd: 0403-008 The number of parameters specified is not correct.
+ankcsedeva02[/cse/online/applications]$ cd 
+ankcsedeva02[/cse/online/applications]$ 
+ankcsedeva02[/cse/online/applications]$ 

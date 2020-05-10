@@ -1,0 +1,1390 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 11:48:26 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Nov 19 10:58:56 PST 2019 on ssh from 169.2.108.102
+Last login: Tue Nov 19 10:59:08 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsesyaa02[/home/hchada]$ su de    udo su - deploy1
+Password:
+[compat]: 3004-300 You entered an invalid login name or password.
+
+Sorry, try again.
+Password:
+[compat]: 3004-300 You entered an invalid login name or password.
+
+Sorry, try again.
+Password:
+sudo: 2 incorrect password attempts
+ankcsesyaa02[/home/hchada]$ su deploy1
+deploy1's Password: 
+3004-307 You are not allowed to su to this account.
+
+3004-501 Cannot su to "deploy1" : Account is not accessible.
+ankcsesyaa02[/home/hchada]$ ssh   sudo su - wasadmin
+Password:
+[compat]: 3004-300 You entered an invalid login name or password.
+
+Sorry, try again.
+Password:
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/wasadmin]$ cd
+ankcsesyaa02[/home/wasadmin]$ ls
+AB976                              aguggill                           getEnvironmentEntry.py             sessiontmout_disable.py            stopwebsphere.py
+DBWork                             app_web.xml                        getdsinfo.py                       sessiontmout_enable.py             web.xml
+IBM_Files                          aserikar                           jay                                setEnvironmentEntryIBMCOREDUMP.py  workspace
+Old_out_files                      cg1p02aNode01PublicCert.arm        ltpa.jceks                         smit.log
+SYAFormltpa.keys                   ch1p04aNode01PublicCert.arm        portscan                           smit.script
+SyaOnlineCellPublicCert.arm        dm_web.xml                         scripts                            smit.transaction
+ankcsesyaa02[/home/wasadmin]$ ps -ef | grep dmgr
+wasadmin 17170650        1   1   Oct 03      - 233:05 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=36681 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/insthome/db2cinst/sqllib/lib32: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config cg1p02aCell01 cg1p02aCellManager01 dmgr
+ankcsesyaa02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/properties/server.policy                        bin/stopmanag     Manager.sh
+-ksh93: cd: /usr/WebSphere/AppServer_85/profiles/DeploymentManager/bin/stopManager.sh: [A parameter must be a directory.]
+ankcsesyaa02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.shankcsesyaa02[/home/wasadmin]$ Cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.shankcsesyaa02[/home/wasadmin]$ Cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.sh ankcsesyaa02[/home/wasadmin]$  /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.sh ankcsesyaa02[/home/wasadmin]$ /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.sh ankcsesyaa02[/home/wasadmin]$ usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.sh ankcsesyaa02[/home/wasadmin]$ /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.shankcsesyaa02[/home/wasadmin]$ /
+ADMU0116I: Tool information is being logged in file
+           /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr/stopServer.log
+ADMU0128I: Starting tool with the DeploymentManager profile
+ADMU3100I: Reading configuration for server: dmgr
+ADMU3201I: Server stop request issued. Waiting for stop status.
+ADMU4000I: Server dmgr stop completed.
+
+ankcsesyaa02[/home/wasadmin]$ /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/stopManager.shankcsesyaa02[/home/wasadmin]$ /usr/WebSphere/AppServer _85/profiles/DeploymentManager/bin/staopManager.shropManager.shtopManager.shtpManager.sh Manager.sh 
+ADMU0116I: Tool information is being logged in file
+           /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr/startServer.log
+ADMU0128I: Starting tool with the DeploymentManager profile
+ADMU3100I: Reading configuration for server: dmgr
+ADMU3200I: Server launched. Waiting for initialization status.
+ADMU3000I: Server dmgr open for e-business; process id is 8847536
+ankcsesyaa02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config      logs
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ ls
+AboutThisProfile.txt               com.ibm.otis.Audit_3_13_2019.log   com.ibm.otis.Audit_6_11_2019.log   createAffinityDescriptors.log      rxa_msg.log.lck
+activity.log                       com.ibm.otis.Audit_3_25_2019.log   com.ibm.otis.Audit_6_1_2018.log    dmgr                               rxa_trace.log
+backupConfig.log                   com.ibm.otis.Audit_3_26_2019.log   com.ibm.otis.Audit_6_24_2019.log   ffdc                               rxa_trace.log.lck
+com.ibm.otis.Audit_10_3_2019.log   com.ibm.otis.Audit_3_27_2019.log   com.ibm.otis.Audit_6_27_2019.log   iscinstall.log                     setupForeignServerVariables.log
+com.ibm.otis.Audit_11_15_2018.log  com.ibm.otis.Audit_3_29_2019.log   com.ibm.otis.Audit_6_5_2018.log    jccdiag.log                        updateCurOdrServerXml_SS.log
+com.ibm.otis.Audit_11_19_2019.log  com.ibm.otis.Audit_4_26_2019.log   com.ibm.otis.Audit_6_5_2019.log    license.lock                       updateIntellMgmtXml.log
+com.ibm.otis.Audit_11_5_2018.log   com.ibm.otis.Audit_5_23_2018.log   com.ibm.otis.Audit_6_7_2018.log    manageSdkEnableAdmin.trace         updateMiddlewareDescriptors.log
+com.ibm.otis.Audit_11_6_2018.log   com.ibm.otis.Audit_5_24_2018.log   com.ibm.otis.Audit_8_22_2018.log   manageSdkListAdmin.trace           wsadmin.traceout
+com.ibm.otis.Audit_2_5_2019.log    com.ibm.otis.Audit_5_29_2019.log   com.ibm.otis.Audit_9_11_2019.log   runOsgiCfgInit.log                 wsadmin.valout
+com.ibm.otis.Audit_2_7_2019.log    com.ibm.otis.Audit_5_30_2018.log   connlicj.bin                       rxa_msg.log                        wsadminListener.out
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ cd md  dmgr
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr]$ ls
+SystemErr.log                    SystemOut.log.owner              dmgr.pid                         objects                          stopServer.log
+SystemErr.log.owner              SystemOut_19.10.22_06.17.28.log  native_stderr.log                serverStatus.log
+SystemOut.log                    btrace.1                         native_stdout.log                startServer.log
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr]$ tail      cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ ls -lagrt
+total 142024
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  wsadminListener.out
+-rwxr-xr-x    1 wasadmin        520 May 23 2018  AboutThisProfile.txt
+-rwxr-xr-x    1 wasadmin       2694 May 23 2018  backupConfig.log
+-rwxr-xr-x    1 wasadmin        579 May 23 2018  updateCurOdrServerXml_SS.log
+-rwxr-xr-x    1 wasadmin       1657 May 23 2018  setupForeignServerVariables.log
+-rwxr-xr-x    1 wasadmin       1571 May 23 2018  createAffinityDescriptors.log
+-rwxr-xr-x    1 wasadmin       1314 May 23 2018  updateMiddlewareDescriptors.log
+-rwxr-xr-x    1 wasadmin        212 May 23 2018  runOsgiCfgInit.log
+-rwxr-xr-x    1 wasadmin        599 May 23 2018  updateIntellMgmtXml.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  rxa_msg.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  rxa_trace.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  com.ibm.otis.Audit_5_23_2018.log
+-rwxr-xr-x    1 wasadmin          0 May 24 2018  com.ibm.otis.Audit_5_24_2018.log
+-rwxr-xr-x    1 wasadmin   34379095 May 24 2018  manageSdkEnableAdmin.trace
+-rwxr-xr-x    1 wasadmin   36158757 May 24 2018  manageSdkListAdmin.trace
+-rwxr-xr-x    1 wasadmin          0 May 30 2018  com.ibm.otis.Audit_5_30_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 01 2018  com.ibm.otis.Audit_6_1_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 01 2018  license.lock
+-rwxr-xr-x    1 wasadmin          0 Jun 05 2018  com.ibm.otis.Audit_6_5_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 07 2018  com.ibm.otis.Audit_6_7_2018.log
+-rwxr-xr-x    1 wasadmin       1697 Aug 17 2018  jccdiag.log
+-rwxr-xr-x    1 wasadmin       1017 Aug 17 2018  connlicj.bin
+-rwxr-xr-x    1 wasadmin          0 Aug 22 2018  com.ibm.otis.Audit_8_22_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 05 2018  com.ibm.otis.Audit_11_5_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 06 2018  com.ibm.otis.Audit_11_6_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 15 2018  com.ibm.otis.Audit_11_15_2018.log
+-rwxr-xr-x    1 wasadmin          0 Feb 05 2019  com.ibm.otis.Audit_2_5_2019.log
+-rwxr-xr-x    1 wasadmin          0 Feb 07 2019  com.ibm.otis.Audit_2_7_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 13 2019  com.ibm.otis.Audit_3_13_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 25 2019  com.ibm.otis.Audit_3_25_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 26 2019  com.ibm.otis.Audit_3_26_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 27 2019  com.ibm.otis.Audit_3_27_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 29 2019  com.ibm.otis.Audit_3_29_2019.log
+-rwxr-xr-x    1 wasadmin          0 Apr 26 2019  com.ibm.otis.Audit_4_26_2019.log
+-rwxr-xr-x    1 wasadmin          0 May 29 10:00 com.ibm.otis.Audit_5_29_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 05 13:25 com.ibm.otis.Audit_6_5_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 11 10:59 com.ibm.otis.Audit_6_11_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 24 15:39 com.ibm.otis.Audit_6_24_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 27 09:58 com.ibm.otis.Audit_6_27_2019.log
+drwxr-xr-x   25 wasadmin       4096 Jul 18 08:58 ..
+-rwxrwxrwx    1 wasadmin          0 Aug 05 16:32 wsadmin.valout
+-rwxrwxrwx    1 wasadmin       4184 Aug 05 16:32 wsadmin.traceout
+-rwxr-xr-x    1 wasadmin       5030 Aug 28 10:31 iscinstall.log
+-rw-r--r--    1 wasadmin          0 Sep 11 16:15 com.ibm.otis.Audit_9_11_2019.log
+-rw-r--r--    1 wasadmin          0 Oct 03 11:06 com.ibm.otis.Audit_10_3_2019.log
+-rw-r--r--    1 wasadmin          0 Nov 19 11:53 com.ibm.otis.Audit_11_19_2019.log
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 ffdc
+-rwxr-xr-x    1 wasadmin          0 Nov 19 11:54 rxa_trace.log.lck
+-rwxr-xr-x    1 wasadmin          0 Nov 19 11:54 rxa_msg.log.lck
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 dmgr
+-rwxr-xr-x    1 wasadmin    2097152 Nov 19 11:55 activity.log
+drwxr-xr-x    4 wasadmin       4096 Nov 19 11:55 .
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ cd dmgr
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr]$ ls -ls agrt
+total 5848
+-rwxr-xr-x    1 wasadmin         39 May 23 2018  SystemOut.log.owner
+-rwxr-xr-x    1 wasadmin         39 May 23 2018  SystemErr.log.owner
+-rwxr-xr-x    1 wasadmin       9221 Feb 07 2019  serverStatus.log
+-rwxr-xr-x    1 wasadmin     597253 Sep 16 10:05 SystemErr.log
+-rw-r--r--    1 wasadmin    1044743 Oct 22 06:17 SystemOut_19.10.22_06.17.28.log
+-rwxr-xr-x    1 wasadmin     171289 Nov 19 11:54 stopServer.log
+-rwxr-xr-x    1 wasadmin     125038 Nov 19 11:54 native_stdout.log
+-rwxr-xr-x    1 wasadmin      26549 Nov 19 11:54 native_stderr.log
+-rwxr-xr-x    1 wasadmin     148642 Nov 19 11:54 startServer.log
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 .
+-rw-r--r--    1 wasadmin          7 Nov 19 11:54 dmgr.pid
+-rw-r--r--    1 wasadmin     121554 Nov 19 11:54 objects
+-rw-r--r--    1 wasadmin     682726 Nov 19 11:55 SystemOut.log
+drwxr-xr-x    4 wasadmin       4096 Nov 19 11:55 ..
+-rw-r--r--    1 wasadmin       4271 Nov 19 11:55 btrace.1
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr]$ tail SystemOOut.log
+[11/19/19 11:54:59:781 PST] 0000007f FileRepositor A   ADMR0016I: User ch1p01a.dts.ca.gov:389/wsadadmin modified document cells/cg1p02aCell01/overlaynodes.config.
+[11/19/19 11:54:59:910 PST] 0000007f FileRepositor A   ADMR0016I: User ch1p01a.dts.ca.gov:389/wsadadmin modified document cells/cg1p02aCell01/xdcatalognodes.config.
+[11/19/19 11:54:59:939 PST] 0000007f FileRepositor A   ADMR0016I: User ch1p01a.dts.ca.gov:389/wsadadmin modified document cells/cg1p02aCell01/overlaynodes.config.
+[11/19/19 11:55:06:194 PST] 00000071 SystemOut     O 156  INFO   [Thread-46] openjpa.Runtime - Starting OpenJPA 2.2.3-SNAPSHOT
+[11/19/19 11:55:06:353 PST] 00000071 SystemOut     O 315  INFO   [Thread-46] openjpa.jdbc.JDBC - Using dictionary class "org.apache.openjpa.jdbc.sql.DerbyDictionary".
+[11/19/19 11:55:06:391 PST] 00000100 ServerCache   I   DYNA1001I: WebSphere Dynamic Cache instance named ws/WSSecureMapNotShared initialized successfully.
+[11/19/19 11:55:06:393 PST] 00000100 ServerCache   I   DYNA1071I: The cache provider "default" is being used.
+[11/19/19 11:55:14:408 PST] 0000006e NGUtil$Server I   ASND0002I: Detected server nodeagent started on node ch1p04aNode01
+[11/19/19 11:55:14:412 PST] 00000078 HAManagedItem I   HAMI0024I: The HmmController_Default Controller is active on cg1p02aCell01\ch1p04aNode01\nodeagent
+[11/19/19 11:55:14:717 PST] 0000006e NGUtil$Server I   ASND0002I: Detected server SYA01_IF started on node ch1p04aNode01
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/dmgr]$ cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ ls
+AboutThisProfile.txt               com.ibm.otis.Audit_3_13_2019.log   com.ibm.otis.Audit_6_11_2019.log   createAffinityDescriptors.log      rxa_msg.log.lck
+activity.log                       com.ibm.otis.Audit_3_25_2019.log   com.ibm.otis.Audit_6_1_2018.log    dmgr                               rxa_trace.log
+backupConfig.log                   com.ibm.otis.Audit_3_26_2019.log   com.ibm.otis.Audit_6_24_2019.log   ffdc                               rxa_trace.log.lck
+com.ibm.otis.Audit_10_3_2019.log   com.ibm.otis.Audit_3_27_2019.log   com.ibm.otis.Audit_6_27_2019.log   iscinstall.log                     setupForeignServerVariables.log
+com.ibm.otis.Audit_11_15_2018.log  com.ibm.otis.Audit_3_29_2019.log   com.ibm.otis.Audit_6_5_2018.log    jccdiag.log                        updateCurOdrServerXml_SS.log
+com.ibm.otis.Audit_11_19_2019.log  com.ibm.otis.Audit_4_26_2019.log   com.ibm.otis.Audit_6_5_2019.log    license.lock                       updateIntellMgmtXml.log
+com.ibm.otis.Audit_11_5_2018.log   com.ibm.otis.Audit_5_23_2018.log   com.ibm.otis.Audit_6_7_2018.log    manageSdkEnableAdmin.trace         updateMiddlewareDescriptors.log
+com.ibm.otis.Audit_11_6_2018.log   com.ibm.otis.Audit_5_24_2018.log   com.ibm.otis.Audit_8_22_2018.log   manageSdkListAdmin.trace           wsadmin.traceout
+com.ibm.otis.Audit_2_5_2019.log    com.ibm.otis.Audit_5_29_2019.log   com.ibm.otis.Audit_9_11_2019.log   runOsgiCfgInit.log                 wsadmin.valout
+com.ibm.otis.Audit_2_7_2019.log    com.ibm.otis.Audit_5_30_2018.log   connlicj.bin                       rxa_msg.log                        wsadminListener.out
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ ls -lagrt
+total 142024
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  wsadminListener.out
+-rwxr-xr-x    1 wasadmin        520 May 23 2018  AboutThisProfile.txt
+-rwxr-xr-x    1 wasadmin       2694 May 23 2018  backupConfig.log
+-rwxr-xr-x    1 wasadmin        579 May 23 2018  updateCurOdrServerXml_SS.log
+-rwxr-xr-x    1 wasadmin       1657 May 23 2018  setupForeignServerVariables.log
+-rwxr-xr-x    1 wasadmin       1571 May 23 2018  createAffinityDescriptors.log
+-rwxr-xr-x    1 wasadmin       1314 May 23 2018  updateMiddlewareDescriptors.log
+-rwxr-xr-x    1 wasadmin        212 May 23 2018  runOsgiCfgInit.log
+-rwxr-xr-x    1 wasadmin        599 May 23 2018  updateIntellMgmtXml.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  rxa_msg.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  rxa_trace.log
+-rwxr-xr-x    1 wasadmin          0 May 23 2018  com.ibm.otis.Audit_5_23_2018.log
+-rwxr-xr-x    1 wasadmin          0 May 24 2018  com.ibm.otis.Audit_5_24_2018.log
+-rwxr-xr-x    1 wasadmin   34379095 May 24 2018  manageSdkEnableAdmin.trace
+-rwxr-xr-x    1 wasadmin   36158757 May 24 2018  manageSdkListAdmin.trace
+-rwxr-xr-x    1 wasadmin          0 May 30 2018  com.ibm.otis.Audit_5_30_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 01 2018  com.ibm.otis.Audit_6_1_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 01 2018  license.lock
+-rwxr-xr-x    1 wasadmin          0 Jun 05 2018  com.ibm.otis.Audit_6_5_2018.log
+-rwxr-xr-x    1 wasadmin          0 Jun 07 2018  com.ibm.otis.Audit_6_7_2018.log
+-rwxr-xr-x    1 wasadmin       1697 Aug 17 2018  jccdiag.log
+-rwxr-xr-x    1 wasadmin       1017 Aug 17 2018  connlicj.bin
+-rwxr-xr-x    1 wasadmin          0 Aug 22 2018  com.ibm.otis.Audit_8_22_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 05 2018  com.ibm.otis.Audit_11_5_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 06 2018  com.ibm.otis.Audit_11_6_2018.log
+-rwxr-xr-x    1 wasadmin          0 Nov 15 2018  com.ibm.otis.Audit_11_15_2018.log
+-rwxr-xr-x    1 wasadmin          0 Feb 05 2019  com.ibm.otis.Audit_2_5_2019.log
+-rwxr-xr-x    1 wasadmin          0 Feb 07 2019  com.ibm.otis.Audit_2_7_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 13 2019  com.ibm.otis.Audit_3_13_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 25 2019  com.ibm.otis.Audit_3_25_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 26 2019  com.ibm.otis.Audit_3_26_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 27 2019  com.ibm.otis.Audit_3_27_2019.log
+-rwxr-xr-x    1 wasadmin          0 Mar 29 2019  com.ibm.otis.Audit_3_29_2019.log
+-rwxr-xr-x    1 wasadmin          0 Apr 26 2019  com.ibm.otis.Audit_4_26_2019.log
+-rwxr-xr-x    1 wasadmin          0 May 29 10:00 com.ibm.otis.Audit_5_29_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 05 13:25 com.ibm.otis.Audit_6_5_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 11 10:59 com.ibm.otis.Audit_6_11_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 24 15:39 com.ibm.otis.Audit_6_24_2019.log
+-rwxr-xr-x    1 wasadmin          0 Jun 27 09:58 com.ibm.otis.Audit_6_27_2019.log
+drwxr-xr-x   25 wasadmin       4096 Jul 18 08:58 ..
+-rwxrwxrwx    1 wasadmin          0 Aug 05 16:32 wsadmin.valout
+-rwxrwxrwx    1 wasadmin       4184 Aug 05 16:32 wsadmin.traceout
+-rwxr-xr-x    1 wasadmin       5030 Aug 28 10:31 iscinstall.log
+-rw-r--r--    1 wasadmin          0 Sep 11 16:15 com.ibm.otis.Audit_9_11_2019.log
+-rw-r--r--    1 wasadmin          0 Oct 03 11:06 com.ibm.otis.Audit_10_3_2019.log
+-rw-r--r--    1 wasadmin          0 Nov 19 11:53 com.ibm.otis.Audit_11_19_2019.log
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 ffdc
+-rwxr-xr-x    1 wasadmin          0 Nov 19 11:54 rxa_trace.log.lck
+-rwxr-xr-x    1 wasadmin          0 Nov 19 11:54 rxa_msg.log.lck
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 dmgr
+-rwxr-xr-x    1 wasadmin    2097152 Nov 19 11:55 activity.log
+drwxr-xr-x    4 wasadmin       4096 Nov 19 11:55 .
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ tail fffdc//dmgr _
+1) dmgr_2a153cdc_19.11.15_10.52.58.313371514270906944829.txt
+2) dmgr_2a153cdc_19.11.15_10.52.58.3299000608054116938156.txt
+3) dmgr_2a153cdc_19.11.15_10.52.58.3315492249935829162221.txt
+4) dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt
+5) dmgr_exception.log
+6) dmgr_exception.log.1574193271777.txt
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ tail ffdc/dmgr _ _ -lagrtex   
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs]$ cd ffdc
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ ls
+dmgr_2a153cdc_19.11.15_10.52.58.313371514270906944829.txt   dmgr_2a153cdc_19.11.15_10.52.58.3315492249935829162221.txt  dmgr_exception.log
+dmgr_2a153cdc_19.11.15_10.52.58.3299000608054116938156.txt  dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt  dmgr_exception.log.1574193271777.txt
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ ls -lagrt
+total 248
+-rw-r--r--    1 wasadmin      23061 Nov 15 10:52 dmgr_2a153cdc_19.11.15_10.52.58.313371514270906944829.txt
+-rw-r--r--    1 wasadmin      23084 Nov 15 10:52 dmgr_2a153cdc_19.11.15_10.52.58.3299000608054116938156.txt
+-rw-r--r--    1 wasadmin      23099 Nov 15 10:52 dmgr_2a153cdc_19.11.15_10.52.58.3315492249935829162221.txt
+-rw-r--r--    1 wasadmin      11794 Nov 19 11:53 dmgr_exception.log.1574193271777.txt
+drwxr-xr-x    2 wasadmin       4096 Nov 19 11:54 .
+-rw-r--r--    1 wasadmin        492 Nov 19 11:54 dmgr_exception.log
+-rw-r--r--    1 wasadmin      22806 Nov 19 11:54 dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt
+drwxr-xr-x    4 wasadmin       4096 Nov 19 11:55 ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ tail dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txt
+    com.ibm.wsspi.wssecurity.auth.module.X509LoginModule  required   ;
+};
+system.WSS_INBOUND {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+};
+
+:com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
++Data for directive [defaultjaasconfig] obtained.:
+==> Dump complete for com.ibm.ws.security.core.SecurityDM :Tue Nov 19 11:54:31 PST 2019
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ vi dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txt
+[?1049h[56;1H[?12;25h[?1h="dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt" 451 lines, 22806 characters [H[2J[11/19/19 11:54:31:786 PST]     FFDC Exception:com.ibm.ws.security.spnego.TAIConfigurationException SourceId:com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl.initialize Pr
+obeId:299 Reporter:com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl@d9bef27e
+com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
+[8Cat com.ibm.ws.security.spnego.AllServerConfigs.<init>(AllServerConfigs.java:247)
+[8Cat com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl.initialize(TrustAssociationInterceptorImpl.java:297)
+[8Cat com.ibm.ws.security.web.TrustAssociationManager.loadInterceptor(TrustAssociationManager.java:497)
+[8Cat com.ibm.ws.security.web.TrustAssociationManager.initialize(TrustAssociationManager.java:386)
+[8Cat com.ibm.ws.security.web.TrustAssociationManager.<init>(TrustAssociationManager.java:142)
+[8Cat com.ibm.ws.security.web.TrustAssociationManager.getInstance(TrustAssociationManager.java:115)
+[8Cat com.ibm.ws.security.core.distSecurityComponentImpl.initializeSSOTAI(distSecurityComponentImpl.java:1080)
+[8Cat com.ibm.ws.security.core.distSecurityComponentImpl.initialize(distSecurityComponentImpl.java:396)
+[8Cat com.ibm.ws.security.core.SecurityComponentImpl.initialize(SecurityComponentImpl.java:94)
+[8Cat com.ibm.ws.runtime.component.ContainerHelper.initWsComponent(ContainerHelper.java:1193)
+[8Cat com.ibm.ws.runtime.component.ContainerHelper.initializeComponent(ContainerHelper.java:1100)
+[8Cat com.ibm.ws.runtime.component.ContainerHelper.initializeComponents(ContainerHelper.java:902)
+[8Cat com.ibm.ws.runtime.component.ContainerImpl.initializeComponents(ContainerImpl.java:776)
+[8Cat com.ibm.ws.runtime.component.ContainerImpl.initializeComponents(ContainerImpl.java:750)
+[8Cat com.ibm.ws.runtime.component.ServerImpl.initialize(ServerImpl.java:370)
+[8Cat com.ibm.ws.runtime.WsServerImpl.bootServerContainer(WsServerImpl.java:301)
+[8Cat com.ibm.ws.runtime.WsServerImpl.start(WsServerImpl.java:232)
+[8Cat com.ibm.ws.runtime.WsServerImpl.main(WsServerImpl.java:705)
+[8Cat com.ibm.ws.runtime.WsServer.main(WsServer.java:59)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat com.ibm.wsspi.bootstrap.WSLauncher.launchMain(WSLauncher.java:234)
+[8Cat com.ibm.wsspi.bootstrap.WSLauncher.main(WSLauncher.java:96)
+[8Cat com.ibm.wsspi.bootstrap.WSLauncher.run(WSLauncher.java:77)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+[8Cat org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+[8Cat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+[8Cat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+[8Cat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+[8Cat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[8Cat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+[8Cat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:56)
+[8Cat java.lang.reflect.Method.invoke(Method.java:620)
+[8Cat org.eclipse.core.launcher.Main.invokeFramework(Main.java:340)
+[8Cat org.eclipse.core.launcher.Main.basicRun(Main.java:282)
+[8Cat org.eclipse.core.launcher.Main.run(Main.java:981)
+[8Cat com.ibm.wsspi.bootstrap.WSPreLauncher.launchEclipse(WSPreLauncher.java:424)
+[8Cat com.ibm.wsspi.bootstrap.WSPreLauncher.main(WSPreLauncher.java:177)
+
+==> Performing default dump from com.ibm.ws.security.core.SecurityDM :Tue Nov 19 11:54:31 PST 2019
+com.ibm.ws.security.config.SecurityConfigImpl@51f3026f /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cells/cg1p02aCell01/security.xml  (admin) :com.ibm.ws.security.s
+pnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
++Data for directive [defaultsecurityconfig] obtained.:
+The dynamic JAAS login configuration is:
+com.ibm.ws.security.auth.login.Configuration: Dumping JAAS Configuration[H[55B"dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt" 451 lines, 22806 characters[H
+
+
+[7C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[K
+[AJAAS file configuration data:
+
+[Asystem.wss.generate.x509 {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.X509GenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.WSS_OUTBOUND {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.wsMapCSIv2OutboundLoginModule"   ;
+
+[A};
+
+[Asystem.wss.consume.saml {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.SAMLConsumeLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.DKTConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.RMI_INBOUND {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule"   ;
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+
+[A};
+
+[Asystem.wssecurity.PkiPath {
+
+[55;5Hcom.ibm.wsspi.wssecurity.auth.module.PkiPathLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.inbound.deserialize {
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssLtpaLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssMapDefaultInboundLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.auth.sts {
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.STSDefaultLoginModule  required   ;
+
+[A};
+
+[ADefaultPrincipalMapping {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.auth.j2c.WSPrincipalMappingLoginModule"   ;
+
+[A};
+
+[Asystem.wss.caller {
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.PreCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.UNTCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.X509CallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.LTPACallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.LTPAPropagationCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.KRBCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.SAMLCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.GenericIssuedTokenCallerLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.impl.auth.module.WSWSSLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.consume.x509 {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.X509ConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.generate.ltpaProp {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.LTPAPropagationGenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.generate.issuedToken {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.GenericIssuedTokenGenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.wssecurity.UsernameToken {
+
+[55;5Hcom.ibm.wsspi.wssecurity.auth.module.UsernameLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.inbound.propagation {
+
+[55;5Hcom.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+
+[A};
+
+[Asystem.DESERIALIZE_ASYNCH_CONTEXT {
+
+[55;5Hcom.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.generate.KRB5BST {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.KRBGenerateLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.DKTGenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.generate.pkiPath {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.PkiPathGenerateLoginModule  required   ;
+
+[A};
+
+[AJaasClient {
+
+[55;5Hcom.ibm.security.auth.module.Krb5LoginModule  required
+
+[55;8HtryFirstPass="true"
+
+[55;8HcredsType="both"
+
+[55;8HuseDefaultCcache="false"
+
+[55;8HnoAddress="true"
+
+[55;8Hforwardable="true"   ;
+
+[A};
+
+[Asystem.SWAM {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.swamLoginModule"   ;
+
+[A};
+
+[Asystem.wss.generate.sct {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.SCTGenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.consume.sct {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.SCTConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.consume.pkiPath {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.PkiPathConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.generate.saml {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.SAMLGenerateLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.DKTGenerateLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.consume.issuedToken {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.GenericIssuedTokenConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.wss.consume.KRB5BST {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.KRBConsumeLoginModule  required   ;
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.DKTConsumeLoginModule  required   ;
+
+[A};
+
+[Asystem.WEB_INBOUND {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule"   ;
+
+[A};
+
+[Asystem.wssecurity.IDAssertion {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.wsspi.wssecurity.auth.module.IDAssertionLoginModule"   ;
+
+[A};
+
+[Asystem.wss.consume.ltpa {
+
+[55;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.LTPAConsumeLoginModule  required   ;
+
+[A};
+
+[AJAASClient {
+
+[55;5Hcom.ibm.security.auth.module.Krb5LoginModule  required
+
+[55;8HtryFirstPass="true"
+
+[55;8HcredsType="both"
+
+[55;8HuseDefaultCcache="false"
+
+[55;8HnoAddress="true"
+
+[55;8Hforwardable="true"   ;
+
+[A};
+
+[Asystem.wssecurity.Signature {
+
+[55;5Hcom.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+
+[55;8Hdelegate="com.ibm.wsspi.wssecurity.auth.module.SignatureLoginModule"   ;
+
+[A};
+
+[Asystem.wssecurity.IDAssertionUsernameToken {
+
+[55;5Hcom.ibm.wsspi.wssecurity.auth.module.IDAssertionUsernameLoginModule  required   ;
+
+[A};[H[2J    com.ibm.wsspi.wssecurity.auth.module.IDAssertionUsernameLoginModule  required   ;[H
+};
+system.DEFAULT {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule"   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+system.RMI_OUTBOUND {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.wsMapCSIv2OutboundLoginModule"   ;
+};
+system.wss.consume.pkcs7 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PKCS7ConsumeLoginModule  required   ;
+};
+system.wss.consume.ltpaProp {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAPropagationConsumeLoginModule  required   ;
+};
+WSLogin {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cuse_realm_callback="false"
+[7Cuse_appcontext_callback="false"
+[7Cdelegate="com.ibm.ws.security.common.auth.module.WSLoginModuleImpl"   ;
+};
+system.wss.generate.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTGenerateLoginModule  required   ;
+};
+system.wss.generate.pkcs7 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PKCS7GenerateLoginModule  required   ;
+};
+system.wssecurity.KRB5BST {
+    com.ibm.wsspi.wssecurity.auth.module.KRBLoginModule  required   ;
+};
+system.LTPA {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+};
+system.wss.consume.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTConsumeLoginModule  required   ;
+};
+system.wssecurity.PKCS7 {
+    com.ibm.wsspi.wssecurity.auth.module.PKCS7LoginModule  required   ;
+};
+system.wss.generate.ltpa {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAGenerateLoginModule  required   ;
+};
+system.wssecurity.X509BST {
+    com.ibm.wsspi.wssecurity.auth.module.X509LoginModule  required   ;
+};
+system.WSS_INBOUND {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule"   ;[1;5H[H[2J    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required[2;8Hdelegate="com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule"   ;
+};
+
+JAAS WCCM configuration data:
+system.wss.generate.x509 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.X509GenerateLoginModule  required   ;
+};
+system.WSS_OUTBOUND {
+    com.ibm.ws.security.server.lm.wsMapCSIv2OutboundLoginModule  required   ;
+};
+system.wss.consume.saml {
+    com.ibm.ws.wssecurity.wssapi.token.impl.SAMLConsumeLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTConsumeLoginModule  required   ;
+};
+system.RMI_INBOUND {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+system.wssecurity.PkiPath {
+    com.ibm.wsspi.wssecurity.auth.module.PkiPathLoginModule  required   ;
+};
+system.wss.inbound.deserialize {
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssLtpaLoginModule  required   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssMapDefaultInboundLoginModule  required   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+ClientContainer {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.common.auth.module.WSClientLoginModuleImpl"   ;
+};
+system.wss.auth.sts {
+    com.ibm.ws.wssecurity.impl.auth.module.STSDefaultLoginModule  required   ;
+};
+DefaultPrincipalMapping {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.auth.j2c.WSPrincipalMappingLoginModule"   ;
+};
+system.wss.caller {
+    com.ibm.ws.wssecurity.impl.auth.module.PreCallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.UNTCallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.X509CallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.LTPACallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.LTPAPropagationCallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.KRBCallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.SAMLCallerLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.WSWSSLoginModule  required   ;
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+    com.ibm.ws.wssecurity.impl.auth.module.GenericIssuedTokenCallerLoginModule  required   ;
+};
+system.wss.consume.x509 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.X509ConsumeLoginModule  required   ;
+};[1;5H[H[2J    com.ibm.ws.wssecurity.wssapi.token.impl.X509ConsumeLoginModule  required   ;[H
+};
+system.LTPA_WEB {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.web.AuthenLoginModule"   ;
+};
+system.wss.generate.ltpaProp {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAPropagationGenerateLoginModule  required   ;
+};
+system.wss.generate.issuedToken {
+    com.ibm.ws.wssecurity.wssapi.token.impl.GenericIssuedTokenGenerateLoginModule  required   ;
+};
+system.wssecurity.UsernameToken {
+    com.ibm.wsspi.wssecurity.auth.module.UsernameLoginModule  required   ;
+};
+system.DESERIALIZE_ASYNCH_CONTEXT {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required
+[7Ccom.ibm.ws.security.context.renewToken="true"   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+system.wss.inbound.propagation {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+system.wss.generate.KRB5BST {
+    com.ibm.ws.wssecurity.wssapi.token.impl.KRBGenerateLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTGenerateLoginModule  required   ;
+};
+system.wss.generate.pkiPath {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PkiPathGenerateLoginModule  required   ;
+};
+WSKRB5Login {
+    com.ibm.ws.security.auth.kerberos.Krb5LoginModuleWrapperClient  required
+[7CtryFirstPass="false"
+[7CuseFirstPass="true"
+[7CcredsType="INITIATOR"
+[7CstoreSharedStateCredentials="true"
+[7CrefreshKrb5Config="true"   ;
+};
+system.wss.generate.sct {
+    com.ibm.ws.wssecurity.wssapi.token.impl.SCTGenerateLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTGenerateLoginModule  required   ;
+};
+system.SWAM {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.swamLoginModule"   ;
+};
+system.wss.consume.sct {
+    com.ibm.ws.wssecurity.wssapi.token.impl.SCTConsumeLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTConsumeLoginModule  required   ;
+};
+system.wss.consume.pkiPath {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PkiPathConsumeLoginModule  required   ;[1;5H[H[2Jsystem.wss.consume.pkiPath {[2;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.PkiPathConsumeLoginModule  required   ;
+};
+system.wss.generate.saml {
+    com.ibm.ws.wssecurity.wssapi.token.impl.SAMLGenerateLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTGenerateLoginModule  required   ;
+};
+system.wss.consume.issuedToken {
+    com.ibm.ws.wssecurity.wssapi.token.impl.GenericIssuedTokenConsumeLoginModule  required   ;
+};
+system.wss.consume.KRB5BST {
+    com.ibm.ws.wssecurity.wssapi.token.impl.KRBConsumeLoginModule  required   ;
+    com.ibm.ws.wssecurity.wssapi.token.impl.DKTConsumeLoginModule  required   ;
+};
+system.WEB_INBOUND {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+};
+system.wssecurity.IDAssertion {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.wsspi.wssecurity.auth.module.IDAssertionLoginModule"   ;
+};
+system.wss.consume.ltpa {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAConsumeLoginModule  required   ;
+};
+system.wssecurity.Signature {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.wsspi.wssecurity.auth.module.SignatureLoginModule"   ;
+};
+TrustedConnectionMapping {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7CuseTrustedConnection="true"
+[7Cdelegate="com.ibm.ws.security.auth.j2c.WSPrincipalMappingLoginModule"   ;
+};
+system.wssecurity.IDAssertionUsernameToken {
+    com.ibm.wsspi.wssecurity.auth.module.IDAssertionUsernameLoginModule  required   ;
+};
+system.DEFAULT {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+    com.ibm.ws.wssecurity.platform.websphere.wssapi.token.impl.wssTokenPropagationInboundLoginModule  required   ;
+};
+system.RMI_OUTBOUND {
+    com.ibm.ws.security.server.lm.wsMapCSIv2OutboundLoginModule  required   ;
+};
+system.wss.consume.pkcs7 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PKCS7ConsumeLoginModule  required   ;
+};
+system.wss.consume.ltpaProp {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAPropagationConsumeLoginModule  required   ;
+};
+WSLogin {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cuse_realm_callback="false"
+[7Cuse_appcontext_callback="false"[H[H[2J[7Cuse_realm_callback="false"[2;8Huse_appcontext_callback="false"
+[7Cdelegate="com.ibm.ws.security.common.auth.module.WSLoginModuleImpl"   ;
+};
+system.wss.generate.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTGenerateLoginModule  required   ;
+};
+system.wss.generate.pkcs7 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PKCS7GenerateLoginModule  required   ;
+};
+system.wssecurity.KRB5BST {
+    com.ibm.wsspi.wssecurity.auth.module.KRBLoginModule  required   ;
+};
+system.LTPA {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+};
+system.wss.consume.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTConsumeLoginModule  required   ;
+};
+KerberosMapping {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.auth.j2c.WSPrincipalMappingLoginModule"   ;
+};
+system.wssecurity.PKCS7 {
+    com.ibm.wsspi.wssecurity.auth.module.PKCS7LoginModule  required   ;
+};
+system.KRB5 {
+    com.ibm.ws.security.auth.kerberos.Krb5LoginModuleWrapper  required
+[7CtryFirstPass="true"
+[7CcredsType="both"
+[7CstoreSharedStateCredentials="true"
+[7CnoAddress="true"
+[7Crenewable="true"
+[7Cforwardable="true"
+[7CrefreshKrb5Config="true"   ;
+    com.ibm.ws.security.auth.kerberos.WSKrb5LoginModule  required   ;
+};
+system.wss.generate.ltpa {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAGenerateLoginModule  required   ;
+};
+system.wssecurity.X509BST {
+    com.ibm.wsspi.wssecurity.auth.module.X509LoginModule  required   ;
+};
+system.WSS_INBOUND {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+};
+
+:com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
++Data for directive [defaultjaasconfig] obtained.:
+==> Dump complete for com.ibm.ws.security.core.SecurityDM :Tue Nov 19 11:54:31 PST 2019
+~
+~
+~[1;8H[H[2J+Data for directive [defaultjaasconfig] obtained.:[H
+==> Dump complete for com.ibm.ws.security.core.SecurityDM :Tue Nov 19 11:54:31 PST 2019
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[H[2Jsystem.wss.consume.ltpaProp {[2;5Hcom.ibm.ws.wssecurity.wssapi.token.impl.LTPAPropagationConsumeLoginModule  required   ;
+};
+WSLogin {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cuse_realm_callback="false"
+[7Cuse_appcontext_callback="false"
+[7Cdelegate="com.ibm.ws.security.common.auth.module.WSLoginModuleImpl"   ;
+};
+system.wss.generate.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTGenerateLoginModule  required   ;
+};
+system.wss.generate.pkcs7 {
+    com.ibm.ws.wssecurity.wssapi.token.impl.PKCS7GenerateLoginModule  required   ;
+};
+system.wssecurity.KRB5BST {
+    com.ibm.wsspi.wssecurity.auth.module.KRBLoginModule  required   ;
+};
+system.LTPA {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.server.lm.ltpaLoginModule"   ;
+};
+system.wss.consume.unt {
+    com.ibm.ws.wssecurity.wssapi.token.impl.UNTConsumeLoginModule  required   ;
+};
+KerberosMapping {
+    com.ibm.ws.security.common.auth.module.proxy.WSLoginModuleProxy  required
+[7Cdelegate="com.ibm.ws.security.auth.j2c.WSPrincipalMappingLoginModule"   ;
+};
+system.wssecurity.PKCS7 {
+    com.ibm.wsspi.wssecurity.auth.module.PKCS7LoginModule  required   ;
+};
+system.KRB5 {
+    com.ibm.ws.security.auth.kerberos.Krb5LoginModuleWrapper  required
+[7CtryFirstPass="true"
+[7CcredsType="both"
+[7CstoreSharedStateCredentials="true"
+[7CnoAddress="true"
+[7Crenewable="true"
+[7Cforwardable="true"
+[7CrefreshKrb5Config="true"   ;
+    com.ibm.ws.security.auth.kerberos.WSKrb5LoginModule  required   ;
+};
+system.wss.generate.ltpa {
+    com.ibm.ws.wssecurity.wssapi.token.impl.LTPAGenerateLoginModule  required   ;
+};
+system.wssecurity.X509BST {
+    com.ibm.wsspi.wssecurity.auth.module.X509LoginModule  required   ;
+};
+system.WSS_INBOUND {
+    com.ibm.ws.security.server.lm.ltpaLoginModule  required   ;
+    com.ibm.ws.security.server.lm.wsMapDefaultInboundLoginModule  required   ;
+};
+
+:com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ tail TAI *
+tail: 0652-044 Can only process one file at a time.
+Usage: tail [-f] [-c Number|-n Number|-m Number|-b Number|-k Number] [File]
+Usage: tail [-r] [-n Number] [File]
+Usage: tail [+|-[Number]][l|b|c|k|m][f] [File]
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ grep TAI *
+dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt:[11/19/19 11:54:31:786 PST]     FFDC Exception:com.ibm.ws.security.spnego.TAIConfigurationException SourceId:com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl.initialize ProbeId:299 Reporter:com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl@d9bef27e
+dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt:com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
+dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt:     at com.ibm.ws.security.core.distSecurityComponentImpl.initializeSSOTAI(distSecurityComponentImpl.java:1080)
+dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt:com.ibm.ws.security.config.SecurityConfigImpl@51f3026f /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cells/cg1p02aCell01/security.xml  (admin) :com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
+dmgr_59780c01_19.11.19_11.54.31.7835339522457006370572.txt::com.ibm.ws.security.spnego.TAIConfigurationException: com.ibm.ws.security.spnego.isEnabled JVM property is false or not set, no further processing will be done.
+dmgr_exception.log:     0      1   11/19/19 11:54:31:777 PST   11/19/19 11:54:31:777 PST com.ibm.ws.security.spnego.TAIConfigurationException com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl.initialize 299
+dmgr_exception.log.1574193271777.txt:     0      1    10/3/19 11:23:37:213 PDT    10/3/19 11:23:37:213 PDT com.ibm.ws.security.spnego.TAIConfigurationException com.ibm.ws.security.spnego.TrustAssociationInterceptorImpl.initialize 299 /usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc/dmgr_59780c01_19.10.03_11.23.37.2275148009200146299222.txt
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/logs/ffdc]$ cd ../..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ ls
+OTiS                                        core.20190718.085759.15073386.0001.dmp      installedConnectors                         temp
+Snap.20190718.085759.15073386.0003.trc      devicestores                                installedFilters                            tmsStorage
+bin                                         etc                                         javacore.20190718.085759.15073386.0002.txt  tranlog
+cim                                         expandedBundles                             jitdump.20190718.085759.15073386.0004.dmp   workspace
+config                                      firststeps                                  logs                                        wstemp
+configuration                               installableApps                             properties                                  xdtemp
+consolepreferences                          installedApps                               servers
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ find . -name replace *
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ find . -name replac*ls                  cd ../..grep TAI *tail TAI *vi dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txttail dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txtvi dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txt  tail TAI *                                                   vi dmgr _59780c01 _19.11.19 _11.54.31.7835339522457006370572.txt
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ 
+ashell will timewarn in 60 seconds due to inactivity
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ -ksh93: timed out waiting for input
+
+ankcsesyaa02[/home/hchada]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ ls
+OTiS                                        core.20190718.085759.15073386.0001.dmp      installedConnectors                         temp
+Snap.20190718.085759.15073386.0003.trc      devicestores                                installedFilters                            tmsStorage
+bin                                         etc                                         javacore.20190718.085759.15073386.0002.txt  tranlog
+cim                                         expandedBundles                             jitdump.20190718.085759.15073386.0004.dmp   workspace
+config                                      firststeps                                  logs                                        wstemp
+configuration                               installableApps                             properties                                  xdtemp
+consolepreferences                          installedApps                               servers
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ cd configuration
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls
+1541105706763.log         1541106216067.log         1541442247602.log         1541445305721.log         1541463103882.log
+1541105748234.log         1541109040864.log         1541442498103.log         1541445667775.log         org.eclipse.core.runtime
+1541105751721.log         1541109072096.log         1541443501104.log         1541455385096.log         org.eclipse.equinox.app
+1541105755237.log         1541191548513.log         1541443538069.log         1541460709709.log         org.eclipse.osgi
+1541106037934.log         1541191656554.log         1541444822116.log         1541463004074.log         org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd    ls -lagrt
+total 208
+-rwxr-xr-x    1 wasadmin        102 May 23 2018  .configAreaProperties
+drwxr-xr-x    2 wasadmin        256 May 23 2018  org.eclipse.update
+drwxr-xr-x    3 wasadmin        256 May 23 2018  org.eclipse.equinox.app
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x   25 wasadmin       4096 Jul 18 08:58 ..
+-rw-r-----    1 wasadmin          0 Oct 03 11:23 .lastTouched
+drwxr-xr-x    6 wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    3 wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-x---    3 wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -la
+total 208
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x   25 wasadmin wasadmin       4096 Jul 18 08:58 ..
+-rwxr-xr-x    1 wasadmin wasadmin        102 May 23 2018  .configAreaProperties
+-rw-r-----    1 wasadmin wasadmin          0 Oct 03 11:23 .lastTouched
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  org.eclipse.equinox.app
+drwxr-x---    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3056
+drwxr-x---    3 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rw-r-----    1 wasadmin wasadmin     104218 Oct 03 11:23 .bundledata.2
+-rw-r-----    1 wasadmin wasadmin    1410247 Oct 03 11:23 .lazy.2
+drwxr-x---    2 wasadmin wasadmin        256 Nov 19 11:54 .manager
+-rw-r-----    1 wasadmin wasadmin      35893 Oct 03 11:23 .state.2
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ cd .manager
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ ls
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ ls -la
+total 24
+drwxr-x---    2 wasadmin wasadmin        256 Nov 19 11:54 .
+drwxr-x---    3 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rw-r-----    1 wasadmin wasadmin         89 Oct 03 11:23 .fileTable.6
+-rw-r-----    1 wasadmin wasadmin         89 Oct 03 11:23 .fileTable.7
+-rw-r-----    1 wasadmin wasadmin          0 Oct 03 11:23 .fileTableLock
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3056
+drwxr-x---    3 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rw-r-----    1 wasadmin wasadmin     104218 Oct 03 11:23 .bundledata.2
+-rw-r-----    1 wasadmin wasadmin    1410247 Oct 03 11:23 .lazy.2
+drwxr-x---    2 wasadmin wasadmin        256 Nov 19 11:54 .manager
+-rw-r-----    1 wasadmin wasadmin      35893 Oct 03 11:23 .state.2
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -lagrt
+total 208
+-rwxr-xr-x    1 wasadmin        102 May 23 2018  .configAreaProperties
+drwxr-xr-x    2 wasadmin        256 May 23 2018  org.eclipse.update
+drwxr-xr-x    3 wasadmin        256 May 23 2018  org.eclipse.equinox.app
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x   25 wasadmin       4096 Jul 18 08:58 ..
+-rw-r-----    1 wasadmin          0 Oct 03 11:23 .lastTouched
+drwxr-xr-x    6 wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    3 wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-x---    3 wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -la
+total 208
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x   25 wasadmin wasadmin       4096 Jul 18 08:58 ..
+-rwxr-xr-x    1 wasadmin wasadmin        102 May 23 2018  .configAreaProperties
+-rw-r-----    1 wasadmin wasadmin          0 Oct 03 11:23 .lastTouched
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  org.eclipse.equinox.app
+drwxr-x---    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ ls
+OTiS                                        core.20190718.085759.15073386.0001.dmp      installedConnectors                         temp
+Snap.20190718.085759.15073386.0003.trc      devicestores                                installedFilters                            tmsStorage
+bin                                         etc                                         javacore.20190718.085759.15073386.0002.txt  tranlog
+cim                                         expandedBundles                             jitdump.20190718.085759.15073386.0004.dmp   workspace
+config                                      firststeps                                  logs                                        wstemp
+configuration                               installableApps                             properties                                  xdtemp
+consolepreferences                          installedApps                               servers
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ whoami
+hchada
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ sudo su - wasadmin
+Password:
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/wasadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ ls -la
+total 317264
+drwxr-xr-x   25 wasadmin wasadmin       4096 Jul 18 08:58 .
+drwxr-xr-x    5 wasadmin wasadmin        256 Aug 08 2018  ..
+drwxr-xr-x    6 wasadmin wasadmin        256 Nov 19 11:54 OTiS
+-rw-r--r--    1 wasadmin wasadmin    2226668 Jul 18 08:58 Snap.20190718.085759.15073386.0003.trc
+drwxr-xr-x    3 wasadmin wasadmin       8192 Aug 05 16:32 bin
+drwxr-xr-x    4 wasadmin wasadmin        256 May 23 2018  cim
+drwxr-xr-x   11 wasadmin wasadmin       4096 May 24 2018  config
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 configuration
+drwxr-xr-x   25 wasadmin wasadmin       4096 Sep 12 15:56 consolepreferences
+-rw-r--r--    1 wasadmin wasadmin  159014036 Jul 18 08:58 core.20190718.085759.15073386.0001.dmp
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  devicestores
+drwxr-xr-x    3 wasadmin wasadmin       4096 Mar 21 2019  etc
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  expandedBundles
+drwxr-xr-x    2 wasadmin wasadmin       4096 May 23 2018  firststeps
+drwxr-xr-x    2 wasadmin wasadmin       4096 May 23 2018  installableApps
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  installedApps
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  installedConnectors
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  installedFilters
+-rw-r--r--    1 wasadmin wasadmin     827070 Jul 18 08:58 javacore.20190718.085759.15073386.0002.txt
+-rw-r--r--    1 wasadmin wasadmin     308589 Jul 18 08:58 jitdump.20190718.085759.15073386.0004.dmp
+drwxr-xr-x    4 wasadmin wasadmin       4096 Nov 19 12:24 logs
+drwxr-xr-x    5 wasadmin wasadmin       4096 May 23 2018  properties
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  servers
+drwxr-xr-x    8 wasadmin wasadmin       4096 Oct 03 11:23 temp
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  tmsStorage
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  tranlog
+drwxr-xr-x   17 wasadmin wasadmin       4096 Nov 19 11:54 workspace
+drwxr-xr-x   51 wasadmin wasadmin       4096 Nov 19 12:26 wstemp
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  xdtemp
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ cd configuration
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls
+1541105706763.log         1541106216067.log         1541442247602.log         1541445305721.log         1541463103882.log
+1541105748234.log         1541109040864.log         1541442498103.log         1541445667775.log         org.eclipse.core.runtime
+1541105751721.log         1541109072096.log         1541443501104.log         1541455385096.log         org.eclipse.equinox.app
+1541105755237.log         1541191548513.log         1541443538069.log         1541460709709.log         org.eclipse.osgi
+1541106037934.log         1541191656554.log         1541444822116.log         1541463004074.log         org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -lagrt
+total 208
+-rwxr-xr-x    1 wasadmin        102 May 23 2018  .configAreaProperties
+drwxr-xr-x    2 wasadmin        256 May 23 2018  org.eclipse.update
+drwxr-xr-x    3 wasadmin        256 May 23 2018  org.eclipse.equinox.app
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x   25 wasadmin       4096 Jul 18 08:58 ..
+-rw-r-----    1 wasadmin          0 Oct 03 11:23 .lastTouched
+drwxr-xr-x    6 wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    3 wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-x---    3 wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ chmod 755 org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls -la
+total 208
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x   25 wasadmin wasadmin       4096 Jul 18 08:58 ..
+-rwxr-xr-x    1 wasadmin wasadmin        102 May 23 2018  .configAreaProperties
+-rw-r-----    1 wasadmin wasadmin          0 Oct 03 11:23 .lastTouched
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105706763.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105748234.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105751721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541105755237.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106037934.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541106216067.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109040864.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 01 2018  1541109072096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191548513.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 02 2018  1541191656554.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442247602.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541442498103.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443501104.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541443538069.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541444822116.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445305721.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541445667775.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541455385096.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541460709709.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463004074.log
+-rwxr-xr-x    1 wasadmin wasadmin       3633 Nov 05 2018  1541463103882.log
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.core.runtime
+drwxr-xr-x    3 wasadmin wasadmin        256 May 23 2018  org.eclipse.equinox.app
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 org.eclipse.osgi
+drwxr-xr-x    2 wasadmin wasadmin        256 May 23 2018  org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd orrg.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3056
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rw-r-----    1 wasadmin wasadmin     104218 Oct 03 11:23 .bundledata.2
+-rw-r-----    1 wasadmin wasadmin    1410247 Oct 03 11:23 .lazy.2
+drwxr-x---    2 wasadmin wasadmin        256 Nov 19 11:54 .manager
+-rw-r-----    1 wasadmin wasadmin      35893 Oct 03 11:23 .state.2
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ chmod 755   777 *
+chmod: *: A file or directory in the path name does not exist.
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ chmod 777 *chmod 777 */ .*
+chmod: *.*: A file or directory in the path name does not exist.
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3056
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rw-r-----    1 wasadmin wasadmin     104218 Oct 03 11:23 .bundledata.2
+-rw-r-----    1 wasadmin wasadmin    1410247 Oct 03 11:23 .lazy.2
+drwxr-x---    2 wasadmin wasadmin        256 Nov 19 11:54 .manager
+-rw-r-----    1 wasadmin wasadmin      35893 Oct 03 11:23 .state.2
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ chmod 777 .lazy.2 .bundledata.2 .manager 
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ cd ..
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls
+1541105706763.log         1541106216067.log         1541442247602.log         1541445305721.log         1541463103882.log
+1541105748234.log         1541109040864.log         1541442498103.log         1541445667775.log         org.eclipse.core.runtime
+1541105751721.log         1541109072096.log         1541443501104.log         1541455385096.log         org.eclipse.equinox.app
+1541105755237.log         1541191548513.log         1541443538069.log         1541460709709.log         org.eclipse.osgi
+1541106037934.log         1541191656554.log         1541444822116.log         1541463004074.log         org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ chmod 777     -R 777 org.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ ls
+1541105706763.log         1541106216067.log         1541442247602.log         1541445305721.log         1541463103882.log
+1541105748234.log         1541109040864.log         1541442498103.log         1541445667775.log         org.eclipse.core.runtime
+1541105751721.log         1541109072096.log         1541443501104.log         1541455385096.log         org.eclipse.equinox.app
+1541105755237.log         1541191548513.log         1541443538069.log         1541460709709.log         org.eclipse.osgi
+1541106037934.log         1541191656554.log         1541444822116.log         1541463004074.log         org.eclipse.update
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration]$ cd orrg.eclipse.osgi
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ ls -la
+total 3056
+drwxrwxrwx    3 wasadmin wasadmin       4096 Oct 03 11:23 .
+drwxr-xr-x    6 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rwxrwxrwx    1 wasadmin wasadmin     104218 Oct 03 11:23 .bundledata.2
+-rwxrwxrwx    1 wasadmin wasadmin    1410247 Oct 03 11:23 .lazy.2
+drwxrwxrwx    2 wasadmin wasadmin        256 Nov 19 11:54 .manager
+-rwxrwxrwx    1 wasadmin wasadmin      35893 Oct 03 11:23 .state.2
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi]$ cd .manager
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ ls -la
+total 24
+drwxrwxrwx    2 wasadmin wasadmin        256 Nov 19 11:54 .
+drwxrwxrwx    3 wasadmin wasadmin       4096 Oct 03 11:23 ..
+-rwxrwxrwx    1 wasadmin wasadmin         89 Oct 03 11:23 .fileTable.6
+-rwxrwxrwx    1 wasadmin wasadmin         89 Oct 03 11:23 .fileTable.7
+-rwxrwxrwx    1 wasadmin wasadmin          0 Oct 03 11:23 .fileTableLock
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/configuration/org.eclipse.osgi/.manager]$ exit
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager]$ exit

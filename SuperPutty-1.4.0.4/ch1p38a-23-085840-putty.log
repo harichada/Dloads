@@ -1,0 +1,90 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.23 08:58:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/cseadmin/.Xauthority
+ankcseprdw03[/home/cseadmin]$ sudo -l
+Matching Defaults entries for cseadmin on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset,
+    logfile=/var/adm/sudo.log
+
+User cseadmin may run the following commands on this host:
+    (wasadmin) /home/wasadmin/ss61-sitedown gconly, /home/wasadmin/ss61-sitedown, /home/wasadmin/ss61-siteup
+    /home/wasadmin/ss7-sitedown gconly, /home/wasadmin/ss7-sitedown, /home/wasadmin/ss7-siteup,
+    /home/wasadmin/ss7VA-sitedown, /home/wasadmin/ss7VA-siteup, /home/wasadmin/ss85-sitedown, /home/wasadmin/ss85-siteup,
+    /home/wasadmin/ss85VA-sitedown, /home/wasadmin/ss85VA-siteup
+    (root) /usr/local/bin/cseunlockuser, /usr/local/bin/csecheckuser, /usr/local/bin/cseresetuser
+    (root) NOPASSWD: /usr/bin/ls
+    (root) /usr/bin/lsuser
+    (ALL) NOPASSWD: /usr/bin/du
+ankcseprdw03[/home/cseadmin]$ cd /usr/HTTPServer
+ankcseprdw03[/usr/HTTPServer]$ ls
+IHS_85      IHS_85_VA   lost+found
+ankcseprdw03[/usr/HTTPServer]$ cd IHS _85
+ankcseprdw03[/usr/HTTPServer/IHS_85]$ ls
+bin                error              htdocs_maint       lib                readme
+build              example_module     icons              logs               ssl
+cgi-bin            gsk8               include            man                uninstall
+codeset            htdocs             java               modules            util
+conf               htdocs_gconly      lafiles            properties         version.signature
+ankcseprdw03[/usr/HTTPServer/IHS_85]$ cd conf
+ankcseprdw03[/usr/HTTPServer/IHS_85/conf]$ ls
+admin.conf                  httpd.conf.20190110cv       httpd.conf.hold             magic
+admin.conf.default          httpd.conf.20190513         httpd.conf.maint            magic.default
+admin.passwd                httpd.conf.default          httpd.conf.maint.20190514   mime.types
+httpd.conf                  httpd.conf.gconly           httpd.conf.org              mime.types.default
+httpd.conf.20190110         httpd.conf.gconly.20190514  ldap.prop.sample            postinst.properties
+ankcseprdw03[/usr/HTTPServer/IHS_85/conf]$ grep logs httpd.conf
+#       /user/IHS/logs (Consider replacing with /webLogs/HTTPServer)
+#       /user/IHS/logs/wiley (Consider replacing with /webLogs/wiley)
+# with "/", the value of ServerRoot is prepended -- so "logs/foo.log"
+# server as "/usr/IHS/logs/foo.log".
+#LockFile logs/accept.lock
+PidFile logs/httpd.pid
+#CustomLog logs/mobile_log mobile
+#CustomLog logs/referer_log referer
+#CustomLog logs/agent_log agent
+#CustomLog logs/access_log combined
+#Scriptsock            logs/cgisock
+#    ErrorLog logs/dummy-host.example.com-error_log
+#    CustomLog logs/dummy-host.example.com-access_log common
+SSLCachePortFilename /usr/HTTPServer/IHS_85/logs/siddport
+# mod_mpmstats logs statistics about server activity to the main
+ankcseprdw03[/usr/HTTPServer/IHS_85/conf]$ grep log     log httpd.conf
+#       /user/IHS/logs (Consider replacing with /webLogs/HTTPServer)
+#       /user/IHS/logs/wiley (Consider replacing with /webLogs/wiley)
+# Configuration and logfile names: If the filenames you specify for many
+# with "/", the value of ServerRoot is prepended -- so "logs/foo.log"
+# server as "/usr/IHS/logs/foo.log".
+# configuration, error, and log files are kept.
+#LockFile logs/accept.lock
+PidFile logs/httpd.pid
+LoadModule log_config_module modules/mod_log_config.so
+# ErrorLog: The location of the error log file.
+# logged here.  If you *do* define an error logfile for a <VirtualHost>
+# container, that host's errors will be logged there and not here.
+ErrorLog /usr/HTTPLogs_SS/error_log
+# LogLevel: Control the number of messages logged to the error log.
+#mobile log format by Performance Team
+# The location and format of the access logfile (Common Logfile Format).
+# If you do not define any access logfiles within a <VirtualHost>
+# container, they will be logged here.  Contrariwise, if you *do*
+# define per-<VirtualHost> access logfiles, transactions will be
+# logged therein and *not* in this file.
+CustomLog /usr/HTTPLogs_SS/access_log common
+#mobile log by Performance Team
+#CustomLog logs/mobile_log mobile
+# If you would like to have agent and referer logfiles, uncomment the
+#CustomLog logs/referer_log referer
+#CustomLog logs/agent_log agent
+# If you prefer a single logfile with access, agent, and referer information
+#CustomLog logs/access_log combined
+#Scriptsock            logs/cgisock
+#    ErrorLog logs/dummy-host.example.com-error_log
+#    CustomLog logs/dummy-host.example.com-access_log common
+SSLCachePortFilename /usr/HTTPServer/IHS_85/logs/siddport
+# mod_mpmstats logs statistics about server activity to the main
+# error log.  No records are written while the server is idle.
+# result in the error log growing faster but with more accurate
+# and connection to the error log at the time of a crash.  This is
+ankcseprdw03[/usr/HTTPServer/IHS_85/conf]$ tail /usr/HTTPLogs _SS/access _log
+/usr/HTTPLogs_SS/access_log: The file access permissions do not allow the specified action.
+ankcseprdw03[/usr/HTTPServer/IHS_85/conf]$ exit

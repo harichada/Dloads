@@ -1,0 +1,164 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 12:17:41 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Nov 13 16:12:41 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd EFS/asn[K[Knsible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd selfsignedcerts/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.retry  CreateCerts.retry  getIP.yml      [0m[01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m  [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft1.yml    CreateCerts-pft.yml    CreateCerts.yml    insPyOSSL.yml  [01;34mpyOpenSSL-19.0.0[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ cat CreateCerts.yml
+- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.
+      file:
+       path: /etc/httpd/ssl 
+       state: directory
+    - name: Delete old Key files
+      file:
+        path: /etc/httpd/ssl/pft2efs-new.key
+        state: absent
+    - name: Generate an OpenSSL private key.
+      openssl_privatekey:
+         path: /etc/httpd/ssl/pft2efs-new.key
+         size: 1024
+         state: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.
+      openssl_csr:
+        path: /etc/httpd/ssl/pft2efs-new.csr
+        privatekey_path: /etc/httpd/ssl/pft2efs-new.key
+        country_name: US
+        organization_name: DCSS
+        organizational_unit_name: Env
+        emailAddress: dcsstsenvironmensunit@dcss.ca.gov
+        common_name: "100.95.20.93"
+        subject_alt_name: "DNS:efspft2.cse.ca.gov, DNS:100.95.20.93, IP:100.95.20.93"
+        state: "{{ statte }}"
+      when: "'pft2' in inventory_hostname"
+
+    - name: Generate a Self Signed OpenSSL certificate.
+      openssl_certificate:
+        path: /etc/httpd/ssl/pft2efs-new.crt
+        privatekey_path: /etc/httpd/ssl/pft2efs-new.key
+        csr_path: /etc/httpd/ssl/pft2efs-new.csr
+        signature_algorithms: sha256WithRSAEncryption
+        provider: selfsigned
+        state: "{{ statte }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ grep prod *
+grep: pyOpenSSL-19.0.0: Is a directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ gpr pr[K[K[K[K[Krep prd*
+^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ grep prd*[K *
+grep: pyOpenSSL-19.0.0: Is a directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.retry  CreateCerts.retry  getIP.yml      [0m[01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m  [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft1.yml    CreateCerts-pft.yml    CreateCerts.yml    insPyOSSL.yml  [01;34mpyOpenSSL-19.0.0[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ cat CreateCerts-pft2[K[K11[K[Kt1.
+CreateCerts-pft1.retry  CreateCerts-pft1.yml    
+[hchada@CGDCSSL1047UL selfsignedcerts]$ cat CreateCerts-pft1.yml 
+- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.
+      file:
+       path: /etc/httpd/ssl 
+       state: directory
+    - name: Delete old Key files
+      file:
+        path: /etc/httpd/ssl/efspft1-.key
+        state: absent
+    - name: Generate an OpenSSL private key.
+      openssl_privatekey:
+         path: /etc/httpd/ssl/efspft1-.key
+         size: 1024
+         state: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.
+      openssl_csr:
+        path: /etc/httpd/ssl/efspft1-.csr
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        country_name: US
+        organization_name: DCSS
+        organizational_unit_name: Env
+        emailAddress: dcsstsenvironmensunit@dcss.ca.gov
+        common_name: "100.95.20.94"
+        subject_alt_name: "DNS:efspft1.cse.ca.gov, IP:100.95.20.65, IP:100.95.20.66, IP:100.95.20.94"
+        state: "{{ statte }}"
+
+    - name: Generate a Self Signed OpenSSL certificate.
+      openssl_certificate:
+        path: /etc/httpd/ssl/efspft1-.crt
+        privatekey_path: /etc/httpd/ssl/efspft1-.key
+        csr_path: /etc/httpd/ssl/efspft1-.csr
+        signature_algorithms: sha256WithRSAEncryption
+        provider: selfsigned
+        state: "{{ statte }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.retry  CreateCerts.retry  getIP.yml      [0m[01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m  [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft1.yml    CreateCerts-pft.yml    CreateCerts.yml    insPyOSSL.yml  [01;34mpyOpenSSL-19.0.0[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ cat CreateCerts-pft.yml 
+- hosts:
+    - "{{ var_host }}"
+  become: true
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.
+      file:
+       path: /forms/apache24/ssl 
+       state: directory
+    - name: Delete old Key files
+      file:
+        path: /forms/apache24/ssl/{{ inventory_hostname }}.key
+        state: absent
+    - name: Generate an OpenSSL private key.
+      openssl_privatekey:
+         path: /forms/apache24/ssl/{{ inventory_hostname }}.key
+         size: 2048
+         state: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.
+      openssl_csr:
+        path: /forms/apache24/ssl/{{ inventory_hostname }}.csr
+        privatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key
+        country_name: US
+        organization_name: DCSS
+        organizational_unit_name: Env
+        email_address: dcsstsenvironmentsunit@dcss.ca.gov
+        common_name: "100.95.20.99"
+        subject_alt_name: "DNS:efs{{ inventory_hostname[0:3] }}.cse.ca.gov, DNS:{{ ansible_default_ipv4.address }}"
+    - name: Generate a Self Signed OpenSSL certificate.
+      openssl_certificate:
+        path: /forms/apache24/ssl/{{ inventory_hostname }}.crt
+        privatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key
+        csr_path: /forms/apache24/ssl/{{ inventory_hostname }}.csr
+        signature_algorithms: sha256WithRSAEncryption
+        provider: selfsigned
+        state: "{{ statte }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ [K[hchada@CGDCSSL1047UL selfsignedcerts]$ 

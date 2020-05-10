@@ -1,0 +1,63 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.31 08:13:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Sep 25 07:49:30 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct 30 09:02:07 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsepf2a05[/home/hchada]$ df 
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         2097152   1392536   34%    14918     9% /
+/dev/hd2        13893632   1797440   88%    85778    29% /usr
+/dev/hd9var      4194304   1127960   74%    12701    10% /var
+/dev/hd3         8388608   7191160   15%      597     1% /tmp
+/dev/hd1         3670016   1650872   56%    10394     6% /home
+/proc                  -         -    -        -      - /proc
+/dev/hd10opt     7143424   1904432   74%    16792     8% /opt
+/dev/home_hw      524288    392752   26%      302     1% /home/hw
+/dev/mksysb     25165824   5199168   80%       53     1% /mksysb
+/dev/savevg_orig     524288    518928    2%       46     1% /savevg
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/usr_local     524288    452608   14%      634     2% /usr/local
+/dev/insthomelv    4194304   4103648    3%      234     1% /insthome
+/dev/mqm_lv     14352384   5952096   59%    21428     4% /var/mqm
+/dev/maestro_lv   17694720   3901824   78%   178297    23% /maestro
+/dev/tivoli_lv     917504    908512    1%        4     1% /tivoli
+/dev/tivolibk_lv     131072    128344    3%        4     1% /tivolibk
+/dev/websphere7lv   16777216   3295472   81%    44161    11% /usr/WebSphere7
+/dev/mqmlog_lv    2097152   1423592   33%       42     1% /var/mqm/log
+/dev/scratchlv   10485760   2776944   74%     2951     1% /scratch
+/dev/auditlv     4194304   4156624    1%        6     1% /opt/auditout
+/dev/CommVaultlv   20709376  17911240   14%     2512     1% /CommVault
+/dev/livedump     262144    261448    1%        4     1% /var/adm/ras/livedump
+/dev/FromCSElv    1048576    102968   91%      196     2% /FromCSE
+/dev/ToCSElv     1048576    919064   13%      100     1% /ToCSE
+/dev/logslv      2097152   2078016    1%       14     1% /var/adm/logs
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/webspherelv   25165824  14449640   43%    43112     3% /usr/WebSphere
+ankcsepf2a02:/tmpswstage    23068672   6284088   73%     4498     1% /tmpswstage
+ankcsepf1d02:/swstage   283115520  22815376   92%    83293     3% /swstage
+ankcsepf2d01:/finalist    12058624   5572856   54%      357     1% /finalist
+ankcsepf2a03:/var/pd/hotfolders    24903680  23600280    6%     1160     1% /p03a_hotfolders
+ankcsepf2d01:/cp1p05a/cse     6291456   1417968   78%     5613     4% /cse
+ankcsepf2d01:/db2data_batch    58720256  43205992   27%    11117     1% /cse/shared
+ankcsedevd01:/cse/lib/Jar_Repository     2097152   1074544   49%      621     1% /cse/lib/Jar_Repository
+ankcsedevd01:/ds004_admin    20447232  14287664   31%   155961     7% /cse/admin
+ankcsepf2d01:/pft02_hyperion_transient     2097152   2079792    1%        4     1% /cse/reporting/transient_items
+ankcsepf2d01:/webseal_log     2097152   2079792    1%        4     1% /webseal_log
+ankcsepf2d01:/pdf2afp    38797312  38476128    1%     1721     1% /pdf2afp
+ankcsepf2d01:/cpos    68419584  67909872    1%      934     1% /cpos
+ankcsepf2d01:/db2data_stage    96468992  80813024   17%     1992     1% /integration_stage
+ankcsepf2d01:/docstorage     8388608   7478128   11%     2675     1% /docstorage
+/dev/itmlv       6291456   5321520   16%     4035     1% /opt/IBM/ITM
+ankcsepf2a05[/home/hchada]$ df | grep -i    100
+ankcsepf2a05[/home/hchada]$ exit

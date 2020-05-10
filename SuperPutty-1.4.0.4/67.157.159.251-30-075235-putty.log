@@ -1,0 +1,232 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 07:52:35 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Oct 29 14:30:45 2019 from cgdcssl1047ul.calcloud.local
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd /E[K[KEFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copy              cpyhttpd.yml           CreateUser.yml   fetchhostname.yml  [0m[01;31mmaster-cisreport.zip[0m  script.yml       [01;34mtomcat[0m
+[01;34mapache[0m                         copyBinaries.yml  CreatePartition.yml    [01;34mCustomerConnect[0m  [01;34mfinal[0m              passwd                [01;34mselfsignedcerts[0m  users.yml
+CCServers.yml                  copyKeys.retry    CreatePartsDevOps.yml  delApctl.yml     gitcommands.txt    passwd.txt            servers.yml      [01;32mweb.xml[0m
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.yml      CreateUser.retry       deploy1.yml      inventory          ping.yml              [01;32mserver.xml[0m       yumPackages.yml
+[01;32mcontext.xml[0m                    copyKey.yml       CreateUsers.yml        [01;31mdevel.zip[0m        inventorycc        [01;34mpyscritps[0m             stopFW.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd selfsignedcerts/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.retry  CreateCerts.retry  getIP.yml      [0m[01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m  [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft1.yml    CreateCerts-pft.yml    CreateCerts.yml    insPyOSSL.yml  [01;34mpyOpenSSL-19.0.0[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ vi CreateCerts.[K-f[Kpft.yml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".CreateCerts-pft.yml.swp"
+[10Cowned by: hchada   dated: Thu Mar 21 10:43:09 2019
+[9Cfile name: ~hchada/EFS/ansible/selfsignedcerts/CreateCerts-pft.yml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 8479
+While opening file "CreateCerts-pft.yml"
+[13Cdated: Thu Mar 21 12:05:05 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r CreateCerts-pft.yml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".CreateCerts-pft.yml.swp"
+    to avoid this message.
+
+[55;1H"CreateCerts-pft.yml" 35L, 1409C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[6;7Hfile:[7;8Hpath: /forms/apache24/ssl[8;8Hstate: directory
+    - name: Delete old Key files[10;7Hfile:[11;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.key[12;9Hstate: absent
+    - name: Generate an OpenSSL private key.[14;7Hopenssl_privatekey:[15;10Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.key[16;10Hsize: 2048[17;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[19;7Hopenssl_csr:[20;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.csr[21;9Hprivatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key[22;9Hcountry_name: US[23;9Horganization_name: DCSS[24;9Horganizational_unit_name: Env[25;9Hemail_address: dcsstsenvironmentsunit@dcss.ca.gov[26;9Hcommon_name: "100.95.20.99"[27;9Hsubject_alt_name: "DNS:efs{{ inventory_hostname[0:3] }}.cse.ca.gov, DNS:{{ ansible_default_ipv4.address }}"
+    - name: Generate a Self Signed OpenSSL certificate.[29;7Hopenssl_certificate:[30;9Hpath: /forms/apache24/ssl/{{ inventory_hostname }}.crt[31;9Hprivatekey_path: /forms/apache24/ssl/{{ inventory_hostname }}.key[32;9Hcsr_path: /forms/apache24/ssl/{{ inventory_hostname }}.csr[33;9Hsignature_algorithms: sha256WithRSAEncryption[34;9Hprovider: selfsigned[35;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                                                                                             [37;1H~                                                                                                                                                                             [38;1H~                                                                                                                                                                             [39;1H~                                                                                                                                                                             [40;1H~                                                                                                                                                                             [41;1H~                                                                                                                                                                             [42;1H~                                                                                                                                                                             [43;1H~                                                                                                                                                                             [44;1H~                                                                                                                                                                             [45;1H~                                                                                                                                                                             [46;1H~                                                                                                                                                                             [47;1H~                                                                                                                                                                             [48;1H~                                                                                                                                                                             [49;1H~                                                                                                                                                                             [50;1H~                                                                                                                                                                             [51;1H~                                                                                                                                                                             [52;1H~                                                                                                                                                                             [53;1H~                                                                                                                                                                             [54;1H~                                                                                                                                                                             [55;1H~                                                                                                                                                                             [m[56;1H[K[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[56;1H:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ vi CreateCertsC[K.yml
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1HE325: ATTENTION
+Found a swap file by the name ".CreateCerts.yml.swp"
+[10Cowned by: hchada   dated: Wed May  8 09:40:23 2019
+[9Cfile name: ~hchada/EFS/ansible/selfsignedcerts/CreateCerts.yml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 17886
+While opening file "CreateCerts.yml"
+[13Cdated: Mon Sep 16 10:25:13 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r CreateCerts.yml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".CreateCerts.yml.swp"
+    to avoid this message.
+
+[55;1H"CreateCerts.yml" 39L, 1336C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[7;7Hfile:[8;8Hpath: /etc/httpd/ssl[9;8Hstate: directory
+    - name: Delete old Key files[11;7Hfile:[12;9Hpath: /etc/httpd/ssl/sytefs-new.key[13;9Hstate: absent
+    - name: Generate an OpenSSL private key.[15;7Hopenssl_privatekey:[16;10Hpath: /etc/httpd/ssl/sytefs-new.key[17;10Hsize: 1024[18;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[20;7Hopenssl_csr:[21;9Hpath: /etc/httpd/ssl/sytefs-new.csr[22;9Hprivatekey_path: /etc/httpd/ssl/sytefs-new.key[23;9Hcountry_name: US[24;9Horganization_name: DCSS[25;9Horganizational_unit_name: Env[26;9HemailAddress: dcsstsenvironmensunit@dcss.ca.gov[27;9Hcommon_name: "100.95.20.101"[28;9Hsubject_alt_name: "DNS:efssyt.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[29;9Hstate: "{{ statte }}"[30;7Hwhen: "'syt' in inventory_hostname"[32;5H- name: Generate a Self Signed OpenSSL certificate.[33;7Hopenssl_certificate:[34;9Hpath: /etc/httpd/ssl/sytefs-new.crt[35;9Hprivatekey_path: /etc/httpd/ssl/sytefs-new.key[36;9Hcsr_path: /etc/httpd/ssl/sytefs-new.csr[37;9Hsignature_algorithms: sha256WithRSAEncryption[38;9Hprovider: selfsigned[39;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                                                                                             [41;1H~                                                                                                                                                                             [42;1H~                                                                                                                                                                             [43;1H~                                                                                                                                                                             [44;1H~                                                                                                                                                                             [45;1H~                                                                                                                                                                             [46;1H~                                                                                                                                                                             [47;1H~                                                                                                                                                                             [48;1H~                                                                                                                                                                             [49;1H~                                                                                                                                                                             [50;1H~                                                                                                                                                                             [51;1H~                                                                                                                                                                             [52;1H~                                                                                                                                                                             [53;1H~                                                                                                                                                                             [54;1H~                                                                                                                                                                             [55;1H~                                                                                                                                                                             [m[56;1H[K[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        common_name: "100.95.20.[?25l01"[27;36H[K[27;33H[?12l[?25h[?25l1"[27;35H[K[27;33H[?12l[?25h[?25l"[27;34H[K[27;33H[?12l[?25h[?25l[56;1H[1m-- INSERT --[27;33H[?12l[?25h[?25l[m9"[?12l[?25h[?25l3"[?12l[?25h[56;1H[K[27;34H[?25l[?12l[?25h[28;34Hss[?25lyt.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;86H[K[28;35H[?12l[?25h[?25lt.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;85H[K[28;35H[?12l[?25h[?25l.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;84H[K[28;35H[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;35H[?12l[?25h[?25l[mp.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;36H[?12l[?25h[?25lf.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;37H[?12l[?25h[?25lt.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;38H[?12l[?25h[?25l0.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;39H[?12l[?25h[?25l2.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;40H[?12l[?25h[?25l.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;88H[K[28;39H[?12l[?25h[?25l.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;87H[K[28;38H[?12l[?25h[?25l2.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[28;39H[?12l[?25h.cse.ca.gov, DNS:100.95.20.1[?25lx101, IP:100.95.20.101"[28;67H[?12l[?25h[?25lx101, IP:100.95.20.101"[28;68H[?12l[?25h[?25lx101, IP:100.95.20.101"[28;89H[K[28;66H[?12l[?25h[?25l101, IP:100.95.20.101"[28;88H[K[28;66H[?12l[?25h[?25l01, IP:100.95.20.101"[28;87H[K[28;66H[?12l[?25h[?25l1, IP:100.95.20.101"[28;86H[K[28;66H[?12l[?25h[?25l, IP:100.95.20.101"[28;85H[K[28;66H[?12l[?25h[56;1H[K[28;65H[?25l[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;65H[?12l[?25h[m.[?25l9, IP:100.95.20.101"[28;67H[?12l[?25h[?25l3, IP:100.95.20.101"[28;68H[?12l[?25h[56;1H[K[28;67H[?25l[?12l[?25h3, IP:100.95.20.[?25l01"[28;86H[K[28;83H[?12l[?25h[?25l1"[28;85H[K[28;83H[?12l[?25h[?25l"[28;84H[K[28;83H[?12l[?25h[?25l[28;83H[K[28;82H[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;82H[?12l[?25h[?25l[ma.[?12l[?25h[?25l.[28;83H[K[28;82H[?12l[?25h.[?25l9[?12l[?25h[?25l3[?12l[?25h[?25l"[?12l[?25h[56;1H[K[28;85H[?25l[?12l[?25h[?25l[56;1H:[?12l[?25h%[?25l[56;2H[K[56;2H[?12l[?25h%s/syt/pft2/g[?25l8 substitutions on 8 lines[12;30Hpft2efs-new.key[16;31Hpft2efs-new.key[21;30Hpft2efs-new.csr[22;41Hpft2efs-new.key[30;15Hpft2' in inventory_hostname"[34;30Hpft2efs-new.crt[35;41Hpft2efs-new.key[36;34Hpft2efs-new.csr[36;9H[?12l[?25h[?25l[56;1H[K[56;1H:[?12l[?25hwq[?25l"CreateCerts.yml" 39L, 1342C written
+[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ hisotry [K[K[K[K[Ktory | grep create[K[K[K[K[K[KCreateCerts
+   20  cat [01;31m[KCreateCerts[m[K.yml
+   22  cat [01;31m[KCreateCerts[m[K-pft.yml
+   24  cat [01;31m[KCreateCerts[m[K-pft.yml
+   26  more [01;31m[KCreateCerts[m[K.yml
+   27  cp [01;31m[KCreateCerts[m[K.yml [01;31m[KCreateCerts[m[K-pft1.yml
+   28  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+   30   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_hosts=pft1ws1 statte=present" -K
+   31   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   32  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+   33   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   34  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+   35   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+   47  more [01;31m[KCreateCerts[m[K.yml
+   48  vi [01;31m[KCreateCerts[m[K.yml
+   57   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=devws statte=present" -K
+   79  more [01;31m[KCreateCerts[m[K.yml
+   82  vi [01;31m[KCreateCerts[m[K.yml
+   84  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_hosts=sytws statte=present" -K
+   85  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=sytws statte=present" -K
+   87  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+   89  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+   91  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+   94  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+  166  vi [01;31m[KCreateCerts[m[K.yml
+  167  history | grep [01;31m[KCreateCerts[m[K
+  843  more [01;31m[KCreateCerts[m[K-pft1.yml
+ 1000  vi [01;31m[KCreateCerts[m[K-pft.yml
+ 1001  vi [01;31m[KCreateCerts[m[K.yml
+ 1002  history | grep [01;31m[KCreateCerts[m[K
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=s[K^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ grep pft2 /[Kinven[K[K[K[K[K,,.in[K[K[K[K[K[K ../inventory
+[[01;31m[Kpft2[m[Kwsgrp]
+[01;31m[Kpft2[m[Kws1
+[01;31m[Kpft2[m[Kws2
+[[01;31m[Kpft2[m[Kasgrp]
+[01;31m[Kpft2[m[Kas1
+[01;31m[Kpft2[m[Kas2
+[01;31m[Kpft2[m[Kwsgrp
+[01;31m[Kpft2[m[Kasgrp
+[01;31m[Kpft2[m[Kwsgrp
+[01;31m[Kpft2[m[Kasgrp
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ grep pft2 ../inventoryhistory | grep CreateCerts[4Pgrep pft2 ../inventory^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ansible-playbook -i ../inventory CreateCerts.yml --extra-vars "var_host=pft2wsgrp statte=presene[Kt" =[K-k[KK
+SUDO password: 
+
+PLAY [pft2wsgrp] *************************************************************************************************************************************************************
+
+TASK [Gathering Facts] *******************************************************************************************************************************************************
+[0;32mok: [pft2ws2][0m
+[0;32mok: [pft2ws1][0m
+
+TASK [Ensure directory exists for local self-signed TLS certs.] **************************************************************************************************************
+[0;32mok: [pft2ws2][0m
+[0;32mok: [pft2ws1][0m
+
+TASK [Delete old Key files] **************************************************************************************************************************************************
+[0;32mok: [pft2ws1][0m
+[0;32mok: [pft2ws2][0m
+
+TASK [Generate an OpenSSL private key.] **************************************************************************************************************************************
+[0;33mchanged: [pft2ws2][0m
+[0;33mchanged: [pft2ws1][0m
+
+TASK [Generate an OpenSSL CSR.] **********************************************************************************************************************************************
+[0;33mchanged: [pft2ws2][0m
+[0;33mchanged: [pft2ws1][0m
+
+TASK [Generate a Self Signed OpenSSL certificate.] ***************************************************************************************************************************
+[0;33mchanged: [pft2ws1][0m
+[0;33mchanged: [pft2ws2][0m
+
+PLAY RECAP *******************************************************************************************************************************************************************
+[0;33mpft2ws1[0m                    : [0;32mok=6   [0m [0;33mchanged=3   [0m unreachable=0    failed=0   
+[0;33mpft2ws2[0m                    : [0;32mok=6   [0m [0;33mchanged=3   [0m unreachable=0    failed=0   
+
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ [K[hchada@CGDCSSL1047UL selfsignedcerts]$ exit
+logout

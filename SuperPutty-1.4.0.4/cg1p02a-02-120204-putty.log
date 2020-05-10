@@ -1,0 +1,355 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.02 12:02:04 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/cseadmin]$ ps -ef | grep dmgr
+wasadmin  4325616        1   2   Nov 21      - 58:02 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=52246 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/insthome/db2cinst/sqllib/lib32: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/DeploymentManager/config cg1p02aCell01 cg1p02aCellManager01 dmgr
+ankcsesyaa02[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config/cse*
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ls
+SYA01.CSEArchitecture.properties                     SYA01.ImagingArchitecture.properties                 SYA01.tracing.properties
+SYA01.CSEArchitecture.properties.orig                SYA01.ImagingArchitecture.properties.20191125        SYA01.tracing.properties.orig
+SYA01.ConsortiaInitialLoadToggle.properties          SYA01.ImagingArchitecture.properties.bak             SYA01_Integration.log4j.properties
+SYA01.ConsortiaUpdateQueuePublish.properties         SYA01.PrintingArchitecture.properties                cmbicmenv.ini
+SYA01.EnterpriseFormService.properties               SYA01.RemoteFormsGenExclusions.properties            cmbicmsrvs.ini
+SYA01.FontLocation.properties                        SYA01.SECUREInterface.properties                     cmbicmsrvs.ini.bak
+SYA01.FormsArchitecture.properties                   SYA01.ShippingInterfaces.properties                  cmblogconfig.properties
+SYA01.FormsArchitecture.properties.ADOBEAEM          SYA01.log4j.properties                               cmbpool.ini
+SYA01.FormsArchitecture.properties.bak               SYA01.log4j.properties.20181115                      donotremove
+SYA01.FormsArchitecture.properties.orig              SYA01.log4j.properties.HIB                           ibmcmconfig.properties
+SYA01.IFOnlineFormsArchitecture.properties           SYA01.log4j.properties.bak                           ibmcmconfig.properties.bak
+SYA01.IFOnlineFormsArchitecture.properties.AdobeAEM  SYA01.reporting.properties                           jaas.conf.WSI
+SYA01.IFOnlineFormsArchitecture.properties.orig      SYA01.reporting.properties.bak                       securityAdministration.properties
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ vi SYA01.CSEArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="SYA01.CSEArchitecture.properties" [Read only] 95 lines, 4791 characters [H[2J#Property for using the appropriate strategy for getting the system date[H
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, OnlineTestingTimeStrategy, or Integrat
+ionTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+onlinetime.strategy=OnlineTestingTimeStrategy
+#onlinetime.strategy=IntegrationTestingTimeStrategy
+
+# If using IntegrationTestingTimeStrategy or IntegrationTimeStrategy, you MUST provide a spoof date
+#  (format is MM/dd/yyyy)
+#integration.spoof.date=10/15/2008
+
+# If using IntegrationTestingTimeStrategy or IntegrationTimeStrategy, optionally provide a spoof time
+#  (format is hh:mm:ss and the default is 00:00:00)
+#integration.spoof.time=18:18:18
+
+
+#Property for using the appropriate strategy for getting the system date
+#The choices are OnlineProductionTimeStrategy, OnlineUnitTestingTimeStrategy, or OnlineTestingTimeStrategy
+#Visit the workbench for more details about these choices.
+
+#onlinetime.strategy=OnlineTestingTimeStrategy
+
+#Property for configuring use of the stub finalist implementation or the real finalist implementation in an environment
+#finalist.on=false means that the stub implementation is used
+#finalist.on=true means that the real implementation is used
+finalist.on=true
+
+##################################################################
+# Properties for Reporting Health Monitor
+# set both values to 0 if there is no reporting server
+##################################################################
+
+reporting.healthmonitor.minutes.for.warning=120
+reporting.healthmonitor.minutes.for.failure=360
+
+bpm.environment=false
+
+IdListPartitioningEnabled=true
+
+#######################################################################################################################
+# Properties for Non Production Email Service
+#is.nonprod.env=true means it is a non-production environment.
+#invalid.domain.default.email=DCSSeDocDev@dcss.ca.gov means all the email from this environment sent to this email box.
+#nonprod.default.email.subject=Test Email from - This is default subject text appended in non-production environment.
+#env.instance=TEAM04 means non production environment instance.
+#######################################################################################################################
+is.nonprod.env=true
+invalid.domain.default.email=DCSSeDocSYA@dcss.ca.gov
+nonprod.default.email.subject=Test Email from
+env.instance=SYA01
+
+#---- SDU Hyperlink Configuration ------------
+sdu.encryption.key=CA%70#DCSS!X4PY$
+sdu.ePayment.url=https://www.cawebtest.com/navigation/lcsa/?pre_auth_token=[H[55B"SYA01.CSEArchitecture.properties" [Read only] 95 lines, 4791 characters[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[34B[K:/FN_PDF[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[34B[K:/PDF[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[34B[K/[K[7mex: 0602-007 The pattern does not exist.[27m[22;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[34B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ vi SYA01.ImagingArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="SYA01.ImagingArchitecture.properties" [Read only] 149 lines, 6521 characters [H[2J# Description:[H
+#    This file contains configuration data for the Imaging Architecture in
+#    specific the Document Management Service.
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#[7Ca) Be sure that the cmbcmenv.properties file in CSEResources specifies
+#[10Ca valid directory containing the rest of the cmb*.ini and
+#[10Ccmb*.properties files.
+#[7Cb) Be sure you have a DB2 connection configured to the Content Manager
+#[10CLibrary Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#[7Cc) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#[7Ca) Try to connect to Content Manager with the eClient and retrieve
+#[10Ca document to ensure that the server is up and accessable.
+#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#[10CTEST: ??
+#[10CPROD: ??
+#[7Cb) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer[9C- Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=CONTMAN
+CM_USERID=sya01
+CM_PASSWORD=beer4y0u
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+#[H[55B"SYA01.ImagingArchitecture.properties" [Read only] 149 lines, 6521 characters[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:/FBNN_PDF[H[2J# For example, given these values:[H
+# TAME_URL_SEARCH=csehap019.cse.gov.ca:9080
+# TAME_URL_REPLACE=CSEHAP019:9080
+#
+# The URL from Content Manager would look something like this:
+# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27
++22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "csehap019.cse.gov.ca" with "CSEHAP019":
+# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A
+00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the
+# FormsArchitecture.properties file, which is externalized as a URL resource in
+# WAS for all eBHC environments. If it does not find that URL resource,
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+#TAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315
+#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm
+#TAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm
+
+TAME_URL_SEARCH=ankcsesyaa05.dts.ca.gov:9085/
+TAME_URL_REPLACE=ankcsesya05.dts.ca.gov:9085/
+FN_PDF_URL=https://ankcsesyaw01.dts.ca.gov
+
+
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# New 8.4
+#ICMSERVERREPTYPE=DB2CON
+#IBMCMWorkingDirectory=/usr/WebSphere/AppServer/config/cseProperties
+
+# The max number of scanned items returned by the getScannedDocuments() method.
+# The caller can specify a maximum number of items, but if the values greater
+# than this value are not allowed.  If the caller passes in 0, the this number
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what
+# is required to connect to DB2 Content Manager.
+#
+#    1) DB2 connection to Library Server
+#[27;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[29B:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ping ankcsesyaa02 5
+PING ankcsesyaa05: (134.187.144.6): 56 data bytes
+64 bytes from 134.187.144.6: icmp_seq=0 ttl=255 time=0 ms
+64 bytes from 134.187.144.6: icmp_seq=1 ttl=255 time=0 ms
+
+--- ankcsesyaa05 ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 0/0/0 ms
+ankcsesyaa02[/usr/WebSphere/AppServer_85/profiles/DeploymentManager/config/cseProperties]$ ping ankcsesyaa05vi SYA01.ImagingArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="SYA01.ImagingArchitecture.properties" [Read only] 149 lines, 6521 characters [H[2J# Description:[H
+#    This file contains configuration data for the Imaging Architecture in
+#    specific the Document Management Service.
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#[7Ca) Be sure that the cmbcmenv.properties file in CSEResources specifies
+#[10Ca valid directory containing the rest of the cmb*.ini and
+#[10Ccmb*.properties files.
+#[7Cb) Be sure you have a DB2 connection configured to the Content Manager
+#[10CLibrary Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#[7Cc) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#[7Ca) Try to connect to Content Manager with the eClient and retrieve
+#[10Ca document to ensure that the server is up and accessable.
+#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#[10CTEST: ??
+#[10CPROD: ??
+#[7Cb) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer[9C- Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=CONTMAN
+CM_USERID=sya01
+CM_PASSWORD=beer4y0u
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+#[H[55B"SYA01.ImagingArchitecture.properties" [Read only] 149 lines, 6521 characters[H[H[2J# TAME_URL_SEARCH with TAME_URL_REPLACE.[H
+#
+# For example, given these values:
+# TAME_URL_SEARCH=csehap019.cse.gov.ca:9080
+# TAME_URL_REPLACE=CSEHAP019:9080
+#
+# The URL from Content Manager would look something like this:
+# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27
++22%3A45%3A00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "csehap019.cse.gov.ca" with "CSEHAP019":
+# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A
+00.576385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the
+# FormsArchitecture.properties file, which is externalized as a URL resource in
+# WAS for all eBHC environments. If it does not find that URL resource,
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+#TAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315
+#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm
+#TAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm
+
+TAME_URL_SEARCH=ankcsesyaa05.dts.ca.gov:9085/
+TAME_URL_REPLACE=ankcsesya05.dts.ca.gov:9085/
+FN_PDF_URL=https://ankcsesyaw01.dts.ca.gov
+
+
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# New 8.4
+#ICMSERVERREPTYPE=DB2CON
+#IBMCMWorkingDirectory=/usr/WebSphere/AppServer/config/cseProperties
+
+# The max number of scanned items returned by the getScannedDocuments() method.
+# The caller can specify a maximum number of items, but if the values greater
+# than this value are not allowed.  If the caller passes in 0, the this number
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what
+# is required to connect to DB2 Content Manager.
+#[H#n TAME_URL_SEARCH with TAME_URL_REPLACE.[H#nk TAME_URL_SEARCH with TAME_URL_REPLACE.[H#nkc TAME_URL_SEARCH with TAME_URL_REPLACE.[1;5Hs TAME_URL_SEARCH with TAME_URL_REPLACE.[1;6He TAME_URL_SEARCH with TAME_URL_REPLACE.[1;7Hs TAME_URL_SEARCH with TAME_URL_REPLACE.[1;8Hy TAME_URL_SEARCH with TAME_URL_REPLACE.[1;9Ha TAME_URL_SEARCH with TAME_URL_REPLACE.[1;10Ha TAME_URL_SEARCH with TAME_URL_REPLACE.[1;11H0 TAME_URL_SEARCH with TAME_URL_REPLACE.[1;12H5 TAME_URL_SEARCH with TAME_URL_REPLACE.[1;13H. TAME_URL_SEARCH with TAME_URL_REPLACE.[1;14Hd TAME_URL_SEARCH with TAME_URL_REPLACE.[1;15Ht TAME_URL_SEARCH with TAME_URL_REPLACE.[1;16Hs TAME_URL_SEARCH with TAME_URL_REPLACE.[1;17H. TAME_URL_SEARCH with TAME_URL_REPLACE.[1;18Hc TAME_URL_SEARCH with TAME_URL_REPLACE.[1;19Ha TAME_URL_SEARCH with TAME_URL_REPLACE.[1;20H. TAME_URL_SEARCH with TAME_URL_REPLACE.[1;21Hg TAME_URL_SEARCH with TAME_URL_REPLACE.[1;22Ho TAME_URL_SEARCH with TAME_URL_REPLACE.[1;23Hv TAME_URL_SEARCH with TAME_URL_REPLACE.[1;24Hd TAME_URL_SEARCH with TAME_URL_REPLACE.[1;25H[H#[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P[P
+
+
+
+
+
+
+
+
+
+#
+
+
+
+
+
+
+
+
+
+
+
+#
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[1M[31B#    1) DB2 connection to Library Server[24;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+
+
+
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[AFN_PDF_URL[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[ATAME_URL_REPLACE=ankcsesya05.dts.ca.gov:9085[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l/
+[A085
+v

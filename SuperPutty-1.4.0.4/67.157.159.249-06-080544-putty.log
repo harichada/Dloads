@@ -1,0 +1,406 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.06 08:05:44 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Oct 29 14:30:46 2019 from cgdcssl1047ul.calcloud.local
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1046UL:~[?1034h[hchada@CGDCSSL1046UL ~]$ cd /var/log/httpd/
+-bash: cd: /var/log/httpd/: Permission denied
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ sudo su -
+[sudo] password for hchada: 
+Last login: Mon Oct 28 08:37:14 PDT 2019 on pts/0
+]0;root@CGDCSSL1046UL:~[?1034h[root@CGDCSSL1046UL ~]# cd /var/log/httpd
+]0;root@CGDCSSL1046UL:/var/log/httpd[root@CGDCSSL1046UL httpd]# ls
+access_log              [0m[01;31maccess_log-20191012.gz[0m  [01;31merror_log-20191025.gz[0m  error_log-20191106          [01;31mssl_access_log-20191008.gz[0m  ssl_request_log              [01;31mssl_request_log-20191010.gz[0m
+[01;31maccess_log-20190310.gz[0m  [01;31maccess_log-20191015.gz[0m  [01;31merror_log-20191026.gz[0m  ssl_access_log              [01;31mssl_access_log-20191010.gz[0m  [01;31mssl_request_log-20190829.gz[0m  [01;31mssl_request_log-20191011.gz[0m
+[01;31maccess_log-20190423.gz[0m  access_log-20191018     [01;31merror_log-20191027.gz[0m  [01;31mssl_access_log-20190829.gz[0m  [01;31mssl_access_log-20191011.gz[0m  [01;31mssl_request_log-20190905.gz[0m  [01;31mssl_request_log-20191012.gz[0m
+[01;31maccess_log-20190424.gz[0m  error_log               [01;31merror_log-20191028.gz[0m  [01;31mssl_access_log-20190905.gz[0m  [01;31mssl_access_log-20191012.gz[0m  [01;31mssl_request_log-20190906.gz[0m  [01;31mssl_request_log-20191015.gz[0m
+[01;31maccess_log-20190425.gz[0m  [01;31merror_log-20191017.gz[0m   [01;31merror_log-20191029.gz[0m  [01;31mssl_access_log-20190906.gz[0m  [01;31mssl_access_log-20191015.gz[0m  [01;31mssl_request_log-20190913.gz[0m  [01;31mssl_request_log-20191018.gz[0m
+[01;31maccess_log-20190502.gz[0m  [01;31merror_log-20191018.gz[0m   [01;31merror_log-20191030.gz[0m  [01;31mssl_access_log-20190913.gz[0m  [01;31mssl_access_log-20191018.gz[0m  [01;31mssl_request_log-20190918.gz[0m  [01;31mssl_request_log-20191020.gz[0m
+[01;31maccess_log-20190510.gz[0m  [01;31merror_log-20191019.gz[0m   [01;31merror_log-20191031.gz[0m  [01;31mssl_access_log-20190918.gz[0m  [01;31mssl_access_log-20191020.gz[0m  [01;31mssl_request_log-20190920.gz[0m  [01;31mssl_request_log-20191022.gz[0m
+[01;31maccess_log-20190521.gz[0m  [01;31merror_log-20191020.gz[0m   [01;31merror_log-20191101.gz[0m  [01;31mssl_access_log-20190920.gz[0m  [01;31mssl_access_log-20191022.gz[0m  [01;31mssl_request_log-20190921.gz[0m  [01;31mssl_request_log-20191023.gz[0m
+[01;31maccess_log-20190828.gz[0m  [01;31merror_log-20191021.gz[0m   [01;31merror_log-20191102.gz[0m  [01;31mssl_access_log-20190921.gz[0m  [01;31mssl_access_log-20191023.gz[0m  [01;31mssl_request_log-20190925.gz[0m  [01;31mssl_request_log-20191025.gz[0m
+[01;31maccess_log-20190829.gz[0m  [01;31merror_log-20191022.gz[0m   [01;31merror_log-20191103.gz[0m  [01;31mssl_access_log-20190925.gz[0m  [01;31mssl_access_log-20191025.gz[0m  [01;31mssl_request_log-20191004.gz[0m  ssl_request_log-20191105
+[01;31maccess_log-20190920.gz[0m  [01;31merror_log-20191023.gz[0m   [01;31merror_log-20191104.gz[0m  [01;31mssl_access_log-20191004.gz[0m  ssl_access_log-20191105     [01;31mssl_request_log-20191005.gz[0m
+[01;31maccess_log-20191004.gz[0m  [01;31merror_log-20191024.gz[0m   [01;31merror_log-20191105.gz[0m  [01;31mssl_access_log-20191005.gz[0m  ssl_error_log               [01;31mssl_request_log-20191008.gz[0m
+]0;root@CGDCSSL1046UL:/var/log/httpd[root@CGDCSSL1046UL httpd]# ls -lagrt
+total 320
+-rw-r--r--.  1 root    0 Nov 14  2018 ssl_error_log
+-rw-r--r--.  1 root  223 Nov 14  2018 [0m[01;31maccess_log-20190310.gz[0m
+-rw-r--r--.  1 root  338 Apr 23  2019 [01;31maccess_log-20190423.gz[0m
+-rw-r--r--.  1 root  274 Apr 23  2019 [01;31maccess_log-20190424.gz[0m
+-rw-r--r--.  1 root  257 Apr 24  2019 [01;31maccess_log-20190425.gz[0m
+-rw-r--r--.  1 root  381 May  1  2019 [01;31maccess_log-20190502.gz[0m
+-rw-r--r--.  1 root  307 May  9 14:51 [01;31maccess_log-20190510.gz[0m
+-rw-r--r--.  1 root  188 May 20 10:08 [01;31maccess_log-20190521.gz[0m
+-rw-r--r--.  1 root   77 Aug 27 11:08 [01;31maccess_log-20190828.gz[0m
+-rw-r--r--.  1 root  537 Aug 28 08:32 [01;31mssl_request_log-20190829.gz[0m
+-rw-r--r--.  1 root  511 Aug 28 08:32 [01;31mssl_access_log-20190829.gz[0m
+-rw-r--r--.  1 root  350 Aug 28 08:32 [01;31maccess_log-20190829.gz[0m
+-rw-r--r--.  1 root  208 Sep  4 15:53 [01;31mssl_request_log-20190905.gz[0m
+-rw-r--r--.  1 root  178 Sep  4 15:53 [01;31mssl_access_log-20190905.gz[0m
+-rw-r--r--.  1 root  177 Sep  5 07:40 [01;31mssl_request_log-20190906.gz[0m
+-rw-r--r--.  1 root  158 Sep  5 07:40 [01;31mssl_access_log-20190906.gz[0m
+-rw-r--r--.  1 root  179 Sep 12 15:59 [01;31mssl_request_log-20190913.gz[0m
+-rw-r--r--.  1 root  162 Sep 12 15:59 [01;31mssl_access_log-20190913.gz[0m
+-rw-r--r--.  1 root 1069 Sep 17 16:07 [01;31mssl_request_log-20190918.gz[0m
+-rw-r--r--.  1 root 1020 Sep 17 16:07 [01;31mssl_access_log-20190918.gz[0m
+-rw-r--r--.  1 root  261 Sep 19 14:54 [01;31maccess_log-20190920.gz[0m
+-rw-r--r--.  1 root  630 Sep 19 14:54 [01;31mssl_request_log-20190920.gz[0m
+-rw-r--r--.  1 root  599 Sep 19 14:54 [01;31mssl_access_log-20190920.gz[0m
+-rw-r--r--.  1 root  142 Sep 20 14:37 [01;31mssl_request_log-20190921.gz[0m
+-rw-r--r--.  1 root  113 Sep 20 14:37 [01;31mssl_access_log-20190921.gz[0m
+-rw-r--r--.  1 root  118 Sep 24 14:43 [01;31mssl_request_log-20190925.gz[0m
+-rw-r--r--.  1 root   95 Sep 24 14:43 [01;31mssl_access_log-20190925.gz[0m
+-rw-r--r--.  1 root  172 Oct  3 09:42 [01;31maccess_log-20191004.gz[0m
+-rw-r--r--.  1 root 1327 Oct  3 11:40 [01;31mssl_request_log-20191004.gz[0m
+-rw-r--r--.  1 root 1257 Oct  3 11:40 [01;31mssl_access_log-20191004.gz[0m
+-rw-r--r--.  1 root  557 Oct  4 09:25 [01;31mssl_request_log-20191005.gz[0m
+-rw-r--r--.  1 root  526 Oct  4 09:25 [01;31mssl_access_log-20191005.gz[0m
+-rw-r--r--.  1 root  153 Oct  7 16:06 [01;31mssl_request_log-20191008.gz[0m
+-rw-r--r--.  1 root  134 Oct  7 16:06 [01;31mssl_access_log-20191008.gz[0m
+-rw-r--r--.  1 root  188 Oct  9 10:20 [01;31mssl_request_log-20191010.gz[0m
+-rw-r--r--.  1 root  166 Oct  9 10:20 [01;31mssl_access_log-20191010.gz[0m
+-rw-r--r--.  1 root  149 Oct 10 16:08 [01;31mssl_request_log-20191011.gz[0m
+-rw-r--r--.  1 root  131 Oct 10 16:08 [01;31mssl_access_log-20191011.gz[0m
+-rw-r--r--.  1 root  613 Oct 11 12:25 [01;31maccess_log-20191012.gz[0m
+-rw-r--r--.  1 root 1834 Oct 11 19:16 [01;31mssl_request_log-20191012.gz[0m
+-rw-r--r--.  1 root 1745 Oct 11 19:16 [01;31mssl_access_log-20191012.gz[0m
+-rw-r--r--.  1 root  244 Oct 14 14:56 [01;31maccess_log-20191015.gz[0m
+-rw-r--r--.  1 root  697 Oct 14 15:49 [01;31mssl_request_log-20191015.gz[0m
+-rw-r--r--.  1 root  664 Oct 14 15:49 [01;31mssl_access_log-20191015.gz[0m
+-rw-r--r--.  1 root  334 Oct 17 00:01 [01;31merror_log-20191017.gz[0m
+-rw-r--r--.  1 root  747 Oct 17 13:42 access_log-20191018
+-rw-r--r--.  1 root  806 Oct 17 14:52 [01;31mssl_request_log-20191018.gz[0m
+-rw-r--r--.  1 root  765 Oct 17 14:52 [01;31mssl_access_log-20191018.gz[0m
+-rw-r--r--.  1 root    0 Oct 18 00:01 access_log
+-rw-r--r--.  1 root  331 Oct 18 00:01 [01;31merror_log-20191018.gz[0m
+-rw-r--r--.  1 root  331 Oct 19 00:01 [01;31merror_log-20191019.gz[0m
+-rw-r--r--.  1 root  141 Oct 19 10:59 [01;31mssl_request_log-20191020.gz[0m
+-rw-r--r--.  1 root  120 Oct 19 10:59 [01;31mssl_access_log-20191020.gz[0m
+-rw-r--r--.  1 root  332 Oct 20 00:01 [01;31merror_log-20191020.gz[0m
+-rw-r--r--.  1 root  330 Oct 21 00:01 [01;31merror_log-20191021.gz[0m
+-rw-r--r--.  1 root  447 Oct 21 11:17 [01;31mssl_request_log-20191022.gz[0m
+-rw-r--r--.  1 root  418 Oct 21 11:17 [01;31mssl_access_log-20191022.gz[0m
+-rw-r--r--.  1 root  333 Oct 22 00:01 [01;31merror_log-20191022.gz[0m
+-rw-r--r--.  1 root  594 Oct 22 12:33 [01;31mssl_request_log-20191023.gz[0m
+-rw-r--r--.  1 root  556 Oct 22 12:33 [01;31mssl_access_log-20191023.gz[0m
+-rw-r--r--.  1 root  332 Oct 23 00:01 [01;31merror_log-20191023.gz[0m
+-rw-r--r--.  1 root  333 Oct 24 00:01 [01;31merror_log-20191024.gz[0m
+-rw-r--r--.  1 root  467 Oct 24 09:52 [01;31mssl_request_log-20191025.gz[0m
+-rw-r--r--.  1 root  430 Oct 24 09:52 [01;31mssl_access_log-20191025.gz[0m
+-rw-r--r--.  1 root  332 Oct 25 00:01 [01;31merror_log-20191025.gz[0m
+-rw-r--r--.  1 root  332 Oct 26 00:01 [01;31merror_log-20191026.gz[0m
+-rw-r--r--.  1 root  330 Oct 27 00:01 [01;31merror_log-20191027.gz[0m
+-rw-r--r--.  1 root  330 Oct 28 00:01 [01;31merror_log-20191028.gz[0m
+-rw-r--r--.  1 root  332 Oct 29 00:01 [01;31merror_log-20191029.gz[0m
+-rw-r--r--.  1 root  333 Oct 30 00:01 [01;31merror_log-20191030.gz[0m
+-rw-r--r--.  1 root  332 Oct 31 00:01 [01;31merror_log-20191031.gz[0m
+-rw-r--r--.  1 root  333 Nov  1 00:01 [01;31merror_log-20191101.gz[0m
+-rw-r--r--.  1 root  330 Nov  2 00:01 [01;31merror_log-20191102.gz[0m
+-rw-r--r--.  1 root  329 Nov  3 00:01 [01;31merror_log-20191103.gz[0m
+drwxr-xr-x. 14 root 4096 Nov  3 00:01 [01;34m..[0m
+-rw-r--r--.  1 root  329 Nov  4 00:01 [01;31merror_log-20191104.gz[0m
+-rw-r--r--.  1 root 2437 Nov  4 09:42 ssl_request_log-20191105
+-rw-r--r--.  1 root 2017 Nov  4 09:42 ssl_access_log-20191105
+-rw-r--r--.  1 root  332 Nov  5 00:01 [01;31merror_log-20191105.gz[0m
+-rw-r--r--.  1 root    0 Nov  5 00:01 ssl_request_log
+-rw-r--r--.  1 root    0 Nov  5 00:01 ssl_access_log
+-rw-r--r--.  1 root  542 Nov  6 00:01 error_log-20191106
+drwx------.  2 root 4096 Nov  6 00:01 [01;34m.[0m
+-rw-r--r--.  1 root  424 Nov  6 00:01 error_log
+]0;root@CGDCSSL1046UL:/var/log/httpd[root@CGDCSSL1046UL httpd]# df .
+Filesystem                   1K-blocks  Used Available Use% Mounted on
+/dev/mapper/VG01-var_log_vol   4062912 56244   3801544   2% /var/log
+]0;root@CGDCSSL1046UL:/var/log/httpd[root@CGDCSSL1046UL httpd]# 'cd [K[K[K[Kcd ..
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# ls
+[0m[01;34maide[0m                  btmp              [01;31mcron-20191020.gz[0m    [01;34mlost+found[0m           messages              [01;34mrhsm[0m                [01;31msecure-20191103.gz[0m   tallylog                yum.log-20181201
+[01;34manaconda[0m              btmp-20190401     [01;31mcron-20191027.gz[0m    maillog              messages-20190317     [01;34msa[0m                  spooler              [01;34mtuned[0m                   yum.log-20190101
+[01;34maudit[0m                 [01;31mbtmp-20191101.gz[0m  [01;31mcron-20191103.gz[0m    maillog-20190317     messages-20190324     secure              spooler-20190317     [01;34mvmware-caf[0m              [01;31myum.log-20190423.gz[0m
+boot.log              [01;34mchrony[0m            dmesg               maillog-20190324     messages-20190331     secure-20190317     spooler-20190324     [01;34mvmware-imc[0m
+boot.log-20180915     cron              dmesg.old           maillog-20190331     messages-20190407     secure-20190324     spooler-20190331     vmware-install.log
+boot.log-20180916     cron-20190317     firewalld           maillog-20190407     [01;31mmessages-20191013.gz[0m  secure-20190331     spooler-20190407     vmware-vgauthsvc.log.0
+boot.log-20180917     cron-20190324     grubby              [01;31mmaillog-20191013.gz[0m  [01;31mmessages-20191020.gz[0m  secure-20190407     [01;31mspooler-20191013.gz[0m  vmware-vmsvc.log
+boot.log-20180918     cron-20190331     grubby_prune_debug  [01;31mmaillog-20191020.gz[0m  [01;31mmessages-20191027.gz[0m  [01;31msecure-20191013.gz[0m  [01;31mspooler-20191020.gz[0m  wtmp
+[01;31mboot.log-20190430.gz[0m  cron-20190407     [01;34mhttpd[0m               [01;31mmaillog-20191027.gz[0m  [01;31mmessages-20191103.gz[0m  [01;31msecure-20191020.gz[0m  [01;31mspooler-20191027.gz[0m  [01;31mwtmp-20190423.gz[0m
+[01;31mboot.log-20190819.gz[0m  [01;31mcron-20191013.gz[0m  lastlog             [01;31mmaillog-20191103.gz[0m  [01;34mntpstats[0m              [01;31msecure-20191027.gz[0m  [01;31mspooler-20191103.gz[0m  yum.log
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# ls -lagrt
+total 3488
+drwxr-xr-x.  2 ntp      4096 Oct  9  2017 [0m[01;34mntpstats[0m
+drwxr-xr-x.  2 chrony   4096 Dec  5  2017 [01;34mchrony[0m
+drwx------.  2 root    16384 Jan 29  2018 [01;34mlost+found[0m
+-rw-------.  1 root        0 Jan 29  2018 tallylog
+drwxr-xr-x.  2 root     4096 Jan 29  2018 [01;34manaconda[0m
+drwxr-xr-x.  3 root     4096 Feb  2  2018 [01;34mvmware-caf[0m
+drwxr-xr-x.  2 root     4096 Sep 14  2018 [01;34mvmware-imc[0m
+-rw-r--r--.  1 root    17806 Sep 14  2018 firewalld
+-rw-------.  1 root   335161 Sep 15  2018 boot.log-20180915
+-rw-------.  1 root        0 Sep 16  2018 boot.log-20180916
+-rw-------.  1 root        0 Sep 17  2018 boot.log-20180917
+-rw-------.  1 root        0 Sep 18  2018 boot.log-20180918
+-rw-r--r--.  1 root      489 Nov 30  2018 grubby_prune_debug
+-rw-------.  1 root    39167 Nov 30  2018 yum.log-20181201
+-rw-------.  1 root      449 Dec 12  2018 yum.log-20190101
+-rw-r--r--.  1 root    12394 Jan 29  2019 vmware-install.log
+drwxr-xr-x. 21 root     4096 Mar  7  2019 [01;34m..[0m
+-rw-------.  1 root        0 Mar 10  2019 spooler-20190317
+-rw-------.  1 root      598 Mar 12  2019 [01;31myum.log-20190423.gz[0m
+-rw-------.  1 root    28135 Mar 15  2019 secure-20190317
+-rw-------.  1 root     4400 Mar 16  2019 maillog-20190317
+-rw-------.  1 root   275051 Mar 17  2019 messages-20190317
+-rw-------.  1 root   133960 Mar 17  2019 cron-20190317
+-rw-------.  1 root        0 Mar 17  2019 spooler-20190324
+-rw-------.  1 utmp     3456 Mar 22  2019 btmp-20190401
+-rw-------.  1 root    64884 Mar 22  2019 secure-20190324
+-rw-------.  1 root     4404 Mar 23  2019 maillog-20190324
+-rw-------.  1 root   293662 Mar 24  2019 messages-20190324
+-rw-------.  1 root   133789 Mar 24  2019 cron-20190324
+-rw-------.  1 root        0 Mar 24  2019 spooler-20190331
+-rw-------.  1 root     4152 Mar 29  2019 secure-20190331
+-rw-------.  1 root     4401 Mar 30  2019 maillog-20190331
+-rw-------.  1 root   263375 Mar 31  2019 messages-20190331
+-rw-------.  1 root   133413 Mar 31  2019 cron-20190331
+-rw-------.  1 root        0 Mar 31  2019 spooler-20190407
+-rw-------.  1 root      578 Apr  4  2019 secure-20190407
+-rw-------.  1 root     4404 Apr  6  2019 maillog-20190407
+-rw-------.  1 root   263844 Apr  7  2019 messages-20190407
+-rw-------.  1 root   133953 Apr  7  2019 cron-20190407
+-rw-rw-r--.  1 utmp    28993 Apr 23  2019 [01;31mwtmp-20190423.gz[0m
+-rw-------.  1 root     2717 Apr 29  2019 [01;31mboot.log-20190430.gz[0m
+-rw-r--r--.  1 root   100943 Apr 29  2019 dmesg.old
+drwxr-xr-x.  2 root     4096 Jul 10 09:13 [01;34mtuned[0m
+-rw-------.  1 root    12403 Aug 18 10:21 grubby
+-rw-------.  1 root     8393 Aug 18 10:21 yum.log
+-rw-------.  1 root     2385 Aug 18 10:40 [01;31mboot.log-20190819.gz[0m
+-rw-r--r--.  1 root   100342 Aug 18 10:40 dmesg
+-rw-r--r--.  1 root    21114 Aug 18 10:40 vmware-vgauthsvc.log.0
+-rw-------.  1 root        0 Aug 19 00:01 boot.log
+-rw-------.  1 root       20 Oct  6 00:01 [01;31mspooler-20191013.gz[0m
+-rw-------.  1 root     1268 Oct 11 15:39 [01;31msecure-20191013.gz[0m
+-rw-------.  1 root     1105 Oct 12 04:05 [01;31mmaillog-20191013.gz[0m
+-rw-------.  1 root       20 Oct 13 00:01 [01;31mspooler-20191020.gz[0m
+-rw-------.  1 root       20 Oct 13 00:01 [01;31msecure-20191020.gz[0m
+-rw-------.  1 root     8621 Oct 13 00:01 [01;31mmessages-20191013.gz[0m
+-rw-------.  1 root     9208 Oct 13 00:01 [01;31mcron-20191013.gz[0m
+drwx------.  3 root     4096 Oct 13 21:50 [01;34maudit[0m
+-rw-------.  1 root     1114 Oct 19 04:05 [01;31mmaillog-20191020.gz[0m
+-rw-------.  1 root     9113 Oct 20 00:01 [01;31mcron-20191020.gz[0m
+-rw-------.  1 root       20 Oct 20 00:01 [01;31mspooler-20191027.gz[0m
+-rw-------.  1 root     8167 Oct 20 00:01 [01;31mmessages-20191020.gz[0m
+-rw-------.  1 root      845 Oct 24 09:52 [01;31msecure-20191027.gz[0m
+-rw-------.  1 root     1096 Oct 26 04:05 [01;31mmaillog-20191027.gz[0m
+-rw-------.  1 root       20 Oct 27 00:01 [01;31mspooler-20191103.gz[0m
+-rw-------.  1 root     8491 Oct 27 00:01 [01;31mmessages-20191027.gz[0m
+-rw-------.  1 root     9107 Oct 27 00:01 [01;31mcron-20191027.gz[0m
+-rw-------.  1 utmp      103 Oct 29 14:26 [01;31mbtmp-20191101.gz[0m
+-rw-r--r--.  1 root   137777 Oct 29 18:38 vmware-vmsvc.log
+-rw-------.  1 root     2761 Oct 31 13:14 [01;31msecure-20191103.gz[0m
+-rw-------.  1 utmp        0 Nov  1 00:01 btmp
+-rw-------.  1 root     1120 Nov  2 04:05 [01;31mmaillog-20191103.gz[0m
+-rw-------.  1 root     9483 Nov  3 00:01 [01;31mmessages-20191103.gz[0m
+-rw-------.  1 root     9195 Nov  3 00:01 [01;31mcron-20191103.gz[0m
+drwx------.  2 root     4096 Nov  3 00:01 [01;34maide[0m
+drwxr-xr-x.  2 root     4096 Nov  3 00:01 [01;34mrhsm[0m
+-rw-------.  1 root        0 Nov  3 00:01 spooler
+drwxr-xr-x. 14 root     4096 Nov  3 00:01 [01;34m.[0m
+drwxr-xr-x.  2 root     4096 Nov  6 00:00 [01;34msa[0m
+drwx------.  2 root     4096 Nov  6 00:01 [01;34mhttpd[0m
+-rw-------.  1 root     5482 Nov  6 04:05 maillog
+-rw-------.  1 root    48322 Nov  6 08:01 cron
+-rw-rw-r--.  1 utmp   455424 Nov  6 08:05 wtmp
+-rw-------.  1 root    59803 Nov  6 08:06 messages
+-rw-------.  1 root    11185 Nov  6 08:06 secure
+-rw-r--r--.  1 root   310688 Nov  6 08:06 lastlog
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# more lastlog 
+iïÂ]pts/0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[7m--More--(14%)[27m[K]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# clear
+[3;J[H[2J]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# ls
+[0m[01;34maide[0m                  btmp              [01;31mcron-20191020.gz[0m    [01;34mlost+found[0m           messages              [01;34mrhsm[0m                [01;31msecure-20191103.gz[0m   tallylog                yum.log-20181201
+[01;34manaconda[0m              btmp-20190401     [01;31mcron-20191027.gz[0m    maillog              messages-20190317     [01;34msa[0m                  spooler              [01;34mtuned[0m                   yum.log-20190101
+[01;34maudit[0m                 [01;31mbtmp-20191101.gz[0m  [01;31mcron-20191103.gz[0m    maillog-20190317     messages-20190324     secure              spooler-20190317     [01;34mvmware-caf[0m              [01;31myum.log-20190423.gz[0m
+boot.log              [01;34mchrony[0m            dmesg               maillog-20190324     messages-20190331     secure-20190317     spooler-20190324     [01;34mvmware-imc[0m
+boot.log-20180915     cron              dmesg.old           maillog-20190331     messages-20190407     secure-20190324     spooler-20190331     vmware-install.log
+boot.log-20180916     cron-20190317     firewalld           maillog-20190407     [01;31mmessages-20191013.gz[0m  secure-20190331     spooler-20190407     vmware-vgauthsvc.log.0
+boot.log-20180917     cron-20190324     grubby              [01;31mmaillog-20191013.gz[0m  [01;31mmessages-20191020.gz[0m  secure-20190407     [01;31mspooler-20191013.gz[0m  vmware-vmsvc.log
+boot.log-20180918     cron-20190331     grubby_prune_debug  [01;31mmaillog-20191020.gz[0m  [01;31mmessages-20191027.gz[0m  [01;31msecure-20191013.gz[0m  [01;31mspooler-20191020.gz[0m  wtmp
+[01;31mboot.log-20190430.gz[0m  cron-20190407     [01;34mhttpd[0m               [01;31mmaillog-20191027.gz[0m  [01;31mmessages-20191103.gz[0m  [01;31msecure-20191020.gz[0m  [01;31mspooler-20191027.gz[0m  [01;31mwtmp-20190423.gz[0m
+[01;31mboot.log-20190819.gz[0m  [01;31mcron-20191013.gz[0m  lastlog             [01;31mmaillog-20191103.gz[0m  [01;34mntpstats[0m              [01;31msecure-20191027.gz[0m  [01;31mspooler-20191103.gz[0m  yum.log
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# ls -lagrt
+total 3488
+drwxr-xr-x.  2 ntp      4096 Oct  9  2017 [0m[01;34mntpstats[0m
+drwxr-xr-x.  2 chrony   4096 Dec  5  2017 [01;34mchrony[0m
+drwx------.  2 root    16384 Jan 29  2018 [01;34mlost+found[0m
+-rw-------.  1 root        0 Jan 29  2018 tallylog
+drwxr-xr-x.  2 root     4096 Jan 29  2018 [01;34manaconda[0m
+drwxr-xr-x.  3 root     4096 Feb  2  2018 [01;34mvmware-caf[0m
+drwxr-xr-x.  2 root     4096 Sep 14  2018 [01;34mvmware-imc[0m
+-rw-r--r--.  1 root    17806 Sep 14  2018 firewalld
+-rw-------.  1 root   335161 Sep 15  2018 boot.log-20180915
+-rw-------.  1 root        0 Sep 16  2018 boot.log-20180916
+-rw-------.  1 root        0 Sep 17  2018 boot.log-20180917
+-rw-------.  1 root        0 Sep 18  2018 boot.log-20180918
+-rw-r--r--.  1 root      489 Nov 30  2018 grubby_prune_debug
+-rw-------.  1 root    39167 Nov 30  2018 yum.log-20181201
+-rw-------.  1 root      449 Dec 12  2018 yum.log-20190101
+-rw-r--r--.  1 root    12394 Jan 29  2019 vmware-install.log
+drwxr-xr-x. 21 root     4096 Mar  7  2019 [01;34m..[0m
+-rw-------.  1 root        0 Mar 10  2019 spooler-20190317
+-rw-------.  1 root      598 Mar 12  2019 [01;31myum.log-20190423.gz[0m
+-rw-------.  1 root    28135 Mar 15  2019 secure-20190317
+-rw-------.  1 root     4400 Mar 16  2019 maillog-20190317
+-rw-------.  1 root   275051 Mar 17  2019 messages-20190317
+-rw-------.  1 root   133960 Mar 17  2019 cron-20190317
+-rw-------.  1 root        0 Mar 17  2019 spooler-20190324
+-rw-------.  1 utmp     3456 Mar 22  2019 btmp-20190401
+-rw-------.  1 root    64884 Mar 22  2019 secure-20190324
+-rw-------.  1 root     4404 Mar 23  2019 maillog-20190324
+-rw-------.  1 root   293662 Mar 24  2019 messages-20190324
+-rw-------.  1 root   133789 Mar 24  2019 cron-20190324
+-rw-------.  1 root        0 Mar 24  2019 spooler-20190331
+-rw-------.  1 root     4152 Mar 29  2019 secure-20190331
+-rw-------.  1 root     4401 Mar 30  2019 maillog-20190331
+-rw-------.  1 root   263375 Mar 31  2019 messages-20190331
+-rw-------.  1 root   133413 Mar 31  2019 cron-20190331
+-rw-------.  1 root        0 Mar 31  2019 spooler-20190407
+-rw-------.  1 root      578 Apr  4  2019 secure-20190407
+-rw-------.  1 root     4404 Apr  6  2019 maillog-20190407
+-rw-------.  1 root   263844 Apr  7  2019 messages-20190407
+-rw-------.  1 root   133953 Apr  7  2019 cron-20190407
+-rw-rw-r--.  1 utmp    28993 Apr 23  2019 [01;31mwtmp-20190423.gz[0m
+-rw-------.  1 root     2717 Apr 29  2019 [01;31mboot.log-20190430.gz[0m
+-rw-r--r--.  1 root   100943 Apr 29  2019 dmesg.old
+drwxr-xr-x.  2 root     4096 Jul 10 09:13 [01;34mtuned[0m
+-rw-------.  1 root    12403 Aug 18 10:21 grubby
+-rw-------.  1 root     8393 Aug 18 10:21 yum.log
+-rw-------.  1 root     2385 Aug 18 10:40 [01;31mboot.log-20190819.gz[0m
+-rw-r--r--.  1 root   100342 Aug 18 10:40 dmesg
+-rw-r--r--.  1 root    21114 Aug 18 10:40 vmware-vgauthsvc.log.0
+-rw-------.  1 root        0 Aug 19 00:01 boot.log
+-rw-------.  1 root       20 Oct  6 00:01 [01;31mspooler-20191013.gz[0m
+-rw-------.  1 root     1268 Oct 11 15:39 [01;31msecure-20191013.gz[0m
+-rw-------.  1 root     1105 Oct 12 04:05 [01;31mmaillog-20191013.gz[0m
+-rw-------.  1 root       20 Oct 13 00:01 [01;31mspooler-20191020.gz[0m
+-rw-------.  1 root       20 Oct 13 00:01 [01;31msecure-20191020.gz[0m
+-rw-------.  1 root     8621 Oct 13 00:01 [01;31mmessages-20191013.gz[0m
+-rw-------.  1 root     9208 Oct 13 00:01 [01;31mcron-20191013.gz[0m
+drwx------.  3 root     4096 Oct 13 21:50 [01;34maudit[0m
+-rw-------.  1 root     1114 Oct 19 04:05 [01;31mmaillog-20191020.gz[0m
+-rw-------.  1 root     9113 Oct 20 00:01 [01;31mcron-20191020.gz[0m
+-rw-------.  1 root       20 Oct 20 00:01 [01;31mspooler-20191027.gz[0m
+-rw-------.  1 root     8167 Oct 20 00:01 [01;31mmessages-20191020.gz[0m
+-rw-------.  1 root      845 Oct 24 09:52 [01;31msecure-20191027.gz[0m
+-rw-------.  1 root     1096 Oct 26 04:05 [01;31mmaillog-20191027.gz[0m
+-rw-------.  1 root       20 Oct 27 00:01 [01;31mspooler-20191103.gz[0m
+-rw-------.  1 root     8491 Oct 27 00:01 [01;31mmessages-20191027.gz[0m
+-rw-------.  1 root     9107 Oct 27 00:01 [01;31mcron-20191027.gz[0m
+-rw-------.  1 utmp      103 Oct 29 14:26 [01;31mbtmp-20191101.gz[0m
+-rw-r--r--.  1 root   137777 Oct 29 18:38 vmware-vmsvc.log
+-rw-------.  1 root     2761 Oct 31 13:14 [01;31msecure-20191103.gz[0m
+-rw-------.  1 utmp        0 Nov  1 00:01 btmp
+-rw-------.  1 root     1120 Nov  2 04:05 [01;31mmaillog-20191103.gz[0m
+-rw-------.  1 root     9483 Nov  3 00:01 [01;31mmessages-20191103.gz[0m
+-rw-------.  1 root     9195 Nov  3 00:01 [01;31mcron-20191103.gz[0m
+drwx------.  2 root     4096 Nov  3 00:01 [01;34maide[0m
+drwxr-xr-x.  2 root     4096 Nov  3 00:01 [01;34mrhsm[0m
+-rw-------.  1 root        0 Nov  3 00:01 spooler
+drwxr-xr-x. 14 root     4096 Nov  3 00:01 [01;34m.[0m
+drwxr-xr-x.  2 root     4096 Nov  6 00:00 [01;34msa[0m
+drwx------.  2 root     4096 Nov  6 00:01 [01;34mhttpd[0m
+-rw-------.  1 root     5482 Nov  6 04:05 maillog
+-rw-------.  1 root    48322 Nov  6 08:01 cron
+-rw-rw-r--.  1 utmp   455424 Nov  6 08:05 wtmp
+-rw-------.  1 root    59803 Nov  6 08:06 messages
+-rw-------.  1 root    11185 Nov  6 08:06 secure
+-rw-r--r--.  1 root   310688 Nov  6 08:06 lastlog
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# tail yum.log
+Aug 18 10:21:01 Updated: tuned-2.10.0-6.el7_6.4.noarch
+Aug 18 10:21:02 Updated: kexec-tools-2.0.15-21.el7_6.4.x86_64
+Aug 18 10:21:02 Updated: curl-7.29.0-51.el7_6.3.x86_64
+Aug 18 10:21:02 Updated: kernel-tools-3.10.0-957.27.2.el7.x86_64
+Aug 18 10:21:02 Updated: libgudev1-219-62.el7_6.9.x86_64
+Aug 18 10:21:02 Updated: 32:bind-libs-lite-9.9.4-74.el7_6.2.x86_64
+Aug 18 10:21:02 Updated: 2:vim-minimal-7.4.160-6.el7_6.x86_64
+Aug 18 10:21:02 Updated: wget-1.14-18.el7_6.1.x86_64
+Aug 18 10:21:11 Installed: kernel-3.10.0-957.27.2.el7.x86_64
+Aug 18 10:21:12 Updated: glibc-2.17-260.el7_6.6.i686
+]0;root@CGDCSSL1046UL:/var/log[root@CGDCSSL1046UL log]# exit
+logout
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ exit
+logout

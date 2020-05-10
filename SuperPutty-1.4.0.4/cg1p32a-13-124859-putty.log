@@ -1,0 +1,669 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 12:48:59 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+ankcseprda07[/home/cseadmin]$ telnet      telnet crl.pki.goog 80
+Trying...
+Connected to pki-goog.l.google.com.
+Escape character is '^]'.
+GET /GTS1O1.crl HTTP/1.0
+
+HTTP/1.0 404 Not Found
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1571
+Date: Wed, 13 Nov 2019 20:49:39 GMT
+
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 404 (Not Found)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>404.</b> <ins>That‚Äôs an error.</ins>
+  <p>The requested URL <code>/GTS1O1.crl</code> was not found on this server.  <ins>That‚Äôs all we know.</ins>
+Connection closed.
+ankcseprda07[/home/cseadmin]$ javac
+ksh: javac:  not found.
+ankcseprda07[/home/cseadmin]$ ps -ef | grep ajva
+cseadmin  5898378 21233894   0 12:59:59  pts/0  0:00 grep ajva
+ankcseprda07[/home/cseadmin]$ t  -ef | g        ps -ef | grep java
+wasadmin  3277040 23593144   0   Nov 09      - 54:07 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=55901 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_SelfService_AP111_02/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx384m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.ibm.cacheLocalHost=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_SelfService.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config ch1p34aCell01 cg1p32aNode01 PROD01_SelfService_AP111_02
+wasadmin  8716304        1   0   Jun 23      - 216:35 /usr/WebSphere7CM/AppServer/java/bin/java -Xmaxt0.5 -Dwas.status.socket=35431 -Declipse.security -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/AppServer/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/AppServer/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/AppServer/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/AppServer/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/AppServer/config ch1p34aSSCMCell cg1p32aSSCMNode nodeagent
+    root 10289248  5701690   0   Jun 23      - 24:48 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=Dhcw76dEtMKrcikm -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5701690 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin 11337894 23593144   0   Nov 09      - 34:21 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=55899 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_Viola_g32_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms256m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Viola.profile -Dgov.ca.dcss.cse.common.inContainer=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config ch1p34aCell01 cg1p32aNode01 PROD01_Viola_g32_01
+wasadmin 15138820  8716304   2   Oct 20      - 138:51 /usr/WebSphere7CM/AppServer/java/bin/java -Declipse.security -Dwas.status.socket=46819 -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/AppServer/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/AppServer/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/AppServer/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/AppServer/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/AppServer/config ch1p34aSSCMCell cg1p32aSSCMNode PROD_SS_icmrm_g32a_01
+wasadmin 23593144        1   0   Nov 09      - 18:59 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=53512 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.cacheLocalHost=true -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config ch1p34aCell01 cg1p32aNode01 nodeagent
+wasadmin 37224458 23593144   8   Nov 09      - 62:39 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=55897 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/PROD01_SelfService_AP111_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx384m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.ibm.cacheLocalHost=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_SelfService.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config ch1p34aCell01 cg1p32aNode01 PROD01_SelfService_AP111_01
+ankcseprda07[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java==       
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ la java*
+ksh: la:  not found.
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ ls java8
+ls: 0653-341 The file java8 does not exist.
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ ls java*
+java           javac          javad.options  javadoc        javah          javap          javaw          javaws
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ javac
+Usage: javac <options> <source files>
+where possible options include:
+  -g                         Generate all debugging info
+  -g:none                    Generate no debugging info
+  -g:{lines,vars,source}     Generate only some debugging info
+  -nowarn                    Generate no warnings
+  -verbose                   Output messages about what the compiler is doing
+  -deprecation               Output source locations where deprecated APIs are used
+  -classpath <path>          Specify where to find user class files and annotation processors
+  -cp <path>                 Specify where to find user class files and annotation processors
+  -sourcepath <path>         Specify where to find input source files
+  -bootclasspath <path>      Override location of bootstrap class files
+  -extdirs <dirs>            Override location of installed extensions
+  -endorseddirs <dirs>       Override location of endorsed standards path
+  -proc:{none,only}          Control whether annotation processing and/or compilation is done.
+  -processor <class1>[,<class2>,<class3>...] Names of the annotation processors to run; bypasses default discovery process
+  -processorpath <path>      Specify where to find annotation processors
+  -d <directory>             Specify where to place generated class files
+  -s <directory>             Specify where to place generated source files
+  -implicit:{none,class}     Specify whether or not to generate class files for implicitly referenced files
+  -encoding <encoding>       Specify character encoding used by source files
+  -source <release>          Provide source compatibility with specified release
+  -target <release>          Generate class files for specific VM version
+  -version                   Version information
+  -help                      Print a synopsis of standard options
+  -Akey[=value]              Options to pass to annotation processors
+  -X                         Print a synopsis of nonstandard options
+  -J<flag>                   Pass <flag> directly to the runtime system
+  -Werror                    Terminate compilation if warnings occur
+  @<filename>                Read options and filenames from file
+
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ vi /etmp/     tmp/dload.java
+[?1049h[56;1H[?12;25h[?1h="/tmp/dload.java" [New file] [H[2J
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[55B"/tmp/dload.java" [New file][Hpackage net.codejava.networking;[H
+[K 
+[Kimport java.io.File;
+[Kimport java.io.FileOutputStream;
+[Kimport java.io.IOException;
+[Kimport java.io.InputStream;
+[Kimport java.net.HttpURLConnection;
+[Kimport java.net.URL;
+[K 
+[K/**
+[K * A utility that downloads a file from a URL.
+[K * @author www.codejava.net
+[K *
+[K */
+[Kpublic class HttpDownloadUtility {
+[K    private static final int BUFFER_SIZE = 4096;
+[K 
+[K    /**
+[K     * Downloads a file from a URL
+[K     * @param fileURL HTTP URL of the file to be downloaded
+[K     * @param saveDir path of the directory to save the file
+[K     * @throws IOException
+[K     */
+[K    public static void downloadFile(String fileURL, String saveDir)
+[K            throws IOException {
+[K        URL url = new URL(fileURL);
+[K        HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
+[K        int responseCode = httpConn.getResponseCode();
+[K 
+[K        // always check HTTP response code first
+[K        if (responseCode == HttpURLConnection.HTTP_OK) {
+[K            String fileName = "";
+[K            String disposition = httpConn.getHeaderField("Content-Disposition");
+[K            String contentType = httpConn.getContentType();
+[K            int contentLength = httpConn.getContentLength();
+[K 
+[K            if (disposition != null) {
+[K                // extracts file name from header field
+[K                int index = disposition.indexOf("filename=");
+[K                if (index > 0) {
+[K                    fileName = disposition.substring(index + 10,
+[K                            disposition.length() - 1);
+[K                }
+[K            } else {
+[K                // extracts file name from URL
+[K                fileName = fileURL.substring(fileURL.lastIndexOf("/") + 1,
+[K                        fileURL.length());
+[K            }
+[K 
+[K            System.out.println("Content-Type = " + contentType);
+[K            System.out.println("Content-Disposition = " + disposition);
+[K            System.out.println("Content-Length = " + contentLength);
+[K            System.out.println("fileName = " + fileName);
+[K 
+[K            // opens input stream from the HTTP connection
+[K
+[A            InputStream inputStream = httpConn.getInputStream();
+
+[A            String saveFilePath = saveDir + File.separator + fileName;
+
+[A             
+
+[A            // opens an output stream to save into file
+
+[A            FileOutputStream outputStream = new FileOutputStream(saveFilePath);
+
+[A 
+
+[A            int bytesRead = -1;
+
+[A            byte[] buffer = new byte[BUFFER_SIZE];
+
+[A            while ((bytesRead = inputStream.read(buffer)) != -1) {
+
+[A                outputStream.write(buffer, 0, bytesRead);
+
+[A            }
+
+[A 
+
+[A            outputStream.close();
+
+[A            inputStream.close();
+
+[A 
+
+[A            System.out.println("File downloaded");
+
+[A        } else {
+
+[A            System.out.println("No file to download. Server replied HTTP code: " + responseCode);
+
+[A        }
+
+[A        httpConn.disconnect();
+
+[A    }
+
+[A}
+:wq"/tmp/dload.java" [New file] 77 lines, 2842 characters 
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ vi /tmp/HttpDownloader.java
+[?1049h[56;1H[?12;25h[?1h="/tmp/HttpDownloader.java" [New file] [H[2J
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[55B"/tmp/HttpDownloader.java" [New file][Hpackage net.codejava.networking;[H
+[K 
+[Kimport java.io.IOException;
+[K 
+[Kpublic class HttpDownloader {
+[K 
+[K    public static void main(String[] args) {
+[K        String fileURL = "http://jdbc.postgresql.org/download/postgresql-9.2-1002.jdbc4.jar";
+[K        String saveDir = "E:/Download";
+[K        try {
+[K            HttpDownloadUtility.downloadFile(fileURL, saveDir);
+[K        } catch (IOException ex) {
+[K            ex.printStackTrace();
+[K        }
+[K    }
+[K}[40B[K:wq"/tmp/HttpDownloader.java" [New file] 16 lines, 441 characters 
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ mv /tmp;/  /dload.java /tmp/ttpDownloadUtility                  /HttpDownloadUtility.java
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ cd /    javac /tmp/HttpDownloadUtility.java
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ javac /tmp/HttpDownloader.java
+/tmp/HttpDownloader.java:11: error: cannot find symbol
+            HttpDownloadUtility.downloadFile(fileURL, saveDir);
+            ^
+  symbol:   variable HttpDownloadUtility
+  location: class HttpDownloader
+1 error
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ ls
+ControlPanel   extcheck       jarsigner      javad.options  javap          jconsole       jdmpview       native2ascii   rmic           schemagen      unpack200      xjc
+appletviewer   idlj           java           javadoc        javaw          jcontrol       jrunscript     pack200        rmid           serialver      wsgen
+apt            jar            javac          javah          javaws         jdb            keytool        policytool     rmiregistry    tnameserv      wsimport
+ankcseprda07[/usr/WebSphere/AppServer_85/java_1.7.1_32/bin]$ cd /tmp
+ankcseprda07[/tmp]$ ls
+AIX_Perf_Monitor_13566154  IRS                        daily_log.txt              errpt_out.txt              inutmpi9gqaa               mksysb.52166804            perfdata
+BES                        SolarWinds                 db2setup.log               errpt_out1.txt             javasharedresources        mksysb_4patrol.status      pmcfg.out
+HttpDownloadUtility.class  SystemOut_backups          devsave                    errpt_out2.txt             locks                      niflogs                    savevg_4patrol.status
+HttpDownloadUtility.java   bigfix                     dpi_socket                 fslst1.txt                 lost+found                 osgi_instance_location     showerrpt
+HttpDownloader.java        bos                        error_rpt.txt              fslst2.txt                 lvmt.log                   oslevel.0.8847502          sshivama
+IBM.tmpdir                 daily_log-tmp.txt          error_rpt1.txt             google.pem                 mksysb-status.txt          perf71                     vgdata
+ankcseprda07[/tmp]$ ls *.java
+HttpDownloadUtility.java  HttpDownloader.java
+ankcseprda07[/tmp]$ ls Http*
+HttpDownloadUtility.class  HttpDownloadUtility.java   HttpDownloader.java
+ankcseprda07[/tmp]$ /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/javac HttpDownloader.java
+HttpDownloader.java:11: error: cannot find symbol
+            HttpDownloadUtility.downloadFile(fileURL, saveDir);
+            ^
+  symbol:   variable HttpDownloadUtility
+  location: class HttpDownloader
+1 error
+ankcseprda07[/tmp]$ la *.java
+ksh: la:  not found.
+ankcseprda07[/tmp]$ ls j *java    .java
+HttpDownloadUtility.java  HttpDownloader.java
+ankcseprda07[/tmp]$ cat HttpDownloader.java
+package net.codejava.networking;
+ 
+import java.io.IOException;
+ 
+public class HttpDownloader {
+ 
+    public static void main(String[] args) {
+        String fileURL = "http://jdbc.postgresql.org/download/postgresql-9.2-1002.jdbc4.jar";
+        String saveDir = "E:/Download";
+        try {
+            HttpDownloadUtility.downloadFile(fileURL, saveDir);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+}
+ankcseprda07[/tmp]$ cct   at HttpDownloadUtility.*
+ ˛∫æ   3 í
+ ) ? @
+  A
+  B C
+  D E F
+  G
+  H
+  I J
+ K L
+ K M
+ K N O
+ K P       Q R S
+  ? T
+  U
+  V
+ W X Y Z
+  [ \
+  ]        ^ _ `
+  A
+ a b
+  c
+  d
+ a d e f
+  g h i BUFFER_SIZE I ConstantValue    <init> ()V Code LineNumberTable downloadFile '(Ljava/lang/String;Ljava/lang/String;)V StackMapTable j @ C k ` l 
+Exceptions m 
+SourceFile HttpDownloadUtility.java . / java/net/URL . n o p java/net/HttpURLConnection q r   Content-Disposition s t u v w r        filename= j x y z r { | / } y ~  Ä java/lang/StringBuilder Content-Type =  Å Ç É v Ñ Ö n Content-Disposition =  Content-Length =  Å Ü fileName =  á à â ä ã java/io/FileOutputStream k å ç é è ê / File downloaded /No file to download. Server replied HTTP code:  ë / +net/codejava/networking/HttpDownloadUtility java/lang/Object java/lang/String java/io/InputStream [B java/io/IOException (Ljava/lang/String;)V openConnection ()Ljava/net/URLConnection; getResponseCode ()I getHeaderField &(Ljava/lang/String;)Ljava/lang/String; getContentType ()Ljava/lang/String; getContentLength indexOf (Ljava/lang/String;)I length  substring (II)Ljava/lang/String; lastIndexOf java/lang/System out Ljava/io/PrintStream; append -(Ljava/lang/String;)Ljava/lang/StringBuilder; toString java/io/PrintStream println (I)Ljava/lang/StringBuilder; getInputStream ()Ljava/io/InputStream; java/io/File     separator Ljava/lang/String; read ([B)I write ([BII)V close 
+disconnect ! ( )     * +  ,    -   . /  0        *∑ ±    1                 2 3  0  \    _ª Y*∑ M,∂ ¿ N-∂ 6 »†$:-∂   :-∂ 
+:-∂ 6∆ '∂ 6               û        
+`∂ d∂ :ß **∂ `*∂ ∂ :≤ ª Y∑ ∂ ∂ ∂ ∂ ≤ ª Y∑ ∂ ∂ ∂ ∂ ≤ ª Y∑ ∂ ∂ ∂ ∂ ≤ ª Y∑ ∂ ∂ ∂ ∂ -∂ :        ª Y∑ +∂ ≤ ∂ ∂ ∂ :
+ª Y
+∑  :6 º:        ∂ !Y6ü ∂ "ßˇË∂ # ∂ $≤ %∂ ß ≤ ª Y∑ &∂ ∂ ∂ ∂ -∂ '±    1   Ç                 # ! + " 1 # 7 % < ' E ( J ) ] , ` . r 2 å 3 ¶ 4 ¿ 5 ⁄ 8 ‡ 9 ˚ < >       ? @ A+ D0 E5 G= H@ IZ K^ L 4   c ˇ ]     5 5 6 7 5 5 5  ˇ ù  5 5 6 7 5 5 5 8 5 9 :  ˇ   5 5 6 7   ;     <  =    >package net.codejava.networking;
+ 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+ 
+/**
+ * A utility that downloads a file from a URL.
+ * @author www.codejava.net
+ *
+ */
+public class HttpDownloadUtility {
+    private static final int BUFFER_SIZE = 4096;
+ 
+    /**
+     * Downloads a file from a URL
+     * @param fileURL HTTP URL of the file to be downloaded
+     * @param saveDir path of the directory to save the file
+     * @throws IOException
+     */
+    public static void downloadFile(String fileURL, String saveDir)
+            throws IOException {
+        URL url = new URL(fileURL);
+        HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
+        int responseCode = httpConn.getResponseCode();
+ 
+        // always check HTTP response code first
+        if (responseCode == HttpURLConnection.HTTP_OK) {
+            String fileName = "";
+            String disposition = httpConn.getHeaderField("Content-Disposition");
+            String contentType = httpConn.getContentType();
+            int contentLength = httpConn.getContentLength();
+ 
+            if (disposition != null) {
+                // extracts file name from header field
+                int index = disposition.indexOf("filename=");
+                if (index > 0) {
+                    fileName = disposition.substring(index + 10,
+                            disposition.length() - 1);
+                }
+            } else {
+                // extracts file name from URL
+                fileName = fileURL.substring(fileURL.lastIndexOf("/") + 1,
+                        fileURL.length());
+            }
+ 
+            System.out.println("Content-Type = " + contentType);
+            System.out.println("Content-Disposition = " + disposition);
+            System.out.println("Content-Length = " + contentLength);
+            System.out.println("fileName = " + fileName);
+ 
+            // opens input stream from the HTTP connection
+            InputStream inputStream = httpConn.getInputStream();
+            String saveFilePath = saveDir + File.separator + fileName;
+             
+            // opens an output stream to save into file
+            FileOutputStream outputStream = new FileOutputStream(saveFilePath);
+ 
+            int bytesRead = -1;
+            byte[] buffer = new byte[BUFFER_SIZE];
+            while ((bytesRead = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+ 
+            outputStream.close();
+            inputStream.close();
+ 
+            System.out.println("File downloaded");
+        } else {
+            System.out.println("No file to download. Server replied HTTP code: " + responseCode);
+        }
+        httpConn.disconnect();
+    }
+}
+ankcseprda07[/tmp]$ PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+ankcseprda07[/tmp]$ 
+ankcseprda07[/tmp]$ 
+ankcseprda07[/tmp]$ cd /    ls    vi HttpWod   DownloadUti*.java
+[?1049h[56;1H[?12;25h[?1h="HttpDownloadUtility.java" 77 lines, 2842 characters [H[2Jpackage net.codejava.networking;[H
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+/**
+ * A utility that downloads a file from a URL.
+ * @author www.codejava.net
+ *
+*/
+public class HttpDownloadUtility {
+    private static final int BUFFER_SIZE = 4096;[18;5H/**
+* Downloads a file from a URL[20;6H* @param fileURL HTTP URL of the file to be downloaded[21;6H* @param saveDir path of the directory to save the file[22;6H* @throws IOException[23;6H*/
+public static void downloadFile(String fileURL, String saveDir)[25;13Hthrows IOException {
+[8CURL url = new URL(fileURL);
+[8CHttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
+[8Cint responseCode = httpConn.getResponseCode();[30;9H// always check HTTP response code first
+[8Cif (responseCode == HttpURLConnection.HTTP_OK) {[32;13HString fileName = "";[33;13HString disposition = httpConn.getHeaderField("Content-Disposition");[34;13HString contentType = httpConn.getContentType();[35;13Hint contentLength = httpConn.getContentLength();[37;13Hif (disposition != null) {[38;17H// extracts file name from header field[39;17Hint index = disposition.indexOf("filename=");[40;17Hif (index > 0) {
+[12DfileName = disposition.substring(index + 10,[42;29Hdisposition.length() - 1);[43;17H}
+} else {
+// extracts file name from URL[46;17HfileName = fileURL.substring(fileURL.lastIndexOf("/") + 1,[47;25HfileURL.length());[48;13H}
+
+System.out.println("Content-Type = " + contentType);[51;13HSystem.out.println("Content-Disposition = " + disposition);[52;13HSystem.out.println("Content-Length = " + contentLength);[53;13HSystem.out.println("fileName = " + fileName);[55;13H// opens input stream from the HTTP connection[H[55B"HttpDownloadUtility.java" 77 lines, 2842 characters[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcseprda07[/tmp]$ ls
+AIX_Perf_Monitor_13566154  IRS                        daily_log.txt              errpt_out.txt              inutmpi9gqaa               mksysb.52166804            perfdata
+BES                        SolarWinds                 db2setup.log               errpt_out1.txt             javasharedresources        mksysb_4patrol.status      pmcfg.out
+HttpDownloadUtility.class  SystemOut_backups          devsave                    errpt_out2.txt             locks                      niflogs                    savevg_4patrol.status
+HttpDownloadUtility.java   bigfix                     dpi_socket                 fslst1.txt                 lost+found                 osgi_instance_location     showerrpt
+HttpDownloader.java        bos                        error_rpt.txt              fslst2.txt                 lvmt.log                   oslevel.0.8847502          sshivama
+IBM.tmpdir                 daily_log-tmp.txt          error_rpt1.txt             google.pem                 mksysb-status.txt          perf71                     vgdata
+ankcseprda07[/tmp]$ vi Htt            D pDownloader.java
+[?1049h[56;1H[?12;25h[?1h="HttpDownloader.java" 16 lines, 441 characters [H[2Jpackage net.codejava.networking;[H
+
+import java.io.IOException;
+
+public class HttpDownloader {[7;5Hpublic static void main(String[] args) {
+[8CString fileURL = "http://jdbc.postgresql.org/download/postgresql-9.2-1002.jdbc4.jar";
+[8CString saveDir = "E:/Download";
+[8Ctry {
+HttpDownloadUtility.downloadFile(fileURL, saveDir);
+[8C} catch (IOException ex) {[13;13Hex.printStackTrace();
+[8C}
+    }
+}
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[55B"HttpDownloader.java" 16 lines, 441 characters[H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcseprda07[/tmp]$ mkdir -p mnet    net. /codejava/networking
+ankcseprda07[/tmp]$ cp *.class / net/codejava/networking
+ankcseprda07[/tmp]$ javac HttpDownloader.java
+ksh: javac:  not found.
+ankcseprda07[/tmp]$ /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java/ c HttpDownloader.java
+ankcseprda07[/tmp]$ ls
+AIX_Perf_Monitor_13566154  IRS                        db2setup.log               errpt_out2.txt             lost+found                 osgi_instance_location     sshivama
+BES                        SolarWinds                 devsave                    fslst1.txt                 lvmt.log                   oslevel.0.8847502          vgdata
+HttpDownloadUtility.class  SystemOut_backups          dpi_socket                 fslst2.txt                 mksysb-status.txt          perf71
+HttpDownloadUtility.java   bigfix                     error_rpt.txt              google.pem                 mksysb.52166804            perfdata
+HttpDownloader.class       bos                        error_rpt1.txt             inutmpi9gqaa               mksysb_4patrol.status      pmcfg.out
+HttpDownloader.java        daily_log-tmp.txt          errpt_out.txt              javasharedresources        net                        savevg_4patrol.status
+IBM.tmpdir                 daily_log.txt              errpt_out1.txt             locks                      niflogs                    showerrpt
+ankcseprda07[/tmp]$ ls *.class
+HttpDownloadUtility.class  HttpDownloader.class
+ankcseprda07[/tmp]$ java HttpDownloader
+ksh: java: 0403-006 Execute permission denied.
+ankcseprda07[/tmp]$ java HttpDownloaderls *.class         ls        /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/javac HttpDownloader.java/usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloader.java  HttpDownloader.java     
+Exception in thread "main" java.lang.NoClassDefFoundError: HttpDownloader (wrong name: net/codejava/networking/HttpDownloader)
+        at java.lang.ClassLoader.defineClassImpl(Native Method)
+        at java.lang.ClassLoader.defineClass(ClassLoader.java:331)
+        at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:155)
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:714)
+        at java.net.URLClassLoader.access$400(URLClassLoader.java:93)
+        at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1166)
+        at java.security.AccessController.doPrivileged(AccessController.java:488)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:597)
+        at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:786)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:760)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:741)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+ankcseprda07[/tmp]$ cp cla   *.class net/codejava/networking
+ankcseprda07[/tmp]$ cd net      cd net            /codejava/netww orking
+ankcseprda07[/tmp/net/codejava/networking]$ ls
+HttpDownloadUtility.class  HttpDownloader.class
+ankcseprda07[/tmp/net/codejava/networking]$ j lscd net/codejava/networkingcp *.class net/codejava/networking/usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloader/usr/WebSphere/AppServer _85/java _1.7.1 _32/bin
+Exception in thread "main" java.lang.NoClassDefFoundError: HttpDownloader (wrong name: net/codejava/networking/HttpDownloader)
+        at java.lang.ClassLoader.defineClassImpl(Native Method)
+        at java.lang.ClassLoader.defineClass(ClassLoader.java:331)
+        at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:155)
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:714)
+        at java.net.URLClassLoader.access$400(URLClassLoader.java:93)
+        at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1166)
+        at java.security.AccessController.doPrivileged(AccessController.java:488)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:597)
+        at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:786)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:760)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:741)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+ankcseprda07[/tmp/net/codejava/networking]$ cd ../..
+ankcseprda07[/tmp/net]$ cd ..
+ankcseprda07[/tmp]$ cd ..cd ../../usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloader
+Exception in thread "main" java.lang.NoClassDefFoundError: HttpDownloader (wrong name: net/codejava/networking/HttpDownloader)
+        at java.lang.ClassLoader.defineClassImpl(Native Method)
+        at java.lang.ClassLoader.defineClass(ClassLoader.java:331)
+        at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:155)
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:714)
+        at java.net.URLClassLoader.access$400(URLClassLoader.java:93)
+        at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1166)
+        at java.security.AccessController.doPrivileged(AccessController.java:488)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:597)
+        at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:786)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:760)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:741)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+ankcseprda07[/tmp]$ ls
+AIX_Perf_Monitor_13566154  IRS                        daily_log.txt              errpt_out1.txt             locks                      niflogs                    showerrpt
+BES                        SolarWinds                 db2setup.log               errpt_out2.txt             lost+found                 osgi_instance_location     sshivama
+HttpDownloadUtility.class  SystemOut_backups          devsave                    fslst1.txt                 lvmt.log                   oslevel.0.8847502          vgdata
+HttpDownloadUtility.java   bigfix                     dpi_socket                 fslst2.txt                 mksysb-status.txt          perf71
+HttpDownloader.class       bos                        error_rpt.txt              google.pem                 mksysb.52166804            perfdata
+HttpDownloader.java        croutsyqPbL                error_rpt1.txt             inutmpi9gqaa               mksysb_4patrol.status      pmcfg.out
+IBM.tmpdir                 daily_log-tmp.txt          errpt_out.txt              javasharedresources        net                        savevg_4patrol.status
+ankcseprda07[/tmp]$ ls Http*
+HttpDownloadUtility.class  HttpDownloadUtility.java   HttpDownloader.class       HttpDownloader.java
+ankcseprda07[/tmp]$ more HttpDownloader.java
+[?1049h[56;1H[Kpackage net.codejava.networking;
+ 
+import java.io.IOException;
+ 
+public class HttpDownloader {
+ 
+    public static void main(String[] args) {
+        String fileURL = "http://jdbc.postgresql.org/download/postgresql-9.2-1002.jdbc4.jar";
+        String saveDir = "E:/Download";
+        try {
+            HttpDownloadUtility.downloadFile(fileURL, saveDir);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+}
+[K[7mHttpDownloader.java: END[27m[K[?1049l[?1l>ankcseprda07[/tmp]$ jamore HttpDownloader.javals Http*                ls      /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloadercd ..                                                            cd ../../usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloaderls                                                               cd net/codejava/networkingcp *.class net/codejava/networking/usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloaderjava HttpDownloader                                              ls *.class         ls        /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/javac HttpDownloader.java
+ankcseprda07[/tmp]$ k/usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/javac HttpDownloader.javamore HttpDownloader.java                                               ls Http*                ls      /usr/WebSphere/AppServer _85/java _1.7.1 _32/bin/java HttpDownloader
+Exception in thread "main" java.lang.NoClassDefFoundError: HttpDownloader (wrong name: net/codejava/networking/HttpDownloader)
+        at java.lang.ClassLoader.defineClassImpl(Native Method)
+        at java.lang.ClassLoader.defineClass(ClassLoader.java:331)
+        at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:155)
+        at java.net.URLClassLoader.defineClass(URLClassLoader.java:714)
+        at java.net.URLClassLoader.access$400(URLClassLoader.java:93)
+        at java.net.URLClassLoader$ClassFinder.run(URLClassLoader.java:1166)
+        at java.security.AccessController.doPrivileged(AccessController.java:488)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:597)
+        at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:786)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:760)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:330)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:741)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+ankcseprda07[/tmp]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

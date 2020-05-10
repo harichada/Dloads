@@ -1,0 +1,47 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.03 08:50:33 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Mon Nov 18 13:48:04 PST 2019 on ssh from 169.2.108.102
+Last login: Tue Dec  3 08:50:34 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ ipconfig -a
+ksh: ipconfig:  not found.
+ankcsesyaw01[/home/cseadmin]$ ifconfig -a
+en0: flags=1e084863,814c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 134.186.247.3 netmask 0xfffffff0 broadcast 134.186.247.15
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en1: flags=1e084863,80480<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),CHAIN>
+        inet 192.168.1.209 netmask 0xfffff000 broadcast 192.168.15.255
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en2: flags=1e084863,814c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 10.32.2.67 netmask 0xffff0000 broadcast 10.32.255.255
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+        inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+        inet6 ::1%1/64
+         tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+ankcsesyaw01[/home/cseadmin]$ ifconfig -aipconfig -atelnet ankcsesyaa05.dts.ca.gov 9315telnet ankcsesyaa05.dts.ca.gov 9082ntelnet ankcsesyaa05.dts.ca.gov 9082gtelnet ankcsesyaa05.dts.ca.gov 9082 telnet ankcsesyaa05.dts.ca.gov 9082
+ankcsesyaw01[/home/cseadmin]$ ping ankcsesyaa05.dts.ca.gov
+PING ankcsesyaa05: (134.187.144.6): 56 data bytes
+64 bytes from 134.187.144.6: icmp_seq=0 ttl=252 time=0 ms
+64 bytes from 134.187.144.6: icmp_seq=1 ttl=252 time=0 ms
+
+--- ankcsesyaa05 ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 0/0/0 ms
+ankcsesyaw01[/home/cseadmin]$ ping ankcsesyaa05.dts.ca.govifconfig -a                 ipconfig -atelnet ankcsesyaa05.dts.ca.gov 9315telnet ankcsesyaa05.dts.ca.gov 9082telnet ankcsesyaa05.dts.ca.gov 9085telnet ankcsesyaa05.dts.ca.gov 9082telnet ankcsesyaa05.dts.ca.gov 9085telnet cg1p02a 9082                ping cg1p02a       telnet cg1p02a 9082
+Trying...
+ankcsesyaw01[/home/cseadmin]$ q telnet cg1p02a 9082ping ankcsesyaa05.dts.ca.gov
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

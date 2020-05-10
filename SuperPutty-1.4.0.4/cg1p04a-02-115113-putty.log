@@ -1,0 +1,390 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.02 11:51:13 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Mon Nov 18 13:48:04 PST 2019 on ssh from 169.2.108.102
+Last login: Mon Dec  2 11:51:13 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ pdadmin 
+pdadmin> login -a sec_master
+Enter Password: 
+pdadmin sec_master> server list
+    amwpm-csehap008
+    csehap010-10.31.101.83
+    appserver-cg1p02a
+    csehws003.cse.ca.gov-csehws003.cse.ca.gov
+    appserver_85-cg1p02a
+    ivmgrd-master
+    csehws003-10.31.101.79
+    csehws006-webseald-csehws006
+pdadmin sec_master> server tast csehws006-webseald-csehws006
+ankcsesyaw01[/home/cseadmin]$ pdadmin
+pdadmin> login -a sec_master
+Enter Password: 
+pdadmin sec_master> sever pdadmin sec_master> seve pdadmin sec_master> sev pdadmin sec_master> se pdadmin sec_master> s pdadmin sec_master> server task csehws006-webseald-csehws006 list
+/ccsas-icmrm
+/ccsas-sya01
+/cm
+/cse
+/epmstatic
+/interop
+/raframework
+/workspace
+/
+pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icmrm
+    Junction point: /ccsas-icmrm
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: yes
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: cc2a3d0a-7be2-11df-99ee-000d600a9938
+        Server State: running
+        Operational State: Online
+        Hostname: csehap018.cse.ca.gov
+        Port: 9315
+        Virtual hostname: csehap018.cse.ca.gov:9315
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 1781
+pdadmin sec_master> server list
+    amwpm-csehap008
+    csehap010-10.31.101.83
+    appserver-cg1p02a
+    csehws003.cse.ca.gov-csehws003.cse.ca.gov
+    appserver_85-cg1p02a
+    ivmgrd-master
+    csehws003-10.31.101.79
+    csehws006-webseald-csehws006
+pdadmin sec_master> pdadmin sec_master>  server listpdadmin sec_master>             server task csehws006-webseald-csehws006 show /ccsas-icmrmpdadmin sec_master>                                                            server task csehws006-webseald-csehws006 list
+/ccsas-icmrm
+/ccsas-sya01
+/cm
+/cse
+/epmstatic
+/interop
+/raframework
+/workspace
+/
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 listpdadmin sec_master>                                               server listpdadmin sec_master>             server task csehws006-webseald-csehws006 show /ccsas-icmrm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icmr pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-ic pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-i pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-sya01
+    Junction point: /ccsas-sya01
+    Type: SSL
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user iv_user_l iv_groups 
+    Remote Address HTTP header: insert
+    Stateful junction: yes
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: bc34569c-3b56-11e3-ad4d-f245de2fe821
+        Server State: running
+        Operational State: Online
+        Hostname: cg1p02a.dts.ca.gov
+        Port: 443
+        Virtual hostname: cg1p02a.dts.ca.gov
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 5203
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 show /ccsas-sya01pdadmin sec_master>                                                            server task csehws006-webseald-csehws006 listpdadmin sec_master>                                               server listpdadmin sec_master>             server task csehws006-webseald-csehws006 list
+/ccsas-icmrm
+/ccsas-sya01
+/cm
+/cse
+/epmstatic
+/interop
+/raframework
+/workspace
+/
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 list pdadmin sec_master> server task csehws006-webseald-csehws006 lispdadmin sec_master>                                              server task csehws006-webseald-csehws006 show /ccsas-sya01 pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-sya0 pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-sya pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-sy pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-s pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icmrm
+    Junction point: /ccsas-icmrm
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: yes
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: cc2a3d0a-7be2-11df-99ee-000d600a9938
+        Server State: running
+        Operational State: Online
+        Hostname: csehap018.cse.ca.gov
+        Port: 9315
+        Virtual hostname: csehap018.cse.ca.gov:9315
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 1802
+pdadmin sec_master> csehws010
+You have mail in /usr/spool/mail/cseadmin
+ankcsesyaw01[/home/cseadmin]$ pdadmin
+pdadmin> login -a sec_master
+Enter Password: 
+pdadmin sec_master> ser pdadmin sec_master> se pdadmin sec_master> s pdadmin sec_master> server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cf
+Could not perform the administration request
+Error: HPDMG0452E   Server not found. (status 0x14c011c4)
+pdadmin sec_master> server list
+    amwpm-csehap008
+    csehap010-10.31.101.83
+    appserver-cg1p02a
+    csehws003.cse.ca.gov-csehws003.cse.ca.gov
+    appserver_85-cg1p02a
+    ivmgrd-master
+    csehws003-10.31.101.79
+    csehws006-webseald-csehws006
+pdadmin sec_master> pdadmin sec_master>  server listpdadmin sec_master>             server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    login -a sec_masterpdadmin sec_master>                     server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    server listpdadmin sec_master>             server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    login -a sec_masterpdadmin sec_master>                     server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    server list pdadmin sec_master> server lis pdadmin sec_master> server li pdadmin sec_master> server l pdadmin sec_master> server  pdadmin sec_master> server pdadmin sec_master> serve pdadmin sec_master> serv pdadmin sec_master> ser pdadmin sec_master> se pdadmin sec_master> s pdadmin sec_master> server taslk pdadmin sec_master> server tasl pdadmin sec_master> server task csehws006-webseald-csehws006 shows /ccas pdadmin sec_master> server task csehws006-webseald-csehws006 shows /cca pdadmin sec_master> server task csehws006-webseald-csehws006 shows /ccsas-icmrm
+Could not perform the administration request
+Error: HPDAC1573I   aznAPI --  Administration Service -- Use the 'server listtasks <aznAPI application name>' command to determine the list of tasks supported by this aznAPI application. (status 0x1005b625)
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 shows /ccsas-icmrm                /ccsas-icmrmpdadmin sec_master> server task csehws006-webseald-csehws006 show
+    Junction point: /ccsas-icmrm
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: yes
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: cc2a3d0a-7be2-11df-99ee-000d600a9938
+        Server State: running
+        Operational State: Online
+        Hostname: csehap018.cse.ca.gov
+        Port: 9315
+        Virtual hostname: csehap018.cse.ca.gov:9315
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 1803
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 show /ccsas-icmrmpdadmin sec_master>                                                            server task csehws006-webseald-csehws006 shows /ccsas-icmrmpdadmin sec_master>                                                             server listpdadmin sec_master>             server task csehws008-webseald-csehws008 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cf                                                                                                             create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws008-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws008-webseald-csehws00608                                                                                                                               -webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws006-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws006
+
+DPWWA1222E   A third-party server is not responding.  Possible causes: the server is down, there is a hung application on the server, or network problems.  This is not a problem with the WebSEAL server.
+DPWIV1054E   Could not connect
+Created junction at /ccsas-cf
+pdadmin sec_master> 
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    server task csehws006-webseald-csehws006 show /ccsas-icmrm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icmr pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-ic pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-i pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-cf
+    Junction point: /ccsas-cf
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: no
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: 622e10f2-154d-11ea-a2ba-fa163e2ef644
+        Server State: unknown
+        Operational State: Online
+        Hostname: ankcsesyaa05.dts.ca.gov
+        Port: 9085
+        Virtual hostname: ankcsesyaa05.dts.ca.gov:9085
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 1
+        Total requests : 1
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 show /ccsas-cf
+    Junction point: /ccsas-cf
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: no
+    Boolean Rule Header: no
+    Scripting support: yes
+    Scripting support options: onfocus trailer
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: Local Code Page, Binary
+    Server 1:
+        ID: 622e10f2-154d-11ea-a2ba-fa163e2ef644
+        Server State: not running
+        Operational State: Online
+        Hostname: ankcsesyaa05.dts.ca.gov
+        Port: 9085
+        Virtual hostname: ankcsesyaa05.dts.ca.gov:9085
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 1
+pdadmin sec_master> server task
+Error: Unknown or incomplete command.  Try one of:
+    server show <server-name>
+    server list
+    server task <server-name> <server-task>
+    server listtasks <server-name>
+    server replicate [-server <server-name>]
+pdadmin sec_master> server listtasks
+Error: Unknown or incomplete command.  Try one of:
+    server show <server-name>
+    server list
+    server task <server-name> <server-task>
+    server listtasks <server-name>
+    server replicate [-server <server-name>]
+pdadmin sec_master> server list
+    amwpm-csehap008
+    csehap010-10.31.101.83
+    appserver-cg1p02a
+    csehws003.cse.ca.gov-csehws003.cse.ca.gov
+    appserver_85-cg1p02a
+    ivmgrd-master
+    csehws003-10.31.101.79
+    csehws006-webseald-csehws006
+pdadmin sec_master> server task 
+Error: Unknown or incomplete command.  Try one of:
+    server show <server-name>
+    server list
+    server task <server-name> <server-task>
+    server listtasks <server-name>
+    server replicate [-server <server-name>]
+pdadmin sec_master> pdadmin sec_master>  server task help
+Error: Unknown or incomplete command.  Try one of:
+    server show <server-name>
+    server list
+    server task <server-name> <server-task>
+    server listtasks <server-name>
+    server replicate [-server <server-name>]
+pdadmin sec_master> server taskl  pdadmin sec_master> server taskl pdadmin sec_master> server task csehws006-webseald-csehws006
+Error: Unknown or incomplete command.  Try one of:
+    server show <server-name>
+    server list
+    server task <server-name> <server-task>
+    server listtasks <server-name>
+    server replicate [-server <server-name>]
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 modify
+Could not perform the administration request
+Error: HPDAC1573I   aznAPI --  Administration Service -- Use the 'server listtasks <aznAPI application name>' command to determine the list of tasks supported by this aznAPI application. (status 0x1005b625)
+pdadmin sec_master> server list ta pdadmin sec_master> server list t pdadmin sec_master> server list  pdadmin sec_master> server listtasks modify
+Could not perform the administration request
+Error: HPDMG0452E   Server not found. (status 0x14c011c4)
+pdadmin sec_master> server taslk  pdadmin sec_master> server taslk pdadmin sec_master> server tasl pdadmin sec_master> server task csehws006-webseald-csehws006 delete ccsas-cf
+DPWWM2090E   A junction mount point must begin with '/'
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 delete ccsas-cf/ccsas-cfpdadmin sec_master> server task csehws006-webseald-csehws006 delete /
+Deleted junction from /ccsas-cf
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 delete /ccsas-cfpdadmin sec_master>                                                           server task csehws006-webseald-csehws006 delete ccsas-cfpdadmin sec_master>                                                          server listtasks modifypdadmin sec_master>                         server task csehws006-webseald-csehws006 modifypdadmin sec_master>                                                 server task csehws006-webseald-csehws006pdadmin sec_master>                                          server task helppdadmin sec_master>                  server task pdadmin sec_master>              server listpdadmin sec_master>             server listtaskspdadmin sec_master>                  server taskpdadmin sec_master>             server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    server task csehws006-webseald-csehws006 show /ccsas-icmrmpdadmin sec_master>                                                            server task csehws006-webseald-csehws006 shows /ccsas-icmrmpdadmin sec_master>                                                             server task csehws006-webseald-csehws006 show /ccsas-icmrmpdadmin sec_master>                                                            server task csehws006-webseald-csehws006 shows /ccsas-icmrmpdadmin sec_master>                                                             server task csehws006-webseald-csehws006 show /ccsas-icmrm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icmr pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icm pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-ic pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-icf pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-ic pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-i pdadmin sec_master> server task csehws006-webseald-csehws006 show /ccsas-cf
+DPWWM1346E   Cannot show junction
+DPWWA1201E   Junction not found
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 delete /ccsas-cfpdadmin sec_master>                                                           server task csehws006-webseald-csehws006 delete ccsas-cfpdadmin sec_master>                                                          server listtasks modifypdadmin sec_master>                         server task csehws006-webseald-csehws006 modifypdadmin sec_master>                                                 server task csehws006-webseald-csehws006pdadmin sec_master>                                          server task helppdadmin sec_master>                  server task pdadmin sec_master>              server listpdadmin sec_master>             server listtaskspdadmin sec_master>                  server taskpdadmin sec_master>             server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                    server task csehws006-webseald-csehws006 show /ccsas-icmrmpdadmin sec_master>                                                            server task csehws006-webseald-csehws006 create -e lcp_bin -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cf--f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws006-webseald-csehws006 create -e lcp_bin -s-f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws006-webseald-csehws006 create -e lcp_bin -s -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master> server task csehws006-webseald-csehws006 create -e lcp_bin -s 
+DPWWA1222E   A third-party server is not responding.  Possible causes: the server is down, there is a hung application on the server, or network problems.  This is not a problem with the WebSEAL server.
+DPWIV1054E   Could not connect
+Created junction at /ccsas-cf
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 create -e lcp_bin -s -f -j -J trailer,onfocus -c iv_user -t tcp -h ankcsesyaa05.dts.ca.gov -p 9085 /ccsas-cfpdadmin sec_master>                                                                                                                                                       server task csehws006-webseald-csehws006 show /ccsas-cfpdadmin sec_master>                                                         server task csehws006-webseald-csehws006 delete /ccsas-cf
+Deleted junction from /ccsas-cf
+pdadmin sec_master> 

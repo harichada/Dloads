@@ -1,0 +1,168 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 13:43:34 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Thu Sep 19 15:06:05 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd EFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copyKeys.yml           [0m[01;34mCustomerConnect[0m    inventorycc           servers.yml
+[01;34mapache[0m                         copyKey.yml            delApctl.yml       [01;31mmaster-cisreport.zip[0m  [01;32mserver.xml[0m
+CCServers.yml                  cpyhttpd.yml           deploy1.yml        passwd                stopFW.yml
+[01;34mcis-rhel-ansible-audit-master[0m  CreatePartition.yml    [01;31mdevel.zip[0m          passwd.txt            [01;34mtomcat[0m
+[01;32mcontext.xml[0m                    CreatePartsDevOps.yml  fetchhostname.yml  ping.yml              users.yml
+copy                           CreateUser.retry       [01;34mfinal[0m              [01;34mpyscritps[0m             [01;32mweb.xml[0m
+copyBinaries.yml               CreateUsers.yml        gitcommands.txt    script.yml            yumPackages.yml
+copyKeys.retry                 CreateUser.yml         inventory          [01;34mselfsignedcerts[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd final
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ ls
+ConfigServers.yml  CreatePartitions.yml  installApache.yml  ldconfig.yml  sharedJava.yml   yumPackages.yml
+copyKey.yml        CreateUsers.yml       inventory          servers.yml   startApache.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ more CreateUsers.yml 
+- hosts: 
+       - pft1as2,pft2ws2 
+  become: true
+  vars_files:
+          - users.yml
+  tasks:
+          - user:
+                      name: "{{ item.name }}" 
+                      state: present
+                      comment: "{{ item.comment }}"
+                      password: "YMBajDAoMbnow"
+                      groups: "{{ item.groups }}"
+                      append: yes
+            with_items: "{{ users }}"
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ cd..
+-bash: cd..: command not found
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ a[Kcd ..
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ history | grep passwd
+  218  ansible sytas -i inventory -m shell -a "[01;31m[Kpasswd[m[K hchada" -b -K
+  222  ansible sytas -i inventory -m shell -a " echo -e "Ir0nm@n1\nIr0nm@n1" | [01;31m[Kpasswd[m[K hchada" -b -K
+  223  ansible sytas -i inventory -m shell -a "echo -e 'Ir0nm@n1\nIr0nm@n1' | [01;31m[Kpasswd[m[K hchada" -b -K
+  227  history | grep [01;31m[Kpasswd[m[K
+  228   ansible sqtws -i inventory -m shell -a "echo -e 'Ir0nm@n1\nIr0nm@n1' | [01;31m[Kpasswd[m[K hchada" -b -K
+  231  ansible sqtas -i inventory -m shell -a "echo -e 'Ir0nm@n1\nIr0nm@n1' | [01;31m[Kpasswd[m[K hchada" -b -K
+  521  history | grep [01;31m[Kpasswd[m[K
+  664  ansible devservers -i inventory -m shell -a "echo 'Rambo@123\nRambo@123' | [01;31m[Kpasswd[m[K hchada" -b -K
+  665  history | grep [01;31m[Kpasswd[m[K
+  666  ansible devservers -i inventory -m shell -a "echo 'Shru@123\nShru@123' | [01;31m[Kpasswd[m[K hchada" -b -K
+  667  ansible devws -i inventory -m shell -a "echo 'Lasya@345\nLasya@345' | [01;31m[Kpasswd[m[K hchada" -b -K
+  668  ansible devas -i inventory -m shell -a "echo 'Lasya@345\nLasya@345' | [01;31m[Kpasswd[m[K hchada" -b -K
+  794  git commit -am "removed [01;31m[Kpasswd[m[K from the script"
+  825  ansible devas -i inventory -m shell -a "echo -s "Rambo@123\nRambo@123" | [01;31m[Kpasswd[m[K hchada" -b -K
+  827  ansible devas -i inventory -m shell -a "echo -e "Rambo@123\nRambo@123" | [01;31m[Kpasswd[m[K hchada" -b -K
+  915  ansible devas -i inventory -m shell -a "[01;31m[Kpasswd[m[K hchada" -b -K
+  916  ansible devas -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | [01;31m[Kpasswd[m[K hchada" -b -K
+  927  sudo [01;31m[Kpasswd[m[K deploy1
+ 1008  history | grep [01;31m[Kpasswd[m[K
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$  ansible devas -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b - K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cevas -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@p[1@r[1@od -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -KK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[WARNING]: log file at /home/hchada/ansible/ansiblescripts/log/ansible.log is not writeable and we cannot create it, aborting
+
+SUDO password: 
+[1;31mprodas1 | UNREACHABLE! => {[0m
+[1;31m    "changed": false, [0m
+[1;31m    "msg": "Authentication or permission failure. In some cases, you may have been able to authenticate and did not have permissions on the target directory. Consider changing the remote tmp path in ansible.cfg to a path rooted in \"/tmp\". Failed command was: ( umask 77 && mkdir -p \"` echo ~/.ansible/tmp/ansible-tmp-1569012313.24-129467921097806 `\" && echo ansible-tmp-1569012313.24-129467921097806=\"` echo ~/.ansible/tmp/ansible-tmp-1569012313.24-129467921097806 `\" ), exited with result 1", [0m
+[1;31m    "unreachable": true[0m
+[1;31m}[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$  ansible prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b  -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | passwd hchada" -b -[1PK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | passwd hchada" -b -K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | passwd hchada" -b -K [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ansible prodasgrp^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep grep .[Kinventory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep grp inventory
+[devws[01;31m[Kgrp[m[K]
+[devas[01;31m[Kgrp[m[K]
+[syaws[01;31m[Kgrp[m[K]
+[syaas[01;31m[Kgrp[m[K]
+[sytws[01;31m[Kgrp[m[K]
+[sytas[01;31m[Kgrp[m[K]
+[sqtws[01;31m[Kgrp[m[K]
+[sqtas[01;31m[Kgrp[m[K]
+[pft1ws[01;31m[Kgrp[m[K]
+[pft1as[01;31m[Kgrp[m[K]
+[pft2ws[01;31m[Kgrp[m[K]
+[pft2as[01;31m[Kgrp[m[K]
+[prodws[01;31m[Kgrp[m[K]
+[prodas[01;31m[Kgrp[m[K]
+devws[01;31m[Kgrp[m[K
+syaws[01;31m[Kgrp[m[K
+sqtws[01;31m[Kgrp[m[K
+sytws[01;31m[Kgrp[m[K
+pft1ws[01;31m[Kgrp[m[K
+pft2ws[01;31m[Kgrp[m[K
+prodws[01;31m[Kgrp[m[K
+devas[01;31m[Kgrp[m[K
+syaas[01;31m[Kgrp[m[K
+sqtas[01;31m[Kgrp[m[K
+sytas[01;31m[Kgrp[m[K
+pft1as[01;31m[Kgrp[m[K
+pft2as[01;31m[Kgrp[m[K
+prodas[01;31m[Kgrp[m[K
+devws[01;31m[Kgrp[m[K
+devas[01;31m[Kgrp[m[K
+syaws[01;31m[Kgrp[m[K
+syaas[01;31m[Kgrp[m[K
+sytas[01;31m[Kgrp[m[K
+sytws[01;31m[Kgrp[m[K
+sqtws[01;31m[Kgrp[m[K
+sqtas[01;31m[Kgrp[m[K
+pft1ws[01;31m[Kgrp[m[K
+pft2ws[01;31m[Kgrp[m[K
+pft1as[01;31m[Kgrp[m[K
+pft2as[01;31m[Kgrp[m[K
+prodas[01;31m[Kgrp[m[K
+prodws[01;31m[Kgrp[m[K
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep grp inventory[1@e[C[C[C[C[C[C[C[C[C[C[C^C
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep grp inventory[1@e[C[C[C[C[C[C[C[C[C[C[C ansible prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b  -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory | grep passwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Khistory | grep passwd ansible prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b  -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -[1PK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmbo@123\nRambo@123' | passwd hchada" -b[1P -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbo@123\nRambo@123' | passwd hchada" -b [1P-K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbo@123\nRambo@123' | passwd hchada" -b -[1PK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co@123\nRambo@123' | passwd hchada" -b -K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@123\nRambo@123' | passwd hchada" -b -K [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@G[1@r[1@8[1@8[1@t[1@d[1@@[1@y[1@\[1@n[1@G[1@r[1@8[1@8t' | passwd hchada" -b -K [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd' | passwd hchada" -b -KK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC' | passwd hchada" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | passwd hchada" -b[1P -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' | passwd hchada" -b [1P-K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchada" -b -[1PK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chada" -b -K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cada" -b -K [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@d[1@ep" -b -K [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl" -b -KK[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1" -b -K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[WARNING]: log file at /home/hchada/ansible/ansiblescripts/log/ansible.log is not writeable and we cannot create it, aborting
+
+SUDO password: 
+[0;33mprodas2 | CHANGED | rc=0 >>[0m
+[0;33mChanging password for user deploy1.[0m
+[0;33mpasswd: all authentication tokens updated successfully.New password: Retype new password: [0m
+[0;33m[0m
+[0;33mprodas1 | CHANGED | rc=0 >>[0m
+[0;33mChanging password for user deploy1.[0m
+[0;33mpasswd: all authentication tokens updated successfully.New password: Retype new password: [0m
+[0;33m[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copyKeys.yml           [0m[01;34mCustomerConnect[0m    inventorycc           servers.yml
+[01;34mapache[0m                         copyKey.yml            delApctl.yml       [01;31mmaster-cisreport.zip[0m  [01;32mserver.xml[0m
+CCServers.yml                  cpyhttpd.yml           deploy1.yml        passwd                stopFW.yml
+[01;34mcis-rhel-ansible-audit-master[0m  CreatePartition.yml    [01;31mdevel.zip[0m          passwd.txt            [01;34mtomcat[0m
+[01;32mcontext.xml[0m                    CreatePartsDevOps.yml  fetchhostname.yml  ping.yml              users.yml
+copy                           CreateUser.retry       [01;34mfinal[0m              [01;34mpyscritps[0m             [01;32mweb.xml[0m
+copyBinaries.yml               CreateUsers.yml        gitcommands.txt    script.yml            yumPackages.yml
+copyKeys.retry                 CreateUser.yml         inventory          [01;34mselfsignedcerts[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ exit
+logout

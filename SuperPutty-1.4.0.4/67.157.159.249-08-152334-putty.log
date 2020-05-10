@@ -1,0 +1,373 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.08 15:23:34 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Nov  6 08:05:45 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1046UL:~[?1034h[hchada@CGDCSSL1046UL ~]$ visudo
+visudo: /etc/sudoers: Permission denied
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ sudo visudo
+[sudo] password for hchada: 
+[sudo] password for hchada: 
+Sorry, try again.
+[sudo] password for hchada: 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"/etc/sudoers.tmp" 120L, 4328C[1;1H## Sudoers allows particular users to run various commands as
+## the root user, without needing the root password.
+##
+## Examples are provided at the bottom of the file for collections
+## of related commands, which can then be delegated out to particular
+## users or groups.
+##
+## This file must be edited with the 'visudo' command.
+
+## Host Aliases
+## Groups of machines. You may prefer to use hostnames (perhaps using
+## wildcards for entire domains) or IP addresses instead.
+# Host_Alias     FILESERVERS = fs1, fs2
+# Host_Alias     MAILSERVERS = smtp, smtp2
+
+## User Aliases
+## These aren't often necessary, as you can use regular groups
+## (ie, from files, LDAP, NIS, etc) in this file - just use %groupname
+## rather than USERALIAS
+# User_Alias ADMINS = jsmith, mikem
+
+
+## Command Aliases
+## These are groups of related commands...
+
+## Networking
+# Cmnd_Alias NETWORKING = /sbin/route, /sbin/ifconfig, /bin/ping, /sbin/dhclient, /usr/bin/net, /sbin/iptables, /usr/bin/rfcomm, /usr/bin/wvdial, /sbin/iwconfig, /sbin/mii-tool
+
+## Installation and management of software
+# Cmnd_Alias SOFTWARE = /bin/rpm, /usr/bin/up2date, /usr/bin/yum
+
+## Services
+# Cmnd_Alias SERVICES = /sbin/service, /sbin/chkconfig, /usr/bin/systemctl start, /usr/bin/systemctl stop, /usr/bin/systemctl reload, /usr/bin/systemctl restart, /usr/bin/systemctl status, /usr/bin/systemm[34;1Hctl enable, /usr/bin/systemctl disable
+
+## Updating the locate database
+# Cmnd_Alias LOCATE = /usr/bin/updatedb
+
+## Storage
+# Cmnd_Alias STORAGE = /sbin/fdisk, /sbin/sfdisk, /sbin/parted, /sbin/partprobe, /bin/mount, /bin/umount
+
+## Delegating permissions
+# Cmnd_Alias DELEGATING = /usr/sbin/visudo, /bin/chown, /bin/chmod, /bin/chgrp
+
+## Processes
+# Cmnd_Alias PROCESSES = /bin/nice, /bin/kill, /usr/bin/kill, /usr/bin/killall
+
+## Drivers
+# Cmnd_Alias DRIVERS = /sbin/modprobe
+
+# Defaults specification
+
+#
+# Refuse to run if unable to disable echo on the tty.
+#[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults   !visiblepw[56;1H[K[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H#[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# Preserving HOME has security implications since many programs[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# use it when searching for configuration files. Note that HOME[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# is already set when the the env_reset option is enabled, so[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# this option is only effective for configurations where either[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# env_reset is disabled or HOME is present in the env_keep list.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H#[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    always_set_home[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    match_group_by_gid[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# Prior to version 1.8.15, groups listed in sudoers that were not[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# found in the system group database were passed to the group[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# plugin, if any. Starting with 1.8.15, only groups of the form[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# %:group are resolved via the group plugin by default.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# We enable always_query_group_plugin to restore old behavior.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# Disable this option for new behavior.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    always_query_group_plugin[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_reset[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_keep =  "COLORS DISPLAY HOSTNAME HISTSIZE KDEDIR LS_COLORS"[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_keep += "MAIL PS1 PS2 QTDIR USERNAME LANG LC_ADDRESS LC_CTYPE"[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_keep += "LC_COLLATE LC_IDENTIFICATION LC_MEASUREMENT LC_MESSAGES"[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_keep += "LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE"[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1HDefaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY"[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H#[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# Adding HOME to env_keep may enable a user to run unrestricted[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# commands via sudo.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H#[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# Defaults   env_keep += "HOME"[?12l[?25h[?25l[1;55r[1;1H[2M[1;56r[55;1HDefaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin[54;1H[?12l[?25h
+[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Next comes the main part: which users can run what software on[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## which machines (the sudoers file can be shared between multiple[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## systems).[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Syntax:[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H##[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H##      user    MACHINE=COMMANDS[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H##[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## The COMMANDS section may have other options added to it.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H##[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Allow root to run any commands anywhere[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1Hroot    ALL=(ALL)[7CALL[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Allows members of the 'sys' group to run networking, software,[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## service management apps and more.[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# %sys ALL = NETWORKING, SOFTWARE, SERVICES, STORAGE, DELEGATING, PROCESSES, LOCATE, DRIVERS[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Allows people in group wheel to run all commands[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H%wheel  ALL=(ALL)[7CALL[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Same thing without a password[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# %wheel[8CALL=(ALL)[7CNOPASSWD: ALL[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Allows members of the users group to mount and unmount the[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## cdrom as root[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# %users  ALL=/sbin/mount /mnt/cdrom, /sbin/umount /mnt/cdrom[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Allows members of the users group to shutdown this system[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H# %users  localhost=/sbin/shutdown -h now[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H## Read drop-in files from /etc/sudoers.d (the # here does not mean a comment)[?12l[?25h[?25l[1;55r[55;1H
+[1;56r[55;1H#includedir /etc/sudoers.d[?12l[?25h[?25l
+:[?12l[?25hq![?25l[56;1H[K[56;1H[?1l>[?12l[?25h[?1049lvisudo: /etc/sudoers.tmp unchanged
+]0;hchada@CGDCSSL1046UL:~[hchada@CGDCSSL1046UL ~]$ sudo visudo
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"/etc/sudoers.tmp" 120L, 4328C[1;1H## Sudoers allows particular users to run various commands as
+## the root user, without needing the root password.
+##
+## Examples are provided at the bottom of the file for collections
+## of related commands, which can then be delegated out to particular
+## users or groups.
+##
+## This file must be edited with the 'visudo' command.
+
+## Host Aliases
+## Groups of machines. You may prefer to use hostnames (perhaps using
+## wildcards for entire domains) or IP addresses instead.
+# Host_Alias     FILESERVERS = fs1, fs2
+# Host_Alias     MAILSERVERS = smtp, smtp2
+
+## User Aliases
+## These aren't often necessary, as you can use regular groups
+## (ie, from files, LDAP, NIS, etc) in this file - just use %groupname
+## rather than USERALIAS
+# User_Alias ADMINS = jsmith, mikem
+
+
+## Command Aliases
+## These are groups of related commands...
+
+## Networking
+# Cmnd_Alias NETWORKING = /sbin/route, /sbin/ifconfig, /bin/ping, /sbin/dhclient, /usr/bin/net, /sbin/iptables, /usr/bin/rfcomm, /usr/bin/wvdial, /sbin/iwconfig, /sbin/mii-tool
+
+## Installation and management of software
+# Cmnd_Alias SOFTWARE = /bin/rpm, /usr/bin/up2date, /usr/bin/yum
+
+## Services
+# Cmnd_Alias SERVICES = /sbin/service, /sbin/chkconfig, /usr/bin/systemctl start, /usr/bin/systemctl stop, /usr/bin/systemctl reload, /usr/bin/systemctl restart, /usr/bin/systemctl status, /usr/bin/systemm[34;1Hctl enable, /usr/bin/systemctl disable
+
+## Updating the locate database
+# Cmnd_Alias LOCATE = /usr/bin/updatedb
+
+## Storage
+# Cmnd_Alias STORAGE = /sbin/fdisk, /sbin/sfdisk, /sbin/parted, /sbin/partprobe, /bin/mount, /bin/umount
+
+## Delegating permissions
+# Cmnd_Alias DELEGATING = /usr/sbin/visudo, /bin/chown, /bin/chmod, /bin/chgrp
+
+## Processes
+# Cmnd_Alias PROCESSES = /bin/nice, /bin/kill, /usr/bin/kill, /usr/bin/killall
+
+## Drivers
+# Cmnd_Alias DRIVERS = /sbin/modprobe
+
+# Defaults specification
+
+#
+# Refuse to run if unable to disable echo on the tty.
+#[1;1H[?12l[?25h
+
+
+
+
+[?25l[27m[m[H[2J[1;1H# Refuse to run if unable to disable echo on the tty.
+#
+Defaults   !visiblepw
+
+#
+# Preserving HOME has security implications since many programs
+# use it when searching for configuration files. Note that HOME
+# is already set when the the env_reset option is enabled, so
+# this option is only effective for configurations where either
+# env_reset is disabled or HOME is present in the env_keep list.
+#
+Defaults    always_set_home
+Defaults    match_group_by_gid
+
+# Prior to version 1.8.15, groups listed in sudoers that were not
+# found in the system group database were passed to the group
+# plugin, if any. Starting with 1.8.15, only groups of the form
+# %:group are resolved via the group plugin by default.
+# We enable always_query_group_plugin to restore old behavior.
+# Disable this option for new behavior.
+Defaults    always_query_group_plugin
+
+Defaults    env_reset
+Defaults    env_keep =  "COLORS DISPLAY HOSTNAME HISTSIZE KDEDIR LS_COLORS"
+Defaults    env_keep += "MAIL PS1 PS2 QTDIR USERNAME LANG LC_ADDRESS LC_CTYPE"
+Defaults    env_keep += "LC_COLLATE LC_IDENTIFICATION LC_MEASUREMENT LC_MESSAGES"
+Defaults    env_keep += "LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE"
+Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY"
+
+#
+# Adding HOME to env_keep may enable a user to run unrestricted
+# commands via sudo.
+#
+# Defaults   env_keep += "HOME"
+
+Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
+
+## Next comes the main part: which users can run what software on
+## which machines (the sudoers file can be shared between multiple
+## systems).
+## Syntax:
+##
+##      user    MACHINE=COMMANDS
+##
+## The COMMANDS section may have other options added to it.
+##
+## Allow root to run any commands anywhere
+root    ALL=(ALL)[7CALL
+
+## Allows members of the 'sys' group to run networking, software,
+## service management apps and more.
+# %sys ALL = NETWORKING, SOFTWARE, SERVICES, STORAGE, DELEGATING, PROCESSES, LOCATE, DRIVERS
+
+## Allows people in group wheel to run all commands
+%wheel  ALL=(ALL)[7CALL[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H## Allows people in group wheel to run all commands
+%wheel  ALL=(ALL)[7CALL
+
+## Same thing without a password
+# %wheel[8CALL=(ALL)[7CNOPASSWD: ALL
+
+## Allows members of the users group to mount and unmount the
+## cdrom as root
+# %users  ALL=/sbin/mount /mnt/cdrom, /sbin/umount /mnt/cdrom
+
+## Allows members of the users group to shutdown this system
+# %users  localhost=/sbin/shutdown -h now
+
+## Read drop-in files from /etc/sudoers.d (the # here does not mean a comment)
+#includedir /etc/sudoers.d
+[1m[34m~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [23;1H~                                                                                                                                                                                                           [24;1H~                                                                                                                                                                                                           [25;1H~                                                                                                                                                                                                           [26;1H~                                                                                                                                                                                                           [27;1H~                                                                                                                                                                                                           [28;1H~                                                                                                                                                                                                           [29;1H~                                                                                                                                                                                                           [30;1H~                                                                                                                                                                                                           [31;1H~                                                                                                                                                                                                           [32;1H~                                                                                                                                                                                                           [33;1H~                                                                                                                                                                                                           [34;1H~                                                                                                                                                                                                           [35;1H~                                                                                                                                                                                                           [36;1H~                                                                                                                                                                                                           [37;1H~                                                                                                                                                                                                           [38;1H~                                                                                                                                                                                                           [39;1H~                                                                                                                                                                                                           [40;1H~                                                                                                                                                                                                           [41;1H~                                                                                                                                                                                                           [42;1H~                                                                                                                                                                                                           [43;1H~                                                                                                                                                                                                           [44;1H~                                                                                                                                                                                                           [45;1H~                                                                                                                                                                                                           [46;1H~                                                                                                                                                                                                           [47;1H~                                                                                                                                                                                                           [48;1H~                                                                                                                                                                                                           [49;1H~                                                                                                                                                                                                           [50;1H~                                                                                                                                                                                                           [51;1H~                                                                                                                                                                                                           [52;1H~                                                                                                                                                                                                           [53;1H~                                                                                                                                                                                                           [54;1H~                                                                                                                                                                                                           [55;1H~                                                                                                                                                                                                           [1;1H[?12l[?25h[?25l[1;55r[m[1;1H[L[1;56r[1;1H[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H# %sys ALL = NETWORKING, SOFTWARE, SERVICES, STORAGE, DELEGATING, PROCESSES, LOCATE, DRIVERS[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## service management apps and more.[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## Allows members of the 'sys' group to run networking, software,[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1Hroot    ALL=(ALL)[7CALL[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## Allow root to run any commands anywhere[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H##[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## The COMMANDS section may have other options added to it.[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H##[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H##      user    MACHINE=COMMANDS[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H##[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## Syntax:[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## systems).[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## which machines (the sudoers file can be shared between multiple[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H## Next comes the main part: which users can run what software on[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1HDefaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H# Defaults   env_keep += "HOME"[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H#[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H# commands via sudo.[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H# Adding HOME to env_keep may enable a user to run unrestricted[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H#[?12l[?25h[?25l[1;55r[1;1H[L[1;56r[1;1H[?12l[?25h

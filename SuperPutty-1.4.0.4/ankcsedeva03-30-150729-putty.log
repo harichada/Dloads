@@ -1,0 +1,111 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 15:07:29 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Access denied
+hchada@ankcsedeva03's password: 
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Wed Oct 30 15:07:30 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Oct 30 14:21:33 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsedeva03[/home/hchada]$ bash
+ksh: bash:  not found.
+ankcsedeva03[/home/hchada]$ sudo su - wasadmin
+Password:
+Sorry, try again.
+Password:
+[YOU HAVE NEW MAIL]
+ankcsedeva03[/home/wasadmin]$ bash
+[?1034hankcsedeva03[/home/wasadmin]$ exit
+exit
+ankcsedeva03[/home/wasadmin]$ whish  ch bash
+/home/wasadmin/bash/bash
+ankcsedeva03[/home/wasadmin]$ cd  ls
+IHS_HC_scp.sh            checkwasadmin            healthcheck_scripts_IHS  killwasproc.log          scripts                  updilogs
+WAS_HC_scp.sh            cleanupFFDClogs.out      healthcheck_scripts_WAS  rc.centralprint          setCPOSperms             vpd.properties
+adobepatch               clientresponsefile.txt   install_scripts          rc.centralpro            setWAS61perms            waslogs
+backup-runlevel-scripts  csekillwasproc           jay                      rc.ihs                   setWASClientperms        websphere6scripts
+bash                     healthcheck_reports      jdbcerr.log              runlevel-scripts         setWASperms
+ankcsedeva03[/home/wasadmin]$ cd bash
+ankcsedeva03[/home/wasadmin/bash]$ ls
+bash
+ankcsedeva03[/home/wasadmin/bash]$ ls -la
+total 3960
+drwxrwxr-x    2 wasadmin wasadmin        512 Oct 30 14:52 .
+drwxr-x---   23 wasadmin wasadmin       1536 Oct 30 14:51 ..
+-rwxrwxrwx    1 wasadmin wasadmin    2015939 Oct 30 14:52 bash
+ankcsedeva03[/home/wasadmin/bash]$ cd /opt/AdobeAEM
+ankcsedeva03[/opt/AdobeAEM]$ ls
+GDS                                       deploy                                    license.properties                        plugins
+Uninstall_Adobe Experience Manager Forms  docs                                      licenses                                  sdk
+configurationManager                      fonts                                     log                                       tmp
+copyright                                 jre                                       lost+found
+crx-repository                            lib                                       pdfg_srt
+ankcsedeva03[/opt/AdobeAEM]$ cd ca  lib/caching
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ls
+ConfigDiskDir_             bin                        locator22548state.dat      start_locator.log          startlocator.sh.org        stoplocator.sh
+GFLocator.log              gemfireLicense.zip         locator22548views.log      startlocator.bat           startlocator1.sh
+GemFireVersion.properties  lib                        sl.log                     startlocator.sh            stoplocator.bat
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ps -ef | grep gemfire
+wasadmin 54919352 50659558   0 15:09:53  pts/0  0:00 grep gemfire
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ./startlocator.sh
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ 
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ps Locator start complete.
+-ef      
+      PID    TTY  TIME CMD
+  9830542  pts/0  0:00 -ksh 
+ 18022460  pts/0  0:00 ps 
+ 23986324  pts/0  0:03 /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/bin/java
+ 50659558  pts/0  0:00 -ksh 
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ 
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ 
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ps -ef | grep gemfire
+wasadmin 15532148 50659558   0 15:12:13  pts/0  0:00 grep gemfire
+wasadmin 23986324        1   2 15:09:59  pts/0  0:03 /usr/WebSphere/AppServer_85A/java_1.7.1_64/jre/bin/java -classpath /opt/AdobeAEM/lib/caching/lib/gfsh-dependencies.jar:./opt/AdobeAEM/lib/caching/lib/gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:/db2home/instdicm/sqllib/java/db2java.zip:/db2home/instdicm/sqllib/java/sqlj.zip:/db2home/instdicm/sqllib/function:/db2home/instdicm/sqllib/java/db2jcc_license_cu.jar:/db2home/instdicm/sqllib/tools/clpplus.jar:/db2home/instdicm/sqllib/tools/antlr-3.2.jar:/db2home/instdicm/sqllib/tools/jline-0.9.93.jar:/db2home/instdicm/sqllib/java/db2jcc.jar:. -Dgemfire.license-type=production -Dgemfire.log-file=GFLocator.log -Dgemfire.license-file=gemfireLicense.zip com.gemstone.gemfire.internal.DistributionLocator 22548 134.187.144.42 true true
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ ./stoplocator.sh
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ Waiting 5 seconds for locator process to terminate...
+
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ Locator stop complete.
+
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ 
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ cat starlo  tlocator.sh
+# -------------------------------------------------------------------------
+# Gemfire Start Locator Script Template for linux(bash)
+#
+# * Set the 'GF_PORT' argument to specify the port to be used by the locator and the distributed system
+#   Default: 22345. Valid values are 0-65535.
+# * Specify the 'GF_BIND_ADDRESS' argument if the server is setup with multiple network cards in order to
+#   specify which IP address this distributed system's server sockets will listen on.
+#   Default: null (localhost)
+# * When multiple locators are part of the distributed system, add the following property to the
+#   GF_PROPERTIES variable: -Dgemfire.locators=hostName1[portNum1],hostName2[portNum2]
+# * Copy your gemfireLicense.zip file to the current directory
+# -------------------------------------------------------------------------
+
+# Adds the current directory to the path.  Changes are not exported to the calling shell.
+PATH=.:$PATH
+
+# Set the classpath for this locator
+GF_CLASSPATH=/opt/AdobeAEM/lib/caching/lib/gfsh-dependencies.jar:./opt/AdobeAEM/lib/caching/lib/gemfire.jar:./log4j-api-2.1.jar:./log4j-core-2.1.jar:$CLASSPATH
+
+# Set any properties for the locator
+GF_PROPERTIES="-Dgemfire.log-file=GFLocator.log -Dgemfire.license-type=production -Dgemfire.license-file=gemfireLicense.zip"
+
+# Set the port
+GF_PORT=22548
+
+# Set the bind address (optional on single homed machine)
+GF_BIND_ADDRESS="134.187.144.42"
+
+# Start the locator on the specified port
+java -cp $GF_CLASSPATH com.gemstone.gemfire.internal.SystemAdmin start-locator  -port=$GF_PORT -address=$GF_BIND_ADDRESS $GF_PROPERTIES &
+ankcsedeva03[/opt/AdobeAEM/lib/caching]$ exit
+ankcsedeva03[/home/hchada]$ exit

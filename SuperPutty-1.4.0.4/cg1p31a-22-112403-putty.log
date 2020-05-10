@@ -1,0 +1,59 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.22 11:24:03 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct 17 09:58:08 PDT 2019 on ssh from 169.2.108.102
+Last login: Tue Oct 22 11:23:22 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[ipm/south] clar
+ksh: clar:  not found.
+ankcseprda06[/ipm/south] clear
+[H[2Jankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm
+Xlib: connection to "localhost:11.0" refused by server
+Xlib: PuTTY X11 proxy: unable to connect to forwarded X server: Network error: Software caused connection abort
+
+Exception in thread "main" java.awt.AWTError: Can't connect to X11 window server using 'localhost:11.0' as the value of the DISPLAY variable.
+        at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+        at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:79)
+        at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:140)
+        at java.security.AccessController.doPrivileged(AccessController.java:594)
+        at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:88)
+        at java.lang.Class.forNameImpl(Native Method)
+        at java.lang.Class.forName(Class.java:273)
+        at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:114)
+        at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:93)
+        at sun.awt.X11.XToolkit.<clinit>(XToolkit.java:138)
+        at java.lang.Class.forNameImpl(Native Method)
+        at java.lang.Class.forName(Class.java:273)
+        at java.awt.Toolkit$2.run(Toolkit.java:871)
+        at java.awt.Toolkit$2.run(Toolkit.java:866)
+        at java.security.AccessController.doPrivileged(AccessController.java:594)
+        at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:865)
+        at com.ibm.ipc.image.XSplash.<init>(XSplash.java:85)
+        at com.ibm.ipc.image.XSplash.showSplash(XSplash.java:56)
+        at ipo.main(ipo.java:703)
+ankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm/usr/lpp/pd/bin/ipguiadvadm &
+[1]     17825840
+ankcseprda06[/ipm/south] cp /ipm/south/olbt06.pdf /var/pd/hotfolders/5401pl01
+cp: /ipm/south/olbt06.pdf: A file or directory in the path name does not exist.
+ankcseprda06[/ipm/south] ls *.pdf
+FS-ENF-028_0134511640-01_25c7ac25.pdf  olbt04.pdf
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  olbt05.pdf
+jim.pdf                                olbtS1CG1P31A.pdf
+olbt01.pdf                             sample.pdf
+olbt02.pdf                             sample2.pdf
+olbt03.pdf
+ankcseprda06[/ipm/south] ls *.pdflcp /ipm/south/olbt06.pdf /var/pd/hotfolders/5401pl01cp /ipm/south/olbt05
+ankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

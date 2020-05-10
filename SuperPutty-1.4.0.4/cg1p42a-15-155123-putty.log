@@ -1,0 +1,566 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 15:51:23 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed May 29 18:19:40 PDT 2019 on ssh from 158.96.152.172
+Last login: Fri Nov 15 15:48:22 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/cseadmin/.Xauthority
+[YOU HAVE NEW MAIL]
+ankcsedeva05[/home/cseadmin]$ cd  TEAM04.ImagingArchitecture.properties
+ankcsedeva05[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*(
+> 
+ankcsedeva05[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*(cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*(x  
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls
+JSPDocs_SelfService.properties
+TEAM04.EnterpriseFormService.properties
+TEAM05.AllowedOriginsWhiteList.properties
+TEAM05.CSEArchitecture.properties
+TEAM05.CSEArchitecture.properties.20190529
+TEAM05.CSEArchitecture.properties.20190805
+TEAM05.DocumentStorageService.properties
+TEAM05.EnterpriseFormService.properties
+TEAM05.FontLocation.properties
+TEAM05.FormsArchitecture.properties
+TEAM05.ImagingArchitecture.properties
+TEAM05.PrintingArchitecture.properties
+TEAM05.ViolaApplicationFilePath.properties
+TEAM05.VirusScanUtility.properties
+TEAM05.ecssivr.properties
+TEAM05.iVRInterface.properties
+TEAM05.log4j.properties
+TEAM05.tracing.properties
+TEAM05.tracing.properties.bak
+TEAM05.violaFormGeneration.properties
+TEAM06.AllowedOriginsWhiteList.properties
+TEAM06.CSEArchitecture.properties
+TEAM06.CSEArchitecture.properties.20190805
+TEAM06.ConsortiaInitialLoadToggle.properties
+TEAM06.ConsortiaUpdateQueuePublish.properties
+TEAM06.DocumentStorageService.properties
+TEAM06.EnterpriseFormService.properties
+TEAM06.FontLocation.properties
+TEAM06.FormsArchitecture.properties
+TEAM06.ImagingArchitecture.properties
+TEAM06.PrintingArchitecture.properties
+TEAM06.ShippingInterfaces.properties
+TEAM06.ViolaApplicationFilePath.properties
+TEAM06.VirusScanUtility.properties
+TEAM06.ecssivr.properties
+TEAM06.iVRInterface.properties
+TEAM06.log4j.properties
+TEAM06.log4j.properties.bak
+TEAM06.reporting.properties
+TEAM06.tracing.properties
+TEAM06.violaFormGeneration.properties
+TEAM09.AllowedOriginsWhiteList.properties
+TEAM09.AllowedOriginsWhiteList.properties.20190527
+TEAM09.CSEArchitecture.properties
+TEAM09.CSEArchitecture.properties.20190805
+TEAM09.DocumentStorageService.properties
+TEAM09.EnterpriseFormService.properties
+TEAM09.FontLocation.properties
+TEAM09.FormsArchitecture.properties
+TEAM09.ImagingArchitecture.properties
+TEAM09.PrintingArchitecture.properties
+TEAM09.ViolaApplicationFilePath.properties
+TEAM09.VirusScanUtility.properties
+TEAM09.ecssivr.properties
+TEAM09.iVRInterface.properties
+TEAM09.log4j.properties
+TEAM09.tracing.properties
+TEAM09.violaFormGeneration.properties
+TRN03.EnterpriseFormService.properties
+TRN04.AllowedOriginsWhiteList.properties
+TRN04.CSEArchitecture.properties
+TRN04.CSEArchitecture.properties.20190805
+TRN04.DocumentStorageService.properties
+TRN04.EnterpriseFormService.properties
+TRN04.FontLocation.properties
+TRN04.FormsArchitecture.properties
+TRN04.ImagingArchitecture.properties
+TRN04.PrintingArchitecture.properties
+TRN04.ViolaApplicationFilePath.properties
+TRN04.VirusScanUtility.properties
+TRN04.ecssivr.properties
+TRN04.iVRInterface.properties
+TRN04.log4j.properties
+TRN04.tracing.properties
+TRN04.violaFormGeneration.properties
+UIT04.AllowedOriginsWhiteList.properties
+UIT04.CSEArchitecture.properties
+UIT04.CSEArchitecture.properties.20190805
+UIT04.DocumentStorageService.properties
+UIT04.EnterpriseFormService.properties
+UIT04.FontLocation.properties
+UIT04.FormsArchitecture.properties.bk
+UIT04.ImagingArchitecture.properties
+UIT04.PrintingArchitecture.properties
+UIT04.ViolaApplicationFilePath.properties
+UIT04.VirusScanUtility.properties
+UIT04.ecssivr.properties
+UIT04.iVRInterface.properties
+UIT04.log4j.properties
+UIT04.tracing.properties
+UIT04.violaFormGeneration.properties
+UIT05.AllowedOriginsWhiteList.properties
+UIT05.CSEArchitecture.properties
+UIT05.CSEArchitecture.properties.20190805
+UIT05.DocumentStorageService.properties
+UIT05.EnterpriseFormService.properties
+UIT05.FontLocation.properties
+UIT05.FormsArchitecture.properties
+UIT05.ImagingArchitecture.properties
+UIT05.PrintingArchitecture.properties
+UIT05.ViolaApplicationFilePath.properties
+UIT05.VirusScanUtility.properties
+UIT05.ecssivr.properties
+UIT05.iVRInterface.properties
+UIT05.log4j.properties
+UIT05.tracing.properties
+UIT05.violaFormGeneration.properties
+cmbicmsrvs.ini
+cmbpool.ini
+cmgmt
+donotremovethisfile
+replaceprop.sh
+securityAdministration.properties
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ grep SELF *
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ps -ef | grep Self
+wasadmin 14155788        1   0 15:34:26      -  0:26 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/TEAM06_SelfService/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p42aCell01 cg1p42aNode01 TEAM06_SelfService
+wasadmin 14614618 11075826   0   Nov 04      - 48:29 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=50678 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/TEAM09_SelfService/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p42aCell01 cg1p42aNode01 TEAM09_SelfService
+wasadmin 48496660 11075826   0   Nov 04      - 46:27 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=46885 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/TRN04_SelfService/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xp32768K,4096K -Xloratio0.05 -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p42aCell01 cg1p42aNode01 TRN04_SelfService
+wasadmin 53805208 11075826   1   Nov 14      -  5:39 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=57714 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/UIT05_SelfService/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p42aCell01 cg1p42aNode01 UIT05_SelfService
+cseadmin 54264002 26869772   0 15:51:48  pts/0  0:00 grep Self
+wasadmin 58458180 11075826   0   Oct 11      - 146:51 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=55809 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/TEAM05_SelfService/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=false -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=false -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p42aCell01 cg1p42aNode01 TEAM05_SelfService
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ps -ef | grep Selfgrep SELF *       ls         cd /usr/WebSphere/A>ls -la              cd .managerls -la     ls -llls -ltrcd org.eclipse.osgi
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls
+JSPDocs_SelfService.properties
+TEAM04.EnterpriseFormService.properties
+TEAM05.AllowedOriginsWhiteList.properties
+TEAM05.CSEArchitecture.properties
+TEAM05.CSEArchitecture.properties.20190529
+TEAM05.CSEArchitecture.properties.20190805
+TEAM05.DocumentStorageService.properties
+TEAM05.EnterpriseFormService.properties
+TEAM05.FontLocation.properties
+TEAM05.FormsArchitecture.properties
+TEAM05.ImagingArchitecture.properties
+TEAM05.PrintingArchitecture.properties
+TEAM05.ViolaApplicationFilePath.properties
+TEAM05.VirusScanUtility.properties
+TEAM05.ecssivr.properties
+TEAM05.iVRInterface.properties
+TEAM05.log4j.properties
+TEAM05.tracing.properties
+TEAM05.tracing.properties.bak
+TEAM05.violaFormGeneration.properties
+TEAM06.AllowedOriginsWhiteList.properties
+TEAM06.CSEArchitecture.properties
+TEAM06.CSEArchitecture.properties.20190805
+TEAM06.ConsortiaInitialLoadToggle.properties
+TEAM06.ConsortiaUpdateQueuePublish.properties
+TEAM06.DocumentStorageService.properties
+TEAM06.EnterpriseFormService.properties
+TEAM06.FontLocation.properties
+TEAM06.FormsArchitecture.properties
+TEAM06.ImagingArchitecture.properties
+TEAM06.PrintingArchitecture.properties
+TEAM06.ShippingInterfaces.properties
+TEAM06.ViolaApplicationFilePath.properties
+TEAM06.VirusScanUtility.properties
+TEAM06.ecssivr.properties
+TEAM06.iVRInterface.properties
+TEAM06.log4j.properties
+TEAM06.log4j.properties.bak
+TEAM06.reporting.properties
+TEAM06.tracing.properties
+TEAM06.violaFormGeneration.properties
+TEAM09.AllowedOriginsWhiteList.properties
+TEAM09.AllowedOriginsWhiteList.properties.20190527
+TEAM09.CSEArchitecture.properties
+TEAM09.CSEArchitecture.properties.20190805
+TEAM09.DocumentStorageService.properties
+TEAM09.EnterpriseFormService.properties
+TEAM09.FontLocation.properties
+TEAM09.FormsArchitecture.properties
+TEAM09.ImagingArchitecture.properties
+TEAM09.PrintingArchitecture.properties
+TEAM09.ViolaApplicationFilePath.properties
+TEAM09.VirusScanUtility.properties
+TEAM09.ecssivr.properties
+TEAM09.iVRInterface.properties
+TEAM09.log4j.properties
+TEAM09.tracing.properties
+TEAM09.violaFormGeneration.properties
+TRN03.EnterpriseFormService.properties
+TRN04.AllowedOriginsWhiteList.properties
+TRN04.CSEArchitecture.properties
+TRN04.CSEArchitecture.properties.20190805
+TRN04.DocumentStorageService.properties
+TRN04.EnterpriseFormService.properties
+TRN04.FontLocation.properties
+TRN04.FormsArchitecture.properties
+TRN04.ImagingArchitecture.properties
+TRN04.PrintingArchitecture.properties
+TRN04.ViolaApplicationFilePath.properties
+TRN04.VirusScanUtility.properties
+TRN04.ecssivr.properties
+TRN04.iVRInterface.properties
+TRN04.log4j.properties
+TRN04.tracing.properties
+TRN04.violaFormGeneration.properties
+UIT04.AllowedOriginsWhiteList.properties
+UIT04.CSEArchitecture.properties
+UIT04.CSEArchitecture.properties.20190805
+UIT04.DocumentStorageService.properties
+UIT04.EnterpriseFormService.properties
+UIT04.FontLocation.properties
+UIT04.FormsArchitecture.properties.bk
+UIT04.ImagingArchitecture.properties
+UIT04.PrintingArchitecture.properties
+UIT04.ViolaApplicationFilePath.properties
+UIT04.VirusScanUtility.properties
+UIT04.ecssivr.properties
+UIT04.iVRInterface.properties
+UIT04.log4j.properties
+UIT04.tracing.properties
+UIT04.violaFormGeneration.properties
+UIT05.AllowedOriginsWhiteList.properties
+UIT05.CSEArchitecture.properties
+UIT05.CSEArchitecture.properties.20190805
+UIT05.DocumentStorageService.properties
+UIT05.EnterpriseFormService.properties
+UIT05.FontLocation.properties
+UIT05.FormsArchitecture.properties
+UIT05.ImagingArchitecture.properties
+UIT05.PrintingArchitecture.properties
+UIT05.ViolaApplicationFilePath.properties
+UIT05.VirusScanUtility.properties
+UIT05.ecssivr.properties
+UIT05.iVRInterface.properties
+UIT05.log4j.properties
+UIT05.tracing.properties
+UIT05.violaFormGeneration.properties
+cmbicmsrvs.ini
+cmbpool.ini
+cmgmt
+donotremovethisfile
+replaceprop.sh
+securityAdministration.properties
+ankcsedeva05[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ vi UIT04.ImagingArcmagingArch         <itecture.itecture.p         roperties
+[?1049h[56;1H[?12;25h[?1h="UIT04.ImagingArchitecture.properties" [Read only] 137 lines, 6155 characters [H[2J# Description:[H
+#    This file contains configuration data for the Imaging Architecture in
+#    specific the Document Management Service.
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#[7Ca) Be sure that the cmbcmenv.properties file in CSEResources specifies
+#[10Ca valid directory containing the rest of the cmb*.ini and
+#[10Ccmb*.properties files.
+#[7Cb) Be sure you have a DB2 connection configured to the Content Manager
+#[10CLibrary Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#[7Cc) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#[7Ca) Try to connect to Content Manager with the eClient and retrieve
+#[10Ca document to ensure that the server is up and accessable.
+#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#[10CTEST: ??
+#[10CPROD: ??
+#[7Cb) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer[9C- Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=ICMLS19
+CM_USERID=uit04
+CM_PASSWORD=oTd649a9
+CM_RESOURCE_MANAGER_NAME=RMDB
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+#
+# For example, given these values:[H[55B"UIT04.ImagingArchitecture.properties" [Read only] 137 lines, 6155 characters[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H[2J#[H
+# For example, given these values:
+# TAME_URL_SEARCH=ankcsedeva03.dts.gov.ca:9080
+# TAME_URL_REPLACE=ankcsedeva03:9080
+#
+# The URL from Content Manager would look something like this:
+# http://ankcsedeva03.dts.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B4
+4458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.57
+6385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "ankcsedeva03.dts.gov.ca" with "ankcsedeva03":
+# http://ankcsedeva03:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&
+version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=
+A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the
+# FormsArchitecture.properties file, which is externalized as a URL resource in
+# WAS for all eBHC environments. If it does not find that URL resource,
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+TAME_URL_SEARCH=
+TAME_URL_REPLACE=
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# The max number of scanned items returned by the getScannedDocuments() method.
+# The caller can specify a maximum number of items, but if the values greater
+# than this value are not allowed.  If the caller passes in 0, the this number
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what
+# is required to connect to DB2 Content Manager.
+#
+#    1) DB2 connection to Library Server
+#
+#    The APIs require a DB2 connection to the library server.  Ensure that
+#    the system accessing Content Manager has a DB2 connection configured.
+#[6CSANDBOX:[9CCSEHAP018
+#[6CDEV:[13Cankcsedeva03
+#[6CTEST:
+#[6CPROD:
+#
+#    2) DB2 and Content Manager JAR files in classpath[H[H[2J#[H
+#    2) DB2 and Content Manager JAR files in classpath
+#    cmb81.jar[18C- II4C/EIP Beans (CMB*)
+#    cmbicm81.jar[7C- Content Manager Connector Classes (DK*)
+#    cmbicmc81.jar[6C- 'Client' version of cmbicm81.jar (DK*)
+#    cmbsdk81.jar[7C- Content Manager Connector Classes (DK*)
+#    db2java.zip[16C- DB2 JDBC interface
+#
+#    3) Content Manager .ini and .properties files that ARE required
+#[7Cfor the Document Management Service.
+#
+#[6Ccmbicmenv.ini[12C- Specifies location of other cmb* files.
+#[6Ccmbicmsrvs.ini[11C- Specifies the names of the Content Manager
+#[33Cservers available to the APIs.
+#[6Ccmblogconfig.properties  - Specifies the name/location of Content
+#[33CManager log file.  Default is dklog.log.
+#[6Ccmbpool.ini[30C- Used to configure WAS db2 connection pooling
+#
+#    See chapter 34 of the following file for more information on the
+#    .properties and .ini files used by Content Manager.
+#
+#    Q:\TECHNOLOGY ARCHITECTURE\DEVELOPMENT\
+#[15CPIF\Reference\CM Documentation\CM82 Plan and Install Guide.pdf
+#
+#    4) FYI: Other Standard II4C Files Not Required for CSE Project:
+#[6Ccmbclient.ini[12C- RMI Configuration
+#[6Ccmbsvclient.ini[18C- RMI Configuration
+#[6Ccmbsvcs.ini[30C- RMI Configuration
+#[6Ccmbcs.ini[32C- Specifies local/remote for each server type
+#[6Ccmbds.ini[32C- Federated search values
+#[6Ccmbfedenv.ini[20C- Federated search server encryption string
+#[6Ccmbjdbcsrvs.ini[18C- Name of db2 datasources for II4C JDBC sources
+#[6Ccmbrm.ini[32C- Resource Manager timeout values
+#[6Ccmbuserexit.ini[18C- User exits for LDAP integration
+#
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[H[2J#[H
+# For example, given these values:
+# TAME_URL_SEARCH=ankcsedeva03.dts.gov.ca:9080
+# TAME_URL_REPLACE=ankcsedeva03:9080
+#
+# The URL from Content Manager would look something like this:
+# http://ankcsedeva03.dts.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B4
+4458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.57
+6385&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# The Document Management Service would rewrite it to this - replacing
+# "ankcsedeva03.dts.gov.ca" with "ankcsedeva03":
+# http://ankcsedeva03:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&
+version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=
+A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"
+#
+# Note: Since this is an environment-specific property, the service first
+# looks to see if these values exist in the
+# FormsArchitecture.properties file, which is externalized as a URL resource in
+# WAS for all eBHC environments. If it does not find that URL resource,
+# then it defaults to the value set in DocumentManagementService.properties
+# (which is NOT externalized as a URL resource).
+#
+TAME_URL_SEARCH=
+TAME_URL_REPLACE=
+
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# The max number of scanned items returned by the getScannedDocuments() method.
+# The caller can specify a maximum number of items, but if the values greater
+# than this value are not allowed.  If the caller passes in 0, the this number
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what
+# is required to connect to DB2 Content Manager.
+#
+#    1) DB2 connection to Library Server
+#
+#    The APIs require a DB2 connection to the library server.  Ensure that
+#    the system accessing Content Manager has a DB2 connection configured.
+#[6CSANDBOX:[9CCSEHAP018
+#[6CDEV:[13Cankcsedeva03
+#[6CTEST:
+#[6CPROD:
+#
+#    2) DB2 and Content Manager JAR files in classpath[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[3A[A[A[A[3A[A[A[A[A[A[H[1L# TAME_URL_SEARCH with TAME_URL_REPLACE.[56;1H[K[H[1L# It then rewrites Content Manager's URL to replace all occurrences of[56;1H[K[H[1L# Content Manager, it first gets the URL directly from Content Manager.[56;1H[K[H[1L# When the Document Management Service code looks up the URL for an image in[56;1H[K[H[1L#[56;1H[K[H[1L# Manager server name with the TAMe server name.[56;1H[K[H[1L# URL Conversion information.  Typically we'll replace the eBHC Resource[56;1H[K[H[1L#[56;1H[K[H[1LCM_RESOURCE_MANAGER_NAME=RMDB[56;1H[K[H[1LCM_PASSWORD=oTd649a9[56;1H[K[H[1LCM_USERID=uit04[56;1H[K[H[1LCM_SERVER=ICMLS19[56;1H[K[H[1L#[56;1H[K[H[1L# environment.[56;1H[K[H[1L# come from default.properties file when ant-config is run in the local[H[1L# Content Manager connection information.  Values between @ signes[H[1L#[56;1H[K[H[1L[55B[K[H[1L#[56;1H[K[H[1L# 12/13/2004 Alan Mayer[9C- Initial creation[56;1H[K[H[1L# Change History:[56;1H[K[H[1L#[H[1L#[7Cb) Try to connect from another workstation.[56;1H[K[H[1L#[10CPROD: ??[56;1H[K[H[1L#[10CTEST: ??[56;1H[K[H[1L#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp[56;1H[K[H[1L#[10Ca document to ensure that the server is up and accessable.[56;1H[K[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+
+[A# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+
+[ACM_CONN_MIN_FREE=3
+
+[ACM_CONN_MAX_FREE=10
+
+[ACM_CONN_TIMEOUT_MS=10000
+
+[A
+
+[A# The max number of scanned items returned by the getScannedDocuments() method.

@@ -1,0 +1,496 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.19 08:28:20 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep  3 10:52:08 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 19 07:45:16 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf1a02[/home/hchada]$ cd cse/    /cse/batch
+ankcsepf1a02[/cse/batch]$ sl
+ksh: sl:  not found.
+ankcsepf1a02[/cse/batch]$ cd    ols
+ksh: ols:  not found.
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd PFT09 _Batch _AP023 _01
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01]$ cd o logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ ls
+SystemErr.log                    SystemOut_19.05.10_09.00.58.log  SystemOut_19.09.19_08.04.07.log
+SystemErr.log.owner              SystemOut_19.05.30_01.19.57.log  native_stderr.log
+SystemOut.log                    SystemOut_19.07.03_01.00.34.log  native_stdout.log
+SystemOut.log.owner              SystemOut_19.08.16_12.43.21.log
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ tail SystemOut.log
+                                                                                where (sr.id is null or pacm.participantId is not null)
+                                                                                and pat.statusCode = 'RDY' 
+                                                                                and pac.countyFIPSCode = '055' 
+                                                                                and pac.memberTransactionStatusCode in ('NEC','NET') 
+                                                                                and pat.typeCode = 'MBR'
+                                                                                order by pat.id asc
+[9/19/19 8:24:40:924 PDT] 00000200 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/19/19 8:24:40:928 PDT] 00000200 JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/19/19 8:25:55:818 PDT] 00000200 SystemOut     O INFO  gov.ca.dcss.arch.batch.job.partition.HibernateInputSourcePartitionRangeStrategy - PFT09XA#CDX-627#CDX-627-DS02#20190513_000000-ProcessIncomingPublicAssistanceTaskStep : Partitioning for job: PFT09XA#CDX-627#CDX-627-DS02#20190513_000000<select distinct incomingCase.id, (char(incomingCase.id) || '-' || char(incomingCase.id)), incomingCase.id from PublicAssistanceCaseBO as incomingCase where ( incomingCase.memberTransactionStatusCode = 'NEC' or  incomingCase.memberTransactionStatusCode = 'NET' ) and incomingCase.countyFIPSCode = '053' and not exists(select 1 from ServiceRequestBO as sr where sr.publicAssistanceCase.id != null and incomingCase.id = sr.publicAssistanceCase.id and sr.publicAssistanceCaseNumber != null  and sr.statusCode = 'PEN' and sr.countyCode = '053') AND not exists( select 1 from PublicAssistanceTransactionBO as pat where incomingCase.id = pat.publicAssistanceCase.id and pat.typeCode = 'MBR' and pat.statusCode = 'RDY' )  order by 2>
+[9/19/19 8:25:55:843 PDT] 00000200 SystemOut     O INFO  gov.ca.dcss.arch.batch.job.partition.HibernateInputSourcePartitionRangeStrategy - PFT09XA#CDX-627#CDX-627-DS02#20190513_000000-ProcessIncomingPublicAssistanceTaskStep : Partitioning: Created one IdListPartition for 165 rows to process.
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_01/logs]$ cd ../..
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd PFT09 _Batch _AP023 _02
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02]$ cd logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02/logs]$ tail -f SystemOut.log
+[9/19/19 8:27:04:625 PDT] 0000020f JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/19/19 8:28:40:573 PDT] 000002a1 SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateInputSource - PFT09XA#CDX-631#CDX-631-DS01#20190513_000000(1) - Retrieved 1400 keys. HQL: select distinct pat.id from PublicAssistanceTransactionBO as pat join pat.publicAssistanceCase as pac  
+                                                                                join pat.publicAssistanceCaseMember pacm
+                                                                                left outer join pac.serviceRequests as sr on sr.statusCode = 'PEN' and sr.countyCode = '061' 
+                                                                                where (sr.id is null or pacm.participantId is not null)
+                                                                                and pat.statusCode = 'RDY' 
+                                                                                and pac.countyFIPSCode = '061' 
+                                                                                and pac.memberTransactionStatusCode in ('NEC','NET') 
+                                                                                and pat.typeCode = 'MBR'
+                                                                                order by pat.id asc
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02/logs]$ cd ..
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02]$ ls
+BatchRpt.txt             hibernateStatistics.log  log                      log.txt                  logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_AP023_02]$ cd ..
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd PFT09 _Batch _G21 _01
+ankcsepf1a02[/cse/batch/PFT09_Batch_G21_01]$ cd Sys   logs       tail logs/SystemOut.log
+[2/28/18 16:59:14:627 PST] 00000052 DCSStackImpl  I   DCSV8011I: DCS Stack DefaultCoreGroup at Member ch1p20a85Cell01\cg1p21a85Node01\PFT09_Batch_G21_01: Member received a request for shutdown.
+[2/28/18 16:59:14:906 PST] 00000052 CfwTCPListene I   ODCF8525I: The unstructured overlay is stopping its inbound TCP channel.
+[2/28/18 16:59:14:913 PST] 00000052 Peer          I   ODCF8526I: The unstructured overlay is stopping its outbound TCP channel.
+[2/28/18 16:59:14:933 PST] 00000052 Peer          I   ODCF8550I: The current TCP protocol statistics for the unstructured overlay member {134.187.144.197  udp_port=11017  tcp_port=11018} are {connOpened=87, connClosed=61, read={buffAloc=957, byteAloc=3293880, buffReld=931, byteReld=3293672}, write={buffAloc=1171, byteAloc=4252672, buffReld=1171, byteReld=4252672} }.
+[2/28/18 16:59:14:937 PST] 00000053 Peer          I   ODCF8527I: The unstructured overlay UDP Channel UDP_0 has stopped listening on host 134.187.144.197 port 11017.
+[2/28/18 16:59:15:071 PST] 00000052 TCPChannel    I   TCPC0002I: TCP Channel TCPInboundChannel_ipcc.Default_IPC_Connector_Name has stopped listening on host loopback  (IPv4: 127.0.0.1) port 9639.
+[2/28/18 16:59:15:907 PST] 00000052 FailureScopeC A   WTRN0105I: The transaction service has shutdown successfully with no transactions requiring recovery.
+[2/28/18 16:59:16:054 PST] 00000052 TCPChannel    I   TCPC0002I: TCP Channel sonIncomingTcpConnectorInboundChannel_SonIncomingTCPSubsystem_0_11018 has stopped listening on host cg1p21a  (IPv4: 134.187.144.197) port 11018.
+[2/28/18 16:59:16:293 PST] 00000052 TCPChannel    I   TCPC0002I: TCP Channel TCP_5 has stopped listening on host *  (IPv6) port 9361.
+[2/28/18 16:59:16:306 PST] 00000052 ServerCollabo A   WSVR0024I: Server PFT09_Batch_G21_01 stopped
+ankcsepf1a02[/cse/batch/PFT09_Batch_G21_01]$ cd ..
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd *Cluster
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ ls
+PFT09_Batch_Cluster.ear  jobControl.ksh           logs                     setEnv.ksh               temp
+checkBatchVersion.ksh    jobExecution             setBatchRoot.ksh         setJobId.ksh
+hibernateStatistics.log  job_data                 setBatchTemp.ksh         setScheduleDate.ksh
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ cd jobExecution               cd logs
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/logs]$ ls
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/logs]$ cd ../jobExecution
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ ls
+20180219.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-601#CDX-601-DS02#20190513_000000.txt
+20180219.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-607#CDX-607-DS02#20190513_000000.txt
+20180221.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-610#CDX-610-DS01#20190513_000000.txt
+20180221.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-630#CDX-630-FT01#20190513_000000.txt
+20180222.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-633#CDX-633-DS02#20190513_000000.txt
+20180222.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-637#CDX-637-DS02#20180522_000000.txt
+20180522.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#EST-500-A#EST-500-FG03#20190513_000000.txt
+20180522.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#EST-505-CLASS#EST-505-FG01#20190225_000000.txt
+20190513.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#LOC-125#LOC-125-DS01#20180221_000000.txt
+20190513.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#OBL-507#OBL-507-DS01#20190513_000000.txt
+PFT09XA#CDM-500#CDM-500-DS01#20180522_000000.txt         SECURE
+PFT09XA#CDX-120-TEST#CDX-120-FT01#20180820_000000.txt    localhost#ENF-780-PROD#ENF-780-FT01#20181026_000000.txt
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ cd SEC
+ksh: SEC:  not found.
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ cd CSE   SEC*
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ ls
+PFT09.SECURE_User.properties
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more  P*
+[?1049h[46;1H[K#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K[?1049l[?1l>ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ cd  ls
+PFT09.SECURE_User.properties
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ cd ..
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ ls
+20180219.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-601#CDX-601-DS02#20190513_000000.txt
+20180219.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-607#CDX-607-DS02#20190513_000000.txt
+20180221.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-610#CDX-610-DS01#20190513_000000.txt
+20180221.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-630#CDX-630-FT01#20190513_000000.txt
+20180222.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-633#CDX-633-DS02#20190513_000000.txt
+20180222.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-637#CDX-637-DS02#20180522_000000.txt
+20180522.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#EST-500-A#EST-500-FG03#20190513_000000.txt
+20180522.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#EST-505-CLASS#EST-505-FG01#20190225_000000.txt
+20190513.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#LOC-125#LOC-125-DS01#20180221_000000.txt
+20190513.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#OBL-507#OBL-507-DS01#20190513_000000.txt
+PFT09XA#CDM-500#CDM-500-DS01#20180522_000000.txt         SECURE
+PFT09XA#CDX-120-TEST#CDX-120-FT01#20180820_000000.txt    localhost#ENF-780-PROD#ENF-780-FT01#20181026_000000.txt
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ cd ..
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ ls
+PFT09_Batch_Cluster.ear  jobControl.ksh           logs                     setEnv.ksh               temp
+checkBatchVersion.ksh    jobExecution             setBatchRoot.ksh         setJobId.ksh
+hibernateStatistics.log  job_data                 setBatchTemp.ksh         setScheduleDate.ksh
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ morej  job    Control.ksh
+[?1049h[46;1H[K#!/bin/ksh  
+
+###############################################################################
+#
+# Name       jobControl.ksh
+# Author     Percy M. Wegmann
+# Created    04/27/2004
+#
+# This script serves as the central entry-point into all CCSAS-CSE
+# Batch Jobs running within a J2EE Client Container.  It is a wrapper that performs these main functions:
+# 
+#   1. Validate input parameters
+#   2. Register signal listener for SIGTERM signal
+#   3. Execute the BatchLauncher Java program
+#   4. If SIGTERM is received, send a SIGINT to BatchLauncher to request
+#      shutdown
+# 
+# The script accepts the following parameters:
+# 
+#   jobControl.ksh <action> <param1>=<value1> <param2>=<value2> etc ...
+#
+# The only currently supported <action> is "run".
+# 
+# Any number of param=value pairs are accepted (including 0).
+# 
+# The script also expects to find an environment variable named $UNISON_JOB
+# and providing information about the current Job in the below format:
+# 
+#   WorkstationName#StreamName.JobName
+# 
+# In addition, the script expects to find a variable named $SCHEDULE_DATE
+# that gives the Schedule (a.k.a Business) date, in the format:
+#
+#   yyyymmdd
+# 
+# A new variable REMOTE_EXECUTION controls whether TaskStep's run within the
+# WebSphere Application Aerver container or within the external J2EE Application
+# Client runtime. Values are:
+#     true - Run within a WebSphere Application Server container.
+#     false - Run within an external WebSphere J2EE Application Client runtime.
+#
+# The correct folder structure is:
+#
+# BATCH_ROOT
+#    /configuration
+[46;1H[K[7mjobControl.ksh (12%)[27m[46;1H[46;1H[K#        /<job_name>
+#            <job_name>.script (required Job definition file)
+#            setEnv.ksh (optional job-specific environment setup script)
+#
+# The Script will return one of the below exit codes when exiting:
+#
+# CODE     MEANING
+# ----     -------
+# 0        Job ran successfully
+# 1        No action specified
+# 2        Job configuration folder not found
+# 3        Job definition not found
+# 10-30    Batch architecture errors
+# 31-99    Custom errors
+#
+# --------------------------- Revisions ------------------------------------
+# VERSION  AUTHOR              DATE        CHANGES
+# 0.1      Percy M. Wegmann    04/27/2004  Created Script
+# 0.2      Percy M. Wegmann    05/17/2004  Incorporated changes from Code Review
+# 0.3      Percy M. Wegmann    07/01/2004  Added cygwin support
+# 0.4      Ryan Livesey        10/15/2004  Commented out Cygwin support and prepared script for UIT
+# 1.0      Kerry O'Brien       04/09/2005  Created to support launching a java client
+#                                          within a J2EE Application Client Container.
+# 1.1      Kerry O'Brien       04/11/2005  Templatized to allow the script to know
+#                                          it's own directory structures.
+# 1.2      Kerry O'Brien       05/11/2005  Removed references to the old BATCH_TEMP 
+#                                          and BATCH_ROOT variables. These are now
+#                                          configured during environment creation.
+# 1.3      Kerry O'Brien       08/18/2005  Removed the bootstrap and host now that
+#                                          configuration files correctly use the
+#                                          provider urls for the initial context.
+# 2.1.3    Kerry O'Brien       07/26/2007  Add new property to make sure that we  
+#                                          don't bootstrap codestables, in the  
+#                                          client JVM when running in-container. 
+# 2.1.3    Kerry O'Brien       07/27/2007  Removed the minimum heap size for in   
+#                                          container usage as it reduces the    
+#                                          process size by about 8-10 mb. Reducing
+#                                          the -Xmx setting any lower does not
+#                                          reduce the process size any more.
+# 3.4.0    Kevin Babcock       10-13-2009  Updated logic to use a new 
+#                                          FMSBatchEventListener when executing
+#                                          FMS batch jobs.
+# 3.4.1    Kerry O'Brien       12-14-2009  WAS 6.1 Support
+#          1. Add the CLIENT_CLAUNCHER_SCRIPT var to support launching a 
+#             WAS 6.1 script.
+[46;1H[K[7mjobControl.ksh (34%)[27m[46;1H[46;1H[K#          2. Add the  ant-config parameter which allows the
+#             CM team to control the WAS version at deployment time. By default
+#             a WAS 5.1 server will be targeted.
+#          3. A "repo" symlink must be present in the batch root directory. The
+#             link points to the root of the Jar Repository.
+# 3.4.2    Kapil Patlola        09/11/2012    Removed the  and added the Tokens
+#                                             WAS_HOME="/usr/WebSphere7/AppServer" and JMS_PATH="/usr/WebSphere7/AppServer/in
+stalledConnectors/wmq.jmsra.rar/com.ibm.mq.jar:/usr/WebSphere7/AppServer/installedConnectors/wmq.jmsra.rar/com.ibm.mqjms.jar:
+/usr/WebSphere7/AppServer/installedConnectors/wmq.jmsra.rar/dhbcore.jar which allows 
+#                                             CM team to control these Tokens during deploy time.
+###############################################################################
+
+#!/bin/ksh
+
+# Provide the environment variable.
+export BATCH_ROOT=/cse/batch/PFT09_Batch_Cluster
+
+# change directory to batch root
+cd ${BATCH_ROOT}
+
+# Provide a default Ear filename from which to execute but allow the users to override.               
+if [[ -z "${EAR_FILE_NAME}" ]] then
+   EAR_FILE_NAME=PFT09_Batch_Cluster.ear
+fi
+
+export EAR_FILE_NAME
+export EAR_PATH=${BATCH_ROOT}/${EAR_FILE_NAME}
+
+# Default is to launch the WebSphere launch client script.
+CLIENT_CLAUNCHER_SCRIPT="${BATCH_ROOT}/launchClient.sh"
+
+# Default the environment to remote execution.
+# The default for remote execution is true.
+if [[ $REMOTE_EXECUTION = "true" || $REMOTE_EXECUTION = "" ]]; then
+   export REMOTE_EXECUTION="true"
+   export HEAP_SIZES="-Xmx75m"   
+   SKIP_CODE_TABLE_BOOTSTRAP="true"
+else
+   export REMOTE_EXECUTION="false"
+   export HEAP_SIZES="-Xms128m -Xmx320m"
+   SKIP_CODE_TABLE_BOOTSTRAP="false"
+fi;
+
+###############################################################################
+# Configure to run a specific version of WebSphere. Is no override variable 
+[46;1H[K[7mjobControl.ksh (49%)[27m[46;1H[46;1H[K# is provided.
+###############################################################################
+WAS_HOME="/usr/WebSphere7/AppServer"
+JMS_PATH="/usr/WebSphere7/AppServer/installedConnectors/wmq.jmsra.rar/com.ibm.mq.jar:/usr/WebSphere7/AppServer/installedConne
+ctors/wmq.jmsra.rar/com.ibm.mqjms.jar:/usr/WebSphere7/AppServer/installedConnectors/wmq.jmsra.rar/dhbcore.jar"
+
+
+SET_ENV_SCRIPT="${BATCH_ROOT}/setEnv.ksh"
+
+# Validate and invoke the setEnv script.
+if [ -r "${SET_ENV_SCRIPT}" ];
+then
+        . ${SET_ENV_SCRIPT}
+else
+    echo "Environment initialization script ${SET_ENV_SCRIPT} not found."
+    exit 5
+fi;
+
+# Initialize DB2
+. "${DB2_HOME}/db2profile"
+
+JOB_CONFIG_FOLDER="${BATCH_ROOT}/resources/job_configuration/"
+
+# Initialize variables
+rightHandUnisonJob=''
+jobName=''
+streamName=''
+hostName=''
+scheduleDate=''
+target=''
+antpid=''
+jobEnvironmentScript=''
+jobdef=''
+compoundJobParameters=''
+listener=''
+exitCode=0
+
+# declare function for displaying usage syntax
+function usage
+{
+    echo ""
+    echo "Please use the below syntax when running this script: "
+    echo ""
+    echo "   jobControl.ksh [action] [param1]=[value1] [param2]=[value2] etc ..."
+    echo ""
+[46;1H[K[7mjobControl.ksh (59%)[27m[46;1H[46;1H[K    echo "Also, make sure that the UNISON_JOB, SCHEDULE_DATE"
+    echo "parameters are set. The BATCH_ROOT variables points  at the base folder "
+    echo "of the batch directory structure."
+}
+
+# declare function for handling TERM signal
+function got_sigterm
+{
+    echo "Got SIGTERM.  Attempting to shut down job cleanly"
+    kill -2 $antpid
+}
+
+# Register signal listener
+trap got_sigterm TERM
+
+# Initialize parameter counter to 1
+counter=1
+
+# Iterate through all parameters and extract the necessary values
+for var in $* ;
+do
+    if [ $counter -eq 1 ]; then
+        echo "Setting target to \"${var}\""
+        target="${var}"
+    fi
+
+    if [ $counter -gt 1 ]; then
+        echo "Appending \"${var}\" to list of parameters"
+        compoundJobParameters="${compoundJobParameters}${var}&"
+    fi
+
+    counter=`expr ${counter} + 1`
+done
+
+# Check to make sure that at least an action has been specified
+if [ $counter -lt 2 ]; then
+    echo "Must specify an action"
+    usage
+    exit 1
+fi
+
+# Extract HostName, StreamName and JobName from UNISON_JOB variable
+hostName=`echo "${UNISON_JOB}" | cut -d "#" -f 1`
+rightHandUnisonJob=`echo "${UNISON_JOB}" | cut -d "#" -f 2`
+streamName=`echo "${rightHandUnisonJob}" | cut -d "." -f 1`
+[46;1H[K[7mjobControl.ksh (68%)[27m[46;1H[46;1H[KjobName=`echo "${rightHandUnisonJob}" | cut -d "." -f 2`
+
+# Set Business Date to SCHEDULE_DATE, if set, otherwise set value
+# to the UNISON_SCHED_DATE  plus "000000" for hours/minutes/seconds.
+# SCHEDULE_DATE is set by in the definition of the job and is equal to
+# the date value stored in the ^TODAY^ parameter for TWS.  If the job
+# is being run from the command line or the job has been setup incorrectly,
+# assume the UNISON_SCHED_DATE is accurate.
+# NOTE: time component cannot be set to a value because the job may not
+# executing on the original day it was scheduled to run.  Concatenating
+# the current time with the date the job should execute (or any time of
+# day for that matter) does not make sense.
+if [[ ! -z ${SCHEDULE_DATE} ]];then
+  print "scheduleDate set to ${SCHEDULE_DATE} using SCHEDULE_DATE\n"
+else
+  export SCHEDULE_DATE="${UNISON_SCHED_DATE}"
+  print "scheduleDate set to ${SCHEDULE_DATE} using UNISON_SCHED_DATE\n"
+fi
+scheduleDate="${SCHEDULE_DATE}_000000"
+
+# Prepend HostName, StreamName, JobName and Business Date to list of Job Parameters
+compoundJobParameters="HostName=${hostName}&StreamName=${streamName}&JobName=${jobName}&ScheduleDate=${scheduleDate}&${compou
+ndJobParameters}"
+
+# Check for existence of Job Folder
+if [ -r "${JOB_CONFIG_FOLDER}/${jobName}" ];
+then
+    echo "Found job folder"
+else
+    echo "Job config folder ${JOB_CONFIG_FOLDER}/${jobName} not found."
+    usage
+    exit 2
+fi;
+
+# Check for presence of executable job-specific environment settings
+jobEnvironmentScript="${JOB_CONFIG_FOLDER}/${jobName}/setEnv.ksh"
+if [ -x "${jobEnvironmentScript}" ]; then
+    echo "Setting job-specific environment settings"
+    . "${jobEnvironmentScript}"
+fi
+
+export ANT_OPTS="-DJOB_NAME=${jobName} ${ANT_OPTS}"
+export ANT_OPTS="-DSTREAM_NAME=${streamName} ${ANT_OPTS}"
+export ANT_OPTS="-DHOST_NAME=${hostName} ${ANT_OPTS}"
+export ANT_OPTS="-DSCHEDULE_DATE=${scheduleDate} ${ANT_OPTS}"
+[46;1H[K[7mjobControl.ksh (84%)[27m[46;1H[46;1H[K
+export STREAM_NAME=${streamName}
+
+# Determine which Listner to use for the batch job
+if (( $(echo ${jobName} | grep -v 'ARC-551-FM01' | grep -c '\-FM[0-9][0-9]$') > 0 ))
+then
+        listener=gov.ca.dcss.arch.batch.job.ant.FMSBatchEventListener
+else
+        listener=gov.ca.dcss.arch.batch.job.ant.BatchEventListener
+fi
+
+
+# Check for existence of readable Job Definition and execute project
+jobdef="${JOB_CONFIG_FOLDER}/${jobName}/${jobName}-script.xml"
+if [ -r ${jobdef} ];
+then
+    echo "Found Job definition"
+
+    # Add user supplied J2EE Application Client JVM settings.
+    export USER_INSTALL_PROP="${HEAP_SIZES}"
+
+    export CLIENT_OPTS="${EAR_PATH}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -CCDRemoteTaskExecution=${REMOTE_EXECUTION}"
+    
+    export CLIENT_OPTS="${CLIENT_OPTS} -CCproviderURL=${PROVIDER_URL}"
+    
+    export CLIENT_OPTS="${CLIENT_OPTS} -Dcom.ibm.websphere.client.applicationclient.archivedir=${BATCH_ROOT}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -CCverbose=true"
+    export CLIENT_OPTS="${CLIENT_OPTS} -DBATCH_ROOT=${BATCH_ROOT}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -listener ${listener}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -DBATCH_RESOURCES=${BATCH_ROOT}/resources/"
+    export CLIENT_OPTS="${CLIENT_OPTS} -Dbatch.exitCode=0"
+    export CLIENT_OPTS="${CLIENT_OPTS} -DBATCH_TEMP=${BATCH_ROOT}/temp/"
+    export CLIENT_OPTS="${CLIENT_OPTS} -buildfile ${jobdef}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -DJobParameters=${compoundJobParameters}"
+    export CLIENT_OPTS="${CLIENT_OPTS} -CCDSkipCodeTableBootstrap=${SKIP_CODE_TABLE_BOOTSTRAP}"
+
+    if [[ $CLASSPATH == "" ]]; then
+        echo "No -classpath option added."
+    else
+        export CLIENT_OPTS="${CLIENT_OPTS} -CCclasspath=$CLASSPATH"
+    fi;
+
+    ${BATCH_ROOT}/launchClient.sh ${CLIENT_OPTS} &
+    
+[46;1H[K[7mjobControl.ksh (99%)[27m[46;1H[46;1H[K    antpid=$!
+    wait ${antpid}
+
+    exit $?
+else
+    echo "File ${jobdef} not found."
+    usage
+    exit 3
+fi
+[46;1H[K[7mjobControl.ksh: END[27m[46;1H[46;1H[K[?1049l[?1l>ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ grep -i secure jobControl.ksh
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ grep -i secure *
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ cd ..
+ankcsepf1a02[/cse/batch]$ ls
+PFT09_Batch_AP023_01    PFT09_Batch_Cluster     PFT09_Batch_G21_02      fmsproperties_template
+PFT09_Batch_AP023_02    PFT09_Batch_G21_01      dumps                   tempProp
+ankcsepf1a02[/cse/batch]$ cd -
+/cse/batch/PFT09_Batch_Cluster
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ ls
+PFT09_Batch_Cluster.ear  jobControl.ksh           logs                     setEnv.ksh               temp
+checkBatchVersion.ksh    jobExecution             setBatchRoot.ksh         setJobId.ksh
+hibernateStatistics.log  job_data                 setBatchTemp.ksh         setScheduleDate.ksh
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster]$ cd jobE*
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution]$ cd SE*
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ ls
+PFT09.SECURE_User.properties
+ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more P                *
+[?1049h[46;1H[K#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K...skipping...
+#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K[7mPFT09.SECURE_User.properties: END[27m[K[7mPFT09.SECURE_User.properties: END[27m[K[?1049l[?1l>ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more P*
+[?1049h[95;1H[K#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K[7mPFT09.SECURE_User.properties: END[27m[K[?1049l[?1l>ankcsepf1a02[/cse/batch/PFT09_Batch_Cluster/jobExecution/SECURE]$ more P*
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

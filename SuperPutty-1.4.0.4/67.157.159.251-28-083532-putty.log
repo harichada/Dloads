@@ -1,0 +1,74 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.28 08:35:32 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Oct 25 10:23:38 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ curl icecoder.com
+<html>
+<head>
+<title>iceCoder.com</title>
+<LINK rel="stylesheet" type="text/css" href="styles.css">
+<meta NAME="keywords" CONTENT="icecoder patrick stadelmann bersbuch andelsbuch darkshadi ice coder">
+<meta NAME="page-topic" CONTENT="Gesellschaft">
+<meta NAME="author" CONTENT="iceCoder">
+<meta NAME="audience" CONTENT="Alle">
+<meta NAME="revisit-after" CONTENT="10 days">
+<meta NAME="robots" CONTENT="INDEX, FOLLOW">
+<meta NAME="publisher" CONTENT="support@icecoder.com">
+<meta NAME="Content-Language" CONTENT="at">
+<meta name="verify-v1" content="AifJ+VJ664SHAlMFxXSSDcW5aVHhlquRz4k2feV3Q6Y=" />
+<script language="javascript">
+<!--
+document.write(unescape("%3Cscript%20lanugage%3D%22JavaScript%22%3E%0D%0Avar%20meldung%3D%27not%20possible%20-%20nicht%20m%F6glich%27%3B%0D%0A%0D%0Afunction%20click%28e%29%0D%0A%20%7B%0D%0A%20%20if%20%28document.all%29%0D%0A%20%20%20%7B%0D%0A%20%20%20%20if%20%28event.button%3D%3D2%29%0D%0A%20%20%20%20%20%7B%0D%0A%20%20%20%20%20%20alert%28meldung%29%3B%0D%0A%20%20%20%20%20%20return%20false%3B%0D%0A%20%20%20%20%20%7D%0D%0A%20%20%20%7D%0D%0A%20%20if%20%28document.layers%29%0D%0A%20%20%20%7B%0D%0A%20%20%20%20if%20%28e.which%3D%3D3%29%0D%0A%20%20%20%20%20%7B%0D%0A%20%20%20%20%20%20alert%28meldung%29%3B%0D%0A%20%20%20%20%20%20return%20false%3B%0D%0A%20%20%20%20%20%7D%0D%0A%20%20%20%7D%0D%0A%20%7D%0D%0A%20%0D%0Aif%20%28document.layers%29%0D%0A%20%7B%0D%0A%20%20document.captureEvents%28Event.MOUSEDOWN%29%3B%0D%0A%20%7D%0D%0A%20%0D%0Adocument.onmousedown%3Dclick%3B%0D%0Adocument.onmouseup%3Dclick%3B%0D%0A%0D%0A%3C/script%3E"));
+//-->
+</script>
+</head>
+<body bgcolor="black" leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0" marginheight="0" marginwidth="0">
+<br><br>
+<table border="0" align="center" cellpadding="0" cellspacing="0" width="700" height="500">
+  <tr> 
+    <td height="437" nowrap background="images/intro2_01.gif" style="width: 625px">
+	&nbsp;</td>
+    <td rowspan="2" width="75" height="500" nowrap background="images/intro2_02.gif">
+	&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="63" nowrap background="images/intro2_03.gif" style="width: 625px">
+	&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+</html>
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ lynx icecoder.com
+-bash: lynx: command not found
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ linx
+-bash: linx: command not found
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ lynx
+-bash: lynx: command not found
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ exit
+logout

@@ -1,0 +1,223 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.14 09:24:44 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Tue Nov 12 12:39:31 PST 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 14 09:22:14 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf1a04[/home/cseadmin]$ ps -ef   -ef | grep dmgr
+wasadmin 11731106        1   0   Mar 25      - 418:23 /usr/WebSphere7CM/AppServer/java/bin/java -Declipse.security -Dwas.status.socket=32819 -Dosgi.install.area=/usr/WebSphere7CM/AppServer -Dosgi.configuration.area=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev70_%g,groupAccess,nonFatal -Xscmx50M -Xbootclasspath/p:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmorb.jar:/usr/WebSphere7CM/AppServer/java/jre/lib/ext/ibmext.jar -classpath /usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties:/usr/WebSphere7CM/AppServer/properties:/usr/WebSphere7CM/AppServer/lib/startup.jar:/usr/WebSphere7CM/AppServer/lib/bootstrap.jar:/usr/WebSphere7CM/AppServer/lib/jsf-nls.jar:/usr/WebSphere7CM/AppServer/lib/lmproxy.jar:/usr/WebSphere7CM/AppServer/lib/urlprotocols.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batchboot.jar:/usr/WebSphere7CM/AppServer/deploytool/itp/batch2.jar:/usr/WebSphere7CM/AppServer/java/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere7CM/AppServer/java/lib:/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/classes:/usr/WebSphere7CM/AppServer/classes:/usr/WebSphere7CM/AppServer/lib:/usr/WebSphere7CM/AppServer/installedChannels:/usr/WebSphere7CM/AppServer/lib/ext:/usr/WebSphere7CM/AppServer/web/help:/usr/WebSphere7CM/AppServer/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere7CM/AppServer/derby -Dcom.ibm.itp.location=/usr/WebSphere7CM/AppServer/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dwas.install.root=/usr/WebSphere7CM/AppServer -Dpython.cachedir=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/temp/cachedir -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.security.auth.login.config=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere7CM/AppServer/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere7CM/AppServer/profiles/DeploymentManager/config cg1p23aCMCell cg1p23aCMCellManager dmgr
+cseadmin 33030246 26935370   0 09:24:50  pts/1  0:00 grep dmgr
+wasadmin 34603148        1   0   Oct 22      - 99:02 /usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF_SS -Dwas.status.socket=39125 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85_CF_SS/properties:/usr/WebSphere/AppServer_85_CF_SS/lib/startup.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85_CF_SS/classes:/usr/WebSphere/AppServer_85_CF_SS/lib:/usr/WebSphere/AppServer_85_CF_SS/installedChannels:/usr/WebSphere/AppServer_85_CF_SS/lib/ext:/usr/WebSphere/AppServer_85_CF_SS/web/help:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF_SS/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF_SS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/tivoli/tam:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF_SS -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF_SS/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF_SS/endorsed_apis:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config ankcsepf1a04CFSSCell01 ankcsepf1a04CFSSCellManager01 dmgr
+ankcsepf1a04[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85 _CF _SS/profiles/DeploymentManager/config
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config]$ ls
+backup       bundlecache  cells        temp         templates    waspolicies  xforms
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config]$ cd cell
+ksh: cell:  not found.
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config]$ sl  cd cell
+ksh: cell:  not found.
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config]$ sl  cd cells
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells]$ ls
+ankcsepf1a04CFSSCell01  plugin-cfg.xml
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells]$ cd ank*
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01]$ ls
+PolicySets                        audit.xml                         elasticityclasses                 middlewaredescriptors             repository                        trust.p12
+PolicyTypes                       autonomicrequestflowmanager.xml   fileRegistry.xml                  multibroker.xml                   resources-cei.xml                 variables.xml
+WSSCCache.xml                     bindings                          filter.policy                     namestore.xml                     resources-pme.xml                 virtualhosts.xml
+WSSDistributedCache.xml           blas                              gridclassification                naming-authz.xml                  resources-pme502.xml              wim
+admin-authz.xml                   cell.xml                          gridjobclasses                    nodegroups                        resources.xml                     ws-security.xml
+amwas.amjacc.template.properties  centralizedinstall.xml            gridscheduler.xml                 nodes                             rsatoken-key.p12                  xdcatalognodes.config
+amwas.pdjlog.template.properties  clusters                          healthcontroller.xml              overlaynodes.config               rsatoken-trust.p12
+apcservice.xml                    coregroupbridge.xml               jvms.xml                          pmirm.xml                         security.xml
+applications                      coregroups                        key.p12                           product-info.xml                  serviceclasses
+audit-authz.xml                   cus                               ltpa.jceks                        ras.rawtracelist.properties       sts
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01]$ cd nodes
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes]$ ls
+ankcsepf1a04CFSSCellManager01  ankcsepf1a04CFSSNode01         ankcsepf1a08CFSSNode01         ankcsepf1a09CFSSNode01
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes]$ cd ank*Cell*
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ ls
+app.policy                installed-channels.xml    node-metadata.properties  resources.xml             serverindex.xml           systemapps.xml
+default-signers.p12       library.policy            node.xml                  root-key.p12              servers                   variables.xml
+deleted.p12               namestore.xml             resources-cei.xml         rsatoken-root-key.p12     spi.policy
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ cd    grep 290 serverindex.html
+grep: 0652-033 Cannot open serverindex.html.
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ ls -la
+total 248
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 22 14:43 .
+drwxr-xr-x    6 wasadmin wasadmin        256 Oct 22 16:31 ..
+-rwxr-xr-x    1 wasadmin wasadmin       1606 Jul 25 2018  app.policy
+-rwxr-xr-x    1 wasadmin wasadmin       2402 Oct 22 14:26 default-signers.p12
+-rwxr-xr-x    1 wasadmin wasadmin       1434 Oct 22 14:26 deleted.p12
+-rwxr-xr-x    1 wasadmin wasadmin        221 Jul 25 2018  installed-channels.xml
+-rwxr-xr-x    1 wasadmin wasadmin        399 Jul 25 2018  library.policy
+-rwxr-xr-x    1 wasadmin wasadmin        344 Jul 25 2018  namestore.xml
+-rwxr-xr-x    1 wasadmin wasadmin       2152 Oct 22 14:28 node-metadata.properties
+-rwxr-xr-x    1 wasadmin wasadmin        425 Oct 22 14:25 node.xml
+-rwxr-xr-x    1 wasadmin wasadmin        343 Jul 25 2018  resources-cei.xml
+-rwxr-xr-x    1 wasadmin wasadmin      53674 Oct 22 14:28 resources.xml
+-rwxr-xr-x    1 wasadmin wasadmin       2706 Oct 22 14:26 root-key.p12
+-rwxr-xr-x    1 wasadmin wasadmin       2706 Oct 22 14:26 rsatoken-root-key.p12
+-rwxr-xr-x    1 wasadmin wasadmin       3594 Oct 22 14:27 serverindex.xml
+drwxr-xr-x    3 wasadmin wasadmin        256 Oct 22 14:01 servers
+-rwxr-xr-x    1 wasadmin wasadmin        427 Jul 25 2018  spi.policy
+-rwxr-xr-x    1 wasadmin wasadmin        724 Oct 22 14:29 systemapps.xml
+-rwxr-xr-x    1 wasadmin wasadmin       8020 Oct 22 14:28 variables.xml
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ grep 290 ser            verindex.html;
+grep: 0652-033 Cannot open serverindex.html.
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ grep 290 serverindex.html;grep 290 serverindex.html;x  
+grep: 0652-033 Cannot open serverindex.html.
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ vi ser        verindex.html
+[?1049h[56;1H[?12;25h[?1h="serverindex.html" [New file] [H[2J
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[H[55B"serverindex.html" [New file][H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[55B[K:q!
+[J[?12l[?25h[?1l>[?1049l[J[?12l[?25hankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ ls -la
+total 248
+drwxr-xr-x    3 wasadmin wasadmin       4096 Oct 22 14:43 .
+drwxr-xr-x    6 wasadmin wasadmin        256 Oct 22 16:31 ..
+-rwxr-xr-x    1 wasadmin wasadmin       1606 Jul 25 2018  app.policy
+-rwxr-xr-x    1 wasadmin wasadmin       2402 Oct 22 14:26 default-signers.p12
+-rwxr-xr-x    1 wasadmin wasadmin       1434 Oct 22 14:26 deleted.p12
+-rwxr-xr-x    1 wasadmin wasadmin        221 Jul 25 2018  installed-channels.xml
+-rwxr-xr-x    1 wasadmin wasadmin        399 Jul 25 2018  library.policy
+-rwxr-xr-x    1 wasadmin wasadmin        344 Jul 25 2018  namestore.xml
+-rwxr-xr-x    1 wasadmin wasadmin       2152 Oct 22 14:28 node-metadata.properties
+-rwxr-xr-x    1 wasadmin wasadmin        425 Oct 22 14:25 node.xml
+-rwxr-xr-x    1 wasadmin wasadmin        343 Jul 25 2018  resources-cei.xml
+-rwxr-xr-x    1 wasadmin wasadmin      53674 Oct 22 14:28 resources.xml
+-rwxr-xr-x    1 wasadmin wasadmin       2706 Oct 22 14:26 root-key.p12
+-rwxr-xr-x    1 wasadmin wasadmin       2706 Oct 22 14:26 rsatoken-root-key.p12
+-rwxr-xr-x    1 wasadmin wasadmin       3594 Oct 22 14:27 serverindex.xml
+drwxr-xr-x    3 wasadmin wasadmin        256 Oct 22 14:01 servers
+-rwxr-xr-x    1 wasadmin wasadmin        427 Jul 25 2018  spi.policy
+-rwxr-xr-x    1 wasadmin wasadmin        724 Oct 22 14:29 systemapps.xml
+-rwxr-xr-x    1 wasadmin wasadmin       8020 Oct 22 14:28 variables.xml
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ cat serverindex.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<serverindex:ServerIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:serverindex="http://www.ibm.com/websphere/appserver/schemas/5.0/serverindex.xmi" xmi:id="ServerIndex_1" hostName="ankcsepf1a04" endPointRefs="NamedEndPoint_1 NamedEndPoint_2">
+  <serverEntries xmi:id="ServerEntry_1" serverDisplayName="dmgr" serverName="dmgr" serverType="DEPLOYMENT_MANAGER">
+    <deployedApplications>WebSphereWSDM.ear/deployments/WebSphereWSDM</deployedApplications>
+    <deployedApplications>isclite.ear/deployments/isclite</deployedApplications>
+    <deployedApplications>OTiS.ear/deployments/OTiS</deployedApplications>
+    <specialEndpoints xmi:id="NamedEndPoint_1" endPointName="CELL_DISCOVERY_ADDRESS">
+      <endPoint xmi:id="EndPoint_1" host="ankcsepf1a04" port="7279"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_2" endPointName="BOOTSTRAP_ADDRESS">
+      <endPoint xmi:id="EndPoint_2" host="ankcsepf1a04" port="9812"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_4" endPointName="SOAP_CONNECTOR_ADDRESS">
+      <endPoint xmi:id="EndPoint_4" host="ankcsepf1a04" port="8884"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_5" endPointName="ORB_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_5" host="ankcsepf1a04" port="9104"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_6" endPointName="SAS_SSL_SERVERAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_6" host="ankcsepf1a04" port="9411"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_7" endPointName="CSIV2_SSL_MUTUALAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_7" host="ankcsepf1a04" port="9412"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_8" endPointName="CSIV2_SSL_SERVERAUTH_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_8" host="ankcsepf1a04" port="9410"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_9" endPointName="WC_adminhost">
+      <endPoint xmi:id="EndPoint_9" host="*" port="9062"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_10" endPointName="DCS_UNICAST_ADDRESS">
+      <endPoint xmi:id="EndPoint_10" host="*" port="9358"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_11" endPointName="WC_adminhost_secure">
+      <endPoint xmi:id="EndPoint_11" host="*" port="29093"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_12" endPointName="IPC_CONNECTOR_ADDRESS">
+      <endPoint xmi:id="EndPoint_12" host="${LOCALHOST_NAME}" port="9636"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_13" endPointName="OVERLAY_UDP_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_13" host="*" port="11005"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_14" endPointName="OVERLAY_TCP_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_14" host="*" port="11006"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_15" endPointName="XDAGENT_PORT">
+      <endPoint xmi:id="EndPoint_15" host="*" port="7060"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_DPMGR1" endPointName="DataPowerMgr_inbound_secure">
+      <endPoint xmi:id="EndPoint_DPMGR1" host="*" port="5556"/>
+    </specialEndpoints>
+    <specialEndpoints xmi:id="NamedEndPoint_1120677327537" endPointName="STATUS_LISTENER_ADDRESS">
+      <endPoint xmi:id="EndPoint_1120677327537" host="ankcsepf1a04" port="9420"/>
+    </specialEndpoints>
+  </serverEntries>
+</serverindex:ServerIndex>
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ cat serverindex.xmlls -la             vi serverindex.html
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ cat serverindex.xmlls -la             vi serverindex.htmlgrep 290 serverindex.htmlgrep 290 serverindex.tml ml l  a.. .xml
+      <endPoint xmi:id="EndPoint_11" host="*" port="29093"/>
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ ps -ef | grep CF
+wasadmin 29687894 31850728   0   Oct 22      - 86:54 /usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF_SS -Dwas.status.socket=39379 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/servers/PFT01_SS_CF_a04_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF_SS/properties:/usr/WebSphere/AppServer_85_CF_SS/lib/startup.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF_SS/classes:/usr/WebSphere/AppServer_85_CF_SS/lib:/usr/WebSphere/AppServer_85_CF_SS/installedChannels:/usr/WebSphere/AppServer_85_CF_SS/lib/ext:/usr/WebSphere/AppServer_85_CF_SS/web/help:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF_SS/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF_SS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/tivoli/tam:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF_SS -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF_SS/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF_SS/endorsed_apis:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/config ankcsepf1a04CFSSCell01 ankcsepf1a04CFSSNode01 PFT01_SS_CF_a04_01
+wasadmin 31850728        1   1   Oct 22      - 79:11 /usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/bin/java -Xmaxt0.5 -Dwas.status.socket=39199 -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF_SS -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/servers/nodeagent/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties:/usr/WebSphere/AppServer_85_CF_SS/properties:/usr/WebSphere/AppServer_85_CF_SS/lib/startup.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/classes:/usr/WebSphere/AppServer_85_CF_SS/classes:/usr/WebSphere/AppServer_85_CF_SS/lib:/usr/WebSphere/AppServer_85_CF_SS/installedChannels:/usr/WebSphere/AppServer_85_CF_SS/lib/ext:/usr/WebSphere/AppServer_85_CF_SS/web/help:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF_SS/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF_SS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/tivoli/tam:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF_SS -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF_SS/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF_SS/endorsed_apis:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF_SS/profiles/AppServer/config ankcsepf1a04CFSSCell01 ankcsepf1a04CFSSNode01 nodeagent
+wasadmin 34603148        1   0   Oct 22      - 99:03 /usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85_CF_SS -Dwas.status.socket=39125 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_64_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85_CF_SS/properties:/usr/WebSphere/AppServer_85_CF_SS/lib/startup.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/bootstrap.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/lmproxy.jar:/usr/WebSphere/AppServer_85_CF_SS/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xcompressedrefs -Dws.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/lib:/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85_CF_SS/classes:/usr/WebSphere/AppServer_85_CF_SS/lib:/usr/WebSphere/AppServer_85_CF_SS/installedChannels:/usr/WebSphere/AppServer_85_CF_SS/lib/ext:/usr/WebSphere/AppServer_85_CF_SS/web/help:/usr/WebSphere/AppServer_85_CF_SS/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85_CF_SS/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85_CF_SS/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85_CF_SS/tivoli/tam:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85_CF_SS -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85_CF_SS/lib/native/aix/ppc_64/:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/compressedrefs:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64/j9vm:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/../lib/ppc64:/usr/WebSphere/AppServer_85_CF_SS/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib64:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85_CF_SS/endorsed_apis:/usr/WebSphere/AppServer_85_CF_SS/java_1.7.1_64/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config ankcsepf1a04CFSSCell01 ankcsepf1a04CFSSCellManager01 dmgr
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ 
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ 
+ankcsepf1a04[/usr/WebSphere/AppServer_85_CF_SS/profiles/DeploymentManager/config/cells/ankcsepf1a04CFSSCell01/nodes/ankcsepf1a04CFSSCellManager01]$ fdisk     
+Shell will time out in 60 seconds.
+ksh[2]: Timed out waiting for input.

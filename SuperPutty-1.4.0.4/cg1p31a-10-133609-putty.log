@@ -1,0 +1,49 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.10 13:36:09 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct  3 09:24:14 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct 10 13:35:15 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] kk/usr/lpp/pd/bin/ipguiadvadm &
+[1]     29294842
+ankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm &cp /ipm/south/olbt02.pdf /var/pd>/usr/lpp/pd/bin/ipguiadvadm &    porttest 169.2.167.173       /usr/lpp/pd/bin/ipguiadvadm &exit                         cp /ipm/south/olbt02.pdf /var/pd>/usr/lpp/pd/bin/ipguiadvadm      pdq -U -rv -p 4901pl01     
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01/usr/lpp/pd/bin/ipguiadvadm &cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5>/usr/lpp/pd/bin/ipguiadvadm &                 porttest 169.2.167.173       /usr/lpp/pd/bin/ipguiadvadm &porttest 169.2.167.173       /usr/lpp/pd/bin/ipguiadvadm &cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5>cp /ipm/south/olbt02.pdf /var/pd/hotfolders/f /var/pd/hotfolders/5401pl01                <401pl0401pl01 01pl01 1pl01 pl01 4pl019pl010pl011pl01
+ankcseprda06[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/4>pdq -U -rv -p 4901pl01                        
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+13   cse03spl01:3695730839  /var/pd/hotfolders/4901pl01/olbt02.pdf  ripping           0            4901pl01     4901pa07      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current            Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State     Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  --------  -------  -----------  -----------  ------------  ------  ----------  
+13   cse03spl01:3695730839  /var/pd/hotfolders/4901pl01/olbt02.pdf  printing           0            4901pl01     4901pa07      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current            Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State     Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  --------  -------  -----------  -----------  ------------  ------  ----------  
+13   cse03spl01:3695730839  /var/pd/hotfolders/4901pl01/olbt02.pdf  printing           0            4901pl01     4901pa07      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current            Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State     Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  --------  -------  -----------  -----------  ------------  ------  ----------  
+13   cse03spl01:3695730839  /var/pd/hotfolders/4901pl01/olbt02.pdf  printing           0            4901pl01     4901pa07      11003   @csehap103  
+ankcseprda06[/ipm/south] p pdq -U -rv -p 4901pl01
+                                                                    Current            Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State     Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  --------  -------  -----------  -----------  ------------  ------  ----------  
+13   cse03spl01:3695730839  /var/pd/hotfolders/4901pl01/olbt02.pdf  printing           0            4901pl01     4901pa07      11003   @csehap103  
+ankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

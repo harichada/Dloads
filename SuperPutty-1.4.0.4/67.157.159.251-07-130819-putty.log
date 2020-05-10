@@ -1,0 +1,194 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 13:08:19 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Nov  6 08:02:12 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cat /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+100.95.21.96	CGDCSSL1047UL.calcloud.local CGDCSSL1047UL
+100.95.20.102 CGDCSSL1052UL sqtws
+100.95.20.101 CGDCSSL1050UL sytws
+100.95.21.98  CGDCSSL1051UL sytas
+100.95.20.66  CGDCSSL1055UL pft1ws2
+100.95.21.99  CGDCSSL1053UL sqtas
+100.95.20.65  CGDCSSL1054UL pft1ws1
+100.95.21.64  CGDCSSL1056UL pft1as1
+100.95.20.67  CGDCSSL1058UL pft2ws1
+100.95.21.71  CGDCSSL1061UL pft2as2
+100.95.21.69  CGDCSSL1057UL pft1as2
+100.95.21.70  CGDCSSL1060UL pft2as1
+100.95.20.68  CGDCSSL1059UL pft2ws2
+100.95.20.15  CGDCSSL1062UL prodws1
+100.95.21.16  CGDCSSL1064UL prodas1
+100.95.20.16  CGDCSSL1063UL prodws2
+100.95.21.17  CGDCSSL1065UL prodas2
+100.95.20.100 CGDCSSL1049UL devws
+100.95.21.97  CGDCSSL1048UL devas
+100.95.21.96  CGDCSSL1047UL  syaas
+100.95.20.99  CGDCSSL1046UL  syaws
+
+100.95.20.103	CGDCSSL1073UL	syawscc
+100.95.20.104	CGDCSSL1074UL	sytwscc
+100.95.20.105	CGDCSSL1075UL	sqtwscc
+100.95.20.106	CGDCSSL1076UL	devwscc
+100.95.20.64    CGDCSSL1077UL.calcloud.local csepft.cse.ca.gov CGDCSSL1077UL pft1ws1cc
+#100.95.20.64	CGDCSSL1077UL	pft1ws1cc
+100.95.20.69	CGDCSSL1078UL	pft1ws2cc
+100.95.20.70	CGDCSSL1079UL	pft2ws1cc
+100.95.20.71	 CGDCSSL1080UL	pft2ws2cc
+100.95.21.100	CGDCSSL1081UL	devascc
+100.95.21.101	CGDCSSL1082UL	sqtascc
+100.95.21.102	CGDCSSL1083UL	syaascc
+100.95.21.103	CGDCSSL1084UL	sytascc
+100.95.21.65	CGDCSSL1085UL	pft1as1cc
+100.95.21.66	CGDCSSL1086UL	pft1as2cc
+100.95.21.67	CGDCSSL1087UL	pft2as1cc
+100.95.21.68	CGDCSSL1088UL	pft2as2cc
+100.95.20.11	CGDCSSL1089UL	prodws2cc
+100.95.20.17	CGDCSSL1090UL	prodws1cc
+100.95.21.10	CGDCSSL1091UL	prodas1cc
+100.95.21.11	CGDCSSL1092UL	prodas2cc
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ssh pft2as1cc
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+You are required to change your password immediately (password aged)
+Last login: Thu May 30 16:18:17 2019 from 100.95.21.96
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for user hchada.
+Changing password for hchada.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+Connection to pft2as1cc closed.
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ssh pft2as1cc
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+You are required to change your password immediately (password aged)
+Last login: Thu Nov  7 13:08:30 2019 from 100.95.21.96
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for user hchada.
+Changing password for hchada.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+Connection to pft2as1cc closed.
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ssh pft2as1cc
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+You are required to change your password immediately (password aged)
+Last login: Thu Nov  7 13:08:44 2019 from 100.95.21.96
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for user hchada.
+Changing password for hchada.
+(current) UNIX password: Connection to pft2as1cc closed.
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+[0m[01;34mbinaries[0m  [01;34mCC[0m  dead.letter  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd EFS/ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    [0m[01;32mcontext.xml[0m       copyKeys.yml         CreatePartsDevOps.yml  [01;34mCustomerConnect[0m  fetchhostname.yml  inventorycc           ping.yml         servers.yml  users.yml
+[01;34mapache[0m                         copy              copyKey.yml          CreateUser.retry       delApctl.yml     [01;34mfinal[0m              [01;31mmaster-cisreport.zip[0m  [01;34mpyscritps[0m        [01;32mserver.xml[0m   [01;32mweb.xml[0m
+CCServers.yml                  copyBinaries.yml  cpyhttpd.yml         CreateUsers.yml        deploy1.yml      gitcommands.txt    passwd                script.yml       stopFW.yml   yumPackages.yml
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.retry    CreatePartition.yml  CreateUser.yml         [01;31mdevel.zip[0m        inventory          passwd.txt            [01;34mselfsignedcerts[0m  [01;34mtomcat[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more copyKy[Key.yml
+- hosts:
+      - localhost
+  vars_files:
+      - CCServers.yml
+  tasks: 
+      - name: Copy ssh key to all servers
+        #command: "ssh-copy-id -i ~/.ssh/id_rsa.pub {{ item.server }}  "
+        command: "sshpass -f passwd.txt ssh-copy-id -i ~/.ssh/id_rsa.pub -o StrictHostKeyChecking=no {{ item.server }}"
+        register: result
+        with_items: "{{ command }}"
+      - debug: var=result.stdout_lines
+     
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    [0m[01;32mcontext.xml[0m       copyKeys.yml         CreatePartsDevOps.yml  [01;34mCustomerConnect[0m  fetchhostname.yml  inventorycc           ping.yml         servers.yml  users.yml
+[01;34mapache[0m                         copy              copyKey.yml          CreateUser.retry       delApctl.yml     [01;34mfinal[0m              [01;31mmaster-cisreport.zip[0m  [01;34mpyscritps[0m        [01;32mserver.xml[0m   [01;32mweb.xml[0m
+CCServers.yml                  copyBinaries.yml  cpyhttpd.yml         CreateUsers.yml        deploy1.yml      gitcommands.txt    passwd                script.yml       stopFW.yml   yumPackages.yml
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.retry    CreatePartition.yml  CreateUser.yml         [01;31mdevel.zip[0m        inventory          passwd.txt            [01;34mselfsignedcerts[0m  [01;34mtomcat[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ grep passwd *
+grep: apache: Is a directory
+grep: cis-rhel-ansible-audit-master: Is a directory
+[35m[KcopyKey.yml[m[K[36m[K:[m[K        command: "sshpass -f [01;31m[Kpasswd[m[K.txt ssh-copy-id -i ~/.ssh/id_rsa.pub -o StrictHostKeyChecking=no {{ item.server }}"
+grep: CustomerConnect: Is a directory
+grep: final: Is a directory
+grep: pyscritps: Is a directory
+grep: selfsignedcerts: Is a directory
+grep: tomcat: Is a directory
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd ../cc[K[K../CC/ansible/
+]0;hchada@CGDCSSL1047UL:~/CC/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    [0m[01;32mcontext.xml[0m         copyKey.yml      CreatePartition.retry  deploy1.yml        inventory       [01;31mmaster-cisreport.zip[0m  servers.yml   [01;34mtomcat[0m             yumPackages.yml
+[01;34mapache[0m                         copyBinaries.retry  copyTar.retry    CreatePartition.yml    [01;31mdevel.zip[0m          inventory.orig  ping.yml              [01;32mserver.xml[0m    users.yml
+apacheStatus.retry             copyBinaries.yml    copyTar.yml      CreateUsers.retry      fetchhostname.yml  inventory.sav   script.yml            stopFW.retry  [01;32mweb.xml[0m
+[01;34mcis-rhel-ansible-audit-master[0m  copyfstab.yml       copytar.yml.sav  CreateUsers.yml        [01;34mfinal[0m              [01;34mlog[0m             serverStatus.retry    stopFW.yml    yumPackages.retry
+]0;hchada@CGDCSSL1047UL:~/CC/ansible[hchada@CGDCSSL1047UL ansible]$ grep passwd *
+grep: apache: Is a directory
+grep: cis-rhel-ansible-audit-master: Is a directory
+[35m[KcopyKey.yml[m[K[36m[K:[m[K        command: "sshpass -f [01;31m[Kpasswd[m[K.txt ssh-copy-id -i ~/.ssh/id_rsa.pub -o StrictHostKeyChecking=no {{ item.server }}"
+grep: final: Is a directory
+grep: log: Is a directory
+grep: tomcat: Is a directory
+]0;hchada@CGDCSSL1047UL:~/CC/ansible[hchada@CGDCSSL1047UL ansible]$ hisotry [K[K[K[K[Ktory | grep passwd
+   81  history | grep [01;31m[Kpasswd[m[K
+   82   ansible prodas1 -i inventory -m shell -a "echo -e 'Rambo@123\nRambo@123' | [01;31m[Kpasswd[m[K hchada" -b -K
+   85   ansible prodasgrp -i inventory -m shell -a "echo -e 'Gr88td@y\nGr88td@y' | [01;31m[Kpasswd[m[K deploy1" -b -K
+  893  history | grep [01;31m[Kpasswd[m[K
+  894  ansible all -i inventory -m shell -a "echo -e 'Ironm@n456&\nIronm@n456&' | [01;31m[Kpasswd[m[K aguggill" -b -K
+  898  ansible all -i inventory -m shell -a "echo -e 'Ironm@n456&\nIronm@n456&' | [01;31m[Kpasswd[m[K aguggill" -b -K
+  907  sudo [01;31m[Kpasswd[m[K aguggill
+  908  grep agug /etc/[01;31m[Kpasswd[m[K
+  909  grep gug /etc/[01;31m[Kpasswd[m[K
+  912  more /etc/[01;31m[Kpasswd[m[K
+  914  sudo [01;31m[Kpasswd[m[K aguggill
+ 1003  grep [01;31m[Kpasswd[m[K *
+ 1006  grep [01;31m[Kpasswd[m[K *
+ 1007  history | grep [01;31m[Kpasswd[m[K
+]0;hchada@CGDCSSL1047UL:~/CC/ansible[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1047UL:~/CC/ansible[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ [K[hchada@CGDCSSL1047UL ansible]$ exit
+logout

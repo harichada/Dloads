@@ -1,0 +1,140 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 15:00:38 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Sep 20 13:43:35 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ cd EFS/ansible/selfsignedcerts/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.yml  getIP.yml                          [0m[01;34mpyOpenSSL-19.0.0[0m
+CreateCerts-pft1.yml    CreateCerts.retry    insPyOSSL.yml                      [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft.retry   CreateCerts.yml      [01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ v[Kvi CreateCerts.yml
+[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1HE325: ATTENTION
+Found a swap file by the name ".CreateCerts.yml.swp"
+[10Cowned by: hchada   dated: Wed May  8 09:40:23 2019
+[9Cfile name: ~hchada/EFS/ansible/selfsignedcerts/CreateCerts.yml
+[10Cmodified: YES
+[9Cuser name: hchada   host name: CGDCSSL1047UL.calcloud.local
+[8Cprocess ID: 17886
+While opening file "CreateCerts.yml"
+[13Cdated: Mon Sep 16 10:25:13 2019
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r CreateCerts.yml"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".CreateCerts.yml.swp"
+    to avoid this message.
+
+[94;1H"CreateCerts.yml" 39L, 1336C
+Press ENTER or type command to continue[?12l[?25h[1;1H[20L[?25l[1;1H- hosts:
+    - "{{ var_host }}"
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Ensure directory exists for local self-signed TLS certs.[7;7Hfile:[8;8Hpath: /etc/httpd/ssl[9;8Hstate: directory
+    - name: Delete old Key files[11;7Hfile:[12;9Hpath: /etc/httpd/ssl/sytefs-new.key[13;9Hstate: absent
+    - name: Generate an OpenSSL private key.[15;7Hopenssl_privatekey:[16;10Hpath: /etc/httpd/ssl/sytefs-new.key[17;10Hsize: 1024[18;10Hstate: "{{ statte }}"
+    - name: Generate an OpenSSL CSR.[20;7Hopenssl_csr:[21;9Hpath: /etc/httpd/ssl/sytefs-new.csr[22;9Hprivatekey_path: /etc/httpd/ssl/sytefs-new.key[23;9Hcountry_name: US[24;9Horganization_name: DCSS[25;9Horganizational_unit_name: Env[26;9HemailAddress: dcsstsenvironmensunit@dcss.ca.gov[27;9Hcommon_name: "100.95.20.101"[28;9Hsubject_alt_name: "DNS:efssyt.cse.ca.gov, DNS:100.95.20.101, IP:100.95.20.101"[29;9Hstate: "{{ statte }}"[30;7Hwhen: "'syt' in inventory_hostname"[32;5H- name: Generate a Self Signed OpenSSL certificate.[33;7Hopenssl_certificate:[34;9Hpath: /etc/httpd/ssl/sytefs-new.crt[35;9Hprivatekey_path: /etc/httpd/ssl/sytefs-new.key[36;9Hcsr_path: /etc/httpd/ssl/sytefs-new.csr[37;9Hsignature_algorithms: sha256WithRSAEncryption[38;9Hprovider: selfsigned[39;9Hstate: "{{ statte }}"
+[1m[34m~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [46;1H~                                                                                                                            [47;1H~                                                                                                                            [48;1H~                                                                                                                            [49;1H~                                                                                                                            [50;1H~                                                                                                                            [51;1H~                                                                                                                            [52;1H~                                                                                                                            [53;1H~                                                                                                                            [54;1H~                                                                                                                            [55;1H~                                                                                                                            [56;1H~                                                                                                                            [57;1H~                                                                                                                            [58;1H~                                                                                                                            [59;1H~                                                                                                                            [60;1H~                                                                                                                            [61;1H~                                                                                                                            [62;1H~                                                                                                                            [63;1H~                                                                                                                            [64;1H~                                                                                                                            [65;1H~                                                                                                                            [66;1H~                                                                                                                            [67;1H~                                                                                                                            [68;1H~                                                                                                                            [69;1H~                                                                                                                            [70;1H~                                                                                                                            [71;1H~                                                                                                                            [72;1H~                                                                                                                            [73;1H~                                                                                                                            [74;1H~                                                                                                                            [75;1H~                                                                                                                            [76;1H~                                                                                                                            [77;1H~                                                                                                                            [78;1H~                                                                                                                            [79;1H~                                                                                                                            [80;1H~                                                                                                                            [81;1H~                                                                                                                            [82;1H~                                                                                                                            [83;1H~                                                                                                                            [84;1H~                                                                                                                            [85;1H~                                                                                                                            [86;1H~                                                                                                                            [87;1H~                                                                                                                            [88;1H~                                                                                                                            [89;1H~                                                                                                                            [90;1H~                                                                                                                            [91;1H~                                                                                                                            [92;1H~                                                                                                                            [93;1H~                                                                                                                            [94;1H~                                                                                                                            [m[95;1H[K[1;1H[?12l[?25h[?25l[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ history | grep CreateCerts
+   25  more [01;31m[KCreateCerts[m[K.yml
+   27  vi [01;31m[KCreateCerts[m[K.yml 
+   28  history | grep [01;31m[KCreateCerts[m[K.yml
+   29  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   38  more [01;31m[KCreateCerts[m[K.yml
+   39  history | grep [01;31m[KCreateCerts[m[K
+   40   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   42   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   43  more [01;31m[KCreateCerts[m[K.yml 
+   48   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   49  more [01;31m[KCreateCerts[m[K.retry 
+   53  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   54  vi [01;31m[KCreateCerts[m[K.yml [A
+   55  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K
+   56  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K -vvv
+   66  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sqtws statte=present" -K -vvv
+   89  more [01;31m[KCreateCerts[m[K.yml 
+   91  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+   92  vi [01;31m[KCreateCerts[m[K.yml 
+   93  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+  857  cat [01;31m[KCreateCerts[m[K.yml
+  859  cat [01;31m[KCreateCerts[m[K-pft.yml
+  861  cat [01;31m[KCreateCerts[m[K-pft.yml
+  863  more [01;31m[KCreateCerts[m[K.yml
+  864  cp [01;31m[KCreateCerts[m[K.yml [01;31m[KCreateCerts[m[K-pft1.yml
+  865  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+  867   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_hosts=pft1ws1 statte=present" -K
+  868   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+  869  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+  870   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+  871  vi [01;31m[KCreateCerts[m[K-pft1.yml 
+  872   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=pft1ws1 statte=present" -K
+  884  more [01;31m[KCreateCerts[m[K.yml
+  885  vi [01;31m[KCreateCerts[m[K.yml
+  894   ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=devws statte=present" -K
+  916  more [01;31m[KCreateCerts[m[K.yml
+  919  vi [01;31m[KCreateCerts[m[K.yml
+  921  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_hosts=sytws statte=present" -K
+  922  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K-pft1.yml --extra-vars "var_host=sytws statte=present" -K
+  924  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+  926  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+  928  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+  931  ansible-playbook -i ../inventory [01;31m[KCreateCerts[m[K.yml --extra-vars "var_host=sytws statte=present" -K
+ 1003  vi [01;31m[KCreateCerts[m[K.yml
+ 1004  history | grep [01;31m[KCreateCerts[m[K
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ ls
+CreateCerts-pft1.retry  CreateCerts-pft.yml  getIP.yml                          [0m[01;34mpyOpenSSL-19.0.0[0m
+CreateCerts-pft1.yml    CreateCerts.retry    insPyOSSL.yml                      [01;31mpyOpenSSL-19.0.0.tar.gz[0m
+CreateCerts-pft.retry   CreateCerts.yml      [01;31mpyOpenSSL-0.15.1-1.el7.noarch.rpm[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/selfsignedcerts[hchada@CGDCSSL1047UL selfsignedcerts]$ cd ..
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copyKeys.yml           [0m[01;34mCustomerConnect[0m    inventorycc           servers.yml
+[01;34mapache[0m                         copyKey.yml            delApctl.yml       [01;31mmaster-cisreport.zip[0m  [01;32mserver.xml[0m
+CCServers.yml                  cpyhttpd.yml           deploy1.yml        passwd                stopFW.yml
+[01;34mcis-rhel-ansible-audit-master[0m  CreatePartition.yml    [01;31mdevel.zip[0m          passwd.txt            [01;34mtomcat[0m
+[01;32mcontext.xml[0m                    CreatePartsDevOps.yml  fetchhostname.yml  ping.yml              users.yml
+copy                           CreateUser.retry       [01;34mfinal[0m              [01;34mpyscritps[0m             [01;32mweb.xml[0m
+copyBinaries.yml               CreateUsers.yml        gitcommands.txt    script.yml            yumPackages.yml
+copyKeys.retry                 CreateUser.yml         inventory          [01;34mselfsignedcerts[0m
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd ina[K[K[Kfinal
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ ls
+ConfigServers.yml  CreatePartitions.yml  installApache.yml  ldconfig.yml  sharedJava.yml   yumPackages.yml
+copyKey.yml        CreateUsers.yml       inventory          servers.yml   startApache.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ vi CreatePartitions.yml
+[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1H"CreatePartitions.yml" 122L, 3380C[1;1H- hosts:[2;7H- "{{ var_host }}"
+  become: true
+  tasks:[5;6H- name: Create LVM Partition # Creating Physical Volume and Volume Group[6;8Hparted:[7;13Hdevice: /dev/sdb[8;13Hnumber: 1[9;13Hflags: [ lvm ][10;13Hstate: present[11;6H- name: Create Physical Volume (PV)[12;8Hlvg:[13;10Hvg: datavg[14;10Hpvs: /dev/sdb1[15;10Hstate: present[16;6H- name: Create Logical Volumes appsVM[17;8Hlvol:[18;12Hvg: datavg[19;12Hlv: appsVM[20;12Hsize: 10G[21;12Hstate: present[22;6H- name: Create LV sharedVM[23;8Hlvol:[24;11Hvg: datavg[25;11Hlv: sharedVM[26;11Hsize: 20G[27;11Hstate: present[28;6H- name: Create LV logsVM[29;8Hlvol:[30;11Hvg: datavg[31;11Hlv: logsVM[32;11Hsize: 10G[33;11Hstate: present[34;6H- name: Create LV apacheVM[35;8Hlvol:[36;11Hvg: datavg[37;11Hlv: apacheVM[38;11Hsize: 5G[39;11Hstate: present[40;8Hwhen: "'ws' in inventory_hostname"[41;6H- name: Create LV tomcatVM[42;8Hlvol:[43;11Hvg: datavg[44;11Hlv: tomcatVM[45;11Hsize: 5G[46;11Hstate: present[47;8Hwhen: "'as' in inventory_hostname"[48;6H- name: Format LV appsVM   # Format Logical Volumes ext4[49;8Hfilesystem:[50;16Hfstype: ext4[51;16Hdev: /dev/datavg/appsVM[52;16Hforce: no[53;6H- name: Format LV sharedVM[54;8Hfilesystem:[55;16Hfstype: ext4[56;16Hdev: /dev/datavg/sharedVM[57;16Hforce: no[58;6H- name: Format LV logsVM[59;8Hfilesystem:[60;16Hfstype: ext4[61;16Hdev: /dev/datavg/logsVM[62;16Hforce: no[63;6H- name: Format LV apacheVM[64;8Hfilesystem:[65;16Hfstype: ext4[66;16Hdev: /dev/datavg/apacheVM[67;16Hforce: no[68;8Hwhen: "'ws' in inventory_hostname"[69;6H- name: Format LV tomcatVM[70;8Hfilesystem:[71;16Hfstype: ext4[72;16Hdev: /dev/datavg/tomcatVM[73;16Hforce: no[74;8Hwhen: "'as' in inventory_hostname"[75;6H- name: Mount /forms/appsVM and make entry in /etc/fstab # Create mount points and mount Logical Volumes[76;8Hmount:[77;11Hpath: /forms/apps[78;11Hsrc: /dev/datavg/appsVM[79;11Hfstype: ext4[80;11Hopts: defaults[81;11Hdump: 1[82;11Hpassno: 2[83;11Hstate: mounted[84;6H- name: Mount /forms/sharedVM and make entry in /etc/fstab[85;8Hmount:[86;11Hpath: /forms/java[87;11Hsrc: /dev/datavg/sharedVM[88;11Hfstype: ext4[89;11Hopts: defaults[90;11Hdump: 1[91;11Hpassno: 2[92;11Hstate: mounted[93;6H- name: Mount /forms/logsVM and make entry in /etc/fstab[94;8Hmount:[1;1H[?12l[?25h[?25l[95;1H[K[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ ^M
+-bash: $'\r': command not found
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ 
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ ls
+ConfigServers.yml  CreatePartitions.yml  installApache.yml  ldconfig.yml  sharedJava.yml   yumPackages.yml
+copyKey.yml        CreateUsers.yml       inventory          servers.yml   startApache.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible/final[hchada@CGDCSSL1047UL final]$ 

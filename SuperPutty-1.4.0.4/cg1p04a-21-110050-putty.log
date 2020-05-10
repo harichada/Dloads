@@ -1,0 +1,41 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.21 11:00:50 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Mon Nov 18 13:48:04 PST 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 21 11:00:50 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ sudo cses resetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 8
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcsesyaw01[/home/cseadmin]$ ssh hchada@nkcsesyaw01          n @ankcsesyaw01
+hchada@ankcsesyaw01's password: 
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+3004-314 Password was recently used and is not valid for reuse.
+hchada's New password: 
+Enter the new password again:
+Connection to ankcsesyaw01 closed.
+ankcsesyaw01[/home/cseadmin]$ pdadmin
+pdadmin> login -a sec_master
+Enter Password: 
+pdadmin sec_master> exit
+ankcsesyaw01[/home/cseadmin]$ exit

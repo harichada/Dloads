@@ -1,0 +1,122 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.21 08:58:23 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+ankcseprdw01[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                 logs
+ALL_ACCOUNTS_sorted.txt          maxage.sh
+LIVE_ACCOUNTS.txt                maxage0_userslist.txt
+NFS_mounts_verify.sh             maxage8_users.txt
+NFS_mounts_verify_P8.sh          memory_paging_COPY.sh
+NFS_mounts_verify_nomail.sh      memory_paging_PROD_mail.sh
+NFS_selfcheck.sh                 memory_paging_RUN.sh
+NFS_selfcheck_output.dat         memory_paging_SELECT.sh
+OLD_ACCOUNTS.txt                 memory_paging_SELECT_test.sh
+OLD_ACCOUNTS_sorted.txt          memory_paging_check.sh
+Tivoli_check_status.sh           memory_paging_output
+WAS8.5_init_scripts              p8_hostnames.txt
+copyToProd.sh                    p8_hostnames_reverse.txt
+errpt_mail.sh                    p8_hostnames_reverse_sorted.txt
+errpt_mail_paul.sh               resetUser.ksh
+find_LUN_sizes.sh                run_on_Prod.sh
+find_wwn.sh                      showerrpt.pl
+gecos.sh                         utils
+gecos_users.txt
+ankcseprdw01[/home/cseadmin]$ cd
+ankcseprdw01[/home/cseadmin]$ sudo cseresetuser hchada
+Password:
+Changing password for "hchada"
+hchada's New password: 
+Enter the new password again:
+User hchada Failed Login Count = 3
+Reseting hchada user Failed Login Count. Waiting for files to sync.
+User hchada Failed Login Count is now = 0
+ankcseprdw01[/home/cseadmin]$ ssh lo  hchada@ankcseprdw01
+hchada@ankcseprdw01's password: 
+[compat]: 3004-610 You are required to change your password.
+        Please choose a new one.
+Last unsuccessful login: Thu Nov 21 08:58:56 PST 2019 on ssh from 169.2.108.102
+Last login: Mon Sep 23 08:45:09 PDT 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+WARNING: Your password has expired.
+You must change your password now and login again!
+Changing password for "hchada"
+hchada's Old password: 
+hchada's New password: 
+Enter the new password again:
+ankcseprdw01[/home/hchada] ls
+access_log.20180906.gz
+ankcseprdw01[/home/hchada] ls -lagrt
+total 66608
+-rwx------    1 other           269 Oct 10 2017  .profile
+drwx------    2 other           256 Oct 11 2017  .ssh
+-rw-r-----    1 other      34075723 Sep 11 2018  access_log.20180906.gz
+drwxr-xr-x    3 other           256 Sep 11 2018  .
+drwxr-xr-x  287 bin           16384 Sep 16 10:41 ..
+-rw-------    1 other           580 Nov 21 08:59 .sh_history
+ankcseprdw01[/home/hchada] rm -rf acc      *
+ankcseprdw01[/home/hchada] ls -la
+total 48
+drwxr-xr-x    3 hchada   other           256 Nov 21 08:59 .
+drwxr-xr-x  287 bin      bin           16384 Sep 16 10:41 ..
+-rwx------    1 hchada   other           269 Oct 10 2017  .profile
+-rw-------    1 hchada   other           602 Nov 21 08:59 .sh_history
+drwx------    2 hchada   other           256 Oct 11 2017  .ssh
+ankcseprdw01[/home/hchada] df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4          786432    390080   51%     7104    14% /
+/dev/hd2         8650752    621944   93%    65933    45% /usr
+/dev/hd9var      4194304   1156616   73%     5797     5% /var
+/dev/hd3         2097152   2087176    1%       72     1% /tmp
+/dev/hd1         2097152    923656   56%     4995     5% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    976752    7%      614     1% /usr/local
+/dev/hd10opt     4194304   2022176   52%     7434     4% /opt
+/dev/fslv00       262144    247456    6%      111     1% /var/adm/perfmgr
+/dev/logslv       524288    490456    7%       25     1% /var/adm/logs
+/dev/hids_lv      786432    149920   81%       63     1% /usr/symantec
+/dev/webspherelv   12582912   9399600   26%     5283     1% /usr/WebSphere
+/dev/cse_lv       262144     60096   78%     1153    15% /cse
+/dev/fslv02     46137344  39254888   15%    15071     1% /swstage
+/dev/taddmlv     2097152   1508144   29%       39     1% /taddm
+/dev/fslv03      8388608   2562984   70%      954     1% /aix53
+/dev/mksysb     17825792   4658688   74%       55     1% /mksysb
+/dev/scratch     6815744   5359208   22%    10476     2% /scratch
+/dev/savevg       524288    518928    2%       46     1% /savevg
+/dev/home_hw      524288    505352    4%      266     1% /home/hw
+/dev/csmdata     1048576   1039536    1%        6     1% /home/csmdata
+/dev/dumpcopy    1048576   1039568    1%        4     1% /var/adm/ras/dumpcopy
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/ihs7lv     13631488  10837168   21%     5269     1% /usr/IHS7
+/dev/auditlv     4194304   4163792    1%        6     1% /opt/auditout
+/dev/CommVaultlv   10485760   7892024   25%     2528     1% /CommVault
+/dev/ihs7lv_va    9437184   8059864   15%     5085     1% /usr/IHS7_VA
+/dev/httpserverlv   16777216  15446200    8%     2935     1% /usr/HTTPServer
+/dev/httplogslv_ss    8388608   7810424    7%       79     1% /usr/HTTPLogs_SS
+/dev/httplogslv_va    8388608   8264896    2%     1516     1% /usr/HTTPLogs_VA
+/dev/itmlv       6291456   5301816   16%     4065     1% /opt/IBM/ITM
+ankcseprdw01[/home/hchada] df /home
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd1         2097152    923656   56%     4995     5% /home
+ankcseprdw01[/home/hchada] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+Connection to ankcseprdw01 closed.
+ankcseprdw01[/home/cseadmin]$ df /home
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd1         2097152   1918656    9%     4989     3% /home
+ankcseprdw01[/home/cseadmin]$ df -g /hme  ome
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd1           1.00      0.91    9%     4989     3% /home
+ankcseprdw01[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

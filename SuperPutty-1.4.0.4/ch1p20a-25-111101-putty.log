@@ -1,0 +1,57 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.25 11:11:01 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Aug 28 13:30:18 PDT 2019 on ssh
+Last login: Thu Sep 19 08:30:10 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+hchada    Password Expires in 44 days
+ankcsepf1a06[/home/hchada]$ cd /b cse/batch
+ankcsepf1a06[/cse/batch]$ ls
+PFT09_Batch_AP021_01  PFT09_Batch_AP021_02  PFT09_Batch_Cluster   dumps
+ankcsepf1a06[/cse/batch]$ cd PFT09 _Batch _AP021 _02
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_02]$ ls
+BatchRpt.txt  jobExecution  log           log.txt       logs          work
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_02]$ cd logs
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_02/logs]$ ls -lagrt
+total 238144
+-rw-rw-r--    1 cseadmin         48 Mar 30 2018  SystemOut.log.owner
+-rw-rw-r--    1 cseadmin         48 Mar 30 2018  SystemErr.log.owner
+-rw-rw-r--    1 cseadmin   20971148 May 10 14:19 SystemOut_19.05.10_14.19.57.log
+-rw-rw-r--    1 cseadmin   20971298 Jun 05 09:31 SystemOut_19.06.05_09.31.12.log
+drwxrwsrwx    5 cseadmin       4096 Jun 18 07:10 ..
+-rw-rw-r--    1 cseadmin   20969702 Jul 02 22:01 SystemOut_19.07.02_22.01.14.log
+-rw-rw-r--    1 cseadmin   20971258 Aug 07 00:46 SystemOut_19.08.07_00.46.35.log
+-rw-rw-r--    1 cseadmin   20971494 Sep 19 21:02 SystemOut_19.09.19_21.02.50.log
+drwxrwsrwx    2 cseadmin       4096 Sep 19 21:02 .
+-rw-rw-r--    1 cseadmin    3605040 Sep 24 07:02 SystemErr.log
+-rwxrwxrwx    1 cseadmin          0 Sep 25 00:00 native_stdout.log
+-rw-rw-r--    1 cseadmin    5651023 Sep 25 10:46 SystemOut.log
+-rwxrwxrwx    1 cseadmin    7724018 Sep 25 11:09 native_stderr.log
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_02/logs]$ tail -f SystemOut.log
+[9/25/19 10:43:14:877 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle /../../../../../../../../../../etc/passwd has not been defined.
+[9/25/19 10:43:31:945 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:32:006 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:32:055 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:32:109 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:35:558 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:35:604 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:35:672 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:43:35:733 PDT] 0000079c WebContainer  E com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle / has not been defined.
+[9/25/19 10:46:54:515 PDT] 000001e1 FfdcProvider  W com.ibm.ws.ffdc.impl.FfdcProvider logIncident FFDC1003I: FFDC Incident emitted on /usr/WebSphere/AppServer_85/profiles/AppServer/logs/ffdc/PFT09_Batch_AP021_02_d13e673a_19.09.25_10.46.54.5141270290108108530460.txt com.ibm.ws.management.connector.soap.SOAPUtils.extractSoapCall 157
+
+
+
+
+[9/25/19 11:17:11:924 PDT] 000002ad SystemOut     O INFO  gov.ca.dcss.arch.batch.ioservice.managers.input.hibernate.HibernateInputSource - PFT09XA#ENF-121033097237#ENF-126-DS02#20190513_000000(1) - Retrieved 0 keys. HQL: select distinct batchTransaction.SECUREBatchId FROM SECUREBatchTransactionBO as batchTransaction 
+                                   WHERE batchTransaction.batchStatusCode = 'CMD'
+[9/25/19 11:17:11:952 PDT] 000002ad JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]
+[9/25/19 11:17:11:994 PDT] 000002ad JdbcTemplate  W org.springframework.jdbc.core.JdbcTemplate throwExceptionOnWarningIfNotIgnoringWarnings SQLWarning ignored: SQL state '02000', error code '100', message [DB2 SQL Warning: SQLCODE=100, SQLSTATE=02000, SQLERRMC=null, DRIVER=3.72.44]

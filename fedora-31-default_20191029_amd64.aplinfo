@@ -1,0 +1,12 @@
+Package: fedora-31-default
+Version: 20191029
+Type: lxc
+OS: fedora
+Section: system
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Architecture: amd64
+Location: system/fedora-31-default_20191029_amd64.tar.xz
+md5sum: e4da460e06f99bc269651f79d16a3d26
+sha512sum: 451b1effac32cccdaf8f070039146649243b5453a21960fde268afb9bc503300e20d1d71a1870e6dda65106534e6ab0881a8d05c036077189b63a80236207323
+Infopage: https://linuxcontainers.org
+Description: LXC default image for fedora 31 (20191029)

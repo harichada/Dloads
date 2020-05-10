@@ -1,0 +1,662 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.01 11:49:05 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Sep 27 15:52:54 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1051UL:~[?1034h[hchada@CGDCSSL1051UL ~]$ cd /forms/tomcat8/
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ ls
+[0m[01;34mbase[0m  [01;34mDocuSign[0m  [01;34mDocuSignKeys[0m  [01;34mlost+found[0m  [01;34msyt01[0m  [01;34msyt02[0m  [01;34msyt03[0m  [01;34msyt04[0m  [01;34msyt06[0m  [01;34msyt07[0m  [01;34msyt08[0m  [01;34msyt11[0m  [01;34msyt12[0m  [01;34mtemp[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8[hchada@CGDCSSL1051UL tomcat8]$ cd syt03
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03[hchada@CGDCSSL1051UL syt03]$ ls
+[0m[01;34mbin[0m  [01;34mconf[0m  [01;34mlogs[0m  [01;34mtemp[0m  [01;34mwebapps[0m  [01;34mwork[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03[hchada@CGDCSSL1051UL syt03]$ cd logs
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2019-09-04.log             localhost_access_log.2019-05-24.txt
+catalina.2019-01-07.log      localhost.2019-09-12.log             localhost_access_log.2019-05-30.txt
+catalina.2019-01-23.log      localhost_access_log.2019-01-07.txt  localhost_access_log.2019-06-04.txt
+catalina.2019-02-07.log      localhost_access_log.2019-01-08.txt  localhost_access_log.2019-06-05.txt
+catalina.2019-02-08.log      localhost_access_log.2019-02-06.txt  localhost_access_log.2019-06-06.txt
+catalina.2019-02-20.log      localhost_access_log.2019-02-07.txt  localhost_access_log.2019-06-11.txt
+catalina.2019-02-27.log      localhost_access_log.2019-02-08.txt  localhost_access_log.2019-06-13.txt
+catalina.2019-02-28.log      localhost_access_log.2019-02-11.txt  localhost_access_log.2019-06-17.txt
+catalina.2019-03-05.log      localhost_access_log.2019-02-14.txt  localhost_access_log.2019-06-21.txt
+catalina.2019-03-08.log      localhost_access_log.2019-02-19.txt  localhost_access_log.2019-06-27.txt
+catalina.2019-03-18.log      localhost_access_log.2019-02-20.txt  localhost_access_log.2019-07-03.txt
+catalina.2019-03-20.log      localhost_access_log.2019-02-21.txt  localhost_access_log.2019-07-05.txt
+catalina.2019-03-21.log      localhost_access_log.2019-02-22.txt  localhost_access_log.2019-07-10.txt
+catalina.2019-04-29.log      localhost_access_log.2019-02-25.txt  localhost_access_log.2019-07-15.txt
+catalina.2019-05-07.log      localhost_access_log.2019-02-26.txt  localhost_access_log.2019-07-18.txt
+catalina.2019-05-21.log      localhost_access_log.2019-02-27.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-08-18.log      localhost_access_log.2019-02-28.txt  localhost_access_log.2019-07-24.txt
+catalina.2019-08-27.log      localhost_access_log.2019-03-01.txt  localhost_access_log.2019-08-01.txt
+catalina.2019-09-04.log      localhost_access_log.2019-03-04.txt  localhost_access_log.2019-08-02.txt
+catalina.2019-09-12.log      localhost_access_log.2019-03-05.txt  localhost_access_log.2019-08-05.txt
+catalina.out                 localhost_access_log.2019-03-08.txt  localhost_access_log.2019-08-06.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-03-18.txt  localhost_access_log.2019-08-16.txt
+host-manager.2019-02-06.log  localhost_access_log.2019-03-21.txt  localhost_access_log.2019-08-18.txt
+host-manager.2019-02-27.log  localhost_access_log.2019-03-28.txt  localhost_access_log.2019-08-19.txt
+host-manager.2019-03-05.log  localhost_access_log.2019-04-08.txt  localhost_access_log.2019-08-22.txt
+host-manager.2019-04-29.log  localhost_access_log.2019-04-09.txt  localhost_access_log.2019-08-23.txt
+host-manager.2019-08-18.log  localhost_access_log.2019-04-15.txt  localhost_access_log.2019-08-27.txt
+localhost.2019-01-07.log     localhost_access_log.2019-04-16.txt  localhost_access_log.2019-08-28.txt
+localhost.2019-01-23.log     localhost_access_log.2019-04-17.txt  localhost_access_log.2019-09-03.txt
+localhost.2019-02-07.log     localhost_access_log.2019-04-18.txt  localhost_access_log.2019-09-04.txt
+localhost.2019-02-08.log     localhost_access_log.2019-04-22.txt  localhost_access_log.2019-09-09.txt
+localhost.2019-02-20.log     localhost_access_log.2019-04-25.txt  localhost_access_log.2019-09-12.txt
+localhost.2019-02-27.log     localhost_access_log.2019-04-26.txt  localhost_access_log.2019-09-16.txt
+localhost.2019-02-28.log     localhost_access_log.2019-04-29.txt  localhost_access_log.2019-09-17.txt
+localhost.2019-03-01.log     localhost_access_log.2019-04-30.txt  localhost_access_log.2019-09-24.txt
+localhost.2019-03-05.log     localhost_access_log.2019-05-01.txt  localhost_access_log.2019-09-30.txt
+localhost.2019-03-08.log     localhost_access_log.2019-05-02.txt  localhost_access_log.2019-10-01.txt
+localhost.2019-03-18.log     localhost_access_log.2019-05-04.txt  manager.2019-01-07.log
+localhost.2019-03-21.log     localhost_access_log.2019-05-07.txt  manager.2019-02-06.log
+localhost.2019-04-29.log     localhost_access_log.2019-05-08.txt  manager.2019-02-27.log
+localhost.2019-05-07.log     localhost_access_log.2019-05-09.txt  manager.2019-03-05.log
+localhost.2019-05-21.log     localhost_access_log.2019-05-10.txt  manager.2019-04-29.log
+localhost.2019-05-24.log     localhost_access_log.2019-05-13.txt  manager.2019-08-18.log
+localhost.2019-08-18.log     localhost_access_log.2019-05-14.txt  SystemOut.log
+localhost.2019-08-19.log     localhost_access_log.2019-05-15.txt  tomcat.pid
+localhost.2019-08-27.log     localhost_access_log.2019-05-21.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ ls -lagrt
+total 904
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 manager.2019-01-07.log
+-rw-r-----. 1 tomadmin    920 Mar  4  2019 catalina.2019-02-20.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-06.log
+-rw-r-----. 1 tomadmin   7378 Mar  4  2019 localhost_access_log.2019-03-01.txt
+-rw-r-----. 1 tomadmin   2457 Mar  4  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----. 1 tomadmin   7494 Mar  4  2019 localhost_access_log.2019-02-26.txt
+-rw-r-----. 1 tomadmin   1453 Mar  4  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----. 1 tomadmin    214 Mar  4  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----. 1 tomadmin  10750 Mar  4  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----. 1 tomadmin    160 Mar  4  2019 localhost.2019-03-01.log
+-rw-r-----. 1 tomadmin   3800 Mar  4  2019 localhost.2019-02-08.log
+-rw-r-----. 1 tomadmin   1300 Mar  4  2019 localhost.2019-02-07.log
+-rw-rw----. 1 tomadmin   1653 Mar  4  2019 localhost.2019-01-07.log
+-rw-rw----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-01-07.log
+-rw-r-----. 1 tomadmin  16317 Mar  4  2019 catalina.2019-02-27.log
+-rw-r-----. 1 tomadmin   5502 Mar  4  2019 catalina.2019-02-08.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 manager.2019-02-27.log
+-rw-r-----. 1 tomadmin   3252 Mar  4  2019 localhost_access_log.2019-03-04.txt
+-rw-r-----. 1 tomadmin   6620 Mar  4  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----. 1 tomadmin   3472 Mar  4  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----. 1 tomadmin   4318 Mar  4  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----. 1 tomadmin    764 Mar  4  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----. 1 tomadmin   8857 Mar  4  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----. 1 tomadmin     76 Mar  4  2019 localhost_access_log.2019-01-08.txt
+-rw-rw----. 1 tomadmin    301 Mar  4  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----. 1 tomadmin   3952 Mar  4  2019 localhost.2019-02-28.log
+-rw-r-----. 1 tomadmin   6902 Mar  4  2019 localhost.2019-02-27.log
+-rw-r-----. 1 tomadmin   7689 Mar  4  2019 localhost.2019-01-23.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-27.log
+-rw-r-----. 1 tomadmin      0 Mar  4  2019 host-manager.2019-02-06.log
+-rw-r-----. 1 tomadmin  59601 Mar  4  2019 catalina.2019-01-23.log
+-rw-rw----. 1 tomadmin  22432 Mar  4  2019 catalina.2019-01-07.log
+-rw-r-----. 1 tomadmin   7411 Mar  4  2019 localhost_access_log.2019-02-28.txt
+-rw-r-----. 1 tomadmin    868 Mar  4  2019 localhost_access_log.2019-02-21.txt
+-rw-r-----. 1 tomadmin    652 Mar  4  2019 localhost.2019-02-20.log
+-rw-r-----. 1 tomadmin   6251 Mar  4  2019 catalina.2019-02-28.log
+-rw-r-----. 1 tomadmin   1834 Mar  4  2019 catalina.2019-02-07.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 manager.2019-03-05.log
+-rw-r-----. 1 tomadmin      0 Mar  5  2019 host-manager.2019-03-05.log
+-rw-r-----. 1 tomadmin   8242 Mar  5  2019 catalina.2019-03-05.log
+-rw-r-----. 1 tomadmin    931 Mar  5  2019 localhost.2019-03-05.log
+-rw-r-----. 1 tomadmin    107 Mar  5  2019 localhost_access_log.2019-03-05.txt
+-rw-r-----. 1 tomadmin    929 Mar  8  2019 catalina.2019-03-08.log
+-rw-r-----. 1 tomadmin    840 Mar  8  2019 localhost.2019-03-08.log
+-rw-r-----. 1 tomadmin   1953 Mar  8  2019 localhost_access_log.2019-03-08.txt
+-rw-r-----. 1 tomadmin    929 Mar 18  2019 catalina.2019-03-18.log
+-rw-r-----. 1 tomadmin    840 Mar 18  2019 localhost.2019-03-18.log
+-rw-r-----. 1 tomadmin    868 Mar 18  2019 localhost_access_log.2019-03-18.txt
+-rw-r-----. 1 tomadmin    390 Mar 20  2019 catalina.2019-03-20.log
+drwxrwxr-x. 8 tomadmin   4096 Mar 20  2019 [0m[01;34m..[0m
+-rw-r-----. 1 tomadmin    929 Mar 21  2019 catalina.2019-03-21.log
+-rw-r-----. 1 tomadmin    840 Mar 21  2019 localhost.2019-03-21.log
+-rw-r-----. 1 tomadmin  10846 Mar 21  2019 localhost_access_log.2019-03-21.txt
+-rw-r-----. 1 tomadmin   3460 Mar 28  2019 localhost_access_log.2019-03-28.txt
+-rw-r-----. 1 tomadmin    434 Apr  8 12:48 localhost_access_log.2019-04-08.txt
+-rw-r-----. 1 tomadmin   3606 Apr  9 14:11 localhost_access_log.2019-04-09.txt
+-rw-r-----. 1 tomadmin    868 Apr 15 12:05 localhost_access_log.2019-04-15.txt
+-rw-r-----. 1 tomadmin    651 Apr 16 16:58 localhost_access_log.2019-04-16.txt
+-rw-r-----. 1 tomadmin    868 Apr 17 09:50 localhost_access_log.2019-04-17.txt
+-rw-r-----. 1 tomadmin    868 Apr 18 15:36 localhost_access_log.2019-04-18.txt
+-rw-r-----. 1 tomadmin    868 Apr 22 13:30 localhost_access_log.2019-04-22.txt
+-rw-r-----. 1 tomadmin   1302 Apr 25 15:20 localhost_access_log.2019-04-25.txt
+-rw-r-----. 1 tomadmin   1302 Apr 26 15:09 localhost_access_log.2019-04-26.txt
+-rw-r-----. 1 tomadmin      0 Apr 29 17:49 manager.2019-04-29.log
+-rw-r-----. 1 tomadmin      0 Apr 29 17:49 host-manager.2019-04-29.log
+-rw-r-----. 1 tomadmin   9360 Apr 29 17:49 catalina.2019-04-29.log
+-rw-r-----. 1 tomadmin   1508 Apr 29 17:52 localhost.2019-04-29.log
+-rw-r-----. 1 tomadmin    978 Apr 29 17:52 localhost_access_log.2019-04-29.txt
+-rw-r-----. 1 tomadmin    868 Apr 30 16:20 localhost_access_log.2019-04-30.txt
+-rw-r-----. 1 tomadmin   2170 May  1 22:35 localhost_access_log.2019-05-01.txt
+-rw-r-----. 1 tomadmin    217 May  2 11:57 localhost_access_log.2019-05-02.txt
+-rw-r-----. 1 tomadmin    651 May  4 10:42 localhost_access_log.2019-05-04.txt
+-rw-r-----. 1 tomadmin    929 May  7 14:57 catalina.2019-05-07.log
+-rw-r-----. 1 tomadmin    840 May  7 14:59 localhost.2019-05-07.log
+-rw-r-----. 1 tomadmin   2474 May  7 18:16 localhost_access_log.2019-05-07.txt
+-rw-r-----. 1 tomadmin    978 May  8 18:50 localhost_access_log.2019-05-08.txt
+-rw-r-----. 1 tomadmin   2448 May  9 17:22 localhost_access_log.2019-05-09.txt
+-rw-r-----. 1 tomadmin    868 May 10 13:40 localhost_access_log.2019-05-10.txt
+-rw-r-----. 1 tomadmin   1727 May 13 17:57 localhost_access_log.2019-05-13.txt
+-rw-r-----. 1 tomadmin   2039 May 14 14:06 localhost_access_log.2019-05-14.txt
+-rw-r-----. 1 tomadmin   2776 May 15 13:13 localhost_access_log.2019-05-15.txt
+-rw-r-----. 1 tomadmin    868 May 21 14:49 localhost_access_log.2019-05-21.txt
+-rw-r-----. 1 tomadmin    680 May 21 15:15 localhost.2019-05-21.log
+-rw-r-----. 1 tomadmin    929 May 21 15:15 catalina.2019-05-21.log
+-rw-r-----. 1 tomadmin    160 May 24 09:02 localhost.2019-05-24.log
+-rw-r-----. 1 tomadmin   1292 May 24 11:49 localhost_access_log.2019-05-24.txt
+-rw-r-----. 1 tomadmin    868 May 30 15:45 localhost_access_log.2019-05-30.txt
+-rw-r-----. 1 tomadmin    424 Jun  4 15:56 localhost_access_log.2019-06-04.txt
+-rw-r-----. 1 tomadmin   1509 Jun  5 17:11 localhost_access_log.2019-06-05.txt
+-rw-r-----. 1 tomadmin    868 Jun  6 15:31 localhost_access_log.2019-06-06.txt
+-rw-r-----. 1 tomadmin    651 Jun 11 15:11 localhost_access_log.2019-06-11.txt
+-rw-r-----. 1 tomadmin   1292 Jun 13 17:57 localhost_access_log.2019-06-13.txt
+-rw-r-----. 1 tomadmin    868 Jun 17 13:57 localhost_access_log.2019-06-17.txt
+-rw-r-----. 1 tomadmin    868 Jun 21 17:33 localhost_access_log.2019-06-21.txt
+-rw-r-----. 1 tomadmin    868 Jun 27 15:55 localhost_access_log.2019-06-27.txt
+-rw-r-----. 1 tomadmin    104 Jul  3 09:38 localhost_access_log.2019-07-03.txt
+-rw-r-----. 1 tomadmin   2160 Jul  5 16:02 localhost_access_log.2019-07-05.txt
+-rw-r-----. 1 tomadmin   1292 Jul 10 15:16 localhost_access_log.2019-07-10.txt
+-rw-r-----. 1 tomadmin   1085 Jul 15 17:53 localhost_access_log.2019-07-15.txt
+-rw-r-----. 1 tomadmin    868 Jul 18 14:20 localhost_access_log.2019-07-18.txt
+-rw-r-----. 1 tomadmin    651 Jul 23 14:46 localhost_access_log.2019-07-23.txt
+-rw-r-----. 1 tomadmin    425 Jul 24 13:46 localhost_access_log.2019-07-24.txt
+-rw-r-----. 1 tomadmin    651 Aug  1 10:29 localhost_access_log.2019-08-01.txt
+-rw-r-----. 1 tomadmin   1085 Aug  2 14:56 localhost_access_log.2019-08-02.txt
+-rw-r-----. 1 tomadmin    217 Aug  5 13:55 localhost_access_log.2019-08-05.txt
+-rw-r-----. 1 tomadmin    424 Aug  6 13:56 localhost_access_log.2019-08-06.txt
+-rw-r-----. 1 tomadmin    651 Aug 16 14:45 localhost_access_log.2019-08-16.txt
+-rw-r-----. 1 tomadmin      5 Aug 18 10:40 tomcat.pid
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 host-manager.2019-08-18.log
+-rw-r-----. 1 tomadmin      0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----. 1 tomadmin   1349 Aug 18 10:41 localhost.2019-08-18.log
+-rw-r-----. 1 tomadmin   9361 Aug 18 10:41 catalina.2019-08-18.log
+-rw-r-----. 1 tomadmin    159 Aug 19 09:09 localhost.2019-08-19.log
+-rw-r-----. 1 tomadmin    651 Aug 19 09:12 localhost_access_log.2019-08-19.txt
+-rw-r-----. 1 tomadmin    651 Aug 22 12:51 localhost_access_log.2019-08-22.txt
+-rw-r-----. 1 tomadmin   1085 Aug 23 17:25 localhost_access_log.2019-08-23.txt
+-rw-r-----. 1 tomadmin    929 Aug 27 12:48 catalina.2019-08-27.log
+-rw-r-----. 1 tomadmin    840 Aug 27 14:22 localhost.2019-08-27.log
+-rw-r-----. 1 tomadmin    651 Aug 27 14:31 localhost_access_log.2019-08-27.txt
+-rw-r-----. 1 tomadmin    429 Aug 28 11:30 localhost_access_log.2019-08-28.txt
+-rw-r-----. 1 tomadmin    961 Sep  3 12:54 localhost_access_log.2019-09-03.txt
+-rw-r-----. 1 tomadmin    929 Sep  4 15:38 catalina.2019-09-04.log
+-rw-r-----. 1 tomadmin    840 Sep  4 15:43 localhost.2019-09-04.log
+-rw-r-----. 1 tomadmin    868 Sep  4 15:46 localhost_access_log.2019-09-04.txt
+-rw-r-----. 1 tomadmin   1292 Sep  9 10:43 localhost_access_log.2019-09-09.txt
+-rw-rw----. 1 tomadmin 232462 Sep 12 08:24 catalina.out
+-rw-r-----. 1 tomadmin    929 Sep 12 08:24 catalina.2019-09-12.log
+-rw-r-----. 1 tomadmin    840 Sep 12 09:37 localhost.2019-09-12.log
+-rw-r-----. 1 tomadmin   1820 Sep 12 12:12 localhost_access_log.2019-09-12.txt
+-rw-r-----. 1 tomadmin    217 Sep 16 16:58 localhost_access_log.2019-09-16.txt
+-rw-r-----. 1 tomadmin   1292 Sep 17 11:03 localhost_access_log.2019-09-17.txt
+-rw-r-----. 1 tomadmin   1514 Sep 24 18:07 localhost_access_log.2019-09-24.txt
+-rw-r-----. 1 tomadmin    104 Sep 30 14:19 localhost_access_log.2019-09-30.txt
+drwxr-x---. 2 tomadmin   4096 Oct  1 11:27 [01;34marchive[0m
+drwxrwxr-x. 3 tomadmin  12288 Oct  1 11:27 [01;34m.[0m
+-rw-r-----. 1 tomadmin    228 Oct  1 11:35 SystemOut.log
+-rw-r-----. 1 tomadmin    208 Oct  1 11:35 localhost_access_log.2019-10-01.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ tail -f SystemOut.log
+2019-10-01 11:27:44 [http-nio-18082-exec-38] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+2019-10-01 11:35:45 [http-nio-18082-exec-40] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ tail SystemOut.log
+2019-10-01 11:27:44 [http-nio-18082-exec-38] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+2019-10-01 11:35:45 [http-nio-18082-exec-40] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ vi SysemOut.[K[K[K[K[K[K[K[K[K[K[K[Kcd archive
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ ls
+SystemOut.log.2019-03-08.0.log  SystemOut.log.2019-05-10.0.log  SystemOut.log.2019-07-24.0.log
+SystemOut.log.2019-03-18.0.log  SystemOut.log.2019-05-13.0.log  SystemOut.log.2019-08-01.0.log
+SystemOut.log.2019-03-21.0.log  SystemOut.log.2019-05-14.0.log  SystemOut.log.2019-08-02.0.log
+SystemOut.log.2019-03-28.0.log  SystemOut.log.2019-05-15.0.log  SystemOut.log.2019-08-05.0.log
+SystemOut.log.2019-04-08.0.log  SystemOut.log.2019-05-21.0.log  SystemOut.log.2019-08-06.0.log
+SystemOut.log.2019-04-09.0.log  SystemOut.log.2019-05-24.0.log  SystemOut.log.2019-08-16.0.log
+SystemOut.log.2019-04-15.0.log  SystemOut.log.2019-05-30.0.log  SystemOut.log.2019-08-18.0.log
+SystemOut.log.2019-04-16.0.log  SystemOut.log.2019-06-04.0.log  SystemOut.log.2019-08-19.0.log
+SystemOut.log.2019-04-17.0.log  SystemOut.log.2019-06-05.0.log  SystemOut.log.2019-08-22.0.log
+SystemOut.log.2019-04-18.0.log  SystemOut.log.2019-06-06.0.log  SystemOut.log.2019-08-23.0.log
+SystemOut.log.2019-04-22.0.log  SystemOut.log.2019-06-11.0.log  SystemOut.log.2019-08-27.0.log
+SystemOut.log.2019-04-25.0.log  SystemOut.log.2019-06-13.0.log  SystemOut.log.2019-08-28.0.log
+SystemOut.log.2019-04-26.0.log  SystemOut.log.2019-06-17.0.log  SystemOut.log.2019-09-03.0.log
+SystemOut.log.2019-04-29.0.log  SystemOut.log.2019-06-21.0.log  SystemOut.log.2019-09-04.0.log
+SystemOut.log.2019-04-30.0.log  SystemOut.log.2019-06-27.0.log  SystemOut.log.2019-09-09.0.log
+SystemOut.log.2019-05-01.0.log  SystemOut.log.2019-07-03.0.log  SystemOut.log.2019-09-12.0.log
+SystemOut.log.2019-05-02.0.log  SystemOut.log.2019-07-05.0.log  SystemOut.log.2019-09-17.0.log
+SystemOut.log.2019-05-04.0.log  SystemOut.log.2019-07-10.0.log  SystemOut.log.2019-09-24.0.log
+SystemOut.log.2019-05-07.0.log  SystemOut.log.2019-07-15.0.log  SystemOut.log.2019-09-30.0.log
+SystemOut.log.2019-05-08.0.log  SystemOut.log.2019-07-18.0.log
+SystemOut.log.2019-05-09.0.log  SystemOut.log.2019-07-23.0.log
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ ls -lagrt
+total 1024
+-rw-r-----. 1 tomadmin  24741 Mar  8  2019 SystemOut.log.2019-03-08.0.log
+-rw-r-----. 1 tomadmin  23755 Mar 18  2019 SystemOut.log.2019-03-18.0.log
+-rw-r-----. 1 tomadmin  26219 Mar 21  2019 SystemOut.log.2019-03-21.0.log
+-rw-r-----. 1 tomadmin   4940 Mar 28  2019 SystemOut.log.2019-03-28.0.log
+-rw-r-----. 1 tomadmin   1976 Apr  8 12:48 SystemOut.log.2019-04-08.0.log
+-rw-r-----. 1 tomadmin   4940 Apr  9 14:11 SystemOut.log.2019-04-09.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 15 12:05 SystemOut.log.2019-04-15.0.log
+-rw-r-----. 1 tomadmin   2964 Apr 16 16:58 SystemOut.log.2019-04-16.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 17 09:50 SystemOut.log.2019-04-17.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 18 15:36 SystemOut.log.2019-04-18.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 22 13:30 SystemOut.log.2019-04-22.0.log
+-rw-r-----. 1 tomadmin   5928 Apr 25 15:20 SystemOut.log.2019-04-25.0.log
+-rw-r-----. 1 tomadmin   5928 Apr 26 15:09 SystemOut.log.2019-04-26.0.log
+-rw-r-----. 1 tomadmin  24648 Apr 29 17:52 SystemOut.log.2019-04-29.0.log
+-rw-r-----. 1 tomadmin   4054 Apr 30 16:20 SystemOut.log.2019-04-30.0.log
+-rw-r-----. 1 tomadmin   9808 May  1 22:35 SystemOut.log.2019-05-01.0.log
+-rw-r-----. 1 tomadmin    980 May  2 11:57 SystemOut.log.2019-05-02.0.log
+-rw-r-----. 1 tomadmin   2940 May  4 10:42 SystemOut.log.2019-05-04.0.log
+-rw-r-----. 1 tomadmin  45313 May  7 18:16 SystemOut.log.2019-05-07.0.log
+-rw-r-----. 1 tomadmin   4452 May  8 18:50 SystemOut.log.2019-05-08.0.log
+-rw-r-----. 1 tomadmin  99889 May  9 17:22 SystemOut.log.2019-05-09.0.log
+-rw-r-----. 1 tomadmin   3952 May 10 13:40 SystemOut.log.2019-05-10.0.log
+-rw-r-----. 1 tomadmin  18594 May 13 17:56 SystemOut.log.2019-05-13.0.log
+-rw-r-----. 1 tomadmin  35888 May 14 14:06 SystemOut.log.2019-05-14.0.log
+-rw-r-----. 1 tomadmin 125381 May 15 13:13 SystemOut.log.2019-05-15.0.log
+-rw-r-----. 1 tomadmin  23496 May 21 15:15 SystemOut.log.2019-05-21.0.log
+-rw-r-----. 1 tomadmin  31446 May 24 11:49 SystemOut.log.2019-05-24.0.log
+-rw-r-----. 1 tomadmin   3952 May 30 15:45 SystemOut.log.2019-05-30.0.log
+-rw-r-----. 1 tomadmin  27232 Jun  4 15:56 SystemOut.log.2019-06-04.0.log
+-rw-r-----. 1 tomadmin  32172 Jun  5 17:11 SystemOut.log.2019-06-05.0.log
+-rw-r-----. 1 tomadmin   3952 Jun  6 15:31 SystemOut.log.2019-06-06.0.log
+-rw-r-----. 1 tomadmin   2964 Jun 11 15:11 SystemOut.log.2019-06-11.0.log
+-rw-r-----. 1 tomadmin  31184 Jun 13 17:57 SystemOut.log.2019-06-13.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 17 13:57 SystemOut.log.2019-06-17.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 21 17:33 SystemOut.log.2019-06-21.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 27 15:55 SystemOut.log.2019-06-27.0.log
+-rw-r-----. 1 tomadmin    825 Jul  3 09:38 SystemOut.log.2019-07-03.0.log
+-rw-r-----. 1 tomadmin  35136 Jul  5 16:02 SystemOut.log.2019-07-05.0.log
+-rw-r-----. 1 tomadmin  31184 Jul 10 15:16 SystemOut.log.2019-07-10.0.log
+-rw-r-----. 1 tomadmin   4940 Jul 15 17:53 SystemOut.log.2019-07-15.0.log
+-rw-r-----. 1 tomadmin   3952 Jul 18 14:20 SystemOut.log.2019-07-18.0.log
+-rw-r-----. 1 tomadmin   2964 Jul 23 14:46 SystemOut.log.2019-07-23.0.log
+-rw-r-----. 1 tomadmin  14230 Jul 24 13:46 SystemOut.log.2019-07-24.0.log
+-rw-r-----. 1 tomadmin   2964 Aug  1 10:29 SystemOut.log.2019-08-01.0.log
+-rw-r-----. 1 tomadmin   4940 Aug  2 14:56 SystemOut.log.2019-08-02.0.log
+-rw-r-----. 1 tomadmin    988 Aug  5 13:55 SystemOut.log.2019-08-05.0.log
+-rw-r-----. 1 tomadmin  27678 Aug  6 13:56 SystemOut.log.2019-08-06.0.log
+-rw-r-----. 1 tomadmin   2964 Aug 16 14:44 SystemOut.log.2019-08-16.0.log
+-rw-r-----. 1 tomadmin  20068 Aug 18 10:41 SystemOut.log.2019-08-18.0.log
+-rw-r-----. 1 tomadmin   3200 Aug 19 09:12 SystemOut.log.2019-08-19.0.log
+-rw-r-----. 1 tomadmin   2944 Aug 22 12:51 SystemOut.log.2019-08-22.0.log
+-rw-r-----. 1 tomadmin   4904 Aug 23 17:25 SystemOut.log.2019-08-23.0.log
+-rw-r-----. 1 tomadmin  19308 Aug 27 12:48 SystemOut.log.2019-08-27.0.log
+-rw-r-----. 1 tomadmin   2052 Aug 28 11:30 SystemOut.log.2019-08-28.0.log
+-rw-r-----. 1 tomadmin   2508 Sep  3 12:54 SystemOut.log.2019-09-03.0.log
+-rw-r-----. 1 tomadmin  19308 Sep  4 15:38 SystemOut.log.2019-09-04.0.log
+-rw-r-----. 1 tomadmin   4104 Sep  9 10:43 SystemOut.log.2019-09-09.0.log
+-rw-r-----. 1 tomadmin  27885 Sep 12 12:11 SystemOut.log.2019-09-12.0.log
+-rw-r-----. 1 tomadmin   4104 Sep 17 11:03 SystemOut.log.2019-09-17.0.log
+-rw-r-----. 1 tomadmin   2052 Sep 24 18:07 SystemOut.log.2019-09-24.0.log
+-rw-r-----. 1 tomadmin    114 Sep 30 14:19 SystemOut.log.2019-09-30.0.log
+drwxr-x---. 2 tomadmin   4096 Oct  1 11:27 [0m[01;34m.[0m
+drwxrwxr-x. 3 tomadmin  12288 Oct  1 11:27 [01;34m..[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ tail Sysem[K[KtemOut.log
+tail: cannot open ‘SystemOut.log’ for reading: No such file or directory
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ tail SystemOut.log[K[K[K[K[K[K[K[K[K[K[K[K[KSystemOut.log.2019-09-30.0.log
+2019-09-30 14:19:12 [http-nio-18082-exec-36] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ tail -f SystemOut.log.2019-09-24.0.log
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get envelop document list docusign API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusign API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusign API call:- 0 sec
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.e.c.DocuSignController - Response time for getAllDocuments API call:- 1 sec
+^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ tail -f SystemOut.log.2019-09-24.0.log[3PSystemOut.log.2019-09-30.0.log^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ cd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2019-09-04.log             localhost_access_log.2019-05-24.txt
+catalina.2019-01-07.log      localhost.2019-09-12.log             localhost_access_log.2019-05-30.txt
+catalina.2019-01-23.log      localhost_access_log.2019-01-07.txt  localhost_access_log.2019-06-04.txt
+catalina.2019-02-07.log      localhost_access_log.2019-01-08.txt  localhost_access_log.2019-06-05.txt
+catalina.2019-02-08.log      localhost_access_log.2019-02-06.txt  localhost_access_log.2019-06-06.txt
+catalina.2019-02-20.log      localhost_access_log.2019-02-07.txt  localhost_access_log.2019-06-11.txt
+catalina.2019-02-27.log      localhost_access_log.2019-02-08.txt  localhost_access_log.2019-06-13.txt
+catalina.2019-02-28.log      localhost_access_log.2019-02-11.txt  localhost_access_log.2019-06-17.txt
+catalina.2019-03-05.log      localhost_access_log.2019-02-14.txt  localhost_access_log.2019-06-21.txt
+catalina.2019-03-08.log      localhost_access_log.2019-02-19.txt  localhost_access_log.2019-06-27.txt
+catalina.2019-03-18.log      localhost_access_log.2019-02-20.txt  localhost_access_log.2019-07-03.txt
+catalina.2019-03-20.log      localhost_access_log.2019-02-21.txt  localhost_access_log.2019-07-05.txt
+catalina.2019-03-21.log      localhost_access_log.2019-02-22.txt  localhost_access_log.2019-07-10.txt
+catalina.2019-04-29.log      localhost_access_log.2019-02-25.txt  localhost_access_log.2019-07-15.txt
+catalina.2019-05-07.log      localhost_access_log.2019-02-26.txt  localhost_access_log.2019-07-18.txt
+catalina.2019-05-21.log      localhost_access_log.2019-02-27.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-08-18.log      localhost_access_log.2019-02-28.txt  localhost_access_log.2019-07-24.txt
+catalina.2019-08-27.log      localhost_access_log.2019-03-01.txt  localhost_access_log.2019-08-01.txt
+catalina.2019-09-04.log      localhost_access_log.2019-03-04.txt  localhost_access_log.2019-08-02.txt
+catalina.2019-09-12.log      localhost_access_log.2019-03-05.txt  localhost_access_log.2019-08-05.txt
+catalina.out                 localhost_access_log.2019-03-08.txt  localhost_access_log.2019-08-06.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-03-18.txt  localhost_access_log.2019-08-16.txt
+host-manager.2019-02-06.log  localhost_access_log.2019-03-21.txt  localhost_access_log.2019-08-18.txt
+host-manager.2019-02-27.log  localhost_access_log.2019-03-28.txt  localhost_access_log.2019-08-19.txt
+host-manager.2019-03-05.log  localhost_access_log.2019-04-08.txt  localhost_access_log.2019-08-22.txt
+host-manager.2019-04-29.log  localhost_access_log.2019-04-09.txt  localhost_access_log.2019-08-23.txt
+host-manager.2019-08-18.log  localhost_access_log.2019-04-15.txt  localhost_access_log.2019-08-27.txt
+localhost.2019-01-07.log     localhost_access_log.2019-04-16.txt  localhost_access_log.2019-08-28.txt
+localhost.2019-01-23.log     localhost_access_log.2019-04-17.txt  localhost_access_log.2019-09-03.txt
+localhost.2019-02-07.log     localhost_access_log.2019-04-18.txt  localhost_access_log.2019-09-04.txt
+localhost.2019-02-08.log     localhost_access_log.2019-04-22.txt  localhost_access_log.2019-09-09.txt
+localhost.2019-02-20.log     localhost_access_log.2019-04-25.txt  localhost_access_log.2019-09-12.txt
+localhost.2019-02-27.log     localhost_access_log.2019-04-26.txt  localhost_access_log.2019-09-16.txt
+localhost.2019-02-28.log     localhost_access_log.2019-04-29.txt  localhost_access_log.2019-09-17.txt
+localhost.2019-03-01.log     localhost_access_log.2019-04-30.txt  localhost_access_log.2019-09-24.txt
+localhost.2019-03-05.log     localhost_access_log.2019-05-01.txt  localhost_access_log.2019-09-30.txt
+localhost.2019-03-08.log     localhost_access_log.2019-05-02.txt  localhost_access_log.2019-10-01.txt
+localhost.2019-03-18.log     localhost_access_log.2019-05-04.txt  manager.2019-01-07.log
+localhost.2019-03-21.log     localhost_access_log.2019-05-07.txt  manager.2019-02-06.log
+localhost.2019-04-29.log     localhost_access_log.2019-05-08.txt  manager.2019-02-27.log
+localhost.2019-05-07.log     localhost_access_log.2019-05-09.txt  manager.2019-03-05.log
+localhost.2019-05-21.log     localhost_access_log.2019-05-10.txt  manager.2019-04-29.log
+localhost.2019-05-24.log     localhost_access_log.2019-05-13.txt  manager.2019-08-18.log
+localhost.2019-08-18.log     localhost_access_log.2019-05-14.txt  SystemOut.log
+localhost.2019-08-19.log     localhost_access_log.2019-05-15.txt  tomcat.pid
+localhost.2019-08-27.log     localhost_access_log.2019-05-21.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ lstail.com[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03[hchada@CGDCSSL1051UL syt03]$ cd logs
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2019-09-04.log             localhost_access_log.2019-05-24.txt
+catalina.2019-01-07.log      localhost.2019-09-12.log             localhost_access_log.2019-05-30.txt
+catalina.2019-01-23.log      localhost_access_log.2019-01-07.txt  localhost_access_log.2019-06-04.txt
+catalina.2019-02-07.log      localhost_access_log.2019-01-08.txt  localhost_access_log.2019-06-05.txt
+catalina.2019-02-08.log      localhost_access_log.2019-02-06.txt  localhost_access_log.2019-06-06.txt
+catalina.2019-02-20.log      localhost_access_log.2019-02-07.txt  localhost_access_log.2019-06-11.txt
+catalina.2019-02-27.log      localhost_access_log.2019-02-08.txt  localhost_access_log.2019-06-13.txt
+catalina.2019-02-28.log      localhost_access_log.2019-02-11.txt  localhost_access_log.2019-06-17.txt
+catalina.2019-03-05.log      localhost_access_log.2019-02-14.txt  localhost_access_log.2019-06-21.txt
+catalina.2019-03-08.log      localhost_access_log.2019-02-19.txt  localhost_access_log.2019-06-27.txt
+catalina.2019-03-18.log      localhost_access_log.2019-02-20.txt  localhost_access_log.2019-07-03.txt
+catalina.2019-03-20.log      localhost_access_log.2019-02-21.txt  localhost_access_log.2019-07-05.txt
+catalina.2019-03-21.log      localhost_access_log.2019-02-22.txt  localhost_access_log.2019-07-10.txt
+catalina.2019-04-29.log      localhost_access_log.2019-02-25.txt  localhost_access_log.2019-07-15.txt
+catalina.2019-05-07.log      localhost_access_log.2019-02-26.txt  localhost_access_log.2019-07-18.txt
+catalina.2019-05-21.log      localhost_access_log.2019-02-27.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-08-18.log      localhost_access_log.2019-02-28.txt  localhost_access_log.2019-07-24.txt
+catalina.2019-08-27.log      localhost_access_log.2019-03-01.txt  localhost_access_log.2019-08-01.txt
+catalina.2019-09-04.log      localhost_access_log.2019-03-04.txt  localhost_access_log.2019-08-02.txt
+catalina.2019-09-12.log      localhost_access_log.2019-03-05.txt  localhost_access_log.2019-08-05.txt
+catalina.out                 localhost_access_log.2019-03-08.txt  localhost_access_log.2019-08-06.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-03-18.txt  localhost_access_log.2019-08-16.txt
+host-manager.2019-02-06.log  localhost_access_log.2019-03-21.txt  localhost_access_log.2019-08-18.txt
+host-manager.2019-02-27.log  localhost_access_log.2019-03-28.txt  localhost_access_log.2019-08-19.txt
+host-manager.2019-03-05.log  localhost_access_log.2019-04-08.txt  localhost_access_log.2019-08-22.txt
+host-manager.2019-04-29.log  localhost_access_log.2019-04-09.txt  localhost_access_log.2019-08-23.txt
+host-manager.2019-08-18.log  localhost_access_log.2019-04-15.txt  localhost_access_log.2019-08-27.txt
+localhost.2019-01-07.log     localhost_access_log.2019-04-16.txt  localhost_access_log.2019-08-28.txt
+localhost.2019-01-23.log     localhost_access_log.2019-04-17.txt  localhost_access_log.2019-09-03.txt
+localhost.2019-02-07.log     localhost_access_log.2019-04-18.txt  localhost_access_log.2019-09-04.txt
+localhost.2019-02-08.log     localhost_access_log.2019-04-22.txt  localhost_access_log.2019-09-09.txt
+localhost.2019-02-20.log     localhost_access_log.2019-04-25.txt  localhost_access_log.2019-09-12.txt
+localhost.2019-02-27.log     localhost_access_log.2019-04-26.txt  localhost_access_log.2019-09-16.txt
+localhost.2019-02-28.log     localhost_access_log.2019-04-29.txt  localhost_access_log.2019-09-17.txt
+localhost.2019-03-01.log     localhost_access_log.2019-04-30.txt  localhost_access_log.2019-09-24.txt
+localhost.2019-03-05.log     localhost_access_log.2019-05-01.txt  localhost_access_log.2019-09-30.txt
+localhost.2019-03-08.log     localhost_access_log.2019-05-02.txt  localhost_access_log.2019-10-01.txt
+localhost.2019-03-18.log     localhost_access_log.2019-05-04.txt  manager.2019-01-07.log
+localhost.2019-03-21.log     localhost_access_log.2019-05-07.txt  manager.2019-02-06.log
+localhost.2019-04-29.log     localhost_access_log.2019-05-08.txt  manager.2019-02-27.log
+localhost.2019-05-07.log     localhost_access_log.2019-05-09.txt  manager.2019-03-05.log
+localhost.2019-05-21.log     localhost_access_log.2019-05-10.txt  manager.2019-04-29.log
+localhost.2019-05-24.log     localhost_access_log.2019-05-13.txt  manager.2019-08-18.log
+localhost.2019-08-18.log     localhost_access_log.2019-05-14.txt  SystemOut.log
+localhost.2019-08-19.log     localhost_access_log.2019-05-15.txt  tomcat.pid
+localhost.2019-08-27.log     localhost_access_log.2019-05-21.txt
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ tail -f SystemOut.log
+2019-10-01 11:27:44 [http-nio-18082-exec-38] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+2019-10-01 11:35:45 [http-nio-18082-exec-40] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+
+
+
+^^[[A^[[B^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ tail -f SystemOut.log
+2019-10-01 11:27:44 [http-nio-18082-exec-38] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+2019-10-01 11:35:45 [http-nio-18082-exec-40] ERROR g.c.d.e.d.u.DocuSignUtil - Email address is a required field. 
+2019-10-01 12:17:07 [http-nio-18082-exec-32] INFO  g.c.d.e.s.i.EFSAuthenticationServiceImpl - New token updated successfully in property file.
+2019-10-01 12:17:09 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for create envelop docusign API call:- 2 sec
+2019-10-01 12:17:09 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-10-01 12:17:09 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-10-01 12:17:10 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get recipient url docusign API call:- 0 sec
+2019-10-01 12:17:10 [http-nio-18082-exec-32] INFO  g.c.d.e.e.c.DocuSignController - Response time for createEnvelope API call:- 3 sec
+^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs[hchada@CGDCSSL1051UL logs]$ cd archive
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ ls
+SystemOut.log.2019-03-08.0.log  SystemOut.log.2019-05-10.0.log  SystemOut.log.2019-07-24.0.log
+SystemOut.log.2019-03-18.0.log  SystemOut.log.2019-05-13.0.log  SystemOut.log.2019-08-01.0.log
+SystemOut.log.2019-03-21.0.log  SystemOut.log.2019-05-14.0.log  SystemOut.log.2019-08-02.0.log
+SystemOut.log.2019-03-28.0.log  SystemOut.log.2019-05-15.0.log  SystemOut.log.2019-08-05.0.log
+SystemOut.log.2019-04-08.0.log  SystemOut.log.2019-05-21.0.log  SystemOut.log.2019-08-06.0.log
+SystemOut.log.2019-04-09.0.log  SystemOut.log.2019-05-24.0.log  SystemOut.log.2019-08-16.0.log
+SystemOut.log.2019-04-15.0.log  SystemOut.log.2019-05-30.0.log  SystemOut.log.2019-08-18.0.log
+SystemOut.log.2019-04-16.0.log  SystemOut.log.2019-06-04.0.log  SystemOut.log.2019-08-19.0.log
+SystemOut.log.2019-04-17.0.log  SystemOut.log.2019-06-05.0.log  SystemOut.log.2019-08-22.0.log
+SystemOut.log.2019-04-18.0.log  SystemOut.log.2019-06-06.0.log  SystemOut.log.2019-08-23.0.log
+SystemOut.log.2019-04-22.0.log  SystemOut.log.2019-06-11.0.log  SystemOut.log.2019-08-27.0.log
+SystemOut.log.2019-04-25.0.log  SystemOut.log.2019-06-13.0.log  SystemOut.log.2019-08-28.0.log
+SystemOut.log.2019-04-26.0.log  SystemOut.log.2019-06-17.0.log  SystemOut.log.2019-09-03.0.log
+SystemOut.log.2019-04-29.0.log  SystemOut.log.2019-06-21.0.log  SystemOut.log.2019-09-04.0.log
+SystemOut.log.2019-04-30.0.log  SystemOut.log.2019-06-27.0.log  SystemOut.log.2019-09-09.0.log
+SystemOut.log.2019-05-01.0.log  SystemOut.log.2019-07-03.0.log  SystemOut.log.2019-09-12.0.log
+SystemOut.log.2019-05-02.0.log  SystemOut.log.2019-07-05.0.log  SystemOut.log.2019-09-17.0.log
+SystemOut.log.2019-05-04.0.log  SystemOut.log.2019-07-10.0.log  SystemOut.log.2019-09-24.0.log
+SystemOut.log.2019-05-07.0.log  SystemOut.log.2019-07-15.0.log  SystemOut.log.2019-09-30.0.log
+SystemOut.log.2019-05-08.0.log  SystemOut.log.2019-07-18.0.log
+SystemOut.log.2019-05-09.0.log  SystemOut.log.2019-07-23.0.log
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ ls -l;agrt
+total 1008
+-rw-r-----. 1 tomadmin tomadmin  24741 Mar  8  2019 SystemOut.log.2019-03-08.0.log
+-rw-r-----. 1 tomadmin tomadmin  23755 Mar 18  2019 SystemOut.log.2019-03-18.0.log
+-rw-r-----. 1 tomadmin tomadmin  26219 Mar 21  2019 SystemOut.log.2019-03-21.0.log
+-rw-r-----. 1 tomadmin tomadmin   4940 Mar 28  2019 SystemOut.log.2019-03-28.0.log
+-rw-r-----. 1 tomadmin tomadmin   1976 Apr  8 12:48 SystemOut.log.2019-04-08.0.log
+-rw-r-----. 1 tomadmin tomadmin   4940 Apr  9 14:11 SystemOut.log.2019-04-09.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Apr 15 12:05 SystemOut.log.2019-04-15.0.log
+-rw-r-----. 1 tomadmin tomadmin   2964 Apr 16 16:58 SystemOut.log.2019-04-16.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Apr 17 09:50 SystemOut.log.2019-04-17.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Apr 18 15:36 SystemOut.log.2019-04-18.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Apr 22 13:30 SystemOut.log.2019-04-22.0.log
+-rw-r-----. 1 tomadmin tomadmin   5928 Apr 25 15:20 SystemOut.log.2019-04-25.0.log
+-rw-r-----. 1 tomadmin tomadmin   5928 Apr 26 15:09 SystemOut.log.2019-04-26.0.log
+-rw-r-----. 1 tomadmin tomadmin  24648 Apr 29 17:52 SystemOut.log.2019-04-29.0.log
+-rw-r-----. 1 tomadmin tomadmin   4054 Apr 30 16:20 SystemOut.log.2019-04-30.0.log
+-rw-r-----. 1 tomadmin tomadmin   9808 May  1 22:35 SystemOut.log.2019-05-01.0.log
+-rw-r-----. 1 tomadmin tomadmin    980 May  2 11:57 SystemOut.log.2019-05-02.0.log
+-rw-r-----. 1 tomadmin tomadmin   2940 May  4 10:42 SystemOut.log.2019-05-04.0.log
+-rw-r-----. 1 tomadmin tomadmin  45313 May  7 18:16 SystemOut.log.2019-05-07.0.log
+-rw-r-----. 1 tomadmin tomadmin   4452 May  8 18:50 SystemOut.log.2019-05-08.0.log
+-rw-r-----. 1 tomadmin tomadmin  99889 May  9 17:22 SystemOut.log.2019-05-09.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 May 10 13:40 SystemOut.log.2019-05-10.0.log
+-rw-r-----. 1 tomadmin tomadmin  18594 May 13 17:56 SystemOut.log.2019-05-13.0.log
+-rw-r-----. 1 tomadmin tomadmin  35888 May 14 14:06 SystemOut.log.2019-05-14.0.log
+-rw-r-----. 1 tomadmin tomadmin 125381 May 15 13:13 SystemOut.log.2019-05-15.0.log
+-rw-r-----. 1 tomadmin tomadmin  23496 May 21 15:15 SystemOut.log.2019-05-21.0.log
+-rw-r-----. 1 tomadmin tomadmin  31446 May 24 11:49 SystemOut.log.2019-05-24.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 May 30 15:45 SystemOut.log.2019-05-30.0.log
+-rw-r-----. 1 tomadmin tomadmin  27232 Jun  4 15:56 SystemOut.log.2019-06-04.0.log
+-rw-r-----. 1 tomadmin tomadmin  32172 Jun  5 17:11 SystemOut.log.2019-06-05.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Jun  6 15:31 SystemOut.log.2019-06-06.0.log
+-rw-r-----. 1 tomadmin tomadmin   2964 Jun 11 15:11 SystemOut.log.2019-06-11.0.log
+-rw-r-----. 1 tomadmin tomadmin  31184 Jun 13 17:57 SystemOut.log.2019-06-13.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Jun 17 13:57 SystemOut.log.2019-06-17.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Jun 21 17:33 SystemOut.log.2019-06-21.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Jun 27 15:55 SystemOut.log.2019-06-27.0.log
+-rw-r-----. 1 tomadmin tomadmin    825 Jul  3 09:38 SystemOut.log.2019-07-03.0.log
+-rw-r-----. 1 tomadmin tomadmin  35136 Jul  5 16:02 SystemOut.log.2019-07-05.0.log
+-rw-r-----. 1 tomadmin tomadmin  31184 Jul 10 15:16 SystemOut.log.2019-07-10.0.log
+-rw-r-----. 1 tomadmin tomadmin   4940 Jul 15 17:53 SystemOut.log.2019-07-15.0.log
+-rw-r-----. 1 tomadmin tomadmin   3952 Jul 18 14:20 SystemOut.log.2019-07-18.0.log
+-rw-r-----. 1 tomadmin tomadmin   2964 Jul 23 14:46 SystemOut.log.2019-07-23.0.log
+-rw-r-----. 1 tomadmin tomadmin  14230 Jul 24 13:46 SystemOut.log.2019-07-24.0.log
+-rw-r-----. 1 tomadmin tomadmin   2964 Aug  1 10:29 SystemOut.log.2019-08-01.0.log
+-rw-r-----. 1 tomadmin tomadmin   4940 Aug  2 14:56 SystemOut.log.2019-08-02.0.log
+-rw-r-----. 1 tomadmin tomadmin    988 Aug  5 13:55 SystemOut.log.2019-08-05.0.log
+-rw-r-----. 1 tomadmin tomadmin  27678 Aug  6 13:56 SystemOut.log.2019-08-06.0.log
+-rw-r-----. 1 tomadmin tomadmin   2964 Aug 16 14:44 SystemOut.log.2019-08-16.0.log
+-rw-r-----. 1 tomadmin tomadmin  20068 Aug 18 10:41 SystemOut.log.2019-08-18.0.log
+-rw-r-----. 1 tomadmin tomadmin   3200 Aug 19 09:12 SystemOut.log.2019-08-19.0.log
+-rw-r-----. 1 tomadmin tomadmin   2944 Aug 22 12:51 SystemOut.log.2019-08-22.0.log
+-rw-r-----. 1 tomadmin tomadmin   4904 Aug 23 17:25 SystemOut.log.2019-08-23.0.log
+-rw-r-----. 1 tomadmin tomadmin  19308 Aug 27 12:48 SystemOut.log.2019-08-27.0.log
+-rw-r-----. 1 tomadmin tomadmin   2052 Aug 28 11:30 SystemOut.log.2019-08-28.0.log
+-rw-r-----. 1 tomadmin tomadmin   2508 Sep  3 12:54 SystemOut.log.2019-09-03.0.log
+-rw-r-----. 1 tomadmin tomadmin  19308 Sep  4 15:38 SystemOut.log.2019-09-04.0.log
+-rw-r-----. 1 tomadmin tomadmin   4104 Sep  9 10:43 SystemOut.log.2019-09-09.0.log
+-rw-r-----. 1 tomadmin tomadmin  27885 Sep 12 12:11 SystemOut.log.2019-09-12.0.log
+-rw-r-----. 1 tomadmin tomadmin   4104 Sep 17 11:03 SystemOut.log.2019-09-17.0.log
+-rw-r-----. 1 tomadmin tomadmin   2052 Sep 24 18:07 SystemOut.log.2019-09-24.0.log
+-rw-r-----. 1 tomadmin tomadmin    114 Sep 30 14:19 SystemOut.log.2019-09-30.0.log
+-bash: agrt: command not found
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ ls -lagrt
+total 1024
+-rw-r-----. 1 tomadmin  24741 Mar  8  2019 SystemOut.log.2019-03-08.0.log
+-rw-r-----. 1 tomadmin  23755 Mar 18  2019 SystemOut.log.2019-03-18.0.log
+-rw-r-----. 1 tomadmin  26219 Mar 21  2019 SystemOut.log.2019-03-21.0.log
+-rw-r-----. 1 tomadmin   4940 Mar 28  2019 SystemOut.log.2019-03-28.0.log
+-rw-r-----. 1 tomadmin   1976 Apr  8 12:48 SystemOut.log.2019-04-08.0.log
+-rw-r-----. 1 tomadmin   4940 Apr  9 14:11 SystemOut.log.2019-04-09.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 15 12:05 SystemOut.log.2019-04-15.0.log
+-rw-r-----. 1 tomadmin   2964 Apr 16 16:58 SystemOut.log.2019-04-16.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 17 09:50 SystemOut.log.2019-04-17.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 18 15:36 SystemOut.log.2019-04-18.0.log
+-rw-r-----. 1 tomadmin   3952 Apr 22 13:30 SystemOut.log.2019-04-22.0.log
+-rw-r-----. 1 tomadmin   5928 Apr 25 15:20 SystemOut.log.2019-04-25.0.log
+-rw-r-----. 1 tomadmin   5928 Apr 26 15:09 SystemOut.log.2019-04-26.0.log
+-rw-r-----. 1 tomadmin  24648 Apr 29 17:52 SystemOut.log.2019-04-29.0.log
+-rw-r-----. 1 tomadmin   4054 Apr 30 16:20 SystemOut.log.2019-04-30.0.log
+-rw-r-----. 1 tomadmin   9808 May  1 22:35 SystemOut.log.2019-05-01.0.log
+-rw-r-----. 1 tomadmin    980 May  2 11:57 SystemOut.log.2019-05-02.0.log
+-rw-r-----. 1 tomadmin   2940 May  4 10:42 SystemOut.log.2019-05-04.0.log
+-rw-r-----. 1 tomadmin  45313 May  7 18:16 SystemOut.log.2019-05-07.0.log
+-rw-r-----. 1 tomadmin   4452 May  8 18:50 SystemOut.log.2019-05-08.0.log
+-rw-r-----. 1 tomadmin  99889 May  9 17:22 SystemOut.log.2019-05-09.0.log
+-rw-r-----. 1 tomadmin   3952 May 10 13:40 SystemOut.log.2019-05-10.0.log
+-rw-r-----. 1 tomadmin  18594 May 13 17:56 SystemOut.log.2019-05-13.0.log
+-rw-r-----. 1 tomadmin  35888 May 14 14:06 SystemOut.log.2019-05-14.0.log
+-rw-r-----. 1 tomadmin 125381 May 15 13:13 SystemOut.log.2019-05-15.0.log
+-rw-r-----. 1 tomadmin  23496 May 21 15:15 SystemOut.log.2019-05-21.0.log
+-rw-r-----. 1 tomadmin  31446 May 24 11:49 SystemOut.log.2019-05-24.0.log
+-rw-r-----. 1 tomadmin   3952 May 30 15:45 SystemOut.log.2019-05-30.0.log
+-rw-r-----. 1 tomadmin  27232 Jun  4 15:56 SystemOut.log.2019-06-04.0.log
+-rw-r-----. 1 tomadmin  32172 Jun  5 17:11 SystemOut.log.2019-06-05.0.log
+-rw-r-----. 1 tomadmin   3952 Jun  6 15:31 SystemOut.log.2019-06-06.0.log
+-rw-r-----. 1 tomadmin   2964 Jun 11 15:11 SystemOut.log.2019-06-11.0.log
+-rw-r-----. 1 tomadmin  31184 Jun 13 17:57 SystemOut.log.2019-06-13.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 17 13:57 SystemOut.log.2019-06-17.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 21 17:33 SystemOut.log.2019-06-21.0.log
+-rw-r-----. 1 tomadmin   3952 Jun 27 15:55 SystemOut.log.2019-06-27.0.log
+-rw-r-----. 1 tomadmin    825 Jul  3 09:38 SystemOut.log.2019-07-03.0.log
+-rw-r-----. 1 tomadmin  35136 Jul  5 16:02 SystemOut.log.2019-07-05.0.log
+-rw-r-----. 1 tomadmin  31184 Jul 10 15:16 SystemOut.log.2019-07-10.0.log
+-rw-r-----. 1 tomadmin   4940 Jul 15 17:53 SystemOut.log.2019-07-15.0.log
+-rw-r-----. 1 tomadmin   3952 Jul 18 14:20 SystemOut.log.2019-07-18.0.log
+-rw-r-----. 1 tomadmin   2964 Jul 23 14:46 SystemOut.log.2019-07-23.0.log
+-rw-r-----. 1 tomadmin  14230 Jul 24 13:46 SystemOut.log.2019-07-24.0.log
+-rw-r-----. 1 tomadmin   2964 Aug  1 10:29 SystemOut.log.2019-08-01.0.log
+-rw-r-----. 1 tomadmin   4940 Aug  2 14:56 SystemOut.log.2019-08-02.0.log
+-rw-r-----. 1 tomadmin    988 Aug  5 13:55 SystemOut.log.2019-08-05.0.log
+-rw-r-----. 1 tomadmin  27678 Aug  6 13:56 SystemOut.log.2019-08-06.0.log
+-rw-r-----. 1 tomadmin   2964 Aug 16 14:44 SystemOut.log.2019-08-16.0.log
+-rw-r-----. 1 tomadmin  20068 Aug 18 10:41 SystemOut.log.2019-08-18.0.log
+-rw-r-----. 1 tomadmin   3200 Aug 19 09:12 SystemOut.log.2019-08-19.0.log
+-rw-r-----. 1 tomadmin   2944 Aug 22 12:51 SystemOut.log.2019-08-22.0.log
+-rw-r-----. 1 tomadmin   4904 Aug 23 17:25 SystemOut.log.2019-08-23.0.log
+-rw-r-----. 1 tomadmin  19308 Aug 27 12:48 SystemOut.log.2019-08-27.0.log
+-rw-r-----. 1 tomadmin   2052 Aug 28 11:30 SystemOut.log.2019-08-28.0.log
+-rw-r-----. 1 tomadmin   2508 Sep  3 12:54 SystemOut.log.2019-09-03.0.log
+-rw-r-----. 1 tomadmin  19308 Sep  4 15:38 SystemOut.log.2019-09-04.0.log
+-rw-r-----. 1 tomadmin   4104 Sep  9 10:43 SystemOut.log.2019-09-09.0.log
+-rw-r-----. 1 tomadmin  27885 Sep 12 12:11 SystemOut.log.2019-09-12.0.log
+-rw-r-----. 1 tomadmin   4104 Sep 17 11:03 SystemOut.log.2019-09-17.0.log
+-rw-r-----. 1 tomadmin   2052 Sep 24 18:07 SystemOut.log.2019-09-24.0.log
+-rw-r-----. 1 tomadmin    114 Sep 30 14:19 SystemOut.log.2019-09-30.0.log
+drwxr-x---. 2 tomadmin   4096 Oct  1 11:27 [0m[01;34m.[0m
+drwxrwxr-x. 3 tomadmin  12288 Oct  1 11:27 [01;34m..[0m
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi S[KSystemOut.log.2019-09-24.0.log
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[46;1H"SystemOut.log.2019-09-24.0.log" [readonly] 16L, 2052C[1;1H2019-09-24 18:06:57 [http-nio-18082-exec-32] INFO  g.c.d.e.s.i.EFSAuthenticationServiceImpl - New token updated successfully  [2;1Hin property file.
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for create envelop docuss[4;1Hign API call:- 1 sec
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get recipient url doo[8;1Hcusign API call:- 0 sec
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.e.c.DocuSignController - Response time for createEnvelope API calll[10;1H:- 2 sec
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get envelop documentt[14;1H list docusign API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusigg[18;1Hn API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusigg[22;1Hn API call:- 0 sec
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.e.c.DocuSignController - Response time for getAllDocuments API call[24;1Hl:- 1 sec
+[1m[34m~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [1;1H[?12l[?25h
+
+[1;1H
+
+[1;1H
+
+
+
+
+
+
+
+
+
+
+
+[12;1H[11;1H[9;1H[7;1H[6;1H[5;1H[3;1H[1;1H[?25l[m[46;1H[K[46;1H:[?12l[?25hq![?25l[46;1H[K[46;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi SystemOut.log
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[46;1H"SystemOut.log" [New File][2;1H[1m[34m~                                                                                                                            [3;1H~                                                                                                                            [4;1H~                                                                                                                            [5;1H~                                                                                                                            [6;1H~                                                                                                                            [7;1H~                                                                                                                            [8;1H~                                                                                                                            [9;1H~                                                                                                                            [10;1H~                                                                                                                            [11;1H~                                                                                                                            [12;1H~                                                                                                                            [13;1H~                                                                                                                            [14;1H~                                                                                                                            [15;1H~                                                                                                                            [16;1H~                                                                                                                            [17;1H~                                                                                                                            [18;1H~                                                                                                                            [19;1H~                                                                                                                            [20;1H~                                                                                                                            [21;1H~                                                                                                                            [22;1H~                                                                                                                            [23;1H~                                                                                                                            [24;1H~                                                                                                                            [25;1H~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [1;1H[?12l[?25h[?25l[m[46;1H[K[46;1H:[?12l[?25hq![?25l[46;1H[K[46;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi Systemout.l[K[K[K[K[Kut[K[KOut.log
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[46;1H"SystemOut.log" [New File][2;1H[1m[34m~                                                                                                                            [3;1H~                                                                                                                            [4;1H~                                                                                                                            [5;1H~                                                                                                                            [6;1H~                                                                                                                            [7;1H~                                                                                                                            [8;1H~                                                                                                                            [9;1H~                                                                                                                            [10;1H~                                                                                                                            [11;1H~                                                                                                                            [12;1H~                                                                                                                            [13;1H~                                                                                                                            [14;1H~                                                                                                                            [15;1H~                                                                                                                            [16;1H~                                                                                                                            [17;1H~                                                                                                                            [18;1H~                                                                                                                            [19;1H~                                                                                                                            [20;1H~                                                                                                                            [21;1H~                                                                                                                            [22;1H~                                                                                                                            [23;1H~                                                                                                                            [24;1H~                                                                                                                            [25;1H~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [1;1H[?12l[?25h[?25l[m[46;1H[K[46;1H:[?12l[?25hq1[?25l[1m[37m[41mE488: Trailing characters[1;1H[?12l[?25h[?25l[m[46;1H[K[46;1H:[?12l[?25hq![?25l[46;1H[K[46;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi SystemOut.log.2019-09-24.0.log\
+> ^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi SystemOut.log.2019-09-24.0.log\
+> ^C
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ vi SystemOut.log.2019-09-24.0.log\[K
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[46;1H"SystemOut.log.2019-09-24.0.log" [readonly] 16L, 2052C[1;1H2019-09-24 18:06:57 [http-nio-18082-exec-32] INFO  g.c.d.e.s.i.EFSAuthenticationServiceImpl - New token updated successfully  [2;1Hin property file.
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for create envelop docuss[4;1Hign API call:- 1 sec
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get recipient url doo[8;1Hcusign API call:- 0 sec
+2019-09-24 18:06:59 [http-nio-18082-exec-32] INFO  g.c.d.e.e.c.DocuSignController - Response time for createEnvelope API calll[10;1H:- 2 sec
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:25 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get envelop documentt[14;1H list docusign API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusigg[18;1Hn API call:- 0 sec
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Enter method createHeader
+2019-09-24 18:07:26 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Exit method createHeader
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.d.s.i.DocuSignServiceImpl - Response time for get document docusigg[22;1Hn API call:- 0 sec
+2019-09-24 18:07:27 [http-nio-18082-exec-34] INFO  g.c.d.e.e.c.DocuSignController - Response time for getAllDocuments API call[24;1Hl:- 1 sec
+[1m[34m~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [1;1H[?12l[?25h[?25l[m[46;1H[K[46;1H:[?12l[?25hQ![?25l[1m[37m[41mE492: Not an editor command: Q![1;1H[?12l[?25h[?25l[m[46;1H[K[46;1H:[?12l[?25hq![?25l[46;1H[K[46;1H[?1l>[?12l[?25h[?1049l]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ pwd
+/forms/tomcat8/syt03/logs/archive
+]0;hchada@CGDCSSL1051UL:/forms/tomcat8/syt03/logs/archive[hchada@CGDCSSL1051UL archive]$ exit
+logout

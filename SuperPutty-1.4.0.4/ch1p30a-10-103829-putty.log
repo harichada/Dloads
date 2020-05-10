@@ -1,0 +1,110 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.10 10:38:29 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct 10 10:01:31 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] exitcp /ipm/south/olbt02.pdf /var/pd/hotfolders/5001pl01/usr/lpp/pd/bin/ipguiadvadm                         cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5001pl01/usr/lpp/pd/bin/ipguiadvadm                         /usr/lpp/pd/bin/ipguiadvadm *&
+[1]     37224498
+ankcseprda18[/ipm/south] porttest 169.2.167.173
+NO,YES,NO,NOankcseprda18[/ipm/south] which porttest
+/ipm/south/porttest
+ankcseprda18[/ipm/south] more port      
+port: A file or directory in the path name does not exist.
+[?1049h[46;1H[K[?1049l[?1l>ankcseprda18[/ipm/south] more porttest
+[?1049h[46;1H[K#!/usr/bin/perl
+
+use IO::Socket;
+use Net::SNMP;
+
+$host=shift @ARGV;
+$port1=5001;
+$port2=9100;
+$port3=9600;
+
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port1, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+
+if ( $socket ) {
+   print "YES,";
+}
+else {
+   print "NO,";
+}
+
+close $socket;
+
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port2, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+
+if ( $socket ) {                                               
+   print "YES,";
+}                                                              
+else {                                                         
+   print "NO,";
+}                                                              
+close $socket;                                      
+
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port3, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+
+if ( $socket ) {
+   print "YES,";
+}
+else {
+   print "NO,";
+}
+close $socket;
+
+($session,$error)=Net::SNMP->session(
+        -hostname=> $host, 
+        -community=> 'public', 
+        -port=>161
+[46;1H[K[7mporttest (71%)[27m[46;1H[46;1H[K);
+
+if (!defined($session)) {
+   printf("ERROR %s\n",$error);
+};
+
+if (!defined($response = $session->get_request('1.3.6.1.2.1.1.1.0'))){
+   print "NO";
+   $session->close();
+}
+else {
+   print "YES";
+
+#$ans=$response->{'1.3.6.1.2.1.1.1.0'};
+
+#if ($ans =~ /0x/ ) {
+#   $newans=pack("H*", $ans);
+#   $newans=~ s/[^A-Za-z0-9 ]//g;
+#   printf ("%s\n", $newans);
+#}
+#else {
+#   printf ("%s\n", $ans)
+#}
+}
+
+[46;1H[K[7mporttest: END[27m[46;1H[46;1H[K[?1049l[?1l>ankcseprda18[/ipm/south] grep 5001 porttest
+$port1=5001;
+ankcseprda18[/ipm/south] grep port porttest
+$port1=5001;
+$port2=9100;
+$port3=9600;
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port1, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port2, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+$socket=IO::Socket::INET->new(PeerAddr=> $host, PeerPort=> $port3, Proto=> 'tcp', Type=> SOCK_STREAM, Timeout=>15);
+        -port=>161
+ankcseprda18[/ipm/south] grep port porttestgrep 5001 porttestmore porttest     more port    which porttestporttest 169.2.167.173
+YES,YES,NO,NOankcseprda18[/ipm/south] porttest 169.2.167.173grep port porttest    grep 5001 porttestmore porttest     more port    which porttestporttest 169.2.167.173/usr/lpp/pd/bin/ipguiadvadm &exit                         cp /ipm/south/olbt02.pdf /var/pd/hotfolders/5001pl01cp /ipm/south/olbt02.pdf /var/pd/hotfolders/001pl01 01pl01 1pl01 pl01 5pl014pl010pl011pl01
+ankcseprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

@@ -1,0 +1,93 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.07 14:48:55 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Tue Oct  9 11:57:11 PDT 2018 on ssh from 169.2.108.102
+Last login: Thu Nov  7 14:48:55 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ cd /usr
+ankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ cd    clear
+[H[2Jankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ pdadmin
+pdadmin> login -a sec_master
+Enter Password: 
+Error: HPDIA0200W   Authentication failed. You have used an invalid user name, password or client certificate. (status 0x132120c8)
+pdadmin> pdadmin>  login -a sec_master
+Enter Password: 
+pdadmin sec_master> server list
+    amwpm-csehap008
+    csehap010-10.31.101.83
+    appserver-cg1p02a
+    csehws003.cse.ca.gov-csehws003.cse.ca.gov
+    appserver_85-cg1p02a
+    ivmgrd-master
+    csehws003-10.31.101.79
+    csehws006-webseald-csehws006
+pdadmin sec_master> server task csehws006-webseald-csehws006 list
+/ccsas-icmrm
+/ccsas-sya01
+/cm
+/cse
+/epmstatic
+/interop
+/raframework
+/workspace
+/
+pdadmin sec_master> pdadmin sec_master>  server task csehws006-webseald-csehws006 list pdadmin sec_master> server task csehws006-webseald-csehws006 lis pdadmin sec_master> server task csehws006-webseald-csehws006 li pdadmin sec_master> server task csehws006-webseald-csehws006 l pdadmin sec_master> server task csehws006-webseald-csehws006 show /cm
+    Junction point: /cm
+    Type: TCP
+    Junction hard limit: 0 - using global value
+    Junction soft limit: 0 - using global value
+    Active worker threads: 0
+    Basic authentication mode: filter
+    Forms based SSO: disabled
+    TFIM junction SSO: no
+    Authentication HTTP header: insert - iv_user 
+    Remote Address HTTP header: do not insert
+    Stateful junction: no
+    Boolean Rule Header: no
+    Scripting support: yes
+    Preserve cookie names: no
+    Cookie names include path: no
+    Transparent Path junction: no
+    Delegation support: no
+    Mutually authenticated: no
+    Insert WebSphere LTPA cookies: no
+    Insert WebSEAL session cookies: no
+    Request Encoding: UTF-8, URI Encoded
+    Server 1:
+        ID: fc16a17c-dac7-11da-b998-000d600a9938
+        Server State: not running
+        Operational State: Online
+        Hostname: csehap018.cse.ca.gov
+        Port: 80
+        Virtual hostname: csehap018.cse.ca.gov
+        Server DN: 
+        local IP address: 
+        Query_contents URL: /cgi-bin/query_contents
+        Query-contents: unknown
+        Case insensitive URLs: no
+        Allow Windows-style URLs: no
+        Current requests : 0
+        Total requests : 38891
+pdadmin sec_master> exit
+ankcsesyaw01[/usr]$ exit

@@ -1,0 +1,355 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.17 16:10:10 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "skiran".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Tue Sep 17 10:41:08 2019 from cgdcssl1052ul.calcloud.local
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;skiran@DCSSL1009:~[?1034h[skiran@DCSSL1009 ~]$ more /etc/host
+/etc/host: No such file or directory
+]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ more /etc/hosts[K
+host.conf       hosts           hosts.09112019  hosts.allow     
+hostname        hosts.03192018  hosts.09172019  hosts.deny      
+[skiran@DCSSL1009 ~]$ more /etc/host
+host.conf       hosts           hosts.09112019  hosts.allow     
+hostname        hosts.03192018  hosts.09172019  hosts.deny      
+[skiran@DCSSL1009 ~]$ more /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+100.95.22.90	DCSSL1009.calcloud.local DCSSL1009 enterprisedashboard.dcss.ca.gov
+100.95.22.88    DCSSL1008.calcloud.local DCSSL1008 devtestportal.dcss.ca.gov
+100.95.22.91    DCSSL1011.calcloud.local DCSSL1011 devtestvse.dcss.ca.gov
+100.95.22.93    DCSSL1014.calcloud.local DCSSL1014
+100.95.22.94    DCSSL1013.calcloud.local DCSSL1013
+100.95.22.95    DCSSL1015.calcloud.local DCSSL1015
+]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ vi hosts.09172019
+[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1H"hosts.09172019" [New File][2;1H[1m[34m~                                                                                                                            [3;1H~                                                                                                                            [4;1H~                                                                                                                            [5;1H~                                                                                                                            [6;1H~                                                                                                                            [7;1H~                                                                                                                            [8;1H~                                                                                                                            [9;1H~                                                                                                                            [10;1H~                                                                                                                            [11;1H~                                                                                                                            [12;1H~                                                                                                                            [13;1H~                                                                                                                            [14;1H~                                                                                                                            [15;1H~                                                                                                                            [16;1H~                                                                                                                            [17;1H~                                                                                                                            [18;1H~                                                                                                                            [19;1H~                                                                                                                            [20;1H~                                                                                                                            [21;1H~                                                                                                                            [22;1H~                                                                                                                            [23;1H~                                                                                                                            [24;1H~                                                                                                                            [25;1H~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [46;1H~                                                                                                                            [47;1H~                                                                                                                            [48;1H~                                                                                                                            [49;1H~                                                                                                                            [50;1H~                                                                                                                            [51;1H~                                                                                                                            [52;1H~                                                                                                                            [53;1H~                                                                                                                            [54;1H~                                                                                                                            [55;1H~                                                                                                                            [56;1H~                                                                                                                            [57;1H~                                                                                                                            [58;1H~                                                                                                                            [59;1H~                                                                                                                            [60;1H~                                                                                                                            [61;1H~                                                                                                                            [62;1H~                                                                                                                            [63;1H~                                                                                                                            [64;1H~                                                                                                                            [65;1H~                                                                                                                            [66;1H~                                                                                                                            [67;1H~                                                                                                                            [68;1H~                                                                                                                            [69;1H~                                                                                                                            [70;1H~                                                                                                                            [71;1H~                                                                                                                            [72;1H~                                                                                                                            [73;1H~                                                                                                                            [74;1H~                                                                                                                            [75;1H~                                                                                                                            [76;1H~                                                                                                                            [77;1H~                                                                                                                            [78;1H~                                                                                                                            [79;1H~                                                                                                                            [80;1H~                                                                                                                            [81;1H~                                                                                                                            [82;1H~                                                                                                                            [83;1H~                                                                                                                            [84;1H~                                                                                                                            [85;1H~                                                                                                                            [86;1H~                                                                                                                            [87;1H~                                                                                                                            [88;1H~                                                                                                                            [89;1H~                                                                                                                            [90;1H~                                                                                                                            [91;1H~                                                                                                                            [92;1H~                                                                                                                            [93;1H~                                                                                                                            [94;1H~                                                                                                                            [1;1H[?12l[?25h[?25l[m[95;1H[K[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ vi hosts.09172019[C[C[C[C/hosts.09172019ehosts.09172019thosts.09172019chosts.09172019/hosts.09172019
+[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1H"/etc/hosts.09172019" [readonly] 68L, 4020C[1;1H127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1[9Clocalhost localhost.localdomain localhost6 localhost6.localdomain6
+
+100.95.22.90    DCSSL1009.calcloud.local DCSSL1009 enterprisedashboard.dcss.ca.gov
+100.95.22.88    DCSSL1008.calcloud.local DCSSL1008 devtestportal.dcss.ca.gov
+100.95.22.91    DCSSL1011.calcloud.local DCSSL1011 devtestvse.dcss.ca.gov
+100.95.22.93    DCSSL1014.calcloud.local DCSSL1014
+100.95.22.94    DCSSL1013.calcloud.local DCSSL1013
+100.95.22.95    DCSSL1015.calcloud.local DCSSL1015
+# EFS
+100.95.20.99    CGDCSSL1046UL.calcloud.local CGDCSSL1046UL syaws
+100.95.21.96    CGDCSSL1047UL.calcloud.local CGDCSSL1047UL syaas efssyaas
+100.95.21.97    CGDCSSL1048UL.calcloud.local CGDCSSL1048UL devas
+100.95.20.100   CGDCSSL1049UL.calcloud.local CGDCSSL1049UL devws
+100.95.20.101   CGDCSSL1050UL.calcloud.local CGDCSSL1050UL sytws
+100.95.21.98    CGDCSSL1051UL.calcloud.local CGDCSSL1051UL sytas
+100.95.20.102   CGDCSSL1052UL.calcloud.local CGDCSSL1052UL sqtws
+100.95.21.99    CGDCSSL1053UL.calcloud.local CGDCSSL1053UL sqtas
+100.95.20.65    CGDCSSL1054UL.calcloud.local CGDCSSL1054UL pft1ws1
+100.95.20.66    CGDCSSL1055UL.calcloud.local CGDCSSL1055UL pft1ws2
+100.95.21.64    CGDCSSL1056UL.calcloud.local CGDCSSL1056UL pft1as1
+100.95.21.69    CGDCSSL1057UL.calcloud.local CGDCSSL1057UL pft1as2
+100.95.20.67    CGDCSSL1058UL.calcloud.local CGDCSSL1058UL pft2ws1
+100.95.20.68    CGDCSSL1059UL.calcloud.local CGDCSSL1059UL pft2ws2
+100.95.21.70    CGDCSSL1060UL.calcloud.local CGDCSSL1060UL pft2as1
+100.95.21.71    CGDCSSL1061UL.calcloud.local CGDCSSL1061UL pft2as2
+100.95.20.15    CGDCSSL1062UL.calcloud.local CGDCSSL1062UL prodws1
+100.95.20.16    CGDCSSL1063UL.calcloud.local CGDCSSL1063UL prodws2
+100.95.21.16    CGDCSSL1064UL.calcloud.local CGDCSSL1064UL prodas1
+100.95.21.17    CGDCSSL1065UL.calcloud.local CGDCSSL1065UL prodas2
+
+# Customer Connect Servers
+100.95.20.103   CGDCSSL1073UL.calcloud.local CGDCSSL1073UL syawscc
+100.95.20.104   CGDCSSL1074UL.calcloud.local CGDCSSL1074UL sytwscc
+100.95.20.105   CGDCSSL1075UL.calcloud.local CGDCSSL1075UL sqtwscc
+100.95.20.106   CGDCSSL1076UL.calcloud.local CGDCSSL1076UL devwscc
+100.95.20.64    CGDCSSL1077UL.calcloud.local CGDCSSL1077UL pft1ws1cc
+100.95.20.69    CGDCSSL1078UL.calcloud.local CGDCSSL1078UL pft1ws2cc
+100.95.20.70    CGDCSSL1079UL.calcloud.local CGDCSSL1079UL pft2ws1cc
+100.95.20.71    CGDCSSL1080UL.calcloud.local CGDCSSL1080UL pft2ws2cc
+100.95.21.100   CGDCSSL1081UL.calcloud.local CGDCSSL1081UL devascc
+100.95.21.101   CGDCSSL1082UL.calcloud.local CGDCSSL1082UL sqtascc
+100.95.21.102   CGDCSSL1083UL.calcloud.local CGDCSSL1083UL syaascc
+100.95.21.103   CGDCSSL1084UL.calcloud.local CGDCSSL1084UL sytascc
+100.95.21.65    CGDCSSL1085UL.calcloud.local CGDCSSL1085UL pft1as1cc
+100.95.21.66    CGDCSSL1086UL.calcloud.local CGDCSSL1086UL pft1as2cc
+100.95.21.67    CGDCSSL1087UL.calcloud.local CGDCSSL1087UL pft2as1cc
+100.95.21.68    CGDCSSL1088UL.calcloud.local CGDCSSL1088UL pft2as2cc
+100.95.20.11    CGDCSSL1089UL.calcloud.local CGDCSSL1089UL prodws1cc
+100.95.20.17    CGDCSSL1090UL.calcloud.local CGDCSSL1090UL prodws2cc
+100.95.21.10    CGDCSSL1091UL.calcloud.local CGDCSSL1091UL prodas1cc
+100.95.21.11    CGDCSSL1092UL.calcloud.local CGDCSSL1092UL prodas2cc
+
+[inf]
+100.95.21.226   DCSSL1022UL.calcloud.local DCSSL1022UL syainf
+100.95.21.224   CGDCSSL1029UL.calcloud.local CGDCSSL1029UL devinf
+100.95.21.138   CGDCSSL1043UL.calcloud.local  CGDCSSL1043UL prodinf
+
+[sftp]
+100.95.20.10    CGDCSSL000028.calcloud.local CGDCSSL000028  prdsftp4
+100.95.20.13    CGDCSSL1038UL.calcloud.local CGDCSSL1038UL  prdsftp2
+100.95.20.14    CGDCSSL1039UL.calcloud.local CGDCSSL1039UL  prdsftp3
+100.95.20.96    CGDCSSL000031.calcloud.local CGDCSSL000031  tstsftp1
+100.95.20.97    CGDCSSL1040UL.calcloud.local CGDCSSL1040UL  tstsftp2
+100.95.20.98    CGDCSSL1041UL.calcloud.local CGDCSSL1041UL  tstsftp3
+100.95.22.12    CGDCSSL000075.calcloud.local CGDCSSL000075  prdsftp1
+100.95.22.81    CGDCSSL000074.calcloud.local CGDCSSL000074  tstsftp4
+
+[1m[34m~                                                                                                                            [70;1H~                                                                                                                            [71;1H~                                                                                                                            [72;1H~                                                                                                                            [73;1H~                                                                                                                            [74;1H~                                                                                                                            [75;1H~                                                                                                                            [76;1H~                                                                                                                            [77;1H~                                                                                                                            [78;1H~                                                                                                                            [79;1H~                                                                                                                            [80;1H~                                                                                                                            [81;1H~                                                                                                                            [82;1H~                                                                                                                            [83;1H~                                                                                                                            [84;1H~                                                                                                                            [85;1H~                                                                                                                            [86;1H~                                                                                                                            [87;1H~                                                                                                                            [88;1H~                                                                                                                            [89;1H~                                                                                                                            [90;1H~                                                                                                                            [91;1H~                                                                                                                            [92;1H~                                                                                                                            [93;1H~                                                                                                                            [94;1H~                                                                                                                            [1;1H[?12l[?25h
+[1;1H
+[1;1H[?25l[m[95;1H[K[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ cd a[K/etc/ansible/
+]0;skiran@DCSSL1009:/etc/ansible[skiran@DCSSL1009 ansible]$ ls
+ansible.cfg  hosts  [0m[01;34mroles[0m
+]0;skiran@DCSSL1009:/etc/ansible[skiran@DCSSL1009 ansible]$ more hosts
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# Ex 1: Ungrouped hosts, specify before any group headers.
+
+## green.example.com
+## blue.example.com
+## 192.168.100.1
+## 192.168.100.10
+
+# Ex 2: A collection of hosts belonging to the 'webservers' group
+
+## [webservers]
+## alpha.example.org
+## beta.example.org
+## 192.168.1.100
+## 192.168.1.110
+
+# If you have multiple hosts following a pattern you can specify
+# them like this:
+
+## www[001:006].example.com
+
+# Ex 3: A collection of database servers in the 'dbservers' group
+
+## [dbservers]
+## 
+## db01.intranet.mydomain.net
+## db02.intranet.mydomain.net
+## 10.25.1.56
+## 10.25.1.57
+
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+
+
+## db-[99:101]-node.example.com
+[dev-servers]
+100.95.22.91
+100.95.22.88
+
+[web-servers]
+100.95.22.79
+
+
+
+
+[efs]
+100.95.20.99    CGDCSSL1046UL.calcloud.local CGDCSSL1046UL syaws
+100.95.21.96    CGDCSSL1047UL.calcloud.local CGDCSSL1047UL syaas efs
+100.95.21.97    CGDCSSL1048UL.calcloud.local CGDCSSL1048UL devas
+100.95.20.100   CGDCSSL1049UL.calcloud.local CGDCSSL1049UL devws
+100.95.20.101   CGDCSSL1050UL.calcloud.local CGDCSSL1050UL sytws
+100.95.21.98    CGDCSSL1051UL.calcloud.local CGDCSSL1051UL sytas
+100.95.20.102   CGDCSSL1052UL.calcloud.local CGDCSSL1052UL sqtws
+100.95.21.99    CGDCSSL1053UL.calcloud.local CGDCSSL1053UL sqtas
+100.95.20.65    CGDCSSL1054UL.calcloud.local CGDCSSL1054UL pft1ws1
+100.95.20.66    CGDCSSL1055UL.calcloud.local CGDCSSL1055UL pft1ws2
+100.95.21.64    CGDCSSL1056UL.calcloud.local CGDCSSL1056UL pft1as1
+100.95.21.69    CGDCSSL1057UL.calcloud.local CGDCSSL1057UL pft1as2
+100.95.20.67    CGDCSSL1058UL.calcloud.local CGDCSSL1058UL pft2ws1
+100.95.20.68    CGDCSSL1059UL.calcloud.local CGDCSSL1059UL pft2ws2
+100.95.21.70    CGDCSSL1060UL.calcloud.local CGDCSSL1060UL pft2as1
+100.95.21.71    CGDCSSL1061UL.calcloud.local CGDCSSL1061UL pft2as2
+100.95.20.15    CGDCSSL1062UL.calcloud.local CGDCSSL1062UL prodws1
+100.95.20.16    CGDCSSL1063UL.calcloud.local CGDCSSL1063UL prodws2
+100.95.21.16    CGDCSSL1064UL.calcloud.local CGDCSSL1064UL prodas1
+100.95.21.17    CGDCSSL1065UL.calcloud.local CGDCSSL1065UL prodas2
+
+[cc]
+100.95.20.103   CGDCSSL1073UL.calcloud.local CGDCSSL1073UL syawscc
+100.95.20.104   CGDCSSL1074UL.calcloud.local CGDCSSL1074UL sytwscc
+100.95.20.105   CGDCSSL1075UL.calcloud.local CGDCSSL1075UL sqtwscc
+100.95.20.106   CGDCSSL1076UL.calcloud.local CGDCSSL1076UL devwscc
+100.95.20.64    CGDCSSL1077UL.calcloud.local CGDCSSL1077UL pft1ws1cc
+100.95.20.69    CGDCSSL1078UL.calcloud.local CGDCSSL1078UL pft1ws2cc
+100.95.20.70    CGDCSSL1079UL.calcloud.local CGDCSSL1079UL pft2ws1cc
+100.95.20.71    CGDCSSL1080UL.calcloud.local CGDCSSL1080UL pft2ws2cc
+100.95.21.100   CGDCSSL1081UL.calcloud.local CGDCSSL1081UL devascc
+100.95.21.101   CGDCSSL1082UL.calcloud.local CGDCSSL1082UL sqtascc
+100.95.21.102   CGDCSSL1083UL.calcloud.local CGDCSSL1083UL syaascc
+100.95.21.103   CGDCSSL1084UL.calcloud.local CGDCSSL1084UL sytascc
+100.95.21.65    CGDCSSL1085UL.calcloud.local CGDCSSL1085UL pft1as1cc
+100.95.21.66    CGDCSSL1086UL.calcloud.local CGDCSSL1086UL pft1as2cc
+100.95.21.67    CGDCSSL1087UL.calcloud.local CGDCSSL1087UL pft2as1cc
+100.95.21.68    CGDCSSL1088UL.calcloud.local CGDCSSL1088UL pft2as2cc
+100.95.20.11    CGDCSSL1089UL.calcloud.local CGDCSSL1089UL prodws1cc
+[7m--More--(78%)[27m[K]0;skiran@DCSSL1009:/etc/ansible[skiran@DCSSL1009 ansible]$ 1
+-bash: 1: command not found
+]0;skiran@DCSSL1009:/etc/ansible[skiran@DCSSL1009 ansible]$ ls
+ansible.cfg  hosts  [0m[01;34mroles[0m
+]0;skiran@DCSSL1009:/etc/ansible[skiran@DCSSL1009 ansible]$ cd ..
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ sl
+-bash: sl: command not found
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ vi /etc/hosts
+[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1H"/etc/hosts" [readonly] 9L, 543C[1;1H127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1[9Clocalhost localhost.localdomain localhost6 localhost6.localdomain6
+
+100.95.22.90    DCSSL1009.calcloud.local DCSSL1009 enterprisedashboard.dcss.ca.gov
+100.95.22.88    DCSSL1008.calcloud.local DCSSL1008 devtestportal.dcss.ca.gov
+100.95.22.91    DCSSL1011.calcloud.local DCSSL1011 devtestvse.dcss.ca.gov
+100.95.22.93    DCSSL1014.calcloud.local DCSSL1014
+100.95.22.94    DCSSL1013.calcloud.local DCSSL1013
+100.95.22.95    DCSSL1015.calcloud.local DCSSL1015
+[1m[34m~                                                                                                                            [11;1H~                                                                                                                            [12;1H~                                                                                                                            [13;1H~                                                                                                                            [14;1H~                                                                                                                            [15;1H~                                                                                                                            [16;1H~                                                                                                                            [17;1H~                                                                                                                            [18;1H~                                                                                                                            [19;1H~                                                                                                                            [20;1H~                                                                                                                            [21;1H~                                                                                                                            [22;1H~                                                                                                                            [23;1H~                                                                                                                            [24;1H~                                                                                                                            [25;1H~                                                                                                                            [26;1H~                                                                                                                            [27;1H~                                                                                                                            [28;1H~                                                                                                                            [29;1H~                                                                                                                            [30;1H~                                                                                                                            [31;1H~                                                                                                                            [32;1H~                                                                                                                            [33;1H~                                                                                                                            [34;1H~                                                                                                                            [35;1H~                                                                                                                            [36;1H~                                                                                                                            [37;1H~                                                                                                                            [38;1H~                                                                                                                            [39;1H~                                                                                                                            [40;1H~                                                                                                                            [41;1H~                                                                                                                            [42;1H~                                                                                                                            [43;1H~                                                                                                                            [44;1H~                                                                                                                            [45;1H~                                                                                                                            [46;1H~                                                                                                                            [47;1H~                                                                                                                            [48;1H~                                                                                                                            [49;1H~                                                                                                                            [50;1H~                                                                                                                            [51;1H~                                                                                                                            [52;1H~                                                                                                                            [53;1H~                                                                                                                            [54;1H~                                                                                                                            [55;1H~                                                                                                                            [56;1H~                                                                                                                            [57;1H~                                                                                                                            [58;1H~                                                                                                                            [59;1H~                                                                                                                            [60;1H~                                                                                                                            [61;1H~                                                                                                                            [62;1H~                                                                                                                            [63;1H~                                                                                                                            [64;1H~                                                                                                                            [65;1H~                                                                                                                            [66;1H~                                                                                                                            [67;1H~                                                                                                                            [68;1H~                                                                                                                            [69;1H~                                                                                                                            [70;1H~                                                                                                                            [71;1H~                                                                                                                            [72;1H~                                                                                                                            [73;1H~                                                                                                                            [74;1H~                                                                                                                            [75;1H~                                                                                                                            [76;1H~                                                                                                                            [77;1H~                                                                                                                            [78;1H~                                                                                                                            [79;1H~                                                                                                                            [80;1H~                                                                                                                            [81;1H~                                                                                                                            [82;1H~                                                                                                                            [83;1H~                                                                                                                            [84;1H~                                                                                                                            [85;1H~                                                                                                                            [86;1H~                                                                                                                            [87;1H~                                                                                                                            [88;1H~                                                                                                                            [89;1H~                                                                                                                            [90;1H~                                                                                                                            [91;1H~                                                                                                                            [92;1H~                                                                                                                            [93;1H~                                                                                                                            [94;1H~                                                                                                                            [1;1H[?12l[?25h[?25l[m[95;1HType  :quit<Enter>  to exit Vim[95;32H[K[1;1H[?12l[?25h[?25l[95;1H[K[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ ssh DCSSL1011.calcloud.local
+The authenticity of host 'dcssl1011.calcloud.local (100.95.22.91)' can't be established.
+ECDSA key fingerprint is SHA256:IZMd8w39IUByxXkhn8BzBHmTxavPzWiWfIAN+3Eis7A.
+ECDSA key fingerprint is MD5:72:a0:29:ac:8c:87:ef:1d:50:d2:8b:fc:79:49:ee:0e.
+Are you sure you want to continue connecting (yes/no)? ^C
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ cd /ec[Ktc/
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ ls
+adjtime                               hosts.allow                          [0m[01;34mppp[0m
+aide.conf                             hosts.deny                           [01;34mprelink.conf.d[0m
+aliases                               idmapd.conf                          printcap
+aliases.db                            [01;36minit.d[0m                               profile
+[01;34malternatives[0m                          inittab                              [01;34mprofile.d[0m
+anacrontab                            inputrc                              protocols
+anacrontab.8232.2019-05-03@16:20:18~  [01;34miproute2[0m                             [01;34mpython[0m
+[01;34mansible[0m                               issue                                [01;36mrc0.d[0m
+asound.conf                           issue.10239.2019-02-28@17:08:47~     [01;36mrc1.d[0m
+at.allow                              issue.net                            [01;36mrc2.d[0m
+[01;34maudisp[0m                                issue.net.orig                       [01;36mrc3.d[0m
+[01;34maudit[0m                                 kdump.conf                           [01;36mrc4.d[0m
+[01;34mavahi[0m                                 [01;34mkernel[0m                               [01;36mrc5.d[0m
+[01;34mbash_completion.d[0m                     krb5.conf                            [01;36mrc6.d[0m
+bashrc                                [01;34mkrb5.conf.d[0m                          [01;34mrc.d[0m
+[01;34mbinfmt.d[0m                              kshrc                                [01;36mrc.local[0m
+[01;34mchkconfig.d[0m                           ld-mfert.so.cache                    [01;34mrdma[0m
+chrony.conf                           ld-mfert.so.conf                     redhat-release
+chrony.conf.rpmnew                    ld-nails.so.cache                    request-key.conf
+chrony.keys                           ld-nails.so.conf                     [01;34mrequest-key.d[0m
+chrony.keys.rpmnew                    ld.so.cache                          resolv.conf
+[01;34mcifs-utils[0m                            ld.so.conf                           [01;34mrhsm[0m
+cma.conf                              [01;34mld.so.conf.d[0m                         rpc
+[01;34mcma.d[0m                                 libaudit.conf                        [01;34mrpm[0m
+cron.allow                            [01;34mlibnl[0m                                rsyncd.conf
+[01;34mcron.d[0m                                libuser.conf                         rsyslog.conf
+[01;34mcron.daily[0m                            locale.conf                          rsyslog.conf.20190410
+[01;34mcron.hourly[0m                           [01;36mlocaltime[0m                            rsyslog.conf.27536.2019-04-10@16:14:12~
+[01;34mcron.monthly[0m                          login.defs                           [01;34mrsyslog.d[0m
+crontab                               login.defs.20190318                  rwtab
+crontab.20190206                      login.defs.orig                      [01;34mrwtab.d[0m
+crontab.20190503                      logrotate.conf                       [01;34msamba[0m
+[01;34mcron.weekly[0m                           logrotate.conf.20190411              [01;34msasl2[0m
+crypttab                              [01;34mlogrotate.d[0m                          securetty
+csh.cshrc                             [01;34mlvm[0m                                  [01;34msecurity[0m
+csh.login                             machine-id                           [01;34mselinux[0m
+[01;34mdbus-1[0m                                [01;34mma.d[0m                                 services
+[01;34mdefault[0m                               magic                                sestatus.conf
+[01;34mdepmod.d[0m                              mail.rc                              [01;34msgml[0m
+dhclient-ens33.conf                   makedumpfile.conf.sample             shadow
+[01;34mdhcp[0m                                  man_db.conf                          shadow-
+DIR_COLORS                            mke2fs.conf                          shells
+DIR_COLORS.256color                   [01;34mmodprobe.d[0m                           shells.rpmnew
+DIR_COLORS.lightbgcolor               [01;34mmodules-load.d[0m                       [01;34mskel[0m
+[01;34mdnf[0m                                   motd                                 [01;34mssh[0m
+dnsmasq.conf                          motd.10114.2019-02-28@17:08:44~      [01;34mssl[0m
+[01;34mdnsmasq.d[0m                             [01;36mmtab[0m                                 [01;34msssd[0m
+dracut.conf                           my.cnf                               statetab
+[01;34mdracut.conf.d[0m                         [01;34mmy.cnf.d[0m                             [01;34mstatetab.d[0m
+e2fsck.conf                           netconfig                            subgid
+environment                           [01;34mNetworkManager[0m                       subuid
+ethertypes                            networks                             sudo.conf
+exports                               nfs.conf                             sudoers
+[01;34mexports.d[0m                             nfsmount.conf                        [01;34msudoers.d[0m
+[01;36mfavicon.png[0m                           nscd.conf                            sudo-ldap.conf
+filesystems                           nslcd.conf                           [01;34msysconfig[0m
+[01;34mfirewalld[0m                             nsswitch.conf                        sysctl.conf
+fstab                                 nsswitch.conf.bak                    [01;34msysctl.d[0m
+fstab.9142017                         nsswitch.conf.rpmnew                 [01;34msystemd[0m
+fuse.conf                             [01;34mntp[0m                                  [01;36msystem-release[0m
+[01;34mgcrypt[0m                                ntp.conf                             system-release-cpe
+GeoIP.conf                            ntp.conf.13563.2019-03-01@10:34:10~  tcsd.conf
+GeoIP.conf.default                    ntp.conf.43871.2019-02-12@11:55:05~  [01;34mterminfo[0m
+[01;34mgnupg[0m                                 [01;34moddjob[0m                               [01;34mtmpfiles.d[0m
+GREP_COLORS                           oddjobd.conf                         trusted-key.key
+[01;34mgroff[0m                                 [01;34moddjobd.conf.d[0m                       [01;34mtuned[0m
+group                                 [01;34mopenldap[0m                             [01;34mudev[0m
+group-                                [01;34mopt[0m                                  vconsole.conf
+[40;31;01mgrub2.cfg[0m                             os-release                           virc
+[01;34mgrub.d[0m                                os-release.rpmsave                   [01;34mvmware-caf[0m
+gshadow                               [01;34mpam.d[0m                                [01;34mvmware-tools[0m
+gshadow-                              passwd                               [01;34mwpa_supplicant[0m
+[01;34mgss[0m                                   passwd-                              [01;34mX11[0m
+[01;34mgssproxy[0m                              [01;34mpkcs11[0m                               [01;34mxdg[0m
+host.conf                             [01;34mpki[0m                                  [01;34mxinetd.d[0m
+hostname                              [01;34mplymouth[0m                             [01;34mxml[0m
+hosts                                 [01;34mpm[0m                                   [01;34myum[0m
+hosts.03192018                        [01;34mpolkit-1[0m                             yum.conf
+hosts.09112019                        [01;34mpopt.d[0m                               [01;34myum.repos.d[0m
+hosts.09172019                        [01;34mpostfix[0m
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ ls hosts*
+hosts  hosts.03192018  hosts.09112019  hosts.09172019  hosts.allow  hosts.deny
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ moer hosts.allow
+-bash: moer: command not found
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ more hosts.allow
+#
+# hosts.allow	This file contains access rules which are used to
+#		allow or deny connections to network services that
+#		either use the tcp_wrappers library or that have been
+#		started through a tcp_wrappers-enabled xinetd.
+#
+#		See 'man 5 hosts_options' and 'man 5 hosts_access'
+#		for information on rule syntax.
+#		See 'man tcpd' for information on tcp_wrappers
+#
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ more hosts.deny 
+#
+# hosts.deny	This file contains access rules which are used to
+#		deny connections to network services that either use
+#		the tcp_wrappers library or that have been
+#		started through a tcp_wrappers-enabled xinetd.
+#
+#		The rules in this file can also be set up in
+#		/etc/hosts.allow with a 'deny' option instead.
+#
+#		See 'man 5 hosts_options' and 'man 5 hosts_access'
+#		for information on rule syntax.
+#		See 'man tcpd' for information on tcp_wrappers
+#
+]0;skiran@DCSSL1009:/etc[skiran@DCSSL1009 etc]$ cl[K[Kce[Kd
+]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ ls
+[0m[01;34mansible[0m  [01;32mcontroller.cfg[0m  [01;32mrobot.cfg[0m  [01;32mrobot.cfg.01312019[0m  [01;32mrobot.cfg.new.20190131[0m
+]0;skiran@DCSSL1009:~[skiran@DCSSL1009 ~]$ exit
+logout

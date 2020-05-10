@@ -1,0 +1,345 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.20 10:07:37 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Wed Sep 11 08:36:18 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Sep 19 11:09:17 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm
+
+[1] + Stopped (SIGTSTP)        /usr/lpp/pd/bin/ipguiadvadm
+ankcseprda06[/ipm/south] history `1  `   1 | grep pdq
+5       pdq -U -rv -p 0402pl01
+6       pdq -U -rv -p 0402pl01
+13      pdq -U -rv -p 0402pl01
+22      pdq -U -rv -p 0402pl01
+23      pdq -U -rv -p 0402pl01
+24      pdq -U -rv -p 0402pl01
+35       pdq -U -rv -p 0402pl01
+36       pdq -U -rv -p 0402pl01
+37       pdq -U -rv -p 0402pl01
+38       pdq -U -rv -p 0402pl01
+39       pdq -U -rv -p 0402pl01
+40       pdq -U -rv -p 0402pl01
+41       pdq -U -rv -p 0402pl01
+42       pdq -U -rv -p 0402pl01
+43       pdq -U -rv -p 0402pl01
+50       pdq -U -rv -p 0402pl01
+51       pdq -U -rv -p 0402pl01
+60      pdq -U -rv -p 2201pl01
+106     pdq -U -rv -p 4401pl01
+109     pdq -U -rv -p  4401pl01
+112     pdq -U -rv -p  4401pl01
+116     pdq -U -rv -p  4401pl01
+117     pdq -U -rv -p  4401pl01
+118     pdq -U -rv -p  4401pl01
+119     pdq -U -rv -p  4401pl01
+120     pdq -U -rv -p  4401pl01
+121     pdq -U -rv -p  4401pl01
+128     pdq -U -rv -p  4401pl01
+129     pdq -U -rv -p  4401pl01
+130     pdq -U -rv -p  4401pl01
+131     pdq -U -rv -p  4401pl01
+132     pdq -U -rv -p  4401pl01
+133     pdq -U -rv -p  4401pl01
+134     pdq -U -rv -p  4401pl01
+135     pdq -U -rv -p  4401pl01
+136     pdq -U -rv -p  4401pl01
+137     pdq -U -rv -p  4401pl01
+138     pdq -U -rv -p  4401pl01
+139     pdq -U -rv -p  4401pl01
+140     pdq -U -rv -p  4401pl01
+141     pdq -U -rv -p  4401pl01
+142     pdq -U -rv -p  4401pl01
+143     pdq -U -rv -p  4401pl01
+144     pdq -U -rv -p  4401pl01
+153     pdq -U -rv -p 4401pa01
+159     pdq -U -rv -p 4401pa01
+161     pdq -U -rv -p 4401pa01
+163     pdq -U -rv -p 4401pa01
+164     pdq -U -rv -p 4401pa01
+169     pdq -U -rv -p 4401pa01
+170     pdq -U -rv -p 4401pa01
+213     pdq -U -rv -p  1701pl01
+226     pdq -U -rv -p  1701pl01
+229      pdq -U -rv -p  1701pl01
+230      pdq -U -rv -p  1701pl01
+231      pdq -U -rv -p  1701pl01
+232      pdq -U -rv -p  1701pl01
+233      pdq -U -rv -p  1701pl01
+234      pdq -U -rv -p  1701pl01
+235      pdq -U -rv -p  1701pl01
+236      pdq -U -rv -p  1701pl01
+237      pdq -U -rv -p  1701pl01
+238      pdq -U -rv -p  1701pl01
+239      pdq -U -rv -p  1701pl01
+240      pdq -U -rv -p  1701pl01
+243     pdq -U -rv -p  1701pl01
+248     pdq -U -rv -p  1701pl01
+249     pdq -U -rv -p  1701pl01
+250     pdq -U -rv -p  1701pl01
+251     pdq -U -rv -p  1701pl01
+256     pdq -U -rv -p  1701pl01
+257     pdq -U -rv -p  1701pl01
+258     pdq -U -rv -p  1701pl01
+259     pdq -U -rv -p  1701pl01
+260     pdq -U -rv -p  1701pl01
+261     pdq -U -rv -p  1701pl01
+262     pdq -U -rv -p  1701pl01
+263     pdq -U -rv -p  1701pl01
+267     pdq -U -rv -p  1701pl01
+268     pdq -U -rv -p  1701pl01
+269     pdq -U -rv -p  1701pl01
+270     pdq -U -rv -p  1701pl01
+271     pdq -U -rv -p  1701pl01
+292     pdq -U -rv -p  1701pl01
+315     pdq -U -rv -p 3501pl01
+319     pdq -U -rv -p 1601pl01
+327     pdq -U -rv -p 3501pl01
+328     pdq -U -rv -p 3501pl01
+329     pdq -U -rv -p 3501pl01
+331     pdq -U -rv -p 3501pl01
+332     pdq -U -rv -p 3501pl01
+333     pdq -U -rv -p 3501pl01
+337     pdq -U -rv -p 3501pl01
+338     pdq -U -rv -p 3501pl01
+340     pdq -U -rv -p 3501pl01
+341     pdq -U -rv -p 3501pl01
+343     pdq -U -rv -p 3501pl01
+344     pdq -U -rv -p 3501pl01
+345     pdq -U -rv -p 3501pl01
+347     pdq -U -rv -p 3501pl01
+348     pdq -U -rv -p 3501pl01
+349     pdq -U -rv -p 3501pl01
+351     pdq -U -rv -p 3501pl01
+352     pdq -U -rv -p 3501pl01
+353     pdq -U -rv -p 3501pl01
+354     pdq -U -rv -p 3501pl01
+355     pdq -U -rv -p 3501pl01
+356     pdq -U -rv -p 3501pl01
+357     pdq -U -rv -p 3501pl01
+358     pdq -U -rv -p 3501pl01
+359     pdq -U -rv -p 3501pl01
+360     pdq -U -rv -p 3501pl01
+361     pdq -U -rv -p 3501pl01
+362     pdq -U -rv -p 3501pl01
+363     pdq -U -rv -p 3501pl01
+364     pdq -U -rv -p 3501pl01
+365     pdq -U -rv -p 3501pl01
+371     pdq -U -rv -p 3501pl01
+373     pdq -U -rv -p 3501pl01
+374     pdq -U -rv -p 3501pl01
+382     pdq -U -rv -p 3501pl01
+383     pdq -U -rv -p 3501pl01
+384     pdq -U -rv -p 3501pl01
+385     pdq -U -rv -p 3501pl01
+386     pdq -U -rv -p 3501pl01
+387     pdq -U -rv -p 3501pl01
+388     pdq -U -rv -p 3501pl01
+389     pdq -U -rv -p 3501pl01
+390     pdq -U -rv -p 3501pl01
+391     pdq -U -rv -p 3501pl01
+392     pdq -U -rv -p 3501pl01
+393     pdq -U -rv -p 3501pl01
+394     pdq -U -rv -p 3501pl01
+395     pdq -U -rv -p 3501pl01
+396     pdq -U -rv -p 3501pl01
+397     pdq -U -rv -p 3501pl01
+401     pdq -U -rv -p 3501pl01
+406     pdq -U -rv -p 3501pl01
+407     pdq -U -rv -p 3501pl01
+411     pdq -U -rv -p 3501pl01
+416     pdq -U -rv -p 3501pl01
+417     pdq -U -rv -p 3501pl01
+432     pdq -U -rv -p 1601pl01
+440     pdq -U -rv -p 4301pl01
+441     pdq -U -rv -p 4301pl01
+461     pdq -U -rv -p 1601pl01
+484     pdq -U -rv -p 4301pa02
+485     pdq -U -rv -p 4301pa02
+486     pdq -U -rv -p 4301pa02
+487     pdq -U -rv -p 4301pa02
+488     pdq -U -rv -p 4301pa02
+489     pdq -U -rv -p 4301pa02
+490     pdq -U -rv -p 4301pa02
+491     pdq -U -rv -p 4301pa02
+492     pdq -U -rv -p 4301pa02
+493     pdq -U -rv -p 4301pa02
+494     pdq -U -rv -p 4301pa02
+495     pdq -U -rv -p 4301pa02
+509     pdq -U -rv -p 4301pa01
+510      pdq -U -rv -p 4301pa01
+511     pdq -U -rv -p 4301pa01
+513     pdq -U -rv -p 4301pa02
+544     pdq -U -rv -p 1601pl01
+557     pdq -U -rv -p 1601pl01
+565     pdq -U -rv -p 1601pl01
+567     pdq -U -rv -p 1601pl01
+588     pdq -U -rv -p  5701pa02
+589     pdq -U -rv -p  5701pl02
+590     pdq -U -rv -p  5701pq01
+591     pdq -U -rv -p  701pq01
+592     pdq -U -rv -p 5701pq01
+593     pdq -U -rv -p 5701pl02
+595     pdq -U -rv -p 5701pl01
+602     pdq -U -rv -p 2801pq01
+606     pdq -U -rv -p 2801pl01
+613     pdq -U -rv -p 2801pl01
+615     pdq -U -rv -p 2801pl01
+624     pdq -U -rv -p 4201pl01
+642     pdq -U -rv -p 4201pl01
+644     pdq -U -rv -p 4201pl01
+645     pdq -U -rv -p 4201pl01
+646     pdq -U -rv -p 4201pl01
+651     pdq -U -rv -p 4201pl01
+653     pdq -U -rv -p 4201pl01
+655     pdq -U -rv -p 4201pl01
+663     pdq -U -rv -p 0901pl01
+664     pdq -U -rv -p 0901pl01
+667     pdq -U -rv -p 0901pl01
+668     pdq -U -rv -p 0901pl01
+669     pdq -U -rv -p 0901pl01
+679     pdq -U -rv -p 0901pl01
+682     pdq -U -rv -p 4201pl01
+714     pdq -U -rv -p 4001pl01
+725     pdq -U -rv -p 4501pl01
+743     pdq -U -rv -p 4501pl01
+744     pdq -U -rv -p 4501pl01
+745     pdq -U -rv -p 4501pl01
+746     pdq -U -rv -p 4501pl01
+747     pdq -U -rv -p 4501pl01
+748     pdq -U -rv -p 4501pl01
+749     pdq -U -rv -p 4501pl01
+750     pdq -U -rv -p 4501pl01
+751     pdq -U -rv -p 4501pl01
+752     pdq -U -rv -p 4501pl01
+761     pdq -U -rv -p 4501pl01
+762     pdq -U -rv -p 4501pl01
+763     pdq -U -rv -p 4501pl01
+764     pdq -U -rv -p 4501pl01
+765     pdq -U -rv -p 4501pl01
+766     pdq -U -rv -p 4501pl01
+768     pdq -U -rv -p 4501pl01
+769     pdq -U -rv -p 4501pl01
+770     pdq -U -rv -p 4501pl01
+771     pdq -U -rv -p 4501pl01
+772     pdq -U -rv -p 4501pl01
+773     pdq -U -rv -p 4501pl01
+774     pdq -U -rv -p 4501pl01
+775     pdq -U -rv -p 4501pl01
+776     pdq -U -rv -p 4501pl01
+777     pdq -U -rv -p 4501pl01
+778     pdq -U -rv -p 4501pl01
+779     pdq -U -rv -p 4501pl01
+780     pdq -U -rv -p 4501pl01
+781     pdq -U -rv -p 4501pl01
+782     pdq -U -rv -p 4501pl01
+783     pdq -U -rv -p 4501pl01
+784     pdq -U -rv -p 4501pl01
+785     pdq -U -rv -p 4501pl01
+790     pdq -U -rv -p 4501pl01
+791     pdq -U -rv -p 4501pl01
+792     pdq -U -rv -p 4501pl01
+793     pdq -U -rv -p 4501pl01
+794     pdq -U -rv -p 4501pl01
+795     pdq -U -rv -p 4501pl01
+796     pdq -U -rv -p 4501pl01
+797     pdq -U -rv -p 4501pl01
+798     pdq -U -rv -p 4501pl01
+799     pdq -U -rv -p 4501pl01
+800     pdq -U -rv -p 4501pl01
+801     pdq -U -rv -p 4501pl01
+802     pdq -U -rv -p 4501pl01
+803     pdq -U -rv -p 4501pl01
+804     pdq -U -rv -p 4501pl01
+805     pdq -U -rv -p 4501pl01
+806     pdq -U -rv -p 4501pl01
+807     pdq -U -rv -p 4501pl01
+808     pdq -U -rv -p 4501pl01
+811     pdq -U -rv -p 4501pl01
+815     pdq -U -rv -p 4501pl01
+823     history 1 | grep pdq
+824     pdq -U -rv -p 3702pl01
+828     pdq -U -rv -p 3702pl01
+829     pdq -U -rv -p 3702pl01
+830     pdq -U -rv -p 3702pl01
+831     pdq -U -rv -p 3702pl01
+832     pdq -U -rv -p 3702pl01
+833     pdq -U -rv -p 3702pl01
+834     pdq -U -rv -p 3702pl01
+838     pdq -U -rv -p 3702pl01
+839     pdq -U -rv -p 3702pl01
+840     pdq -U -rv -p 3702pl01
+841     pdq -U -rv -p 3702pl01
+842     pdq -U -rv -p 3702pl01
+843     pdq -U -rv -p 3702pl01
+844     pdq -U -rv -p 3702pl01
+845     pdq -U -rv -p 3702pl01
+846     pdq -U -rv -p 3702pl01
+847     pdq -U -rv -p 3702pl01
+848     pdq -U -rv -p 3702pl01
+849     pdq -U -rv -p 3702pl01
+850     pdq -U -rv -p 3702pl01
+851     pdq -U -rv -p 3702pl01
+852     pdq -U -rv -p 3702pl01
+853     pdq -U -rv -p 3702pl01
+854     pdq -U -rv -p 3702pl01
+855     pdq -U -rv -p 3702pl01
+856     pdq -U -rv -p 3702pl01
+857     pdq -U -rv -p 3702pl01
+858     pdq -U -rv -p 3702pl01
+859     pdq -U -rv -p 3702pl01
+860     pdq -U -rv -p 3702pl01
+861     pdq -U -rv -p 3702pl01
+862     pdq -U -rv -p 3702pl01
+863     pdq -U -rv -p 3702pl01
+867     pdq -U -rv -p 3702pl01
+868     pdq -U -rv -p 3702pl01
+870     pdq -U -rv -p 3702pl01
+877     pdq -U -rv -p 3702pl01
+878     pdq -U -rv -p 3702pl01
+879     pdq -U -rv -p 3702pl01
+880     pdq -U -rv -p 3702pl01
+881     pdq -U -rv -p 3702pl01
+883     pdq -U -rv -p 3702pl01
+887     pdq -U -rv -p 3702pl01
+888     pdq -U -rv -p 3702pl01
+889     pdq -U -rv -p 3702pl01
+896     pdq -U -rv -p 3702pl01
+897     pdq -U -rv -p 3702pl01
+898     pdq -U -rv -p 3702pl01
+899     pdq -U -rv -p 3702pl01
+900     pdq -U -rv -p 3702pl01
+1003    history 1 | grep pdq
+ankcseprda06[/ipm/south]  pdq -U -rv -p 4901pl01
+ankcseprda06[/ipm/south] pdls -r verbose -c printer 4901pa03
+Destination  Realization  State            Server      Locations  Enabled  Queue     
+-----------  -----------  ---------------  ----------  ---------  -------  --------  
+4901pa03     actual       needs attention  cse03suv01  Sonoma     true     4901pq01  
+ankcseprda06[/ipm/south] r fg
+/usr/lpp/pd/bin/ipguiadvadm
+[1] + Stopped (SIGTSTP)        /usr/lpp/pd/bin/ipguiadvadm
+ankcseprda06[/ipm/south] pdshutdown 4901pa03
+pdshutdown: 5010-065 Cannot find the object 4901pa03.
+ankcseprda06[/ipm/south] pdshutdown 4901pa03pdshutdown  4901pa03- 4901pa03c 4901pa03  4901pa03p 4901pa03
+ankcseprda06[/ipm/south] pdshutdown -c p 4901pa03pdshutdown 4901pa03     fg                 pdls -r verbose -c printer 4901pa03
+Destination  Realization  State      Server      Locations  Enabled  Queue     
+-----------  -----------  ---------  ----------  ---------  -------  --------  
+4901pa03     actual       shut down  cse03suv01  Sonoma     false    4901pq01  
+ankcseprda06[/ipm/south] pdls -r verbose -c printer 4901pa03pdshutdown -c p 4901pa03           pdshutdown 4901pa03     fg                 g  g g pdenable 4901pa03
+ankcseprda06[/ipm/south] pdenable 4901pa03pdls -r verbose -c printer 4901pa03
+Destination  Realization  State  Server      Locations  Enabled  Queue     
+-----------  -----------  -----  ----------  ---------  -------  --------  
+4901pa03     actual       idle   cse03suv01  Sonoma     true     4901pq01  
+ankcseprda06[/ipm/south] fg
+/usr/lpp/pd/bin/ipguiadvadm
+ankcseprda06[/ipm/south] exit

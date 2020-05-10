@@ -1,0 +1,31 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.19 08:56:00 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Thu Aug 22 16:19:32 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Aug 30 08:02:41 PDT 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsedeva07[/home/hchada]$ cd /cse/online
+ankcsedeva07[/cse/online]$ ls
+applications  dumps         logs
+ankcsedeva07[/cse/online]$ cd app       
+ksh: app:  not found.
+ankcsedeva07[/cse/online]$ lsc   cd app*
+ankcsedeva07[/cse/online/applications]$ ls
+DEV02_IF_Forms.ear                    TRN04_Online_Imaging.ear              cse_TEAM06_Online.ear
+TEAM04_Online_Forms.ear               UIT04_Online_Forms.ear                cse_TRN04_Integration.ear
+TEAM04_Online_Imaging.ear             UIT04_Online_Imaging.ear              cse_TRN04_Online.ear
+TEAM06_IF_Online_Forms.ear            cse_TEAM02_Online.ear                 cse_UIT04_Integration.ear
+TEAM06_IF_Online_FormsGeneration.ear  cse_TEAM04_Integration.ear            cse_UIT04_Online.ear
+TEAM06_IF_Online_Imaging.ear          cse_TEAM04_Online.ear
+TRN04_Online_Forms.ear                cse_TEAM06_Integration.ear
+ankcsedeva07[/cse/online/applications]$ exit

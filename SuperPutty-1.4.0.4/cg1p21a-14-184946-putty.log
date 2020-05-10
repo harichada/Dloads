@@ -1,0 +1,191 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.14 18:49:46 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Wed Nov 13 15:40:14 PST 2019 on ssh from 169.2.108.102
+Last login: Thu Nov 14 10:09:34 PST 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsepf1a02[/home/cseadmin]$ df .
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd1         3145728    308968   91%     8856    19% /home
+ankcsepf1a02[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         1572864    734392   54%    22778    21% /
+/dev/hd2        13762560   1217048   92%    96246    39% /usr
+/dev/hd9var      4194304   1089232   75%    12737    10% /var
+/dev/hd3         8388608   7998288    5%      895     1% /tmp
+/dev/hd1         3145728    308968   91%     8856    19% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    949248   10%      622     1% /usr/local
+/dev/hd10opt    10485760   2396016   78%    28752    10% /opt
+/dev/logslv       262144    222152   16%       27     1% /var/adm/logs
+/dev/cmlbosdata1    5242880   5238680    1%       28     1% /cm/lbosdata1
+/dev/sysbacklv    8388608   8386664    1%        5     1% /sysback
+/dev/fixeslv     4587520   4586160    1%        4     1% /fixes
+/dev/mksysb     31457280   8319800   74%       58     1% /mksysb
+/dev/scratch     3145728   2696704   15%       61     1% /scratch
+/dev/savevg       524288    518928    2%       46     1% /savevg
+/dev/home_hw      524288    505216    4%      264     1% /home/hw
+/dev/csmdata      524288    523552    1%        4     1% /home/csmdata
+/dev/dumpcopy    1048576   1047760    1%        4     1% /var/adm/ras/dumpcopy
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7lv   16777216   6623472   61%    39147     5% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  10494888   38%    29706     3% /usr/WebSphere7CM
+/dev/auditlv     3145728   3091496    2%        6     1% /opt/auditout
+/dev/ibmcm_lv    1048576   1036136    2%       31     1% /ibmcm
+/dev/mqm_lv      1048576    438008   59%       91     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/insthome_lv    3538944   3196272   10%      453     1% /insthome
+/dev/CommVaultlv    4194304   1501144   65%     2527     2% /CommVault
+/dev/webspherelv   67108864  39303760   42%   123940     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf1d01:/ds004_admin    20447232  14017352   32%   202289    12% /ds004_admin
+ankcsepf1d01:/csehap023/cse    10223616   3645152   65%    14511     3% /cse
+ankcsepf1d01:/db2data_batch    57278464  36555616   37%    29390     1% /cse/shared
+ankcsepf1d01:/cse/lib/Jar_Repository     2097152   1008040   52%      632     1% /cse/lib/Jar_Repository
+ankcsepf1a08:/cse/selfservice     6029312   2917104   52%    15217     5% /cse/selfservice
+ankcsepf1d01:/ap022_hyperion_transient     2097152   2096176    1%        4     1% /cse/reporting/transient_items
+ankcsepf1a03:/var/pd/hotfolders    24903680  22747296    9%     2856     1% /ap040_hotfolders
+ankcsepf1d01:/ds009_cpos    60293120  55657344    8%     4391     1% /ds009_cpos
+ankcsepf1d01:/ds009_pdf2afp    38699008  38392088    1%       41     1% /ds009_pdf2afp
+ankcsepf1d01:/cmlbosdata1     7274496    977016   87%     8683     8% /cmlbosdata1
+ankcsepf1d01:/cm/archive/001   734003200 707290216    4%    57547     1% /cm/archive/001
+ankcsepf1d01:/cm/drArchive/001   104857600 104605104    1%     1638     1% /cm/drArchive/001
+ankcsepf1d01:/cm/active/001    10518528  10508376    1%     1006     1% /cm/active/001
+ankcsepf1d01:/finalist    12058624   5618808   54%      361     1% /finalist
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf1d01:/cm/eDocs    41943040  41745192    1%     1110     1% /cm/eDocs
+ankcsepf1d01:/cm/archivelt001   209715200 209681240    1%       13     1% /cm/archivelt001
+ankcsepf1d01:/docstorage     8388608   7599624   10%     2363     1% /docstorage
+/dev/itmlv       6291456   5275848   17%     4134     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf1d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf1d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf1d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf1d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf1d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf1a02[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         1572864    734392   54%    22778    21% /
+/dev/hd2        13762560   1217048   92%    96246    39% /usr
+/dev/hd9var      4194304   1088952   75%    12738    10% /var
+/dev/hd3         8388608   7995808    5%      898     1% /tmp
+/dev/hd1         3145728    308960   91%     8856    19% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    949248   10%      622     1% /usr/local
+/dev/hd10opt    10485760   2395976   78%    28753    10% /opt
+/dev/logslv       262144    222032   16%       27     1% /var/adm/logs
+/dev/cmlbosdata1    5242880   5238680    1%       28     1% /cm/lbosdata1
+/dev/sysbacklv    8388608   8386664    1%        5     1% /sysback
+/dev/fixeslv     4587520   4586160    1%        4     1% /fixes
+/dev/mksysb     31457280   8319800   74%       58     1% /mksysb
+/dev/scratch     3145728   2696704   15%       61     1% /scratch
+/dev/savevg       524288    518928    2%       46     1% /savevg
+/dev/home_hw      524288    505216    4%      264     1% /home/hw
+/dev/csmdata      524288    523552    1%        4     1% /home/csmdata
+/dev/dumpcopy    1048576   1047760    1%        4     1% /var/adm/ras/dumpcopy
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7lv   16777216   6623472   61%    39147     5% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  10494888   38%    29706     3% /usr/WebSphere7CM
+/dev/auditlv     3145728   3091416    2%        6     1% /opt/auditout
+/dev/ibmcm_lv    1048576   1036136    2%       31     1% /ibmcm
+/dev/mqm_lv      1048576    438008   59%       91     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/insthome_lv    3538944   3196272   10%      453     1% /insthome
+/dev/CommVaultlv    4194304   1501136   65%     2527     2% /CommVault
+/dev/webspherelv   67108864  39303672   42%   123940     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf1d01:/ds004_admin    20447232  14017352   32%   202289    12% /ds004_admin
+ankcsepf1d01:/csehap023/cse    10223616   3644912   65%    14511     3% /cse
+ankcsepf1d01:/db2data_batch    57278464  36555616   37%    29390     1% /cse/shared
+ankcsepf1d01:/cse/lib/Jar_Repository     2097152   1008040   52%      632     1% /cse/lib/Jar_Repository
+ankcsepf1a08:/cse/selfservice     6029312   2917104   52%    15217     5% /cse/selfservice
+ankcsepf1d01:/ap022_hyperion_transient     2097152   2096176    1%        4     1% /cse/reporting/transient_items
+ankcsepf1a03:/var/pd/hotfolders    24903680  22747296    9%     2856     1% /ap040_hotfolders
+ankcsepf1d01:/ds009_cpos    60293120  55657344    8%     4391     1% /ds009_cpos
+ankcsepf1d01:/ds009_pdf2afp    38699008  38392088    1%       41     1% /ds009_pdf2afp
+ankcsepf1d01:/cmlbosdata1     7274496    977016   87%     8683     8% /cmlbosdata1
+ankcsepf1d01:/cm/archive/001   734003200 707290216    4%    57547     1% /cm/archive/001
+ankcsepf1d01:/cm/drArchive/001   104857600 104605104    1%     1638     1% /cm/drArchive/001
+ankcsepf1d01:/cm/active/001    10518528  10508376    1%     1006     1% /cm/active/001
+ankcsepf1d01:/finalist    12058624   5618808   54%      361     1% /finalist
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf1d01:/cm/eDocs    41943040  41745192    1%     1110     1% /cm/eDocs
+ankcsepf1d01:/cm/archivelt001   209715200 209681240    1%       13     1% /cm/archivelt001
+ankcsepf1d01:/docstorage     8388608   7599624   10%     2363     1% /docstorage
+/dev/itmlv       6291456   5275848   17%     4134     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf1d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf1d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf1d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf1d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf1d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf1a02[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         1572864    734392   54%    22778    21% /
+/dev/hd2        13762560   1217048   92%    96246    39% /usr
+/dev/hd9var      4194304   1088112   75%    12737    10% /var
+/dev/hd3         8388608   7998288    5%      895     1% /tmp
+/dev/hd1         3145728    308960   91%     8856    19% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    949248   10%      622     1% /usr/local
+/dev/hd10opt    10485760   2395968   78%    28752    10% /opt
+/dev/logslv       262144    221984   16%       27     1% /var/adm/logs
+/dev/cmlbosdata1    5242880   5238680    1%       28     1% /cm/lbosdata1
+/dev/sysbacklv    8388608   8386664    1%        5     1% /sysback
+/dev/fixeslv     4587520   4586160    1%        4     1% /fixes
+/dev/mksysb     31457280   8319800   74%       58     1% /mksysb
+/dev/scratch     3145728   2696704   15%       61     1% /scratch
+/dev/savevg       524288    518928    2%       46     1% /savevg
+/dev/home_hw      524288    505216    4%      264     1% /home/hw
+/dev/csmdata      524288    523552    1%        4     1% /home/csmdata
+/dev/dumpcopy    1048576   1047760    1%        4     1% /var/adm/ras/dumpcopy
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/websphere7lv   16777216   6623472   61%    39147     5% /usr/WebSphere7
+/dev/websphere7CMlv   16777216  10494888   38%    29706     3% /usr/WebSphere7CM
+/dev/auditlv     3145728   3091392    2%        6     1% /opt/auditout
+/dev/ibmcm_lv    1048576   1036136    2%       31     1% /ibmcm
+/dev/mqm_lv      1048576    438008   59%       91     1% /var/mqm
+/dev/cmubosstg    1048576   1039568    1%        4     1% /cm/ubosstg
+/dev/insthome_lv    3538944   3196272   10%      453     1% /insthome
+/dev/CommVaultlv    4194304   1501136   65%     2527     2% /CommVault
+/dev/webspherelv   67108864  39303632   42%   123940     3% /usr/WebSphere
+/dev/tomcat8lv   31457280  31328952    1%        4     1% /usr/tomcat8
+ankcsepf1d01:/ds004_admin    20447232  14017352   32%   202289    12% /ds004_admin
+ankcsepf1d01:/csehap023/cse    10223616   3644912   65%    14511     3% /cse
+ankcsepf1d01:/db2data_batch    57278464  36555616   37%    29390     1% /cse/shared
+ankcsepf1d01:/cse/lib/Jar_Repository     2097152   1008040   52%      632     1% /cse/lib/Jar_Repository
+ankcsepf1a08:/cse/selfservice     6029312   2917104   52%    15217     5% /cse/selfservice
+ankcsepf1d01:/ap022_hyperion_transient     2097152   2096176    1%        4     1% /cse/reporting/transient_items
+ankcsepf1a03:/var/pd/hotfolders    24903680  22747296    9%     2856     1% /ap040_hotfolders
+ankcsepf1d01:/ds009_cpos    60293120  55657344    8%     4391     1% /ds009_cpos
+ankcsepf1d01:/ds009_pdf2afp    38699008  38392088    1%       41     1% /ds009_pdf2afp
+ankcsepf1d01:/cmlbosdata1     7274496    977016   87%     8683     8% /cmlbosdata1
+ankcsepf1d01:/cm/archive/001   734003200 707290216    4%    57547     1% /cm/archive/001
+ankcsepf1d01:/cm/drArchive/001   104857600 104605104    1%     1638     1% /cm/drArchive/001
+ankcsepf1d01:/cm/active/001    10518528  10508376    1%     1006     1% /cm/active/001
+ankcsepf1d01:/finalist    12058624   5618808   54%      361     1% /finalist
+ankcsepf1d02:/swstage   283115520  21896456   93%    84766     3% /swstage
+ankcsepf1d01:/cm/eDocs    41943040  41745192    1%     1110     1% /cm/eDocs
+ankcsepf1d01:/cm/archivelt001   209715200 209681240    1%       13     1% /cm/archivelt001
+ankcsepf1d01:/docstorage     8388608   7599624   10%     2363     1% /docstorage
+/dev/itmlv       6291456   5275848   17%     4134     1% /opt/IBM/ITM
+/dev/optIBMFileNetlv   41943040  41772160    1%        4     1% /opt/IBM/FileNet
+ankcsepf1d03:/cf3   209715200 208863440    1%        4     1% /cf3
+ankcsepf1d03:/cf2   209715200 208863440    1%        4     1% /cf2
+ankcsepf1d03:/cf1   209715200 208863440    1%        4     1% /cf1
+ankcsepf1d03:/cf4   209715200 208863440    1%        4     1% /cf4
+ankcsepf1d03:/cf5   209715200 208863440    1%        4     1% /cf5
+ankcsepf1a02[/home/cseadmin]$ exit

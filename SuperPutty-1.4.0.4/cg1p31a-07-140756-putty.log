@@ -1,0 +1,331 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.07 14:07:56 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct  3 09:24:14 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Oct  7 09:39:38 PDT 2019 on ssh from ankcseprda18
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm &
+[1]     38076596
+ankcseprda06[/ipm/south] porttest 168 9.2.207.202
+NO,YES,NO,YESankcseprda06[/ipm/south] porttest 169.2.207.202porttest 169.2.207.201
+YES,YES,YES,YESankcseprda06[/ipm/south] ls
+0402.txt                               findheld                               panel
+0402b.txt                              findpdpr                               pdallresub
+0601.txt                               findpdpr.new                           pdchangedomain
+0601b.txt                              findrdd                                pdcleanvarpsm
+0903.txt                               fixclock                               pddisablelp
+1101.txt                               fixprt                                 pdfindbigjob
+1101a.txt                              fixusers                               pdgroup
+1101b.txt                              fst.users                              pdhelpgroup
+1801b.txt                              hcraform.list3820                      pdhelpungroup
+1905z.txt                              ipmthreads                             pdipmcore
+1905zz.txt                             itlogin.sh                             pdlastprint
+1910.txt                               itmenu.sh                              pdpingprt
+1910b.txt                              jim.pdf                                pdqlist
+2901.txt                               jimloc                                 pdrestartlog
+2901b.txt                              jimresuball                            pdresuball
+3006b.txt                              jimtest.bak                            pdrmjob
+3401.txt                               jobid.out                              pdrmresub
+4201.txt                               jobid_4901.txt                         perqueue
+4201b.txt                              jobstate                               pingchk
+4701.txt                               maillogs                               porttest
+4901                                   maillogs.06142019                      porttest.backup_20180126
+5101b.txt                              maillogstest                           porttest2
+FS-ENF-028_0134511640-01_25c7ac25.pdf  maw.ps                                 preup
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  melon.afp                              printeracc
+OUTFILE                                melon.ps                               prstate
+SD.txt                                 micro                                  psmqprint
+San.txt                                mkfstusers                             queuelist.txt
+acct                                   mkxcel                                 queuelist1.txt
+attrib                                 mkxcel.07052019                        queuemaillist
+blah                                   mkxcel.4252018                         queuemaillist.full
+bytect                                 mkxcel.back_jay                        recphys
+cg1p31a_ports.xls                      mkxcel.bak                             reprints
+changeip                               mkxcel.ebhc                            reset4308
+checkpio                               mkxcel2                                reset4308.bak
+checkqueues                            mkxcel20120115                         resetprt
+checkqueues.sh                         mkxcel20130729                         salida.txt
+checkqueues.sh.2old                    mkxcel33                               sample.afp
+checkqueues.sh.bak                     mkxcelbackup04072016                   sample.pdf
+checkqueues.sh.error                   moveprinter.old                        sample2.pdf
+checkqueues.sh.old                     mysubmit                               sendfile
+checkqueues.test.sh                    newcreate                              servjobs
+chkallprinters.save                    newtest                                shortpanel
+chkprt                                 nonotif                                showptia
+chport                                 notifyme                               skeleton
+chprdom                                notpro                                 spool-culprit
+cleanup                                offhold                                spoolchk
+clearcounty                            offpend                                sshtest
+delown.pl                              olbt01.pdf                             star.afp
+doacct                                 olbt02.pdf                             star.ps
+dprt                                   olbt03.pdf                             testspool.sh
+dumpdestcomms                          olbt04.pdf                             timex.out
+e2ecleanup                             olbt05.pdf                             topcpu
+findbad                                olbtS1CG1P31A.pdf                      tularefiles
+ankcseprda06[/ipm/south] cp olbt05.pdf /var/pd/hotfolders/4901pl01
+ankcseprda06[/ipm/south] pdq -U -rv -p 2801pq01   l01  q  q01
+pdq: 5010-065 Cannot find the object 2801pq01.
+ankcseprda06[/ipm/south] pdq -U -rv -p 2801pq01pdq -U -rv -p 801pq01 01pq01 1pq01 pq01 4pq019pq010pq011pq01
+pdq: 5010-065 Cannot find the object 4901pq01.
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pq01pdq -U -rv -p 4901pq0  q01
+pdq: 5010-065 Cannot find the object 4901pq01.
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pq01pdq -U -rv -p 4901pql
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01pdq -U -rv -p 4901pq01pdq -U -rv -p 2801pq01cp olbt05.pdf /var/pd/hotfolders/4901pl01ls                                       porttest 169.2.207.201porttest 169.2.207.202porttest 169.2.207.201
+YES,YES,YES,YESankcseprda06[/ipm/south] kkporttest 169.2.207.201pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+27   cse03spl01:3695729253  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01porttest 169.2.207.201pdq -U -rv -p 4901pl01pdq -U -rv -p 4901pq01pdq -U -rv -p 2801pq01cp olbt05.pdf /var/pd/hotfolders/4901pl01ls                                       porttest 169.2.207.201ls                    cp olbt05.pdf /var/pd/hotfolders/4901pl01
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01porttest 169.2.207.201pdq -U -rv -p 4901pl01pdq -U -rv -p 4901pq01pdq -U -rv -p 2801pq01cp olbt05.pdf /var/pd/hotfolders/4901pl01
+ankcseprda06[/ipm/south] kcp olbt05.pdf /var/pd/hotfolders/4901pl01pdq -U -rv -p 4901pl01                   
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+28   cse03spl01:3695729254  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01cp olbt05.pdf /var/pd/hotfolders/4901pl01
+ankcseprda06[/ipm/south] cp olbt05.pdf /var/pd/hotfolders/4901pl01pdq -U -rv -p 4901pl01                   
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] kpdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] 
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+29   cse03spl01:3695729255  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01cp olbt05.pdf /var/pd/hotfolders/4901pl01pdq -U -rv -p 4901pl01                   cp olbt05.pdf /var/pd/hotfolders/4901pl01
+ankcseprda06[/ipm/south] cp olbt05.pdf /var/pd/hotfolders/4901pl01pdq -U -rv -p 4901pl01                   
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+30   cse03spl01:3695729256  /var/pd/hotfolders/4901pl01/olbt05.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01cp olbt05.pdf /var/pd/hotfolders/4901pl01                                         
+ankcseprda06[/ipm/south] ls
+0402.txt                               findheld                               panel
+0402b.txt                              findpdpr                               pdallresub
+0601.txt                               findpdpr.new                           pdchangedomain
+0601b.txt                              findrdd                                pdcleanvarpsm
+0903.txt                               fixclock                               pddisablelp
+1101.txt                               fixprt                                 pdfindbigjob
+1101a.txt                              fixusers                               pdgroup
+1101b.txt                              fst.users                              pdhelpgroup
+1801b.txt                              hcraform.list3820                      pdhelpungroup
+1905z.txt                              ipmthreads                             pdipmcore
+1905zz.txt                             itlogin.sh                             pdlastprint
+1910.txt                               itmenu.sh                              pdpingprt
+1910b.txt                              jim.pdf                                pdqlist
+2901.txt                               jimloc                                 pdrestartlog
+2901b.txt                              jimresuball                            pdresuball
+3006b.txt                              jimtest.bak                            pdrmjob
+3401.txt                               jobid.out                              pdrmresub
+4201.txt                               jobid_4901.txt                         perqueue
+4201b.txt                              jobstate                               pingchk
+4701.txt                               maillogs                               porttest
+4901                                   maillogs.06142019                      porttest.backup_20180126
+5101b.txt                              maillogstest                           porttest2
+FS-ENF-028_0134511640-01_25c7ac25.pdf  maw.ps                                 preup
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  melon.afp                              printeracc
+OUTFILE                                melon.ps                               prstate
+SD.txt                                 micro                                  psmqprint
+San.txt                                mkfstusers                             queuelist.txt
+acct                                   mkxcel                                 queuelist1.txt
+attrib                                 mkxcel.07052019                        queuemaillist
+blah                                   mkxcel.4252018                         queuemaillist.full
+bytect                                 mkxcel.back_jay                        recphys
+cg1p31a_ports.xls                      mkxcel.bak                             reprints
+changeip                               mkxcel.ebhc                            reset4308
+checkpio                               mkxcel2                                reset4308.bak
+checkqueues                            mkxcel20120115                         resetprt
+checkqueues.sh                         mkxcel20130729                         salida.txt
+checkqueues.sh.2old                    mkxcel33                               sample.afp
+checkqueues.sh.bak                     mkxcelbackup04072016                   sample.pdf
+checkqueues.sh.error                   moveprinter.old                        sample2.pdf
+checkqueues.sh.old                     mysubmit                               sendfile
+checkqueues.test.sh                    newcreate                              servjobs
+chkallprinters.save                    newtest                                shortpanel
+chkprt                                 nonotif                                showptia
+chport                                 notifyme                               skeleton
+chprdom                                notpro                                 spool-culprit
+cleanup                                offhold                                spoolchk
+clearcounty                            offpend                                sshtest
+delown.pl                              olbt01.pdf                             star.afp
+doacct                                 olbt02.pdf                             star.ps
+dprt                                   olbt03.pdf                             testspool.sh
+dumpdestcomms                          olbt04.pdf                             timex.out
+e2ecleanup                             olbt05.pdf                             topcpu
+findbad                                olbtS1CG1P31A.pdf                      tularefiles
+ankcseprda06[/ipm/south] lspdq -U -rv -p 4901pl01cp olbt05.pdf /var/pd/hotfolders/4901pl01pdq -U -rv -p 4901pl01                   cp olbt05.pdf /var/pd/hotfolders/4901pl01cp olbt02
+ankcseprda06[/ipm/south] cp olbt02.pdf /var/pd/hotfolders/4901pl01ls                                       pdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+31   cse03spl01:3695729257  /var/pd/hotfolders/4901pl01/olbt02.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] kpdq -U -rv -p 4901pl01
+                                                                    Current           Intervening  Destination  Destinations  Total               
+Job  ID                     Name                                    State    Reasons  Jobs         Requested    Assigned      Octets  Owner       
+---  ---------------------  --------------------------------------  -------  -------  -----------  -----------  ------------  ------  ----------  
+31   cse03spl01:3695729257  /var/pd/hotfolders/4901pl01/olbt02.pdf  ripping           0            4901pl01     4901pa03      11003   @csehap103  
+ankcseprda06[/ipm/south] pdq -U -rv -p 4901pl01
+ankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

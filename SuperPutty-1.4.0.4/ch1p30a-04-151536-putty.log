@@ -1,0 +1,19 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.04 15:15:36 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Oct  4 15:14:31 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] porttest 169.2.167.173
+NO,YES,NO,NOankcseprda18[/ipm/south] porttest 169.2.167.173porttest 169.2.167.174
+NO,YES,NO,NOankcseprda18[/ipm/south] exit

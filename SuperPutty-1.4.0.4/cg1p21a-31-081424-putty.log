@@ -1,0 +1,20 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.31 08:14:24 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Tue Sep 24 19:39:19 PDT 2019 on ssh from ankcsepf1a05
+Last login: Fri Sep 27 10:18:52 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcsepf1a02[/home/hchada]$ df | grep 100
+ankcsepf1d01:/cse/lib/Jar_Repository     2097152   1008040   52%      632     1% /cse/lib/Jar_Repository
+ankcsepf1d01:/cm/active/001    10518528  10508376    1%     1006     1% /cm/active/001
+ankcsepf1a02[/home/hchada]$ exit

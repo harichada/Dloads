@@ -1,0 +1,20 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 15:45:12 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Fri Jun 14 14:07:28 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Nov 13 10:11:48 PST 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+ankcsepf2a02[/home/cseadmin]$ ps -ef | grep Self
+cseadmin 39714886 20643894   0 15:45:16  pts/0  0:00 grep Self
+ankcsepf2a02[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

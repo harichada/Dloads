@@ -1,0 +1,23 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.10 13:36:07 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Tue Oct  1 13:28:07 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct 10 13:35:12 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] cp /ipm/south/olbt02.pdf /var/pd/hotfolders/4901pl01/usr/lpp/pd/bin/ipguiadvadm &                       
+[1]     52232374
+ankcseprda18[/ipm/south] /usr/lpp/pd/bin/ipguiadvadm &cp /ipm/south/olbt02.pdf /var/pd>cp /ipm/south/olbt02.pdf /var/pbt02.pdf /var/pd/hotfolders/4901*/hotfolders/490/hotfolders/4901pl01            <pl0
+ankcsprda18[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.
+There are running jobs.

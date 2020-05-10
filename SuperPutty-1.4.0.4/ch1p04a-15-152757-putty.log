@@ -1,0 +1,329 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.15 15:27:57 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Mon Oct  7 14:28:14 PDT 2019 on ssh from 169.2.108.102
+Last login: Fri Nov 15 15:23:57 PST 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcsesyaa06[/home/cseadmin]$ ps -ef | grep java
+wasadmin  5439558        1   1   Jun 27      - 596:33 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dwas.status.socket=46159 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/servers/dmgr/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Xscmx50M -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/DeploymentManager/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/DeploymentManager/config ch1p04aKioskCell01 ch1p04aKioskCellManager01 dmgr
+wasadmin  9371794        1   2   Oct 03      - 180:17 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=42612 -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 ch1p04aNode01 nodeagent
+wasadmin  9568470        1   0   Jun 27      - 527:59 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Xmaxt0.5 -Dwas.status.socket=46293 -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/AppServer/servers/nodeagent/configuration -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85K/profiles/AppServer/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms50m -Xmx256m -Xscmaxaot4M -Xnoaot -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/AppServer/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Djava.awt.headless=true -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/AppServer/config ch1p04aKioskCell01 ch1p04aNode01 nodeagent
+    root 12255358 10158144   1   Jun 25      - 32:47 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=TAdKUxoglfzVyJnu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10158144 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+wasadmin 19333310  9371794   1   Oct 10      - 142:46 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=35739 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYA01_IF/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dgov.ca.dcss.cse.common.forms.UseFormGenerationService=true -Dgov.ca.dcss.cse.common.forms.UseDocumentGenerationService=true -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 ch1p04aNode01 SYA01_IF
+wasadmin 20971702        1   0   Jul 11      - 608:55 /usr/WebSphere/AppServer_85K/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85K -Dosgi.configuration.area=/usr/WebSphere/AppServer_85K/profiles/AppServer/servers/SYA_Kiosk_ch1p04a_01/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ibmorb.jar: -Dorg.osgi.framework.bootdelegation=* -classpath /usr/WebSphere/AppServer_85K/profiles/AppServer/properties:/usr/WebSphere/AppServer_85K/properties:/usr/WebSphere/AppServer_85K/lib/startup.jar:/usr/WebSphere/AppServer_85K/lib/bootstrap.jar:/usr/WebSphere/AppServer_85K/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85K/lib/lmproxy.jar:/usr/WebSphere/AppServer_85K/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85K/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib/tools.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx256m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85K/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85K/profiles/AppServer/classes:/usr/WebSphere/AppServer_85K/classes:/usr/WebSphere/AppServer_85K/lib:/usr/WebSphere/AppServer_85K/installedChannels:/usr/WebSphere/AppServer_85K/lib/ext:/usr/WebSphere/AppServer_85K/web/help:/usr/WebSphere/AppServer_85K/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85K/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85K/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85K/tivoli/tam:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85K/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85K -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85K/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Kiosk.profile -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Dclient.encoding.override=UTF-8 -Djava.library.path=/usr/WebSphere/AppServer_85K/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85K/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85K/endorsed_apis:/usr/WebSphere/AppServer_85K/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85K/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85K/profiles/AppServer/config ch1p04aKioskCell01 ch1p04aNode01 SYA_Kiosk_ch1p04a_01
+wasadmin 21954670  9371794   2   Oct 10      - 162:09 /usr/WebSphere/AppServer_85/java_1.7.1_32/bin/java -Dosgi.install.area=/usr/WebSphere/AppServer_85 -Dwas.status.socket=35699 -Dosgi.configuration.area=/usr/WebSphere/AppServer_85/profiles/AppServer/servers/SYA01_Batch/configuration -Djava.awt.headless=true -Dosgi.framework.extensions=com.ibm.cds,com.ibm.ws.eclipse.adaptors -Xshareclasses:name=webspherev85_1.7.1_32_%g,nonFatal -Dcom.ibm.xtq.processor.overrideSecureProcessing=true -Xcheck:dump -Xbootclasspath/p:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ibmorb.jar -classpath /usr/WebSphere/AppServer_85/profiles/AppServer/properties:/usr/WebSphere/AppServer_85/properties:/usr/WebSphere/AppServer_85/lib/startup.jar:/usr/WebSphere/AppServer_85/lib/bootstrap.jar:/usr/WebSphere/AppServer_85/lib/jsf-nls.jar:/usr/WebSphere/AppServer_85/lib/lmproxy.jar:/usr/WebSphere/AppServer_85/lib/urlprotocols.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batchboot.jar:/usr/WebSphere/AppServer_85/deploytool/itp/batch2.jar:/usr/WebSphere/AppServer_85/java_1.7.1_32/lib/tools.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jPDFImages.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_codec.jar:/cse/lib/Jar_Repository/TECHARCH_FORMS/QOPPA/jai_imageio.jar -Dorg.osgi.framework.bootdelegation=* -Dibm.websphere.internalClassAccessMode=allow -Xms128m -Xmx512m -Xscmaxaot4M -Xscmx90M -Dws.ext.dirs=/usr/WebSphere/AppServer_85/java_1.7.1_32/lib:/usr/WebSphere/AppServer_85/profiles/AppServer/classes:/usr/WebSphere/AppServer_85/classes:/usr/WebSphere/AppServer_85/lib:/usr/WebSphere/AppServer_85/installedChannels:/usr/WebSphere/AppServer_85/lib/ext:/usr/WebSphere/AppServer_85/web/help:/usr/WebSphere/AppServer_85/deploytool/itp/plugins/com.ibm.etools.ejbdeploy/runtime -Dderby.system.home=/usr/WebSphere/AppServer_85/derby -Dcom.ibm.itp.location=/usr/WebSphere/AppServer_85/bin -Djava.util.logging.configureByServer=true -Duser.install.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Djava.ext.dirs=/usr/WebSphere/AppServer_85/tivoli/tam:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ext -Djavax.management.builder.initial=com.ibm.ws.management.PlatformMBeanServerBuilder -Dpython.cachedir=/usr/WebSphere/AppServer_85/profiles/AppServer/temp/cachedir -Dwas.install.root=/usr/WebSphere/AppServer_85 -Djava.util.logging.manager=com.ibm.ws.bootstrap.WsLogManager -Dserver.root=/usr/WebSphere/AppServer_85/profiles/AppServer -Dcom.ibm.security.jgss.debug=off -Dcom.ibm.security.krb5.Krb5Debug=off -Dgov.ca.dcss.cse.common.inContainer=true -Dcom.wily.introscope.agentProfile=/cse/introscopeAgent/wily/core/config/IntroscopeAgent_Batch.profile -Dws.ext.debug=true -Dibm.dg.trc.print=st_verify -javaagent:/cse/introscopeAgent/wily/AgentNoRedefNoRetrans.jar -Xgcpolicy:gencon -DHYPERION_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -DEPM_ORACLE_HOME=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -DEPM_ORACLE_INSTANCE=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA -Djava.io.tmpdir=/tmp -Djava.util.logging.config.class=oracle.core.ojdl.logging.LoggingConfiguration -Doracle.core.ojdl.logging.config.file=/cse/lib/Jar_Repository/TECHARCH_REPORTING/HYP11SYA/logging.xml -Dcom.ibm.security.jurisdictionPolicyDir=/usr/WebSphere/jlib -Djava.library.path=/usr/WebSphere/AppServer_85/lib/native/aix/ppc_32/:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/default:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc/j9vm:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/ppc:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/../lib/ppc:/usr/WebSphere/AppServer_85/bin:/insthome/db2cinst/sqllib/lib64:/insthome/db2cinst/sqllib/lib64/gskit:/usr/lib:/lib:/usr/lib:/cse/finalist/lib/:/cse/lib/: -Djava.endorsed.dirs=/usr/WebSphere/AppServer_85/endorsed_apis:/usr/WebSphere/AppServer_85/java_1.7.1_32/jre/lib/endorsed -Djava.security.auth.login.config=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/wsjaas.conf -Djava.security.policy=/usr/WebSphere/AppServer_85/profiles/AppServer/properties/server.policy com.ibm.wsspi.bootstrap.WSPreLauncher -nosplash -application com.ibm.ws.bootstrap.WSLauncher com.ibm.ws.runtime.WsServer /usr/WebSphere/AppServer_85/profiles/AppServer/config cg1p02aCell01 ch1p04aNode01 SYA01_Batch
+ankcsesyaa06[/home/cseadmin]$ cd /usr/WebSphere/AppServer _85/profiles/AppServer/config/cse*
+ankcsesyaa06[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ ls
+SYA01.CSEArchitecture.properties                     SYA01.ImagingArchitecture.properties                 SYA01.tracing.properties.orig
+SYA01.CSEArchitecture.properties.orig                SYA01.ImagingArchitecture.properties.bak             SYA01_Integration.log4j.properties
+SYA01.ConsortiaInitialLoadToggle.properties          SYA01.PrintingArchitecture.properties                cmbicmenv.ini
+SYA01.ConsortiaUpdateQueuePublish.properties         SYA01.RemoteFormsGenExclusions.properties            cmbicmsrvs.ini
+SYA01.EnterpriseFormService.properties               SYA01.SECUREInterface.properties                     cmbicmsrvs.ini.bak
+SYA01.FontLocation.properties                        SYA01.ShippingInterfaces.properties                  cmblogconfig.properties
+SYA01.FormsArchitecture.properties                   SYA01.log4j.properties                               cmbpool.ini
+SYA01.FormsArchitecture.properties.ADOBEAEM          SYA01.log4j.properties.20181115                      donotremove
+SYA01.FormsArchitecture.properties.bak               SYA01.log4j.properties.HIB                           ibmcmconfig.properties
+SYA01.FormsArchitecture.properties.orig              SYA01.log4j.properties.bak                           ibmcmconfig.properties.bak
+SYA01.IFOnlineFormsArchitecture.properties           SYA01.reporting.properties                           securityAdministration.properties
+SYA01.IFOnlineFormsArchitecture.properties.AdobeAEM  SYA01.reporting.properties.bak
+SYA01.IFOnlineFormsArchitecture.properties.orig      SYA01.tracing.properties
+ankcsesyaa06[/usr/WebSphere/AppServer_85/profiles/AppServer/config/cseProperties]$ vi SYA01.ImagingArchitecture.properties
+[?1049h[56;1H[?12;25h[?1h="SYA01.ImagingArchitecture.properties" [Read only] 144 lines, 6382 characters [H[2J# Description:[H
+#    This file contains configuration data for the Imaging Architecture in
+#    specific the Document Management Service.
+#    The Document Management Service is a wrapper for the IBM Content Manager
+#    Java APIs.  It provides the ability to create, retrieve, delete, and
+#    update PDF documents stored in IBM DB2 Content Manager.  It is used by both
+#    on-line and batch applications.
+#
+# For More Information:
+#    See detailed Content Manager configuration information at the end of
+#    this file.
+#
+# Troubleshooting:
+#    If the application can't connect to Content Manager, try the following
+#    to resolve the problem.
+#
+#    If this is the first time you've tried to connect from your workstation
+#[7Ca) Be sure that the cmbcmenv.properties file in CSEResources specifies
+#[10Ca valid directory containing the rest of the cmb*.ini and
+#[10Ccmb*.properties files.
+#[7Cb) Be sure you have a DB2 connection configured to the Content Manager
+#[10CLibrary Server database (DEVLOACL: ICMV82, DEV: ??, TEST: ??, PROD: ??)
+#[7Cc) Test the DB2 connection using the DB2 client configuration assistant
+#
+#    If you've checked the conditions above:
+#[7Ca) Try to connect to Content Manager with the eClient and retrieve
+#[10Ca document to ensure that the server is up and accessable.
+#[10CDEV:  http://158.96.120.101/eClient82/IDMLogon2.jsp
+#[10CTEST: ??
+#[10CPROD: ??
+#[7Cb) Try to connect from another workstation.
+#
+# Change History:
+# 12/13/2004 Alan Mayer[9C- Initial creation
+#
+
+#
+# Content Manager connection information.  Values between @ signes
+# come from default.properties file when ant-config is run in the local
+# environment.
+#
+CM_SERVER=CONTMAN
+CM_USERID=sya01
+CM_PASSWORD=beer4y0u
+CM_RESOURCE_MANAGER_NAME=RMDB
+
+#
+# URL Conversion information.  Typically we'll replace the eBHC Resource
+# Manager server name with the TAMe server name.
+#
+# When the Document Management Service code looks up the URL for an image in
+# Content Manager, it first gets the URL directly from Content Manager.
+# It then rewrites Content Manager's URL to replace all occurrences of
+# TAME_URL_SEARCH with TAME_URL_REPLACE.
+#[H[55B"SYA01.ImagingArchitecture.properties" [Read only] 144 lines, 6382 characters[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[K
+[A# For example, given these values:
+
+[A# TAME_URL_SEARCH=csehap019.cse.gov.ca:9080
+
+[A# TAME_URL_REPLACE=CSEHAP019:9080
+
+[A#
+
+[A# The URL from Content Manager would look something like this:
+
+[A# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&to
+
+[Aken=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"[A
+
+
+[A#
+
+[A# The Document Management Service would rewrite it to this - replacing
+
+[A# "csehap019.cse.gov.ca" with "CSEHAP019":
+
+[A# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E6.F0
+
+[AgDOU6_nCPdjvLP9v2;&content-length=0"[A
+
+
+[A#
+
+[A# Note: Since this is an environment-specific property, the service first
+
+[A# looks to see if these values exist in the
+
+[A# FormsArchitecture.properties file, which is externalized as a URL resource in
+
+[A# WAS for all eBHC environments. If it does not find that URL resource,
+
+[A# then it defaults to the value set in DocumentManagementService.properties
+
+[A# (which is NOT externalized as a URL resource).
+
+[A#
+
+[ATAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315
+
+[A#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm
+
+[ATAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm
+
+[A
+
+[A
+
+[A# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+
+[A# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+
+[A# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+
+[A# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+
+[ACM_CONN_MIN_FREE=3
+
+[ACM_CONN_MAX_FREE=10
+
+[ACM_CONN_TIMEOUT_MS=10000
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[20A# ThL_SEARCH# The UR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TAME_URL_SEARCH=http://[H[2JTAME_URL_SEARCH=http://[H
+# Content Manager Connection pool parameters.  Passed to CMBConnectionPool APIs
+# Values: CM_CONN_MIN_FREE     - Min 1, max 100
+# Values: CM_CONN_MAX_FREE     - Min 1, max 500
+# Values: CM_CONN_TIMEOUT_MS   - Min 1000, max 3000000
+CM_CONN_MIN_FREE=3
+CM_CONN_MAX_FREE=10
+CM_CONN_TIMEOUT_MS=10000
+
+# New 8.4
+#ICMSERVERREPTYPE=DB2CON
+#IBMCMWorkingDirectory=/usr/WebSphere/AppServer/config/cseProperties
+
+# The max number of scanned items returned by the getScannedDocuments() method.
+# The caller can specify a maximum number of items, but if the values greater
+# than this value are not allowed.  If the caller passes in 0, the this number
+# is used.
+MAX_NEW_SCANNED_ITEMS=1000
+
+
+#
+# IBM DB2 Content Manager Product Configuration.  This section describes what
+# is required to connect to DB2 Content Manager.
+#
+#    1) DB2 connection to Library Server
+#
+#    The APIs require a DB2 connection to the library server.  Ensure that
+#    the system accessing Content Manager has a DB2 connection configured.
+#[6CSANDBOX:[9Cankcsesyaa05
+#[6CDEV:[13CCSEHAP019
+#[6CTEST:
+#[6CPROD:
+#
+#    2) DB2 and Content Manager JAR files in classpath
+#    cmb81.jar[18C- II4C/EIP Beans (CMB*)
+#    cmbicm81.jar[7C- Content Manager Connector Classes (DK*)
+#    cmbicmc81.jar[6C- 'Client' version of cmbicm81.jar (DK*)
+#    cmbsdk81.jar[7C- Content Manager Connector Classes (DK*)
+#    db2java.zip[16C- DB2 JDBC interface
+#
+#    3) Content Manager .ini and .properties files that ARE required
+#[7Cfor the Document Management Service.
+#
+#[6Ccmbicmenv.ini[12C- Specifies location of other cmb* files.
+#[6Ccmbicmsrvs.ini[11C- Specifies the names of the Content Manager
+#[33Cservers available to the APIs.
+#[6Ccmblogconfig.properties  - Specifies the name/location of Content
+#[33CManager log file.  Default is dklog.log.
+#[6Ccmbpool.ini[30C- Used to configure WAS db2 connection pooling
+#
+#    See chapter 34 of the following file for more information on the
+#    .properties and .ini files used by Content Manager.
+#
+#    Q:\TECHNOLOGY ARCHITECTURE\DEVELOPMENT\
+#[15CPIF\Reference\CM Documentation\CM82 Plan and Install Guide.pdf[1;24H[H[1L[55B[K[H[1LTAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm[56;1H[K[1;23H[H[1L#TAME_URL_REPLACE=http://ankcsesyaa05.dts.ca.gov:9080/icmrm[56;1H[K[1;23H[H[1LTAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315[56;1H[K[1;23H[H[1L#[56;1H[K[H[1L# (which is NOT externalized as a URL resource).[56;1H[K[1;23H[H[1L# then it defaults to the value set in DocumentManagementService.properties[56;1H[K[1;23H[H[1L# WAS for all eBHC environments. If it does not find that URL resource,[56;1H[K[1;23H[H[1L# FormsArchitecture.properties file, which is externalized as a URL resource in[56;1H[K[1;23H[H[1L# looks to see if these values exist in the[56;1H[K[1;23H[H[1L# Note: Since this is an environment-specific property, the service first[56;1H[K[1;23H[H[1L#[56;1H[K[H#[H[3L# http://CSEHAP019:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B44458F66129&ver
+sion=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.576385&token=A4E
+6.F0gDOU6_nCPdjvLP9v2;&content-length=0"[53B[K[1;23H[H[1L# "csehap019.cse.gov.ca" with "CSEHAP019":[56;1H[K[1;23H[H[1L# The Document Management Service would rewrite it to this - replacing[56;1H[K[1;23H[H[1L#[56;1H[K[H[3L# http://csehap019.cse.ca.gov:80/icmrm/ICMResourceManager?order=retrieve&item-id=A1001001A06C27B4445
+8F66129&version=1&collection=CBR.CLLCT001&libname=ICMNLSDB&update-date=2006-03-27+22%3A45%3A00.57638
+5&token=A4E6.F0gDOU6_nCPdjvLP9v2;&content-length=0"[53B[K[1;23H[H
+
+
+
+[22C
+
+
+
+
+#
+[21C
+
+
+[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l
+
+
+
+[22C
+
+
+
+[22C/i[K[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l/http://ankcsesyaa05.dts.ca.gov:[P[P[P[P[P[P[P[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5lAA[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5la[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[23C:http://ankcsesyaa05.dts.ca.gov:[31D:[K:[1L[34B[K[22;1Hy[1L[34B[K[22;1Hp[1M[33B#[22;1H[1M[33B#    2) DB2 and Content Manager JAR files in classpath[22;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[46C:9085
+[1L[33B[K[23;1H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5lTAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5lov[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l//[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[10Cm
+[1L[32B[K[24;1H[ATTAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov[Pc[P[P[P[P[P[P[P[P[P[K[Kv/[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[8C/
+[1L[32B[K[24;1HFN_PDF_URL[AREPLACE=https://ankcses[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[A[A[20;33H[A[A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l#TAME_URL_SEARCH=http://ankcsesyaa05.dts.ca.gov:9315#
+#
+T[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l#TAME_URL_REPLACE=https://ankcsesyaw01.dts.ca.gov/ccsas-icmrm#
+
+TAME_URL_SEARCH=http://ankc
+kcsesya[P[P[P[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l0.dts.ca.gov/[12D5.dts.ca.gov/[12D[P://ankcsesya05.dts.ca.gov:/9/0/8/5/[A[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l5/
+
+[9CL=ankcsesyaw01.dts.ca.govhankcsesyaw01.dts.ca.gov[12Ctankcsesyaw01.dts.ca.gov[13Ctankcsesyaw01.dts.ca.gov[14Cpankcsesyaw01.dts.ca.gov[15Csankcsesyaw01.dts.ca.gov[16C:ankcsesyaw01.dts.ca.gov[17C/ankcsesyaw01.dts.ca.gov[18C/ankcsesyaw01.dts.ca.gov[19C/ankcsesyaw01.dts.ca.go[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5lv:[K[K[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5lov/
+[1L[31B[K[25;1H[AFN_PDF_URL=https://ankcsesyaw01.dts.ca.gov[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[K[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l[32B:w"SYA01.ImagingArchitecture.properties"[7mex: 0602-065 The file has read permission only.[27m [K[K[24;42H[?5h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [?5l

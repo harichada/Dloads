@@ -1,0 +1,113 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.03 09:44:22 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Thu Oct  3 09:24:14 PDT 2019 on ssh from 169.2.108.102
+Last login: Thu Oct  3 09:28:10 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda06[/ipm/south] ls
+0402.txt                               mkxcel
+0402b.txt                              mkxcel.07052019
+0601.txt                               mkxcel.4252018
+0601b.txt                              mkxcel.back_jay
+0903.txt                               mkxcel.bak
+1101.txt                               mkxcel.ebhc
+1101a.txt                              mkxcel2
+1101b.txt                              mkxcel20120115
+1801b.txt                              mkxcel20130729
+1905z.txt                              mkxcel33
+1905zz.txt                             mkxcelbackup04072016
+1910.txt                               moveprinter.old
+1910b.txt                              mysubmit
+2901.txt                               newcreate
+2901b.txt                              newtest
+3006b.txt                              nonotif
+3401.txt                               notifyme
+4201.txt                               notpro
+4201b.txt                              offhold
+4701.txt                               offpend
+4901                                   olbt01.pdf
+5101b.txt                              olbt02.pdf
+FS-ENF-028_0134511640-01_25c7ac25.pdf  olbt03.pdf
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  olbt04.pdf
+OUTFILE                                olbt05.pdf
+SD.txt                                 olbtS1CG1P31A.pdf
+San.txt                                panel
+acct                                   pdallresub
+attrib                                 pdchangedomain
+blah                                   pdcleanvarpsm
+bytect                                 pddisablelp
+cg1p31a_ports.xls                      pdfindbigjob
+changeip                               pdgroup
+checkpio                               pdhelpgroup
+checkqueues                            pdhelpungroup
+checkqueues.sh                         pdipmcore
+checkqueues.sh.2old                    pdlastprint
+checkqueues.sh.bak                     pdpingprt
+checkqueues.sh.error                   pdqlist
+checkqueues.sh.old                     pdrestartlog
+checkqueues.test.sh                    pdresuball
+chkallprinters.save                    pdrmjob
+chkprt                                 pdrmresub
+chport                                 perqueue
+chprdom                                pingchk
+cleanup                                porttest
+clearcounty                            porttest.backup_20180126
+delown.pl                              porttest2
+doacct                                 preup
+dprt                                   printeracc
+dumpdestcomms                          prstate
+e2ecleanup                             psmqprint
+findbad                                queuelist.txt
+findheld                               queuelist1.txt
+findpdpr                               queuemaillist
+findpdpr.new                           queuemaillist.full
+findrdd                                recphys
+fixclock                               reprints
+fixprt                                 reset4308
+fixusers                               reset4308.bak
+fst.users                              resetprt
+hcraform.list3820                      salida.txt
+ipmthreads                             sample.afp
+itlogin.sh                             sample.pdf
+itmenu.sh                              sample2.pdf
+jim.pdf                                sendfile
+jimloc                                 servjobs
+jimresuball                            shortpanel
+jimtest.bak                            showptia
+jobid.out                              skeleton
+jobid_4901.txt                         spool-culprit
+jobstate                               spoolchk
+maillogs                               sshtest
+maillogs.06142019                      star.afp
+maillogstest                           star.ps
+maw.ps                                 testspool.sh
+melon.afp                              timex.out
+melon.ps                               topcpu
+micro                                  tularefiles
+mkfstusers
+ankcseprda06[/ipm/south] tail sa  -f salida.txt
+/var/pd/cse03suv02/error.log:D 12/14/16 07:35:35 [56d8 cse03suv02,3702pa02] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-FL-618_200000001773151_43ef82a7.pdf (5903734199) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:35:36 [57dd cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-FL-618_200000001818916_414e0918.pdf (5903734200) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:35:46 [5de7 cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-FL-618_200000001818972_081a80cc.pdf (5903734202) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:35:51 [56ec cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-FL-618_200000001818972_4195a083.pdf (5903734203) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:35:54 [58e2 cse03suv02,3702pa02] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-FL-618_200000001818916_b5be5009.pdf (5903734201) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:37:00 [56f6 cse03suv02,3702pa02] 5010-418 The request for job /var/pd/hotfolders/3702pl01/6ce25f8b-9470-4bf9-9df7-2ceaf15615b8.pdf (5903734205) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:37:07 [57f1 cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/df5a114d-060f-4203-b4bc-e19f528babda.pdf (5903734204) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:37:42 [5604 cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-EST-021-2011-07-01enriquezmelanie_2e7a7474.pdf (5903733623) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:38:14 [5709 cse03suv02,3702pa01] 5010-418 The request for job /var/pd/hotfolders/3702pl01/FS-EST-008_200000001270771_batchuser_ade99e44.pdf (5903733751) returned from the PSF backend with the return code 0.
+/var/pd/cse03suv02/error.log:D 12/14/16 07:38:51 [58ff cse03suv02,3702pa02] 5010-418 The request for job /var/pd/hotfolders/3702pl01/6cb5af26-4926-4a92-bdbf-d097efa218f9.pdf (5903734207) returned from the PSF backend with the return code 0.
+
+
+ankcseprda06[/ipm/south] 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

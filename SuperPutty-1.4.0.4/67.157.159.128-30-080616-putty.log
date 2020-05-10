@@ -1,0 +1,154 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 08:06:16 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Oct 30 08:04:57 2019 from cgdcssl1047ul.calcloud.local
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1059UL:~[?1034h[hchada@CGDCSSL1059UL ~]$ tail -f SystemOut.logcd /forms/tomcat8/logs^C
+]0;hchada@CGDCSSL1059UL:~[hchada@CGDCSSL1059UL ~]$ tail -f SystemOut.log^C
+]0;hchada@CGDCSSL1059UL:~[hchada@CGDCSSL1059UL ~]$ cd /[K[K[K[Kcd /forms/to[K[K[K
+]0;hchada@CGDCSSL1059UL:/forms[hchada@CGDCSSL1059UL forms]$ ls
+]0;hchada@CGDCSSL1059UL:/forms[hchada@CGDCSSL1059UL forms]$ cd ..
+]0;hchada@CGDCSSL1059UL:/[hchada@CGDCSSL1059UL /]$ cd /[K[K[K[Ksudo su -
+[sudo] password for hchada: 
+Last login: Mon Jun 24 10:13:03 PDT 2019 on pts/0
+]0;root@CGDCSSL1059UL:~[?1034h[root@CGDCSSL1059UL ~]# cd /etc/httpd/ssl/
+]0;root@CGDCSSL1059UL:/etc/httpd/ssl[root@CGDCSSL1059UL ssl]# ls
+efspft2.crt  efspft2.key  pft2efs-new.crt  pft2efs-new.csr  pft2efs-new.key  pft2ws2.crt  pft2ws2.csr  pft2ws2.key
+]0;root@CGDCSSL1059UL:/etc/httpd/ssl[root@CGDCSSL1059UL ssl]# vi ../conf.d/ssl.conf 
+[?1049h[?1h=[1;56r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[56;1H"../conf.d/ssl.conf" 228L, 9771C[1;1H#
+# When we also provide SSL we have to listen to the
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512
+
+#
+# Use "SSLCryptoDevice" to enable any supported hardware
+# accelerators. Use "openssl engine -v" to list supported
+# engine names.  NOTE: If you enable an accelerator and the
+# server does not start, consult the error logs and ensure
+# your accelerator is functioning properly.
+#
+SSLCryptoDevice builtin
+#SSLCryptoDevice ubsec
+
+##
+## SSL Virtual Host Context
+##[1;1H[?12l[?25h[?25l[56;1H[K[56;1H:[?12l[?25h/crt[?25l[27m[m[H[2J[1;1H# List the enable protocol levels with which clients will be able to
+# connect.  Disable SSLv2 access by default:
+SSLProtocol all -SSLv2 -SSLv3
+
+#   SSL Cipher Suite:
+#   List the ciphers that the client is permitted to negotiate.
+#   See the mod_ssl documentation for a complete list.
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+#   Speed-optimized SSL Cipher configuration:
+#   If speed is your main concern (on busy HTTPS servers e.g.),
+#   you might want to force clients to specific, performance
+#   optimized ciphers. In this case, prepend those ciphers
+#   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.
+#   Caveat: by giving precedence to RC4-SHA and AES128-SHA
+#   (as in the example below), most connections will no longer
+#   have perfect forward secrecy - if the server's key is
+#   compromised, captures of past or future traffic must be
+#   considered compromised, too.
+#SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5
+#SSLHonorCipherOrder on
+
+#   Server Certificate:
+# Point SSLCertificateFile at a PEM encoded certificate.  If
+# the certificate is encrypted, then you will be prompted for a
+# pass phrase.  Note that a kill -HUP will prompt again.  A new
+# certificate can be generated using the genkey(1) command.
+SSLCertificateFile /etc/httpd/ssl/pft2ws2.crt
+
+#   Server Private Key:
+#   If the key is not combined with the certificate, use this
+#   directive to point at the key file.  Keep in mind that if
+#   you've both a RSA and a DSA private key you can configure
+#   both in parallel (to also allow the use of DSA ciphers, etc.)
+SSLCertificateKeyFile  /etc/httpd/ssl/pft2ws2.key
+
+#   Server Certificate Chain:
+#   Point SSLCertificateChainFile at a file containing the
+#   concatenation of PEM encoded CA certificates which form the
+#   certificate chain for the server certificate. Alternatively
+#   the referenced file can be the same as SSLCertificateFile
+#   when the CA certificates are directly appended to the server
+#   certificate for convinience.
+#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt
+
+#   Certificate Authority (CA):
+#   Set the CA certificate verification path where to find CA
+#   certificates for client authentication or alternatively one
+#   huge file containing all of them (file must be PEM encoded)
+#SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt
+
+#   Client Authentication (Type):
+#   Client certificate verification type and depth.  Types are
+#   none, optional, require and optional_no_ca.  Depth is a
+#   number which specifies how deeply to verify the certificate[28;1H[?12l[?25hSSLCertificateFile /etc/httpd/ssl/pft2[?25lft2ws2.crt[28;45H[K[28;35H[?12l[?25h[?25lt2ws2.crt[28;44H[K[28;35H[?12l[?25h[?25l2ws2.crt[28;43H[K[28;35H[?12l[?25h[?25lws2.crt[28;42H[K[28;35H[?12l[?25h[?25ls2.crt[28;41H[K[28;35H[?12l[?25h[?25l2.crt[28;40H[K[28;35H[?12l[?25h[?25l.crt[28;39H[K[28;35H[?12l[?25h[?25lcrt[28;38H[K[28;35H[?12l[?25h[?25lrt[28;37H[K[28;35H[?12l[?25h[?25lt[28;36H[K[28;35H[?12l[?25h[?25l[28;35H[K[28;34H[?12l[?25h[?25l[56;1H[1m-- INSERT --[28;35H[?12l[?25h[?25l[mpft2efs-new.crt[?12l[?25h[56;1H[K[28;49H[?25l[?12l[?25h
+[30;23H[31;49H[32;49H[33;49H[34;49H[35;48H[?25lft2ws2.key[35;49H[K[35;39H[?12l[?25h[?25lt2ws2.key[35;48H[K[35;39H[?12l[?25h[?25l2ws2.key[35;47H[K[35;39H[?12l[?25h[?25lws2.key[35;46H[K[35;39H[?12l[?25h[?25ls2.key[35;45H[K[35;39H[?12l[?25h[?25l2.key[35;44H[K[35;39H[?12l[?25h[?25l.key[35;43H[K[35;39H[?12l[?25h[?25lkey[35;42H[K[35;39H[?12l[?25h[?25ley[35;41H[K[35;39H[?12l[?25h[?25ly[35;40H[K[35;39H[?12l[?25h[?25l[35;39H[K[35;38H[?12l[?25h[?25l[56;1H[1m-- INSERT --[35;39H[?12l[?25h[?25l[mpft2efs-new.crt[?12l[?25h[?25l[35;53H[K[35;53H[?12l[?25h[?25l[35;52H[K[35;52H[?12l[?25h[?25l[35;51H[K[35;51H[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25ly[?12l[?25h[56;1H[K[35;53H[?25l[?12l[?25h[?25l[56;1H:[?12l[?25hwq[?25l"../conf.d/ssl.conf" 228L, 9779C written
+[?1l>[?12l[?25h[?1049l]0;root@CGDCSSL1059UL:/etc/httpd/ssl[root@CGDCSSL1059UL ssl]# [K[root@CGDCSSL1059UL ssl]# exit
+logout
+]0;hchada@CGDCSSL1059UL:/[hchada@CGDCSSL1059UL /]$ exit
+logout

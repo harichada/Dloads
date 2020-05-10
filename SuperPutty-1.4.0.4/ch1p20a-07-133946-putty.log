@@ -1,0 +1,62 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.07 13:39:46 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Last unsuccessful login: Wed Aug 28 13:30:18 PDT 2019 on ssh
+Last login: Fri Sep 27 10:22:46 PDT 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+hchada    Password Expires in 32 days
+ankcsepf1a06[/home/hchada]$ cd /cse/batch
+ankcsepf1a06[/cse/batch]$ ls
+PFT09_Batch_AP021_01  PFT09_Batch_AP021_02  PFT09_Batch_Cluster   dumps
+ankcsepf1a06[/cse/batch]$ cd PFT09 _Batch _AP021 _01
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01]$ ls
+BatchRpt.txt  jobExecution  log           log.txt       logs          work
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01]$ cd jobExecutions 
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/jobExecution]$ ls
+20180219.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDM-500#CDM-500-DS01#20180522_000000.txt
+20180219.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-120-TEST#CDX-120-FT01#20180820_000000.txt
+20180221.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-610#CDX-610-DS02#20190513_000000.txt
+20180221.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#CDX-619#CDX-619-FT01#20190513_000000.txt
+20180222.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#CDX-637#CDX-637-DS02#20180522_000000.txt
+20180222.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#EST-505-CLASS#EST-505-FG01#20190225_000000.txt
+20180522.PFT09XA.OND-520-A.OND-520-OD01.STATUS           PFT09XA#LOC-124#LOC-124-DS01#20190513_000000.txt
+20180522.PFT09XA.OND-527-A.OND-527-OD01.STATUS           PFT09XA#LOC-125#LOC-125-DS01#20180221_000000.txt
+20190513.PFT09XA.OND-520-A.OND-520-OD01.STATUS           SECURE
+20190513.PFT09XA.OND-527-A.OND-527-OD01.STATUS           localhost#ENF-780-PROD#ENF-780-FT01#20181026_000000.txt
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/jobExecution]$ cd Se                 *
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/jobExecution/SECURE]$ ls
+PFT09.SECURE_User.properties
+ankcsepf1a06[/cse/batch/PFT09_Batch_AP021_01/jobExecution/SECURE]$ more *
+[?1049h[95;1H[K#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K...skipping...
+#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K...skipping...
+#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m[K...skipping...
+#Tue Sep 03 09:18:28 PDT 2019
+lastModifiedDate=09/03/2019
+password=td^vnd7Pg
+userId=dcsssapisvc_uat_PFT09
+twofactorpassword=HuK1qynU
+[K[7mPFT09.SECURE_User.properties: END[27m

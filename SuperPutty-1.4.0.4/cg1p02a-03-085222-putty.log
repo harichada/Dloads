@@ -1,0 +1,20 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.12.03 08:52:22 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcsesyaa02[/home/cseadmin]$ ifconfig -a
+en0: flags=1e084863,814c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 134.187.144.3 netmask 0xfffffff0 broadcast 134.187.144.15
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en1: flags=1e084863,80480<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),CHAIN>
+        inet 192.168.1.207 netmask 0xfffff000 broadcast 192.168.15.255
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+en2: flags=1e084863,814c0<UP,BROADCAST,NOTRAILERS,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,CHECKSUM_OFFLOAD(ACTIVE),LARGESEND,CHAIN>
+        inet 10.32.2.65 netmask 0xffff0000 broadcast 10.32.255.255
+         tcp_sendspace 262144 tcp_recvspace 262144 rfc1323 1
+lo0: flags=e08084b,c0<UP,BROADCAST,LOOPBACK,RUNNING,SIMPLEX,MULTICAST,GROUPRT,64BIT,LARGESEND,CHAIN>
+        inet 127.0.0.1 netmask 0xff000000 broadcast 127.255.255.255
+        inet6 ::1%1/64
+         tcp_sendspace 131072 tcp_recvspace 131072 rfc1323 1
+ankcsesyaa02[/home/cseadmin]$ ifconfig -amore SYA01.ImagingArchitecture.propertiescat SYA01.ImagingArchitecture.properties ls                                      cd /usr/WebSphere/AppServer _85/profiles/DeploymentManager/config/cse*
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

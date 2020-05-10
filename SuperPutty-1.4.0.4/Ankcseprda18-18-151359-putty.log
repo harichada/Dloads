@@ -1,0 +1,207 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.18 15:13:59 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "ipmcomm".
+Last unsuccessful login: Mon Oct 14 09:15:20 PDT 2019 on ssh from 169.2.108.102
+Last login: Mon Nov 18 15:10:28 PST 2019 on ssh from 169.2.108.102
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+ankcseprda18[/ipm/south] ls -la
+total 18128
+drwxrwxr-x   11 cseadmin printq         8192 Nov 05 16:03 .
+drwxrwxr-x   15 cseadmin printq         4096 Feb 16 2016  ..
+-rwx------    1 cseadmin printq          539 Oct 21 2005  .kshrc
+-rwx------    1 cseadmin printq           68 Oct 21 2005  .profile
+-rw-r-----    1 ipmcomm  printq            0 Jul 15 10:11 0601b.txt
+-rw-r-----    1 ipmcomm  printq       137508 Oct 01 10:15 0701.txt
+-rw-r-----    1 ipmcomm  printq         4740 Oct 01 10:15 0701b.txt
+-rw-r-----    1 ipmcomm  printq         1004 Oct 23 2018  10_23_18.txt
+-rw-r-----    1 ipmcomm  printq        38501 Apr 07 2016  1201a.txt
+-rw-r-----    1 ipmcomm  printq         2989 Apr 07 2016  1201b.txt
+-rw-r-----    1 ipmcomm  printq       266240 Jul 06 2016  2301.txt
+-rw-r-----    1 ipmcomm  printq            0 Mar 19 2018  2701b.txt
+-rw-r-----    1 ipmcomm  printq       336917 Sep 17 11:30 2901.txt
+-rw-r-----    1 ipmcomm  printq         3717 Sep 17 11:30 2901b.txt
+-rw-r-----    1 ipmcomm  printq            0 Oct 14 2016  3101b.txt
+-rw-r-----    1 ipmcomm  printq        19441 Nov 23 2016  3401.txt
+drwxr-x---    3 ipmcomm  printq         8192 Oct 23 2018  5801
+-rw-r-----    1 ipmcomm  printq        16641 Jun 01 2017  6_1_17.txt
+-rwxrwxrwx    1 105331   other         20121 Aug 19 2013  Alameda.pdf
+-rw-------    1 ipmcomm  printq            0 Aug 02 2012  Defect 354304 Central Print 2 syt11.pdf.filepart
+-rw-rw-r--    1 cseadmin printq       155694 Jan 03 2018  FS-ENF-028_0134511640-01_25c7ac25.pdf
+-rw-rw-r--    1 cseadmin printq       155683 Jan 03 2018  FS-ENF-028_0970056784-01_b0d1ee34.pdf
+-rwxrwxrwx    1 105331   other         25866 Aug 19 2013  Glenn.pdf
+-rwxrwxrwx    1 105331   other         28594 Aug 19 2013  Kings.pdf
+-rwxrwxrwx    1 105331   other         25184 Aug 19 2013  Nevada.pdf
+-rw-r-----    1 ipmcomm  printq        35928 Jan 24 2019  Ridge.txt
+-rwxrwxrwx    1 105331   other         22948 Aug 16 2013  Trinity.pdf
+-rwxrwxrwx    1 105331   other         24204 Aug 16 2013  Yolo.pdf
+drwx-w----    2 cseadmin printq         4096 Sep 24 2007  acct
+-rwxrwx---    1 cseadmin printq        43429 Oct 13 2005  admhelp
+drwxrwx---    7 cseadmin printq          256 Sep 27 2005  attrib
+-rwxrwx---    1 cseadmin printq         3647 Oct 07 2005  bytect
+-rw-r-----    1 ipmcomm  printq        24064 Jul 01 12:34 ch1p30a_ports.xls
+-rwx-w----    1 cseadmin printq          552 Nov 06 2007  changeip
+-rwxrwx---    1 cseadmin printq          103 Oct 07 2005  checkpio
+-rwxrwxr-x    1 ipmcomm  printq         4163 Apr 19 2016  checkqueues.sh
+-rwxrwxr-x    1 ipmcomm  printq         4154 Feb 25 2016  checkscratch.sh
+-rwx-w----    1 cseadmin printq          849 Mar 14 2008  chkallprinters
+-rwx-w----    1 cseadmin printq          849 Mar 14 2008  chkallprinters.original
+-rwxrwx---    1 cseadmin printq         5542 Oct 07 2005  chkprt
+-rwxrwx---    1 cseadmin printq          865 Oct 07 2005  chport
+-rwxrwx---    1 cseadmin printq          486 Oct 07 2005  chprcom
+-rwxrwx---    1 cseadmin printq         1056 Oct 07 2005  chprdom
+-rwxrwx---    1 cseadmin printq         3103 Oct 07 2005  cleanup
+-rw-r-----    1 ipmcomm  printq            0 Oct 03 2017  cse16suv01,3801pa02]
+-rwxrwx---    1 cseadmin printq         1222 Oct 07 2005  delown.pl
+-rwxrwxrwx    1 103676   staff       6801831 Dec 05 2012  destinations.txt
+-rwx-w----    1 cseadmin printq         1311 Nov 04 2010  doacct
+-rwxrwx---    1 cseadmin printq         1881 Oct 07 2005  dprt
+-rwxrwx---    1 cseadmin printq          475 Oct 07 2005  dumpdestcomms
+-rwxrwx---    1 cseadmin printq         1319 Oct 07 2005  e2ecleanup
+drwx------    2 cseadmin printq          256 Apr 13 2011  ebhc
+-rw-r-----    1 ipmcomm  printq        62465 Nov 27 2017  error1127.log
+-rwxrwx---    1 cseadmin printq          136 Oct 07 2005  findbad
+-rwxrwx---    1 cseadmin printq          591 Oct 07 2005  findheld
+-rwxrwx---    1 cseadmin printq          728 Oct 07 2005  findpdpr
+-rwxrwx---    1 cseadmin printq         1289 Oct 07 2005  findpdpr.new
+-rwxrwx---    1 cseadmin printq         1084 Oct 07 2005  findrdd
+-rwxrwx---    1 cseadmin printq          396 Oct 07 2005  fixclock
+-rwxrwx---    1 cseadmin printq         1285 Oct 07 2005  fixprt
+-rwxrwx---    1 cseadmin printq          841 Oct 07 2005  fixusers
+-rwxrwx---    1 cseadmin printq          395 Oct 07 2005  fst.users
+-rwxrwxr-x    1 cseadmin cseadmin       5788 Jul 19 2018  getprinted.sh
+-rwxrwx---    1 cseadmin printq         9591 Oct 10 2005  hcraform.list3820
+-rwxrwx---    1 cseadmin printq          250 Oct 07 2005  ipmthreads
+-rwxrwx---    1 cseadmin printq         4578 Oct 07 2005  itlogin.sh
+-rwxrwx---    1 cseadmin printq         4578 Oct 07 2005  itmenu.sh
+-rw--w----    1 cseadmin printq        20480 Nov 07 2006  itmenu.tar
+-rwxrwx---    1 cseadmin printq          911 Oct 07 2005  jimloc
+-rwxrwx---    1 cseadmin printq         1019 Oct 07 2005  jimresuball
+-rwxrwx---    1 cseadmin printq         3076 Oct 27 2009  jimtime
+-rw-rw----    1 cseadmin printq          220 Oct 27 2009  jobid.out
+-rw-r-----    1 ipmcomm  printq          473 Jul 24 2018  jobid.txt
+-rwxrwx---    1 cseadmin printq          259 Oct 07 2005  jobstate
+-rw-rw----    1 cseadmin printq           59 Apr 07 2010  killtransprocs
+-rwxrwxr-x    1 cseadmin printq         2024 Jun 14 16:05 maillogs
+-rwxrwxr-x    1 ipmcomm  printq         1935 May 20 2009  maillogs.06142019
+-rwxrwxrwx    1 ipmcomm  printq         2024 May 23 10:47 maillogstest
+-rwxr-x---    1 ipmcomm  printq          804 Dec 18 2012  mailtestipm
+-rwxrwxrwx    1 103676   staff           806 Jul 29 2013  mailtestjw
+-rwxrwxrwx    1 103676   staff           804 Jul 29 2013  mailtestjw20130729
+-rwxrwx---    1 cseadmin printq         9085 Oct 10 2005  maw.ps
+-rwxrwx---    1 cseadmin printq          788 Oct 10 2005  melon.ps
+-rwxrwx---    1 cseadmin printq         3361 Oct 07 2005  micro
+-rwxrwx---    1 cseadmin printq          332 Oct 07 2005  mkfstusers
+-rwxrwx---    1 ipmcomm  printq         2614 Apr 25 2018  mktest
+-rwxr-x---    1 ipmcomm  printq         2741 Jul 05 16:42 mkxcel
+-rwxr-x---    1 cseadmin cseadmin       2662 Jun 28 16:30 mkxcel.06282019
+-rwxr-x---    1 ipmcomm  printq         2731 Jun 28 16:54 mkxcel.07052019
+-rwxr-x---    1 ipmcomm  printq         2843 Apr 25 2018  mkxcel.4252018
+-rwxr-x---    1 ipmcomm  printq         1959 Oct 16 2013  mkxcel.bak20131016
+-rw-r-----    1 ipmcomm  printq         2948 Apr 07 2016  mkxcel04072016
+-rwxrwx---    1 cseadmin printq          739 May 05 2011  mkxcel2
+-rwxrwxrwx    1 103676   staff          2057 Nov 06 2012  mkxcel20121106
+-rwxr-x---    1 ipmcomm  printq         2067 Dec 17 2012  mkxcel20121217
+-rwx------    1 cseadmin cseadmin       2003 Jul 29 2013  mkxcel20130729
+-rwxr-x---    1 ipmcomm  printq         2029 Oct 16 2013  mkxcel20131016
+-rwxrwxrwx    1 103676   staff          1980 Feb 12 2014  mkxcel20140212
+-rwxrwx---    1 cseadmin printq          553 May 05 2011  mkxcel2a
+-rwxrwx---    1 cseadmin printq          545 May 05 2011  mkxcel2b
+-rwxrwx---    1 cseadmin printq          547 May 05 2011  mkxcel2c
+-rwxr-x---    1 cseadmin printq          546 Apr 19 2011  mkxcel3
+-rwxrwxrwx    1 cseadmin printq          624 Apr 19 2011  mkxcel33
+-rwxr-x---    1 ipmcomm  printq         2659 Jul 02 10:03 mkxcel_5001
+-rwxr-x---    1 ipmcomm  printq         2837 Apr 30 2015  mkxcel_jay.back
+-rwxr-x---    1 ipmcomm  printq         2731 Apr 25 2018  mkxcel_new
+-rwxrwxrwx    1 cseadmin cseadmin        804 Dec 17 2012  mkxcelcp
+-rwxrwxrwx    1 cseadmin cseadmin       2049 Nov 05 15:56 mlt
+-rwxrwx---    1 cseadmin printq         1839 Oct 07 2005  moveprinter.old
+-rwxrwx---    1 cseadmin printq          416 Oct 07 2005  mysubmit
+-rwxrwx---    1 cseadmin printq         8496 Nov 06 2007  newcreate
+-rwxrwx---    1 cseadmin printq         8668 Feb 06 2008  newtest
+-rwxrwx---    1 cseadmin printq          141 Oct 07 2005  nonotif
+-rwxrwx---    1 cseadmin printq          471 Oct 07 2005  notifyme
+-rwxrwx---    1 cseadmin printq          168 Oct 07 2005  notpro
+-rwxrwx---    1 cseadmin printq          529 Oct 27 2009  offhold
+-rwxrwx---    1 cseadmin printq          459 Oct 07 2005  offpend
+-rw-rw-r--    1 cseadmin printq        11050 Apr 19 2011  olbt01.pdf
+-rw-rw-r--    1 cseadmin printq        11050 May 03 2011  olbt02.pdf
+-rw-rw-r--    1 cseadmin printq        11050 May 03 2011  olbt03.pdf
+-rw-rw-r--    1 cseadmin printq        11050 May 04 2011  olbt04.pdf
+-rw-r-----    1 ipmcomm  printq        11050 Nov 30 2016  olbt05.pdf
+-rw-rw-r--    1 ipmcomm  printq        52711 Jan 09 2018  olbt06.pdf
+-rw-rw-r--    1 cseadmin printq        11050 Apr 19 2011  olbtS2CH1P30A.pdf
+-rwxrwx---    1 cseadmin printq         3043 Oct 10 2005  panel
+-rwxrwx---    1 cseadmin printq          284 Oct 07 2005  pdallresub
+-rwxrwx---    1 cseadmin printq         1398 Oct 07 2005  pdchangedomain
+-rwxrwx---    1 cseadmin printq          319 Oct 07 2005  pdcleanvarpsm
+-rwxrwx---    1 cseadmin printq          554 Oct 07 2005  pddisablelp
+-rwxrwx---    1 cseadmin printq         3017 Oct 07 2005  pdfindbigjob
+-rwxrwx---    1 cseadmin printq         1293 Oct 07 2005  pdgroup
+-rwxrwx---    1 cseadmin printq         2933 Oct 07 2005  pdhelpgroup
+-rwxrwx---    1 cseadmin printq          306 Oct 07 2005  pdhelpungroup
+-rwxrwx---    1 cseadmin printq         6451 Oct 07 2005  pdipmcore
+-rwxrwx---    1 cseadmin printq         1628 Oct 07 2005  pdlastprint
+-rwxrwx---    1 cseadmin printq         2928 Oct 07 2005  pdpingprt
+-rwxrwx---    1 cseadmin printq          309 Oct 07 2005  pdqlist
+-rwxrwx---    1 cseadmin printq          191 Oct 07 2005  pdrestartlog
+-rwxrwx---    1 cseadmin printq         2241 Oct 07 2005  pdresuball
+-rwxrwx---    1 cseadmin printq         1269 Oct 07 2005  pdrmjob
+-rwxrwx---    1 cseadmin printq         1719 Jan 15 2009  pdrmresub
+-rwxrwx---    1 cseadmin printq         1424 Oct 13 2005  perqueue
+-rwxrwx---    1 cseadmin printq         1531 Oct 07 2005  pingchk
+-rw-rw----    1 cseadmin printq        55466 Apr 07 2010  poo
+-rwxrwxr-x    1 cseadmin printq         1453 Jul 05 16:35 porttest
+-rwxrwxr-x    1 cseadmin printq         1246 Jun 20 2012  porttest.07052019
+-rwxrwxr-x    1 ipmcomm  printq         1453 Jun 28 16:20 porttest2
+-rwxrwxr-x    1 cseadmin cseadmin       1246 Jan 14 2019  porttest_LEX
+-rwxrwx---    1 cseadmin printq          938 Oct 07 2005  preup
+-rwxrwx---    1 cseadmin printq         4287 Oct 07 2005  printeracc
+-rw-r-----    1 ipmcomm  printq        52260 Nov 27 2017  printers.log
+-rw-r-----    1 ipmcomm  printq           95 Jul 24 2018  printout.sh
+drwxrwxrwx    2 cseadmin cseadmin       4096 Feb 12 2013  prints
+-rwxrwx---    1 cseadmin printq          584 Oct 07 2005  prstate
+-rwxrwx---    1 cseadmin printq         1498 Oct 10 2005  psmqprint
+-rw-r-----    1 ipmcomm  printq          279 May 03 2016  queuelist.txt
+-rw-r-----    1 ipmcomm  printq           18 May 03 2016  queuelist1.txt
+-rwxrwxr-x    1 ipmcomm  printq           26 Mar 08 2016  queuemaillist
+-rwxr-x---    1 ipmcomm  printq           77 Mar 08 2016  queuemaillist.bak
+-rwxrwx---    1 cseadmin printq          118 Oct 07 2005  recphys
+drwxrwxr-x    2 amayer   staff           256 Jul 02 2013  reprint
+-rwxrwx---    1 cseadmin printq         1112 Nov 03 2005  reset4308
+-rwxrwx---    1 cseadmin printq          365 Oct 07 2005  reset4308.bak
+-rwxrwx---    1 cseadmin printq          912 Oct 07 2005  resetprt
+-rw-rw----    1 cseadmin printq        11136 Apr 07 2010  sample.afp
+-rw-rw-r--    1 cseadmin printq         3301 May 23 2007  sample.pdf
+drwxr-x---    2 ipmcomm  printq         8192 Apr 02 2019  sanber
+-rwxrwxr-x    1 cseadmin printq          442 Oct 07 2009  sendfile
+-rwxrwx---    1 cseadmin printq          344 Sep 12 2007  servjobs
+-rwxrwx---    1 cseadmin printq         1302 Oct 10 2005  shortpanel
+-rwxrwxr-x    1 cseadmin printq          269 Nov 17 2008  showptia
+-rwxrwx---    1 cseadmin printq         1700 Oct 06 2005  skeleton
+-rwxrwx---    1 cseadmin printq          285 Oct 07 2005  spool-culprit
+-rwxrwx---    1 cseadmin printq         1344 Oct 07 2005  spoolchk
+drwxrwxrwx    2 ipmcomm  printq         4096 Oct 15 08:44 stanislaus
+-rw--w----    1 cseadmin printq        55466 Apr 07 2010  star.afp
+-rwxrwx---    1 cseadmin printq         2353 Oct 10 2005  star.ps
+drwxrwx---    2 cseadmin printq         4096 Apr 12 2012  temp
+-rwxrwxr-x    1 ipmcomm  printq         1654 Feb 17 2016  testspool.ksh
+-rw-r-----    1 ipmcomm  printq        14576 Feb 01 2016  timex.out
+-rwxrwx---    1 cseadmin printq          624 Oct 07 2005  topcpu
+ankcseprda18[/ipm/south] ls -a *.pdf
+Alameda.pdf                            Kings.pdf                              olbt01.pdf                             olbt05.pdf
+FS-ENF-028_0134511640-01_25c7ac25.pdf  Nevada.pdf                             olbt02.pdf                             olbt06.pdf
+FS-ENF-028_0970056784-01_b0d1ee34.pdf  Trinity.pdf                            olbt03.pdf                             olbtS2CH1P30A.pdf
+Glenn.pdf                              Yolo.pdf                               olbt04.pdf                             sample.pdf
+ankcseprda18[/ipm/south] cp /ipm/south/olbt06.pdf /var/pd/hotfolders/5701pl01
+ankcseprda18[/ipm/south] cp /ipm/south/olbt06.pdf /var/pd/hotfolders/5701pl01
+ankcseprda18[/ipm/south] exit

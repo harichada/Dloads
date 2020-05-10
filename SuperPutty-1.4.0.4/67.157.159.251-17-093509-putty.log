@@ -1,0 +1,1313 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.17 09:35:09 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Mon Oct 14 10:33:58 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ ls /tmp
+__crx2117655343058187037.dat                [0m[01;34mhsperfdata_tomadmin[0m
+__crx2991694086230325526.dat                [01;32missue.net[0m
+__crx3213132693131551697.dat                [01;34mlost+found[0m
+__crx4615339870039824613.dat                [01;34msystemd-private-4bee7079519444de8f079ceecc24fc46-ntpd.service-1k31pm[0m
+[01;32mefs-sya01.war[0m                               [01;34mvmware-tools-10.2.1[0m
+[01;34mfonts.d92c6b4f-c9de-48df-bf90-7b707fd97c0c[0m  [01;34mvmware-tools-distrib[0m
+[01;34mhsperfdata_root[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd /forms/ro
+-bash: cd: /forms/ro: No such file or directory
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd /forms/rto[K[K[Ktomcat8/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8[hchada@CGDCSSL1047UL tomcat8]$ cd webapps/
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls
+[0m[01;34mansireport[0m  [01;34mdocs[0m  [01;34mefs-sya01[0m  [01;31mefs-sya01.war[0m  [01;34mexamples[0m  [01;34mhost-manager[0m  [01;34mmanager[0m  [01;34mmyconf[0m  [01;34mROOT[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ sudo cp /tmp/efs-sya01.war .
+[sudo] password for hchada: 
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls -lagrt
+total 36712
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9 14:39 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9 14:39 [01;34mhost-manager[0m
+drwxrwxr-x. 10 tomadmin     4096 Oct 11 16:18 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Oct 11 16:18 [01;34mefs-sya01[0m
+-rw-r--r--.  1 tomadmin 37548683 Oct 17 09:35 [01;31mefs-sya01.war[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls -lagrt
+total 36712
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9 14:39 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9 14:39 [01;34mhost-manager[0m
+drwxrwxr-x. 10 tomadmin     4096 Oct 11 16:18 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Oct 11 16:18 [01;34mefs-sya01[0m
+-rw-r--r--.  1 tomadmin 37548683 Oct 17 09:35 [01;31mefs-sya01.war[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls -lagrt
+total 36712
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9 14:39 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9 14:39 [01;34mhost-manager[0m
+-rw-r--r--.  1 tomadmin 37548683 Oct 17 09:35 [01;31mefs-sya01.war[0m
+drwxrwxr-x. 10 tomadmin     4096 Oct 17 09:35 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Oct 17 09:35 [01;34mefs-sya01[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ ls -lagrt
+total 36712
+drwxr-xr-x.  4 tomadmin     4096 Mar 14  2019 [0m[01;34mmyconf[0m
+drwxrwxr-x.  6 tomadmin     4096 Mar 14  2019 [01;34mexamples[0m
+drwxrwxr-x.  2 tomadmin     4096 Mar 14  2019 [01;34mansireport[0m
+drwxrwxr-x.  3 tomadmin     4096 Mar 14  2019 [01;34mROOT[0m
+drwxrwxr-x. 14 tomadmin     4096 Mar 14  2019 [01;34mdocs[0m
+drwxrwxr-x. 13 tomadmin     4096 Apr  2  2019 [01;34m..[0m
+drwxrwxr-x.  5 tomadmin     4096 May  9 14:39 [01;34mmanager[0m
+drwxr-x---.  5 tomadmin     4096 May  9 14:39 [01;34mhost-manager[0m
+-rw-r--r--.  1 tomadmin 37548683 Oct 17 09:35 [01;31mefs-sya01.war[0m
+drwxrwxr-x. 10 tomadmin     4096 Oct 17 09:35 [01;34m.[0m
+drwxr-x---.  5 tomadmin     4096 Oct 17 09:35 [01;34mefs-sya01[0m
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/webapps[hchada@CGDCSSL1047UL webapps]$ cd /aem/
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ cd crx-quickstart/
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart[hchada@CGDCSSL1047UL crx-quickstart]$ ls
+[0m[01;34mapp[0m      [01;34mbin[0m   eula-de_DE.html  eula-fr_FR.html  [01;34mfonts[0m      [01;34mlogs[0m     [01;34mopt[0m         [01;34mrepository[0m  [01;34mthreaddumps[0m
+[01;34mbedrock[0m  [01;34mconf[0m  eula-en_US.html  eula-ja_JP.html  [01;34mlaunchpad[0m  [01;34mmetrics[0m  readme.txt  [01;34mtemp[0m
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart[hchada@CGDCSSL1047UL crx-quickstart]$ cd bin
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ls
+GetProcessID.class  [0m[01;32mquickstart[0m  quickstart.bat  [01;32mstart[0m  start.bat  [01;32mstatus[0m  status.bat  [01;32mstop[0m  stop.bat
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ sudo ./stop
+./stop: line 13: java: command not found
+Stop command returned 127. Trying to kill the process...
+process 18778 was killed
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ sudo ./stop[K[Kart
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ sudo ./start[1Popls[K^C
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   20319 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21205 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21881 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem[5Psudo ./start[1Pop
+./stop: line 13: java: command not found
+Stop command returned 127. Trying to kill the process...
+process 20312 not running
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ sudo ./stopps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21940 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21943 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21949 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:15 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21952 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:16 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+hchada   21961 20047  0 09:38 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ ps -ef | grep aem[6Psudo ./stopps -ef | grep aem[5Psudo ./start
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32	  use a 32-bit data model if available
+    -d64	  use a 64-bit data model if available
+    -server	  to select the "server" VM
+                  The default VM is server,
+                  because you are running on a server-class machine.
+
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ more start
+#!/bin/bash
+#
+# This script configures the start information for this server.
+#
+# The following variables may be used to override the defaults.
+# For one-time overrides the variable can be set as part of the command-line; e.g.,
+#
+#     % CQ_PORT=1234 ./start
+#
+
+# TCP port used for stop and status scripts
+if [ -z "$CQ_PORT" ]; then
+	CQ_PORT=4502
+fi
+
+# hostname of the interface that this server should listen to
+#if [ -z "$CQ_HOST" ]; then
+#	CQ_HOST=
+#fi
+
+# runmode(s)
+# will not be used if repository is already present
+if [ -z "$CQ_RUNMODE" ]; then
+	CQ_RUNMODE='author'
+fi
+
+# name of the jarfile
+#if [ -z "$CQ_JARFILE" ]; then
+#	CQ_JARFILE=''
+#fi
+
+# default JVM options
+if [ -z "$CQ_JVM_OPTS" ]; then
+	CQ_JVM_OPTS='-server -Xmx1024m -XX:MaxPermSize=256M -Djava.awt.headless=true'
+	# add the required JPMS modules, if needed
+	java --add-modules java.se.ee -version >/dev/null 2>&1
+	if [ $? -eq 0 ]; then
+	       CQ_JVM_OPTS="${CQ_JVM_OPTS} --add-modules java.se.ee"
+	fi
+fi
+
+# file size limit (ulimit)
+if [ -z "$CQ_FILE_SIZE_LIMIT" ]; then
+	CQ_FILE_SIZE_LIMIT=8192
+fi
+
+# ------------------------------------------------------------------------------
+# authentication
+# ------------------------------------------------------------------------------
+# when using oak (crx3) authentication must be configured using the
+# Apache Felix JAAS Configuration Factory service via the Web Console
+# see http://jackrabbit.apache.org/oak/docs/security/authentication/externalloginmodule.html
+
+# use jaas.config (legacy: only used for crx2 persistence)
+#if [ -z "$CQ_USE_JAAS" ]; then
+#	CQ_USE_JAAS='true'
+#fi
+
+# config for jaas (legacy: only used for crx2 persistence)
+#if [ -z "$CQ_JAAS_CONFIG" ]; then
+#	CQ_JAAS_CONFIG='etc/jaas.config'
+#fi
+
+# ------------------------------------------------------------------------------
+# persistence mode
+# ------------------------------------------------------------------------------
+# the persistence mode can not be switched for an existing repository
+CQ_RUNMODE="${CQ_RUNMODE},crx3,crx3tar"
+#CQ_RUNMODE="${CQ_RUNMODE},crx3,crx3mongo"
+
+# settings for mongo db
+#if [ -z "$CQ_MONGO_HOST" ]; then
+#	CQ_MONGO_HOST=127.0.0.1
+#fi
+#if [ -z "$CQ_MONGO_PORT" ]; then
+#	CQ_MONGO_PORT=27017
+#fi
+#if [ -z "$CQ_MONGO_DB" ]; then
+#	CQ_MONGO_DB=aem6
+#fi
+
+# ------------------------------------------------------------------------------
+# CLDR
+# ------------------------------------------------------------------------------
+# https://docs.oracle.com/javase/8/docs/technotes/guides/intl/enhancements.8.html#cldr
+CQ_USE_CLDR='true'
+
+# ------------------------------------------------------------------------------
+# do not configure below this point
+# ------------------------------------------------------------------------------
+
+if [ $CQ_FILE_SIZE_LIMIT ]; then
+	CURRENT_ULIMIT=`ulimit`
+	if [ $CURRENT_ULIMIT != "unlimited" ]; then
+[7m--More--(67%)[27m[Kvi -c 1 start[?1049h[?1h=[1;95r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[95;1H"start" [readonly] 142L, 4212C[1;1H#!/bin/bash
+#
+# This script configures the start information for this server.
+#
+# The following variables may be used to override the defaults.
+# For one-time overrides the variable can be set as part of the command-line; e.g.,
+#
+#     % CQ_PORT=1234 ./start
+#
+
+# TCP port used for stop and status scripts
+if [ -z "$CQ_PORT" ]; then[13;9HCQ_PORT=4502
+fi
+
+# hostname of the interface that this server should listen to
+#if [ -z "$CQ_HOST" ]; then
+#[7CCQ_HOST=
+#fi
+
+# runmode(s)
+# will not be used if repository is already present
+if [ -z "$CQ_RUNMODE" ]; then[24;9HCQ_RUNMODE='author'
+fi
+
+# name of the jarfile
+#if [ -z "$CQ_JARFILE" ]; then
+#[7CCQ_JARFILE=''
+#fi
+
+# default JVM options
+if [ -z "$CQ_JVM_OPTS" ]; then[34;9HCQ_JVM_OPTS='-server -Xmx1024m -XX:MaxPermSize=256M -Djava.awt.headless=true'[35;9H# add the required JPMS modules, if needed[36;9Hjava --add-modules java.se.ee -version >/dev/null 2>&1[37;9Hif [ $? -eq 0 ]; then[38;16HCQ_JVM_OPTS="${CQ_JVM_OPTS} --add-modules java.se.ee"[39;9Hfi
+fi
+
+# file size limit (ulimit)
+if [ -z "$CQ_FILE_SIZE_LIMIT" ]; then[44;9HCQ_FILE_SIZE_LIMIT=8192
+fi
+
+# ------------------------------------------------------------------------------
+# authentication
+# ------------------------------------------------------------------------------
+# when using oak (crx3) authentication must be configured using the
+# Apache Felix JAAS Configuration Factory service via the Web Console
+# see http://jackrabbit.apache.org/oak/docs/security/authentication/externalloginmodule.html
+
+# use jaas.config (legacy: only used for crx2 persistence)
+#if [ -z "$CQ_USE_JAAS" ]; then
+#[7CCQ_USE_JAAS='true'
+#fi
+
+# config for jaas (legacy: only used for crx2 persistence)
+#if [ -z "$CQ_JAAS_CONFIG" ]; then
+#[7CCQ_JAAS_CONFIG='etc/jaas.config'
+#fi
+
+# ------------------------------------------------------------------------------
+# persistence mode
+# ------------------------------------------------------------------------------
+# the persistence mode can not be switched for an existing repository
+CQ_RUNMODE="${CQ_RUNMODE},crx3,crx3tar"
+#CQ_RUNMODE="${CQ_RUNMODE},crx3,crx3mongo"
+
+# settings for mongo db
+#if [ -z "$CQ_MONGO_HOST" ]; then
+#[7CCQ_MONGO_HOST=127.0.0.1
+#fi
+#if [ -z "$CQ_MONGO_PORT" ]; then
+#[7CCQ_MONGO_PORT=27017
+#fi
+#if [ -z "$CQ_MONGO_DB" ]; then
+#[7CCQ_MONGO_DB=aem6
+#fi
+
+# ------------------------------------------------------------------------------
+# CLDR
+# ------------------------------------------------------------------------------
+# https://docs.oracle.com/javase/8/docs/technotes/guides/intl/enhancements.8.html#cldr
+CQ_USE_CLDR='true'
+
+# ------------------------------------------------------------------------------
+# do not configure below this point
+# ------------------------------------------------------------------------------
+
+if [ $CQ_FILE_SIZE_LIMIT ]; then[93;9HCURRENT_ULIMIT=`ulimit`[94;9Hif [ $CURRENT_ULIMIT != "unlimited" ]; then[1;1H[?12l[?25h[?25l[95;1H[1m-- INSERT --[m[95;13H[K[95;14H[31mW10: Warning: Changing a readonly file[1;2H[?12l[?25h[m[95;1H[K[1;1H[?25l[?12l[?25h[?25l[95;1H:[?12l[?25hq![?25l[95;1H[K[95;1H[?1l>[?12l[?25h[?1049l------------------------
+[7m--More--(67%)[27m[K/java
+...skipping
+fi[K
+if [ $CQ_USE_JAAS ]; then
+    CQ_JVM_OPTS="${CQ_JVM_OPTS} -Djava.security.auth.login.config=${CQ_JAAS_CONFIG}"
+fi
+if [ $CQ_USE_CLDR ]; then
+    CQ_JVM_OPTS="${CQ_JVM_OPTS} -Djava.locale.providers=CLDR,JRE,SPI"
+fi
+START_OPTS="${START_OPTS} -Dsling.properties=conf/sling.properties"
+
+(
+  (
+    java $CQ_JVM_OPTS -jar $CURR_DIR/$CQ_JARFILE $START_OPTS &
+    echo $! > $CURR_DIR/conf/cq.pid
+  ) >> $CURR_DIR/logs/stdout.log 2>&1
+) &
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ i^C
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ grep java start
+	CQ_JVM_OPTS='-server -Xmx1024m -XX:MaxPermSize=256M -D[01;31m[Kjava[m[K.awt.headless=true'
+	[01;31m[Kjava[m[K --add-modules [01;31m[Kjava[m[K.se.ee -version >/dev/null 2>&1
+	       CQ_JVM_OPTS="${CQ_JVM_OPTS} --add-modules [01;31m[Kjava[m[K.se.ee"
+# https://docs.oracle.com/[01;31m[Kjava[m[Kse/8/docs/technotes/guides/intl/enhancements.8.html#cldr
+    CQ_JVM_OPTS="${CQ_JVM_OPTS} -D[01;31m[Kjava[m[K.security.auth.login.config=${CQ_JAAS_CONFIG}"
+    CQ_JVM_OPTS="${CQ_JVM_OPTS} -D[01;31m[Kjava[m[K.locale.providers=CLDR,JRE,SPI"
+    [01;31m[Kjava[m[K $CQ_JVM_OPTS -jar $CURR_DIR/$CQ_JARFILE $START_OPTS &
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ grep java start[K[K[K[Ktop
+[01;31m[Kjava[m[K -jar $CQ_JARFILE $START_OPTS
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ which java
+/forms/java/jdk1.8.0_181/bin/java
+]0;hchada@CGDCSSL1047UL:/aem/crx-quickstart/bin[hchada@CGDCSSL1047UL bin]$ sudo su - rpo[K[Koot
+Last login: Wed Oct 16 09:25:52 PDT 2019 on pts/0
+]0;root@CGDCSSL1047UL:~[?1034h[root@CGDCSSL1047UL ~]# java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32	  use a 32-bit data model if available
+    -d64	  use a 64-bit data model if available
+    -server	  to select the "server" VM
+                  The default VM is server,
+                  because you are running on a server-class machine.
+
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+]0;root@CGDCSSL1047UL:~[root@CGDCSSL1047UL ~]# cd /aem/crx-quickstart/bin
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ./stop
+17.10.2019 09:40:39.131 *INFO * [main] Setting sling.home=. (command line)
+17.10.2019 09:40:39.142 *INFO * [main] No Apache Sling running at /127.0.0.1:43943
+Stop command returned 3. Trying to kill the process...
+process 21980 not running
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:16 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+root     22165 22097  0 09:40 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ./start
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ./startps -ef | grep aem[11P./stop
+17.10.2019 09:41:00.262 *INFO * [main] Setting sling.home=. (command line)
+17.10.2019 09:41:00.276 *INFO * [main] Sent 'stop' to /127.0.0.1:36770: OK
+Application not running
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ./stopart
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ps -ef | grep aem
+dbus      1403     1  0 Aug18 ?        00:01:32 /usr/bin/dbus-d[01;31m[Kaem[m[Kon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1412     1  0 Aug18 ?        00:01:16 /usr/sbin/NetworkManager --no-d[01;31m[Kaem[m[Kon
+root     22382 22097  0 09:41 pts/0    00:00:00 grep --color=auto [01;31m[Kaem[m[K
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ps -ef | grep aem[K[Kdobe
+root     22526 22097  0 09:41 pts/0    00:00:00 grep --color=auto [01;31m[Kadobe[m[K
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# ps -ef | grep java
+tomadmin 21632     1  0 Oct04 ?        00:13:45 /forms/[01;31m[Kjava[m[K/jdk1.8.0_181/bin/[01;31m[Kjava[m[K -Dnop -D[01;31m[Kjava[m[K.util.logging.manager=org.apache.juli.ClassLoaderLogManager -D[01;31m[Kjava[m[K.awt.headless=true -D[01;31m[Kjava[m[K.security.egd=file:/dev/./urandom -Djdk.tls.ephemeralDHKeySize=2048 -D[01;31m[Kjava[m[K.protocol.handler.pkgs=org.apache.catalina.webresources -DLOG_FILE= -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xms512M -Xmx1024M -server -XX:+UseParallelGC -Dignore.endorsed.dirs= -classpath /forms/tomcat8/bin/bootstrap.jar:/forms/tomcat8/bin/tomcat-juli.jar -Dcatalina.base=/forms/tomcat8 -Dcatalina.home=/forms/tomcat8 -D[01;31m[Kjava[m[K.io.tmpdir=/forms/tomcat8/temp org.apache.catalina.startup.Bootstrap start
+root     22300     1 99 09:41 pts/0    00:01:19 [01;31m[Kjava[m[K -server -Xmx1024m -XX:MaxPermSize=256M -D[01;31m[Kjava[m[K.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -D[01;31m[Kjava[m[K.locale.providers=CLDR,JRE,SPI -jar crx-quickstart/app/cq-quickstart-6.5.0-standalone-quickstart.jar start -c crx-quickstart -i launchpad -p 4502 -Dsling.properties=conf/sling.properties
+root     23154 22097  0 09:41 pts/0    00:00:00 grep --color=auto [01;31m[Kjava[m[K
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/bin[root@CGDCSSL1047UL bin]# cd /forms/tomcat8/logs
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# ls
+[0m[01;34marchive[0m                      localhost.2019-02-07.log             localhost_access_log.2019-03-28.txt
+[01;32mcatalina.2018-09-19.log[0m      localhost.2019-02-08.log             localhost_access_log.2019-03-29.txt
+[01;32mcatalina.2018-10-03.log[0m      localhost.2019-02-13.log             localhost_access_log.2019-04-02.txt
+[01;32mcatalina.2018-10-09.log[0m      localhost.2019-02-14.log             localhost_access_log.2019-04-03.txt
+catalina.2018-10-10.log      localhost.2019-02-15.log             localhost_access_log.2019-04-12.txt
+catalina.2018-10-11.log      localhost.2019-02-19.log             localhost_access_log.2019-04-15.txt
+catalina.2018-10-16.log      [01;32mlocalhost_access_log.2018-09-19.txt[0m  localhost_access_log.2019-04-18.txt
+catalina.2018-10-23.log      [01;32mlocalhost_access_log.2018-09-20.txt[0m  localhost_access_log.2019-04-29.txt
+catalina.2018-11-01.log      [01;32mlocalhost_access_log.2018-10-02.txt[0m  localhost_access_log.2019-05-01.txt
+catalina.2018-11-14.log      [01;32mlocalhost_access_log.2018-10-03.txt[0m  localhost_access_log.2019-05-02.txt
+catalina.2018-12-03.log      [01;32mlocalhost_access_log.2018-10-09.txt[0m  localhost_access_log.2019-05-03.txt
+catalina.2018-12-07.log      localhost_access_log.2018-10-10.txt  localhost_access_log.2019-05-07.txt
+catalina.2018-12-10.log      localhost_access_log.2018-10-11.txt  localhost_access_log.2019-05-08.txt
+catalina.2018-12-11.log      localhost_access_log.2018-10-12.txt  localhost_access_log.2019-05-09.txt
+catalina.2018-12-13.log      localhost_access_log.2018-10-15.txt  localhost_access_log.2019-05-10.txt
+catalina.2018-12-14.log      localhost_access_log.2018-10-16.txt  localhost_access_log.2019-05-13.txt
+catalina.2018-12-31.log      localhost_access_log.2018-10-17.txt  localhost_access_log.2019-05-14.txt
+catalina.2019-01-02.log      localhost_access_log.2018-10-23.txt  localhost_access_log.2019-05-15.txt
+catalina.2019-01-04.log      localhost_access_log.2018-10-31.txt  localhost_access_log.2019-05-20.txt
+catalina.2019-01-07.log      localhost_access_log.2018-11-01.txt  localhost_access_log.2019-05-22.txt
+catalina.2019-01-08.log      localhost_access_log.2018-11-07.txt  localhost_access_log.2019-05-23.txt
+catalina.2019-01-10.log      localhost_access_log.2018-11-08.txt  localhost_access_log.2019-05-24.txt
+catalina.2019-01-18.log      localhost_access_log.2018-11-09.txt  localhost_access_log.2019-05-28.txt
+catalina.2019-01-22.log      localhost_access_log.2018-11-13.txt  localhost_access_log.2019-05-29.txt
+catalina.2019-02-01.log      localhost_access_log.2018-11-14.txt  localhost_access_log.2019-05-30.txt
+catalina.2019-02-04.log      localhost_access_log.2018-11-15.txt  localhost_access_log.2019-06-03.txt
+catalina.2019-02-05.log      localhost_access_log.2018-11-16.txt  localhost_access_log.2019-06-04.txt
+catalina.2019-02-06.log      localhost_access_log.2018-11-19.txt  localhost_access_log.2019-06-05.txt
+catalina.2019-02-07.log      localhost_access_log.2018-11-20.txt  localhost_access_log.2019-06-06.txt
+catalina.2019-02-08.log      localhost_access_log.2018-12-03.txt  localhost_access_log.2019-06-10.txt
+catalina.2019-02-13.log      localhost_access_log.2018-12-04.txt  localhost_access_log.2019-06-11.txt
+catalina.2019-02-19.log      localhost_access_log.2018-12-05.txt  localhost_access_log.2019-06-12.txt
+[01;32mcatalina.out[0m                 localhost_access_log.2018-12-06.txt  localhost_access_log.2019-06-21.txt
+[01;32mhost-manager.2018-09-19.log[0m  localhost_access_log.2018-12-07.txt  localhost_access_log.2019-06-24.txt
+[01;32mhost-manager.2018-10-03.log[0m  localhost_access_log.2018-12-10.txt  localhost_access_log.2019-06-25.txt
+[01;32mhost-manager.2018-10-09.log[0m  localhost_access_log.2018-12-11.txt  localhost_access_log.2019-06-27.txt
+host-manager.2018-10-11.log  localhost_access_log.2018-12-12.txt  localhost_access_log.2019-07-18.txt
+host-manager.2018-10-23.log  localhost_access_log.2018-12-13.txt  localhost_access_log.2019-07-23.txt
+host-manager.2018-11-01.log  localhost_access_log.2018-12-14.txt  localhost_access_log.2019-08-12.txt
+host-manager.2018-11-14.log  localhost_access_log.2018-12-19.txt  localhost_access_log.2019-08-14.txt
+host-manager.2018-12-14.log  localhost_access_log.2018-12-24.txt  localhost_access_log.2019-08-15.txt
+host-manager.2019-01-02.log  localhost_access_log.2019-01-02.txt  localhost_access_log.2019-08-16.txt
+host-manager.2019-01-04.log  localhost_access_log.2019-01-03.txt  localhost_access_log.2019-08-18.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-01-04.txt  localhost_access_log.2019-08-28.txt
+host-manager.2019-01-08.log  localhost_access_log.2019-01-07.txt  localhost_access_log.2019-09-04.txt
+host-manager.2019-01-10.log  localhost_access_log.2019-01-08.txt  localhost_access_log.2019-09-05.txt
+host-manager.2019-01-18.log  localhost_access_log.2019-01-09.txt  localhost_access_log.2019-09-12.txt
+host-manager.2019-01-22.log  localhost_access_log.2019-01-10.txt  localhost_access_log.2019-09-17.txt
+host-manager.2019-02-01.log  localhost_access_log.2019-01-11.txt  localhost_access_log.2019-09-19.txt
+host-manager.2019-02-04.log  localhost_access_log.2019-01-18.txt  localhost_access_log.2019-10-03.txt
+host-manager.2019-02-05.log  localhost_access_log.2019-01-22.txt  localhost_access_log.2019-10-04.txt
+host-manager.2019-02-06.log  localhost_access_log.2019-01-23.txt  localhost_access_log.2019-10-07.txt
+host-manager.2019-02-13.log  localhost_access_log.2019-01-28.txt  localhost_access_log.2019-10-09.txt
+[01;32mlocalhost.2018-09-19.log[0m     localhost_access_log.2019-01-29.txt  localhost_access_log.2019-10-10.txt
+[01;32mlocalhost.2018-10-03.log[0m     localhost_access_log.2019-01-31.txt  localhost_access_log.2019-10-11.txt
+[01;32mlocalhost.2018-10-09.log[0m     localhost_access_log.2019-02-01.txt  localhost_access_log.2019-10-14.txt
+localhost.2018-10-11.log     localhost_access_log.2019-02-04.txt  localhost_access_log.2019-10-17.txt
+localhost.2018-10-23.log     localhost_access_log.2019-02-05.txt  [01;32mmanager.2018-09-19.log[0m
+localhost.2018-10-31.log     localhost_access_log.2019-02-06.txt  [01;32mmanager.2018-10-03.log[0m
+localhost.2018-11-01.log     localhost_access_log.2019-02-07.txt  [01;32mmanager.2018-10-09.log[0m
+localhost.2018-11-14.log     localhost_access_log.2019-02-08.txt  manager.2018-10-10.log
+localhost.2018-12-07.log     localhost_access_log.2019-02-11.txt  manager.2018-10-11.log
+localhost.2018-12-10.log     localhost_access_log.2019-02-12.txt  manager.2018-10-23.log
+localhost.2018-12-11.log     localhost_access_log.2019-02-13.txt  manager.2018-11-01.log
+localhost.2018-12-13.log     localhost_access_log.2019-02-14.txt  manager.2018-11-14.log
+localhost.2018-12-14.log     localhost_access_log.2019-02-15.txt  manager.2018-12-14.log
+localhost.2018-12-31.log     localhost_access_log.2019-02-19.txt  manager.2019-01-02.log
+localhost.2019-01-02.log     localhost_access_log.2019-02-20.txt  manager.2019-01-04.log
+localhost.2019-01-03.log     localhost_access_log.2019-02-22.txt  manager.2019-01-07.log
+localhost.2019-01-04.log     localhost_access_log.2019-02-25.txt  manager.2019-01-08.log
+localhost.2019-01-07.log     localhost_access_log.2019-02-27.txt  manager.2019-01-10.log
+localhost.2019-01-08.log     localhost_access_log.2019-03-14.txt  manager.2019-01-18.log
+localhost.2019-01-10.log     localhost_access_log.2019-03-15.txt  manager.2019-01-22.log
+localhost.2019-01-11.log     localhost_access_log.2019-03-18.txt  manager.2019-01-31.log
+localhost.2019-01-18.log     localhost_access_log.2019-03-19.txt  manager.2019-02-01.log
+localhost.2019-01-22.log     localhost_access_log.2019-03-20.txt  manager.2019-02-04.log
+localhost.2019-01-31.log     localhost_access_log.2019-03-21.txt  manager.2019-02-05.log
+localhost.2019-02-01.log     localhost_access_log.2019-03-22.txt  manager.2019-02-06.log
+localhost.2019-02-04.log     localhost_access_log.2019-03-25.txt  manager.2019-02-13.log
+localhost.2019-02-05.log     localhost_access_log.2019-03-26.txt  SystemOut.log
+localhost.2019-02-06.log     localhost_access_log.2019-03-27.txt  tomcat.pid
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# ls -lagrt
+total 8576
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-10.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-02.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [0m[01;32mmanager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin    4032 Mar 14  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----.  1 tomadmin    4073 Mar 14  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-11.txt
+-rw-r-----.  1 tomadmin    1048 Mar 14  2019 localhost_access_log.2018-11-09.txt
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost_access_log.2018-11-01.txt
+-rw-r-----.  1 tomadmin     212 Mar 14  2019 localhost_access_log.2018-10-12.txt
+-rw-r-----.  1 tomadmin    4945 Mar 14  2019 localhost.2019-01-07.log
+-rw-r-----.  1 tomadmin   33645 Mar 14  2019 localhost.2018-12-10.log
+-rwxrwxr-x.  1 tomadmin    1194 Mar 14  2019 [01;32mlocalhost.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-14.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin     288 Mar 14  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----.  1 tomadmin    6345 Mar 14  2019 localhost_access_log.2019-02-15.txt
+-rw-r-----.  1 tomadmin   17581 Mar 14  2019 localhost_access_log.2019-02-04.txt
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost_access_log.2019-01-09.txt
+-rw-r-----.  1 tomadmin    1501 Mar 14  2019 localhost_access_log.2019-01-08.txt
+-rw-r-----.  1 tomadmin      76 Mar 14  2019 localhost_access_log.2019-01-04.txt
+-rw-r-----.  1 tomadmin     209 Mar 14  2019 localhost_access_log.2018-11-19.txt
+-rw-r-----.  1 tomadmin    4709 Mar 14  2019 localhost_access_log.2018-10-11.txt
+-rw-r-----.  1 tomadmin    2537 Mar 14  2019 localhost_access_log.2018-10-10.txt
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-02.txt[0m
+-rwxrwxr-x.  1 tomadmin     228 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-19.txt[0m
+-rw-r-----.  1 tomadmin   17012 Mar 14  2019 localhost.2019-02-13.log
+-rw-r-----.  1 tomadmin    6117 Mar 14  2019 localhost.2019-01-22.log
+-rw-r-----.  1 tomadmin     459 Mar 14  2019 localhost.2019-01-04.log
+-rw-r-----.  1 tomadmin    2541 Mar 14  2019 localhost.2018-10-23.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-14.log
+-rw-r-----.  1 tomadmin   15817 Mar 14  2019 catalina.2019-02-04.log
+-rw-r-----.  1 tomadmin   25990 Mar 14  2019 catalina.2018-12-14.log
+-rw-r-----.  1 tomadmin     744 Mar 14  2019 catalina.2018-12-13.log
+-rw-r-----.  1 tomadmin    1153 Mar 14  2019 catalina.2018-10-16.log
+-rw-r-----.  1 tomadmin     168 Mar 14  2019 manager.2019-02-04.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-02-01.log
+-rw-r-----.  1 tomadmin     336 Mar 14  2019 manager.2019-01-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-23.log
+-rw-r-----.  1 tomadmin     841 Mar 14  2019 manager.2018-10-10.log
+-rw-r-----.  1 tomadmin    1829 Mar 14  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----.  1 tomadmin    4595 Mar 14  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----.  1 tomadmin     942 Mar 14  2019 localhost_access_log.2019-02-01.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-28.txt
+-rw-r-----.  1 tomadmin    1396 Mar 14  2019 localhost_access_log.2019-01-22.txt
+-rw-r-----.  1 tomadmin    1555 Mar 14  2019 localhost_access_log.2019-01-03.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-02.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-19.txt
+-rw-r-----.  1 tomadmin     855 Mar 14  2019 localhost_access_log.2018-12-12.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-15.txt
+-rw-r-----.  1 tomadmin    1706 Mar 14  2019 localhost_access_log.2018-10-15.txt
+-rw-r-----.  1 tomadmin   11742 Mar 14  2019 localhost.2019-02-05.log
+-rw-r-----.  1 tomadmin     160 Mar 14  2019 localhost.2019-01-31.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-03.log
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost.2019-01-02.log
+-rw-r-----.  1 tomadmin     878 Mar 14  2019 localhost.2018-12-31.log
+-rw-r-----.  1 tomadmin   11000 Mar 14  2019 localhost.2018-10-11.log
+-rw-r-----.  1 tomadmin     161 Mar 14  2019 host-manager.2019-02-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-02.log
+-rw-r-----.  1 tomadmin     887 Mar 14  2019 catalina.2018-12-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     508 Mar 14  2019 manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-12-14.log
+-rw-r-----.  1 tomadmin   17403 Mar 14  2019 localhost_access_log.2019-02-05.txt
+-rw-r-----.  1 tomadmin   11593 Mar 14  2019 localhost_access_log.2018-12-10.txt
+-rw-r-----.  1 tomadmin    2886 Mar 14  2019 localhost_access_log.2018-12-03.txt
+-rw-r-----.  1 tomadmin    1672 Mar 14  2019 localhost_access_log.2018-11-08.txt
+-rw-r-----.  1 tomadmin    4740 Mar 14  2019 localhost_access_log.2018-11-07.txt
+-rw-r-----.  1 tomadmin    1620 Mar 14  2019 localhost_access_log.2018-10-17.txt
+-rw-r-----.  1 tomadmin    1179 Mar 14  2019 localhost.2019-02-19.log
+-rw-r-----.  1 tomadmin    9531 Mar 14  2019 localhost.2019-02-01.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2018-10-31.log
+-rwxrwxr-x.  1 tomadmin    3399 Mar 14  2019 [01;32mlocalhost.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin   57118 Mar 14  2019 catalina.2019-02-05.log
+-rw-r-----.  1 tomadmin   21002 Mar 14  2019 catalina.2019-01-10.log
+-rw-r-----.  1 tomadmin   22368 Mar 14  2019 catalina.2019-01-07.log
+-rw-r-----.  1 tomadmin   29323 Mar 14  2019 catalina.2018-12-10.log
+-rw-r-----.  1 tomadmin   22327 Mar 14  2019 catalina.2018-10-23.log
+-rwxrwxr-x.  1 tomadmin   13747 Mar 14  2019 [01;32mcatalina.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin    4865 Mar 14  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----.  1 tomadmin    2335 Mar 14  2019 localhost_access_log.2019-02-13.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-10.txt
+-rw-r-----.  1 tomadmin     866 Mar 14  2019 localhost_access_log.2018-11-14.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-11.log
+-rw-r-----.  1 tomadmin   17929 Mar 14  2019 catalina.2018-10-10.log
+-rw-r-----.  1 tomadmin    3513 Mar 14  2019 localhost_access_log.2019-01-31.txt
+-rw-r-----.  1 tomadmin     415 Mar 14  2019 localhost_access_log.2019-01-23.txt
+-rw-r-----.  1 tomadmin    3967 Mar 14  2019 localhost_access_log.2019-01-18.txt
+-rw-r-----.  1 tomadmin    8450 Mar 14  2019 localhost_access_log.2018-12-14.txt
+-rw-r-----.  1 tomadmin    2744 Mar 14  2019 localhost_access_log.2018-12-07.txt
+-rw-r-----.  1 tomadmin      95 Mar 14  2019 localhost_access_log.2018-12-05.txt
+-rw-r-----.  1 tomadmin     952 Mar 14  2019 localhost_access_log.2018-11-20.txt
+-rw-r-----.  1 tomadmin     190 Mar 14  2019 localhost_access_log.2018-10-31.txt
+-rw-r-----.  1 tomadmin     324 Mar 14  2019 localhost.2019-02-14.log
+-rw-r-----.  1 tomadmin    3611 Mar 14  2019 localhost.2019-01-10.log
+-rw-r-----.  1 tomadmin    1508 Mar 14  2019 localhost.2018-11-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-12-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-23.log
+-rw-r-----.  1 tomadmin    1412 Mar 14  2019 catalina.2019-02-19.log
+-rw-r-----.  1 tomadmin   93387 Mar 14  2019 catalina.2019-02-13.log
+-rw-r-----.  1 tomadmin    3500 Mar 14  2019 catalina.2019-02-08.log
+-rw-r-----.  1 tomadmin   34404 Mar 14  2019 catalina.2019-02-06.log
+-rw-r-----.  1 tomadmin   18551 Mar 14  2019 catalina.2019-01-18.log
+-rw-r-----.  1 tomadmin    1026 Mar 14  2019 catalina.2019-01-08.log
+-rw-r-----.  1 tomadmin    8880 Mar 14  2019 catalina.2019-01-02.log
+-rw-r-----.  1 tomadmin     743 Mar 14  2019 catalina.2018-12-07.log
+-rw-r-----.  1 tomadmin   80522 Mar 14  2019 catalina.2018-11-14.log
+-rw-r-----.  1 tomadmin   57970 Mar 14  2019 catalina.2018-10-11.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-08.log
+-rw-r-----.  1 tomadmin   20161 Mar 14  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----.  1 tomadmin      85 Mar 14  2019 localhost_access_log.2018-12-24.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-13.txt
+-rw-r-----.  1 tomadmin    2262 Mar 14  2019 localhost_access_log.2018-10-16.txt
+-rwxrwxr-x.  1 tomadmin     444 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-03.txt[0m
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-20.txt[0m
+-rw-r-----.  1 tomadmin   26394 Mar 14  2019 localhost.2019-02-06.log
+-rw-r-----.  1 tomadmin    9150 Mar 14  2019 localhost.2019-02-04.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-11.log
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost.2018-12-13.log
+-rw-r-----.  1 tomadmin     472 Mar 14  2019 localhost.2018-12-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-05.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-07.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin   47423 Mar 14  2019 catalina.2019-02-01.log
+-rw-r-----.  1 tomadmin   17995 Mar 14  2019 catalina.2019-01-04.log
+-rwxrwxr-x.  1 tomadmin   46624 Mar 14  2019 [01;32mcatalina.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin     890 Mar 14  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----.  1 tomadmin     761 Mar 14  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----.  1 tomadmin     210 Mar 14  2019 localhost_access_log.2019-02-12.txt
+-rw-r-----.  1 tomadmin    4381 Mar 14  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-16.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2018-10-23.txt
+-rwxrwxr-x.  1 tomadmin    5675 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-09.txt[0m
+-rw-r-----.  1 tomadmin     165 Mar 14  2019 localhost.2019-02-15.log
+-rw-r-----.  1 tomadmin    4854 Mar 14  2019 localhost.2019-02-07.log
+-rw-r-----.  1 tomadmin    2596 Mar 14  2019 localhost.2019-01-18.log
+-rw-r-----.  1 tomadmin   20750 Mar 14  2019 localhost.2018-12-14.log
+-rw-r-----.  1 tomadmin   27130 Mar 14  2019 localhost.2018-12-11.log
+-rw-r-----.  1 tomadmin    8659 Mar 14  2019 localhost.2018-11-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-10.log
+-rw-r-----.  1 tomadmin    1834 Mar 14  2019 catalina.2019-02-07.log
+-rw-r-----.  1 tomadmin   37409 Mar 14  2019 catalina.2019-01-22.log
+-rw-r-----.  1 tomadmin   14906 Mar 14  2019 catalina.2018-12-11.log
+-rwxrwxr-x.  1 tomadmin   37793 Mar 14  2019 [01;32mcatalina.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-05.log
+-rw-r-----.  1 tomadmin     486 Mar 14  2019 localhost_access_log.2019-01-29.txt
+-rw-r-----.  1 tomadmin     674 Mar 14  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----.  1 tomadmin    1066 Mar 14  2019 localhost_access_log.2018-12-04.txt
+-rw-r-----.  1 tomadmin     721 Mar 14  2019 localhost.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     390 Mar 14  2019 catalina.2018-12-03.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-11.log
+-rw-r-----.  1 tomadmin    4432 Mar 14  2019 localhost_access_log.2018-12-11.txt
+-rw-r-----.  1 tomadmin     170 Mar 14  2019 localhost_access_log.2018-12-06.txt
+-rw-r-----.  1 tomadmin     864 Mar 14  2019 localhost_access_log.2018-11-13.txt
+-rw-r-----.  1 tomadmin    2305 Mar 14  2019 localhost.2019-02-08.log
+-rwxrwxr-x.  1 tomadmin    3215 Mar 14  2019 [01;32mlocalhost.2018-10-03.log[0m
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin    8777 Mar 14  2019 catalina.2018-11-01.log
+-rw-r-----.  1 tomadmin    1505 Mar 14  2019 localhost_access_log.2019-03-14.txt
+-rw-r-----.  1 tomadmin     106 Mar 15  2019 localhost_access_log.2019-03-15.txt
+-rw-r-----.  1 tomadmin     106 Mar 18  2019 localhost_access_log.2019-03-18.txt
+-rw-r-----.  1 tomadmin    1329 Mar 19  2019 localhost_access_log.2019-03-19.txt
+-rw-r-----.  1 tomadmin     215 Mar 20  2019 localhost_access_log.2019-03-20.txt
+-rw-r-----.  1 tomadmin    1808 Mar 21  2019 localhost_access_log.2019-03-21.txt
+-rw-r-----.  1 tomadmin     969 Mar 22  2019 localhost_access_log.2019-03-22.txt
+-rw-r-----.  1 tomadmin    5532 Mar 25  2019 localhost_access_log.2019-03-25.txt
+-rw-r-----.  1 tomadmin     860 Mar 26  2019 localhost_access_log.2019-03-26.txt
+-rw-r-----.  1 tomadmin     860 Mar 27  2019 localhost_access_log.2019-03-27.txt
+-rw-r-----.  1 tomadmin    1605 Mar 28  2019 localhost_access_log.2019-03-28.txt
+-rw-r-----.  1 tomadmin    2580 Mar 29  2019 localhost_access_log.2019-03-29.txt
+drwxrwxr-x. 13 tomadmin    4096 Apr  2  2019 [01;34m..[0m
+-rw-r-----.  1 tomadmin     212 Apr  2  2019 localhost_access_log.2019-04-02.txt
+-rw-r-----.  1 tomadmin     106 Apr  3  2019 localhost_access_log.2019-04-03.txt
+-rw-r-----.  1 tomadmin     430 Apr 12  2019 localhost_access_log.2019-04-12.txt
+-rw-r-----.  1 tomadmin     430 Apr 15  2019 localhost_access_log.2019-04-15.txt
+-rw-r-----.  1 tomadmin     645 Apr 18 11:20 localhost_access_log.2019-04-18.txt
+-rw-r-----.  1 tomadmin       0 Apr 29 17:31 localhost_access_log.2019-04-29.txt
+-rw-r-----.  1 tomadmin     754 May  1 15:45 localhost_access_log.2019-05-01.txt
+-rw-r-----.  1 tomadmin     215 May  2 14:55 localhost_access_log.2019-05-02.txt
+-rw-r-----.  1 tomadmin     106 May  3 08:09 localhost_access_log.2019-05-03.txt
+-rw-r-----.  1 tomadmin     106 May  7 15:25 localhost_access_log.2019-05-07.txt
+-rw-r-----.  1 tomadmin     848 May  8 14:28 localhost_access_log.2019-05-08.txt
+-rw-r-----.  1 tomadmin    6293 May  9 15:15 localhost_access_log.2019-05-09.txt
+-rw-r-----.  1 tomadmin     829 May 10 09:11 localhost_access_log.2019-05-10.txt
+-rw-r-----.  1 tomadmin    9935 May 13 17:17 localhost_access_log.2019-05-13.txt
+-rw-r-----.  1 tomadmin     952 May 14 11:01 localhost_access_log.2019-05-14.txt
+-rw-r-----.  1 tomadmin    4941 May 15 14:19 localhost_access_log.2019-05-15.txt
+-rw-r-----.  1 tomadmin    4234 May 20 13:38 localhost_access_log.2019-05-20.txt
+-rw-r-----.  1 tomadmin     645 May 22 10:14 localhost_access_log.2019-05-22.txt
+-rw-r-----.  1 tomadmin     215 May 23 16:26 localhost_access_log.2019-05-23.txt
+-rw-r-----.  1 tomadmin     645 May 24 11:10 localhost_access_log.2019-05-24.txt
+-rw-r-----.  1 tomadmin     430 May 28 09:21 localhost_access_log.2019-05-28.txt
+-rw-r-----.  1 tomadmin     624 May 29 16:22 localhost_access_log.2019-05-29.txt
+-rw-r-----.  1 tomadmin    2566 May 30 15:12 localhost_access_log.2019-05-30.txt
+-rw-r-----.  1 tomadmin     380 Jun  3 10:25 localhost_access_log.2019-06-03.txt
+-rw-r-----.  1 tomadmin     860 Jun  4 16:24 localhost_access_log.2019-06-04.txt
+-rw-r-----.  1 tomadmin    1290 Jun  5 13:43 localhost_access_log.2019-06-05.txt
+-rw-r-----.  1 tomadmin     860 Jun  6 11:15 localhost_access_log.2019-06-06.txt
+-rw-r-----.  1 tomadmin    2580 Jun 10 13:49 localhost_access_log.2019-06-10.txt
+-rw-r-----.  1 tomadmin     430 Jun 11 11:15 localhost_access_log.2019-06-11.txt
+-rw-r-----.  1 tomadmin     215 Jun 12 14:02 localhost_access_log.2019-06-12.txt
+-rw-r-----.  1 tomadmin      72 Jun 21 09:09 localhost_access_log.2019-06-21.txt
+-rw-r-----.  1 tomadmin     215 Jun 24 10:29 localhost_access_log.2019-06-24.txt
+-rw-r-----.  1 tomadmin     860 Jun 25 15:10 localhost_access_log.2019-06-25.txt
+-rw-r-----.  1 tomadmin     860 Jun 27 14:09 localhost_access_log.2019-06-27.txt
+-rw-r-----.  1 tomadmin     645 Jul 18 14:11 localhost_access_log.2019-07-18.txt
+-rw-r-----.  1 tomadmin     215 Jul 23 11:02 localhost_access_log.2019-07-23.txt
+-rw-r-----.  1 tomadmin     215 Aug 12 15:25 localhost_access_log.2019-08-12.txt
+-rw-r-----.  1 tomadmin    1075 Aug 14 15:08 localhost_access_log.2019-08-14.txt
+-rw-r-----.  1 tomadmin     430 Aug 15 14:42 localhost_access_log.2019-08-15.txt
+-rw-r-----.  1 tomadmin     430 Aug 16 10:04 localhost_access_log.2019-08-16.txt
+-rw-r-----.  1 tomadmin       0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----.  1 tomadmin    4312 Aug 28 08:32 localhost_access_log.2019-08-28.txt
+-rw-r-----.  1 tomadmin     540 Sep  4 15:53 localhost_access_log.2019-09-04.txt
+-rw-r-----.  1 tomadmin     645 Sep  5 07:41 localhost_access_log.2019-09-05.txt
+-rw-r-----.  1 tomadmin     702 Sep 12 15:59 localhost_access_log.2019-09-12.txt
+-rw-r-----.  1 tomadmin   16412 Sep 17 16:07 localhost_access_log.2019-09-17.txt
+-rw-r-----.  1 tomadmin    6814 Sep 19 14:54 localhost_access_log.2019-09-19.txt
+-rw-r-----.  1 tomadmin   17761 Oct  3 11:40 localhost_access_log.2019-10-03.txt
+-rw-r-----.  1 tomadmin       6 Oct  4 09:12 tomcat.pid
+-rw-r-----.  1 tomadmin    3430 Oct  4 09:25 localhost_access_log.2019-10-04.txt
+-rw-r-----.  1 tomadmin     212 Oct  7 16:06 localhost_access_log.2019-10-07.txt
+-rw-r-----.  1 tomadmin     336 Oct  9 10:20 localhost_access_log.2019-10-09.txt
+-rw-r-----.  1 tomadmin     212 Oct 10 16:08 localhost_access_log.2019-10-10.txt
+-rw-r-----.  1 tomadmin   34400 Oct 11 19:19 localhost_access_log.2019-10-11.txt
+-rw-r-----.  1 tomadmin    9671 Oct 14 15:49 localhost_access_log.2019-10-14.txt
+drwxr-x---.  2 tomadmin    4096 Oct 17 09:21 [01;34marchive[0m
+drwxrwxr-x.  3 tomadmin   16384 Oct 17 09:21 [01;34m.[0m
+-rwxrwxr-x.  1 tomadmin 6832087 Oct 17 09:35 [01;32mcatalina.out[0m
+-rw-r-----.  1 tomadmin   21076 Oct 17 09:35 SystemOut.log
+-rw-r-----.  1 tomadmin    4550 Oct 17 09:42 localhost_access_log.2019-10-17.txt
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# tail localhost_access_log.2019-10-17.txt
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+100.95.20.99 - - [17/Oct/2019:09:35:53 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:35:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:35:58 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+100.95.21.96 - - [17/Oct/2019:09:42:17 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=sitLorem+aliquip+reprehe HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:09:42:26 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=officia+Ut HTTP/1.1" 400 5
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# cd /aem/crx-quickstart/
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart[root@CGDCSSL1047UL crx-quickstart]# ls
+[0m[01;34mapp[0m      [01;34mbin[0m   eula-de_DE.html  eula-fr_FR.html  [01;34mfonts[0m      [01;34mlogs[0m     [01;34mopt[0m         [01;34mrepository[0m  [01;34mthreaddumps[0m
+[01;34mbedrock[0m  [01;34mconf[0m  eula-en_US.html  eula-ja_JP.html  [01;34mlaunchpad[0m  [01;34mmetrics[0m  readme.txt  [01;34mtemp[0m
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart[root@CGDCSSL1047UL crx-quickstart]# cd logs
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/logs[root@CGDCSSL1047UL logs]# ls -lagrt
+total 247228
+drwxr-xr-x. 14 root     4096 Sep  3 14:24 [0m[01;34m..[0m
+drwxr-xr-x.  2 root     4096 Sep  9 09:07 [01;34marchive[0m
+-rw-r--r--.  1 root        0 Oct 10 10:03 aem-forms-migration.log
+-rw-r--r--.  1 root        0 Oct 10 10:03 project-we-retail.log
+-rw-r--r--.  1 root        0 Oct 10 10:03 audit.log
+-rw-r--r--.  1 root        0 Oct 10 10:03 auditlog.log
+-rw-r--r--.  1 root        0 Oct 10 10:03 history.log.2019-10-10
+-rw-r--r--.  1 root        0 Oct 10 10:03 aem-forms-transaction.log
+-rw-r--r--.  1 root        0 Oct 10 10:03 s7access-2019-10-10.log
+-rw-r--r--.  1 root  7413196 Oct 10 23:59 error.log.2019-10-10
+-rw-r--r--.  1 root  1948195 Oct 10 23:59 ldap.log.2019-10-10
+-rw-r--r--.  1 root 10979327 Oct 10 23:59 external.log.2019-10-10
+-rw-r--r--.  1 root    14855 Oct 11 16:13 history.log.2019-10-11
+-rw-r--r--.  1 root  3352174 Oct 11 23:59 ldap.log.2019-10-11
+-rw-r--r--.  1 root 13802380 Oct 11 23:59 error.log.2019-10-11
+-rw-r--r--.  1 root 27441727 Oct 11 23:59 external.log.2019-10-11
+-rw-r--r--.  1 root  7684503 Oct 12 23:59 error.log.2019-10-12
+-rw-r--r--.  1 root  3352236 Oct 12 23:59 ldap.log.2019-10-12
+-rw-r--r--.  1 root 21336967 Oct 12 23:59 external.log.2019-10-12
+-rw-r--r--.  1 root   677558 Oct 12 23:59 request.log.2019-10-12
+-rw-r--r--.  1 root  1583844 Oct 12 23:59 access.log.2019-10-12
+-rw-r--r--.  1 root   662989 Oct 13 23:59 request.log.2019-10-13
+-rw-r--r--.  1 root  1559680 Oct 13 23:59 access.log.2019-10-13
+-rw-r--r--.  1 root  3357484 Oct 13 23:59 ldap.log.2019-10-13
+-rw-r--r--.  1 root 22615495 Oct 13 23:59 external.log.2019-10-13
+-rw-r--r--.  1 root  7782626 Oct 13 23:59 error.log.2019-10-13
+-rw-r--r--.  1 root      430 Oct 14 11:59 history.log
+-rw-r--r--.  1 root   987112 Oct 14 22:00 request.log.2019-10-14
+-rw-r--r--.  1 root  1998190 Oct 14 22:00 access.log.2019-10-14
+-rw-r--r--.  1 root  3352334 Oct 14 23:59 ldap.log.2019-10-14
+-rw-r--r--.  1 root 24475967 Oct 14 23:59 external.log.2019-10-14
+-rw-r--r--.  1 root  8462062 Oct 14 23:59 error.log.2019-10-14
+-rw-r--r--.  1 root     3187 Oct 15 07:23 request.log.2019-10-15
+-rw-r--r--.  1 root     8999 Oct 15 07:23 access.log.2019-10-15
+-rw-r--r--.  1 root  7681738 Oct 15 23:59 error.log.2019-10-15
+-rw-r--r--.  1 root  3352247 Oct 15 23:59 ldap.log.2019-10-15
+-rw-r--r--.  1 root 18655291 Oct 15 23:59 external.log.2019-10-15
+-rw-r--r--.  1 root  3353169 Oct 16 23:59 ldap.log.2019-10-16
+-rw-r--r--.  1 root 18638051 Oct 16 23:59 external.log.2019-10-16
+-rw-r--r--.  1 root  7673031 Oct 16 23:59 error.log.2019-10-16
+-rw-r--r--.  1 root        0 Oct 17 09:41 s7access-2019-10-17.log
+drwxr-xr-x.  3 root     4096 Oct 17 09:41 [01;34m.[0m
+-rw-r--r--.  1 root     1750 Oct 17 09:41 upgrade.log
+-rw-r--r--.  1 root    89362 Oct 17 09:41 stdout.log
+-rw-r--r--.  1 root  1364043 Oct 17 09:43 ldap.log
+-rw-r--r--.  1 root   141266 Oct 17 09:43 request.log
+-rw-r--r--.  1 root  7957563 Oct 17 09:43 external.log
+-rw-r--r--.  1 root   321318 Oct 17 09:43 access.log
+-rw-r--r--.  1 root  8873454 Oct 17 09:43 error.log
+]0;root@CGDCSSL1047UL:/aem/crx-quickstart/logs[root@CGDCSSL1047UL logs]# cd /forms/o[Ktomcat8/logs/
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# ls
+[0m[01;34marchive[0m                      localhost.2019-02-07.log             localhost_access_log.2019-03-28.txt
+[01;32mcatalina.2018-09-19.log[0m      localhost.2019-02-08.log             localhost_access_log.2019-03-29.txt
+[01;32mcatalina.2018-10-03.log[0m      localhost.2019-02-13.log             localhost_access_log.2019-04-02.txt
+[01;32mcatalina.2018-10-09.log[0m      localhost.2019-02-14.log             localhost_access_log.2019-04-03.txt
+catalina.2018-10-10.log      localhost.2019-02-15.log             localhost_access_log.2019-04-12.txt
+catalina.2018-10-11.log      localhost.2019-02-19.log             localhost_access_log.2019-04-15.txt
+catalina.2018-10-16.log      [01;32mlocalhost_access_log.2018-09-19.txt[0m  localhost_access_log.2019-04-18.txt
+catalina.2018-10-23.log      [01;32mlocalhost_access_log.2018-09-20.txt[0m  localhost_access_log.2019-04-29.txt
+catalina.2018-11-01.log      [01;32mlocalhost_access_log.2018-10-02.txt[0m  localhost_access_log.2019-05-01.txt
+catalina.2018-11-14.log      [01;32mlocalhost_access_log.2018-10-03.txt[0m  localhost_access_log.2019-05-02.txt
+catalina.2018-12-03.log      [01;32mlocalhost_access_log.2018-10-09.txt[0m  localhost_access_log.2019-05-03.txt
+catalina.2018-12-07.log      localhost_access_log.2018-10-10.txt  localhost_access_log.2019-05-07.txt
+catalina.2018-12-10.log      localhost_access_log.2018-10-11.txt  localhost_access_log.2019-05-08.txt
+catalina.2018-12-11.log      localhost_access_log.2018-10-12.txt  localhost_access_log.2019-05-09.txt
+catalina.2018-12-13.log      localhost_access_log.2018-10-15.txt  localhost_access_log.2019-05-10.txt
+catalina.2018-12-14.log      localhost_access_log.2018-10-16.txt  localhost_access_log.2019-05-13.txt
+catalina.2018-12-31.log      localhost_access_log.2018-10-17.txt  localhost_access_log.2019-05-14.txt
+catalina.2019-01-02.log      localhost_access_log.2018-10-23.txt  localhost_access_log.2019-05-15.txt
+catalina.2019-01-04.log      localhost_access_log.2018-10-31.txt  localhost_access_log.2019-05-20.txt
+catalina.2019-01-07.log      localhost_access_log.2018-11-01.txt  localhost_access_log.2019-05-22.txt
+catalina.2019-01-08.log      localhost_access_log.2018-11-07.txt  localhost_access_log.2019-05-23.txt
+catalina.2019-01-10.log      localhost_access_log.2018-11-08.txt  localhost_access_log.2019-05-24.txt
+catalina.2019-01-18.log      localhost_access_log.2018-11-09.txt  localhost_access_log.2019-05-28.txt
+catalina.2019-01-22.log      localhost_access_log.2018-11-13.txt  localhost_access_log.2019-05-29.txt
+catalina.2019-02-01.log      localhost_access_log.2018-11-14.txt  localhost_access_log.2019-05-30.txt
+catalina.2019-02-04.log      localhost_access_log.2018-11-15.txt  localhost_access_log.2019-06-03.txt
+catalina.2019-02-05.log      localhost_access_log.2018-11-16.txt  localhost_access_log.2019-06-04.txt
+catalina.2019-02-06.log      localhost_access_log.2018-11-19.txt  localhost_access_log.2019-06-05.txt
+catalina.2019-02-07.log      localhost_access_log.2018-11-20.txt  localhost_access_log.2019-06-06.txt
+catalina.2019-02-08.log      localhost_access_log.2018-12-03.txt  localhost_access_log.2019-06-10.txt
+catalina.2019-02-13.log      localhost_access_log.2018-12-04.txt  localhost_access_log.2019-06-11.txt
+catalina.2019-02-19.log      localhost_access_log.2018-12-05.txt  localhost_access_log.2019-06-12.txt
+[01;32mcatalina.out[0m                 localhost_access_log.2018-12-06.txt  localhost_access_log.2019-06-21.txt
+[01;32mhost-manager.2018-09-19.log[0m  localhost_access_log.2018-12-07.txt  localhost_access_log.2019-06-24.txt
+[01;32mhost-manager.2018-10-03.log[0m  localhost_access_log.2018-12-10.txt  localhost_access_log.2019-06-25.txt
+[01;32mhost-manager.2018-10-09.log[0m  localhost_access_log.2018-12-11.txt  localhost_access_log.2019-06-27.txt
+host-manager.2018-10-11.log  localhost_access_log.2018-12-12.txt  localhost_access_log.2019-07-18.txt
+host-manager.2018-10-23.log  localhost_access_log.2018-12-13.txt  localhost_access_log.2019-07-23.txt
+host-manager.2018-11-01.log  localhost_access_log.2018-12-14.txt  localhost_access_log.2019-08-12.txt
+host-manager.2018-11-14.log  localhost_access_log.2018-12-19.txt  localhost_access_log.2019-08-14.txt
+host-manager.2018-12-14.log  localhost_access_log.2018-12-24.txt  localhost_access_log.2019-08-15.txt
+host-manager.2019-01-02.log  localhost_access_log.2019-01-02.txt  localhost_access_log.2019-08-16.txt
+host-manager.2019-01-04.log  localhost_access_log.2019-01-03.txt  localhost_access_log.2019-08-18.txt
+host-manager.2019-01-07.log  localhost_access_log.2019-01-04.txt  localhost_access_log.2019-08-28.txt
+host-manager.2019-01-08.log  localhost_access_log.2019-01-07.txt  localhost_access_log.2019-09-04.txt
+host-manager.2019-01-10.log  localhost_access_log.2019-01-08.txt  localhost_access_log.2019-09-05.txt
+host-manager.2019-01-18.log  localhost_access_log.2019-01-09.txt  localhost_access_log.2019-09-12.txt
+host-manager.2019-01-22.log  localhost_access_log.2019-01-10.txt  localhost_access_log.2019-09-17.txt
+host-manager.2019-02-01.log  localhost_access_log.2019-01-11.txt  localhost_access_log.2019-09-19.txt
+host-manager.2019-02-04.log  localhost_access_log.2019-01-18.txt  localhost_access_log.2019-10-03.txt
+host-manager.2019-02-05.log  localhost_access_log.2019-01-22.txt  localhost_access_log.2019-10-04.txt
+host-manager.2019-02-06.log  localhost_access_log.2019-01-23.txt  localhost_access_log.2019-10-07.txt
+host-manager.2019-02-13.log  localhost_access_log.2019-01-28.txt  localhost_access_log.2019-10-09.txt
+[01;32mlocalhost.2018-09-19.log[0m     localhost_access_log.2019-01-29.txt  localhost_access_log.2019-10-10.txt
+[01;32mlocalhost.2018-10-03.log[0m     localhost_access_log.2019-01-31.txt  localhost_access_log.2019-10-11.txt
+[01;32mlocalhost.2018-10-09.log[0m     localhost_access_log.2019-02-01.txt  localhost_access_log.2019-10-14.txt
+localhost.2018-10-11.log     localhost_access_log.2019-02-04.txt  localhost_access_log.2019-10-17.txt
+localhost.2018-10-23.log     localhost_access_log.2019-02-05.txt  [01;32mmanager.2018-09-19.log[0m
+localhost.2018-10-31.log     localhost_access_log.2019-02-06.txt  [01;32mmanager.2018-10-03.log[0m
+localhost.2018-11-01.log     localhost_access_log.2019-02-07.txt  [01;32mmanager.2018-10-09.log[0m
+localhost.2018-11-14.log     localhost_access_log.2019-02-08.txt  manager.2018-10-10.log
+localhost.2018-12-07.log     localhost_access_log.2019-02-11.txt  manager.2018-10-11.log
+localhost.2018-12-10.log     localhost_access_log.2019-02-12.txt  manager.2018-10-23.log
+localhost.2018-12-11.log     localhost_access_log.2019-02-13.txt  manager.2018-11-01.log
+localhost.2018-12-13.log     localhost_access_log.2019-02-14.txt  manager.2018-11-14.log
+localhost.2018-12-14.log     localhost_access_log.2019-02-15.txt  manager.2018-12-14.log
+localhost.2018-12-31.log     localhost_access_log.2019-02-19.txt  manager.2019-01-02.log
+localhost.2019-01-02.log     localhost_access_log.2019-02-20.txt  manager.2019-01-04.log
+localhost.2019-01-03.log     localhost_access_log.2019-02-22.txt  manager.2019-01-07.log
+localhost.2019-01-04.log     localhost_access_log.2019-02-25.txt  manager.2019-01-08.log
+localhost.2019-01-07.log     localhost_access_log.2019-02-27.txt  manager.2019-01-10.log
+localhost.2019-01-08.log     localhost_access_log.2019-03-14.txt  manager.2019-01-18.log
+localhost.2019-01-10.log     localhost_access_log.2019-03-15.txt  manager.2019-01-22.log
+localhost.2019-01-11.log     localhost_access_log.2019-03-18.txt  manager.2019-01-31.log
+localhost.2019-01-18.log     localhost_access_log.2019-03-19.txt  manager.2019-02-01.log
+localhost.2019-01-22.log     localhost_access_log.2019-03-20.txt  manager.2019-02-04.log
+localhost.2019-01-31.log     localhost_access_log.2019-03-21.txt  manager.2019-02-05.log
+localhost.2019-02-01.log     localhost_access_log.2019-03-22.txt  manager.2019-02-06.log
+localhost.2019-02-04.log     localhost_access_log.2019-03-25.txt  manager.2019-02-13.log
+localhost.2019-02-05.log     localhost_access_log.2019-03-26.txt  SystemOut.log
+localhost.2019-02-06.log     localhost_access_log.2019-03-27.txt  tomcat.pid
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# ls -lagrt
+total 8576
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-10.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-02.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [0m[01;32mmanager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin    4032 Mar 14  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----.  1 tomadmin    4073 Mar 14  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-11.txt
+-rw-r-----.  1 tomadmin    1048 Mar 14  2019 localhost_access_log.2018-11-09.txt
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost_access_log.2018-11-01.txt
+-rw-r-----.  1 tomadmin     212 Mar 14  2019 localhost_access_log.2018-10-12.txt
+-rw-r-----.  1 tomadmin    4945 Mar 14  2019 localhost.2019-01-07.log
+-rw-r-----.  1 tomadmin   33645 Mar 14  2019 localhost.2018-12-10.log
+-rwxrwxr-x.  1 tomadmin    1194 Mar 14  2019 [01;32mlocalhost.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-14.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin     288 Mar 14  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----.  1 tomadmin    6345 Mar 14  2019 localhost_access_log.2019-02-15.txt
+-rw-r-----.  1 tomadmin   17581 Mar 14  2019 localhost_access_log.2019-02-04.txt
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost_access_log.2019-01-09.txt
+-rw-r-----.  1 tomadmin    1501 Mar 14  2019 localhost_access_log.2019-01-08.txt
+-rw-r-----.  1 tomadmin      76 Mar 14  2019 localhost_access_log.2019-01-04.txt
+-rw-r-----.  1 tomadmin     209 Mar 14  2019 localhost_access_log.2018-11-19.txt
+-rw-r-----.  1 tomadmin    4709 Mar 14  2019 localhost_access_log.2018-10-11.txt
+-rw-r-----.  1 tomadmin    2537 Mar 14  2019 localhost_access_log.2018-10-10.txt
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-02.txt[0m
+-rwxrwxr-x.  1 tomadmin     228 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-19.txt[0m
+-rw-r-----.  1 tomadmin   17012 Mar 14  2019 localhost.2019-02-13.log
+-rw-r-----.  1 tomadmin    6117 Mar 14  2019 localhost.2019-01-22.log
+-rw-r-----.  1 tomadmin     459 Mar 14  2019 localhost.2019-01-04.log
+-rw-r-----.  1 tomadmin    2541 Mar 14  2019 localhost.2018-10-23.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-14.log
+-rw-r-----.  1 tomadmin   15817 Mar 14  2019 catalina.2019-02-04.log
+-rw-r-----.  1 tomadmin   25990 Mar 14  2019 catalina.2018-12-14.log
+-rw-r-----.  1 tomadmin     744 Mar 14  2019 catalina.2018-12-13.log
+-rw-r-----.  1 tomadmin    1153 Mar 14  2019 catalina.2018-10-16.log
+-rw-r-----.  1 tomadmin     168 Mar 14  2019 manager.2019-02-04.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-02-01.log
+-rw-r-----.  1 tomadmin     336 Mar 14  2019 manager.2019-01-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-23.log
+-rw-r-----.  1 tomadmin     841 Mar 14  2019 manager.2018-10-10.log
+-rw-r-----.  1 tomadmin    1829 Mar 14  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----.  1 tomadmin    4595 Mar 14  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----.  1 tomadmin     942 Mar 14  2019 localhost_access_log.2019-02-01.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-28.txt
+-rw-r-----.  1 tomadmin    1396 Mar 14  2019 localhost_access_log.2019-01-22.txt
+-rw-r-----.  1 tomadmin    1555 Mar 14  2019 localhost_access_log.2019-01-03.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-02.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-19.txt
+-rw-r-----.  1 tomadmin     855 Mar 14  2019 localhost_access_log.2018-12-12.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-15.txt
+-rw-r-----.  1 tomadmin    1706 Mar 14  2019 localhost_access_log.2018-10-15.txt
+-rw-r-----.  1 tomadmin   11742 Mar 14  2019 localhost.2019-02-05.log
+-rw-r-----.  1 tomadmin     160 Mar 14  2019 localhost.2019-01-31.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-03.log
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost.2019-01-02.log
+-rw-r-----.  1 tomadmin     878 Mar 14  2019 localhost.2018-12-31.log
+-rw-r-----.  1 tomadmin   11000 Mar 14  2019 localhost.2018-10-11.log
+-rw-r-----.  1 tomadmin     161 Mar 14  2019 host-manager.2019-02-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-02.log
+-rw-r-----.  1 tomadmin     887 Mar 14  2019 catalina.2018-12-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     508 Mar 14  2019 manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-12-14.log
+-rw-r-----.  1 tomadmin   17403 Mar 14  2019 localhost_access_log.2019-02-05.txt
+-rw-r-----.  1 tomadmin   11593 Mar 14  2019 localhost_access_log.2018-12-10.txt
+-rw-r-----.  1 tomadmin    2886 Mar 14  2019 localhost_access_log.2018-12-03.txt
+-rw-r-----.  1 tomadmin    1672 Mar 14  2019 localhost_access_log.2018-11-08.txt
+-rw-r-----.  1 tomadmin    4740 Mar 14  2019 localhost_access_log.2018-11-07.txt
+-rw-r-----.  1 tomadmin    1620 Mar 14  2019 localhost_access_log.2018-10-17.txt
+-rw-r-----.  1 tomadmin    1179 Mar 14  2019 localhost.2019-02-19.log
+-rw-r-----.  1 tomadmin    9531 Mar 14  2019 localhost.2019-02-01.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2018-10-31.log
+-rwxrwxr-x.  1 tomadmin    3399 Mar 14  2019 [01;32mlocalhost.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin   57118 Mar 14  2019 catalina.2019-02-05.log
+-rw-r-----.  1 tomadmin   21002 Mar 14  2019 catalina.2019-01-10.log
+-rw-r-----.  1 tomadmin   22368 Mar 14  2019 catalina.2019-01-07.log
+-rw-r-----.  1 tomadmin   29323 Mar 14  2019 catalina.2018-12-10.log
+-rw-r-----.  1 tomadmin   22327 Mar 14  2019 catalina.2018-10-23.log
+-rwxrwxr-x.  1 tomadmin   13747 Mar 14  2019 [01;32mcatalina.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin    4865 Mar 14  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----.  1 tomadmin    2335 Mar 14  2019 localhost_access_log.2019-02-13.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-10.txt
+-rw-r-----.  1 tomadmin     866 Mar 14  2019 localhost_access_log.2018-11-14.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-11.log
+-rw-r-----.  1 tomadmin   17929 Mar 14  2019 catalina.2018-10-10.log
+-rw-r-----.  1 tomadmin    3513 Mar 14  2019 localhost_access_log.2019-01-31.txt
+-rw-r-----.  1 tomadmin     415 Mar 14  2019 localhost_access_log.2019-01-23.txt
+-rw-r-----.  1 tomadmin    3967 Mar 14  2019 localhost_access_log.2019-01-18.txt
+-rw-r-----.  1 tomadmin    8450 Mar 14  2019 localhost_access_log.2018-12-14.txt
+-rw-r-----.  1 tomadmin    2744 Mar 14  2019 localhost_access_log.2018-12-07.txt
+-rw-r-----.  1 tomadmin      95 Mar 14  2019 localhost_access_log.2018-12-05.txt
+-rw-r-----.  1 tomadmin     952 Mar 14  2019 localhost_access_log.2018-11-20.txt
+-rw-r-----.  1 tomadmin     190 Mar 14  2019 localhost_access_log.2018-10-31.txt
+-rw-r-----.  1 tomadmin     324 Mar 14  2019 localhost.2019-02-14.log
+-rw-r-----.  1 tomadmin    3611 Mar 14  2019 localhost.2019-01-10.log
+-rw-r-----.  1 tomadmin    1508 Mar 14  2019 localhost.2018-11-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-12-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-23.log
+-rw-r-----.  1 tomadmin    1412 Mar 14  2019 catalina.2019-02-19.log
+-rw-r-----.  1 tomadmin   93387 Mar 14  2019 catalina.2019-02-13.log
+-rw-r-----.  1 tomadmin    3500 Mar 14  2019 catalina.2019-02-08.log
+-rw-r-----.  1 tomadmin   34404 Mar 14  2019 catalina.2019-02-06.log
+-rw-r-----.  1 tomadmin   18551 Mar 14  2019 catalina.2019-01-18.log
+-rw-r-----.  1 tomadmin    1026 Mar 14  2019 catalina.2019-01-08.log
+-rw-r-----.  1 tomadmin    8880 Mar 14  2019 catalina.2019-01-02.log
+-rw-r-----.  1 tomadmin     743 Mar 14  2019 catalina.2018-12-07.log
+-rw-r-----.  1 tomadmin   80522 Mar 14  2019 catalina.2018-11-14.log
+-rw-r-----.  1 tomadmin   57970 Mar 14  2019 catalina.2018-10-11.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-08.log
+-rw-r-----.  1 tomadmin   20161 Mar 14  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----.  1 tomadmin      85 Mar 14  2019 localhost_access_log.2018-12-24.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-13.txt
+-rw-r-----.  1 tomadmin    2262 Mar 14  2019 localhost_access_log.2018-10-16.txt
+-rwxrwxr-x.  1 tomadmin     444 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-03.txt[0m
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-20.txt[0m
+-rw-r-----.  1 tomadmin   26394 Mar 14  2019 localhost.2019-02-06.log
+-rw-r-----.  1 tomadmin    9150 Mar 14  2019 localhost.2019-02-04.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-11.log
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost.2018-12-13.log
+-rw-r-----.  1 tomadmin     472 Mar 14  2019 localhost.2018-12-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-05.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-07.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin   47423 Mar 14  2019 catalina.2019-02-01.log
+-rw-r-----.  1 tomadmin   17995 Mar 14  2019 catalina.2019-01-04.log
+-rwxrwxr-x.  1 tomadmin   46624 Mar 14  2019 [01;32mcatalina.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin     890 Mar 14  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----.  1 tomadmin     761 Mar 14  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----.  1 tomadmin     210 Mar 14  2019 localhost_access_log.2019-02-12.txt
+-rw-r-----.  1 tomadmin    4381 Mar 14  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-16.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2018-10-23.txt
+-rwxrwxr-x.  1 tomadmin    5675 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-09.txt[0m
+-rw-r-----.  1 tomadmin     165 Mar 14  2019 localhost.2019-02-15.log
+-rw-r-----.  1 tomadmin    4854 Mar 14  2019 localhost.2019-02-07.log
+-rw-r-----.  1 tomadmin    2596 Mar 14  2019 localhost.2019-01-18.log
+-rw-r-----.  1 tomadmin   20750 Mar 14  2019 localhost.2018-12-14.log
+-rw-r-----.  1 tomadmin   27130 Mar 14  2019 localhost.2018-12-11.log
+-rw-r-----.  1 tomadmin    8659 Mar 14  2019 localhost.2018-11-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-10.log
+-rw-r-----.  1 tomadmin    1834 Mar 14  2019 catalina.2019-02-07.log
+-rw-r-----.  1 tomadmin   37409 Mar 14  2019 catalina.2019-01-22.log
+-rw-r-----.  1 tomadmin   14906 Mar 14  2019 catalina.2018-12-11.log
+-rwxrwxr-x.  1 tomadmin   37793 Mar 14  2019 [01;32mcatalina.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-05.log
+-rw-r-----.  1 tomadmin     486 Mar 14  2019 localhost_access_log.2019-01-29.txt
+-rw-r-----.  1 tomadmin     674 Mar 14  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----.  1 tomadmin    1066 Mar 14  2019 localhost_access_log.2018-12-04.txt
+-rw-r-----.  1 tomadmin     721 Mar 14  2019 localhost.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     390 Mar 14  2019 catalina.2018-12-03.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-11.log
+-rw-r-----.  1 tomadmin    4432 Mar 14  2019 localhost_access_log.2018-12-11.txt
+-rw-r-----.  1 tomadmin     170 Mar 14  2019 localhost_access_log.2018-12-06.txt
+-rw-r-----.  1 tomadmin     864 Mar 14  2019 localhost_access_log.2018-11-13.txt
+-rw-r-----.  1 tomadmin    2305 Mar 14  2019 localhost.2019-02-08.log
+-rwxrwxr-x.  1 tomadmin    3215 Mar 14  2019 [01;32mlocalhost.2018-10-03.log[0m
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin    8777 Mar 14  2019 catalina.2018-11-01.log
+-rw-r-----.  1 tomadmin    1505 Mar 14  2019 localhost_access_log.2019-03-14.txt
+-rw-r-----.  1 tomadmin     106 Mar 15  2019 localhost_access_log.2019-03-15.txt
+-rw-r-----.  1 tomadmin     106 Mar 18  2019 localhost_access_log.2019-03-18.txt
+-rw-r-----.  1 tomadmin    1329 Mar 19  2019 localhost_access_log.2019-03-19.txt
+-rw-r-----.  1 tomadmin     215 Mar 20  2019 localhost_access_log.2019-03-20.txt
+-rw-r-----.  1 tomadmin    1808 Mar 21  2019 localhost_access_log.2019-03-21.txt
+-rw-r-----.  1 tomadmin     969 Mar 22  2019 localhost_access_log.2019-03-22.txt
+-rw-r-----.  1 tomadmin    5532 Mar 25  2019 localhost_access_log.2019-03-25.txt
+-rw-r-----.  1 tomadmin     860 Mar 26  2019 localhost_access_log.2019-03-26.txt
+-rw-r-----.  1 tomadmin     860 Mar 27  2019 localhost_access_log.2019-03-27.txt
+-rw-r-----.  1 tomadmin    1605 Mar 28  2019 localhost_access_log.2019-03-28.txt
+-rw-r-----.  1 tomadmin    2580 Mar 29  2019 localhost_access_log.2019-03-29.txt
+drwxrwxr-x. 13 tomadmin    4096 Apr  2  2019 [01;34m..[0m
+-rw-r-----.  1 tomadmin     212 Apr  2  2019 localhost_access_log.2019-04-02.txt
+-rw-r-----.  1 tomadmin     106 Apr  3  2019 localhost_access_log.2019-04-03.txt
+-rw-r-----.  1 tomadmin     430 Apr 12  2019 localhost_access_log.2019-04-12.txt
+-rw-r-----.  1 tomadmin     430 Apr 15  2019 localhost_access_log.2019-04-15.txt
+-rw-r-----.  1 tomadmin     645 Apr 18 11:20 localhost_access_log.2019-04-18.txt
+-rw-r-----.  1 tomadmin       0 Apr 29 17:31 localhost_access_log.2019-04-29.txt
+-rw-r-----.  1 tomadmin     754 May  1 15:45 localhost_access_log.2019-05-01.txt
+-rw-r-----.  1 tomadmin     215 May  2 14:55 localhost_access_log.2019-05-02.txt
+-rw-r-----.  1 tomadmin     106 May  3 08:09 localhost_access_log.2019-05-03.txt
+-rw-r-----.  1 tomadmin     106 May  7 15:25 localhost_access_log.2019-05-07.txt
+-rw-r-----.  1 tomadmin     848 May  8 14:28 localhost_access_log.2019-05-08.txt
+-rw-r-----.  1 tomadmin    6293 May  9 15:15 localhost_access_log.2019-05-09.txt
+-rw-r-----.  1 tomadmin     829 May 10 09:11 localhost_access_log.2019-05-10.txt
+-rw-r-----.  1 tomadmin    9935 May 13 17:17 localhost_access_log.2019-05-13.txt
+-rw-r-----.  1 tomadmin     952 May 14 11:01 localhost_access_log.2019-05-14.txt
+-rw-r-----.  1 tomadmin    4941 May 15 14:19 localhost_access_log.2019-05-15.txt
+-rw-r-----.  1 tomadmin    4234 May 20 13:38 localhost_access_log.2019-05-20.txt
+-rw-r-----.  1 tomadmin     645 May 22 10:14 localhost_access_log.2019-05-22.txt
+-rw-r-----.  1 tomadmin     215 May 23 16:26 localhost_access_log.2019-05-23.txt
+-rw-r-----.  1 tomadmin     645 May 24 11:10 localhost_access_log.2019-05-24.txt
+-rw-r-----.  1 tomadmin     430 May 28 09:21 localhost_access_log.2019-05-28.txt
+-rw-r-----.  1 tomadmin     624 May 29 16:22 localhost_access_log.2019-05-29.txt
+-rw-r-----.  1 tomadmin    2566 May 30 15:12 localhost_access_log.2019-05-30.txt
+-rw-r-----.  1 tomadmin     380 Jun  3 10:25 localhost_access_log.2019-06-03.txt
+-rw-r-----.  1 tomadmin     860 Jun  4 16:24 localhost_access_log.2019-06-04.txt
+-rw-r-----.  1 tomadmin    1290 Jun  5 13:43 localhost_access_log.2019-06-05.txt
+-rw-r-----.  1 tomadmin     860 Jun  6 11:15 localhost_access_log.2019-06-06.txt
+-rw-r-----.  1 tomadmin    2580 Jun 10 13:49 localhost_access_log.2019-06-10.txt
+-rw-r-----.  1 tomadmin     430 Jun 11 11:15 localhost_access_log.2019-06-11.txt
+-rw-r-----.  1 tomadmin     215 Jun 12 14:02 localhost_access_log.2019-06-12.txt
+-rw-r-----.  1 tomadmin      72 Jun 21 09:09 localhost_access_log.2019-06-21.txt
+-rw-r-----.  1 tomadmin     215 Jun 24 10:29 localhost_access_log.2019-06-24.txt
+-rw-r-----.  1 tomadmin     860 Jun 25 15:10 localhost_access_log.2019-06-25.txt
+-rw-r-----.  1 tomadmin     860 Jun 27 14:09 localhost_access_log.2019-06-27.txt
+-rw-r-----.  1 tomadmin     645 Jul 18 14:11 localhost_access_log.2019-07-18.txt
+-rw-r-----.  1 tomadmin     215 Jul 23 11:02 localhost_access_log.2019-07-23.txt
+-rw-r-----.  1 tomadmin     215 Aug 12 15:25 localhost_access_log.2019-08-12.txt
+-rw-r-----.  1 tomadmin    1075 Aug 14 15:08 localhost_access_log.2019-08-14.txt
+-rw-r-----.  1 tomadmin     430 Aug 15 14:42 localhost_access_log.2019-08-15.txt
+-rw-r-----.  1 tomadmin     430 Aug 16 10:04 localhost_access_log.2019-08-16.txt
+-rw-r-----.  1 tomadmin       0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----.  1 tomadmin    4312 Aug 28 08:32 localhost_access_log.2019-08-28.txt
+-rw-r-----.  1 tomadmin     540 Sep  4 15:53 localhost_access_log.2019-09-04.txt
+-rw-r-----.  1 tomadmin     645 Sep  5 07:41 localhost_access_log.2019-09-05.txt
+-rw-r-----.  1 tomadmin     702 Sep 12 15:59 localhost_access_log.2019-09-12.txt
+-rw-r-----.  1 tomadmin   16412 Sep 17 16:07 localhost_access_log.2019-09-17.txt
+-rw-r-----.  1 tomadmin    6814 Sep 19 14:54 localhost_access_log.2019-09-19.txt
+-rw-r-----.  1 tomadmin   17761 Oct  3 11:40 localhost_access_log.2019-10-03.txt
+-rw-r-----.  1 tomadmin       6 Oct  4 09:12 tomcat.pid
+-rw-r-----.  1 tomadmin    3430 Oct  4 09:25 localhost_access_log.2019-10-04.txt
+-rw-r-----.  1 tomadmin     212 Oct  7 16:06 localhost_access_log.2019-10-07.txt
+-rw-r-----.  1 tomadmin     336 Oct  9 10:20 localhost_access_log.2019-10-09.txt
+-rw-r-----.  1 tomadmin     212 Oct 10 16:08 localhost_access_log.2019-10-10.txt
+-rw-r-----.  1 tomadmin   34400 Oct 11 19:19 localhost_access_log.2019-10-11.txt
+-rw-r-----.  1 tomadmin    9671 Oct 14 15:49 localhost_access_log.2019-10-14.txt
+drwxr-x---.  2 tomadmin    4096 Oct 17 09:21 [01;34marchive[0m
+drwxrwxr-x.  3 tomadmin   16384 Oct 17 09:21 [01;34m.[0m
+-rwxrwxr-x.  1 tomadmin 6832087 Oct 17 09:35 [01;32mcatalina.out[0m
+-rw-r-----.  1 tomadmin   21398 Oct 17 09:43 SystemOut.log
+-rw-r-----.  1 tomadmin    4793 Oct 17 09:43 localhost_access_log.2019-10-17.txt
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# tail localhost_access_log.2019-10-17.txt
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+100.95.20.99 - - [17/Oct/2019:09:35:53 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:35:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:35:58 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+100.95.21.96 - - [17/Oct/2019:09:42:17 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=sitLorem+aliquip+reprehe HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:09:42:26 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=officia+Ut HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:09:43:24 -0700] "GET /efs-sya01/efs/getParticipantInfo?id=91 HTTP/1.1" 200 275
+100.95.21.96 - - [17/Oct/2019:09:43:26 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=dolore+Excep HTTP/1.1" 400 5
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# tail localhost_access_log.2019-10-17.txt
+100.95.20.99 - - [17/Oct/2019:09:47:30 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 2894
+100.95.20.99 - - [17/Oct/2019:09:47:30 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 33837
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 356
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.8.0-SNAPSHOT HTTP/1.1" 200 1141
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:47:32 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:47:34 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:48:01 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# cat localhost_access_log.2019-10-17.txt\
+> ^C
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# cat localhost_access_log.2019-10-17.txt\[K
+100.95.21.96 - - [17/Oct/2019:09:21:28 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=reprehenderit+con HTTP/1.1" 200 231
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/swagger-ui.html HTTP/1.1" 200 3381
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 2894
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 33837
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 4034
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 330779
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 1530897
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 356
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [17/Oct/2019:09:26:20 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [17/Oct/2019:09:26:21 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1908
+100.95.20.99 - - [17/Oct/2019:09:26:21 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+100.95.20.99 - - [17/Oct/2019:09:26:21 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+100.95.20.99 - - [17/Oct/2019:09:26:21 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+100.95.20.99 - - [17/Oct/2019:09:26:21 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/swagger-ui.html HTTP/1.1" 200 3381
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 2894
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 33837
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 1530897
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 330779
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.js?v=2.8.0-SNAPSHOT HTTP/1.1" 200 4034
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 356
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+100.95.20.99 - - [17/Oct/2019:09:35:51 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+100.95.20.99 - - [17/Oct/2019:09:35:52 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+100.95.20.99 - - [17/Oct/2019:09:35:53 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:35:54 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:35:58 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+100.95.21.96 - - [17/Oct/2019:09:42:17 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=sitLorem+aliquip+reprehe HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:09:42:26 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=officia+Ut HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:09:43:24 -0700] "GET /efs-sya01/efs/getParticipantInfo?id=91 HTTP/1.1" 200 275
+100.95.21.96 - - [17/Oct/2019:09:43:26 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=dolore+Excep HTTP/1.1" 400 5
+100.95.20.99 - - [17/Oct/2019:09:47:30 -0700] "GET /efs-sya01/swagger-ui.html HTTP/1.1" 200 3381
+100.95.20.99 - - [17/Oct/2019:09:47:30 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 2894
+100.95.20.99 - - [17/Oct/2019:09:47:30 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT HTTP/1.1" 200 33837
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources/configuration/ui HTTP/1.1" 200 356
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.8.0-SNAPSHOT HTTP/1.1" 200 1141
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:47:32 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:47:34 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:48:01 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+]0;root@CGDCSSL1047UL:/forms/tomcat8/logs[root@CGDCSSL1047UL logs]# cat localhost_access_log.2019-10-17.txt\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail localhost_access_log.2019-10-17.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-localhost_access_log.2019-10-17.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cflocalhost_access_log.2019-10-17.txt localhost_access_log.2019-10-17.txt
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [17/Oct/2019:09:47:31 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:09:47:32 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [17/Oct/2019:09:47:34 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [17/Oct/2019:09:48:01 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+100.95.20.99 - - [17/Oct/2019:10:09:00 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:10:09:28 -0700] "OPTIONS /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 403 31
+100.95.20.99 - - [17/Oct/2019:10:38:25 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+100.95.20.99 - - [17/Oct/2019:10:38:40 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224
+
+
+
+100.95.21.96 - - [17/Oct/2019:10:46:37 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:10:46:52 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:10:47:05 -0700] "POST /efs-sya01/efs/postPDFFile HTTP/1.1" 404 140
+100.95.21.96 - - [17/Oct/2019:10:47:08 -0700] "GET /efs-sya01/efs/getParticipantInfo?id=95 HTTP/1.1" 200 275
+100.95.21.96 - - [17/Oct/2019:10:49:42 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=veniam+nost HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:13:29:47 -0700] "POST /efs-sya01/efs/submitParticipantInfo?participantJSON=nisi+ad HTTP/1.1" 400 5
+100.95.21.96 - - [17/Oct/2019:13:32:48 -0700] "POST /efs-sya01/efs/postPDFFile HTTP/1.1" 404 140
+100.95.21.96 - - [17/Oct/2019:13:34:05 -0700] "POST /efs-sya01/efs/postPDFFile HTTP/1.1" 404 140
+100.95.20.99 - - [17/Oct/2019:13:34:33 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [17/Oct/2019:13:43:12 -0700] "POST /efs-sya01/efs/submitParticipantInfo HTTP/1.1" 200 224

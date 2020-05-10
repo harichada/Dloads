@@ -1,0 +1,428 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.11 10:04:35 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Fri Oct 11 09:58:19 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ ls
+1000      Docker for Windows Installer.exe  [0m[01;32mefs-0.0.1-SNAPSHOT-0222.war[0m  [01;32mefs-sya03.war[0m  hist.txt   [01;34mmyconf[0m       runansible.py
+[01;34mbinaries[0m  [01;34mEFS[0m                               [01;32mefsApp.war[0m                   [01;32mefs-syt06.war[0m  issue.net  outlist.txt  [01;34mssl[0m
+[01;34mCC[0m        [01;32mefs-0.0.1-SNAPSHOT0222-new.war[0m    [01;32mefs-sya02.war[0m                [01;34mflask[0m          [01;32mmod_jk.so[0m  [01;34mpyscripts[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000      Docker for Windows Installer.exe  [0m[01;32mefs-0.0.1-SNAPSHOT-0222.war[0m  [01;32mefs-sya03.war[0m  hist.txt   [01;34mmyconf[0m       runansible.py
+[01;34mbinaries[0m  [01;34mEFS[0m                               [01;32mefsApp.war[0m                   [01;32mefs-syt06.war[0m  issue.net  outlist.txt  [01;34mssl[0m
+[01;34mCC[0m        [01;32mefs-0.0.1-SNAPSHOT0222-new.war[0m    [01;32mefs-sya02.war[0m                [01;34mflask[0m          [01;32mmod_jk.so[0m  [01;34mpyscripts[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ rm -rf efs-*
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ more issue.net 
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SE
+CTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, 
+damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be 
+subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privil
+eges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectat
+ion of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the c
+omputing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these res
+ources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ clear
+[3;J[H[2J]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ pw
+-bash: pw: command not found
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ pwd
+/home/hchada
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ ls
+1000  [0m[01;34mbinaries[0m  [01;34mCC[0m  Docker for Windows Installer.exe  [01;34mEFS[0m  [01;32mefsApp.war[0m  [01;34mflask[0m  hist.txt  issue.net  [01;32mmod_jk.so[0m  [01;34mmyconf[0m  outlist.txt  [01;34mpyscripts[0m  runansible.py  [01;34mssl[0m
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd E
+-bash: cd: E: No such file or directory
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd eF[K[KEFS/
+]0;hchada@CGDCSSL1047UL:~/EFS[hchada@CGDCSSL1047UL EFS]$ cd ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd ..
+]0;hchada@CGDCSSL1047UL:~/EFS[hchada@CGDCSSL1047UL EFS]$ ls
+[0m[01;34mansible[0m
+]0;hchada@CGDCSSL1047UL:~/EFS[hchada@CGDCSSL1047UL EFS]$ cd ansible/
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ ls
+ansible.cfg                    copy              cpyhttpd.yml           CreateUser.yml   fetchhostname.yml  [0m[01;31mmaster-cisreport.zip[0m  script.yml       [01;34mtomcat[0m
+[01;34mapache[0m                         copyBinaries.yml  CreatePartition.yml    [01;34mCustomerConnect[0m  [01;34mfinal[0m              passwd                [01;34mselfsignedcerts[0m  users.yml
+CCServers.yml                  copyKeys.retry    CreatePartsDevOps.yml  delApctl.yml     gitcommands.txt    passwd.txt            servers.yml      [01;32mweb.xml[0m
+[01;34mcis-rhel-ansible-audit-master[0m  copyKeys.yml      CreateUser.retry       deploy1.yml      inventory          ping.yml              [01;32mserver.xml[0m       yumPackages.yml
+[01;32mcontext.xml[0m                    copyKey.yml       CreateUsers.yml        [01;31mdevel.zip[0m        inventorycc        [01;34mpyscritps[0m             stopFW.yml
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ more delApctl.yml 
+- hosts:
+    - all
+  become: true
+  tasks:
+    - name: Delete apache service file /etc/rc.d/init.d
+      file:
+         path: "/etc/rc.d/init.d/apachectl"
+         state: absent
+      when: "'ws' in inventory_hostname"
+
+
+]0;hchada@CGDCSSL1047UL:~/EFS/ansible[hchada@CGDCSSL1047UL ansible]$ cd /forms/tomcat8/logs
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/logs[hchada@CGDCSSL1047UL logs]$ ls
+[0m[01;34marchive[0m                      localhost.2018-12-07.log             localhost_access_log.2019-01-02.txt  localhost_access_log.2019-05-24.txt
+[01;32mcatalina.2018-09-19.log[0m      localhost.2018-12-10.log             localhost_access_log.2019-01-03.txt  localhost_access_log.2019-05-28.txt
+[01;32mcatalina.2018-10-03.log[0m      localhost.2018-12-11.log             localhost_access_log.2019-01-04.txt  localhost_access_log.2019-05-29.txt
+[01;32mcatalina.2018-10-09.log[0m      localhost.2018-12-13.log             localhost_access_log.2019-01-07.txt  localhost_access_log.2019-05-30.txt
+catalina.2018-10-10.log      localhost.2018-12-14.log             localhost_access_log.2019-01-08.txt  localhost_access_log.2019-06-03.txt
+catalina.2018-10-11.log      localhost.2018-12-31.log             localhost_access_log.2019-01-09.txt  localhost_access_log.2019-06-04.txt
+catalina.2018-10-16.log      localhost.2019-01-02.log             localhost_access_log.2019-01-10.txt  localhost_access_log.2019-06-05.txt
+catalina.2018-10-23.log      localhost.2019-01-03.log             localhost_access_log.2019-01-11.txt  localhost_access_log.2019-06-06.txt
+catalina.2018-11-01.log      localhost.2019-01-04.log             localhost_access_log.2019-01-18.txt  localhost_access_log.2019-06-10.txt
+catalina.2018-11-14.log      localhost.2019-01-07.log             localhost_access_log.2019-01-22.txt  localhost_access_log.2019-06-11.txt
+catalina.2018-12-03.log      localhost.2019-01-08.log             localhost_access_log.2019-01-23.txt  localhost_access_log.2019-06-12.txt
+catalina.2018-12-07.log      localhost.2019-01-10.log             localhost_access_log.2019-01-28.txt  localhost_access_log.2019-06-21.txt
+catalina.2018-12-10.log      localhost.2019-01-11.log             localhost_access_log.2019-01-29.txt  localhost_access_log.2019-06-24.txt
+catalina.2018-12-11.log      localhost.2019-01-18.log             localhost_access_log.2019-01-31.txt  localhost_access_log.2019-06-25.txt
+catalina.2018-12-13.log      localhost.2019-01-22.log             localhost_access_log.2019-02-01.txt  localhost_access_log.2019-06-27.txt
+catalina.2018-12-14.log      localhost.2019-01-31.log             localhost_access_log.2019-02-04.txt  localhost_access_log.2019-07-18.txt
+catalina.2018-12-31.log      localhost.2019-02-01.log             localhost_access_log.2019-02-05.txt  localhost_access_log.2019-07-23.txt
+catalina.2019-01-02.log      localhost.2019-02-04.log             localhost_access_log.2019-02-06.txt  localhost_access_log.2019-08-12.txt
+catalina.2019-01-04.log      localhost.2019-02-05.log             localhost_access_log.2019-02-07.txt  localhost_access_log.2019-08-14.txt
+catalina.2019-01-07.log      localhost.2019-02-06.log             localhost_access_log.2019-02-08.txt  localhost_access_log.2019-08-15.txt
+catalina.2019-01-08.log      localhost.2019-02-07.log             localhost_access_log.2019-02-11.txt  localhost_access_log.2019-08-16.txt
+catalina.2019-01-10.log      localhost.2019-02-08.log             localhost_access_log.2019-02-12.txt  localhost_access_log.2019-08-18.txt
+catalina.2019-01-18.log      localhost.2019-02-13.log             localhost_access_log.2019-02-13.txt  localhost_access_log.2019-08-28.txt
+catalina.2019-01-22.log      localhost.2019-02-14.log             localhost_access_log.2019-02-14.txt  localhost_access_log.2019-09-04.txt
+catalina.2019-02-01.log      localhost.2019-02-15.log             localhost_access_log.2019-02-15.txt  localhost_access_log.2019-09-05.txt
+catalina.2019-02-04.log      localhost.2019-02-19.log             localhost_access_log.2019-02-19.txt  localhost_access_log.2019-09-12.txt
+catalina.2019-02-05.log      [01;32mlocalhost_access_log.2018-09-19.txt[0m  localhost_access_log.2019-02-20.txt  localhost_access_log.2019-09-17.txt
+catalina.2019-02-06.log      [01;32mlocalhost_access_log.2018-09-20.txt[0m  localhost_access_log.2019-02-22.txt  localhost_access_log.2019-09-19.txt
+catalina.2019-02-07.log      [01;32mlocalhost_access_log.2018-10-02.txt[0m  localhost_access_log.2019-02-25.txt  localhost_access_log.2019-10-03.txt
+catalina.2019-02-08.log      [01;32mlocalhost_access_log.2018-10-03.txt[0m  localhost_access_log.2019-02-27.txt  localhost_access_log.2019-10-04.txt
+catalina.2019-02-13.log      [01;32mlocalhost_access_log.2018-10-09.txt[0m  localhost_access_log.2019-03-14.txt  localhost_access_log.2019-10-07.txt
+catalina.2019-02-19.log      localhost_access_log.2018-10-10.txt  localhost_access_log.2019-03-15.txt  localhost_access_log.2019-10-09.txt
+[01;32mcatalina.out[0m                 localhost_access_log.2018-10-11.txt  localhost_access_log.2019-03-18.txt  localhost_access_log.2019-10-10.txt
+[01;32mhost-manager.2018-09-19.log[0m  localhost_access_log.2018-10-12.txt  localhost_access_log.2019-03-19.txt  localhost_access_log.2019-10-11.txt
+[01;32mhost-manager.2018-10-03.log[0m  localhost_access_log.2018-10-15.txt  localhost_access_log.2019-03-20.txt  [01;32mmanager.2018-09-19.log[0m
+[01;32mhost-manager.2018-10-09.log[0m  localhost_access_log.2018-10-16.txt  localhost_access_log.2019-03-21.txt  [01;32mmanager.2018-10-03.log[0m
+host-manager.2018-10-11.log  localhost_access_log.2018-10-17.txt  localhost_access_log.2019-03-22.txt  [01;32mmanager.2018-10-09.log[0m
+host-manager.2018-10-23.log  localhost_access_log.2018-10-23.txt  localhost_access_log.2019-03-25.txt  manager.2018-10-10.log
+host-manager.2018-11-01.log  localhost_access_log.2018-10-31.txt  localhost_access_log.2019-03-26.txt  manager.2018-10-11.log
+host-manager.2018-11-14.log  localhost_access_log.2018-11-01.txt  localhost_access_log.2019-03-27.txt  manager.2018-10-23.log
+host-manager.2018-12-14.log  localhost_access_log.2018-11-07.txt  localhost_access_log.2019-03-28.txt  manager.2018-11-01.log
+host-manager.2019-01-02.log  localhost_access_log.2018-11-08.txt  localhost_access_log.2019-03-29.txt  manager.2018-11-14.log
+host-manager.2019-01-04.log  localhost_access_log.2018-11-09.txt  localhost_access_log.2019-04-02.txt  manager.2018-12-14.log
+host-manager.2019-01-07.log  localhost_access_log.2018-11-13.txt  localhost_access_log.2019-04-03.txt  manager.2019-01-02.log
+host-manager.2019-01-08.log  localhost_access_log.2018-11-14.txt  localhost_access_log.2019-04-12.txt  manager.2019-01-04.log
+host-manager.2019-01-10.log  localhost_access_log.2018-11-15.txt  localhost_access_log.2019-04-15.txt  manager.2019-01-07.log
+host-manager.2019-01-18.log  localhost_access_log.2018-11-16.txt  localhost_access_log.2019-04-18.txt  manager.2019-01-08.log
+host-manager.2019-01-22.log  localhost_access_log.2018-11-19.txt  localhost_access_log.2019-04-29.txt  manager.2019-01-10.log
+host-manager.2019-02-01.log  localhost_access_log.2018-11-20.txt  localhost_access_log.2019-05-01.txt  manager.2019-01-18.log
+host-manager.2019-02-04.log  localhost_access_log.2018-12-03.txt  localhost_access_log.2019-05-02.txt  manager.2019-01-22.log
+host-manager.2019-02-05.log  localhost_access_log.2018-12-04.txt  localhost_access_log.2019-05-03.txt  manager.2019-01-31.log
+host-manager.2019-02-06.log  localhost_access_log.2018-12-05.txt  localhost_access_log.2019-05-07.txt  manager.2019-02-01.log
+host-manager.2019-02-13.log  localhost_access_log.2018-12-06.txt  localhost_access_log.2019-05-08.txt  manager.2019-02-04.log
+[01;32mlocalhost.2018-09-19.log[0m     localhost_access_log.2018-12-07.txt  localhost_access_log.2019-05-09.txt  manager.2019-02-05.log
+[01;32mlocalhost.2018-10-03.log[0m     localhost_access_log.2018-12-10.txt  localhost_access_log.2019-05-10.txt  manager.2019-02-06.log
+[01;32mlocalhost.2018-10-09.log[0m     localhost_access_log.2018-12-11.txt  localhost_access_log.2019-05-13.txt  manager.2019-02-13.log
+localhost.2018-10-11.log     localhost_access_log.2018-12-12.txt  localhost_access_log.2019-05-14.txt  SystemOut.log
+localhost.2018-10-23.log     localhost_access_log.2018-12-13.txt  localhost_access_log.2019-05-15.txt  tomcat.pid
+localhost.2018-10-31.log     localhost_access_log.2018-12-14.txt  localhost_access_log.2019-05-20.txt
+localhost.2018-11-01.log     localhost_access_log.2018-12-19.txt  localhost_access_log.2019-05-22.txt
+localhost.2018-11-14.log     localhost_access_log.2018-12-24.txt  localhost_access_log.2019-05-23.txt
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/logs[hchada@CGDCSSL1047UL logs]$ ls -lagrt
+total 8440
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-10.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-02.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [0m[01;32mmanager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin    4032 Mar 14  2019 localhost_access_log.2019-02-22.txt
+-rw-r-----.  1 tomadmin    4073 Mar 14  2019 localhost_access_log.2019-02-19.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-11.txt
+-rw-r-----.  1 tomadmin    1048 Mar 14  2019 localhost_access_log.2018-11-09.txt
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost_access_log.2018-11-01.txt
+-rw-r-----.  1 tomadmin     212 Mar 14  2019 localhost_access_log.2018-10-12.txt
+-rw-r-----.  1 tomadmin    4945 Mar 14  2019 localhost.2019-01-07.log
+-rw-r-----.  1 tomadmin   33645 Mar 14  2019 localhost.2018-12-10.log
+-rwxrwxr-x.  1 tomadmin    1194 Mar 14  2019 [01;32mlocalhost.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-14.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin     288 Mar 14  2019 localhost_access_log.2019-02-27.txt
+-rw-r-----.  1 tomadmin    6345 Mar 14  2019 localhost_access_log.2019-02-15.txt
+-rw-r-----.  1 tomadmin   17581 Mar 14  2019 localhost_access_log.2019-02-04.txt
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost_access_log.2019-01-09.txt
+-rw-r-----.  1 tomadmin    1501 Mar 14  2019 localhost_access_log.2019-01-08.txt
+-rw-r-----.  1 tomadmin      76 Mar 14  2019 localhost_access_log.2019-01-04.txt
+-rw-r-----.  1 tomadmin     209 Mar 14  2019 localhost_access_log.2018-11-19.txt
+-rw-r-----.  1 tomadmin    4709 Mar 14  2019 localhost_access_log.2018-10-11.txt
+-rw-r-----.  1 tomadmin    2537 Mar 14  2019 localhost_access_log.2018-10-10.txt
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-02.txt[0m
+-rwxrwxr-x.  1 tomadmin     228 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-19.txt[0m
+-rw-r-----.  1 tomadmin   17012 Mar 14  2019 localhost.2019-02-13.log
+-rw-r-----.  1 tomadmin    6117 Mar 14  2019 localhost.2019-01-22.log
+-rw-r-----.  1 tomadmin     459 Mar 14  2019 localhost.2019-01-04.log
+-rw-r-----.  1 tomadmin    2541 Mar 14  2019 localhost.2018-10-23.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-11-14.log
+-rw-r-----.  1 tomadmin   15817 Mar 14  2019 catalina.2019-02-04.log
+-rw-r-----.  1 tomadmin   25990 Mar 14  2019 catalina.2018-12-14.log
+-rw-r-----.  1 tomadmin     744 Mar 14  2019 catalina.2018-12-13.log
+-rw-r-----.  1 tomadmin    1153 Mar 14  2019 catalina.2018-10-16.log
+-rw-r-----.  1 tomadmin     168 Mar 14  2019 manager.2019-02-04.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-02-01.log
+-rw-r-----.  1 tomadmin     336 Mar 14  2019 manager.2019-01-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-23.log
+-rw-r-----.  1 tomadmin     841 Mar 14  2019 manager.2018-10-10.log
+-rw-r-----.  1 tomadmin    1829 Mar 14  2019 localhost_access_log.2019-02-11.txt
+-rw-r-----.  1 tomadmin    4595 Mar 14  2019 localhost_access_log.2019-02-07.txt
+-rw-r-----.  1 tomadmin     942 Mar 14  2019 localhost_access_log.2019-02-01.txt
+-rw-r-----.  1 tomadmin     106 Mar 14  2019 localhost_access_log.2019-01-28.txt
+-rw-r-----.  1 tomadmin    1396 Mar 14  2019 localhost_access_log.2019-01-22.txt
+-rw-r-----.  1 tomadmin    1555 Mar 14  2019 localhost_access_log.2019-01-03.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-02.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-19.txt
+-rw-r-----.  1 tomadmin     855 Mar 14  2019 localhost_access_log.2018-12-12.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-15.txt
+-rw-r-----.  1 tomadmin    1706 Mar 14  2019 localhost_access_log.2018-10-15.txt
+-rw-r-----.  1 tomadmin   11742 Mar 14  2019 localhost.2019-02-05.log
+-rw-r-----.  1 tomadmin     160 Mar 14  2019 localhost.2019-01-31.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-03.log
+-rw-r-----.  1 tomadmin    1085 Mar 14  2019 localhost.2019-01-02.log
+-rw-r-----.  1 tomadmin     878 Mar 14  2019 localhost.2018-12-31.log
+-rw-r-----.  1 tomadmin   11000 Mar 14  2019 localhost.2018-10-11.log
+-rw-r-----.  1 tomadmin     161 Mar 14  2019 host-manager.2019-02-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-02.log
+-rw-r-----.  1 tomadmin     887 Mar 14  2019 catalina.2018-12-31.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     508 Mar 14  2019 manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-12-14.log
+-rw-r-----.  1 tomadmin   17403 Mar 14  2019 localhost_access_log.2019-02-05.txt
+-rw-r-----.  1 tomadmin   11593 Mar 14  2019 localhost_access_log.2018-12-10.txt
+-rw-r-----.  1 tomadmin    2886 Mar 14  2019 localhost_access_log.2018-12-03.txt
+-rw-r-----.  1 tomadmin    1672 Mar 14  2019 localhost_access_log.2018-11-08.txt
+-rw-r-----.  1 tomadmin    4740 Mar 14  2019 localhost_access_log.2018-11-07.txt
+-rw-r-----.  1 tomadmin    1620 Mar 14  2019 localhost_access_log.2018-10-17.txt
+-rw-r-----.  1 tomadmin    1179 Mar 14  2019 localhost.2019-02-19.log
+-rw-r-----.  1 tomadmin    9531 Mar 14  2019 localhost.2019-02-01.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2018-10-31.log
+-rwxrwxr-x.  1 tomadmin    3399 Mar 14  2019 [01;32mlocalhost.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin   57118 Mar 14  2019 catalina.2019-02-05.log
+-rw-r-----.  1 tomadmin   21002 Mar 14  2019 catalina.2019-01-10.log
+-rw-r-----.  1 tomadmin   22368 Mar 14  2019 catalina.2019-01-07.log
+-rw-r-----.  1 tomadmin   29323 Mar 14  2019 catalina.2018-12-10.log
+-rw-r-----.  1 tomadmin   22327 Mar 14  2019 catalina.2018-10-23.log
+-rwxrwxr-x.  1 tomadmin   13747 Mar 14  2019 [01;32mcatalina.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin    4865 Mar 14  2019 localhost_access_log.2019-02-25.txt
+-rw-r-----.  1 tomadmin    2335 Mar 14  2019 localhost_access_log.2019-02-13.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2019-01-10.txt
+-rw-r-----.  1 tomadmin     866 Mar 14  2019 localhost_access_log.2018-11-14.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-04.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-11.log
+-rw-r-----.  1 tomadmin   17929 Mar 14  2019 catalina.2018-10-10.log
+-rw-r-----.  1 tomadmin    3513 Mar 14  2019 localhost_access_log.2019-01-31.txt
+-rw-r-----.  1 tomadmin     415 Mar 14  2019 localhost_access_log.2019-01-23.txt
+-rw-r-----.  1 tomadmin    3967 Mar 14  2019 localhost_access_log.2019-01-18.txt
+-rw-r-----.  1 tomadmin    8450 Mar 14  2019 localhost_access_log.2018-12-14.txt
+-rw-r-----.  1 tomadmin    2744 Mar 14  2019 localhost_access_log.2018-12-07.txt
+-rw-r-----.  1 tomadmin      95 Mar 14  2019 localhost_access_log.2018-12-05.txt
+-rw-r-----.  1 tomadmin     952 Mar 14  2019 localhost_access_log.2018-11-20.txt
+-rw-r-----.  1 tomadmin     190 Mar 14  2019 localhost_access_log.2018-10-31.txt
+-rw-r-----.  1 tomadmin     324 Mar 14  2019 localhost.2019-02-14.log
+-rw-r-----.  1 tomadmin    3611 Mar 14  2019 localhost.2019-01-10.log
+-rw-r-----.  1 tomadmin    1508 Mar 14  2019 localhost.2018-11-01.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-22.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-12-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2018-10-23.log
+-rw-r-----.  1 tomadmin    1412 Mar 14  2019 catalina.2019-02-19.log
+-rw-r-----.  1 tomadmin   93387 Mar 14  2019 catalina.2019-02-13.log
+-rw-r-----.  1 tomadmin    3500 Mar 14  2019 catalina.2019-02-08.log
+-rw-r-----.  1 tomadmin   34404 Mar 14  2019 catalina.2019-02-06.log
+-rw-r-----.  1 tomadmin   18551 Mar 14  2019 catalina.2019-01-18.log
+-rw-r-----.  1 tomadmin    1026 Mar 14  2019 catalina.2019-01-08.log
+-rw-r-----.  1 tomadmin    8880 Mar 14  2019 catalina.2019-01-02.log
+-rw-r-----.  1 tomadmin     743 Mar 14  2019 catalina.2018-12-07.log
+-rw-r-----.  1 tomadmin   80522 Mar 14  2019 catalina.2018-11-14.log
+-rw-r-----.  1 tomadmin   57970 Mar 14  2019 catalina.2018-10-11.log
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-08.log
+-rw-r-----.  1 tomadmin   20161 Mar 14  2019 localhost_access_log.2019-02-06.txt
+-rw-r-----.  1 tomadmin      85 Mar 14  2019 localhost_access_log.2018-12-24.txt
+-rw-r-----.  1 tomadmin     414 Mar 14  2019 localhost_access_log.2018-12-13.txt
+-rw-r-----.  1 tomadmin    2262 Mar 14  2019 localhost_access_log.2018-10-16.txt
+-rwxrwxr-x.  1 tomadmin     444 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-03.txt[0m
+-rwxrwxr-x.  1 tomadmin      76 Mar 14  2019 [01;32mlocalhost_access_log.2018-09-20.txt[0m
+-rw-r-----.  1 tomadmin   26394 Mar 14  2019 localhost.2019-02-06.log
+-rw-r-----.  1 tomadmin    9150 Mar 14  2019 localhost.2019-02-04.log
+-rw-r-----.  1 tomadmin     159 Mar 14  2019 localhost.2019-01-11.log
+-rw-r-----.  1 tomadmin     315 Mar 14  2019 localhost.2018-12-13.log
+-rw-r-----.  1 tomadmin     472 Mar 14  2019 localhost.2018-12-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-06.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-05.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-07.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-09-19.log[0m
+-rw-r-----.  1 tomadmin   47423 Mar 14  2019 catalina.2019-02-01.log
+-rw-r-----.  1 tomadmin   17995 Mar 14  2019 catalina.2019-01-04.log
+-rwxrwxr-x.  1 tomadmin   46624 Mar 14  2019 [01;32mcatalina.2018-10-09.log[0m
+-rw-r-----.  1 tomadmin     505 Mar 14  2019 manager.2019-01-18.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-11-01.log
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mmanager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin     890 Mar 14  2019 localhost_access_log.2019-02-20.txt
+-rw-r-----.  1 tomadmin     761 Mar 14  2019 localhost_access_log.2019-02-14.txt
+-rw-r-----.  1 tomadmin     210 Mar 14  2019 localhost_access_log.2019-02-12.txt
+-rw-r-----.  1 tomadmin    4381 Mar 14  2019 localhost_access_log.2019-02-08.txt
+-rw-r-----.  1 tomadmin     627 Mar 14  2019 localhost_access_log.2018-11-16.txt
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 localhost_access_log.2018-10-23.txt
+-rwxrwxr-x.  1 tomadmin    5675 Mar 14  2019 [01;32mlocalhost_access_log.2018-10-09.txt[0m
+-rw-r-----.  1 tomadmin     165 Mar 14  2019 localhost.2019-02-15.log
+-rw-r-----.  1 tomadmin    4854 Mar 14  2019 localhost.2019-02-07.log
+-rw-r-----.  1 tomadmin    2596 Mar 14  2019 localhost.2019-01-18.log
+-rw-r-----.  1 tomadmin   20750 Mar 14  2019 localhost.2018-12-14.log
+-rw-r-----.  1 tomadmin   27130 Mar 14  2019 localhost.2018-12-11.log
+-rw-r-----.  1 tomadmin    8659 Mar 14  2019 localhost.2018-11-14.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-01-10.log
+-rw-r-----.  1 tomadmin    1834 Mar 14  2019 catalina.2019-02-07.log
+-rw-r-----.  1 tomadmin   37409 Mar 14  2019 catalina.2019-01-22.log
+-rw-r-----.  1 tomadmin   14906 Mar 14  2019 catalina.2018-12-11.log
+-rwxrwxr-x.  1 tomadmin   37793 Mar 14  2019 [01;32mcatalina.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-02-05.log
+-rw-r-----.  1 tomadmin     486 Mar 14  2019 localhost_access_log.2019-01-29.txt
+-rw-r-----.  1 tomadmin     674 Mar 14  2019 localhost_access_log.2019-01-07.txt
+-rw-r-----.  1 tomadmin    1066 Mar 14  2019 localhost_access_log.2018-12-04.txt
+-rw-r-----.  1 tomadmin     721 Mar 14  2019 localhost.2019-01-08.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 host-manager.2019-02-13.log
+-rw-r-----.  1 tomadmin     390 Mar 14  2019 catalina.2018-12-03.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2019-01-07.log
+-rw-r-----.  1 tomadmin       0 Mar 14  2019 manager.2018-10-11.log
+-rw-r-----.  1 tomadmin    4432 Mar 14  2019 localhost_access_log.2018-12-11.txt
+-rw-r-----.  1 tomadmin     170 Mar 14  2019 localhost_access_log.2018-12-06.txt
+-rw-r-----.  1 tomadmin     864 Mar 14  2019 localhost_access_log.2018-11-13.txt
+-rw-r-----.  1 tomadmin    2305 Mar 14  2019 localhost.2019-02-08.log
+-rwxrwxr-x.  1 tomadmin    3215 Mar 14  2019 [01;32mlocalhost.2018-10-03.log[0m
+-rwxrwxr-x.  1 tomadmin       0 Mar 14  2019 [01;32mhost-manager.2018-10-03.log[0m
+-rw-r-----.  1 tomadmin    8777 Mar 14  2019 catalina.2018-11-01.log
+-rw-r-----.  1 tomadmin    1505 Mar 14  2019 localhost_access_log.2019-03-14.txt
+-rw-r-----.  1 tomadmin     106 Mar 15  2019 localhost_access_log.2019-03-15.txt
+-rw-r-----.  1 tomadmin     106 Mar 18  2019 localhost_access_log.2019-03-18.txt
+-rw-r-----.  1 tomadmin    1329 Mar 19  2019 localhost_access_log.2019-03-19.txt
+-rw-r-----.  1 tomadmin     215 Mar 20  2019 localhost_access_log.2019-03-20.txt
+-rw-r-----.  1 tomadmin    1808 Mar 21  2019 localhost_access_log.2019-03-21.txt
+-rw-r-----.  1 tomadmin     969 Mar 22  2019 localhost_access_log.2019-03-22.txt
+-rw-r-----.  1 tomadmin    5532 Mar 25  2019 localhost_access_log.2019-03-25.txt
+-rw-r-----.  1 tomadmin     860 Mar 26  2019 localhost_access_log.2019-03-26.txt
+-rw-r-----.  1 tomadmin     860 Mar 27  2019 localhost_access_log.2019-03-27.txt
+-rw-r-----.  1 tomadmin    1605 Mar 28  2019 localhost_access_log.2019-03-28.txt
+-rw-r-----.  1 tomadmin    2580 Mar 29  2019 localhost_access_log.2019-03-29.txt
+drwxrwxr-x. 13 tomadmin    4096 Apr  2  2019 [01;34m..[0m
+-rw-r-----.  1 tomadmin     212 Apr  2  2019 localhost_access_log.2019-04-02.txt
+-rw-r-----.  1 tomadmin     106 Apr  3  2019 localhost_access_log.2019-04-03.txt
+-rw-r-----.  1 tomadmin     430 Apr 12 09:48 localhost_access_log.2019-04-12.txt
+-rw-r-----.  1 tomadmin     430 Apr 15 16:12 localhost_access_log.2019-04-15.txt
+-rw-r-----.  1 tomadmin     645 Apr 18 11:20 localhost_access_log.2019-04-18.txt
+-rw-r-----.  1 tomadmin       0 Apr 29 17:31 localhost_access_log.2019-04-29.txt
+-rw-r-----.  1 tomadmin     754 May  1 15:45 localhost_access_log.2019-05-01.txt
+-rw-r-----.  1 tomadmin     215 May  2 14:55 localhost_access_log.2019-05-02.txt
+-rw-r-----.  1 tomadmin     106 May  3 08:09 localhost_access_log.2019-05-03.txt
+-rw-r-----.  1 tomadmin     106 May  7 15:25 localhost_access_log.2019-05-07.txt
+-rw-r-----.  1 tomadmin     848 May  8 14:28 localhost_access_log.2019-05-08.txt
+-rw-r-----.  1 tomadmin    6293 May  9 15:15 localhost_access_log.2019-05-09.txt
+-rw-r-----.  1 tomadmin     829 May 10 09:11 localhost_access_log.2019-05-10.txt
+-rw-r-----.  1 tomadmin    9935 May 13 17:17 localhost_access_log.2019-05-13.txt
+-rw-r-----.  1 tomadmin     952 May 14 11:01 localhost_access_log.2019-05-14.txt
+-rw-r-----.  1 tomadmin    4941 May 15 14:19 localhost_access_log.2019-05-15.txt
+-rw-r-----.  1 tomadmin    4234 May 20 13:38 localhost_access_log.2019-05-20.txt
+-rw-r-----.  1 tomadmin     645 May 22 10:14 localhost_access_log.2019-05-22.txt
+-rw-r-----.  1 tomadmin     215 May 23 16:26 localhost_access_log.2019-05-23.txt
+-rw-r-----.  1 tomadmin     645 May 24 11:10 localhost_access_log.2019-05-24.txt
+-rw-r-----.  1 tomadmin     430 May 28 09:21 localhost_access_log.2019-05-28.txt
+-rw-r-----.  1 tomadmin     624 May 29 16:22 localhost_access_log.2019-05-29.txt
+-rw-r-----.  1 tomadmin    2566 May 30 15:12 localhost_access_log.2019-05-30.txt
+-rw-r-----.  1 tomadmin     380 Jun  3 10:25 localhost_access_log.2019-06-03.txt
+-rw-r-----.  1 tomadmin     860 Jun  4 16:24 localhost_access_log.2019-06-04.txt
+-rw-r-----.  1 tomadmin    1290 Jun  5 13:43 localhost_access_log.2019-06-05.txt
+-rw-r-----.  1 tomadmin     860 Jun  6 11:15 localhost_access_log.2019-06-06.txt
+-rw-r-----.  1 tomadmin    2580 Jun 10 13:49 localhost_access_log.2019-06-10.txt
+-rw-r-----.  1 tomadmin     430 Jun 11 11:15 localhost_access_log.2019-06-11.txt
+-rw-r-----.  1 tomadmin     215 Jun 12 14:02 localhost_access_log.2019-06-12.txt
+-rw-r-----.  1 tomadmin      72 Jun 21 09:09 localhost_access_log.2019-06-21.txt
+-rw-r-----.  1 tomadmin     215 Jun 24 10:29 localhost_access_log.2019-06-24.txt
+-rw-r-----.  1 tomadmin     860 Jun 25 15:10 localhost_access_log.2019-06-25.txt
+-rw-r-----.  1 tomadmin     860 Jun 27 14:09 localhost_access_log.2019-06-27.txt
+-rw-r-----.  1 tomadmin     645 Jul 18 14:11 localhost_access_log.2019-07-18.txt
+-rw-r-----.  1 tomadmin     215 Jul 23 11:02 localhost_access_log.2019-07-23.txt
+-rw-r-----.  1 tomadmin     215 Aug 12 15:25 localhost_access_log.2019-08-12.txt
+-rw-r-----.  1 tomadmin    1075 Aug 14 15:08 localhost_access_log.2019-08-14.txt
+-rw-r-----.  1 tomadmin     430 Aug 15 14:42 localhost_access_log.2019-08-15.txt
+-rw-r-----.  1 tomadmin     430 Aug 16 10:04 localhost_access_log.2019-08-16.txt
+-rw-r-----.  1 tomadmin       0 Aug 18 10:40 localhost_access_log.2019-08-18.txt
+-rw-r-----.  1 tomadmin    4312 Aug 28 08:32 localhost_access_log.2019-08-28.txt
+-rw-r-----.  1 tomadmin     540 Sep  4 15:53 localhost_access_log.2019-09-04.txt
+-rw-r-----.  1 tomadmin     645 Sep  5 07:41 localhost_access_log.2019-09-05.txt
+-rw-r-----.  1 tomadmin     702 Sep 12 15:59 localhost_access_log.2019-09-12.txt
+-rw-r-----.  1 tomadmin   16412 Sep 17 16:07 localhost_access_log.2019-09-17.txt
+-rw-r-----.  1 tomadmin    6814 Sep 19 14:54 localhost_access_log.2019-09-19.txt
+-rw-r-----.  1 tomadmin   17761 Oct  3 11:40 localhost_access_log.2019-10-03.txt
+-rw-r-----.  1 tomadmin       6 Oct  4 09:12 tomcat.pid
+-rwxrwxr-x.  1 tomadmin 6764027 Oct  4 09:14 [01;32mcatalina.out[0m
+-rw-r-----.  1 tomadmin    3430 Oct  4 09:25 localhost_access_log.2019-10-04.txt
+-rw-r-----.  1 tomadmin     212 Oct  7 16:06 localhost_access_log.2019-10-07.txt
+drwxr-x---.  2 tomadmin    4096 Oct  9 09:07 [01;34marchive[0m
+-rw-r-----.  1 tomadmin     969 Oct  9 10:20 SystemOut.log
+-rw-r-----.  1 tomadmin     336 Oct  9 10:20 localhost_access_log.2019-10-09.txt
+-rw-r-----.  1 tomadmin     212 Oct 10 16:08 localhost_access_log.2019-10-10.txt
+drwxrwxr-x.  3 tomadmin   16384 Oct 11 10:21 [01;34m.[0m
+-rw-r-----.  1 tomadmin    5537 Oct 11 10:23 localhost_access_log.2019-10-11.txt
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/logs[hchada@CGDCSSL1047UL logs]$ tail -f localhost_access_log.2019-10-11.txt
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/swagger-resources/configuration/security HTTP/1.1" 200 12
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/swagger-resources HTTP/1.1" 200 101
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 HTTP/1.1" 200 11640
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 HTTP/1.1" 200 14048
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 HTTP/1.1" 200 14720
+100.95.20.99 - - [11/Oct/2019:10:22:56 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 HTTP/1.1" 200 13292
+100.95.20.99 - - [11/Oct/2019:10:23:08 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 HTTP/1.1" 200 12956
+100.95.20.99 - - [11/Oct/2019:10:23:18 -0700] "GET /efs-sya01/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 HTTP/1.1" 200 12264
+100.95.20.99 - - [11/Oct/2019:10:23:46 -0700] "GET /efs-sya01/v2/api-docs HTTP/1.1" 200 1917
+
+
+
+
+^C
+]0;hchada@CGDCSSL1047UL:/forms/tomcat8/logs[hchada@CGDCSSL1047UL logs]$ tail -f SystemOut.log
+2019-10-09 09:07:41 [http-nio-18080-exec-8] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+2019-10-09 09:07:41 [http-nio-18080-exec-8] INFO  g.c.d.e.c.EfsController - Request Participant Id:-12343
+2019-10-09 09:07:41 [http-nio-18080-exec-8] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+2019-10-09 10:20:11 [http-nio-18080-exec-10] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+2019-10-09 10:20:11 [http-nio-18080-exec-10] INFO  g.c.d.e.c.EfsController - Request Participant Id:-12343
+2019-10-09 10:20:11 [http-nio-18080-exec-10] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+2019-10-09 10:20:17 [http-nio-18080-exec-1] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+2019-10-09 10:20:17 [http-nio-18080-exec-1] INFO  g.c.d.e.c.EfsController - Request Participant Id:-12343
+2019-10-09 10:20:17 [http-nio-18080-exec-1] TRACE g.c.d.e.c.EfsController - Enter method getParticipantInfo
+
+
+

@@ -1,0 +1,148 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.13 14:17:06 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+1 unsuccessful login attempt since last login.
+Last unsuccessful login: Wed Nov 13 14:16:49 PST 2019 on ssh from 169.2.108.102
+Last login: Wed Nov 13 10:11:07 PST 2019 on ssh from ankcsedeva06
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+[YOU HAVE NEW MAIL]
+cg1p46a[/home/cseadmin]$ df
+Filesystem    512-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4         4718592   4318848    9%     7158     2% /
+/dev/hd2        10485760   1757464   84%    70563    26% /usr
+/dev/hd9var      6291456   2999904   53%    22789     7% /var
+/dev/hd3         4456448   4443000    1%      149     1% /tmp
+/dev/hd1        11534336   5520024   53%    17939     3% /home
+/proc                  -         -    -        -      - /proc
+/dev/usr_local    1048576    967736    8%      766     1% /usr/local
+/dev/hd10opt    20709376   4006320   81%    60244    12% /opt
+/dev/logslv      1572864   1561000    1%       24     1% /var/adm/logs
+/dev/db2home_lv   10485760   4422024   58%     4286     1% /db2home
+/dev/home_hw      524288    455240   14%      330     1% /home/hw
+/dev/csmdata     1048576   1047728    1%        6     1% /home/csmdata
+/dev/dumpcopy    1048576   1047760    1%        4     1% /var/adm/ras/dumpcopy
+/dev/mksysb     41943040  11165464   74%       58     1% /mksysb
+/dev/scratch     6291456   5875496    7%       82     1% /scratch
+/dev/savevg       262144    259728    1%       55     1% /savevg
+/dev/hd11admin     262144    261384    1%        7     1% /admin
+/dev/livedump     524288    523552    1%        4     1% /var/adm/ras/livedump
+/dev/auditlv     4194304   4152976    1%        6     1% /opt/auditout
+/dev/CommVaultlv   20709376  17862512   14%     2588     1% /CommVault
+/dev/nmdb2lv     8388608   8352072    1%       24     1% /db2/NMDB2
+/dev/migratedb 10513022976 1510411568   86%    14373     1% /migratedb
+/dev/sysbacklv   12582912  12580328    1%        6     1% /sysback
+/dev/fixeslv     2097152   1961192    7%        5     1% /fixes
+/dev/fslv02     23068672  17785080   23%      849     1% /aixupdate
+/dev/dwecode    10485760   2839736   73%    11648     4% /dwe_code
+/dev/cse_lv      6291456   3372664   47%    49278    12% /cse
+/dev/dwe_lv      6291456   2133096   67%    54649    19% /usr/opt/dwe
+/dev/pm_raw_data_lv  229376000  80395912   65%   225151     3% /pm_raw_data
+/dev/swlv      283115520  21899272   93%    84775     3% /swstage
+/dev/adhreplvn    2097152   2075768    2%      178     1% /cse/adhoc_reports
+/dev/hids_lv     1048576    994904    6%       54     1% /usr/symantec
+/dev/db2datadw11lv  941096960  46155744   96%     1043     1% /db2data_instdw_11
+/dev/db2datadw12lv  941096960  46176984   96%     1034     1% /db2data_instdw_12
+/dev/db2datadw13lv  941096960  46106248   96%     1097     1% /db2data_instdw_13
+/dev/db2datadw14lv  941096960  46077584   96%     1087     1% /db2data_instdw_14
+/dev/db2datadw15lv  941096960  46056368   96%     1083     1% /db2data_instdw_15
+/dev/db2datadw16lv  941096960  46050800   96%     1091     1% /db2data_instdw_16
+/dev/db2datadw17lv  941096960  46060784   96%     1101     1% /db2data_instdw_17
+/dev/db2datadw18lv  941096960  46073984   96%     1065     1% /db2data_instdw_18
+/dev/db2datadw19lv  941096960  46092728   96%     1066     1% /db2data_instdw_19
+/dev/db2datadw20lv  941096960  46112144   96%     1051     1% /db2data_instdw_20
+/dev/db2datadw21lv  941096960  46126120   96%     1042     1% /db2data_instdw_21
+/dev/db2datadw22lv  941096960  46138000   96%     1046     1% /db2data_instdw_22
+/dev/db2_dba_lv   18874368   3325376   83%    13877     4% /db2_dba
+/dev/db2archdw01lv   10485760   8446176   20%     5230     1% /db2arch_instdw01
+/dev/db2logdw12lv  104857600  71239840   33%       57     1% /db2log_instdw12
+/dev/db2logdw11lv   14680064   9876824   33%       19     1% /db2log_instdw11
+/dev/db2logdw01lv   83886080  16387816   81%      412     1% /db2log_instdw01
+/dev/db2datapm01lv  205520896 115930896   44%     1187     1% /db2data_instpm_01
+/dev/db2diagdw11lv    2883584   2478464   15%       67     1% /db2diag_instdw11
+/dev/db2diagdw01lv    6291456   5049912   20%       56     1% /db2diag_instdw01
+/dev/db2diagdw12lv   10485760   8349048   21%      161     1% /db2diag_instdw12
+/dev/CommVaultdblv   31293440  25718360   18%       42     1% /CommVault/DB2
+ankcsesytd01:/db2work   184549376  20615680   89%    69997     3% /db2work
+ankcsesytd01:/db2temp_backup  9542041600 210849424   98%     6492     1% /db2temp_backup
+ankcsesqtd01:/db2work2   212074496  11624208   95%    55604     5% /db2work2
+ankcsepf2d01:/db2audit  1047527424 191516440   82%   145625     1% /db2audit
+/dev/itmlv       6291456   5152936   19%     4014     1% /opt/IBM/ITM
+cg1p46a[/home/cseadmin]$ df -h
+df: Not a recognized flag: h
+Usage: df  [-P] | [-IMitv] [-gkm] [-s] [filesystem ...] [file ...]
+cg1p46a[/home/cseadmin]$ df -a
+df: Not a recognized flag: a
+Usage: df  [-P] | [-IMitv] [-gkm] [-s] [filesystem ...] [file ...]
+cg1p46a[/home/cseadmin]$ df -m
+Filesystem    MB blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4        2304.00   2108.81    9%     7158     2% /
+/dev/hd2        5120.00    858.14   84%    70563    26% /usr
+/dev/hd9var     3072.00   1464.79   53%    22789     7% /var
+/dev/hd3        2176.00   2169.43    1%      149     1% /tmp
+/dev/hd1        5632.00   2695.32   53%    17939     3% /home
+/proc                 -         -    -        -      - /proc
+/dev/usr_local    512.00    472.53    8%      766     1% /usr/local
+/dev/hd10opt   10112.00   1956.21   81%    60244    12% /opt
+/dev/logslv      768.00    762.21    1%       24     1% /var/adm/logs
+/dev/db2home_lv   5120.00   2159.19   58%     4286     1% /db2home
+/dev/home_hw     256.00    222.29   14%      330     1% /home/hw
+/dev/csmdata     512.00    511.59    1%        6     1% /home/csmdata
+/dev/dumpcopy    512.00    511.60    1%        4     1% /var/adm/ras/dumpcopy
+/dev/mksysb    20480.00   5451.89   74%       58     1% /mksysb
+/dev/scratch    3072.00   2868.89    7%       82     1% /scratch
+/dev/savevg      128.00    126.82    1%       55     1% /savevg
+/dev/hd11admin    128.00    127.63    1%        7     1% /admin
+/dev/livedump    256.00    255.64    1%        4     1% /var/adm/ras/livedump
+/dev/auditlv    2048.00   2027.82    1%        6     1% /opt/auditout
+/dev/CommVaultlv  10112.00   8721.93   14%     2588     1% /CommVault
+/dev/nmdb2lv    4096.00   4078.16    1%       24     1% /db2/NMDB2
+/dev/migratedb 5133312.00 737505.65   86%    14373     1% /migratedb
+/dev/sysbacklv   6144.00   6142.74    1%        6     1% /sysback
+/dev/fixeslv    1024.00    957.61    7%        5     1% /fixes
+/dev/fslv02    11264.00   8684.12   23%      849     1% /aixupdate
+/dev/dwecode    5120.00   1386.59   73%    11648     4% /dwe_code
+/dev/cse_lv     3072.00   1646.81   47%    49278    12% /cse
+/dev/dwe_lv     3072.00   1041.55   67%    54649    19% /usr/opt/dwe
+/dev/pm_raw_data_lv 112000.00  39255.82   65%   225151     3% /pm_raw_data
+/dev/swlv     138240.00  10693.00   93%    84775     3% /swstage
+/dev/adhreplvn   1024.00   1013.56    2%      178     1% /cse/adhoc_reports
+/dev/hids_lv     512.00    485.79    6%       54     1% /usr/symantec
+/dev/db2datadw11lv 459520.00  22536.98   96%     1043     1% /db2data_instdw_11
+/dev/db2datadw12lv 459520.00  22547.36   96%     1034     1% /db2data_instdw_12
+/dev/db2datadw13lv 459520.00  22512.82   96%     1097     1% /db2data_instdw_13
+/dev/db2datadw14lv 459520.00  22498.82   96%     1087     1% /db2data_instdw_14
+/dev/db2datadw15lv 459520.00  22488.46   96%     1083     1% /db2data_instdw_15
+/dev/db2datadw16lv 459520.00  22485.74   96%     1091     1% /db2data_instdw_16
+/dev/db2datadw17lv 459520.00  22490.62   96%     1101     1% /db2data_instdw_17
+/dev/db2datadw18lv 459520.00  22497.06   96%     1065     1% /db2data_instdw_18
+/dev/db2datadw19lv 459520.00  22506.21   96%     1066     1% /db2data_instdw_19
+/dev/db2datadw20lv 459520.00  22515.70   96%     1051     1% /db2data_instdw_20
+/dev/db2datadw21lv 459520.00  22522.52   96%     1042     1% /db2data_instdw_21
+/dev/db2datadw22lv 459520.00  22528.32   96%     1046     1% /db2data_instdw_22
+/dev/db2_dba_lv   9216.00   1623.72   83%    13877     4% /db2_dba
+/dev/db2archdw01lv   5120.00   4124.11   20%     5230     1% /db2arch_instdw01
+/dev/db2logdw12lv  51200.00  34785.08   33%       57     1% /db2log_instdw12
+/dev/db2logdw11lv   7168.00   4822.67   33%       19     1% /db2log_instdw11
+/dev/db2logdw01lv  40960.00   8001.86   81%      412     1% /db2log_instdw01
+/dev/db2datapm01lv 100352.00  56606.88   44%     1187     1% /db2data_instpm_01
+/dev/db2diagdw11lv   1408.00   1210.18   15%       67     1% /db2diag_instdw11
+/dev/db2diagdw01lv   3072.00   2465.78   20%       56     1% /db2diag_instdw01
+/dev/db2diagdw12lv   5120.00   4076.68   21%      161     1% /db2diag_instdw12
+/dev/CommVaultdblv  15280.00  12557.79   18%       42     1% /CommVault/DB2
+ankcsesytd01:/db2work   90112.00  10066.25   89%    69997     3% /db2work
+ankcsesytd01:/db2temp_backup  4659200.00 102953.82   98%     6492     1% /db2temp_backup
+ankcsesqtd01:/db2work2  103552.00   5675.88   95%    55604     5% /db2work2
+ankcsepf2d01:/db2audit  511488.00  93513.89   82%   145625     1% /db2audit
+/dev/itmlv      3072.00   2516.08   19%     4014     1% /opt/IBM/ITM
+cg1p46a[/home/cseadmin]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

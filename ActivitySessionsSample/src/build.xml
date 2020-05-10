@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<!-- 
+  COPYRIGHT LICENSE: This information contains sample code provided in source 
+  code form. You may copy, modify, and distribute these sample programs in any
+  form without payment to IBM for the purposes of developing, using, marketing
+  or distributing application programs conforming to the application programming
+  interface for the operating platform for which the sample code is written. 
+  Notwithstanding anything to the contrary, IBM PROVIDES THE SAMPLE SOURCE CODE
+  ON AN "AS IS" BASIS AND IBM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED,
+  INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF
+  MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+  AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM SHALL NOT BE LIABLE FOR
+  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT
+  OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE. IBM HAS NO OBLIGATION TO
+  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE
+  SAMPLE SOURCE CODE.
+-->
+
+<project name="activitysession" default="all" >
+
+  <target name="all" depends="forceorderforall"/>
+  <target name="buildjars" depends="init, clean, makeWarJar, document, makeClients, makeDB"/>
+
+  <target name="init">
+    <tstamp/>
+    <echo message="activitysession.ear ANT Build Started..."/>
+    <mkdir dir="bld"/>
+    <mkdir dir="javadoc"/>
+    <mkdir dir="installableApps"/>
+  </target>
+  
+  <target name="forceorderforall">
+    <tstamp/>
+    <echo message="performing all for activitysession.ear..."/>
+    <ant antfile="src/build.xml" dir="${basedir}" target="buildjars"/>
+    <ant antfile="src/build.xml" dir="${basedir}" target="makeear"/>
+  </target>
+  
+  <target name="clean">
+    <tstamp/>
+    <echo message="activitysession.ear Cleaning..."/>
+    <delete dir="installableApps"/>
+  </target>
+
+  <target name="makeWarJar">
+    <tstamp/>
+    <echo message="Building the component pieces of activitysession.ear..."/>
+    <mkdir dir="installableApps"/>
+    <ant antfile="src/MasterMind/build.xml" dir="${basedir}"/>
+    <ant antfile="src/ASContainerManaged/build.xml" dir="${basedir}"/>
+    <ant antfile="src/ASContainerManaged2/build.xml" dir="${basedir}"/>
+    <ant antfile="src/ASBeanManaged/build.xml" dir="${basedir}"/>
+  </target>
+  
+  <target name="makeDB">
+    <tstamp/>
+    <echo message="Unziping the database for activitysession.ear..."/>
+    <mkdir dir="installableApps"/>
+    <ant antfile="src/database/build.xml" dir="${basedir}"/>
+  </target>
+
+  
+  <target name="makeClients" depends="makeWarJar">
+    <tstamp/>
+    <echo message="Building the clients..."/>
+    <mkdir dir="installableApps"/>
+    <ant antfile="src/ASContainerSampleClient/build.xml" dir="${basedir}"/>
+    <ant antfile="src/ASBeanSampleClient/build.xml" dir="${basedir}"/>
+  </target>
+
+
+  <target name="makeear">
+    <tstamp/>
+    <echo message="Creating the activitysession.ear file..."/>
+    <ear earfile="installableApps/activitysession.ear" appxml="src/META-INF/application.xml" manifest="src/META-INF/MANIFEST.MF">
+      <fileset dir="installableApps" includes="activitysession.war,activitysessionEJB.jar,ASContainerManagedEJB.jar,ASContainerManagedEJB2.jar,ASBeanManagedEJB.jar,ASContainerSampleClient.jar,ASBeanSampleClient.jar"/>
+      <fileset dir="bld/database" includes="**"/>
+      <zipfileset dir="src/META-INF" excludes="MANIFEST.MF, application.xml" prefix="META-INF"/>    </ear>
+  </target>
+
+  <target name="document" depends="makeWarJar, makeClients">
+    <tstamp/>
+    <echo message="Creating activitysessions samples JavaDoc...."/> 
+    <mkdir dir="temp/ActSesSamp"/>
+    <copy todir="temp/ActSesSamp">
+      <fileset dir="src/MasterMind/" includes="**/*.java"/>
+      <fileset dir="src/ASContainerManaged/" includes="**/*.java"/>
+      <fileset dir="src/ASContainerManaged2/" includes="**/*.java"/>
+      <fileset dir="src/ASBeanManaged/" includes="**/*.java"/>
+      <fileset dir="src/ASContainerSampleClient/" includes="**/*.java"/>
+      <fileset dir="src/ASBeanSampleClient/" includes="**/*.java"/>
+    </copy>  
+    <javadoc sourcepath="temp/ActSesSamp" destdir="javadoc" protected="true" Windowtitle="activitysession Sample Javadoc" author="false" version="false" maxmemory="256M" classpath="${prereq.classpath}:${java.class.path}">
+      <package name="com.ibm.websphere.samples.activitysessionEJB"/>
+      <package name="com.ibm.websphere.samples.activitysessionWAR"/>
+      <package name="com.ibm.websphere.samples.activitysessions.ASContainerManagedEJB"/>
+      <package name="com.ibm.websphere.samples.activitysessions.ASContainerManagedEJB2"/>
+      <package name="com.ibm.websphere.samples.activitysessions.ASContainerSampleClient"/>
+      <package name="com.ibm.websphere.samples.activitysessions.ASBeanManagedEJB"/>
+      <package name="com.ibm.websphere.samples.activitysessions.ASBeanSampleClient"/>
+    </javadoc>
+    <delete dir="temp"/>
+  </target>
+
+</project>

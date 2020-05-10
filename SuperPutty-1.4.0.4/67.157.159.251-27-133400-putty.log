@@ -1,0 +1,444 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.09.27 13:34:00 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+Pre-authentication banner message from server:
+| UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US
+>  GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PEN
+> AL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND
+>  CRIMINAL SANCTIONS.
+| 
+| Whoever knowingly or intentionally accesses a computing system without author
+> ization or exceeding authorized access, and by means of such conduct, obtains
+> , alters, damages, destroys, or discloses information, or prevents authorized
+>  use of any data or computing resource owned by or operated for the State of 
+> California shall be subject to disciplinary action, prosecution or both. Use 
+> in a manner other than as intended by the State of California may result in t
+> he forfeiture of access privileges. All computing system activities may be re
+> corded and monitored. Individuals using these systems expressly consent to su
+> ch monitoring and shall have no expectation of privacy in their use. Evidence
+>  of possible misconduct or abuse may be provided to appropriate officials and
+> /or law enforcement. No warranty is made for the computing resources that are
+>  subject to this policy. Additionally, the State of California takes no respo
+> nsibility of damages for the intentional misuse of these resources by any par
+> ty.
+| 
+End of banner message from server
+Last login: Wed Sep 25 11:08:54 2019 from 169.2.108.102
+UNAUTHORIZED ACCESS TO ANY STATE OF CALIFORNIA COMPUTING SYSTEM CONTAINING US GOVERNMENT OR STATE OF CALIFORNIA INFORMATION IS A CRIMINAL VIOLATION OF PENAL CODE SECTION 502 AND/OR APPLICABLE FEDERAL LAW AND IS SUBJECT TO CIVIL AND CRIMINAL SANCTIONS.
+
+Whoever knowingly or intentionally accesses a computing system without authorization or exceeding authorized access, and by means of such conduct, obtains, alters, damages, destroys, or discloses information, or prevents authorized use of any data or computing resource owned by or operated for the State of California shall be subject to disciplinary action, prosecution or both. Use in a manner other than as intended by the State of California may result in the forfeiture of access privileges. All computing system activities may be recorded and monitored. Individuals using these systems expressly consent to such monitoring and shall have no expectation of privacy in their use. Evidence of possible misconduct or abuse may be provided to appropriate officials and/or law enforcement. No warranty is made for the computing resources that are subject to this policy. Additionally, the State of California takes no responsibility of damages for the intentional misuse of these resources by any party.
+
+]0;hchada@CGDCSSL1047UL:~[?1034h[hchada@CGDCSSL1047UL ~]$ [K[hchada@CGDCSSL1047UL ~]$ [K[hchada@CGDCSSL1047UL ~]$ df .
+Filesystem                1K-blocks    Used Available Use% Mounted on
+/dev/mapper/VG01-home_vol   8125880 2309692   5380376  31% /home
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ df /[K
+Filesystem                         1K-blocks    Used Available Use% Mounted on
+/dev/mapper/VG01-root_vol           30832548 2848452  26394848  10% /
+devtmpfs                             8121668       0   8121668   0% /dev
+tmpfs                                8133368       4   8133364   1% /dev/shm
+tmpfs                                8133368   58392   8074976   1% /run
+tmpfs                                8133368       0   8133368   0% /sys/fs/cgroup
+/dev/sda1                             944120  198204    680740  23% /boot
+/dev/mapper/datavg-appsVM           10190100   36888   9612540   1% /forms/apps
+/dev/mapper/datavg-sharedVM         20511312  422208  19024144   3% /forms/java
+/dev/mapper/datavg-tomcatVM          5029504  792552   3958424  17% /forms/tomcat8
+/dev/mapper/VG01-var_vol             3997376  563612   3207668  15% /var
+/dev/mapper/VG01-commvault_vol      10190100   36888   9612540   1% /CommVault
+/dev/mapper/VG01-tmp_vol             3997376   23748   3747532   1% /tmp
+/dev/mapper/VG01-opt_lv              1998672  108876   1768556   6% /opt
+/dev/mapper/VG01-home_vol            8125880 2309692   5380376  31% /home
+/dev/mapper/VG01-var_log_vol         4062912   72120   3785668   2% /var/log
+/dev/mapper/VG01-var_tmp_vol          999320  128924    801584  14% /var/tmp
+/dev/mapper/VG01-var_log_audit_vol    999320   38952    891556   5% /var/log/audit
+/dev/mapper/datavg-aem_lv            8191416 7323560    494968  94% /aem
+tmpfs                                1626676       0   1626676   0% /run/user/1015
+tmpfs                                1626676       0   1626676   0% /run/user/1005
+tmpfs                                1626676       0   1626676   0% /run/user/1002
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ df /aem
+Filesystem                1K-blocks    Used Available Use% Mounted on
+/dev/mapper/datavg-aem_lv   8191416 7323568    494960  94% /aem
+]0;hchada@CGDCSSL1047UL:~[hchada@CGDCSSL1047UL ~]$ cd /aem
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ ls
+[0m[01;31mAEM_6.5_Quickstart.jar[0m  [01;34mcrx-quickstart[0m  license.properties  [01;34mlost+found[0m
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ ls -lagrt
+total 544344
+drwx------.  2 root     16384 Aug 28 15:15 [0m[01;34mlost+found[0m
+dr-xr-xr-x. 22 root      4096 Aug 28 15:15 [01;34m..[0m
+-rw-r--r--.  1 root 557369047 Aug 28 15:43 [01;31mAEM_6.5_Quickstart.jar[0m
+-rw-r--r--.  1 root       221 Aug 28 15:44 license.properties
+drwxr-xr-x. 14 root      4096 Sep  3 14:24 [01;34mcrx-quickstart[0m
+drwxr-xr-x.  4 root      4096 Sep 25 16:43 [01;34m.[0m
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ df [K[K[Kls -lah
+total 532M
+drwxr-xr-x.  4 root root 4.0K Sep 25 16:43 [0m[01;34m.[0m
+dr-xr-xr-x. 22 root root 4.0K Aug 28 15:15 [01;34m..[0m
+-rw-r--r--.  1 root root 532M Aug 28 15:43 [01;31mAEM_6.5_Quickstart.jar[0m
+drwxr-xr-x. 14 root root 4.0K Sep  3 14:24 [01;34mcrx-quickstart[0m
+-rw-r--r--.  1 root root  221 Aug 28 15:44 license.properties
+drwx------.  2 root root  16K Aug 28 15:15 [01;34mlost+found[0m
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ du -m | sort -n | tail
+du: cannot read directory ‘./lost+found’: Permission denied
+535	./crx-quickstart/repository/datastore/df
+671	./crx-quickstart/launchpad/felix
+884	./crx-quickstart/bedrock
+884	./crx-quickstart/bedrock/svcnative
+1006	./crx-quickstart/repository/segmentstore
+1218	./crx-quickstart/launchpad
+2612	./crx-quickstart/repository/datastore
+3673	./crx-quickstart/repository
+6612	./crx-quickstart
+7143	.
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ lvdisplay
+  WARNING: Running as a non-root user. Functionality may be unavailable.
+  /run/lvm/lvmetad.socket: access failed: Permission denied
+  WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+  /dev/sda: open failed: Permission denied
+  /dev/mapper/control: open failed: Permission denied
+  Failure to communicate with kernel device-mapper driver.
+  Incompatible libdevmapper 1.02.149-RHEL7 (2018-07-20) and kernel driver (unknown version).
+  /dev/sda1: open failed: Permission denied
+  /dev/sda2: open failed: Permission denied
+  /dev/sda3: open failed: Permission denied
+  /dev/sdb: open failed: Permission denied
+  /dev/sdb1: open failed: Permission denied
+]0;hchada@CGDCSSL1047UL:/aem[hchada@CGDCSSL1047UL aem]$ sudo su -
+[sudo] password for hchada: 
+Last login: Wed Sep 25 16:42:50 PDT 2019 on pts/0
+]0;root@CGDCSSL1047UL:~[?1034h[root@CGDCSSL1047UL ~]# lvdisplay
+  --- Logical volume ---
+  LV Path                /dev/VG01/swap_vol
+  LV Name                swap_vol
+  VG Name                VG01
+  LV UUID                SEfxQC-EglV-INDV-WV1c-ROGM-yxJj-8qayii
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:21 -0800
+  LV Status              available
+  # open                 2
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:1
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/var_vol
+  LV Name                var_vol
+  VG Name                VG01
+  LV UUID                IjFs5f-y8wM-J6WB-uOic-fSd2-IK25-02Jzb3
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:21 -0800
+  LV Status              available
+  # open                 1
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:5
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/var_log_vol
+  LV Name                var_log_vol
+  VG Name                VG01
+  LV UUID                VOx07N-eQ75-lCHJ-0ONJ-TtV5-6Fng-h1woNj
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:22 -0800
+  LV Status              available
+  # open                 1
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               2
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:6
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/var_log_audit_vol
+  LV Name                var_log_audit_vol
+  VG Name                VG01
+  LV UUID                8eFSCO-ZTEh-oBA6-DUnT-XmI5-7fM1-1D5IDe
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:22 -0800
+  LV Status              available
+  # open                 1
+  LV Size                1.00 GiB
+  Current LE             256
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:7
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/var_tmp_vol
+  LV Name                var_tmp_vol
+  VG Name                VG01
+  LV UUID                KP9Ma5-ml2f-anD7-cQQl-AEC9-2Af7-Ngoy3x
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:23 -0800
+  LV Status              available
+  # open                 1
+  LV Size                1.00 GiB
+  Current LE             256
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:8
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/tmp_vol
+  LV Name                tmp_vol
+  VG Name                VG01
+  LV UUID                Mvritr-32H7-HVnH-Nk61-HhzK-OfZj-LRR0xp
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:23 -0800
+  LV Status              available
+  # open                 1
+  LV Size                4.00 GiB
+  Current LE             1024
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:9
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/home_vol
+  LV Name                home_vol
+  VG Name                VG01
+  LV UUID                IQyt9o-wtoC-KtAM-57I2-GeIz-5V6c-s7eakY
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:24 -0800
+  LV Status              available
+  # open                 1
+  LV Size                8.00 GiB
+  Current LE             2048
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:10
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/commvault_vol
+  LV Name                commvault_vol
+  VG Name                VG01
+  LV UUID                XMhMIc-zhH1-kNuJ-isIf-6Vkd-wsfa-ZkE2ug
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:24 -0800
+  LV Status              available
+  # open                 1
+  LV Size                10.00 GiB
+  Current LE             2560
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:11
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/root_vol
+  LV Name                root_vol
+  VG Name                VG01
+  LV UUID                1n61bE-vTe9-7RGZ-ZCs7-wSic-zA15-TiC3hh
+  LV Write Access        read/write
+  LV Creation host, time rhel-74-dcss-0129018.calcloud.local, 2018-01-29 16:53:25 -0800
+  LV Status              available
+  # open                 1
+  LV Size                30.00 GiB
+  Current LE             7680
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:0
+   
+  --- Logical volume ---
+  LV Path                /dev/VG01/opt_lv
+  LV Name                opt_lv
+  VG Name                VG01
+  LV UUID                lTJQ88-tpxo-7QNz-1nFL-MscL-5l7D-Y8MhnL
+  LV Write Access        read/write
+  LV Creation host, time CGDCSSL1047UL.calcloud.local, 2018-12-21 10:17:41 -0800
+  LV Status              available
+  # open                 1
+  LV Size                2.00 GiB
+  Current LE             512
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:12
+   
+  --- Logical volume ---
+  LV Path                /dev/datavg/appsVM
+  LV Name                appsVM
+  VG Name                datavg
+  LV UUID                2nEre8-rvY2-FpaS-TIbk-x3XR-C4Vl-RDj0nM
+  LV Write Access        read/write
+  LV Creation host, time CGDCSSL1047UL.calcloud.local, 2018-09-19 10:07:25 -0700
+  LV Status              available
+  # open                 1
+  LV Size                10.00 GiB
+  Current LE             2560
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:2
+   
+  --- Logical volume ---
+  LV Path                /dev/datavg/sharedVM
+  LV Name                sharedVM
+  VG Name                datavg
+  LV UUID                XHOEf6-HGJD-M8rg-0Spg-QeT2-Hanp-zjXkB0
+  LV Write Access        read/write
+  LV Creation host, time CGDCSSL1047UL.calcloud.local, 2018-09-19 10:07:25 -0700
+  LV Status              available
+  # open                 1
+  LV Size                20.00 GiB
+  Current LE             5120
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:3
+   
+  --- Logical volume ---
+  LV Path                /dev/datavg/tomcatVM
+  LV Name                tomcatVM
+  VG Name                datavg
+  LV UUID                UDCWRW-QTwi-f2bR-fhNx-uvxk-UdLM-2TpCcV
+  LV Write Access        read/write
+  LV Creation host, time CGDCSSL1047UL.calcloud.local, 2018-09-19 10:07:25 -0700
+  LV Status              available
+  # open                 1
+  LV Size                5.00 GiB
+  Current LE             1280
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:4
+   
+  --- Logical volume ---
+  LV Path                /dev/datavg/aem_lv
+  LV Name                aem_lv
+  VG Name                datavg
+  LV UUID                sbQ1Pn-ljOJ-9EIz-upMF-MZnw-I6De-OfloEv
+  LV Write Access        read/write
+  LV Creation host, time CGDCSSL1047UL.calcloud.local, 2019-08-28 15:15:18 -0700
+  LV Status              available
+  # open                 1
+  LV Size                8.00 GiB
+  Current LE             2048
+  Segments               2
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:13
+   
+]0;root@CGDCSSL1047UL:~[root@CGDCSSL1047UL ~]# vgdia[Kslay[K[K[Kplay
+  --- Volume group ---
+  VG Name               VG01
+  System ID             
+  Format                lvm2
+  Metadata Areas        2
+  Metadata Sequence No  13
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                10
+  Open LV               10
+  Max PV                0
+  Cur PV                2
+  Act PV                2
+  VG Size               89.06 GiB
+  PE Size               4.00 MiB
+  Total PE              22800
+  Alloc PE / Size       17408 / 68.00 GiB
+  Free  PE / Size       5392 / 21.06 GiB
+  VG UUID               58DjEA-pT9d-qtl8-fSue-83Zs-okr8-S8Em9P
+   
+  --- Volume group ---
+  VG Name               datavg
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  9
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                4
+  Open LV               4
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <50.00 GiB
+  PE Size               4.00 MiB
+  Total PE              12799
+  Alloc PE / Size       11008 / 43.00 GiB
+  Free  PE / Size       1791 / <7.00 GiB
+  VG UUID               sXlbfS-C7w3-ZEoq-WL6a-ncic-htXA-Xc9XTQ
+   
+]0;root@CGDCSSL1047UL:~[root@CGDCSSL1047UL ~]# vp[K[Kpvdisplay
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               VG01
+  PV Size               64.00 GiB / not usable 4.00 MiB
+  Allocatable           yes (but full)
+  PE Size               4.00 MiB
+  Total PE              16384
+  Free PE               0
+  Allocated PE          16384
+  PV UUID               C3DRro-fU0V-PUZo-ppb5-WQ5F-o34D-7omBaW
+   
+  --- Physical volume ---
+  PV Name               /dev/sda3
+  VG Name               VG01
+  PV Size               25.06 GiB / not usable 2.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              6416
+  Free PE               5392
+  Allocated PE          1024
+  PV UUID               m41mh6-w5LY-zdPA-aWXD-98Ul-PJL6-eyDcEi
+   
+  --- Physical volume ---
+  PV Name               /dev/sdb1
+  VG Name               datavg
+  PV Size               <50.00 GiB / not usable 3.00 MiB
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              12799
+  Free PE               1791
+  Allocated PE          11008
+  PV UUID               g53d8y-g18B-b5Dl-hSHG-clAL-eLTb-VvYsdv
+   
+]0;root@CGDCSSL1047UL:~[root@CGDCSSL1047UL ~]# vgdisplay dataavg[K[K[K[Kavg
+  --- Volume group ---
+  VG Name               datavg
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  9
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                4
+  Open LV               4
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <50.00 GiB
+  PE Size               4.00 MiB
+  Total PE              12799
+  Alloc PE / Size       11008 / 43.00 GiB
+  Free  PE / Size       1791 / <7.00 GiB
+  VG UUID               sXlbfS-C7w3-ZEoq-WL6a-ncic-htXA-Xc9XTQ
+   
+]0;root@CGDCSSL1047UL:~[root@CGDCSSL1047UL ~]# 

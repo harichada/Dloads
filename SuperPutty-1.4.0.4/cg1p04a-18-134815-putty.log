@@ -1,0 +1,312 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.18 13:48:15 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+Last unsuccessful login: Mon Nov 18 13:48:04 PST 2019 on ssh from 169.2.108.102
+Last login: Mon Nov 18 13:48:15 PST 2019 on ssh from 169.2.108.102
+
+[YOU HAVE NEW MAIL]
+ankcsesyaw01[/home/cseadmin]$ ls
+ALL_ACCOUNTS.txt                    OLD_ACCOUNTS.txt                    find_wwn.sh                         memory_paging_check.sh              set_maxpasswd_age_multipleusers.pl
+ALL_ACCOUNTS_sorted.txt             OLD_ACCOUNTS_sorted.txt             jaytemp                             memory_paging_check.sh~             showerrpt.pl
+IRS_user_home_updated.sh            TAMeUpgradeTesting                  login                               memory_paging_check_SYA.sh          singleuser.pl
+LIVE_ACCOUNTS.txt                   calc_pg_space.pl                    logs                                memory_paging_output                sya_new.txt
+Mail                                checkUser.ksh                       max_passwordage.pl                  memory_paging_vmstat_NON_PROD.sh    temp
+NFS_mounts_verify.sh                collectAccountInfo.pl               memory_paging_COPY.sh               multipleuser_password.pl            tempfile
+NFS_mounts_verify_20180723.sh       copyToNonProd.sh                    memory_paging_NON_PROD_mail.sh      multipleusers_password.pl           test.ksh
+NFS_mounts_verify_P8.sh             errpt_mail.sh                       memory_paging_RUN.sh                p8_hostnames.txt                    user.txt
+NFS_mounts_verify_paul.sh           find_LUN_CuLDev.sh                  memory_paging_SELECT.sh             p8_hostnames_reverse.txt            utils
+NFS_selfcheck.sh                    find_LUN_CuLDev_cv.sh               memory_paging_SELECT_test.sh        p8_hostnames_reverse_sorted.txt     vmstat_mail.sh
+NFS_selfcheck.sh_20180723.sh        find_LUN_CuLDev_print.sh            memory_paging_SYA_SELECT.sh         resetUser.ksh                       webseal_scripts
+NFS_selfcheck_output.dat            find_LUN_sizes.sh                   memory_paging_SYA_SELECT_test.sh    run_on_NonProd.sh
+ankcsesyaw01[/home/cseadmin]$ ps    cd /usr
+ankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ cd I HTTP*
+ankcsesyaw01[/usr/HTTPServer]$ ls
+cgi-bin  htdocs
+ankcsesyaw01[/usr/HTTPServer]$ cd ht    
+ksh: ht:  not found.
+ankcsesyaw01[/usr/HTTPServer]$ ls
+cgi-bin  htdocs
+ankcsesyaw01[/usr/HTTPServer]$ ps -ef | grep httd
+cseadmin 14483634 10813516   1 13:48:35  pts/0  0:00 grep httd
+ankcsesyaw01[/usr/HTTPServer]$ ps -ef | grep httpd
+ankcsesyaw01[/usr/HTTPServer]$ ps -ef | grep h apache
+cseadmin 14483658 10813516   1 13:48:46  pts/0  0:00 grep apache
+ankcsesyaw01[/usr/HTTPServer]$ ls
+cgi-bin  htdocs
+ankcsesyaw01[/usr/HTTPServer]$ ps -ef
+     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   Jun 25      -  1:22 /etc/init
+    root  2097302        1   0   Jun 25      -  0:00 /usr/sbin/hrd
+    root  2293900        1   0   Jun 25      -  0:00 /bin/ksh /opt/itlm/tlmagent
+    root  2359384        1   0   Jun 25      -  0:00 /usr/lib/errdemon
+    root  2424962        1   0   Jun 25      -  5:18 /usr/sbin/xntpd
+    root  2490456        1   0   Jun 25      -  0:00 /usr/ccs/bin/shlap64
+    root  2555904        1   0   Oct 03      -  3:49 /CommVault/simpana/Base/ClMgrS
+    root  2687076        1   0   Jun 25      - 48:58 /usr/sbin/syncd 60
+    root  2883712        1   0   Jun 25      -  0:00 /usr/sbin/muxatmd
+    root  2949240        1   0   Jun 25      -  0:00 /usr/sbin/portmap
+    root  3211478        1   0   Jun 25      - 260:17 /opt/monitor/IBM/ITM/aix526/ux/bin/kuxagent
+    root  3342478        1   0   Jun 25      -  0:01 /usr/sbin/srcmstr
+    root  3604716        1   0   Jun 25      -  0:00 /usr/sbin/inetd
+    root  3801316  2293900   0   Jun 25      -  4:45 /opt/itlm/tlmagent.bin
+    root  3866832  9699452   0   Jun 25      -  0:09 [trspoolm]
+    root  4456538  3604716   0   Jun 25      -  0:45 xmtopas -p3
+    root  4587560  3211478   0   Jun 25      -  0:49 /opt/monitor/IBM/ITM/aix526/ux/bin/stat_daemon 15
+    root  4653240        1   0   Jun 25      - 47:46 /usr/sbin/syslogd
+    root  4718740        1   0   Jun 25      -  0:00 /usr/sbin/snmpd
+    root  5374118        1   0   Jun 25      -  0:00 /usr/sbin/biod 6
+    root  5505104        1   0   Jun 25      -  0:10 /opt/rsct/bin/IBM.ServiceRMd
+    root  5570766        1   0   Jun 25      -  6:07 /usr/sbin/cron
+    root  5636282        1   0   Jun 25      -  0:00 /usr/sbin/rpc.lockd
+    root  5701806        1   0   Jun 25      -  0:00 /usr/sbin/nfsrgyd
+    root  5963960        1   0   Jun 25      -  0:00 /usr/sbin/nfsd 3891
+    root  6160572        1   0   Jun 25      -  0:02 /usr/sbin/rpc.mountd
+  daemon  6226110        1   0   Jun 25      -  0:00 /usr/sbin/rpc.statd
+    root  6357050        1   0   Jun 25      -  1:46 /opt/rsct/bin/IBM.HostRMd
+    root  6488152        1   0   Jun 25      -  5:47 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /etc/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=08:40:10,Jun25,2019
+    root  6619236  6881338   1   Nov 07      - 15:52 /opt/SolarWinds/Agent/bin/Plugins/JobEngine/SolarWinds.Agent.JobEngine.Plugin ep=EWA554272D1580247C4B51EBBBC4AD21BCA id=4247dc5e-fdb6-4b69-96e7-cc522c5
+swiagent  6881338  3342478   0   Nov 07      - 11:26 /opt/SolarWinds/Agent/bin/swiagent daemon=true detach=false pidfile=/opt/SolarWinds/Agent/bin/swiagent.pid
+    root  7012396        1   0   Jun 25      -  0:07 /opt/rsct/bin/IBM.ConfigRMd
+    root  7143504        1   0   Jun 25      -  0:31 /opt/rsct/bin/IBM.MgmtDomainRMd
+    root  7274690        1   0   Jun 25      -  0:21 /var/perf/pm/bin/pmperfrec
+    root  7602232        1   0   Jun 25      -  0:08 /opt/rsct/bin/IBM.DRMd
+    root  7929914        1   1   Jun 25      - 446:54 /opt/BESClient/bin/BESClient
+    root  8257708        1   0   Jun 25      - 14:22 /opt/monitor/IBM/ITM/aix526/ux/bin/kcawd
+    root  8323228  4587560   0   Jun 25      -  3:51 /opt/monitor/IBM/ITM/aix526/ux/bin/nfs_stat AIX 30 9
+    root  8585256        1   0   Jul 11      - 40:53 /usr/sbin/getty /dev/console
+    root  8650908        1   0   Jun 25      - 52:51 ../lib/wrapper ../conf/wrapper.conf wrapper.pidfile=../lib//cxws.pid wrapper.daemonize=TRUE
+    root  8781850  4587560   0   Jun 25      -  0:37 /opt/monitor/IBM/ITM/aix526/ux/bin/ifstat 30 7
+    root  9044078  8650908   1   Jun 25      - 38:29 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonit
+    root  9240660        1   0   Jun 25      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root  9502782  4587560   0   Jun 25      -  0:32 /bin/iostat -ds 30
+    root  9568354  4587560   0   Jun 25      -  7:58 /opt/monitor/IBM/ITM/aix526/ux/bin/kux_vmstat 30 6
+    root  9699452        1   0   Jun 25      - 12:34 /opt/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+cseadmin 10813516 14155836   2 13:48:15  pts/0  0:00 -ksh
+    root 11993102        1   0   Oct 03      -  2:05 /CommVault/simpana/Base/cvlaunchd
+    root 13500420  3342478   0   Jun 25      -  0:00 /usr/sbin/srcd
+   ivmgr 13828108        1   0   Jun 25      -  8:22 /opt/pdweb/bin/webseald -config etc/webseald-csehws006.conf
+    root 14155836 20971774   1 13:48:15      -  0:00 sshd: cseadmin@pts/0
+    root 14680258 18219184   0 03:38:02      -  0:00 tail -f /opt/auditout/stream.out
+    root 16187402 23330856   0 03:38:02      -  0:00 /usr/sbin/auditstream
+    root 18219184        1   0 03:38:02      -  0:00 /usr/bin/ksh /etc/security/audit/send_to_logger
+cseadmin 20578528 10813516   3 13:48:49  pts/0  0:00 ps -ef
+    root 20709518        1   1   Oct 03      -  7:49 /CommVault/simpana/Base/cvfwd
+    root 20971774  3342478   0   Jul 11      -  0:42 /usr/sbin/sshd
+    root 21889068  3604716   0   Sep 11      -  0:00 cmsd 100068 2-5
+    root 23330856        1   0 03:38:02      -  0:02 auditpr -h eclrRti -v
+    root 23527450        1   0   Oct 03      - 17:59 /CommVault/simpana/Base/cvd
+    root 23855188 18219184   0 03:38:02      -  0:00 /usr/bin/logger -r 400 -p local0.debug
+ankcsesyaw01[/usr/HTTPServer]$ ls
+cgi-bin  htdocs
+ankcsesyaw01[/usr/HTTPServer]$ cd ..
+ankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ ps -ef | grep -i http
+ankcsesyaw01[/usr]$ sudo -l
+Matching Defaults entries for cseadmin on this host:
+    tty_tickets, !root_sudo, umask=0077, ignore_dot, timestamp_timeout=5, mail_no_perms, syslog=auth, !env_reset, logfile=/var/adm/sudo.log
+
+User cseadmin may run the following commands on this host:
+    (root) /usr/ihs/bin/apachectl *
+    (root) /usr/local/bin/csechown, /usr/local/bin/csechmod, /usr/local/bin/csecheckuser
+    (root) /usr/local/bin/cseunlockuser, /usr/local/bin/csecheckuser, /usr/local/bin/cseresetuser
+    (root) /usr/bin/topas, /usr/bin/sar *, /usr/bin/svmon, /usr/local/bin/nmon
+    (root) /usr/bin/lsuser
+    (ALL) NOPASSWD: /usr/bin/du
+ankcsesyaw01[/usr]$ cd /usr/ihs
+ksh: /usr/ihs:  not found.
+ankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ cd /usr/ihs
+ksh: /usr/ihs:  not found.
+ankcsesyaw01[/usr]$ cd /    ls -la
+total 504
+drwxr-xr-x   55 bin      bin            4096 Jun 25 08:47 .
+drwxr-xr-x   45 root     system         4096 Jun 25 17:00 ..
+drwxr-xr-x    4 root     system          256 Jul 20 2004  HTTPServer
+drwxr-xr-x    2 bin      bin             256 Aug 08 2017  X11R6
+drwxr-xr-x    2 bin      bin             256 Aug 08 2017  X11R7
+drwxr-xr-x    3 root     bin             256 Oct 24 2013  adde
+lrwxrwxrwx    1 root     adm               8 Jun 25 07:28 adm -> /var/adm
+drwxr-xr-x    3 bin      bin             256 Jul 28 2014  aix
+drwxr-xr-x    4 bin      bin             256 Jul 16 2018  aixnre
+drwxr-xr-x    7 bin      bin             256 Aug 08 2017  artic960
+drwxr-xr-x    4 bin      bin           53248 Oct 03 08:21 bin
+drwxr-xr-x    4 bin      bin             256 Jul 28 2014  ccs
+lrwxrwxrwx    1 bin      bin              15 Jun 25 07:28 dict -> /usr/share/dict
+lrwxrwxrwx    1 root     system           17 Jun 25 07:28 doc -> /opt/freeware/doc
+drwxr-xr-x   18 bin      bin            4096 Aug 09 2017  dt
+drwxr-xr-x    6 bin      bin             256 Nov 03 2015  ecc
+drwx------    4 root     system          256 Dec 31 1969  emgrdata
+drwxr-xr-x    3 root     system         4096 Aug 09 2017  etc
+drwxr-xr-x    7 root     system          256 Jul 10 2012  hfi
+drwxr-xr-x    2 root     system          256 Mar 28 2018  ibm2105
+drwxr-xr-x    5 root     system          256 Aug 08 2017  icu4c
+drwxr-xr-x   36 bin      bin           16384 Jun 25 07:40 include
+lrwxrwxrwx    1 root     system           20 Jun 25 07:28 info -> ../opt/freeware/info
+drwxr-xr-x    5 bin      bin             256 Sep 05 2007  java131
+drwxr-xr-x    7 bin      bin            4096 Apr 01 2010  java14
+drwxr-xr-x    7 bin      bin             256 Aug 08 2017  java5
+drwxr-xr-x    8 bin      bin            4096 Jun 25 07:37 java6
+drwxr-xr-x    7 bin      bin            4096 Jun 25 07:39 java71_64
+drwxr-xr-x    7 bin      bin            4096 Jun 25 07:41 java7_64
+drwxr-xr-x    4 bin      bin            4096 Jun 25 07:33 lbin
+drwxr-xr-x    9 50609    345             256 Jun 16 2005  ldap
+drwxr-xr-x   45 bin      bin           36864 Jun 25 07:40 lib
+drwxr-xr-x    3 root     system          256 Jul 20 2004  libexec
+drwxr-xr-x    3 root     system          256 Apr 09 2018  linux
+drwxr-xr-x   17 root     system         4096 Jun 25 07:25 local
+drwx------    2 root     system          256 Jun 25 07:25 lost+found
+lrwxrwxrwx    1 root     printq           12 Jun 25 07:29 lpd -> /usr/lib/lpd
+drwxr-xr-x  519 bin      bin           36864 Jun 25 08:47 lpp
+lrwxrwxrwx    1 bin      bin              14 Jun 25 07:29 man -> /usr/share/man
+drwxr-xr-x    3 root     system          256 Jul 14 2011  ml
+drwxr-xr-x    3 bin      bin             256 Jun 03 2003  mozilla
+drwxr-xr-x    2 root     system          256 Mar 06 2012  netiq
+drwxr-xr-x    4 bin      bin             256 Jun 03 2003  netscape
+dr-x------    2 root     system          256 Jul 21 2016  openssh
+drwxr-xr-x    2 root     system          256 Jun 25 07:30 openssl
+drwxr-xr-x    5 bin      bin             256 Jul 28 2014  opt
+drwxr-xr-x    3 root     system          256 Mar 28 2005  perfagent
+drwxr-xr-x    6 root     system          256 Aug 08 2017  pmapi
+lrwxrwxrwx    1 bin      bin              18 Jun 25 07:29 pub -> /usr/share/lib/pub
+drwxr-xr-x   35 bin      bin            4096 Aug 09 2017  samples
+drwxr-xr-x    8 bin      bin           40960 Jun 25 08:47 sbin
+drwxr-xr-x    8 bin      bin             256 Jul 28 2014  share
+drwxr-xr-x    6 bin      bin            4096 Aug 09 2017  sni
+lrwxrwxrwx    1 bin      bin              10 Jun 25 07:29 spool -> /var/spool
+drwxr-xr-x    2 root     system          256 Apr 09 2018  src
+drwxr-xr-x    4 bin      bin             256 Nov 13 2013  suma
+drwxrwxr-x   42 root     system         4096 Aug 08 2017  swlag
+drwxrwxr-x    4 bin      bin             256 Aug 08 2017  sys
+drwxr-xr-x    3 bin      bin             256 Jul 28 2014  sysv
+drwxr-xr-x    3 root     system          256 Feb 07 2012  tivoli
+lrwxrwxrwx    1 bin      bin               8 Jun 25 07:29 tmp -> /var/tmp
+drwxr-xr-x    2 bin      bin            4096 Aug 09 2017  ucb
+drwxrwxr-x    2 bin      bin             256 Aug 09 2017  usg
+drwxrwxr-x    6 bin      bin             256 Aug 08 2017  websm
+ankcsesyaw01[/usr]$ ls -la ihs
+ls: 0653-341 The file ihs does not exist.
+ankcsesyaw01[/usr]$ ls -lad ihs
+ls: 0653-341 The file ihs does not exist.
+ankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ ps -ef | grep java
+    root  9044078  8650908   0   Jun 25      - 38:29 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcommon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=o_Q6s4UTSCUExzrG -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8650908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+ankcsesyaw01[/usr]$ ps -ef | grep ihs
+ankcsesyaw01[/usr]$ ps -ef | more
+[?1049h[56;1H[K     UID      PID     PPID   C    STIME    TTY  TIME CMD
+    root        1        0   0   Jun 25      -  1:22 /etc/init
+    root  2097302        1   0   Jun 25      -  0:00 /usr/sbin/hrd
+    root  2293900        1   0   Jun 25      -  0:00 /bin/ksh /opt/itlm/tlmagent
+    root  2359384        1   0   Jun 25      -  0:00 /usr/lib/errdemon
+    root  2424962        1   0   Jun 25      -  5:18 /usr/sbin/xntpd
+    root  2490456        1   0   Jun 25      -  0:00 /usr/ccs/bin/shlap64
+    root  2555904        1   0   Oct 03      -  3:49 /CommVault/simpana/Base/ClMgrS
+    root  2687076        1   0   Jun 25      - 48:58 /usr/sbin/syncd 60
+cseadmin  2818288 10813516   1 13:50:45  pts/0  0:00 more
+    root  2883712        1   0   Jun 25      -  0:00 /usr/sbin/muxatmd
+    root  2949240        1   0   Jun 25      -  0:00 /usr/sbin/portmap
+    root  3211478        1   0   Jun 25      - 260:17 /opt/monitor/IBM/ITM/aix526/ux/bin/kuxagent
+    root  3342478        1   0   Jun 25      -  0:01 /usr/sbin/srcmstr
+    root  3604716        1   0   Jun 25      -  0:00 /usr/sbin/inetd
+    root  3801316  2293900   0   Jun 25      -  4:45 /opt/itlm/tlmagent.bin
+    root  3866832  9699452   0   Jun 25      -  0:09 [trspoolm]
+    root  4456538  3604716   0   Jun 25      -  0:45 xmtopas -p3
+    root  4587560  3211478   0   Jun 25      -  0:49 /opt/monitor/IBM/ITM/aix526/ux/bin/stat_daemon 15
+    root  4653240        1   0   Jun 25      - 47:46 /usr/sbin/syslogd
+    root  4718740        1   0   Jun 25      -  0:00 /usr/sbin/snmpd
+    root  5374118        1   0   Jun 25      -  0:00 /usr/sbin/biod 6
+    root  5505104        1   0   Jun 25      -  0:10 /opt/rsct/bin/IBM.ServiceRMd
+    root  5570766        1   0   Jun 25      -  6:07 /usr/sbin/cron
+    root  5636282        1   0   Jun 25      -  0:00 /usr/sbin/rpc.lockd
+    root  5701806        1   0   Jun 25      -  0:00 /usr/sbin/nfsrgyd
+    root  5963960        1   0   Jun 25      -  0:00 /usr/sbin/nfsd 3891
+    root  6160572        1   0   Jun 25      -  0:02 /usr/sbin/rpc.mountd
+  daemon  6226110        1   0   Jun 25      -  0:00 /usr/sbin/rpc.statd
+    root  6357050        1   0   Jun 25      -  1:46 /opt/rsct/bin/IBM.HostRMd
+    root  6488152        1   0   Jun 25      -  5:47 /usr/bin/topasrec  -L -s 300 -R 1 -r 6 -o /etc/perf/daily/ -ypersistent=1 -O type=bin -ystart_time=08:40:10,Jun25,2019
+    root  6619236  6881338   0   Nov 07      - 15:52 /opt/SolarWinds/Agent/bin/Plugins/JobEngine/SolarWinds.Agent.JobEngine.Plugin ep=EWA554272D1580247C4B51EBBBC4AD21BCA id=4247dc5e-fdb6-4b69-96e7-cc522c55e
+77a.EWWP ipc=ipc_mq_v1
+swiagent  6881338  3342478   0   Nov 07      - 11:26 /opt/SolarWinds/Agent/bin/swiagent daemon=true detach=false pidfile=/opt/SolarWinds/Agent/bin/swiagent.pid
+    root  7012396        1   0   Jun 25      -  0:07 /opt/rsct/bin/IBM.ConfigRMd
+    root  7143504        1   0   Jun 25      -  0:31 /opt/rsct/bin/IBM.MgmtDomainRMd
+    root  7274690        1   0   Jun 25      -  0:21 /var/perf/pm/bin/pmperfrec
+    root  7602232        1   0   Jun 25      -  0:08 /opt/rsct/bin/IBM.DRMd
+    root  7929914        1   1   Jun 25      - 446:54 /opt/BESClient/bin/BESClient
+    root  8257708        1   0   Jun 25      - 14:22 /opt/monitor/IBM/ITM/aix526/ux/bin/kcawd
+    root  8323228  4587560   0   Jun 25      -  3:51 /opt/monitor/IBM/ITM/aix526/ux/bin/nfs_stat AIX 30 9
+    root  8585256        1   0   Jul 11      - 40:53 /usr/sbin/getty /dev/console
+    root  8650908        1   0   Jun 25      - 52:51 ../lib/wrapper ../conf/wrapper.conf wrapper.pidfile=../lib//cxws.pid wrapper.daemonize=TRUE
+    root  8781850  4587560   0   Jun 25      -  0:37 /opt/monitor/IBM/ITM/aix526/ux/bin/ifstat 30 7
+    root  9044078  8650908   0   Jun 25      - 38:29 ../jre/bin/java -Dprogram.name=../tools/start -DFsrmProperties=../conf/FileSRMProvider.properties -Dbackupdir=../backup/ -showversion -Dbackup.jobMonitor
+.completedInterval=60 -Xmx256m -Djava.library.path=%LD_LIBRARY_PATH%:../lib -classpath ../lib/wrapper.jar:../lib/aix-agent.jar:../lib/agent-main.jar:../lib/agent-common.jar:../lib/agent-hba.jar:../lib/cxcom
+mon.jar:../lib/cxquery.jar:../lib/cim-schema.jar:../lib/cxtransport.jar:../lib/cxutils.jar:../lib/agentrmi.jar:../lib/cxwbem.jar:../lib/cxcore.jar:../lib/wbem.jar:../lib/AppIQLogger.jar:../lib/AppIQVersion.
+jar:../lib/powerpath-providers.jar:../lib/sdd-providers.jar:../lib/fsrm-agent.jar:../lib/oracle-providers.jar:../lib/backup-agent.jar:../lib/xstream-1.1.jar:../lib/jsch.jar -Dwrapper.key=o_Q6s4UTSCUExzrG -D
+wrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8650908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -D
+wrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp com.appiq.cxws.main.AixMain
+    root  9240660        1   0   Jun 25      -  0:00 /usr/dt/bin/dtlogin -daemon
+    root  9502782  4587560   0   Jun 25      -  0:32 /bin/iostat -ds 30
+    root  9568354  4587560   0   Jun 25      -  7:58 /opt/monitor/IBM/ITM/aix526/ux/bin/kux_vmstat 30 6
+    root  9699452        1   0   Jun 25      - 12:34 /opt/rsct/bin/rmcd -a IBM.LPCommands -r -S 1500
+cseadmin 10813516 14155836   0 13:48:15  pts/0  0:00 -ksh
+[56;1H[K[7mStandard input[27m[56;1H[56;1H[K    root 11993102        1   0   Oct 03      -  2:05 /CommVault/simpana/Base/cvlaunchd
+    root 13500420  3342478   0   Jun 25      -  0:00 /usr/sbin/srcd
+   ivmgr 13828108        1   0   Jun 25      -  8:22 /opt/pdweb/bin/webseald -config etc/webseald-csehws006.conf
+    root 14155836 20971774   1 13:48:15      -  0:00 sshd: cseadmin@pts/0
+cseadmin 14483686 10813516   7 13:50:45  pts/0  0:00 ps -ef
+    root 14680258 18219184   0 03:38:02      -  0:00 tail -f /opt/auditout/stream.out
+    root 16187402 23330856   0 03:38:02      -  0:00 /usr/sbin/auditstream
+    root 18219184        1   0 03:38:02      -  0:00 /usr/bin/ksh /etc/security/audit/send_to_logger
+    root 20709518        1   0   Oct 03      -  7:49 /CommVault/simpana/Base/cvfwd
+    root 20971774  3342478   0   Jul 11      -  0:42 /usr/sbin/sshd
+    root 21889068  3604716   0   Sep 11      -  0:00 cmsd 100068 2-5
+    root 23330856        1   1 03:38:02      -  0:02 auditpr -h eclrRti -v
+    root 23527450        1   0   Oct 03      - 17:59 /CommVault/simpana/Base/cvd
+    root 23855188 18219184   0 03:38:02      -  0:00 /usr/bin/logger -r 400 -p local0.debug
+[56;1H[K[7mStandard input: END[27m[56;1H[56;1H[K[?1049l[?1l>ankcsesyaw01[/usr]$ netastat -an | grep 443
+ksh: netastat:  not found.
+ankcsesyaw01[/usr]$ netstat -an | grep 443
+tcp4       0      0  *.443                  *.*                    LISTEN
+ankcsesyaw01[/usr]$ pdadmin
+pdadmin> quit
+ankcsesyaw01[/usr]$ clear
+[H[2Jankcsesyaw01[/usr]$ ls
+HTTPServer  adm         bin         dt          hfi         info        java6       ldap        local       man         netscape    perfagent   sbin        src         sysv        usg
+X11R6       aix         ccs         ecc         ibm2105     java131     java71_64   lib         lost+found  ml          openssh     pmapi       share       suma        tivoli      websm
+X11R7       aixnre      dict        emgrdata    icu4c       java14      java7_64    libexec     lpd         mozilla     openssl     pub         sni         swlag       tmp
+adde        artic960    doc         etc         include     java5       lbin        linux       lpp         netiq       opt         samples     spool       sys         ucb
+ankcsesyaw01[/usr]$ pdadmin
+pdadmin> login -a sec_master
+Enter Password: 
+Error: HPDIA0200W   Authentication failed. You have used an invalid user name, password or client certificate. (status 0x132120c8)
+pdadmin> pdadmin>  login -a sec_master
+Enter Password: 
+Error: HPDIA0205W   The user's account has expired. (status 0x132120cd)
+Login failed.  Restoring previous authentication.
+Error: HPDCO1364E   The specified domain does not exist. (status 0x1354a554)
+pdadmin> 

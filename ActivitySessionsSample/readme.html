@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="security" content="public"/>
+<meta name="Robots" content="index,follow"/>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))' />
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="ActivitySession service application samples"/>
+<meta name="abstract" content="The ActivitySession service is implemented as a high-level service on top of the implementation of the Java 2 Platform, Enterprise Edition (J2EE) Activity Service. It provides a unit-of-work scope within which unrecoverable or non-two-phase resources can be managed, and in a way that is both distributed and cooperative with respect to transactions. Use this collection of sample applications to explore the ActivitySession service."/>
+<meta name="description" content="The ActivitySession service is implemented as a high-level service on top of the implementation of the Java 2 Platform, Enterprise Edition (J2EE) Activity Service. It provides a unit-of-work scope within which unrecoverable or non-two-phase resources can be managed, and in a way that is both distributed and cooperative with respect to transactions. Use this collection of sample applications to explore the ActivitySession service."/>
+<meta name="DC.Coverage" content="sample"/>
+<meta name="DC.Relation" scheme="URI" content="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=covr_samples"/>
+<meta name="DC.Relation" scheme="URI" content="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=cas_ovrvw"/>
+<meta name="DC.Relation" scheme="URI" content="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=tcli_launchclient"/>
+<meta name="DC.Audience.Job" content="programming"/>
+<meta name="DC.Audience.Type" content="programmer"/>
+<meta name="prodname" content="IBM WebSphere Application Server"/>
+<meta name="version" content="matt"/>
+<meta name="component" content="was-base was-express was-nd"/>
+<meta name="platform" content="dist iseries zos"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="samples_activitysessions"/>
+<meta name="DC.Language" content="en-us"/>
+<!-- All rights reserved. Licensed Materials Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="style/samples_readme.css"/>
+<title>ActivitySession Service Application Samples</title>
+</head>
+<body id="samples_activitysessions"><a name="samples_activitysessions"><!-- --></a>
+<div id="sample_header">
+	<img class="sample_header_icon_left" alt="WebSphere software logo" src="images/WS_BrandMark_18x120.png"/>
+	<img class="sample_header_icon_right" alt="IBM Logo" src="images/ibm-logo-white.gif"/>
+</div>
+
+
+<h1 class="topictitle1">ActivitySession service application samples</h1>
+
+
+
+<div><p>The ActivitySession service is implemented as a high-level
+service on top of the <span/> implementation
+of the Java 2 Platform, Enterprise Edition (J2EE) 1.4 Activity Service. It
+provides a unit-of-work scope within which unrecoverable or non-two-phase
+resources can be managed, and does this in a way that is both distributed and
+cooperative with respect to transactions. Use this collection of sample
+applications to explore the ActivitySession service.</p>
+
+
+	<h4 class="sectiontitle">
+Time required to set up and configure this sample</h4>
+
+<dd>Less than 1 hour</dd>
+
+
+	<h4 class="sectiontitle">
+Prerequisites for use</h4>
+<dd>WebSphere Application Server. This sample was tested most recently with the Version 8.0 release of the product.</dd>
+
+
+
+</div>
+
+	<div class="section">
+		<h4 class="sectiontitle">
+		Copyright license</h4>
+
+			<dd><p>COPYRIGHT LICENSE: This information contains sample code provided in source code form. You may copy, modify, and distribute these sample programs in any form without payment to IBM for the purposes of developing, using, marketing or distributing application programs conforming to the application programming interface for the operating platform for which the sample code is written. Notwithstanding anything to the contrary, IBM PROVIDES THE SAMPLE SOURCE CODE ON AN "AS IS" BASIS AND IBM DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE. IBM HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE SAMPLE SOURCE CODE.</p>
+			</dd>
+	</div>
+
+
+</div>
+
+<div class="section">
+	<h4 class="sectiontitle">
+	About this task</h4>
+
+<dd><p>Enterprise beans have ActivitySession attributes that you can
+specify on a per-method basis as part of deployment. These attributes
+follow the model established by the transaction attributes defined
+in the Enterprise JavaBeans (EJB) specification with ActivitySessions
+being either bean-managed, or container-managed. The EJB container
+also supports activation and passivation policies scoped to the ActivitySession
+service and supports local transactions scoped to ActivitySession
+attributes, rather than restricted to method invocation boundaries.</p>
+
+<p>Activity
+sessions can also be used in the web container and can be related
+to HTTP sessions. Web applications can be deployed with the following
+ActivitySession control values:
+<ul>
+<li><samp>Application</samp><br>
+
+The web application is responsible for starting and ending the
+ActivitySession service and for moving the ActivitySession context
+to and from the thread.
+</li>
+
+<li><p><samp>Container</samp><br>
+
+The web application has no access to the UserActivitySession interface.
+Each HTTP session created by the web application has an ActivitySession
+service implicitly created and associated with it.</p>
+</li>
+
+
+<li><p><samp>None</samp><br>
+
+The web application does not use the ActivitySession service.</p>
+</li>
+</ul>
+</p>
+<p>For more information, see <a href="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=cas_ovrvw" target="_blank">the ActivitySession service</a> topic in the WebSphere Application Server Information Center.</p>
+The sample application comprises three individual
+samples contained in a single EAR file:
+<ul>
+<li>HTTP session association (MasterMind Game)</li>
+
+<li>Container-managed ActivitySessions</li>
+
+<li>Bean-managed ActivitySessions</li>
+
+</ul>
+</dd>
+
+</dl>
+
+</div>
+<div class="section">
+	<h4 class="sectiontitle">
+	Procedure </h4>
+<dd>
+<p>In the following information, <span class="keyword">profile_root</span> refers to the root
+directory for your profile. For example, <span><span class="keyword">app_server_root</span>/profiles/profile1</span>.
+</p>
+
+<ol>
+<li><span>Install the samples</span>
+<ol type="a">
+<li>Extract the ActivitySessionSample.zip folder into the <span><span class="keyword">samples_dir</span></span> directory.</li>
+
+<li>Open a command prompt and change directory to the <span><span class="keyword">samples_dir</span>/scripts</span> directory.</li>
+
+<li>In the command prompt, run the following command: <pre><span class="keyword">profile_root</span>/bin/wsadmin -conntype none -f samplesMaster.jacl</pre>
+</li>
+
+</ol>
+</li>
+
+<li><span>Uninstall the samples</span><ol type="a">
+<li>Open a command prompt, and run the following command:<pre><span class="keyword">profile_root</span>/bin/wsadmin -conntype none -lang jython
+-c "AdminApp.uninstall('activitysession')"</pre>
+</li>
+
+</ol>
+</li>
+
+<li><span>Build the samples</span><ol type="a">
+
+<li>Open a command prompt, and run one of the following commands.
+<p>On Windows operating systems, run:
+<pre><span class="keyword">profile_root</span>\bin\setupCmdLine</pre>
+On Unix operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine.sh</pre>
+On iSeries operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine</pre>
+
+</li>
+
+<li>Then run the following command:<pre>./buildsamples</pre>
+</li>
+
+</ol>
+
+</ol>
+ <p>Information about how to run the individual samples
+is provided below.</p>
+
+
+<b>The HTTP session association (MasterMind Game) sample</b>
+<br>A
+servlet provides the user interface for a game called MasterMind. The
+game uses an HTTP session to control the ActivitySession life-cycle,
+and communicates with an enterprise bean, which holds the state and
+provides the logic for the game. The aim of the game is to guess the
+four-element code that is generated at the start. On each guess, clues
+are given to the identity of the target code by how many elements
+in the guess are present in the target and how many of these elements
+are correctly placed.
+
+
+<dl>
+<samp>MasterMindGame</samp> enterprise bean<br>
+
+<dd>The MasterMindGame enterprise bean is a stateful session bean
+that stores the target code for each game and processes each guess.
+The bean is not persistent and moreover all its instance variables
+are transient and only maintain value while the bean remains active.
+The bean has an activation policy of ActivitySession.</dd>
+<br>
+
+<samp>MasterMind</samp> servlet
+
+<dd>The MasterMind servlet generates the HTML presented to the user,
+and dispatches guesses to the MasterMindGame bean for processing.
+The servlet <span>web.xml</span> file contains an entry that
+sets the activity session control for the servlet to <span class="keyword">Container</span>.
+When the servlet creates an HTTP session, an ActivitySession is automatically
+created and associated with the HTTP session. The life-cycle of the
+activity session is also related to that of the HTTP session. The
+servlet stores its reference to the bean inside the HTTP session.</dd>
+
+</dl>
+
+Running the MindGame sample
+<ol>
+<li>The MasterMind game is accessible at the following URL: <pre>http://<span class="keyword">host_name</span>:<span class="keyword">port</span>/samples/activitysessions/MasterMind</pre>
+
+
+<p>When a new game starts, a new HTTP session begins
+in the servlet. Because an activation session control of <span class="keyword">Container</span> is
+specified, an activity session begins. The HTTP session lasts until
+the servlet invalidates it at the end of each game. Because the bean
+has an activation policy of <span class="keyword">ActivitySession</span>, its
+transient state remains in memory for the duration of the game.</p>
+
+</li>
+
+</ol>
+
+
+
+<b>The container-managed ActivitySessions sample</b>
+<br>
+This sample consists of a client, which begins and ends the ActivitySessions
+service, updating an entity bean. The sample demonstrates client access
+to the UserActivitySession interface, container-managed ActivitySessions
+service, and container resolution of resource-managed local transactions.
+These transactions start within the enterprise beans that have a Local
+Transaction Containment (LTC) boundary of ActivitySession. The client
+verifies that updates to bean instances are committed when the ActivitySession
+service is completed with the EndModeCheckpoint and rolled back when
+the EndModeReset is used.</p>
+
+<dl>
+<samp>ASContainerManaged</samp> enterprise bean
+
+<dd>The ASContainerManaged enterprise bean is an entity bean that
+uses container-managed persistence, backed by a local transaction-capable
+data source. It has the following settings:<ul>
+<li>an ActivitySession attribute of Mandatory</li>
+
+<li>an activation policy of ActivitySession</li>
+
+<li>a Transaction attribute of NotSupported</li>
+
+<li>a Local Transaction Containment (LTC) boundary of ActivitySession</li>
+
+<li>an LTC resolution control of ContainerAtBoundary</li>
+
+</ul>
+</dd>
+
+<br>
+<samp>ASContainerSampleClient</samp> J2EE application client
+
+<dd>This Java EE client accesses the UserActivitySession interface to
+begin and end activity sessions. It creates and finds instances of
+the ASContainerManagedEJB enterprise bean and updates them inside
+activity sessions.</dd>
+
+</dl>
+<p>The client accesses the entity bean during an activity
+session. When the bean is accessed the client ActivitySession context
+is established in the bean because the ActivitySession attribute is <span class="keyword">Mandatory</span>.
+No global transaction context exists, so a Local Transaction Containment
+(LTC) is started. The LTC is scoped to the activity session and the
+resolution control of <span class="keyword">ContainerAtBoundary</span> causes
+the container to complete the LTC when the activity session ends.</p>
+<p>The client runs two activity sessions, updating two instances of the bean in each session.
+The sample completes the first session with a checkpoint and the second session with a reset.
+It then checks that updates that were made during the first activity session are committed to
+the data store, and updates that were made during the second activity session are rolled back.
+Each instance of the bean runs within its own LTC, but the same activity session.</p>
+<p>In
+addition to demonstrating how to access the UserActivitySession interface
+from a Java EE client, the sample shows how the LTCs used in the bean
+instances are completed by the container when the activity session
+is completed. This action is particularly noticeable where the ActivitySession
+reset causes both LTCs for each bean instance to roll back.</p>
+<p>This
+usage scenario is common for activity sessions, whereby multiple operations
+against one or more beans backed by one-phase resource managers can
+be grouped together to be verified or discarded.</p>
+
+
+<p>Running the container-managed ActivitySessions sample</p>
+<ol>
+<li>Open a command prompt and run one of the following commands.
+<p>On Windows operating systems, run:
+<pre><span class="keyword">profile_root</span>\bin\setupCmdLine</pre>
+On Unix operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine.sh</pre>
+On iSeries operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine</pre>
+</p>
+</li>
+
+<li>In the command prompt, change the directory to the <span class="keyword">samples_dir/installableApps</span> directory.</li>
+
+<li>To invoke the sample, run one of the following commands.
+<p>On Windows operating systems, run:
+<pre><span class="keyword">profile_root</span>\bin\launchClient activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASContainerSampleClient.jar
+-CCexitVM=true</pre>
+On Unix operating systems, run:
+<pre><span class="keyword">profile_root</span>/bin/launchClient.sh activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASContainerSampleClient.jar
+-CCexitVM=true</pre>
+On iSeries operating systems, run:
+<pre><span class="keyword">profile_root</span>/bin/launchClient activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASContainerSampleClient.jar
+-CCexitVM=true</pre>
+</p>
+The element, <span class="keyword">port</span>, is the port
+on which the application server is listening.
+<table cellpadding="4" cellspacing="0" summary="" border="1" class="simpletableborder">
+<tr>
+<th valign="bottom" align="left" id="N66272"><span/> Configuration</th>
+
+<th valign="bottom" align="left" id="N66281">Default Port Number</th>
+
+</tr>
+
+<tr>
+<td valign="top" headers="N66272"><span/> Base</td>
+
+<td valign="top" headers="N66281">2809</td>
+
+</tr>
+
+<tr>
+<td valign="top" headers="N66272"><span/> Network
+Deployment</td>
+
+<td valign="top" headers="N66281">9810</td>
+
+</tr>
+
+</table>
+<div class="note"><span class="notetitle">Note:</span> If you are not using either of the default port
+numbers listed here, see the <a href="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=tcli_launchclient" target="_blank">Running a Java EE client application with launchClient</a> topic
+for details on using the <span class="keyword">launchClient</span> command.</div>
+</li>
+
+<li>If <span/> global
+security is enabled, enter the relevant user ID and password in the
+Client Container menu.</li>
+
+<li>
+<div class="p">The client reports the progress. See the following example output:<pre>Starting ActivitySessions Sample
+ Accessing UserActivitySession
+ Retrieving an ASContainerManagedEJBHome from JNDI
+ Finding or Creating EJB instances
+ Starting First ActivitySession
+ Updating EJBs
+ Ending ActivitySession with Checkpoint
+ Starting Second ActivitySession
+ Updating EJBs
+ Ending ActivitySession with Reset
+ Checking values
+ Sample has completed successfully        </pre>
+</div>
+</li>
+</ol>
+
+
+<b>The bean-managed ActivitySessions sample</b>
+<br><dd>This
+sample consists of a client that invokes a method on a stateless session
+bean. This session bean uses bean-managed activity sessions, beginning and
+ending the ActivitySessions with the UserActivitySession interface.
+During these activity sessions, a stateful session bean is accessed. This
+stateful session bean, which uses the container-managed ActivitySession
+service, an LTC boundary of <span class="keyword">ActivitySession</span>, and
+an LTC resolution control of <span class="keyword">Application</span>, is called
+several times to update data in a database. Sometimes the stateful
+session bean is instructed to complete the resource manager local
+transactions (RMLTs), either to commit them or roll them back. Sometimes
+the RMLTs are left incomplete. The stateless session bean then completes
+the ActivitySession service and reports back to the client whether
+the results are consistent with the expected behavior.
+
+
+<dl>
+<samp>ASBeanManaged</samp> enterprise bean
+
+<dd>The ASBeanManagedEJB enterprise bean is a stateless session bean
+that uses the UserActivitySession interface to begin and end activity
+sessions. It calls methods on an instance of the ASContainerManagedEJB2
+bean inside these activity sessions and reports results back to the
+client. This enterprise bean has an ActivitySession attribute of <span class="keyword">BeanManaged</span> and
+a transaction attribute of <span class="keyword">BeanManaged</span>.</dd>
+
+<br>
+<samp>ASContainerManagedEJB2</samp> enterprise bean
+
+<dd>The ASContainerManagedEJB2 enterprise bean is a stateful session
+bean that uses Java DataBase Connectivity (JDBC) to access a local
+transaction-capable data source. It has the following settings:<ul>
+<li>method ActivitySession attributes of Mandatory</li>
+
+<li>an activation policy of ActivitySession</li>
+
+<li>method transaction attributes of NotSupported</li>
+
+<li>a Local Transaction Containment (LTC) boundary of ActivitySession</li>
+
+<li>an LTC resolution control of Application</li>
+
+<li>an LTC unresolved action of rollback</li>
+
+</ul>
+
+<br>
+
+<samp>ASBeanSampleClient</samp> JEE application client
+
+<dd>This Java Enterprise Edition (JEE) client accesses an instance
+of the ASBeanManagedEJB enterprise bean.</dd>
+
+</dl>
+<p>This sample shows a session bean with BeanManaged
+ActivitySession attributes accessing the UserActivitySession interface
+to begin and end activity sessions. During these ActivitySessions,
+instances of the ASContainerManagedEJB2 bean are accessed. The LTCs
+in the ASContainerManagedEJB2 beans are bounded by the activity session
+in which the bean instances are invoked. The Resource-Manager Local
+Transactions (RMLTs) used to access the local transaction-capable data
+source remain active over multiple method invocations that occur within
+the same activity session.</p>
+<p>The LTC resolution control of <span class="keyword">Application</span> means
+that the container does not automatically complete the LTCs (and by
+implication, RMLTs) in the direction specified at ActivitySession
+end. Rather, it is the responsibility of the application (in this
+case, the ASContainerManagedEJB2 bean instances) to complete the RMLTs
+in the correct directions. If incompleted RMLTs exist at the end of
+the activity session, the container completes them in the direction
+specified by the LTC unresolved action. In this case, unresolved RMLTs
+are rolled back at the end of an activity session.</p>
+
+
+<p>Running
+the bean-managed ActivitySessions sample</p>
+<ol>
+<li>Open a command prompt and run one of the following commands.
+
+<p>On Windows operating systems, run:
+<pre><span class="keyword">profile_root</span>\bin\setupCmdLine</pre>
+On Unix operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine.sh</pre>
+On iSeries operating systems, run:
+<pre>. <span class="keyword">profile_root</span>/bin/setupCmdLine</pre>
+</p>
+
+</li>
+
+<li>In the command prompt, change directory to the <span><span class="keyword">samples_dir</span>/installableApps</span> directory.</li>
+
+<li>To invoke the sample, run one of the following commands.
+<p>On Windows operating systems, run:
+<pre><span class="keyword">profile_root</span>\bin\launchClient activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASBeanSampleClient.jar
+-CCexitVM=true</pre>
+On Unix operating systems, run:
+<pre><span class="keyword">profile_root</span>/bin/launchClient.sh activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASBeanSampleClient.jar
+-CCexitVM=true</pre>
+On iSeries operating systems, run:
+<pre><span class="keyword">profile_root</span>/bin/launchClient activitysession.ear
+-CCBootstrapPort=<span class="keyword">port</span> -CCjar=ASBeanSampleClient.jar
+-CCexitVM=true</pre>
+</p>
+The element, <span class="keyword">port</span>, is the port
+on which the application server is listening:<table cellpadding="4" cellspacing="0" summary="" border="1" class="simpletableborder">
+<tr>
+<th valign="bottom" align="left" id="N66603"><span/> Configuration</th>
+
+<th valign="bottom" align="left" id="N66612">Default Port Number</th>
+
+</tr>
+
+<tr>
+<td valign="top" headers="N66603"><span/>Base</td>
+
+<td valign="top" headers="N66612">2809</td>
+
+</tr>
+
+<tr>
+<td valign="top" headers="N66603"><span/>Network
+Deployment</td>
+
+<td valign="top" headers="N66612">9810</td>
+
+</tr>
+
+</table>
+<div class="note"><span class="notetitle">Note:</span> If you are not using either of the default port
+numbers listed here, see the <a href="http://www14.software.ibm.com/webapp/wsbroker/redirect?version=matt&amp;product=was-nd-mp&amp;topic=tcli_launchclient" target="_blank">Running a Java EE client application with launchClient</a> topic
+for details on using the <span class="keyword">launchClient</span> command.</div>
+</li>
+
+<li>If <span/> global
+security is enabled, enter the relevant user ID and password in the
+Client Container menu.</li>
+
+<li>
+<div class="p">The client reports the progress. See the following example output:<pre>Starting ActivitySessions Sample
+Retrieving an ASBeanManagedEJBHome from JNDI
+Creating EJB instance
+Calling ASBeanManagedEJB to perform tasks
+Starting ActivitySessions Sample
+Retrieving an ASContainerManagedEJB2Home from JNDI
+Creating EJB instance
+Starting an ActivitySession
+Calling open
+Calling performUpdates
+Calling endLTC to end LTC with commit
+Ending an ActivitySession with EndModeCheckPoint
+Checking values
+Values correct
+Starting an ActivitySession
+Calling open
+Calling performUpdates
+Calling endLTC to end LTC with rollback
+Ending an ActivitySession with EndModeCheckPoint
+Checking values
+Values correct
+Starting an ActivitySession
+Calling open
+Calling performUpdates
+endLTC not called leaving LTC dangling
+Ending an ActivitySession with EndModeCheckPoint
+Checking values
+Values correct
+Sample has completed successfully       </pre>
+</div>
+</li>
+</ol>
+
+
+</dd>
+</div>
+
+
+<div class="relinfo"><strong>Related information</strong><br/>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.19 15:57:48 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+[YOU HAVE NEW MAIL]
+ankcseprda10[/home/cseadmin]$ cd /cse
+ankcseprda10[/cse]$ ls
+admin                            centralprint_daemon              finalist                         introscopeAgent971               reporting
+aix53_upgrade_backup_marker.txt  centralpro_daemon                forms                            lib                              stage
+ant                              epagent                          gendata.sh                       lost+found                       utilities
+apache-ant-1.6.5                 epagent801                       gnupg                            online                           wily
+apache-ant-1.6.5-bin.zip         epagent824                       introscopeAgent                  osgi
+batch                            epagent95                        introscopeAgent801               properties
+bin                              epagent971                       introscopeAgent95                pslo
+ankcseprda10[/cse]$ cd batch
+ankcseprda10[/cse/batch]$ ls
+PROD01_Batch_Cluster_1  PROD01_Batch_DS016_01   archive                 dumps                   fmsproperties           gpgproperties
+ankcseprda10[/cse/batch]$ cd PROD01 _Batch _DS016 _01
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01]$ ls
+BatchRpt.txt  archive       jobExecution  log           log.txt       logs
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01]$ cd job    E*
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution]$ kls
+ksh: kls:  not found.
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution]$ ls
+20110302.CSEHDS016.OND-248-A.OND-248-OD01.STATUS         20110906.CSEHDS016.OND-248-A.OND-248-OD01.STATUS         CSEHDS016#ARC-552#ARC-552-FM01#20181001_000000.stop
+20110302.CSEHDS016.OND-520-A.OND-520-OD01.STATUS         20111014.CSEHDS016.OND-520-A.OND-520-OD01.STATUS         CSEHDS016#ARC-552#ARC-552-FM01#20181004_000000.stop
+20110625.CSEHDS016.OND-248-A.OND-248-OD01.STATUS         20150630.CSEHDS016.OND-527-A.OND-527-OD01.STATUS         CSEHDS016#OD2000302708#OBL-248-DS01#20191119_000000.txt
+20110625.CSEHDS016.OND-520-A.OND-520-OD01.STATUS         20150806.CSEHDS016.OND-248-A.OND-248-OD01.STATUS         SECURE
+20110808.CSEHDS016.OND-520-A.OND-520-OD01.STATUS         20191119.CSEHDS016.OND-520-A.OND-520-OD01.STATUS         lost+found
+20110816.CSEHDS016.OND-248-A.OND-248-OD01.STATUS         20191119.CSEHDS016.OND-527-A.OND-527-OD01.STATUS
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution]$ cd SECURE
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution/SECURE]$ ls
+CSE.SECURE_User.properties
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution/SECURE]$ cd CSE.SECURE _User.properties
+ksh: CSE.SECURE_User.properties: 0403-037 The specified path name is not a directory.
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution/SECURE]$ cat CSE.SECURE _User.properties
+#Mon Sep 23 06:15:33 PDT 2019
+lastModifiedDate=09/23/2019
+password=ltla\#3yzR
+userId=dcsssapisvc_prod
+twofactorpassword=8b4NFQ2gIUTT5
+ankcseprda10[/cse/batch/PROD01_Batch_DS016_01/jobExecution/SECURE]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

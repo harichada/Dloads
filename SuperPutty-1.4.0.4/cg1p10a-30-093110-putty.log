@@ -1,0 +1,49 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.10.30 09:31:10 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "cseadmin".
+Last unsuccessful login: Thu Jun 20 09:45:47 PDT 2019 on ssh from 134.187.129.115
+Last login: Wed Oct 30 09:27:13 PDT 2019 on ssh from 158.96.152.172
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/cseadmin/.Xauthority
+[YOU HAVE NEW MAIL]
+ankcsesyta01[/home/cseadmin]$ cd /cse/online/logs
+ankcsesyta01[/cse/online/logs]$ ls
+ContentManagerAPILog_dklog.log  SYT02_IF_Online                 SYT03_Integration               SYT04_Online                    dumps
+SYT01_IF_Online                 SYT02_Integration               SYT03_Online                    SYT06_IF_Online                 log
+SYT01_Integration               SYT02_Online                    SYT04_IF_Online                 SYT06_Integration               wsadmin
+SYT01_Online                    SYT03_IF_Online                 SYT04_Integration               SYT06_Online
+ankcsesyta01[/cse/online/logs]$ ls -lagrt
+total 34464
+drwxrwxr-x    2 cseadmin        512 Jun 28 2005  wsadmin
+drwxrwsr-x    4 cseadmin        512 Mar 07 2006  ..
+drwxrwsr-x    2 cseadmin        512 Jun 27 2012  log
+drwxrwsr-x   20 cseadmin       1024 May 26 2016  .
+drwxrwsr-x    2 cseadmin        512 Oct 04 2018  SYT02_IF_Online
+drwxrwsr-x    3 cseadmin       1024 Oct 16 2018  SYT02_Online
+drwxr-sr-x    2 cseadmin        512 Feb 25 2019  SYT06_IF_Online
+drwxrwsr-x    2 cseadmin       1024 Mar 01 2019  SYT01_IF_Online
+drwxr-sr-x    2 cseadmin        512 Jun 21 17:22 SYT06_Online
+drwxrwsr-x    3 cseadmin       1536 Jul 09 12:54 SYT01_Integration
+drwxrwsr-x    2 cseadmin        512 Jul 24 12:14 SYT03_Online
+drwxrwsr-x    2 cseadmin       1024 Aug 06 10:47 SYT06_Integration
+drwxr-sr-x    2 cseadmin        512 Aug 08 14:36 SYT03_IF_Online
+drwxrwxr-x    2 cseadmin       2560 Aug 12 09:43 dumps
+drwxr-sr-x    2 cseadmin        512 Aug 21 15:17 SYT04_IF_Online
+drwxr-sr-x    2 cseadmin        512 Aug 26 08:57 SYT03_Integration
+drwxrwsr-x    3 cseadmin       1024 Sep 09 10:03 SYT02_Integration
+drwxrwsr-x    3 cseadmin       1024 Sep 13 11:20 SYT04_Integration
+drwxrwsrwx    2 cseadmin       1536 Oct 15 09:24 SYT01_Online
+-rw-rw-r--    1 cseadmin   17452077 Oct 25 14:25 ContentManagerAPILog_dklog.log
+drwxr-sr-x    2 cseadmin        512 Oct 28 15:14 SYT04_Online
+ankcsesyta01[/cse/online/logs]$ 
+Shell will time out in 60 seconds.
+ksh: Timed out waiting for input.

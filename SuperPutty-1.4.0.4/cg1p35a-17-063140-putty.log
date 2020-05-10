@@ -1,0 +1,18 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.11.17 06:31:40 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "hchada".
+[compat]: 3004-328 Your password will expire: Wed Nov 20 11:52:41 PST 2019
+Last unsuccessful login: Wed Sep 25 12:51:49 PDT 2019 on ssh from 169.2.108.102
+Last login: Wed Sep 25 12:52:29 PDT 2019 on ssh
+*******************************************************************************
+*                                                                             *
+*                                                                             *
+*  Welcome to AIX Version 7.1!                                                *
+*                                                                             *
+*                                                                             *
+*  Please see the README file in /usr/lpp/bos for information pertinent to    *
+*  this release of the AIX Operating System.                                  *
+*                                                                             *
+*                                                                             *
+*******************************************************************************
+1356-364 /usr/bin/X11/xauth:  creating new authority file /home/hchada/.Xauthority
+ankcseprda10[/home/hchada]$ 
